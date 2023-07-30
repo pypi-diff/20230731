@@ -776,3 +776,45 @@
 [2023-07-31 01:32:37] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
 [2023-07-31 01:32:37] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
 [2023-07-31 01:32:37] INFO root fetch - main [MainThread]: Store serial: [19100159]
+[2023-07-31 01:37:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19100159]
+[2023-07-31 01:37:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-31 01:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OnlySnarf
+[2023-07-31 01:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adviz
+[2023-07-31 01:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kdpeak
+[2023-07-31 01:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alphawave
+[2023-07-31 01:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discovery-core
+[2023-07-31 01:37:46] INFO root fetch - processPackages [discovery-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-31 01:37:46] INFO root fetch - processPackages [adviz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 01:37:46] WARNING root fetch - processPackages [kdpeak]: Skipping, unable to determine old version
+[2023-07-31 01:37:46] INFO root fetch - main [MainThread]: End processing [kdpeak] error
+[2023-07-31 01:37:46] INFO root fetch - processPackages [OnlySnarf]: New version: [4.5.5] Old Version: [4.5.4]
+[2023-07-31 01:37:46] INFO root fetch - processPackages [alphawave]: New version: [0.3.98] Old Version: [0.3.97]
+[2023-07-31 01:37:46] INFO root fetch - processPackages [OnlySnarf]: Downloading https://files.pythonhosted.org/packages/fe/49/ac8f349b1eb91e0c2b34e9e65f5952086e4e74bd90ff4073e958bbe991ed/OnlySnarf-4.5.4.tar.gz
+[2023-07-31 01:37:46] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/bd/81/c706d7a2a4cbf76d5f418906b3709c7a1739a66b636f07a7444790e474ed/discovery-core-0.2.8.tar.gz
+[2023-07-31 01:37:46] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/f6/dc/0cf4264877a6c73ff273c30ab6a192d15ecf28edb4f4d77870d03d4f49b9/alphawave-0.3.97.tar.gz
+[2023-07-31 01:37:47] INFO root fetch - processPackages [OnlySnarf]: Downloading https://files.pythonhosted.org/packages/69/6d/18f7b61f7db4d452d55d018c4bb257a130050702a98130e66ee3d934e16d/OnlySnarf-4.5.5.tar.gz
+[2023-07-31 01:37:47] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/a5/1b/d60cb86f15e23de76392c596908a25784798ef99d47c561460bd437fef03/alphawave-0.3.98.tar.gz
+[2023-07-31 01:37:47] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/45/88/f4d669c0a62d57bcc0678a9c41c8db1adfbb026cdc2047e64e45c7134fdf/discovery-core-0.2.9.tar.gz
+[2023-07-31 01:37:47] INFO root fetch - processPackages [adviz]: Downloading https://files.pythonhosted.org/packages/2b/e5/4ff9ffca99127a7dc7a75139d2de8206432f0a92f022fc510f15b609a241/adviz-0.0.8.tar.gz
+[2023-07-31 01:37:47] INFO root fetch - processPackages [alphawave]: executing diffoscope
+[2023-07-31 01:37:47] INFO root fetch - processPackages [alphawave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphawave-0.3.97.tar.gz tmp/alphawave-0.3.98.tar.gz --markdown 20230731/a/alphawave/0.3.97-0.3.98/diff.md --exclude *.pyd
+[2023-07-31 01:37:47] INFO root fetch - processPackages [discovery-core]: executing diffoscope
+[2023-07-31 01:37:47] INFO root fetch - processPackages [discovery-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-core-0.2.8.tar.gz tmp/discovery-core-0.2.9.tar.gz --markdown 20230731/d/discovery-core/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-31 01:37:47] INFO root fetch - processPackages [OnlySnarf]: executing diffoscope
+[2023-07-31 01:37:47] INFO root fetch - processPackages [OnlySnarf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OnlySnarf-4.5.4.tar.gz tmp/OnlySnarf-4.5.5.tar.gz --markdown 20230731/O/OnlySnarf/4.5.4-4.5.5/diff.md --exclude *.pyd
+[2023-07-31 01:37:48] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.2.8.tar.gz]
+[2023-07-31 01:37:48] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.2.9.tar.gz]
+[2023-07-31 01:37:48] INFO root fetch - main [MainThread]: End processing [discovery-core]: success
+[2023-07-31 01:37:48] INFO root fetch - processPackages [OnlySnarf]: Remove: archive file [/home/abi/fetcher/tmp/OnlySnarf-4.5.4.tar.gz]
+[2023-07-31 01:37:48] INFO root fetch - processPackages [OnlySnarf]: Remove: archive file [/home/abi/fetcher/tmp/OnlySnarf-4.5.5.tar.gz]
+[2023-07-31 01:37:48] INFO root fetch - main [MainThread]: End processing [OnlySnarf]: success
+[2023-07-31 01:37:48] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.3.97.tar.gz]
+[2023-07-31 01:37:48] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.3.98.tar.gz]
+[2023-07-31 01:37:48] INFO root fetch - main [MainThread]: End processing [alphawave]: success
+[2023-07-31 01:37:48] INFO root fetch - processPackages [adviz]: Downloading https://files.pythonhosted.org/packages/2d/81/59f7261f85c6e1621cc7c1328af9be5beadd4246f73620fcf0cd9cb0e3b9/adviz-0.0.9.tar.gz
+[2023-07-31 01:37:49] INFO root fetch - processPackages [adviz]: executing diffoscope
+[2023-07-31 01:37:49] INFO root fetch - processPackages [adviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adviz-0.0.8.tar.gz tmp/adviz-0.0.9.tar.gz --markdown 20230731/a/adviz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 01:37:54] INFO root fetch - processPackages [adviz]: Remove: archive file [/home/abi/fetcher/tmp/adviz-0.0.8.tar.gz]
+[2023-07-31 01:37:54] INFO root fetch - processPackages [adviz]: Remove: archive file [/home/abi/fetcher/tmp/adviz-0.0.9.tar.gz]
+[2023-07-31 01:37:54] INFO root fetch - main [MainThread]: End processing [adviz]: success
+[2023-07-31 01:37:54] INFO root fetch - main [MainThread]: Store serial: [19100222]
