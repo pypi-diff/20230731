@@ -616,3 +616,51 @@
 [2023-07-31 01:06:46] INFO root fetch - processPackages [flask-script-observable]: Remove: archive file [/home/abi/fetcher/tmp/flask_script_observable-0.0.4.tar.gz]
 [2023-07-31 01:06:46] INFO root fetch - main [MainThread]: End processing [flask-script-observable]: success
 [2023-07-31 01:06:46] INFO root fetch - main [MainThread]: Store serial: [19100059]
+[2023-07-31 01:11:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19100059]
+[2023-07-31 01:11:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-31 01:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotinst-sdk2
+[2023-07-31 01:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymssql
+[2023-07-31 01:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th2-common-utils
+[2023-07-31 01:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OnlySnarf
+[2023-07-31 01:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-ecosystem-services
+[2023-07-31 01:11:55] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202307.0.9] Old Version: [202307.0.8]
+[2023-07-31 01:11:55] INFO root fetch - processPackages [spotinst-sdk2]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-31 01:11:55] INFO root fetch - processPackages [OnlySnarf]: New version: [4.5.3] Old Version: [4.5.2]
+[2023-07-31 01:11:55] INFO root fetch - processPackages [th2-common-utils]: New version: [2.0.1] Old Version: [2.0.0.dev4574477823]
+[2023-07-31 01:11:55] INFO root fetch - processPackages [pymssql]: New version: [2.2.8] Old Version: [2.2.7]
+[2023-07-31 01:11:55] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/e7/af/d8e01a44c8d6ff8404fb660eead08b5501e672e962726f12dcf57cebd237/data_ecosystem_services-202307.0.8.tar.gz
+[2023-07-31 01:11:55] INFO root fetch - processPackages [OnlySnarf]: Downloading https://files.pythonhosted.org/packages/7b/8b/7d6f92a2ecb2d179b9bf86a7e054464d41edba2b56dab28938a83fb8d726/OnlySnarf-4.5.2.tar.gz
+[2023-07-31 01:11:55] INFO root fetch - processPackages [spotinst-sdk2]: Downloading https://files.pythonhosted.org/packages/72/87/2cd70b24dbf11e16e6bdccadfade4bec30d5f6cb90b128270d98e8cc5643/spotinst-sdk2-2.1.8.tar.gz
+[2023-07-31 01:11:55] INFO root fetch - processPackages [pymssql]: Downloading https://files.pythonhosted.org/packages/64/68/c1ba0fabf98ebe9d22afc23c6b6803553b28911ed36bb53b8be93feb2446/pymssql-2.2.7.tar.gz
+[2023-07-31 01:11:55] INFO root fetch - processPackages [th2-common-utils]: Downloading https://files.pythonhosted.org/packages/d2/d0/6f1010e2ed729438d5640c7cccb30ee316efd7d7b1267f2b953226cb8250/th2_common_utils-2.0.0.dev4574477823.tar.gz
+[2023-07-31 01:11:55] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/61/c4/c24ae9a5015d98034661de84f580a77c2c8aab9179a4e919a041ebd285ca/data_ecosystem_services-202307.0.9.tar.gz
+[2023-07-31 01:11:55] INFO root fetch - processPackages [OnlySnarf]: Downloading https://files.pythonhosted.org/packages/3e/71/db9eb1feaba1a0f0c3dae7e4414afe02cb17cdbad9e92039a266ceaa088c/OnlySnarf-4.5.3.tar.gz
+[2023-07-31 01:11:56] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-07-31 01:11:56] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202307.0.8.tar.gz tmp/data_ecosystem_services-202307.0.9.tar.gz --markdown 20230731/d/data-ecosystem-services/202307.0.8-202307.0.9/diff.md --exclude *.pyd
+[2023-07-31 01:11:56] INFO root fetch - processPackages [pymssql]: Downloading https://files.pythonhosted.org/packages/56/a2/4a4305289ebd3944034d3af8bb70fbeb8e2bb5d86d67d33eb598a66f511b/pymssql-2.2.8.tar.gz
+[2023-07-31 01:11:56] INFO root fetch - processPackages [spotinst-sdk2]: Downloading https://files.pythonhosted.org/packages/24/ca/c26f81e85bd7ecda3b64d20be266440204fbbdf1046b69bea4f97a17b4bb/spotinst-sdk2-2.1.9.tar.gz
+[2023-07-31 01:11:56] INFO root fetch - processPackages [OnlySnarf]: executing diffoscope
+[2023-07-31 01:11:56] INFO root fetch - processPackages [OnlySnarf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OnlySnarf-4.5.2.tar.gz tmp/OnlySnarf-4.5.3.tar.gz --markdown 20230731/O/OnlySnarf/4.5.2-4.5.3/diff.md --exclude *.pyd
+[2023-07-31 01:11:56] INFO root fetch - processPackages [th2-common-utils]: Downloading https://files.pythonhosted.org/packages/5a/d2/9ef50be6753e598457abc63b37aea0d1307baea43dc44cc6261e549cf708/th2_common_utils-2.0.1.tar.gz
+[2023-07-31 01:11:56] INFO root fetch - processPackages [pymssql]: executing diffoscope
+[2023-07-31 01:11:56] INFO root fetch - processPackages [pymssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymssql-2.2.7.tar.gz tmp/pymssql-2.2.8.tar.gz --markdown 20230731/p/pymssql/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2023-07-31 01:11:56] INFO root fetch - processPackages [th2-common-utils]: executing diffoscope
+[2023-07-31 01:11:56] INFO root fetch - processPackages [th2-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_common_utils-2.0.0.dev4574477823.tar.gz tmp/th2_common_utils-2.0.1.tar.gz --markdown 20230731/t/th2-common-utils/2.0.0.dev4574477823-2.0.1/diff.md --exclude *.pyd
+[2023-07-31 01:11:56] INFO root fetch - processPackages [spotinst-sdk2]: executing diffoscope
+[2023-07-31 01:11:56] INFO root fetch - processPackages [spotinst-sdk2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-sdk2-2.1.8.tar.gz tmp/spotinst-sdk2-2.1.9.tar.gz --markdown 20230731/s/spotinst-sdk2/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-31 01:11:57] INFO root fetch - processPackages [OnlySnarf]: Remove: archive file [/home/abi/fetcher/tmp/OnlySnarf-4.5.2.tar.gz]
+[2023-07-31 01:11:57] INFO root fetch - processPackages [OnlySnarf]: Remove: archive file [/home/abi/fetcher/tmp/OnlySnarf-4.5.3.tar.gz]
+[2023-07-31 01:11:57] INFO root fetch - main [MainThread]: End processing [OnlySnarf]: success
+[2023-07-31 01:11:57] INFO root fetch - processPackages [th2-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/th2_common_utils-2.0.0.dev4574477823.tar.gz]
+[2023-07-31 01:11:57] INFO root fetch - processPackages [th2-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/th2_common_utils-2.0.1.tar.gz]
+[2023-07-31 01:11:57] INFO root fetch - main [MainThread]: End processing [th2-common-utils]: success
+[2023-07-31 01:11:57] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.8.tar.gz]
+[2023-07-31 01:11:57] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.9.tar.gz]
+[2023-07-31 01:11:57] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-07-31 01:11:57] INFO root fetch - processPackages [spotinst-sdk2]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-sdk2-2.1.8.tar.gz]
+[2023-07-31 01:11:57] INFO root fetch - processPackages [spotinst-sdk2]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-sdk2-2.1.9.tar.gz]
+[2023-07-31 01:11:57] INFO root fetch - main [MainThread]: End processing [spotinst-sdk2]: success
+[2023-07-31 01:11:57] INFO root fetch - processPackages [pymssql]: Remove: archive file [/home/abi/fetcher/tmp/pymssql-2.2.7.tar.gz]
+[2023-07-31 01:11:57] INFO root fetch - processPackages [pymssql]: Remove: archive file [/home/abi/fetcher/tmp/pymssql-2.2.8.tar.gz]
+[2023-07-31 01:11:57] INFO root fetch - main [MainThread]: End processing [pymssql]: success
+[2023-07-31 01:11:57] INFO root fetch - main [MainThread]: Store serial: [19100072]
