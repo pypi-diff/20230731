@@ -508,3 +508,78 @@
 [2023-07-31 00:56:18] INFO root fetch - processPackages [flask-script-observable]: Remove: archive file [/home/abi/fetcher/tmp/flask_script_observable-0.0.3.tar.gz]
 [2023-07-31 00:56:18] INFO root fetch - main [MainThread]: End processing [flask-script-observable]: success
 [2023-07-31 00:56:18] INFO root fetch - main [MainThread]: Store serial: [19100020]
+[2023-07-31 01:01:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19100020]
+[2023-07-31 01:01:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-31 01:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simpy
+[2023-07-31 01:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbot
+[2023-07-31 01:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightning-toolbox
+[2023-07-31 01:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OnlySnarf
+[2023-07-31 01:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: powerpoint-generative-ai
+[2023-07-31 01:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aorta-sirius-dev
+[2023-07-31 01:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: discord-ext-voice-recv
+[2023-07-31 01:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flwr-nightly
+[2023-07-31 01:01:27] INFO root fetch - processPackages [lightning-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 01:01:27] INFO root fetch - processPackages [bbot]: New version: [1.1.0.2039rc0] Old Version: [1.1.0.2036rc0]
+[2023-07-31 01:01:27] INFO root fetch - processPackages [discord-ext-voice-recv]: New version: [0.1.9a106] Old Version: [0.1.8a99]
+[2023-07-31 01:01:27] INFO root fetch - processPackages [simpy]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-07-31 01:01:27] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-31 01:01:27] INFO root fetch - processPackages [powerpoint-generative-ai]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-31 01:01:27] INFO root fetch - processPackages [OnlySnarf]: New version: [4.5.2] Old Version: [4.5.1]
+[2023-07-31 01:01:27] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/22/68/3849ae98ad86e4ffbfec19cc2eda8e59727cb1e3d1db94baf03a3dc74521/bbot-1.1.0.2036rc0.tar.gz
+[2023-07-31 01:01:27] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230730] Old Version: [1.5.0.dev20230725]
+[2023-07-31 01:01:27] INFO root fetch - processPackages [powerpoint-generative-ai]: Downloading https://files.pythonhosted.org/packages/2d/ac/5c90ebeb3efee0ae6521a421db5c6fcbfdf881fd9c621af19b67065f75d5/powerpoint_generative_ai-0.1.3.tar.gz
+[2023-07-31 01:01:27] INFO root fetch - processPackages [simpy]: Downloading https://files.pythonhosted.org/packages/73/3f/ad9e5cea2115baf12ea7a65f667fcc274f6f897f61bd663b13da5bf3c10e/simpy-4.0.1.tar.gz
+[2023-07-31 01:01:27] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/0e/a2/e33a2f505b9b8fa696b16975fe34a55c42dc96902865f16c6627044aa9b8/lightning_toolbox-0.0.8.tar.gz
+[2023-07-31 01:01:27] INFO root fetch - processPackages [discord-ext-voice-recv]: Downloading https://files.pythonhosted.org/packages/dc/81/5236298497eb8c84b8e8dda80d9fc62f76ace632e1a8cf117acbdacd1bd5/discord-ext-voice_recv-0.1.8a99.tar.gz
+[2023-07-31 01:01:27] INFO root fetch - processPackages [OnlySnarf]: Downloading https://files.pythonhosted.org/packages/3e/b1/e1756f3990ea8591c99555dc2d858afa572e2bd8754c3fc3df5643b8004e/OnlySnarf-4.5.1.tar.gz
+[2023-07-31 01:01:27] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-31 01:01:27] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/9a/05/8c3fdc8c0591515d50ef00b6288204c7635b6a13ac81c4703759162b801a/flwr_nightly-1.5.0.dev20230725.tar.gz
+[2023-07-31 01:01:28] INFO root fetch - processPackages [powerpoint-generative-ai]: Downloading https://files.pythonhosted.org/packages/6e/56/8d0c07e856e9c7d7f7b43452ebe0243cd653c2fb4e7fb62d3ec0a81aeef0/powerpoint_generative_ai-0.1.4.tar.gz
+[2023-07-31 01:01:28] INFO root fetch - processPackages [simpy]: Downloading https://files.pythonhosted.org/packages/2b/c6/7c5b1480f458bd6b227e5079d5d7b2c577bd0d4aea2efa243efdc639e486/simpy-4.0.2.tar.gz
+[2023-07-31 01:01:28] INFO root fetch - processPackages [powerpoint-generative-ai]: executing diffoscope
+[2023-07-31 01:01:28] INFO root fetch - processPackages [powerpoint-generative-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerpoint_generative_ai-0.1.3.tar.gz tmp/powerpoint_generative_ai-0.1.4.tar.gz --markdown 20230731/p/powerpoint-generative-ai/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-31 01:01:28] INFO root fetch - processPackages [OnlySnarf]: Downloading https://files.pythonhosted.org/packages/7b/8b/7d6f92a2ecb2d179b9bf86a7e054464d41edba2b56dab28938a83fb8d726/OnlySnarf-4.5.2.tar.gz
+[2023-07-31 01:01:28] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/c9/f1/39547b268254026a2f0a4856694ac92d2cb143183580588cfd3696575465/lightning_toolbox-0.0.9.tar.gz
+[2023-07-31 01:01:28] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/be/d1/d739b90c51e411413df82119c12e5e5ad9c2dd0ce1b97081d7b50fe0d62b/bbot-1.1.0.2039rc0.tar.gz
+[2023-07-31 01:01:28] INFO root fetch - processPackages [discord-ext-voice-recv]: Downloading https://files.pythonhosted.org/packages/a5/d9/0ff612f7bec9f8a95cffbc5c70a7ca8c3bcea622bcc08a879ab942c1deb1/discord-ext-voice_recv-0.1.9a106.tar.gz
+[2023-07-31 01:01:28] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/4e/89/bf96d542bae56b8f0b5da2c8396b1c4d54754f78c47f05dd6fe0f3f71795/flwr_nightly-1.5.0.dev20230730.tar.gz
+[2023-07-31 01:01:28] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-31 01:01:28] INFO root fetch - processPackages [lightning-toolbox]: executing diffoscope
+[2023-07-31 01:01:28] INFO root fetch - processPackages [lightning-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_toolbox-0.0.8.tar.gz tmp/lightning_toolbox-0.0.9.tar.gz --markdown 20230731/l/lightning-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 01:01:28] INFO root fetch - processPackages [simpy]: executing diffoscope
+[2023-07-31 01:01:28] INFO root fetch - processPackages [simpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpy-4.0.1.tar.gz tmp/simpy-4.0.2.tar.gz --markdown 20230731/s/simpy/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-07-31 01:01:28] INFO root fetch - processPackages [discord-ext-voice-recv]: executing diffoscope
+[2023-07-31 01:01:28] INFO root fetch - processPackages [OnlySnarf]: executing diffoscope
+[2023-07-31 01:01:28] INFO root fetch - processPackages [discord-ext-voice-recv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-ext-voice_recv-0.1.8a99.tar.gz tmp/discord-ext-voice_recv-0.1.9a106.tar.gz --markdown 20230731/d/discord-ext-voice-recv/0.1.8a99-0.1.9a106/diff.md --exclude *.pyd
+[2023-07-31 01:01:28] INFO root fetch - processPackages [OnlySnarf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OnlySnarf-4.5.1.tar.gz tmp/OnlySnarf-4.5.2.tar.gz --markdown 20230731/O/OnlySnarf/4.5.1-4.5.2/diff.md --exclude *.pyd
+[2023-07-31 01:01:28] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-07-31 01:01:28] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230725.tar.gz tmp/flwr_nightly-1.5.0.dev20230730.tar.gz --markdown 20230731/f/flwr-nightly/1.5.0.dev20230725-1.5.0.dev20230730/diff.md --exclude *.pyd
+[2023-07-31 01:01:28] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-31 01:01:28] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230731/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-31 01:01:28] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2023-07-31 01:01:28] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.0.2036rc0.tar.gz tmp/bbot-1.1.0.2039rc0.tar.gz --markdown 20230731/b/bbot/1.1.0.2036rc0-1.1.0.2039rc0/diff.md --exclude *.pyd
+[2023-07-31 01:01:29] INFO root fetch - processPackages [powerpoint-generative-ai]: Remove: archive file [/home/abi/fetcher/tmp/powerpoint_generative_ai-0.1.3.tar.gz]
+[2023-07-31 01:01:29] INFO root fetch - processPackages [powerpoint-generative-ai]: Remove: archive file [/home/abi/fetcher/tmp/powerpoint_generative_ai-0.1.4.tar.gz]
+[2023-07-31 01:01:29] INFO root fetch - main [MainThread]: End processing [powerpoint-generative-ai]: success
+[2023-07-31 01:01:29] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-07-31 01:01:29] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-07-31 01:01:29] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-07-31 01:01:29] INFO root fetch - processPackages [discord-ext-voice-recv]: Remove: archive file [/home/abi/fetcher/tmp/discord-ext-voice_recv-0.1.8a99.tar.gz]
+[2023-07-31 01:01:29] INFO root fetch - processPackages [discord-ext-voice-recv]: Remove: archive file [/home/abi/fetcher/tmp/discord-ext-voice_recv-0.1.9a106.tar.gz]
+[2023-07-31 01:01:29] INFO root fetch - main [MainThread]: End processing [discord-ext-voice-recv]: success
+[2023-07-31 01:01:29] INFO root fetch - processPackages [lightning-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/lightning_toolbox-0.0.8.tar.gz]
+[2023-07-31 01:01:29] INFO root fetch - processPackages [lightning-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/lightning_toolbox-0.0.9.tar.gz]
+[2023-07-31 01:01:29] INFO root fetch - main [MainThread]: End processing [lightning-toolbox]: success
+[2023-07-31 01:01:30] INFO root fetch - processPackages [OnlySnarf]: Remove: archive file [/home/abi/fetcher/tmp/OnlySnarf-4.5.1.tar.gz]
+[2023-07-31 01:01:30] INFO root fetch - processPackages [OnlySnarf]: Remove: archive file [/home/abi/fetcher/tmp/OnlySnarf-4.5.2.tar.gz]
+[2023-07-31 01:01:30] INFO root fetch - main [MainThread]: End processing [OnlySnarf]: success
+[2023-07-31 01:01:30] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230725.tar.gz]
+[2023-07-31 01:01:30] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230730.tar.gz]
+[2023-07-31 01:01:30] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-07-31 01:01:30] INFO root fetch - processPackages [simpy]: Remove: archive file [/home/abi/fetcher/tmp/simpy-4.0.1.tar.gz]
+[2023-07-31 01:01:30] INFO root fetch - processPackages [simpy]: Remove: archive file [/home/abi/fetcher/tmp/simpy-4.0.2.tar.gz]
+[2023-07-31 01:01:30] INFO root fetch - main [MainThread]: End processing [simpy]: success
+[2023-07-31 01:01:31] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.0.2036rc0.tar.gz]
+[2023-07-31 01:01:31] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.0.2039rc0.tar.gz]
+[2023-07-31 01:01:31] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2023-07-31 01:01:31] INFO root fetch - main [MainThread]: Store serial: [19100045]
