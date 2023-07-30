@@ -758,3 +758,21 @@
 [2023-07-31 01:27:27] INFO root fetch - processPackages [OnlySnarf]: Remove: archive file [/home/abi/fetcher/tmp/OnlySnarf-4.5.4.tar.gz]
 [2023-07-31 01:27:27] INFO root fetch - main [MainThread]: End processing [OnlySnarf]: success
 [2023-07-31 01:27:27] INFO root fetch - main [MainThread]: Store serial: [19100117]
+[2023-07-31 01:32:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19100117]
+[2023-07-31 01:32:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-31 01:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gillions
+[2023-07-31 01:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-xmodules
+[2023-07-31 01:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aloy
+[2023-07-31 01:32:36] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 01:32:36] WARNING root fetch - processPackages [gillions]: Skipping, unable to determine old version
+[2023-07-31 01:32:36] WARNING root fetch - processPackages [aloy]: Skipping, unable to determine old version
+[2023-07-31 01:32:36] INFO root fetch - main [MainThread]: End processing [gillions] error
+[2023-07-31 01:32:36] INFO root fetch - main [MainThread]: End processing [aloy] error
+[2023-07-31 01:32:36] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-07-31 01:32:36] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-07-31 01:32:36] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-07-31 01:32:36] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230731/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 01:32:37] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.8.tar.gz]
+[2023-07-31 01:32:37] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
+[2023-07-31 01:32:37] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-07-31 01:32:37] INFO root fetch - main [MainThread]: Store serial: [19100159]
