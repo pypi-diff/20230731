@@ -187,3 +187,18 @@
 [2023-07-31 00:24:54] INFO root fetch - processPackages [archinstall]: Remove: archive file [/home/abi/fetcher/tmp/archinstall-2.6.0rc1-py3-none-any.whl.zip]
 [2023-07-31 00:24:54] INFO root fetch - main [MainThread]: End processing [archinstall]: success
 [2023-07-31 00:24:54] INFO root fetch - main [MainThread]: Store serial: [19099853]
+[2023-07-31 00:29:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099853]
+[2023-07-31 00:30:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-31 00:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandasmemuc
+[2023-07-31 00:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wf-postgres-client
+[2023-07-31 00:30:03] WARNING root fetch - processPackages [pandasmemuc]: Skipping, unable to determine old version
+[2023-07-31 00:30:03] INFO root fetch - main [MainThread]: End processing [pandasmemuc] error
+[2023-07-31 00:30:03] INFO root fetch - processPackages [wf-postgres-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 00:30:03] INFO root fetch - processPackages [wf-postgres-client]: Downloading https://files.pythonhosted.org/packages/ce/31/a451cf4f8dd0b02d06a3a8e0f7e3a4727fbfc0656fb7d60417097d21e1dd/wf_postgres_client-0.1.1.tar.gz
+[2023-07-31 00:30:03] INFO root fetch - processPackages [wf-postgres-client]: Downloading https://files.pythonhosted.org/packages/e1/79/300dd96377be61842c01448443acdeaacb3892c3985537eab84a4bea7782/wf_postgres_client-0.1.2.tar.gz
+[2023-07-31 00:30:03] INFO root fetch - processPackages [wf-postgres-client]: executing diffoscope
+[2023-07-31 00:30:03] INFO root fetch - processPackages [wf-postgres-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf_postgres_client-0.1.1.tar.gz tmp/wf_postgres_client-0.1.2.tar.gz --markdown 20230731/w/wf-postgres-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 00:30:04] INFO root fetch - processPackages [wf-postgres-client]: Remove: archive file [/home/abi/fetcher/tmp/wf_postgres_client-0.1.1.tar.gz]
+[2023-07-31 00:30:04] INFO root fetch - processPackages [wf-postgres-client]: Remove: archive file [/home/abi/fetcher/tmp/wf_postgres_client-0.1.2.tar.gz]
+[2023-07-31 00:30:04] INFO root fetch - main [MainThread]: End processing [wf-postgres-client]: success
+[2023-07-31 00:30:04] INFO root fetch - main [MainThread]: Store serial: [19099861]
