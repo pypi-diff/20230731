@@ -703,3 +703,31 @@
 [2023-07-31 01:17:07] INFO root fetch - processPackages [pikaur]: Remove: archive file [/home/abi/fetcher/tmp/pikaur-1.9.tar.gz]
 [2023-07-31 01:17:07] INFO root fetch - main [MainThread]: End processing [pikaur]: success
 [2023-07-31 01:17:07] INFO root fetch - main [MainThread]: Store serial: [19100084]
+[2023-07-31 01:22:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19100084]
+[2023-07-31 01:22:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-31 01:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mknodes
+[2023-07-31 01:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mknodes
+[2023-07-31 01:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maci
+[2023-07-31 01:22:15] INFO root fetch - processPackages [maci]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-31 01:22:15] INFO root fetch - processPackages [mknodes]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-31 01:22:16] INFO root fetch - processPackages [mknodes]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-31 01:22:16] INFO root fetch - processPackages [maci]: Downloading https://files.pythonhosted.org/packages/25/bd/a81010695c279394981001a6ff83a383dca7d72c13190199ed7305a74d2e/maci-0.5.1.tar.gz
+[2023-07-31 01:22:16] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/7f/f1/533fbe0917ee95b4471dbbba2b0708b664d9aa3be25f84b08d6ccebde7ab/mknodes-0.8.3.tar.gz
+[2023-07-31 01:22:16] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/7f/f1/533fbe0917ee95b4471dbbba2b0708b664d9aa3be25f84b08d6ccebde7ab/mknodes-0.8.3.tar.gz
+[2023-07-31 01:22:16] INFO root fetch - processPackages [maci]: Downloading https://files.pythonhosted.org/packages/3b/aa/0cf388c302a92d8ede4207f729dfd506fe6a871c0cbff7a71808c5c44001/maci-0.5.2.tar.gz
+[2023-07-31 01:22:16] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/a9/23/d4351caa4d81e1d5dfee2da642c21895fe33271ddb4650d42f56940e3a64/mknodes-0.9.0.tar.gz
+[2023-07-31 01:22:16] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/a9/23/d4351caa4d81e1d5dfee2da642c21895fe33271ddb4650d42f56940e3a64/mknodes-0.9.0.tar.gz
+[2023-07-31 01:22:16] INFO root fetch - processPackages [maci]: executing diffoscope
+[2023-07-31 01:22:16] INFO root fetch - processPackages [maci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maci-0.5.1.tar.gz tmp/maci-0.5.2.tar.gz --markdown 20230731/m/maci/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-31 01:22:16] INFO root fetch - processPackages [mknodes]: executing diffoscope
+[2023-07-31 01:22:16] INFO root fetch - processPackages [mknodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknodes-0.8.3.tar.gz tmp/mknodes-0.9.0.tar.gz --markdown 20230731/m/mknodes/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 01:22:16] INFO root fetch - processPackages [mknodes]: executing diffoscope
+[2023-07-31 01:22:16] INFO root fetch - processPackages [mknodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknodes-0.8.3.tar.gz tmp/mknodes-0.9.0.tar.gz --markdown 20230731/m/mknodes/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 01:22:17] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.8.3.tar.gz]
+[2023-07-31 01:22:17] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.9.0.tar.gz]
+[2023-07-31 01:22:17] INFO root fetch - main [MainThread]: End processing [mknodes]: success
+[2023-07-31 01:22:17] INFO root fetch - processPackages [maci]: Remove: archive file [/home/abi/fetcher/tmp/maci-0.5.1.tar.gz]
+[2023-07-31 01:22:17] INFO root fetch - processPackages [maci]: Remove: archive file [/home/abi/fetcher/tmp/maci-0.5.2.tar.gz]
+[2023-07-31 01:22:17] INFO root fetch - main [MainThread]: End processing [maci]: success
+[2023-07-31 01:22:17] INFO root fetch - main [MainThread]: End processing [mknodes]: success
+[2023-07-31 01:22:17] INFO root fetch - main [MainThread]: Store serial: [19100096]
