@@ -82,3 +82,27 @@
 [2023-07-31 00:09:23] INFO root fetch - processPackages [fastapi-cruddy-framework]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cruddy_framework-0.0.9.tar.gz]
 [2023-07-31 00:09:23] INFO root fetch - main [MainThread]: End processing [fastapi-cruddy-framework]: success
 [2023-07-31 00:09:23] INFO root fetch - main [MainThread]: Store serial: [19099793]
+[2023-07-31 00:14:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099793]
+[2023-07-31 00:14:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-31 00:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: covalent-cloud
+[2023-07-31 00:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bforce
+[2023-07-31 00:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enquire
+[2023-07-31 00:14:31] INFO root fetch - processPackages [covalent-cloud]: New version: [0.8.0rc0] Old Version: [0.19.3rc0]
+[2023-07-31 00:14:31] INFO root fetch - processPackages [enquire]: New version: [0.0.6] Old Version: [0.0.2]
+[2023-07-31 00:14:31] ERROR root fetch - processPackages [bforce]: Unable to get metadata: No such project 'bforce'
+[2023-07-31 00:14:31] INFO root fetch - main [MainThread]: End processing [bforce] error
+[2023-07-31 00:14:31] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/f0/f4/e1a5ff5defaf5036364fe46317d63308553f78869cf508aa2e137947067c/covalent-cloud-0.19.3rc0.tar.gz
+[2023-07-31 00:14:31] INFO root fetch - processPackages [enquire]: Downloading https://files.pythonhosted.org/packages/c1/c4/5b7fce5c803b941e5499997cacc365957e74745be6d3dacd33c5ef32c926/enquire-0.0.2.tar.gz
+[2023-07-31 00:14:32] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/9d/6b/963496992471906d52efe4acd2b398cf33b051d8558409d9ec37a3ee1bcf/covalent-cloud-0.8.0rc0.tar.gz
+[2023-07-31 00:14:32] INFO root fetch - processPackages [enquire]: Downloading https://files.pythonhosted.org/packages/c2/f8/1d554f28b227bfa4360be304f58517e81bd34b00441042680856b3012d3e/enquire-0.0.6.tar.gz
+[2023-07-31 00:14:32] INFO root fetch - processPackages [covalent-cloud]: executing diffoscope
+[2023-07-31 00:14:32] INFO root fetch - processPackages [covalent-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-cloud-0.19.3rc0.tar.gz tmp/covalent-cloud-0.8.0rc0.tar.gz --markdown 20230731/c/covalent-cloud/0.19.3rc0-0.8.0rc0/diff.md --exclude *.pyd
+[2023-07-31 00:14:32] INFO root fetch - processPackages [enquire]: executing diffoscope
+[2023-07-31 00:14:32] INFO root fetch - processPackages [enquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enquire-0.0.2.tar.gz tmp/enquire-0.0.6.tar.gz --markdown 20230731/e/enquire/0.0.2-0.0.6/diff.md --exclude *.pyd
+[2023-07-31 00:14:33] INFO root fetch - processPackages [enquire]: Remove: archive file [/home/abi/fetcher/tmp/enquire-0.0.2.tar.gz]
+[2023-07-31 00:14:33] INFO root fetch - processPackages [enquire]: Remove: archive file [/home/abi/fetcher/tmp/enquire-0.0.6.tar.gz]
+[2023-07-31 00:14:33] INFO root fetch - main [MainThread]: End processing [enquire]: success
+[2023-07-31 00:14:33] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.19.3rc0.tar.gz]
+[2023-07-31 00:14:33] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.8.0rc0.tar.gz]
+[2023-07-31 00:14:33] INFO root fetch - main [MainThread]: End processing [covalent-cloud]: success
+[2023-07-31 00:14:33] INFO root fetch - main [MainThread]: Store serial: [19099810]
