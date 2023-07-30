@@ -1,0 +1,40 @@
+[2023-07-31 00:04:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099762]
+[2023-07-31 00:04:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-31 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-ecosystem-flask
+[2023-07-31 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptlayer
+[2023-07-31 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meta-di
+[2023-07-31 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nichord
+[2023-07-31 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nichord
+[2023-07-31 00:04:10] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.4] Old Version: [202307.0.3]
+[2023-07-31 00:04:10] INFO root fetch - processPackages [nichord]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-31 00:04:10] WARNING root fetch - processPackages [meta-di]: Skipping, unable to determine old version
+[2023-07-31 00:04:10] INFO root fetch - processPackages [promptlayer]: New version: [0.1.94] Old Version: [0.1.93]
+[2023-07-31 00:04:10] INFO root fetch - main [MainThread]: End processing [meta-di] error
+[2023-07-31 00:04:10] INFO root fetch - processPackages [nichord]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-31 00:04:11] INFO root fetch - processPackages [promptlayer]: Downloading https://files.pythonhosted.org/packages/3b/ab/4a8fcf701e98a6788bd9fb23ab62f0bebdcabaeadc177f6960f33e7dcb9b/promptlayer-0.1.93.tar.gz
+[2023-07-31 00:04:11] INFO root fetch - processPackages [nichord]: Downloading https://files.pythonhosted.org/packages/51/59/87e6b7a2fa5c6c28c7ac45001f81f7b8039ff569219ee6d74176053ec444/nichord-0.2.1.tar.gz
+[2023-07-31 00:04:11] INFO root fetch - processPackages [nichord]: Downloading https://files.pythonhosted.org/packages/51/59/87e6b7a2fa5c6c28c7ac45001f81f7b8039ff569219ee6d74176053ec444/nichord-0.2.1.tar.gz
+[2023-07-31 00:04:11] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/c2/c5/7c10619ab0474e1d0f812ca8441321f0989651c088004a698fdc864fce97/data_ecosystem_flask-202307.0.3.tar.gz
+[2023-07-31 00:04:11] INFO root fetch - processPackages [promptlayer]: Downloading https://files.pythonhosted.org/packages/f2/0d/15d63d66f497e054fa1a989e716a102cf66d7b458f13f325370482ffbeac/promptlayer-0.1.94.tar.gz
+[2023-07-31 00:04:11] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/b2/63/f9972c9325aaa8f072021458434c5735720e575e3a4875f4e556734529e8/data_ecosystem_flask-202307.0.4.tar.gz
+[2023-07-31 00:04:11] INFO root fetch - processPackages [nichord]: Downloading https://files.pythonhosted.org/packages/1e/16/9fdd465815a6db3d2beba6afe2cbd291e532711d7af4bdc1ac76ec3ae083/nichord-0.2.2.tar.gz
+[2023-07-31 00:04:11] INFO root fetch - processPackages [nichord]: Downloading https://files.pythonhosted.org/packages/1e/16/9fdd465815a6db3d2beba6afe2cbd291e532711d7af4bdc1ac76ec3ae083/nichord-0.2.2.tar.gz
+[2023-07-31 00:04:11] INFO root fetch - processPackages [promptlayer]: executing diffoscope
+[2023-07-31 00:04:11] INFO root fetch - processPackages [promptlayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptlayer-0.1.93.tar.gz tmp/promptlayer-0.1.94.tar.gz --markdown 20230731/p/promptlayer/0.1.93-0.1.94/diff.md --exclude *.pyd
+[2023-07-31 00:04:11] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-07-31 00:04:11] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202307.0.3.tar.gz tmp/data_ecosystem_flask-202307.0.4.tar.gz --markdown 20230731/d/data-ecosystem-flask/202307.0.3-202307.0.4/diff.md --exclude *.pyd
+[2023-07-31 00:04:11] INFO root fetch - processPackages [nichord]: executing diffoscope
+[2023-07-31 00:04:11] INFO root fetch - processPackages [nichord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nichord-0.2.1.tar.gz tmp/nichord-0.2.2.tar.gz --markdown 20230731/n/nichord/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-31 00:04:11] INFO root fetch - processPackages [nichord]: executing diffoscope
+[2023-07-31 00:04:11] INFO root fetch - processPackages [nichord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nichord-0.2.1.tar.gz tmp/nichord-0.2.2.tar.gz --markdown 20230731/n/nichord/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-31 00:04:12] INFO root fetch - processPackages [nichord]: Remove: archive file [/home/abi/fetcher/tmp/nichord-0.2.1.tar.gz]
+[2023-07-31 00:04:12] INFO root fetch - processPackages [nichord]: Remove: archive file [/home/abi/fetcher/tmp/nichord-0.2.2.tar.gz]
+[2023-07-31 00:04:12] INFO root fetch - main [MainThread]: End processing [nichord]: success
+[2023-07-31 00:04:12] INFO root fetch - main [MainThread]: End processing [nichord]: success
+[2023-07-31 00:04:12] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.3.tar.gz]
+[2023-07-31 00:04:12] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.4.tar.gz]
+[2023-07-31 00:04:12] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-07-31 00:04:12] INFO root fetch - processPackages [promptlayer]: Remove: archive file [/home/abi/fetcher/tmp/promptlayer-0.1.93.tar.gz]
+[2023-07-31 00:04:12] INFO root fetch - processPackages [promptlayer]: Remove: archive file [/home/abi/fetcher/tmp/promptlayer-0.1.94.tar.gz]
+[2023-07-31 00:04:12] INFO root fetch - main [MainThread]: End processing [promptlayer]: success
+[2023-07-31 00:04:12] INFO root fetch - main [MainThread]: Store serial: [19099778]
