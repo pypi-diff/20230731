@@ -202,3 +202,78 @@
 [2023-07-31 00:30:04] INFO root fetch - processPackages [wf-postgres-client]: Remove: archive file [/home/abi/fetcher/tmp/wf_postgres_client-0.1.2.tar.gz]
 [2023-07-31 00:30:04] INFO root fetch - main [MainThread]: End processing [wf-postgres-client]: success
 [2023-07-31 00:30:04] INFO root fetch - main [MainThread]: Store serial: [19099861]
+[2023-07-31 00:35:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099861]
+[2023-07-31 00:35:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-31 00:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wf-honeycomb-rds-client
+[2023-07-31 00:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-prime-rando
+[2023-07-31 00:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drukarnia-api
+[2023-07-31 00:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systembridgeshared
+[2023-07-31 00:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: systembridgeconnector
+[2023-07-31 00:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: powerpoint-generative-ai
+[2023-07-31 00:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: examon-core
+[2023-07-31 00:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: systembridgecli
+[2023-07-31 00:35:12] INFO root fetch - processPackages [examon-core]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-31 00:35:12] INFO root fetch - processPackages [open-prime-rando]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-31 00:35:12] INFO root fetch - processPackages [wf-honeycomb-rds-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 00:35:13] INFO root fetch - processPackages [powerpoint-generative-ai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 00:35:13] INFO root fetch - processPackages [drukarnia-api]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-31 00:35:13] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-31 00:35:13] INFO root fetch - processPackages [systembridgecli]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-31 00:35:13] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-31 00:35:13] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/e1/2b/532e423f1db02d5c9788505df94a39a79cfd37dabdaebec4136e0148421f/examon_core-1.1.2.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/b6/5a/0e66891dd12466d8cb2db98ba2763c6b9908471011412ce28189b07ed3e0/systembridgeconnector-3.8.0.dev8.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/c4/4c/519d5a7d7188e6cd9cbf6981f899ab0cf7059dacc39b0260be4dc941e78e/systembridgeshared-3.8.0.dev8.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/ae/15/b0e4e3ea36a157948c44984c425eb8315e804af4006d932089217c2dfb3c/systembridgecli-3.8.0.dev8.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [powerpoint-generative-ai]: Downloading https://files.pythonhosted.org/packages/9c/17/2ba6888a43c6f3275fcd7adecbc0e80850adf3740f0a84ad9f710ab8c66b/powerpoint_generative_ai-0.1.1.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/ca/89/c6795227920800583336b431d56f334ffec173f273098dfc1aaabc306d91/open-prime-rando-0.8.0.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [wf-honeycomb-rds-client]: Downloading https://files.pythonhosted.org/packages/a0/3d/97b84edc68626f39b4b81012236741d597bdad94d71ebe36e9c6cb536529/wf_honeycomb_rds_client-0.1.1.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/ea/38/25bd4814cd6cfa17ed3727d14404db3197dc237656f15dea6e51f61e3528/drukarnia-api-1.1.1.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/0c/2f/e4269881b1efc361a16100c5e3f8460ebf231ca289cb095b5ba7d0befbf5/systembridgeconnector-3.8.0.dev9.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/d1/4a/e4d83134e38b24937f876eaee0b2d62736b6af07ae0f189e982512113edf/examon_core-1.1.3.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/89/ae/89eef727af1dd3d408211f030a2e83b52d14162a07d9406e0234668c5ca8/systembridgecli-3.8.0.dev9.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/34/db/8603b6ca893ab5a882e5d84c4459612589f1060c0b9b33af43467d87ef69/systembridgeshared-3.8.0.dev9.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-31 00:35:13] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.8.0.dev8.tar.gz tmp/systembridgeconnector-3.8.0.dev9.tar.gz --markdown 20230731/s/systembridgeconnector/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-31 00:35:13] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/bb/2b/bde0d1c2f1adae6dc5f8944761569f2a4d24a784d9f6910b38caadf38af3/drukarnia-api-1.1.2.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [examon-core]: executing diffoscope
+[2023-07-31 00:35:13] INFO root fetch - processPackages [examon-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_core-1.1.2.tar.gz tmp/examon_core-1.1.3.tar.gz --markdown 20230731/e/examon-core/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-31 00:35:13] INFO root fetch - processPackages [systembridgecli]: executing diffoscope
+[2023-07-31 00:35:13] INFO root fetch - processPackages [systembridgecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgecli-3.8.0.dev8.tar.gz tmp/systembridgecli-3.8.0.dev9.tar.gz --markdown 20230731/s/systembridgecli/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-31 00:35:13] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/64/be/beea015395813d331a23438897e7943331f1b12dfd3bf866fef192a50211/open-prime-rando-0.9.0.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-31 00:35:13] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.8.0.dev8.tar.gz tmp/systembridgeshared-3.8.0.dev9.tar.gz --markdown 20230731/s/systembridgeshared/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-31 00:35:13] INFO root fetch - processPackages [powerpoint-generative-ai]: Downloading https://files.pythonhosted.org/packages/2d/36/edc424208b978197b202116481c29526cda643d64b309d668422e26141c5/powerpoint_generative_ai-0.1.2.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [drukarnia-api]: executing diffoscope
+[2023-07-31 00:35:13] INFO root fetch - processPackages [drukarnia-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drukarnia-api-1.1.1.tar.gz tmp/drukarnia-api-1.1.2.tar.gz --markdown 20230731/d/drukarnia-api/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-31 00:35:13] INFO root fetch - processPackages [wf-honeycomb-rds-client]: Downloading https://files.pythonhosted.org/packages/42/93/d6b316257c68db1d72a62aac9ee259c6a0a606a981e312f8592861f93a60/wf_honeycomb_rds_client-0.1.2.tar.gz
+[2023-07-31 00:35:13] INFO root fetch - processPackages [open-prime-rando]: executing diffoscope
+[2023-07-31 00:35:13] INFO root fetch - processPackages [open-prime-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-prime-rando-0.8.0.tar.gz tmp/open-prime-rando-0.9.0.tar.gz --markdown 20230731/o/open-prime-rando/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 00:35:13] INFO root fetch - processPackages [powerpoint-generative-ai]: executing diffoscope
+[2023-07-31 00:35:13] INFO root fetch - processPackages [powerpoint-generative-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerpoint_generative_ai-0.1.1.tar.gz tmp/powerpoint_generative_ai-0.1.2.tar.gz --markdown 20230731/p/powerpoint-generative-ai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 00:35:13] INFO root fetch - processPackages [wf-honeycomb-rds-client]: executing diffoscope
+[2023-07-31 00:35:13] INFO root fetch - processPackages [wf-honeycomb-rds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf_honeycomb_rds_client-0.1.1.tar.gz tmp/wf_honeycomb_rds_client-0.1.2.tar.gz --markdown 20230731/w/wf-honeycomb-rds-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 00:35:15] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev8.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev9.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - main [MainThread]: End processing [systembridgecli]: success
+[2023-07-31 00:35:15] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.1.2.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.1.3.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - main [MainThread]: End processing [examon-core]: success
+[2023-07-31 00:35:15] INFO root fetch - processPackages [wf-honeycomb-rds-client]: Remove: archive file [/home/abi/fetcher/tmp/wf_honeycomb_rds_client-0.1.1.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - processPackages [wf-honeycomb-rds-client]: Remove: archive file [/home/abi/fetcher/tmp/wf_honeycomb_rds_client-0.1.2.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - main [MainThread]: End processing [wf-honeycomb-rds-client]: success
+[2023-07-31 00:35:15] INFO root fetch - processPackages [powerpoint-generative-ai]: Remove: archive file [/home/abi/fetcher/tmp/powerpoint_generative_ai-0.1.1.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - processPackages [powerpoint-generative-ai]: Remove: archive file [/home/abi/fetcher/tmp/powerpoint_generative_ai-0.1.2.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - main [MainThread]: End processing [powerpoint-generative-ai]: success
+[2023-07-31 00:35:15] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev8.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev9.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-31 00:35:15] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev8.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev9.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-31 00:35:15] INFO root fetch - processPackages [drukarnia-api]: Remove: archive file [/home/abi/fetcher/tmp/drukarnia-api-1.1.1.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - processPackages [drukarnia-api]: Remove: archive file [/home/abi/fetcher/tmp/drukarnia-api-1.1.2.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - main [MainThread]: End processing [drukarnia-api]: success
+[2023-07-31 00:35:15] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.8.0.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.9.0.tar.gz]
+[2023-07-31 00:35:15] INFO root fetch - main [MainThread]: End processing [open-prime-rando]: success
+[2023-07-31 00:35:15] INFO root fetch - main [MainThread]: Store serial: [19099882]
