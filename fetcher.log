@@ -463,3 +463,48 @@
 [2023-07-31 00:51:01] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.9.tar.gz]
 [2023-07-31 00:51:01] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
 [2023-07-31 00:51:01] INFO root fetch - main [MainThread]: Store serial: [19099950]
+[2023-07-31 00:56:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099950]
+[2023-07-31 00:56:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-31 00:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bedrock-python
+[2023-07-31 00:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-custom-admin-pages
+[2023-07-31 00:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-ecosystem-flask
+[2023-07-31 00:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-script-observable
+[2023-07-31 00:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: covalent-cloud
+[2023-07-31 00:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: electrolytes
+[2023-07-31 00:56:10] INFO root fetch - processPackages [electrolytes]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-31 00:56:10] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.4] Old Version: [202307.0.30]
+[2023-07-31 00:56:10] WARNING root fetch - processPackages [django-custom-admin-pages]: Skipping, unable to determine old version
+[2023-07-31 00:56:10] INFO root fetch - main [MainThread]: End processing [django-custom-admin-pages] error
+[2023-07-31 00:56:10] INFO root fetch - processPackages [covalent-cloud]: New version: [0.8.0rc0] Old Version: [0.19.5rc0]
+[2023-07-31 00:56:10] INFO root fetch - processPackages [flask-script-observable]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 00:56:10] WARNING root fetch - processPackages [bedrock-python]: Skipping, unable to determine old version
+[2023-07-31 00:56:10] INFO root fetch - main [MainThread]: End processing [bedrock-python] error
+[2023-07-31 00:56:10] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/e5/16/d7ae5e0d74064e0a3b2a80c8d7532c4cd312e16278743b2232aad64ea8c7/data_ecosystem_flask-202307.0.30.tar.gz
+[2023-07-31 00:56:10] INFO root fetch - processPackages [flask-script-observable]: Downloading https://files.pythonhosted.org/packages/e0/92/c82104bd1b2d4d50ecde49676af21443af3c39256ab263d0701137a4278a/flask_script_observable-0.0.2.tar.gz
+[2023-07-31 00:56:10] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/84/14/eefbe81e5f16e6335198d3a51b89e6cf037580704ccebdff42ce2fc7b195/covalent-cloud-0.19.5rc0.tar.gz
+[2023-07-31 00:56:10] INFO root fetch - processPackages [electrolytes]: Downloading https://files.pythonhosted.org/packages/6f/21/41c5d5256036859b5d92508c1cbe94ace0750ee02392a4bbfd823dc2de6d/electrolytes-0.3.1.tar.gz
+[2023-07-31 00:56:11] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/9d/6b/963496992471906d52efe4acd2b398cf33b051d8558409d9ec37a3ee1bcf/covalent-cloud-0.8.0rc0.tar.gz
+[2023-07-31 00:56:11] INFO root fetch - processPackages [electrolytes]: Downloading https://files.pythonhosted.org/packages/00/2d/9634e21fca92046fe6456a6dee02b327ddd51759aecdf8dda0a69c492d85/electrolytes-0.3.2.tar.gz
+[2023-07-31 00:56:11] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/b2/63/f9972c9325aaa8f072021458434c5735720e575e3a4875f4e556734529e8/data_ecosystem_flask-202307.0.4.tar.gz
+[2023-07-31 00:56:11] INFO root fetch - processPackages [electrolytes]: executing diffoscope
+[2023-07-31 00:56:11] INFO root fetch - processPackages [covalent-cloud]: executing diffoscope
+[2023-07-31 00:56:11] INFO root fetch - processPackages [electrolytes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/electrolytes-0.3.1.tar.gz tmp/electrolytes-0.3.2.tar.gz --markdown 20230731/e/electrolytes/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-31 00:56:11] INFO root fetch - processPackages [covalent-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-cloud-0.19.5rc0.tar.gz tmp/covalent-cloud-0.8.0rc0.tar.gz --markdown 20230731/c/covalent-cloud/0.19.5rc0-0.8.0rc0/diff.md --exclude *.pyd
+[2023-07-31 00:56:11] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-07-31 00:56:11] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202307.0.30.tar.gz tmp/data_ecosystem_flask-202307.0.4.tar.gz --markdown 20230731/d/data-ecosystem-flask/202307.0.30-202307.0.4/diff.md --exclude *.pyd
+[2023-07-31 00:56:11] INFO root fetch - processPackages [flask-script-observable]: Downloading https://files.pythonhosted.org/packages/b9/02/ee16b10b31caac09bbff1c337665b7463203a4ed90cdbf391f5d571fe43d/flask_script_observable-0.0.3.tar.gz
+[2023-07-31 00:56:12] INFO root fetch - processPackages [flask-script-observable]: executing diffoscope
+[2023-07-31 00:56:12] INFO root fetch - processPackages [flask-script-observable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_script_observable-0.0.2.tar.gz tmp/flask_script_observable-0.0.3.tar.gz --markdown 20230731/f/flask-script-observable/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 00:56:12] INFO root fetch - processPackages [electrolytes]: Remove: archive file [/home/abi/fetcher/tmp/electrolytes-0.3.1.tar.gz]
+[2023-07-31 00:56:12] INFO root fetch - processPackages [electrolytes]: Remove: archive file [/home/abi/fetcher/tmp/electrolytes-0.3.2.tar.gz]
+[2023-07-31 00:56:12] INFO root fetch - main [MainThread]: End processing [electrolytes]: success
+[2023-07-31 00:56:12] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.19.5rc0.tar.gz]
+[2023-07-31 00:56:12] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.8.0rc0.tar.gz]
+[2023-07-31 00:56:12] INFO root fetch - main [MainThread]: End processing [covalent-cloud]: success
+[2023-07-31 00:56:12] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.30.tar.gz]
+[2023-07-31 00:56:12] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.4.tar.gz]
+[2023-07-31 00:56:12] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-07-31 00:56:18] INFO root fetch - processPackages [flask-script-observable]: Remove: archive file [/home/abi/fetcher/tmp/flask_script_observable-0.0.2.tar.gz]
+[2023-07-31 00:56:18] INFO root fetch - processPackages [flask-script-observable]: Remove: archive file [/home/abi/fetcher/tmp/flask_script_observable-0.0.3.tar.gz]
+[2023-07-31 00:56:18] INFO root fetch - main [MainThread]: End processing [flask-script-observable]: success
+[2023-07-31 00:56:18] INFO root fetch - main [MainThread]: Store serial: [19100020]
