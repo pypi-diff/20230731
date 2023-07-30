@@ -142,3 +142,48 @@
 [2023-07-31 00:19:43] INFO root fetch - processPackages [solutions-builder]: Remove: archive file [/home/abi/fetcher/tmp/solutions_builder-1.16.0.tar.gz]
 [2023-07-31 00:19:43] INFO root fetch - main [MainThread]: End processing [solutions-builder]: success
 [2023-07-31 00:19:43] INFO root fetch - main [MainThread]: Store serial: [19099829]
+[2023-07-31 00:24:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099829]
+[2023-07-31 00:24:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-31 00:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enquire
+[2023-07-31 00:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: archinstall
+[2023-07-31 00:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: silero-api-server
+[2023-07-31 00:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foambo
+[2023-07-31 00:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: setuptools-git-versioning
+[2023-07-31 00:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: powerpoint-generative-ai
+[2023-07-31 00:24:52] INFO root fetch - processPackages [silero-api-server]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-31 00:24:52] ERROR root fetch - processPackages [powerpoint-generative-ai]: Unable to get metadata: No such project 'powerpoint-generative-ai'
+[2023-07-31 00:24:52] INFO root fetch - main [MainThread]: End processing [powerpoint-generative-ai] error
+[2023-07-31 00:24:52] INFO root fetch - processPackages [enquire]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-31 00:24:52] WARNING root fetch - processPackages [foambo]: Skipping, unable to determine old version
+[2023-07-31 00:24:52] INFO root fetch - main [MainThread]: End processing [foambo] error
+[2023-07-31 00:24:52] INFO root fetch - processPackages [setuptools-git-versioning]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-31 00:24:52] INFO root fetch - processPackages [archinstall]: New version: [2.6.0rc1] Old Version: [2.6.0]
+[2023-07-31 00:24:52] INFO root fetch - processPackages [enquire]: Downloading https://files.pythonhosted.org/packages/c2/f8/1d554f28b227bfa4360be304f58517e81bd34b00441042680856b3012d3e/enquire-0.0.6.tar.gz
+[2023-07-31 00:24:52] INFO root fetch - processPackages [silero-api-server]: Downloading https://files.pythonhosted.org/packages/75/69/fa8c30e7995ccf5fe18ebe05a99f9902a802b3b8952052197c07ca443a1b/silero_api_server-0.2.3.tar.gz
+[2023-07-31 00:24:52] INFO root fetch - processPackages [archinstall]: Downloading https://files.pythonhosted.org/packages/b6/96/4cebb7ec138b050ef6a1e64af962f7c5a4719f9ab0e0d8a839fb58f945e0/archinstall-2.6.0-py3-none-any.whl
+[2023-07-31 00:24:52] INFO root fetch - processPackages [setuptools-git-versioning]: Downloading https://files.pythonhosted.org/packages/e0/53/484b9c6e16eba20f294aa1cf7d0e624bcdbcaa142aad5d1feb3d254b6cae/setuptools-git-versioning-1.9.1.tar.gz
+[2023-07-31 00:24:52] INFO root fetch - processPackages [enquire]: Downloading https://files.pythonhosted.org/packages/51/12/06a4bdf489215fc78480911b1b243172b9883d20b39b43e7e5ce121ec3a4/enquire-0.0.7.tar.gz
+[2023-07-31 00:24:52] INFO root fetch - processPackages [enquire]: executing diffoscope
+[2023-07-31 00:24:52] INFO root fetch - processPackages [enquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enquire-0.0.6.tar.gz tmp/enquire-0.0.7.tar.gz --markdown 20230731/e/enquire/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-31 00:24:52] INFO root fetch - processPackages [silero-api-server]: Downloading https://files.pythonhosted.org/packages/74/b0/ddc83c86a761b42273378bfee1460a23c717c07ecbfb3e285b19e0b04a4a/silero_api_server-0.2.4.tar.gz
+[2023-07-31 00:24:52] INFO root fetch - processPackages [silero-api-server]: executing diffoscope
+[2023-07-31 00:24:52] INFO root fetch - processPackages [silero-api-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silero_api_server-0.2.3.tar.gz tmp/silero_api_server-0.2.4.tar.gz --markdown 20230731/s/silero-api-server/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-31 00:24:52] INFO root fetch - processPackages [archinstall]: Downloading https://files.pythonhosted.org/packages/44/68/aa2c45d33d5861fb1176b1b088567b59b3112c6d0329410ca3ed9180d305/archinstall-2.6.0rc1-py3-none-any.whl
+[2023-07-31 00:24:52] INFO root fetch - processPackages [setuptools-git-versioning]: Downloading https://files.pythonhosted.org/packages/66/32/334cb4c36a919faa629276d35b24a033335fc3f0a8257139369505d03985/setuptools-git-versioning-1.9.2.tar.gz
+[2023-07-31 00:24:53] INFO root fetch - processPackages [setuptools-git-versioning]: executing diffoscope
+[2023-07-31 00:24:53] INFO root fetch - processPackages [setuptools-git-versioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools-git-versioning-1.9.1.tar.gz tmp/setuptools-git-versioning-1.9.2.tar.gz --markdown 20230731/s/setuptools-git-versioning/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-31 00:24:53] INFO root fetch - processPackages [archinstall]: executing diffoscope
+[2023-07-31 00:24:53] INFO root fetch - processPackages [archinstall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archinstall-2.6.0-py3-none-any.whl.zip tmp/archinstall-2.6.0rc1-py3-none-any.whl.zip --markdown 20230731/a/archinstall/2.6.0-2.6.0rc1/diff.md --exclude *.pyd
+[2023-07-31 00:24:53] INFO root fetch - processPackages [enquire]: Remove: archive file [/home/abi/fetcher/tmp/enquire-0.0.6.tar.gz]
+[2023-07-31 00:24:53] INFO root fetch - processPackages [enquire]: Remove: archive file [/home/abi/fetcher/tmp/enquire-0.0.7.tar.gz]
+[2023-07-31 00:24:53] INFO root fetch - main [MainThread]: End processing [enquire]: success
+[2023-07-31 00:24:53] INFO root fetch - processPackages [silero-api-server]: Remove: archive file [/home/abi/fetcher/tmp/silero_api_server-0.2.3.tar.gz]
+[2023-07-31 00:24:53] INFO root fetch - processPackages [silero-api-server]: Remove: archive file [/home/abi/fetcher/tmp/silero_api_server-0.2.4.tar.gz]
+[2023-07-31 00:24:53] INFO root fetch - main [MainThread]: End processing [silero-api-server]: success
+[2023-07-31 00:24:53] INFO root fetch - processPackages [setuptools-git-versioning]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-git-versioning-1.9.1.tar.gz]
+[2023-07-31 00:24:53] INFO root fetch - processPackages [setuptools-git-versioning]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-git-versioning-1.9.2.tar.gz]
+[2023-07-31 00:24:53] INFO root fetch - main [MainThread]: End processing [setuptools-git-versioning]: success
+[2023-07-31 00:24:54] INFO root fetch - processPackages [archinstall]: Remove: archive file [/home/abi/fetcher/tmp/archinstall-2.6.0-py3-none-any.whl.zip]
+[2023-07-31 00:24:54] INFO root fetch - processPackages [archinstall]: Remove: archive file [/home/abi/fetcher/tmp/archinstall-2.6.0rc1-py3-none-any.whl.zip]
+[2023-07-31 00:24:54] INFO root fetch - main [MainThread]: End processing [archinstall]: success
+[2023-07-31 00:24:54] INFO root fetch - main [MainThread]: Store serial: [19099853]
