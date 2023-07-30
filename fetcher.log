@@ -818,3 +818,53 @@
 [2023-07-31 01:37:54] INFO root fetch - processPackages [adviz]: Remove: archive file [/home/abi/fetcher/tmp/adviz-0.0.9.tar.gz]
 [2023-07-31 01:37:54] INFO root fetch - main [MainThread]: End processing [adviz]: success
 [2023-07-31 01:37:54] INFO root fetch - main [MainThread]: Store serial: [19100222]
+[2023-07-31 01:42:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19100222]
+[2023-07-31 01:43:02] INFO root fetch - main [MainThread]: No changed packages found
+[2023-07-31 01:48:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19100222]
+[2023-07-31 01:48:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-31 01:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-custom-admin-pages
+[2023-07-31 01:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skyplane-nightly
+[2023-07-31 01:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2023-07-31 01:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyupgrade
+[2023-07-31 01:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calendra
+[2023-07-31 01:48:08] INFO root fetch - processPackages [django-custom-admin-pages]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-31 01:48:08] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230729] Old Version: [0.3.2.dev20230728]
+[2023-07-31 01:48:08] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-31 01:48:08] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/73/b2/94d3fd5a79779d954a04899a4d521fd6402ea27a3ecd208de7feba98b194/skyplane_nightly-0.3.2.dev20230728.tar.gz
+[2023-07-31 01:48:08] INFO root fetch - processPackages [pyupgrade]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-31 01:48:08] INFO root fetch - processPackages [calendra]: New version: [7.7.0] Old Version: [7.6.1]
+[2023-07-31 01:48:08] INFO root fetch - processPackages [django-custom-admin-pages]: Downloading https://files.pythonhosted.org/packages/66/44/3cc093879ba780de67fbff126d5af64221293b316c7c43e12da5b209833c/django_custom_admin_pages-0.2.1.tar.gz
+[2023-07-31 01:48:08] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-31 01:48:08] INFO root fetch - processPackages [pyupgrade]: Downloading https://files.pythonhosted.org/packages/fc/de/b89bb5af97a3712407db232b8a43eaf8d19657cdb5740cde22650bb182d9/pyupgrade-3.8.0.tar.gz
+[2023-07-31 01:48:08] INFO root fetch - processPackages [calendra]: Downloading https://files.pythonhosted.org/packages/8b/60/09a73f71f28827110d5ac681630535fb6f24e7c4d1f88cf8f0f097f9a8f2/calendra-7.6.1.tar.gz
+[2023-07-31 01:48:08] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/de/c7/3e1662b4d5694a9602527bdc76f06b31d99bbf8b4efbe60bfc1676cc053a/skyplane_nightly-0.3.2.dev20230729.tar.gz
+[2023-07-31 01:48:08] INFO root fetch - processPackages [django-custom-admin-pages]: Downloading https://files.pythonhosted.org/packages/b0/18/1b7c41784a381e1c2bfb09c6f8d2c956c26263359e3b0c257fb717fdc351/django_custom_admin_pages-0.2.2.tar.gz
+[2023-07-31 01:48:08] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-31 01:48:08] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230728.tar.gz tmp/skyplane_nightly-0.3.2.dev20230729.tar.gz --markdown 20230731/s/skyplane-nightly/0.3.2.dev20230728-0.3.2.dev20230729/diff.md --exclude *.pyd
+[2023-07-31 01:48:08] INFO root fetch - processPackages [django-custom-admin-pages]: executing diffoscope
+[2023-07-31 01:48:08] INFO root fetch - processPackages [django-custom-admin-pages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_custom_admin_pages-0.2.1.tar.gz tmp/django_custom_admin_pages-0.2.2.tar.gz --markdown 20230731/d/django-custom-admin-pages/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-31 01:48:08] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-31 01:48:09] INFO root fetch - processPackages [calendra]: Downloading https://files.pythonhosted.org/packages/9b/80/8787872b88a955ea34398720bbfdccf234462bd684361653bcecc3f7b38e/calendra-7.7.0.tar.gz
+[2023-07-31 01:48:09] INFO root fetch - processPackages [pyupgrade]: Downloading https://files.pythonhosted.org/packages/db/85/5ab47540646d6fe0ad149d3f8ac3a4c0955aeb3c90d267bdb1909f4b2a1a/pyupgrade-3.9.0.tar.gz
+[2023-07-31 01:48:09] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-31 01:48:09] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230731/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-31 01:48:09] INFO root fetch - processPackages [pyupgrade]: executing diffoscope
+[2023-07-31 01:48:09] INFO root fetch - processPackages [pyupgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyupgrade-3.8.0.tar.gz tmp/pyupgrade-3.9.0.tar.gz --markdown 20230731/p/pyupgrade/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-31 01:48:09] INFO root fetch - processPackages [calendra]: executing diffoscope
+[2023-07-31 01:48:09] INFO root fetch - processPackages [calendra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calendra-7.6.1.tar.gz tmp/calendra-7.7.0.tar.gz --markdown 20230731/c/calendra/7.6.1-7.7.0/diff.md --exclude *.pyd
+[2023-07-31 01:48:09] INFO root fetch - processPackages [django-custom-admin-pages]: Remove: archive file [/home/abi/fetcher/tmp/django_custom_admin_pages-0.2.1.tar.gz]
+[2023-07-31 01:48:09] INFO root fetch - processPackages [django-custom-admin-pages]: Remove: archive file [/home/abi/fetcher/tmp/django_custom_admin_pages-0.2.2.tar.gz]
+[2023-07-31 01:48:09] INFO root fetch - main [MainThread]: End processing [django-custom-admin-pages]: success
+[2023-07-31 01:48:10] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230728.tar.gz]
+[2023-07-31 01:48:10] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230729.tar.gz]
+[2023-07-31 01:48:10] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-31 01:48:10] INFO root fetch - processPackages [pyupgrade]: Remove: archive file [/home/abi/fetcher/tmp/pyupgrade-3.8.0.tar.gz]
+[2023-07-31 01:48:10] INFO root fetch - processPackages [pyupgrade]: Remove: archive file [/home/abi/fetcher/tmp/pyupgrade-3.9.0.tar.gz]
+[2023-07-31 01:48:10] INFO root fetch - main [MainThread]: End processing [pyupgrade]: success
+[2023-07-31 01:48:11] INFO root fetch - processPackages [calendra]: Remove: archive file [/home/abi/fetcher/tmp/calendra-7.6.1.tar.gz]
+[2023-07-31 01:48:11] INFO root fetch - processPackages [calendra]: Remove: archive file [/home/abi/fetcher/tmp/calendra-7.7.0.tar.gz]
+[2023-07-31 01:48:11] INFO root fetch - main [MainThread]: End processing [calendra]: success
+[2023-07-31 01:48:11] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-31 01:48:11] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-31 01:48:11] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-31 01:48:11] INFO root fetch - main [MainThread]: Store serial: [19100236]
