@@ -880,3 +880,71 @@
 [2023-07-31 01:53:22] INFO root fetch - processPackages [solutions-builder]: Remove: archive file [/home/abi/fetcher/tmp/solutions_builder-1.17.0.tar.gz]
 [2023-07-31 01:53:22] INFO root fetch - main [MainThread]: End processing [solutions-builder]: success
 [2023-07-31 01:53:22] INFO root fetch - main [MainThread]: Store serial: [19100239]
+[2023-07-31 01:58:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19100239]
+[2023-07-31 01:58:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-31 01:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OnlySnarf
+[2023-07-31 01:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: patchGAN
+[2023-07-31 01:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chiku
+[2023-07-31 01:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdr
+[2023-07-31 01:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydeck-grid
+[2023-07-31 01:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: retro-data-structures
+[2023-07-31 01:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: t265
+[2023-07-31 01:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iomete-sdk
+[2023-07-31 01:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hplc-py
+[2023-07-31 01:58:30] INFO root fetch - processPackages [chiku]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 01:58:30] INFO root fetch - processPackages [OnlySnarf]: New version: [4.5.6] Old Version: [4.5.5]
+[2023-07-31 01:58:30] WARNING root fetch - processPackages [patchGAN]: Skipping, unable to determine old version
+[2023-07-31 01:58:30] INFO root fetch - main [MainThread]: End processing [patchGAN] error
+[2023-07-31 01:58:30] INFO root fetch - processPackages [pydeck-grid]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-31 01:58:30] INFO root fetch - processPackages [sdr]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 01:58:30] INFO root fetch - processPackages [retro-data-structures]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-31 01:58:31] INFO root fetch - processPackages [iomete-sdk]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-31 01:58:31] INFO root fetch - processPackages [t265]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-31 01:58:31] INFO root fetch - processPackages [OnlySnarf]: Downloading https://files.pythonhosted.org/packages/69/6d/18f7b61f7db4d452d55d018c4bb257a130050702a98130e66ee3d934e16d/OnlySnarf-4.5.5.tar.gz
+[2023-07-31 01:58:31] INFO root fetch - processPackages [chiku]: Downloading https://files.pythonhosted.org/packages/53/d4/3b3f5fd0a9b4e9e7626d6e99f14d114808efd45d10acd26420d6ad2aebd4/chiku-0.0.8.tar.gz
+[2023-07-31 01:58:31] WARNING root fetch - processPackages [hplc-py]: Skipping, unable to determine old version
+[2023-07-31 01:58:31] INFO root fetch - main [MainThread]: End processing [hplc-py] error
+[2023-07-31 01:58:31] INFO root fetch - processPackages [pydeck-grid]: Downloading https://files.pythonhosted.org/packages/03/9c/ee8a20cb226a13be25e87282554fdd080cd7e55e53ce1a9734f8f6df699c/pydeck-grid-0.3.1.tar.gz
+[2023-07-31 01:58:31] INFO root fetch - processPackages [iomete-sdk]: Downloading https://files.pythonhosted.org/packages/45/70/f7fd84d1c5bbce3389b5ddf3125e25f6933e032f886bcf5991c028eaf94e/iomete_sdk-1.2.1.tar.gz
+[2023-07-31 01:58:31] INFO root fetch - processPackages [sdr]: Downloading https://files.pythonhosted.org/packages/01/87/ccd2991ebd3535c0a1694c773f5164be67b27b4b216947425b2993504c3d/sdr-0.0.2.tar.gz
+[2023-07-31 01:58:31] INFO root fetch - processPackages [retro-data-structures]: Downloading https://files.pythonhosted.org/packages/14/c8/fb99fe2074a617dd0f0d6145736aabd55c62863f640e03e31eecb6c1bc89/retro-data-structures-0.8.0.tar.gz
+[2023-07-31 01:58:31] INFO root fetch - processPackages [t265]: Downloading https://files.pythonhosted.org/packages/69/bd/965549fa81eab6a4a5fcecb23b1701f78425588e266af2426a58ce18c105/t265-0.1.6.tar.gz
+[2023-07-31 01:58:31] WARNING root fetch - processPackages [pydeck-grid]: Skipping package: exceeds size limit 12172421>=10485760
+[2023-07-31 01:58:31] INFO root fetch - main [MainThread]: End processing [pydeck-grid] error
+[2023-07-31 01:58:31] INFO root fetch - processPackages [OnlySnarf]: Downloading https://files.pythonhosted.org/packages/03/14/9c3416c0096ad4af19c2369897d1b4be1c4a124bc8be9a1d68925297e7e2/OnlySnarf-4.5.6.tar.gz
+[2023-07-31 01:58:31] INFO root fetch - processPackages [iomete-sdk]: Downloading https://files.pythonhosted.org/packages/ac/fb/3674538e5e0dc3682a72173edce02c1c029072e3267cb74270f824a83f50/iomete_sdk-1.2.2.tar.gz
+[2023-07-31 01:58:31] INFO root fetch - processPackages [t265]: Downloading https://files.pythonhosted.org/packages/6f/3c/0ddb6ec3fc2f2510dc8053661ee63959b6237e3f43d23b4a7073566e9238/t265-0.1.7.tar.gz
+[2023-07-31 01:58:31] INFO root fetch - processPackages [chiku]: Downloading https://files.pythonhosted.org/packages/cf/d9/145e90476aeedd34417bd0cbb2f85ff0ebfce5285d81a858a86e1960409d/chiku-0.0.9.tar.gz
+[2023-07-31 01:58:31] INFO root fetch - processPackages [OnlySnarf]: executing diffoscope
+[2023-07-31 01:58:31] INFO root fetch - processPackages [OnlySnarf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OnlySnarf-4.5.5.tar.gz tmp/OnlySnarf-4.5.6.tar.gz --markdown 20230731/O/OnlySnarf/4.5.5-4.5.6/diff.md --exclude *.pyd
+[2023-07-31 01:58:31] INFO root fetch - processPackages [chiku]: executing diffoscope
+[2023-07-31 01:58:31] INFO root fetch - processPackages [chiku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiku-0.0.8.tar.gz tmp/chiku-0.0.9.tar.gz --markdown 20230731/c/chiku/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 01:58:31] INFO root fetch - processPackages [iomete-sdk]: executing diffoscope
+[2023-07-31 01:58:31] INFO root fetch - processPackages [iomete-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iomete_sdk-1.2.1.tar.gz tmp/iomete_sdk-1.2.2.tar.gz --markdown 20230731/i/iomete-sdk/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-31 01:58:31] INFO root fetch - processPackages [t265]: executing diffoscope
+[2023-07-31 01:58:31] INFO root fetch - processPackages [t265]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t265-0.1.6.tar.gz tmp/t265-0.1.7.tar.gz --markdown 20230731/t/t265/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-31 01:58:31] INFO root fetch - processPackages [sdr]: Downloading https://files.pythonhosted.org/packages/53/fa/5d1bf371d5d3b4e8f51bd8f93ce7b3a802e7ccb93a9a2e64cb0f220e3582/sdr-0.0.3.tar.gz
+[2023-07-31 01:58:32] INFO root fetch - processPackages [sdr]: executing diffoscope
+[2023-07-31 01:58:32] INFO root fetch - processPackages [sdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdr-0.0.2.tar.gz tmp/sdr-0.0.3.tar.gz --markdown 20230731/s/sdr/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 01:58:32] INFO root fetch - processPackages [chiku]: Remove: archive file [/home/abi/fetcher/tmp/chiku-0.0.8.tar.gz]
+[2023-07-31 01:58:32] INFO root fetch - processPackages [chiku]: Remove: archive file [/home/abi/fetcher/tmp/chiku-0.0.9.tar.gz]
+[2023-07-31 01:58:32] INFO root fetch - main [MainThread]: End processing [chiku]: success
+[2023-07-31 01:58:32] INFO root fetch - processPackages [iomete-sdk]: Remove: archive file [/home/abi/fetcher/tmp/iomete_sdk-1.2.1.tar.gz]
+[2023-07-31 01:58:32] INFO root fetch - processPackages [iomete-sdk]: Remove: archive file [/home/abi/fetcher/tmp/iomete_sdk-1.2.2.tar.gz]
+[2023-07-31 01:58:32] INFO root fetch - main [MainThread]: End processing [iomete-sdk]: success
+[2023-07-31 01:58:32] INFO root fetch - processPackages [OnlySnarf]: Remove: archive file [/home/abi/fetcher/tmp/OnlySnarf-4.5.5.tar.gz]
+[2023-07-31 01:58:32] INFO root fetch - processPackages [OnlySnarf]: Remove: archive file [/home/abi/fetcher/tmp/OnlySnarf-4.5.6.tar.gz]
+[2023-07-31 01:58:32] INFO root fetch - main [MainThread]: End processing [OnlySnarf]: success
+[2023-07-31 01:58:32] INFO root fetch - processPackages [t265]: Remove: archive file [/home/abi/fetcher/tmp/t265-0.1.6.tar.gz]
+[2023-07-31 01:58:32] INFO root fetch - processPackages [t265]: Remove: archive file [/home/abi/fetcher/tmp/t265-0.1.7.tar.gz]
+[2023-07-31 01:58:32] INFO root fetch - main [MainThread]: End processing [t265]: success
+[2023-07-31 01:58:33] INFO root fetch - processPackages [sdr]: Remove: archive file [/home/abi/fetcher/tmp/sdr-0.0.2.tar.gz]
+[2023-07-31 01:58:33] INFO root fetch - processPackages [sdr]: Remove: archive file [/home/abi/fetcher/tmp/sdr-0.0.3.tar.gz]
+[2023-07-31 01:58:33] INFO root fetch - main [MainThread]: End processing [sdr]: success
+[2023-07-31 01:58:34] INFO root fetch - processPackages [retro-data-structures]: Downloading https://files.pythonhosted.org/packages/95/99/3fc33634a4abebfc4c59c9a4a2274b5672a2f14c64b176626a92a4ddf88b/retro-data-structures-0.9.0.tar.gz
+[2023-07-31 01:58:36] INFO root fetch - processPackages [retro-data-structures]: executing diffoscope
+[2023-07-31 01:58:36] INFO root fetch - processPackages [retro-data-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retro-data-structures-0.8.0.tar.gz tmp/retro-data-structures-0.9.0.tar.gz --markdown 20230731/r/retro-data-structures/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 01:59:28] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.8.0.tar.gz]
+[2023-07-31 01:59:28] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.9.0.tar.gz]
+[2023-07-31 01:59:28] INFO root fetch - main [MainThread]: End processing [retro-data-structures]: success
+[2023-07-31 01:59:28] INFO root fetch - main [MainThread]: Store serial: [19100269]
