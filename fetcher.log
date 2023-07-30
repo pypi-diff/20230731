@@ -277,3 +277,87 @@
 [2023-07-31 00:35:15] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.9.0.tar.gz]
 [2023-07-31 00:35:15] INFO root fetch - main [MainThread]: End processing [open-prime-rando]: success
 [2023-07-31 00:35:15] INFO root fetch - main [MainThread]: Store serial: [19099882]
+[2023-07-31 00:40:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099882]
+[2023-07-31 00:40:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-31 00:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systembridgecli
+[2023-07-31 00:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: systembridgebackend
+[2023-07-31 00:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systembridgewindowssensors
+[2023-07-31 00:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GPy-ABCD
+[2023-07-31 00:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: systembridgefrontend
+[2023-07-31 00:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libfds
+[2023-07-31 00:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qctrl-sphinx-theme
+[2023-07-31 00:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysigma
+[2023-07-31 00:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: psycopg-infdate
+[2023-07-31 00:40:24] INFO root fetch - processPackages [systembridgecli]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-31 00:40:24] INFO root fetch - processPackages [GPy-ABCD]: New version: [1.2] Old Version: [1.1]
+[2023-07-31 00:40:24] INFO root fetch - processPackages [libfds]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-31 00:40:24] INFO root fetch - processPackages [qctrl-sphinx-theme]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-07-31 00:40:24] INFO root fetch - processPackages [psycopg-infdate]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-31 00:40:24] INFO root fetch - processPackages [pysigma]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 00:40:24] INFO root fetch - processPackages [systembridgebackend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-31 00:40:24] INFO root fetch - processPackages [systembridgewindowssensors]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-31 00:40:24] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-31 00:40:24] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/57/b3/050e9a7ff3adb63d1efc61115381d83b27eb28e65b4804113ac3308d3a0c/systembridgefrontend-3.8.0.dev8.tar.gz
+[2023-07-31 00:40:24] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/c7/4a/5fc463ab7a4a2ffe0ddaab3429c2862bf5b779006f76f66be6657ecbdc4b/systembridgebackend-3.8.0.dev8.tar.gz
+[2023-07-31 00:40:24] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/81/2c/02c0da61a4727fb73476c2fa38e036da03aeff26456262a663d075806564/systembridgewindowssensors-3.8.0.dev8.tar.gz
+[2023-07-31 00:40:24] INFO root fetch - processPackages [qctrl-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/26/5a/1d79e82b1b22aef9a5dcf25d297571da9ba7944b879ba2f05dabd65c16b7/qctrl_sphinx_theme-0.2.0.tar.gz
+[2023-07-31 00:40:24] INFO root fetch - processPackages [GPy-ABCD]: Downloading https://files.pythonhosted.org/packages/b2/67/a2bccab82103a1855a348c062e0fd7a89fad141d67fec014428abb7b52cd/GPy-ABCD-1.1.tar.gz
+[2023-07-31 00:40:24] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/ae/15/b0e4e3ea36a157948c44984c425eb8315e804af4006d932089217c2dfb3c/systembridgecli-3.8.0.dev8.tar.gz
+[2023-07-31 00:40:24] INFO root fetch - processPackages [libfds]: Downloading https://files.pythonhosted.org/packages/88/ef/e82aebc3a4d472fa656e02e404c72693cc1561e9eb3e584428485c816c85/libfds-0.2.0.tar.gz
+[2023-07-31 00:40:24] INFO root fetch - processPackages [pysigma]: Downloading https://files.pythonhosted.org/packages/13/9f/3e47b8bafe9f9f1ac348eb375abc3cb48231485e88682c0a7b64a12388b2/pysigma-0.9.8.tar.gz
+[2023-07-31 00:40:24] INFO root fetch - processPackages [psycopg-infdate]: Downloading https://files.pythonhosted.org/packages/c3/8b/aaf9c5db99b5a99578528c787a810882cd145468365ad66c8e8c78527743/psycopg_infdate-1.0.2.tar.gz
+[2023-07-31 00:40:24] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/04/07/5ba22add89c69f07710d05939e00ef21530d783cffde5d9b2d37acaa2062/systembridgebackend-3.8.0.dev9.tar.gz
+[2023-07-31 00:40:24] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/a7/bd/51ec0da5bcd5903b111736968abaaa3d5a5d6f77e9ccb9ece74f6bb92670/systembridgefrontend-3.8.0.dev9.tar.gz
+[2023-07-31 00:40:25] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/89/ae/89eef727af1dd3d408211f030a2e83b52d14162a07d9406e0234668c5ca8/systembridgecli-3.8.0.dev9.tar.gz
+[2023-07-31 00:40:25] INFO root fetch - processPackages [systembridgebackend]: executing diffoscope
+[2023-07-31 00:40:25] INFO root fetch - processPackages [systembridgebackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgebackend-3.8.0.dev8.tar.gz tmp/systembridgebackend-3.8.0.dev9.tar.gz --markdown 20230731/s/systembridgebackend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-31 00:40:25] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/f8/3d/48f6ce73d6a6180d0f6f923ce1229918e40d9911473401454d592f621804/systembridgewindowssensors-3.8.0.dev9.tar.gz
+[2023-07-31 00:40:25] INFO root fetch - processPackages [GPy-ABCD]: Downloading https://files.pythonhosted.org/packages/fe/45/7f949bb699a59317045a6a5c4bbfdebda990c8d287bf377b4512b2c4c473/GPy-ABCD-1.2.tar.gz
+[2023-07-31 00:40:25] INFO root fetch - processPackages [qctrl-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/43/ac/3b95a51150b832078167894a5e30dda3cb37233307d6fbdd623bff866055/qctrl_sphinx_theme-1.0.0.tar.gz
+[2023-07-31 00:40:25] INFO root fetch - processPackages [systembridgecli]: executing diffoscope
+[2023-07-31 00:40:25] INFO root fetch - processPackages [systembridgecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgecli-3.8.0.dev8.tar.gz tmp/systembridgecli-3.8.0.dev9.tar.gz --markdown 20230731/s/systembridgecli/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-31 00:40:25] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-31 00:40:25] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.8.0.dev8.tar.gz tmp/systembridgefrontend-3.8.0.dev9.tar.gz --markdown 20230731/s/systembridgefrontend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-31 00:40:25] INFO root fetch - processPackages [libfds]: Downloading https://files.pythonhosted.org/packages/5a/fe/4dc79dce0a047ce504d678a73f3835a8e8dc8784e2a58641a0dea90db12f/libfds-0.3.0.tar.gz
+[2023-07-31 00:40:25] INFO root fetch - processPackages [pysigma]: Downloading https://files.pythonhosted.org/packages/8e/fa/8c4e57eb26fbd769f9195ad94a4b9bf648124b5a8918e82bbc5aead98940/pysigma-0.9.9.tar.gz
+[2023-07-31 00:40:25] INFO root fetch - processPackages [psycopg-infdate]: Downloading https://files.pythonhosted.org/packages/e7/dd/d783a2e80634a4f01181a7d1de5b3f805d065c80d46e4c186dc5c7fb2b3d/psycopg_infdate-1.0.3.tar.gz
+[2023-07-31 00:40:25] INFO root fetch - processPackages [GPy-ABCD]: executing diffoscope
+[2023-07-31 00:40:25] INFO root fetch - processPackages [GPy-ABCD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPy-ABCD-1.1.tar.gz tmp/GPy-ABCD-1.2.tar.gz --markdown 20230731/G/GPy-ABCD/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-31 00:40:25] INFO root fetch - processPackages [psycopg-infdate]: executing diffoscope
+[2023-07-31 00:40:25] INFO root fetch - processPackages [psycopg-infdate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycopg_infdate-1.0.2.tar.gz tmp/psycopg_infdate-1.0.3.tar.gz --markdown 20230731/p/psycopg-infdate/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-31 00:40:25] INFO root fetch - processPackages [qctrl-sphinx-theme]: executing diffoscope
+[2023-07-31 00:40:25] INFO root fetch - processPackages [qctrl-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_sphinx_theme-0.2.0.tar.gz tmp/qctrl_sphinx_theme-1.0.0.tar.gz --markdown 20230731/q/qctrl-sphinx-theme/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-31 00:40:25] INFO root fetch - processPackages [pysigma]: executing diffoscope
+[2023-07-31 00:40:25] INFO root fetch - processPackages [pysigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma-0.9.8.tar.gz tmp/pysigma-0.9.9.tar.gz --markdown 20230731/p/pysigma/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 00:40:25] INFO root fetch - processPackages [libfds]: executing diffoscope
+[2023-07-31 00:40:25] INFO root fetch - processPackages [libfds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libfds-0.2.0.tar.gz tmp/libfds-0.3.0.tar.gz --markdown 20230731/l/libfds/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-31 00:40:25] INFO root fetch - processPackages [systembridgewindowssensors]: executing diffoscope
+[2023-07-31 00:40:25] INFO root fetch - processPackages [systembridgewindowssensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz --markdown 20230731/s/systembridgewindowssensors/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-31 00:40:26] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev8.tar.gz]
+[2023-07-31 00:40:26] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev9.tar.gz]
+[2023-07-31 00:40:26] INFO root fetch - main [MainThread]: End processing [systembridgecli]: success
+[2023-07-31 00:40:26] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev8.tar.gz]
+[2023-07-31 00:40:26] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev9.tar.gz]
+[2023-07-31 00:40:26] INFO root fetch - main [MainThread]: End processing [systembridgebackend]: success
+[2023-07-31 00:40:26] INFO root fetch - processPackages [psycopg-infdate]: Remove: archive file [/home/abi/fetcher/tmp/psycopg_infdate-1.0.2.tar.gz]
+[2023-07-31 00:40:26] INFO root fetch - processPackages [psycopg-infdate]: Remove: archive file [/home/abi/fetcher/tmp/psycopg_infdate-1.0.3.tar.gz]
+[2023-07-31 00:40:26] INFO root fetch - main [MainThread]: End processing [psycopg-infdate]: success
+[2023-07-31 00:40:26] INFO root fetch - processPackages [GPy-ABCD]: Remove: archive file [/home/abi/fetcher/tmp/GPy-ABCD-1.1.tar.gz]
+[2023-07-31 00:40:26] INFO root fetch - processPackages [GPy-ABCD]: Remove: archive file [/home/abi/fetcher/tmp/GPy-ABCD-1.2.tar.gz]
+[2023-07-31 00:40:26] INFO root fetch - main [MainThread]: End processing [GPy-ABCD]: success
+[2023-07-31 00:40:26] INFO root fetch - processPackages [qctrl-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_sphinx_theme-0.2.0.tar.gz]
+[2023-07-31 00:40:26] INFO root fetch - processPackages [qctrl-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_sphinx_theme-1.0.0.tar.gz]
+[2023-07-31 00:40:26] INFO root fetch - main [MainThread]: End processing [qctrl-sphinx-theme]: success
+[2023-07-31 00:40:27] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev8.tar.gz]
+[2023-07-31 00:40:27] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev9.tar.gz]
+[2023-07-31 00:40:27] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-31 00:40:27] INFO root fetch - processPackages [pysigma]: Remove: archive file [/home/abi/fetcher/tmp/pysigma-0.9.8.tar.gz]
+[2023-07-31 00:40:27] INFO root fetch - processPackages [pysigma]: Remove: archive file [/home/abi/fetcher/tmp/pysigma-0.9.9.tar.gz]
+[2023-07-31 00:40:27] INFO root fetch - main [MainThread]: End processing [pysigma]: success
+[2023-07-31 00:40:27] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz]
+[2023-07-31 00:40:27] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz]
+[2023-07-31 00:40:27] INFO root fetch - main [MainThread]: End processing [systembridgewindowssensors]: success
+[2023-07-31 00:40:35] INFO root fetch - processPackages [libfds]: Remove: archive file [/home/abi/fetcher/tmp/libfds-0.2.0.tar.gz]
+[2023-07-31 00:40:35] INFO root fetch - processPackages [libfds]: Remove: archive file [/home/abi/fetcher/tmp/libfds-0.3.0.tar.gz]
+[2023-07-31 00:40:35] INFO root fetch - main [MainThread]: End processing [libfds]: success
+[2023-07-31 00:40:35] INFO root fetch - main [MainThread]: Store serial: [19099908]
