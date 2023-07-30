@@ -106,3 +106,39 @@
 [2023-07-31 00:14:33] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.8.0rc0.tar.gz]
 [2023-07-31 00:14:33] INFO root fetch - main [MainThread]: End processing [covalent-cloud]: success
 [2023-07-31 00:14:33] INFO root fetch - main [MainThread]: Store serial: [19099810]
+[2023-07-31 00:19:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099810]
+[2023-07-31 00:19:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-31 00:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prettier-prints
+[2023-07-31 00:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: powerpoint-generative-ai
+[2023-07-31 00:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wizlib
+[2023-07-31 00:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: holamundoplayerplayer
+[2023-07-31 00:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: solutions-builder
+[2023-07-31 00:19:41] WARNING root fetch - processPackages [holamundoplayerplayer]: Skipping, unable to determine old version
+[2023-07-31 00:19:41] INFO root fetch - main [MainThread]: End processing [holamundoplayerplayer] error
+[2023-07-31 00:19:41] INFO root fetch - processPackages [wizlib]: New version: [0.8.4] Old Version: [0.8.2]
+[2023-07-31 00:19:41] WARNING root fetch - processPackages [powerpoint-generative-ai]: Skipping, unable to determine old version
+[2023-07-31 00:19:41] INFO root fetch - main [MainThread]: End processing [powerpoint-generative-ai] error
+[2023-07-31 00:19:41] INFO root fetch - processPackages [solutions-builder]: New version: [1.16.0] Old Version: [1.15.0]
+[2023-07-31 00:19:41] INFO root fetch - processPackages [prettier-prints]: New version: [1.2.0] Old Version: [0.1.0]
+[2023-07-31 00:19:41] INFO root fetch - processPackages [solutions-builder]: Downloading https://files.pythonhosted.org/packages/1a/22/c195c6c812ffd25b09a230e2402b5fcf8c0294ac15b0b3a75ba7f90f999b/solutions_builder-1.15.0.tar.gz
+[2023-07-31 00:19:41] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/b2/93/0ffe7247d119fd74d13dd1ea802e0fdc43a818e2586174982c1893e0c1bc/wizlib-0.8.2.tar.gz
+[2023-07-31 00:19:41] INFO root fetch - processPackages [prettier-prints]: Downloading https://files.pythonhosted.org/packages/bf/a8/227517aabef4c4e4ec3f6494c1e34b96afc1eb72bf0e099a0f70193f38a8/prettier_prints-0.1.0.tar.gz
+[2023-07-31 00:19:41] INFO root fetch - processPackages [solutions-builder]: Downloading https://files.pythonhosted.org/packages/d1/7b/a2ddcef9547873942f1f851a1b721efd157efff84be4c74e2813c732dff3/solutions_builder-1.16.0.tar.gz
+[2023-07-31 00:19:42] INFO root fetch - processPackages [solutions-builder]: executing diffoscope
+[2023-07-31 00:19:42] INFO root fetch - processPackages [solutions-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solutions_builder-1.15.0.tar.gz tmp/solutions_builder-1.16.0.tar.gz --markdown 20230731/s/solutions-builder/1.15.0-1.16.0/diff.md --exclude *.pyd
+[2023-07-31 00:19:42] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/8b/4d/5b5416b9bec3b383766159827ec4ed03fa01eaf5eaaff0d7d6a606326caa/wizlib-0.8.4.tar.gz
+[2023-07-31 00:19:42] INFO root fetch - processPackages [prettier-prints]: Downloading https://files.pythonhosted.org/packages/4c/4d/cdefc6ab5ffa1b979fbd0f34cc44a3a490d07783b5a5d389676831164087/prettier_prints-1.2.0-py3-none-any.whl
+[2023-07-31 00:19:42] INFO root fetch - processPackages [wizlib]: executing diffoscope
+[2023-07-31 00:19:42] INFO root fetch - processPackages [wizlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizlib-0.8.2.tar.gz tmp/wizlib-0.8.4.tar.gz --markdown 20230731/w/wizlib/0.8.2-0.8.4/diff.md --exclude *.pyd
+[2023-07-31 00:19:42] INFO root fetch - processPackages [prettier-prints]: executing diffoscope
+[2023-07-31 00:19:42] INFO root fetch - processPackages [prettier-prints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettier_prints-0.1.0.tar.gz tmp/prettier_prints-1.2.0-py3-none-any.whl.zip --markdown 20230731/p/prettier-prints/0.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-31 00:19:42] INFO root fetch - processPackages [prettier-prints]: Remove: archive file [/home/abi/fetcher/tmp/prettier_prints-0.1.0.tar.gz]
+[2023-07-31 00:19:42] INFO root fetch - processPackages [prettier-prints]: Remove: archive file [/home/abi/fetcher/tmp/prettier_prints-1.2.0-py3-none-any.whl.zip]
+[2023-07-31 00:19:42] INFO root fetch - main [MainThread]: End processing [prettier-prints]: success
+[2023-07-31 00:19:42] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.8.2.tar.gz]
+[2023-07-31 00:19:42] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.8.4.tar.gz]
+[2023-07-31 00:19:42] INFO root fetch - main [MainThread]: End processing [wizlib]: success
+[2023-07-31 00:19:43] INFO root fetch - processPackages [solutions-builder]: Remove: archive file [/home/abi/fetcher/tmp/solutions_builder-1.15.0.tar.gz]
+[2023-07-31 00:19:43] INFO root fetch - processPackages [solutions-builder]: Remove: archive file [/home/abi/fetcher/tmp/solutions_builder-1.16.0.tar.gz]
+[2023-07-31 00:19:43] INFO root fetch - main [MainThread]: End processing [solutions-builder]: success
+[2023-07-31 00:19:43] INFO root fetch - main [MainThread]: Store serial: [19099829]
