@@ -442,3 +442,24 @@
 [2023-07-31 00:45:51] INFO root fetch - processPackages [smithed-libraries]: Remove: archive file [/home/abi/fetcher/tmp/smithed_libraries-0.7.4.tar.gz]
 [2023-07-31 00:45:51] INFO root fetch - main [MainThread]: End processing [smithed-libraries]: success
 [2023-07-31 00:45:51] INFO root fetch - main [MainThread]: Store serial: [19099942]
+[2023-07-31 00:50:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099942]
+[2023-07-31 00:51:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-31 00:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: covalent-cloud
+[2023-07-31 00:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-ecosystem-services
+[2023-07-31 00:51:00] INFO root fetch - processPackages [covalent-cloud]: New version: [0.8.0rc0] Old Version: [0.19.4rc0]
+[2023-07-31 00:51:00] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202307.0.9] Old Version: [202307.0.8]
+[2023-07-31 00:51:00] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/e7/af/d8e01a44c8d6ff8404fb660eead08b5501e672e962726f12dcf57cebd237/data_ecosystem_services-202307.0.8.tar.gz
+[2023-07-31 00:51:00] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/95/2b/193adc91ddeb6df7fd8201263fc3ef71a32441592c0a87a5aa768a243221/covalent-cloud-0.19.4rc0.tar.gz
+[2023-07-31 00:51:00] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/61/c4/c24ae9a5015d98034661de84f580a77c2c8aab9179a4e919a041ebd285ca/data_ecosystem_services-202307.0.9.tar.gz
+[2023-07-31 00:51:00] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-07-31 00:51:00] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202307.0.8.tar.gz tmp/data_ecosystem_services-202307.0.9.tar.gz --markdown 20230731/d/data-ecosystem-services/202307.0.8-202307.0.9/diff.md --exclude *.pyd
+[2023-07-31 00:51:00] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/9d/6b/963496992471906d52efe4acd2b398cf33b051d8558409d9ec37a3ee1bcf/covalent-cloud-0.8.0rc0.tar.gz
+[2023-07-31 00:51:01] INFO root fetch - processPackages [covalent-cloud]: executing diffoscope
+[2023-07-31 00:51:01] INFO root fetch - processPackages [covalent-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-cloud-0.19.4rc0.tar.gz tmp/covalent-cloud-0.8.0rc0.tar.gz --markdown 20230731/c/covalent-cloud/0.19.4rc0-0.8.0rc0/diff.md --exclude *.pyd
+[2023-07-31 00:51:01] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.19.4rc0.tar.gz]
+[2023-07-31 00:51:01] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.8.0rc0.tar.gz]
+[2023-07-31 00:51:01] INFO root fetch - main [MainThread]: End processing [covalent-cloud]: success
+[2023-07-31 00:51:01] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.8.tar.gz]
+[2023-07-31 00:51:01] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.9.tar.gz]
+[2023-07-31 00:51:01] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-07-31 00:51:01] INFO root fetch - main [MainThread]: Store serial: [19099950]
