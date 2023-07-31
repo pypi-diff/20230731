@@ -8865,3 +8865,140 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 08:38:24] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
 [2023-07-31 08:38:24] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
 [2023-07-31 08:38:24] INFO root fetch - main [MainThread]: Store serial: [19103541]
+[2023-07-31 08:43:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19103541]
+[2023-07-31 08:43:34] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-31 08:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poe-api
+[2023-07-31 08:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: benimang
+[2023-07-31 08:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fyers-sdk
+[2023-07-31 08:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nastranio
+[2023-07-31 08:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ocr-agl
+[2023-07-31 08:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-report-py3o
+[2023-07-31 08:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytch-fetch
+[2023-07-31 08:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qtgql
+[2023-07-31 08:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lightdash-ops
+[2023-07-31 08:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jij-cimod
+[2023-07-31 08:43:34] INFO root fetch - processPackages [nastranio]: New version: [0.14.3] Old Version: [0.14.2]
+[2023-07-31 08:43:34] INFO root fetch - processPackages [lightdash-ops]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-31 08:43:34] INFO root fetch - processPackages [pytch-fetch]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-31 08:43:34] WARNING root fetch - processPackages [ocr-agl]: Skipping, unable to determine old version
+[2023-07-31 08:43:34] INFO root fetch - processPackages [ocr-agl]: Start processing: oarepo-cli
+[2023-07-31 08:43:34] INFO root fetch - main [MainThread]: End processing [ocr-agl] error
+[2023-07-31 08:43:34] INFO root fetch - processPackages [fyers-sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-31 08:43:34] WARNING root fetch - processPackages [odoo-addon-report-py3o]: Skipping, unable to determine old version
+[2023-07-31 08:43:34] INFO root fetch - processPackages [odoo-addon-report-py3o]: Start processing: testApiGroup
+[2023-07-31 08:43:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-py3o] error
+[2023-07-31 08:43:34] INFO root fetch - processPackages [poe-api]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-31 08:43:34] INFO root fetch - processPackages [qtgql]: New version: [0.131.0] Old Version: [0.130.9]
+[2023-07-31 08:43:34] INFO root fetch - processPackages [benimang]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-31 08:43:34] INFO root fetch - processPackages [jij-cimod]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-07-31 08:43:34] INFO root fetch - processPackages [testApiGroup]: New version: [1.0.0.5] Old Version: [1.0.0.4]
+[2023-07-31 08:43:34] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.9] Old Version: [11.1.8]
+[2023-07-31 08:43:34] INFO root fetch - processPackages [lightdash-ops]: Downloading https://files.pythonhosted.org/packages/92/f5/4ecb94c3b1a5a338966f10fdd01f11b74150935487086fb2060b326bd9bd/lightdash_ops-0.2.2.tar.gz
+[2023-07-31 08:43:34] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/c8/5f/06f8cf62cb2eaeacfd47d4ad7407c765872dc57f151d323fb1e8619aad9e/fyers_sdk-1.0.0.tar.gz
+[2023-07-31 08:43:34] INFO root fetch - processPackages [nastranio]: Downloading https://files.pythonhosted.org/packages/cf/59/ea8a5aeca0d08fae19cbeb54efb5e6233844a14d198f92a9b928e51ed572/nastranio-0.14.2.tar.gz
+[2023-07-31 08:43:34] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/0b/8e/3b13d2254600eae49269fc6ffb3e842273a4dbdf89cbfc7e6eee901aaf88/testApiGroup-1.0.0.4.tar.gz
+[2023-07-31 08:43:34] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/53/48/44bcf70988ff6f350a7a8d598248c5af84641929be139b1e268cd53f2410/benimang-0.4.6.tar.gz
+[2023-07-31 08:43:34] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/3b/23/873bd37d1c20abe1f6a6d38dd867838de55b7d8c63d87f52e4059eb11234/poe_api-0.5.0-py3-none-any.whl
+[2023-07-31 08:43:34] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/af/a7/2733a476ea08d89fb2f474b4da4c3e1bcd0256c07baebfab128540be8be1/oarepo-cli-11.1.8.tar.gz
+[2023-07-31 08:43:34] INFO root fetch - processPackages [pytch-fetch]: Downloading https://files.pythonhosted.org/packages/d0/53/4e0b41de2308ac9ff235ebbf829cd8dd093d8d9e702487910406446bbca7/pytch-fetch-1.2.0.tar.gz
+[2023-07-31 08:43:34] INFO root fetch - processPackages [jij-cimod]: Downloading https://files.pythonhosted.org/packages/93/5e/59ed273ce841a0e37e6b94da34a96289dcf930918900bd81d2e33922020e/jij_cimod-1.4.9.tar.gz
+[2023-07-31 08:43:34] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/13/d9/d300f5e94ac3ab842ca5d919d27fdb928580d325552b8df2cf04d0d17972/qtgql-0.130.9.tar.gz
+[2023-07-31 08:43:35] INFO root fetch - processPackages [lightdash-ops]: Downloading https://files.pythonhosted.org/packages/08/1d/e3bdce2bb9ad01bba3fb40a9703921c8ff91ca791e19e20bc25e8825ce75/lightdash_ops-0.2.3.tar.gz
+[2023-07-31 08:43:35] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/86/4b/310f6663329b5073babe454f8ccdcb94ff433267f96f686505091a288ef7/fyers_sdk-1.0.1.tar.gz
+[2023-07-31 08:43:35] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/26/12/07fe98de75a60c5be794f0bdf3be406b5827e657bb350cf76634562437e2/benimang-0.4.7.tar.gz
+[2023-07-31 08:43:35] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/37/8a/26195dcad755242273abd3940d704d72b913438b7c0736c194a6088a8f9d/poe_api-0.5.1-py3-none-any.whl
+[2023-07-31 08:43:35] INFO root fetch - processPackages [nastranio]: Downloading https://files.pythonhosted.org/packages/29/cf/b956ff9e4b4ce50921f2ef12ec4c7a7af1edb9746616db33adef2b69da3a/nastranio-0.14.3.tar.gz
+[2023-07-31 08:43:35] INFO root fetch - processPackages [lightdash-ops]: executing diffoscope
+[2023-07-31 08:43:35] INFO root fetch - processPackages [lightdash-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightdash_ops-0.2.2.tar.gz tmp/lightdash_ops-0.2.3.tar.gz --markdown 20230731/l/lightdash-ops/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-31 08:43:35] INFO root fetch - processPackages [pytch-fetch]: Downloading https://files.pythonhosted.org/packages/28/04/000fd2a9e089e2e372b236394db8173f74d029371dd52f3ca362bf607878/pytch-fetch-1.2.1.tar.gz
+[2023-07-31 08:43:35] INFO root fetch - processPackages [jij-cimod]: Downloading https://files.pythonhosted.org/packages/ee/7f/f9854f1e40798ed35e248a2bd649aeb4c2b81a37b311293958cfe937d91a/jij_cimod-1.5.0.tar.gz
+[2023-07-31 08:43:35] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-07-31 08:43:35] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-1.0.0.tar.gz tmp/fyers_sdk-1.0.1.tar.gz --markdown 20230731/f/fyers-sdk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-31 08:43:35] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/dd/b6/260ac4e8fe3b9be3be779a48b8b6f54ccb7c6660ebb5615c59f49c5c0c73/testApiGroup-1.0.0.5.tar.gz
+[2023-07-31 08:43:35] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/ed/cc/a26c342d06e4cb9aab5e624bbd4b76df406b79d7a5d1770332751fb62b59/qtgql-0.131.0.tar.gz
+[2023-07-31 08:43:35] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-31 08:43:35] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.6.tar.gz tmp/benimang-0.4.7.tar.gz --markdown 20230731/b/benimang/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-31 08:43:35] INFO root fetch - processPackages [pytch-fetch]: executing diffoscope
+[2023-07-31 08:43:35] INFO root fetch - processPackages [pytch-fetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytch-fetch-1.2.0.tar.gz tmp/pytch-fetch-1.2.1.tar.gz --markdown 20230731/p/pytch-fetch/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-31 08:43:35] INFO root fetch - processPackages [poe-api]: executing diffoscope
+[2023-07-31 08:43:35] INFO root fetch - processPackages [poe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_api-0.5.0-py3-none-any.whl.zip tmp/poe_api-0.5.1-py3-none-any.whl.zip --markdown 20230731/p/poe-api/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-31 08:43:35] INFO root fetch - processPackages [jij-cimod]: executing diffoscope
+[2023-07-31 08:43:35] INFO root fetch - processPackages [jij-cimod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jij_cimod-1.4.9.tar.gz tmp/jij_cimod-1.5.0.tar.gz --markdown 20230731/j/jij-cimod/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-07-31 08:43:35] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-07-31 08:43:35] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.130.9.tar.gz tmp/qtgql-0.131.0.tar.gz --markdown 20230731/q/qtgql/0.130.9-0.131.0/diff.md --exclude *.pyd
+[2023-07-31 08:43:35] INFO root fetch - processPackages [nastranio]: executing diffoscope
+[2023-07-31 08:43:35] INFO root fetch - processPackages [nastranio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nastranio-0.14.2.tar.gz tmp/nastranio-0.14.3.tar.gz --markdown 20230731/n/nastranio/0.14.2-0.14.3/diff.md --exclude *.pyd
+[2023-07-31 08:43:35] INFO root fetch - processPackages [testApiGroup]: executing diffoscope
+[2023-07-31 08:43:35] INFO root fetch - processPackages [testApiGroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testApiGroup-1.0.0.4.tar.gz tmp/testApiGroup-1.0.0.5.tar.gz --markdown 20230731/t/testApiGroup/1.0.0.4-1.0.0.5/diff.md --exclude *.pyd
+[2023-07-31 08:43:35] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/c1/07/390f9767ed13e63ef97918ed09945b5501685e21d178f8f10dfc1cd2a54c/oarepo-cli-11.1.9.tar.gz
+[2023-07-31 08:43:36] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-31 08:43:36] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.8.tar.gz tmp/oarepo-cli-11.1.9.tar.gz --markdown 20230731/o/oarepo-cli/11.1.8-11.1.9/diff.md --exclude *.pyd
+[2023-07-31 08:43:36] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-1.0.0.tar.gz]
+[2023-07-31 08:43:36] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-1.0.1.tar.gz]
+[2023-07-31 08:43:36] INFO root fetch - processPackages [fyers-sdk]: Start processing: feynml
+[2023-07-31 08:43:36] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-07-31 08:43:36] INFO root fetch - processPackages [feynml]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-31 08:43:36] INFO root fetch - processPackages [feynml]: Downloading https://files.pythonhosted.org/packages/2a/97/95a57cfde98ef210e97b99ffe528bf29d20e6e3f384c3196a7f2b9b6c145/feynml-0.2.8.tar.gz
+[2023-07-31 08:43:36] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.6.tar.gz]
+[2023-07-31 08:43:36] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.7.tar.gz]
+[2023-07-31 08:43:36] INFO root fetch - processPackages [benimang]: Start processing: icdutil
+[2023-07-31 08:43:36] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-31 08:43:37] INFO root fetch - processPackages [icdutil]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-31 08:43:37] INFO root fetch - processPackages [pytch-fetch]: Remove: archive file [/home/abi/fetcher/tmp/pytch-fetch-1.2.0.tar.gz]
+[2023-07-31 08:43:37] INFO root fetch - processPackages [pytch-fetch]: Remove: archive file [/home/abi/fetcher/tmp/pytch-fetch-1.2.1.tar.gz]
+[2023-07-31 08:43:37] INFO root fetch - processPackages [pytch-fetch]: Start processing: pdm
+[2023-07-31 08:43:37] INFO root fetch - main [MainThread]: End processing [pytch-fetch]: success
+[2023-07-31 08:43:37] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.4.tar.gz]
+[2023-07-31 08:43:37] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.5.tar.gz]
+[2023-07-31 08:43:37] INFO root fetch - processPackages [testApiGroup]: Start processing: newPassword
+[2023-07-31 08:43:37] INFO root fetch - main [MainThread]: End processing [testApiGroup]: success
+[2023-07-31 08:43:37] INFO root fetch - processPackages [lightdash-ops]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_ops-0.2.2.tar.gz]
+[2023-07-31 08:43:37] INFO root fetch - processPackages [lightdash-ops]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_ops-0.2.3.tar.gz]
+[2023-07-31 08:43:37] INFO root fetch - processPackages [lightdash-ops]: Start processing: email-extractor-unicode
+[2023-07-31 08:43:37] INFO root fetch - main [MainThread]: End processing [lightdash-ops]: success
+[2023-07-31 08:43:37] INFO root fetch - processPackages [pdm]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-07-31 08:43:37] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.130.9.tar.gz]
+[2023-07-31 08:43:37] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.131.0.tar.gz]
+[2023-07-31 08:43:37] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-07-31 08:43:37] WARNING root fetch - processPackages [email-extractor-unicode]: Skipping, unable to determine old version
+[2023-07-31 08:43:37] INFO root fetch - main [MainThread]: End processing [email-extractor-unicode] error
+[2023-07-31 08:43:37] INFO root fetch - processPackages [newPassword]: New version: [1.1.9.9] Old Version: [1.1.8.8]
+[2023-07-31 08:43:37] INFO root fetch - processPackages [icdutil]: Downloading https://files.pythonhosted.org/packages/82/89/49c6ad07d17d7afb53847edb97e938df2528e269868f0c02c6e2e64fa03e/icdutil-0.3.0.tar.gz
+[2023-07-31 08:43:37] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.5.0-py3-none-any.whl.zip]
+[2023-07-31 08:43:37] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.5.1-py3-none-any.whl.zip]
+[2023-07-31 08:43:37] INFO root fetch - main [MainThread]: End processing [poe-api]: success
+[2023-07-31 08:43:37] INFO root fetch - processPackages [feynml]: Downloading https://files.pythonhosted.org/packages/d9/df/19ae86b7f9a4037df223545491c7f036ec9a3eee9f25beab92da7daa3b25/feynml-0.2.9.tar.gz
+[2023-07-31 08:43:37] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/f6/f4/73324cdbaa4dc6b91c081844a26e68d21770abc5d2af9ceb27d25034ac52/pdm-2.8.1.tar.gz
+[2023-07-31 08:43:37] INFO root fetch - processPackages [feynml]: executing diffoscope
+[2023-07-31 08:43:37] INFO root fetch - processPackages [feynml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feynml-0.2.8.tar.gz tmp/feynml-0.2.9.tar.gz --markdown 20230731/f/feynml/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-31 08:43:37] INFO root fetch - processPackages [newPassword]: Downloading https://files.pythonhosted.org/packages/bf/1c/c0f7f6fc2d119203a3098539a6fe133520a212ec88719f00f3f865ba755e/newPassword-1.1.9.9.tar.gz
+[2023-07-31 08:43:37] INFO root fetch - processPackages [jij-cimod]: Remove: archive file [/home/abi/fetcher/tmp/jij_cimod-1.4.9.tar.gz]
+[2023-07-31 08:43:37] INFO root fetch - processPackages [jij-cimod]: Remove: archive file [/home/abi/fetcher/tmp/jij_cimod-1.5.0.tar.gz]
+[2023-07-31 08:43:37] INFO root fetch - main [MainThread]: End processing [jij-cimod]: success
+[2023-07-31 08:43:37] INFO root fetch - processPackages [icdutil]: Downloading https://files.pythonhosted.org/packages/54/55/56c3cd634c206a85ab1487375b221837fb059e271bd16dd7726b8adede85/icdutil-0.3.1.tar.gz
+[2023-07-31 08:43:37] INFO root fetch - processPackages [newPassword]: executing diffoscope
+[2023-07-31 08:43:37] INFO root fetch - processPackages [newPassword]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newPassword-1.1.8.8.tar.gz tmp/newPassword-1.1.9.9.tar.gz --markdown 20230731/n/newPassword/1.1.8.8-1.1.9.9/diff.md --exclude *.pyd
+[2023-07-31 08:43:37] INFO root fetch - processPackages [icdutil]: executing diffoscope
+[2023-07-31 08:43:37] INFO root fetch - processPackages [icdutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icdutil-0.3.0.tar.gz tmp/icdutil-0.3.1.tar.gz --markdown 20230731/i/icdutil/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-31 08:43:37] INFO root fetch - processPackages [nastranio]: Remove: archive file [/home/abi/fetcher/tmp/nastranio-0.14.2.tar.gz]
+[2023-07-31 08:43:37] INFO root fetch - processPackages [nastranio]: Remove: archive file [/home/abi/fetcher/tmp/nastranio-0.14.3.tar.gz]
+[2023-07-31 08:43:37] INFO root fetch - main [MainThread]: End processing [nastranio]: success
+[2023-07-31 08:43:37] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/e9/10/8d02f73be59e8a310265fab28dec2552882da77321a4f36ad9af3993a5da/pdm-2.8.2.tar.gz
+[2023-07-31 08:43:38] INFO root fetch - processPackages [pdm]: executing diffoscope
+[2023-07-31 08:43:38] INFO root fetch - processPackages [pdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm-2.8.1.tar.gz tmp/pdm-2.8.2.tar.gz --markdown 20230731/p/pdm/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2023-07-31 08:43:38] INFO root fetch - processPackages [newPassword]: Remove: archive file [/home/abi/fetcher/tmp/newPassword-1.1.8.8.tar.gz]
+[2023-07-31 08:43:38] INFO root fetch - processPackages [newPassword]: Remove: archive file [/home/abi/fetcher/tmp/newPassword-1.1.9.9.tar.gz]
+[2023-07-31 08:43:38] INFO root fetch - main [MainThread]: End processing [newPassword]: success
+[2023-07-31 08:43:38] INFO root fetch - processPackages [feynml]: Remove: archive file [/home/abi/fetcher/tmp/feynml-0.2.8.tar.gz]
+[2023-07-31 08:43:38] INFO root fetch - processPackages [feynml]: Remove: archive file [/home/abi/fetcher/tmp/feynml-0.2.9.tar.gz]
+[2023-07-31 08:43:38] INFO root fetch - main [MainThread]: End processing [feynml]: success
+[2023-07-31 08:43:38] INFO root fetch - processPackages [icdutil]: Remove: archive file [/home/abi/fetcher/tmp/icdutil-0.3.0.tar.gz]
+[2023-07-31 08:43:38] INFO root fetch - processPackages [icdutil]: Remove: archive file [/home/abi/fetcher/tmp/icdutil-0.3.1.tar.gz]
+[2023-07-31 08:43:38] INFO root fetch - main [MainThread]: End processing [icdutil]: success
+[2023-07-31 08:43:39] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.8.tar.gz]
+[2023-07-31 08:43:39] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
+[2023-07-31 08:43:39] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-31 08:43:40] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.8.1.tar.gz]
+[2023-07-31 08:43:40] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.8.2.tar.gz]
+[2023-07-31 08:43:40] INFO root fetch - main [MainThread]: End processing [pdm]: success
+[2023-07-31 08:43:40] INFO root fetch - main [MainThread]: Store serial: [19103625]
