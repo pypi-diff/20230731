@@ -12845,3 +12845,144 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 11:20:34] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-31 11:20:34] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-31 11:20:34] INFO root fetch - main [MainThread]: Store serial: [19105218]
+[2023-07-31 11:25:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19105218]
+[2023-07-31 11:25:49] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-31 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antibp3
+[2023-07-31 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qufit
+[2023-07-31 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libsql-experimental
+[2023-07-31 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-07-31 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prismstudio-stg
+[2023-07-31 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-07-31 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mc-trimmer
+[2023-07-31 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: molgenis-py-bbmri-eric
+[2023-07-31 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cobald
+[2023-07-31 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sumt
+[2023-07-31 11:25:49] INFO root fetch - processPackages [libsql-experimental]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 11:25:49] INFO root fetch - processPackages [qufit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-31 11:25:49] INFO root fetch - processPackages [prismstudio-stg]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-07-31 11:25:49] INFO root fetch - processPackages [antibp3]: New version: [1.1] Old Version: [1.0]
+[2023-07-31 11:25:49] INFO root fetch - processPackages [cobald]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-31 11:25:49] INFO root fetch - processPackages [sumt]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-07-31 11:25:49] WARNING root fetch - processPackages [mc-trimmer]: Skipping, unable to determine old version
+[2023-07-31 11:25:49] INFO root fetch - processPackages [mc-trimmer]: Start processing: SocksDriver
+[2023-07-31 11:25:49] INFO root fetch - main [MainThread]: End processing [mc-trimmer] error
+[2023-07-31 11:25:49] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-31 11:25:49] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-31 11:25:50] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-31 11:25:50] INFO root fetch - processPackages [SocksDriver]: New version: [1.2] Old Version: [1.1]
+[2023-07-31 11:25:50] INFO root fetch - processPackages [antibp3]: Downloading https://files.pythonhosted.org/packages/38/15/f6d76e8f013b6eb150260df42c061fb519728d053d9485b48f098fd2bba0/antibp3-1.0.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [libsql-experimental]: Downloading https://files.pythonhosted.org/packages/44/78/46b42c62b83c8e6d5dc951bb563b55ae2bee741a884e4989c7a8e22d5042/libsql_experimental-0.0.1.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [prismstudio-stg]: Downloading https://files.pythonhosted.org/packages/ce/c4/a07d3f4ca140358630bf40646fccd968182c6ecd965b52a71444eec2ff22/prismstudio-stg-1.1.6.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/48/26/3346b635a896f4a794f8bf96c76e7c1ba52eddfdbf89069c6b89f423f730/qufit-1.1.8.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [cobald]: Downloading https://files.pythonhosted.org/packages/08/83/e0bd4abd627d7a43adba829ffe010e6002cb9d06783d05fddc84a65d50f9/cobald-0.9.1.tar.gz
+[2023-07-31 11:25:50] WARNING root fetch - processPackages [antibp3]: Skipping package: exceeds size limit 38221924>=10485760
+[2023-07-31 11:25:50] INFO root fetch - processPackages [antibp3]: Start processing: mmengine
+[2023-07-31 11:25:50] INFO root fetch - main [MainThread]: End processing [antibp3] error
+[2023-07-31 11:25:50] INFO root fetch - processPackages [sumt]: Downloading https://files.pythonhosted.org/packages/3e/be/e550f60dee0f700c51043dae986597eca8e60648636a82839224d857c20a/sumt-3.2.4.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Downloading https://files.pythonhosted.org/packages/55/e0/24290eb827939ce28ad443ab501a1de5c78477b51893febb32a6076230db/molgenis-py-bbmri-eric-1.8.0.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [mmengine]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-31 11:25:50] INFO root fetch - processPackages [SocksDriver]: Downloading https://files.pythonhosted.org/packages/dd/e5/47cd3bc4749b770f1bc5df393104e3d287420778599db11f47d78cabd9cb/SocksDriver-1.1.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [libsql-experimental]: Downloading https://files.pythonhosted.org/packages/74/f0/765ad90b5caccc4498c34c0ab8ffe03274c6d0543c2d5c1b3a14d868dc51/libsql_experimental-0.0.2.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [mmengine]: Downloading https://files.pythonhosted.org/packages/a9/24/fec00040959a63ab5cfb045a1c82583cfeb9f982f8b27746a40e7222636a/mmengine-0.8.2.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [sumt]: Downloading https://files.pythonhosted.org/packages/f4/77/fad81f83419783561f0a44b878b500bec9f0b712f8f03b987ef429b73356/sumt-3.2.5.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/87/39/3d967f4675c26fd1a70df93f23c6afec385d0e325a5ecb715849a65e084f/qufit-1.1.9.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [prismstudio-stg]: Downloading https://files.pythonhosted.org/packages/c8/41/2325508c5bc7f45d7526bd0a57b3de1d85f9422c4d7fb1c74c8eaf79e900/prismstudio-stg-1.1.7.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [cobald]: Downloading https://files.pythonhosted.org/packages/dc/2e/b99272458fbd6946356828a933fa017c5af3afb66742938bee5c1d1a05cb/cobald-0.9.2.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Downloading https://files.pythonhosted.org/packages/4f/1a/131ad33a5603630c7855f8913a04402a5d52300cfdfad2aa7cae84988fcf/molgenis-py-bbmri-eric-1.9.0.tar.gz
+[2023-07-31 11:25:50] INFO root fetch - processPackages [libsql-experimental]: executing diffoscope
+[2023-07-31 11:25:50] INFO root fetch - processPackages [libsql-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsql_experimental-0.0.1.tar.gz tmp/libsql_experimental-0.0.2.tar.gz --markdown 20230731/l/libsql-experimental/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 11:25:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-31 11:25:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230731/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-31 11:25:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-31 11:25:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230731/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-31 11:25:51] INFO root fetch - processPackages [SocksDriver]: Downloading https://files.pythonhosted.org/packages/c0/78/8202d54ffbbd2e68ef54dfffcf376c8c31aa48cf2f8b21c6a600c6904fd2/SocksDriver-1.2.tar.gz
+[2023-07-31 11:25:51] INFO root fetch - processPackages [sumt]: executing diffoscope
+[2023-07-31 11:25:51] INFO root fetch - processPackages [sumt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumt-3.2.4.tar.gz tmp/sumt-3.2.5.tar.gz --markdown 20230731/s/sumt/3.2.4-3.2.5/diff.md --exclude *.pyd
+[2023-07-31 11:25:51] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-07-31 11:25:51] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.8.tar.gz tmp/qufit-1.1.9.tar.gz --markdown 20230731/q/qufit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-31 11:25:51] INFO root fetch - processPackages [cobald]: executing diffoscope
+[2023-07-31 11:25:51] INFO root fetch - processPackages [cobald]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cobald-0.9.1.tar.gz tmp/cobald-0.9.2.tar.gz --markdown 20230731/c/cobald/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-31 11:25:51] INFO root fetch - processPackages [prismstudio-stg]: executing diffoscope
+[2023-07-31 11:25:51] INFO root fetch - processPackages [prismstudio-stg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismstudio-stg-1.1.6.tar.gz tmp/prismstudio-stg-1.1.7.tar.gz --markdown 20230731/p/prismstudio-stg/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-07-31 11:25:51] INFO root fetch - processPackages [SocksDriver]: executing diffoscope
+[2023-07-31 11:25:51] INFO root fetch - processPackages [SocksDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SocksDriver-1.1.tar.gz tmp/SocksDriver-1.2.tar.gz --markdown 20230731/S/SocksDriver/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-31 11:25:51] INFO root fetch - processPackages [mmengine]: Downloading https://files.pythonhosted.org/packages/ff/16/9f350d2ebaede69e32902863f14cc9ae9f9510d694f86812c4fd539c5e9e/mmengine-0.8.3.tar.gz
+[2023-07-31 11:25:51] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: executing diffoscope
+[2023-07-31 11:25:51] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis-py-bbmri-eric-1.8.0.tar.gz tmp/molgenis-py-bbmri-eric-1.9.0.tar.gz --markdown 20230731/m/molgenis-py-bbmri-eric/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-31 11:25:51] INFO root fetch - processPackages [mmengine]: executing diffoscope
+[2023-07-31 11:25:51] INFO root fetch - processPackages [mmengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmengine-0.8.2.tar.gz tmp/mmengine-0.8.3.tar.gz --markdown 20230731/m/mmengine/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-31 11:25:52] INFO root fetch - processPackages [libsql-experimental]: Remove: archive file [/home/abi/fetcher/tmp/libsql_experimental-0.0.1.tar.gz]
+[2023-07-31 11:25:52] INFO root fetch - processPackages [libsql-experimental]: Remove: archive file [/home/abi/fetcher/tmp/libsql_experimental-0.0.2.tar.gz]
+[2023-07-31 11:25:52] INFO root fetch - processPackages [libsql-experimental]: Start processing: MuPhyN
+[2023-07-31 11:25:52] INFO root fetch - main [MainThread]: End processing [libsql-experimental]: success
+[2023-07-31 11:25:52] INFO root fetch - processPackages [MuPhyN]: New version: [0.1.1.post3] Old Version: [0.1.0.post8]
+[2023-07-31 11:25:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-31 11:25:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-31 11:25:52] INFO root fetch - processPackages [spanishconjugator]: Start processing: pytessng
+[2023-07-31 11:25:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-31 11:25:52] INFO root fetch - processPackages [pytessng]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-07-31 11:25:52] INFO root fetch - processPackages [MuPhyN]: Downloading https://files.pythonhosted.org/packages/63/32/f1d0a67eac0c2a48cf4582309a681f8820d892b2fc99c5c77c308ccd9991/MuPhyN-0.1.0.post8.tar.gz
+[2023-07-31 11:25:52] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.8.tar.gz]
+[2023-07-31 11:25:52] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.9.tar.gz]
+[2023-07-31 11:25:52] INFO root fetch - processPackages [qufit]: Start processing: qufit
+[2023-07-31 11:25:52] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-07-31 11:25:52] INFO root fetch - processPackages [qufit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-31 11:25:52] INFO root fetch - processPackages [SocksDriver]: Remove: archive file [/home/abi/fetcher/tmp/SocksDriver-1.1.tar.gz]
+[2023-07-31 11:25:52] INFO root fetch - processPackages [SocksDriver]: Remove: archive file [/home/abi/fetcher/tmp/SocksDriver-1.2.tar.gz]
+[2023-07-31 11:25:52] INFO root fetch - processPackages [SocksDriver]: Start processing: body-extractor-py3
+[2023-07-31 11:25:52] INFO root fetch - main [MainThread]: End processing [SocksDriver]: success
+[2023-07-31 11:25:52] INFO root fetch - processPackages [sumt]: Remove: archive file [/home/abi/fetcher/tmp/sumt-3.2.4.tar.gz]
+[2023-07-31 11:25:52] INFO root fetch - processPackages [sumt]: Remove: archive file [/home/abi/fetcher/tmp/sumt-3.2.5.tar.gz]
+[2023-07-31 11:25:52] INFO root fetch - processPackages [sumt]: Start processing: PyPhysicist
+[2023-07-31 11:25:52] INFO root fetch - main [MainThread]: End processing [sumt]: success
+[2023-07-31 11:25:52] INFO root fetch - processPackages [pytessng]: Downloading https://files.pythonhosted.org/packages/17/14/7d91b683d0ecd36021328deb1698515bbf071f4dde9282efe27a8250d26f/pytessng-0.1.3.tar.gz
+[2023-07-31 11:25:52] INFO root fetch - processPackages [body-extractor-py3]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 11:25:52] WARNING root fetch - processPackages [PyPhysicist]: Skipping, unable to determine old version
+[2023-07-31 11:25:52] INFO root fetch - processPackages [PyPhysicist]: Start processing: odoo-addon-account-statement-import-file-reconciliation-widget
+[2023-07-31 11:25:52] INFO root fetch - main [MainThread]: End processing [PyPhysicist] error
+[2023-07-31 11:25:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-31 11:25:52] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/48/26/3346b635a896f4a794f8bf96c76e7c1ba52eddfdbf89069c6b89f423f730/qufit-1.1.8.tar.gz
+[2023-07-31 11:25:52] INFO root fetch - processPackages [body-extractor-py3]: Downloading https://files.pythonhosted.org/packages/33/eb/180b4e3b2b28b96be6a4a518cae31193c476780d5b0572b8ac149a23926a/body-extractor-py3-0.0.2.tar.gz
+[2023-07-31 11:25:53] INFO root fetch - processPackages [MuPhyN]: Downloading https://files.pythonhosted.org/packages/b0/bb/62397b6ddecb9f8298b2ea1f4a87d61246e6085f44d30691137fe770599d/MuPhyN-0.1.1.post3-py3-none-any.whl
+[2023-07-31 11:25:53] WARNING root fetch - processPackages [odoo-addon-account-statement-import-file-reconciliation-widget]: Skipping, unable to determine old version
+[2023-07-31 11:25:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-file-reconciliation-widget] error
+[2023-07-31 11:25:53] INFO root fetch - processPackages [cobald]: Remove: archive file [/home/abi/fetcher/tmp/cobald-0.9.1.tar.gz]
+[2023-07-31 11:25:53] INFO root fetch - processPackages [cobald]: Remove: archive file [/home/abi/fetcher/tmp/cobald-0.9.2.tar.gz]
+[2023-07-31 11:25:53] INFO root fetch - main [MainThread]: End processing [cobald]: success
+[2023-07-31 11:25:53] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/87/39/3d967f4675c26fd1a70df93f23c6afec385d0e325a5ecb715849a65e084f/qufit-1.1.9.tar.gz
+[2023-07-31 11:25:53] INFO root fetch - processPackages [MuPhyN]: executing diffoscope
+[2023-07-31 11:25:53] INFO root fetch - processPackages [MuPhyN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MuPhyN-0.1.0.post8.tar.gz tmp/MuPhyN-0.1.1.post3-py3-none-any.whl.zip --markdown 20230731/M/MuPhyN/0.1.0.post8-0.1.1.post3/diff.md --exclude *.pyd
+[2023-07-31 11:25:53] INFO root fetch - processPackages [prismstudio-stg]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-stg-1.1.6.tar.gz]
+[2023-07-31 11:25:53] INFO root fetch - processPackages [prismstudio-stg]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-stg-1.1.7.tar.gz]
+[2023-07-31 11:25:53] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Remove: archive file [/home/abi/fetcher/tmp/molgenis-py-bbmri-eric-1.8.0.tar.gz]
+[2023-07-31 11:25:53] INFO root fetch - main [MainThread]: End processing [prismstudio-stg]: success
+[2023-07-31 11:25:53] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Remove: archive file [/home/abi/fetcher/tmp/molgenis-py-bbmri-eric-1.9.0.tar.gz]
+[2023-07-31 11:25:53] INFO root fetch - main [MainThread]: End processing [molgenis-py-bbmri-eric]: success
+[2023-07-31 11:25:53] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-07-31 11:25:53] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.8.tar.gz tmp/qufit-1.1.9.tar.gz --markdown 20230731/q/qufit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-31 11:25:53] INFO root fetch - processPackages [body-extractor-py3]: Downloading https://files.pythonhosted.org/packages/0f/82/1965c0a2f907661e578f8f7dc7c1b2312bbd792cfff968136c7cc049ffc5/body-extractor-py3-0.0.3.tar.gz
+[2023-07-31 11:25:53] INFO root fetch - processPackages [pytessng]: Downloading https://files.pythonhosted.org/packages/81/84/dbc500811d600db9247535d1cdd34fbbc7a98689ab8a43a2151748e4f425/pytessng-0.1.5.tar.gz
+[2023-07-31 11:25:53] INFO root fetch - processPackages [body-extractor-py3]: executing diffoscope
+[2023-07-31 11:25:53] INFO root fetch - processPackages [body-extractor-py3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/body-extractor-py3-0.0.2.tar.gz tmp/body-extractor-py3-0.0.3.tar.gz --markdown 20230731/b/body-extractor-py3/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 11:25:53] INFO root fetch - processPackages [pytessng]: executing diffoscope
+[2023-07-31 11:25:53] INFO root fetch - processPackages [pytessng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytessng-0.1.3.tar.gz tmp/pytessng-0.1.5.tar.gz --markdown 20230731/p/pytessng/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-07-31 11:25:53] INFO root fetch - processPackages [mmengine]: Remove: archive file [/home/abi/fetcher/tmp/mmengine-0.8.2.tar.gz]
+[2023-07-31 11:25:53] INFO root fetch - processPackages [mmengine]: Remove: archive file [/home/abi/fetcher/tmp/mmengine-0.8.3.tar.gz]
+[2023-07-31 11:25:53] INFO root fetch - main [MainThread]: End processing [mmengine]: success
+[2023-07-31 11:25:54] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.8.tar.gz]
+[2023-07-31 11:25:54] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.9.tar.gz]
+[2023-07-31 11:25:54] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-07-31 11:25:54] INFO root fetch - processPackages [body-extractor-py3]: Remove: archive file [/home/abi/fetcher/tmp/body-extractor-py3-0.0.2.tar.gz]
+[2023-07-31 11:25:54] INFO root fetch - processPackages [body-extractor-py3]: Remove: archive file [/home/abi/fetcher/tmp/body-extractor-py3-0.0.3.tar.gz]
+[2023-07-31 11:25:54] INFO root fetch - main [MainThread]: End processing [body-extractor-py3]: success
+[2023-07-31 11:25:54] INFO root fetch - processPackages [MuPhyN]: Remove: archive file [/home/abi/fetcher/tmp/MuPhyN-0.1.0.post8.tar.gz]
+[2023-07-31 11:25:54] INFO root fetch - processPackages [MuPhyN]: Remove: archive file [/home/abi/fetcher/tmp/MuPhyN-0.1.1.post3-py3-none-any.whl.zip]
+[2023-07-31 11:25:54] INFO root fetch - main [MainThread]: End processing [MuPhyN]: success
+[2023-07-31 11:26:17] INFO root fetch - processPackages [pytessng]: Remove: archive file [/home/abi/fetcher/tmp/pytessng-0.1.3.tar.gz]
+[2023-07-31 11:26:17] INFO root fetch - processPackages [pytessng]: Remove: archive file [/home/abi/fetcher/tmp/pytessng-0.1.5.tar.gz]
+[2023-07-31 11:26:17] INFO root fetch - main [MainThread]: End processing [pytessng]: success
+[2023-07-31 11:26:17] INFO root fetch - main [MainThread]: Store serial: [19105291]
