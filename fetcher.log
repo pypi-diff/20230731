@@ -13199,3 +13199,142 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 11:31:46] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.4.0.tar.gz]
 [2023-07-31 11:31:46] INFO root fetch - main [MainThread]: End processing [gooddata-api-client]: success
 [2023-07-31 11:31:46] INFO root fetch - main [MainThread]: Store serial: [19105385]
+[2023-07-31 11:36:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19105385]
+[2023-07-31 11:36:55] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-31 11:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: waveresponse
+[2023-07-31 11:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qufit
+[2023-07-31 11:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: httpx-s3-client
+[2023-07-31 11:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thundertools
+[2023-07-31 11:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neolibrary
+[2023-07-31 11:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyspectrum-lib
+[2023-07-31 11:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-aws-native
+[2023-07-31 11:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-aws-native
+[2023-07-31 11:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: downloaders
+[2023-07-31 11:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lusid-notification-sdk-preview
+[2023-07-31 11:36:55] INFO root fetch - processPackages [waveresponse]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-31 11:36:55] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.802] Old Version: [0.1.801]
+[2023-07-31 11:36:55] INFO root fetch - processPackages [thundertools]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-31 11:36:55] WARNING root fetch - processPackages [pyspectrum-lib]: Skipping, unable to determine old version
+[2023-07-31 11:36:55] INFO root fetch - processPackages [pyspectrum-lib]: Start processing: optimum-graphcore
+[2023-07-31 11:36:55] INFO root fetch - main [MainThread]: End processing [pyspectrum-lib] error
+[2023-07-31 11:36:55] INFO root fetch - processPackages [downloaders]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-31 11:36:55] INFO root fetch - processPackages [httpx-s3-client]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-31 11:36:55] INFO root fetch - processPackages [qufit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-31 11:36:56] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.9.1a1641826769] Old Version: [0.9.1a1641824984]
+[2023-07-31 11:36:56] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.9.1a1641826769] Old Version: [0.9.1a1641824984]
+[2023-07-31 11:36:56] WARNING root fetch - processPackages [neolibrary]: Skipping, unable to determine old version
+[2023-07-31 11:36:56] INFO root fetch - processPackages [neolibrary]: Start processing: pluginlab-admin
+[2023-07-31 11:36:56] INFO root fetch - main [MainThread]: End processing [neolibrary] error
+[2023-07-31 11:36:56] INFO root fetch - processPackages [optimum-graphcore]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-31 11:36:56] INFO root fetch - processPackages [pluginlab-admin]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-31 11:36:56] INFO root fetch - processPackages [waveresponse]: Downloading https://files.pythonhosted.org/packages/bf/d9/eb4187eb89f5353306344143c2d0967387a6a1c65c118673a184efb9de70/waveresponse-1.1.1-py3-none-any.whl
+[2023-07-31 11:36:56] INFO root fetch - processPackages [thundertools]: Downloading https://files.pythonhosted.org/packages/76/d3/40b061fccfd08662198e1c250fe8ea943b913ca2466346c0e54d02d8fe1a/thundertools-0.4.2-py3-none-any.whl
+[2023-07-31 11:36:56] INFO root fetch - processPackages [httpx-s3-client]: Downloading https://files.pythonhosted.org/packages/64/d0/10d31d3bddef9e2826959d065f26eb35cb023dce7fa8ccde92c6751440a4/httpx_s3_client-0.0.3.tar.gz
+[2023-07-31 11:36:56] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/3b/e2/ecb37260f8bcd309f427460c1fbd9f6e0cdb57fa2c52f9d1b83e82a4e0ec/lusid-notification-sdk-preview-0.1.801.tar.gz
+[2023-07-31 11:36:56] INFO root fetch - processPackages [downloaders]: Downloading https://files.pythonhosted.org/packages/ba/73/371a6134aff8ceb0e4412155365674904463774a8a763308530c3970bc42/downloaders-1.0.8.tar.gz
+[2023-07-31 11:36:56] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/89/ce/96408f528e6ba1eda1aea4b6573d97640f6288eac90da3e79f8e64f86ba8/pulumi_aws_native-0.9.1a1641824984.tar.gz
+[2023-07-31 11:36:56] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/89/ce/96408f528e6ba1eda1aea4b6573d97640f6288eac90da3e79f8e64f86ba8/pulumi_aws_native-0.9.1a1641824984.tar.gz
+[2023-07-31 11:36:56] INFO root fetch - processPackages [pluginlab-admin]: Downloading https://files.pythonhosted.org/packages/d2/e9/80448a636a4b82b3e302da36699585d93658a843e606ebcd4cdc062f63e3/pluginlab_admin-0.1.1.tar.gz
+[2023-07-31 11:36:56] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/48/26/3346b635a896f4a794f8bf96c76e7c1ba52eddfdbf89069c6b89f423f730/qufit-1.1.8.tar.gz
+[2023-07-31 11:36:56] INFO root fetch - processPackages [optimum-graphcore]: Downloading https://files.pythonhosted.org/packages/f2/95/9d48813f308125fe7bf465ca7ba8c9fe9a0747311318bf044725cd5b7da4/optimum-graphcore-0.7.0.tar.gz
+[2023-07-31 11:36:56] INFO root fetch - processPackages [waveresponse]: Downloading https://files.pythonhosted.org/packages/ce/10/f51be11ea7ec15a32527e265aef0bd1074419299825375f27b2fa858153f/waveresponse-1.2.0-py3-none-any.whl
+[2023-07-31 11:36:56] INFO root fetch - processPackages [thundertools]: Downloading https://files.pythonhosted.org/packages/9f/94/422c9929b33f33b4a522cb96e521f5b89c3b6aac3cb2944d6d15b21808fd/thundertools-0.4.3.tar.gz
+[2023-07-31 11:36:56] INFO root fetch - processPackages [httpx-s3-client]: Downloading https://files.pythonhosted.org/packages/dc/cf/a6244e587f42011826503c9fa459b74a8fb04df5339388f7b15e6ba569fb/httpx_s3_client-0.0.4.tar.gz
+[2023-07-31 11:36:56] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/8d/57/7c491249e3ddc59af16cda10f2b3e63c968193a32b8a2002289fbba0b81c/lusid-notification-sdk-preview-0.1.802.tar.gz
+[2023-07-31 11:36:56] INFO root fetch - processPackages [waveresponse]: executing diffoscope
+[2023-07-31 11:36:56] INFO root fetch - processPackages [waveresponse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveresponse-1.1.1-py3-none-any.whl.zip tmp/waveresponse-1.2.0-py3-none-any.whl.zip --markdown 20230731/w/waveresponse/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-31 11:36:56] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/87/39/3d967f4675c26fd1a70df93f23c6afec385d0e325a5ecb715849a65e084f/qufit-1.1.9.tar.gz
+[2023-07-31 11:36:56] INFO root fetch - processPackages [downloaders]: Downloading https://files.pythonhosted.org/packages/d5/a9/37ca46693af05c46f8da00cd71ded6c1ab5a92c7a0b63cc22d3bc07f54bb/downloaders-1.0.9.tar.gz
+[2023-07-31 11:36:56] INFO root fetch - processPackages [optimum-graphcore]: Downloading https://files.pythonhosted.org/packages/22/da/eac7471e1cb3834da562742fbeab2cbc1703ca115f76e79b835415f5e3e3/optimum-graphcore-0.7.1.tar.gz
+[2023-07-31 11:36:56] INFO root fetch - processPackages [thundertools]: executing diffoscope
+[2023-07-31 11:36:56] INFO root fetch - processPackages [thundertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundertools-0.4.2-py3-none-any.whl.zip tmp/thundertools-0.4.3.tar.gz --markdown 20230731/t/thundertools/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-31 11:36:56] INFO root fetch - processPackages [pluginlab-admin]: Downloading https://files.pythonhosted.org/packages/3e/01/ff96c74184472c9caaca972590a7f93240081ec1ce6387bffd4430a9ef0c/pluginlab_admin-0.2.0.tar.gz
+[2023-07-31 11:36:56] INFO root fetch - processPackages [httpx-s3-client]: executing diffoscope
+[2023-07-31 11:36:56] INFO root fetch - processPackages [httpx-s3-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpx_s3_client-0.0.3.tar.gz tmp/httpx_s3_client-0.0.4.tar.gz --markdown 20230731/h/httpx-s3-client/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-31 11:36:56] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-07-31 11:36:56] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.801.tar.gz tmp/lusid-notification-sdk-preview-0.1.802.tar.gz --markdown 20230731/l/lusid-notification-sdk-preview/0.1.801-0.1.802/diff.md --exclude *.pyd
+[2023-07-31 11:36:57] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-07-31 11:36:57] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.8.tar.gz tmp/qufit-1.1.9.tar.gz --markdown 20230731/q/qufit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-31 11:36:57] INFO root fetch - processPackages [optimum-graphcore]: executing diffoscope
+[2023-07-31 11:36:57] INFO root fetch - processPackages [optimum-graphcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-graphcore-0.7.0.tar.gz tmp/optimum-graphcore-0.7.1.tar.gz --markdown 20230731/o/optimum-graphcore/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-31 11:36:57] INFO root fetch - processPackages [pluginlab-admin]: executing diffoscope
+[2023-07-31 11:36:57] INFO root fetch - processPackages [pluginlab-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluginlab_admin-0.1.1.tar.gz tmp/pluginlab_admin-0.2.0.tar.gz --markdown 20230731/p/pluginlab-admin/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-31 11:36:57] INFO root fetch - processPackages [downloaders]: executing diffoscope
+[2023-07-31 11:36:57] INFO root fetch - processPackages [downloaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/downloaders-1.0.8.tar.gz tmp/downloaders-1.0.9.tar.gz --markdown 20230731/d/downloaders/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 11:36:57] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/c5/18/9e8b8df236b81bb0bae9bd78ac3551ff235749974974287ab4dd99269408/pulumi_aws_native-0.9.1a1641826769.tar.gz
+[2023-07-31 11:36:57] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/c5/18/9e8b8df236b81bb0bae9bd78ac3551ff235749974974287ab4dd99269408/pulumi_aws_native-0.9.1a1641826769.tar.gz
+[2023-07-31 11:36:58] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2023-07-31 11:36:58] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz --markdown 20230731/p/pulumi-aws-native/0.9.1a1641824984-0.9.1a1641826769/diff.md --exclude *.pyd
+[2023-07-31 11:36:58] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2023-07-31 11:36:58] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz --markdown 20230731/p/pulumi-aws-native/0.9.1a1641824984-0.9.1a1641826769/diff.md --exclude *.pyd
+[2023-07-31 11:36:58] INFO root fetch - processPackages [waveresponse]: Remove: archive file [/home/abi/fetcher/tmp/waveresponse-1.1.1-py3-none-any.whl.zip]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [waveresponse]: Remove: archive file [/home/abi/fetcher/tmp/waveresponse-1.2.0-py3-none-any.whl.zip]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [waveresponse]: Start processing: lmdeploy
+[2023-07-31 11:36:58] INFO root fetch - main [MainThread]: End processing [waveresponse]: success
+[2023-07-31 11:36:58] INFO root fetch - processPackages [thundertools]: Remove: archive file [/home/abi/fetcher/tmp/thundertools-0.4.2-py3-none-any.whl.zip]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [thundertools]: Remove: archive file [/home/abi/fetcher/tmp/thundertools-0.4.3.tar.gz]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [thundertools]: Start processing: flagsmith
+[2023-07-31 11:36:58] INFO root fetch - main [MainThread]: End processing [thundertools]: success
+[2023-07-31 11:36:58] INFO root fetch - processPackages [lmdeploy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [flagsmith]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [pluginlab-admin]: Remove: archive file [/home/abi/fetcher/tmp/pluginlab_admin-0.1.1.tar.gz]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [pluginlab-admin]: Remove: archive file [/home/abi/fetcher/tmp/pluginlab_admin-0.2.0.tar.gz]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [pluginlab-admin]: Start processing: whois-api
+[2023-07-31 11:36:58] INFO root fetch - main [MainThread]: End processing [pluginlab-admin]: success
+[2023-07-31 11:36:58] INFO root fetch - processPackages [lmdeploy]: Downloading https://files.pythonhosted.org/packages/b3/49/f953c918d08bc26aef9c2244866a5789690fe023ffce079b4e36a62e43ba/lmdeploy-0.0.1-py3-none-any.whl
+[2023-07-31 11:36:58] INFO root fetch - processPackages [whois-api]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [flagsmith]: Downloading https://files.pythonhosted.org/packages/95/c3/0375c5006192d007367ac4f6b8a6d9e1d69916fb408fe7c97e09c85c5858/flagsmith-3.3.0.tar.gz
+[2023-07-31 11:36:58] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.8.tar.gz]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.9.tar.gz]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [httpx-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/httpx_s3_client-0.0.3.tar.gz]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [qufit]: Start processing: systembridgeshared
+[2023-07-31 11:36:58] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-07-31 11:36:58] INFO root fetch - processPackages [downloaders]: Remove: archive file [/home/abi/fetcher/tmp/downloaders-1.0.8.tar.gz]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [httpx-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/httpx_s3_client-0.0.4.tar.gz]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [downloaders]: Remove: archive file [/home/abi/fetcher/tmp/downloaders-1.0.9.tar.gz]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [httpx-s3-client]: Start processing: systembridgeconnector
+[2023-07-31 11:36:58] INFO root fetch - main [MainThread]: End processing [httpx-s3-client]: success
+[2023-07-31 11:36:58] INFO root fetch - main [MainThread]: End processing [downloaders]: success
+[2023-07-31 11:36:58] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-31 11:36:58] INFO root fetch - processPackages [whois-api]: Downloading https://files.pythonhosted.org/packages/2d/10/a9da914d9e26bc35ba6d0bee947721a2227bbf29565bbf6de1101274e4c3/whois-api-1.1.2.tar.gz
+[2023-07-31 11:36:58] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/c4/4c/519d5a7d7188e6cd9cbf6981f899ab0cf7059dacc39b0260be4dc941e78e/systembridgeshared-3.8.0.dev8.tar.gz
+[2023-07-31 11:36:58] INFO root fetch - processPackages [flagsmith]: Downloading https://files.pythonhosted.org/packages/ea/97/1ce97db5e4f15de91e447bfd050ee217d1705596291ba149bd63bc7e119a/flagsmith-3.4.0.tar.gz
+[2023-07-31 11:36:58] INFO root fetch - processPackages [lmdeploy]: Downloading https://files.pythonhosted.org/packages/57/5f/7995c19a9bff8c5b2c8a515cf6bb4c33cd10503957813fb76bd6d4d79ddf/lmdeploy-0.0.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-31 11:36:58] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/b6/5a/0e66891dd12466d8cb2db98ba2763c6b9908471011412ce28189b07ed3e0/systembridgeconnector-3.8.0.dev8.tar.gz
+[2023-07-31 11:36:58] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/34/db/8603b6ca893ab5a882e5d84c4459612589f1060c0b9b33af43467d87ef69/systembridgeshared-3.8.0.dev9.tar.gz
+[2023-07-31 11:36:59] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.801.tar.gz]
+[2023-07-31 11:36:59] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.802.tar.gz]
+[2023-07-31 11:36:59] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-07-31 11:36:59] WARNING root fetch - processPackages [lmdeploy]: Skipping package: exceeds size limit 67911744>=10485760
+[2023-07-31 11:36:59] INFO root fetch - main [MainThread]: End processing [lmdeploy] error
+[2023-07-31 11:36:59] INFO root fetch - processPackages [flagsmith]: executing diffoscope
+[2023-07-31 11:36:59] INFO root fetch - processPackages [flagsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flagsmith-3.3.0.tar.gz tmp/flagsmith-3.4.0.tar.gz --markdown 20230731/f/flagsmith/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-07-31 11:36:59] INFO root fetch - processPackages [whois-api]: Downloading https://files.pythonhosted.org/packages/c5/97/59f471647eb0cb1531326925bc0ca57d8d0da52b7d55ce718389d35d1764/whois-api-1.1.3.tar.gz
+[2023-07-31 11:36:59] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-31 11:36:59] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.8.0.dev8.tar.gz tmp/systembridgeshared-3.8.0.dev9.tar.gz --markdown 20230731/s/systembridgeshared/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-31 11:36:59] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/0c/2f/e4269881b1efc361a16100c5e3f8460ebf231ca289cb095b5ba7d0befbf5/systembridgeconnector-3.8.0.dev9.tar.gz
+[2023-07-31 11:36:59] INFO root fetch - processPackages [optimum-graphcore]: Remove: archive file [/home/abi/fetcher/tmp/optimum-graphcore-0.7.0.tar.gz]
+[2023-07-31 11:36:59] INFO root fetch - processPackages [optimum-graphcore]: Remove: archive file [/home/abi/fetcher/tmp/optimum-graphcore-0.7.1.tar.gz]
+[2023-07-31 11:36:59] INFO root fetch - main [MainThread]: End processing [optimum-graphcore]: success
+[2023-07-31 11:36:59] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-31 11:36:59] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.8.0.dev8.tar.gz tmp/systembridgeconnector-3.8.0.dev9.tar.gz --markdown 20230731/s/systembridgeconnector/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-31 11:36:59] INFO root fetch - processPackages [whois-api]: executing diffoscope
+[2023-07-31 11:36:59] INFO root fetch - processPackages [whois-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whois-api-1.1.2.tar.gz tmp/whois-api-1.1.3.tar.gz --markdown 20230731/w/whois-api/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-31 11:37:00] INFO root fetch - processPackages [flagsmith]: Remove: archive file [/home/abi/fetcher/tmp/flagsmith-3.3.0.tar.gz]
+[2023-07-31 11:37:00] INFO root fetch - processPackages [flagsmith]: Remove: archive file [/home/abi/fetcher/tmp/flagsmith-3.4.0.tar.gz]
+[2023-07-31 11:37:00] INFO root fetch - main [MainThread]: End processing [flagsmith]: success
+[2023-07-31 11:37:00] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev8.tar.gz]
+[2023-07-31 11:37:00] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev9.tar.gz]
+[2023-07-31 11:37:00] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-31 11:37:00] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev8.tar.gz]
+[2023-07-31 11:37:00] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev9.tar.gz]
+[2023-07-31 11:37:00] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-31 11:37:00] INFO root fetch - processPackages [whois-api]: Remove: archive file [/home/abi/fetcher/tmp/whois-api-1.1.2.tar.gz]
+[2023-07-31 11:37:00] INFO root fetch - processPackages [whois-api]: Remove: archive file [/home/abi/fetcher/tmp/whois-api-1.1.3.tar.gz]
+[2023-07-31 11:37:00] INFO root fetch - main [MainThread]: End processing [whois-api]: success
+[2023-07-31 11:37:09] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz]
+[2023-07-31 11:37:09] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
+[2023-07-31 11:37:09] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2023-07-31 11:37:09] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2023-07-31 11:37:09] INFO root fetch - main [MainThread]: Store serial: [19105437]
