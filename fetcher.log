@@ -11478,3 +11478,165 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 10:37:11] INFO root fetch - processPackages [pybind11-rdp]: Remove: archive file [/home/abi/fetcher/tmp/pybind11_rdp-0.1.4.tar.gz]
 [2023-07-31 10:37:11] INFO root fetch - main [MainThread]: End processing [pybind11-rdp]: success
 [2023-07-31 10:37:11] INFO root fetch - main [MainThread]: Store serial: [19104737]
+[2023-07-31 10:42:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19104737]
+[2023-07-31 10:42:20] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-31 10:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: soda-core-spark-df
+[2023-07-31 10:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: soda-core-sqlserver
+[2023-07-31 10:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: soda-core-trino
+[2023-07-31 10:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: soda-core-vertica
+[2023-07-31 10:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reytool
+[2023-07-31 10:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-estimator-nightly
+[2023-07-31 10:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: philander
+[2023-07-31 10:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-check-seo
+[2023-07-31 10:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: l10n
+[2023-07-31 10:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omni-infer-api
+[2023-07-31 10:42:20] INFO root fetch - processPackages [soda-core-vertica]: New version: [3.0.47] Old Version: [3.0.46]
+[2023-07-31 10:42:20] INFO root fetch - processPackages [soda-core-sqlserver]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-31 10:42:20] INFO root fetch - processPackages [philander]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-31 10:42:20] WARNING root fetch - processPackages [omni-infer-api]: Skipping, unable to determine old version
+[2023-07-31 10:42:20] INFO root fetch - processPackages [omni-infer-api]: Start processing: localstack-core
+[2023-07-31 10:42:20] INFO root fetch - main [MainThread]: End processing [omni-infer-api] error
+[2023-07-31 10:42:20] INFO root fetch - processPackages [django-check-seo]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-31 10:42:20] INFO root fetch - processPackages [l10n]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-31 10:42:20] INFO root fetch - processPackages [soda-core-spark-df]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-31 10:42:20] INFO root fetch - processPackages [soda-core-trino]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-31 10:42:20] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-31 10:42:20] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-31 10:42:20] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230731083906] Old Version: [2.2.1.dev20230731075809]
+[2023-07-31 10:42:20] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/a4/33/11fed4558dce67173f4969bbd1ea251702bbc069a787f5778ccdbec893a7/philander-0.1.3.tar.gz
+[2023-07-31 10:42:20] INFO root fetch - processPackages [soda-core-vertica]: Downloading https://files.pythonhosted.org/packages/52/a9/694e825ec15604b8a885ddd69c2d2daf40c84f75eeda5bc9a38531cb9b4c/soda-core-vertica-3.0.46.tar.gz
+[2023-07-31 10:42:20] INFO root fetch - processPackages [soda-core-spark-df]: Downloading https://files.pythonhosted.org/packages/be/6a/5804a64c7d302109de04ae5456dd76027b4ab3485da5b0720cebb1547d40/soda-core-spark-df-3.0.8.tar.gz
+[2023-07-31 10:42:20] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-31 10:42:20] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-31 10:42:20] INFO root fetch - processPackages [l10n]: Downloading https://files.pythonhosted.org/packages/a9/cc/94a8526a3810bbfa7d24f88334e4a61db51648e27228776fb6d87f599474/l10n-0.1.4.tar.gz
+[2023-07-31 10:42:20] INFO root fetch - processPackages [soda-core-sqlserver]: Downloading https://files.pythonhosted.org/packages/a4/54/ce47aaf5d0bd2eebba8525458956cb695d9ced9f6fa14004506858fd0a6a/soda-core-sqlserver-3.0.8.tar.gz
+[2023-07-31 10:42:20] INFO root fetch - processPackages [soda-core-trino]: Downloading https://files.pythonhosted.org/packages/dc/f9/d702aa2338c20541f66a53ca0f9fa033e166cd7aedd7a772b398a7f6b3cc/soda-core-trino-3.0.8.tar.gz
+[2023-07-31 10:42:20] INFO root fetch - processPackages [django-check-seo]: Downloading https://files.pythonhosted.org/packages/c0/17/2def75ea16938bbb58958af941d7a99ad5a782a443dfc4e9fb8432a5d268/django-check-seo-0.6.3.tar.gz
+[2023-07-31 10:42:20] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c6/42/4d0b52e527ca959c71e3007541528f597db3417d3fbbceaa5fb6d054d646/localstack-core-2.2.1.dev20230731075809.tar.gz
+[2023-07-31 10:42:21] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-31 10:42:21] INFO root fetch - processPackages [soda-core-spark-df]: Downloading https://files.pythonhosted.org/packages/fd/8a/8527f19a4e1290c7c69795265f63aeefcc81e7584160881237afcd76fe10/soda-core-spark-df-3.0.9.tar.gz
+[2023-07-31 10:42:21] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-31 10:42:21] INFO root fetch - processPackages [soda-core-vertica]: Downloading https://files.pythonhosted.org/packages/8b/1f/ddb2275b3d1dc7458bd739d67dc4074d6464d1bfc7579c5085d73a94f286/soda-core-vertica-3.0.47.tar.gz
+[2023-07-31 10:42:21] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/f5/a9/9acfe537f49f6f6fef2ba8dfc976909834daddbe9ff7db468e8cfb8c5505/philander-0.1.4.tar.gz
+[2023-07-31 10:42:21] INFO root fetch - processPackages [l10n]: Downloading https://files.pythonhosted.org/packages/18/fa/28b6097db2a4996fd8c9f08f10a9f2aab7238c17efb08f3f9c2e466f50ac/l10n-0.1.5.tar.gz
+[2023-07-31 10:42:21] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-31 10:42:21] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230731/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-31 10:42:21] INFO root fetch - processPackages [django-check-seo]: Downloading https://files.pythonhosted.org/packages/3b/0f/56e41e42525d7b6fe673030ec851f070f9639e17307df9841a35fca8271a/django-check-seo-0.6.4.tar.gz
+[2023-07-31 10:42:21] INFO root fetch - processPackages [soda-core-vertica]: executing diffoscope
+[2023-07-31 10:42:21] INFO root fetch - processPackages [soda-core-vertica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-vertica-3.0.46.tar.gz tmp/soda-core-vertica-3.0.47.tar.gz --markdown 20230731/s/soda-core-vertica/3.0.46-3.0.47/diff.md --exclude *.pyd
+[2023-07-31 10:42:21] INFO root fetch - processPackages [l10n]: executing diffoscope
+[2023-07-31 10:42:21] INFO root fetch - processPackages [l10n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l10n-0.1.4.tar.gz tmp/l10n-0.1.5.tar.gz --markdown 20230731/l/l10n/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-31 10:42:21] INFO root fetch - processPackages [philander]: executing diffoscope
+[2023-07-31 10:42:21] INFO root fetch - processPackages [soda-core-spark-df]: executing diffoscope
+[2023-07-31 10:42:21] INFO root fetch - processPackages [philander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philander-0.1.3.tar.gz tmp/philander-0.1.4.tar.gz --markdown 20230731/p/philander/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-31 10:42:21] INFO root fetch - processPackages [soda-core-spark-df]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-spark-df-3.0.8.tar.gz tmp/soda-core-spark-df-3.0.9.tar.gz --markdown 20230731/s/soda-core-spark-df/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-31 10:42:21] INFO root fetch - processPackages [soda-core-sqlserver]: Downloading https://files.pythonhosted.org/packages/75/14/26c20bb42caf2af42ed4ad0aa71462c101bc55b75ddb64527089a672f8c9/soda-core-sqlserver-3.0.9.tar.gz
+[2023-07-31 10:42:21] INFO root fetch - processPackages [soda-core-trino]: Downloading https://files.pythonhosted.org/packages/f9/3e/ed6b03fa62335ddf1266a09ac2efd1193b1fdce27b211edd40b67c66f536/soda-core-trino-3.0.9.tar.gz
+[2023-07-31 10:42:21] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-31 10:42:21] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230731/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-31 10:42:21] INFO root fetch - processPackages [django-check-seo]: executing diffoscope
+[2023-07-31 10:42:21] INFO root fetch - processPackages [django-check-seo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-check-seo-0.6.3.tar.gz tmp/django-check-seo-0.6.4.tar.gz --markdown 20230731/d/django-check-seo/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-31 10:42:21] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/48/b2/80626bd3bfe6f77e44e6ef68e84e86cf3cb6edcc2b46581fb50d3d2382d2/localstack-core-2.2.1.dev20230731083906.tar.gz
+[2023-07-31 10:42:21] INFO root fetch - processPackages [soda-core-sqlserver]: executing diffoscope
+[2023-07-31 10:42:21] INFO root fetch - processPackages [soda-core-sqlserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-sqlserver-3.0.8.tar.gz tmp/soda-core-sqlserver-3.0.9.tar.gz --markdown 20230731/s/soda-core-sqlserver/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-31 10:42:21] INFO root fetch - processPackages [soda-core-trino]: executing diffoscope
+[2023-07-31 10:42:21] INFO root fetch - processPackages [soda-core-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-trino-3.0.8.tar.gz tmp/soda-core-trino-3.0.9.tar.gz --markdown 20230731/s/soda-core-trino/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-31 10:42:21] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-31 10:42:21] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230731075809.tar.gz tmp/localstack-core-2.2.1.dev20230731083906.tar.gz --markdown 20230731/l/localstack-core/2.2.1.dev20230731075809-2.2.1.dev20230731083906/diff.md --exclude *.pyd
+[2023-07-31 10:42:22] INFO root fetch - processPackages [soda-core-vertica]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-vertica-3.0.46.tar.gz]
+[2023-07-31 10:42:22] INFO root fetch - processPackages [soda-core-vertica]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-vertica-3.0.47.tar.gz]
+[2023-07-31 10:42:22] INFO root fetch - processPackages [soda-core-vertica]: Start processing: quickscraper-sdk
+[2023-07-31 10:42:22] INFO root fetch - main [MainThread]: End processing [soda-core-vertica]: success
+[2023-07-31 10:42:22] INFO root fetch - processPackages [quickscraper-sdk]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-31 10:42:22] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-31 10:42:22] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-31 10:42:22] INFO root fetch - processPackages [reytool]: Start processing: oneat
+[2023-07-31 10:42:22] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-31 10:42:22] INFO root fetch - processPackages [soda-core-spark-df]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-spark-df-3.0.8.tar.gz]
+[2023-07-31 10:42:22] INFO root fetch - processPackages [soda-core-spark-df]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-spark-df-3.0.9.tar.gz]
+[2023-07-31 10:42:22] INFO root fetch - processPackages [soda-core-spark-df]: Start processing: frost-sta-client
+[2023-07-31 10:42:22] INFO root fetch - main [MainThread]: End processing [soda-core-spark-df]: success
+[2023-07-31 10:42:22] INFO root fetch - processPackages [quickscraper-sdk]: Downloading https://files.pythonhosted.org/packages/38/09/c3360ac8701e607a6d722aa69d25705963dcf41ebff2d9a039c43592abb5/quickscraper_sdk-1.0.9-py3-none-any.whl
+[2023-07-31 10:42:22] INFO root fetch - processPackages [frost-sta-client]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-31 10:42:22] INFO root fetch - processPackages [oneat]: New version: [6.2.4] Old Version: [6.2.3]
+[2023-07-31 10:42:23] INFO root fetch - processPackages [soda-core-trino]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-trino-3.0.8.tar.gz]
+[2023-07-31 10:42:23] INFO root fetch - processPackages [soda-core-trino]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-trino-3.0.9.tar.gz]
+[2023-07-31 10:42:23] INFO root fetch - processPackages [soda-core-trino]: Start processing: pdf2md
+[2023-07-31 10:42:23] INFO root fetch - main [MainThread]: End processing [soda-core-trino]: success
+[2023-07-31 10:42:23] INFO root fetch - processPackages [l10n]: Remove: archive file [/home/abi/fetcher/tmp/l10n-0.1.4.tar.gz]
+[2023-07-31 10:42:23] INFO root fetch - processPackages [l10n]: Remove: archive file [/home/abi/fetcher/tmp/l10n-0.1.5.tar.gz]
+[2023-07-31 10:42:23] INFO root fetch - processPackages [l10n]: Start processing: nonebot-plugin-bili-push
+[2023-07-31 10:42:23] INFO root fetch - main [MainThread]: End processing [l10n]: success
+[2023-07-31 10:42:23] ERROR root fetch - processPackages [pdf2md]: Unable to get metadata: No such project 'pdf2md'
+[2023-07-31 10:42:23] INFO root fetch - processPackages [pdf2md]: Start processing: tff-nightly
+[2023-07-31 10:42:23] INFO root fetch - main [MainThread]: End processing [pdf2md] error
+[2023-07-31 10:42:23] INFO root fetch - processPackages [soda-core-sqlserver]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-sqlserver-3.0.8.tar.gz]
+[2023-07-31 10:42:23] INFO root fetch - processPackages [soda-core-sqlserver]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-sqlserver-3.0.9.tar.gz]
+[2023-07-31 10:42:23] INFO root fetch - processPackages [soda-core-sqlserver]: Start processing: iqrfpy
+[2023-07-31 10:42:23] INFO root fetch - main [MainThread]: End processing [soda-core-sqlserver]: success
+[2023-07-31 10:42:23] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/79/51/5a21a9ccd447869b3965cb701828240137264e4f38a65566feab8d3f2ae9/oneat-6.2.3.tar.gz
+[2023-07-31 10:42:23] INFO root fetch - processPackages [frost-sta-client]: Downloading https://files.pythonhosted.org/packages/f4/b9/0a53a34ca925ae37ddd150b95ff8eb34b8de2e46bf39af38385af7fed5cf/frost_sta_client-1.1.8.tar.gz
+[2023-07-31 10:42:23] INFO root fetch - processPackages [quickscraper-sdk]: Downloading https://files.pythonhosted.org/packages/fe/d0/bc70464cbef3b01c52cd52a2fbcd7fe0f223db6bf84281f04add44799488/quickscraper_sdk-1.1.0-py3-none-any.whl
+[2023-07-31 10:42:23] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 10:42:23] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230730] Old Version: [0.0.1.dev20230729]
+[2023-07-31 10:42:23] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 10:42:23] INFO root fetch - processPackages [quickscraper-sdk]: executing diffoscope
+[2023-07-31 10:42:23] INFO root fetch - processPackages [quickscraper-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickscraper_sdk-1.0.9-py3-none-any.whl.zip tmp/quickscraper_sdk-1.1.0-py3-none-any.whl.zip --markdown 20230731/q/quickscraper-sdk/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-31 10:42:23] INFO root fetch - processPackages [django-check-seo]: Remove: archive file [/home/abi/fetcher/tmp/django-check-seo-0.6.3.tar.gz]
+[2023-07-31 10:42:23] INFO root fetch - processPackages [django-check-seo]: Remove: archive file [/home/abi/fetcher/tmp/django-check-seo-0.6.4.tar.gz]
+[2023-07-31 10:42:23] INFO root fetch - processPackages [django-check-seo]: Start processing: snowcross
+[2023-07-31 10:42:23] INFO root fetch - main [MainThread]: End processing [django-check-seo]: success
+[2023-07-31 10:42:23] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/3c/fe/590e630e4f2a481196c221bdabaa17c31e3bf70013dee7eabc914714b566/tff_nightly-0.0.1.dev20230729-py2.py3-none-any.whl
+[2023-07-31 10:42:23] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-07-31 10:42:23] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-07-31 10:42:23] INFO root fetch - processPackages [snowcross]: New version: [0.0.8] Old Version: [0.0.2]
+[2023-07-31 10:42:23] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-07-31 10:42:23] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-31 10:42:23] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-31 10:42:23] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-31 10:42:23] INFO root fetch - processPackages [frost-sta-client]: Downloading https://files.pythonhosted.org/packages/c1/da/20e3ed8d764ebaebac4c1d8b507d9f9072539dc1205575e111490d1690d6/frost_sta_client-1.1.9.tar.gz
+[2023-07-31 10:42:23] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-07-31 10:42:23] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230731/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 10:42:23] INFO root fetch - processPackages [snowcross]: Downloading https://files.pythonhosted.org/packages/73/8b/96c1e6f8f3676749c22fea2af1967f9e7cedc08b2604e340d88a447a066f/snowcross-0.0.2.tar.gz
+[2023-07-31 10:42:23] INFO root fetch - processPackages [frost-sta-client]: executing diffoscope
+[2023-07-31 10:42:23] INFO root fetch - processPackages [frost-sta-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frost_sta_client-1.1.8.tar.gz tmp/frost_sta_client-1.1.9.tar.gz --markdown 20230731/f/frost-sta-client/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-31 10:42:23] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/7a/de/eb6aaa4df9bfca89e16091310ba9209ee5026d1ad5eaaaa17aa8e4121daf/nonebot_plugin_bili_push-0.1.9.tar.gz
+[2023-07-31 10:42:24] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/56/9b/18db56aa9d0ab4c6b23cd2045a0693716a6574a2de832329c29478eae572/tff_nightly-0.0.1.dev20230730-py2.py3-none-any.whl
+[2023-07-31 10:42:24] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-07-31 10:42:24] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.8.tar.gz tmp/nonebot_plugin_bili_push-0.1.9.tar.gz --markdown 20230731/n/nonebot-plugin-bili-push/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 10:42:24] INFO root fetch - processPackages [snowcross]: Downloading https://files.pythonhosted.org/packages/35/2f/6ca4bcb6d4f22fad1372ce7bebbc8c31b4db70c1bcc6907dd7ca0632722f/snowcross-0.0.8.tar.gz
+[2023-07-31 10:42:24] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/2f/81/16be70a0cd3c0b64b8eb8ede6b689146a47c0ef19e1c9460f9a8e835a272/oneat-6.2.4.tar.gz
+[2023-07-31 10:42:24] INFO root fetch - processPackages [snowcross]: executing diffoscope
+[2023-07-31 10:42:24] INFO root fetch - processPackages [snowcross]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowcross-0.0.2.tar.gz tmp/snowcross-0.0.8.tar.gz --markdown 20230731/s/snowcross/0.0.2-0.0.8/diff.md --exclude *.pyd
+[2023-07-31 10:42:24] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-31 10:42:24] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230729-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230730-py2.py3-none-any.whl.zip --markdown 20230731/t/tff-nightly/0.0.1.dev20230729-0.0.1.dev20230730/diff.md --exclude *.pyd
+[2023-07-31 10:42:24] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-31 10:42:24] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-6.2.3.tar.gz tmp/oneat-6.2.4.tar.gz --markdown 20230731/o/oneat/6.2.3-6.2.4/diff.md --exclude *.pyd
+[2023-07-31 10:42:24] INFO root fetch - processPackages [quickscraper-sdk]: Remove: archive file [/home/abi/fetcher/tmp/quickscraper_sdk-1.0.9-py3-none-any.whl.zip]
+[2023-07-31 10:42:24] INFO root fetch - processPackages [quickscraper-sdk]: Remove: archive file [/home/abi/fetcher/tmp/quickscraper_sdk-1.1.0-py3-none-any.whl.zip]
+[2023-07-31 10:42:24] INFO root fetch - main [MainThread]: End processing [quickscraper-sdk]: success
+[2023-07-31 10:42:24] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.3.tar.gz]
+[2023-07-31 10:42:24] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.4.tar.gz]
+[2023-07-31 10:42:24] INFO root fetch - main [MainThread]: End processing [philander]: success
+[2023-07-31 10:42:25] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-07-31 10:42:25] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.9.tar.gz]
+[2023-07-31 10:42:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-07-31 10:42:25] INFO root fetch - processPackages [frost-sta-client]: Remove: archive file [/home/abi/fetcher/tmp/frost_sta_client-1.1.8.tar.gz]
+[2023-07-31 10:42:25] INFO root fetch - processPackages [frost-sta-client]: Remove: archive file [/home/abi/fetcher/tmp/frost_sta_client-1.1.9.tar.gz]
+[2023-07-31 10:42:25] INFO root fetch - main [MainThread]: End processing [frost-sta-client]: success
+[2023-07-31 10:42:25] INFO root fetch - processPackages [snowcross]: Remove: archive file [/home/abi/fetcher/tmp/snowcross-0.0.2.tar.gz]
+[2023-07-31 10:42:25] INFO root fetch - processPackages [snowcross]: Remove: archive file [/home/abi/fetcher/tmp/snowcross-0.0.8.tar.gz]
+[2023-07-31 10:42:25] INFO root fetch - main [MainThread]: End processing [snowcross]: success
+[2023-07-31 10:42:25] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.8.tar.gz]
+[2023-07-31 10:42:25] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
+[2023-07-31 10:42:25] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-07-31 10:42:26] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.2.3.tar.gz]
+[2023-07-31 10:42:26] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.2.4.tar.gz]
+[2023-07-31 10:42:26] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-31 10:42:26] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230729-py2.py3-none-any.whl.zip]
+[2023-07-31 10:42:26] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230730-py2.py3-none-any.whl.zip]
+[2023-07-31 10:42:26] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-31 10:42:27] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230731075809.tar.gz]
+[2023-07-31 10:42:27] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230731083906.tar.gz]
+[2023-07-31 10:42:27] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-31 10:42:27] INFO root fetch - main [MainThread]: Store serial: [19104797]
