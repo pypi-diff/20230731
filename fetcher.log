@@ -8040,3 +8040,62 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 07:50:54] INFO root fetch - processPackages [SlyAPI]: Remove: archive file [/home/abi/fetcher/tmp/SlyAPI-0.5.0.tar.gz]
 [2023-07-31 07:50:54] INFO root fetch - main [MainThread]: End processing [SlyAPI]: success
 [2023-07-31 07:50:54] INFO root fetch - main [MainThread]: Store serial: [19103068]
+[2023-07-31 07:55:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19103068]
+[2023-07-31 07:56:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-31 07:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tairHaystack
+[2023-07-31 07:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jmcomic
+[2023-07-31 07:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qctrl-client
+[2023-07-31 07:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tr
+[2023-07-31 07:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SlyYTDAPI
+[2023-07-31 07:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llamac2py
+[2023-07-31 07:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: promptplayground
+[2023-07-31 07:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atms-utils
+[2023-07-31 07:56:02] INFO root fetch - processPackages [tairHaystack]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 07:56:02] INFO root fetch - processPackages [tr]: New version: [2.6.5] Old Version: [2.6.3]
+[2023-07-31 07:56:02] INFO root fetch - processPackages [tairHaystack]: Downloading https://files.pythonhosted.org/packages/ac/d2/0354ddad2b40aa934d00418e95c2acec4d8efa9371cd7d3a840634a5f146/tairhaystack-0.0.2.tar.gz
+[2023-07-31 07:56:02] INFO root fetch - processPackages [SlyYTDAPI]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-31 07:56:02] WARNING root fetch - processPackages [atms-utils]: Skipping, unable to determine old version
+[2023-07-31 07:56:02] INFO root fetch - main [MainThread]: End processing [atms-utils] error
+[2023-07-31 07:56:02] WARNING root fetch - processPackages [promptplayground]: Skipping, unable to determine old version
+[2023-07-31 07:56:02] INFO root fetch - main [MainThread]: End processing [promptplayground] error
+[2023-07-31 07:56:02] INFO root fetch - processPackages [qctrl-client]: New version: [7.2.2] Old Version: [7.2.1]
+[2023-07-31 07:56:02] INFO root fetch - processPackages [llamac2py]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-31 07:56:02] INFO root fetch - processPackages [jmcomic]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-07-31 07:56:03] INFO root fetch - processPackages [tr]: Downloading https://files.pythonhosted.org/packages/b5/0a/2d3d5c4e2f337662ce445696e4877a2d96653bdbacc96b911ed85dc0e6f2/tr-2.6.3.tar.gz
+[2023-07-31 07:56:03] WARNING root fetch - processPackages [tr]: Skipping package: exceeds size limit 52909802>=10485760
+[2023-07-31 07:56:03] INFO root fetch - main [MainThread]: End processing [tr] error
+[2023-07-31 07:56:03] INFO root fetch - processPackages [SlyYTDAPI]: Downloading https://files.pythonhosted.org/packages/fa/79/814bd24b15cba47c2292107620acd7651a3456a8438cf66531abbc644c53/SlyYTDAPI-0.2.0.tar.gz
+[2023-07-31 07:56:03] INFO root fetch - processPackages [llamac2py]: Downloading https://files.pythonhosted.org/packages/8f/81/0fc805cf98105e0f498420bb9e45db55f0be196d9f1315a224c3bd8badc6/llamac2py-0.1.tar.gz
+[2023-07-31 07:56:03] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/35/00/16544a442065293e41e0c286d92f698eaeb29342d92c15b2122462558549/jmcomic-2.1.5.tar.gz
+[2023-07-31 07:56:03] INFO root fetch - processPackages [tairHaystack]: Downloading https://files.pythonhosted.org/packages/ee/37/53e2ad4982667c0ddb0aa36ee00cda29a17cadf9cf3f166723cdfb7eb538/tairHaystack-0.0.3.tar.gz
+[2023-07-31 07:56:03] INFO root fetch - processPackages [tairHaystack]: executing diffoscope
+[2023-07-31 07:56:03] INFO root fetch - processPackages [tairHaystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tairhaystack-0.0.2.tar.gz tmp/tairHaystack-0.0.3.tar.gz --markdown 20230731/t/tairHaystack/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 07:56:03] INFO root fetch - processPackages [qctrl-client]: Downloading https://files.pythonhosted.org/packages/eb/e8/1da8fa813cf34de9527f1e5e5fcf047c78566e799513d58564500c9daa83/qctrl_client-7.2.1.tar.gz
+[2023-07-31 07:56:03] INFO root fetch - processPackages [llamac2py]: Downloading https://files.pythonhosted.org/packages/4d/fb/5f37b53d98ae444752ce34ec37cbb76c8598bd65ef9a84a91808f6db400a/llamac2py-0.1.1.tar.gz
+[2023-07-31 07:56:03] INFO root fetch - processPackages [SlyYTDAPI]: Downloading https://files.pythonhosted.org/packages/02/d9/dc05067557e0bb953477d4b1a36e341cb6e63b6177b82bca3b4239a75284/SlyYTDAPI-0.3.0.tar.gz
+[2023-07-31 07:56:03] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/73/2c/51a00b0903d80012a8a627259807c890da205c3c5c452cd73429235b40e3/jmcomic-2.1.6.tar.gz
+[2023-07-31 07:56:03] INFO root fetch - processPackages [llamac2py]: executing diffoscope
+[2023-07-31 07:56:03] INFO root fetch - processPackages [llamac2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamac2py-0.1.tar.gz tmp/llamac2py-0.1.1.tar.gz --markdown 20230731/l/llamac2py/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 07:56:03] INFO root fetch - processPackages [SlyYTDAPI]: executing diffoscope
+[2023-07-31 07:56:03] INFO root fetch - processPackages [SlyYTDAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SlyYTDAPI-0.2.0.tar.gz tmp/SlyYTDAPI-0.3.0.tar.gz --markdown 20230731/S/SlyYTDAPI/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-31 07:56:03] INFO root fetch - processPackages [qctrl-client]: Downloading https://files.pythonhosted.org/packages/4d/11/2af30d4fa52c9e20f695a3181108f3397648fe3e612d8d61086551d5b9f1/qctrl_client-7.2.2.tar.gz
+[2023-07-31 07:56:03] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2023-07-31 07:56:03] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-2.1.5.tar.gz tmp/jmcomic-2.1.6.tar.gz --markdown 20230731/j/jmcomic/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-07-31 07:56:03] INFO root fetch - processPackages [qctrl-client]: executing diffoscope
+[2023-07-31 07:56:03] INFO root fetch - processPackages [qctrl-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_client-7.2.1.tar.gz tmp/qctrl_client-7.2.2.tar.gz --markdown 20230731/q/qctrl-client/7.2.1-7.2.2/diff.md --exclude *.pyd
+[2023-07-31 07:56:04] INFO root fetch - processPackages [tairHaystack]: Remove: archive file [/home/abi/fetcher/tmp/tairhaystack-0.0.2.tar.gz]
+[2023-07-31 07:56:04] INFO root fetch - processPackages [tairHaystack]: Remove: archive file [/home/abi/fetcher/tmp/tairHaystack-0.0.3.tar.gz]
+[2023-07-31 07:56:04] INFO root fetch - main [MainThread]: End processing [tairHaystack]: success
+[2023-07-31 07:56:04] INFO root fetch - processPackages [llamac2py]: Remove: archive file [/home/abi/fetcher/tmp/llamac2py-0.1.tar.gz]
+[2023-07-31 07:56:04] INFO root fetch - processPackages [llamac2py]: Remove: archive file [/home/abi/fetcher/tmp/llamac2py-0.1.1.tar.gz]
+[2023-07-31 07:56:04] INFO root fetch - main [MainThread]: End processing [llamac2py]: success
+[2023-07-31 07:56:04] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.1.5.tar.gz]
+[2023-07-31 07:56:04] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.1.6.tar.gz]
+[2023-07-31 07:56:04] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2023-07-31 07:56:04] INFO root fetch - processPackages [SlyYTDAPI]: Remove: archive file [/home/abi/fetcher/tmp/SlyYTDAPI-0.2.0.tar.gz]
+[2023-07-31 07:56:04] INFO root fetch - processPackages [SlyYTDAPI]: Remove: archive file [/home/abi/fetcher/tmp/SlyYTDAPI-0.3.0.tar.gz]
+[2023-07-31 07:56:04] INFO root fetch - main [MainThread]: End processing [SlyYTDAPI]: success
+[2023-07-31 07:56:04] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-7.2.1.tar.gz]
+[2023-07-31 07:56:04] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-7.2.2.tar.gz]
+[2023-07-31 07:56:04] INFO root fetch - main [MainThread]: End processing [qctrl-client]: success
+[2023-07-31 07:56:04] INFO root fetch - main [MainThread]: Store serial: [19103100]
