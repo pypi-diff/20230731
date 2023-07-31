@@ -5886,3 +5886,72 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 04:59:11] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.31.tar.gz]
 [2023-07-31 04:59:11] INFO root fetch - main [MainThread]: End processing [byquant]: success
 [2023-07-31 04:59:11] INFO root fetch - main [MainThread]: Store serial: [19102087]
+[2023-07-31 05:04:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102087]
+[2023-07-31 05:04:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-31 05:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: soursop
+[2023-07-31 05:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: model-connect
+[2023-07-31 05:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reflex
+[2023-07-31 05:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syntaxlight
+[2023-07-31 05:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omic-django-herald
+[2023-07-31 05:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: michaelPanExpediteLib
+[2023-07-31 05:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-ecosystem-flask
+[2023-07-31 05:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: harpia
+[2023-07-31 05:04:19] INFO root fetch - processPackages [reflex]: New version: [0.2.3a9] Old Version: [0.2.3a8]
+[2023-07-31 05:04:19] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.4] Old Version: [202307.0.38]
+[2023-07-31 05:04:19] INFO root fetch - processPackages [soursop]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-31 05:04:19] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 05:04:19] INFO root fetch - processPackages [omic-django-herald]: New version: [0.2.1.21] Old Version: [0.2.1.20]
+[2023-07-31 05:04:19] INFO root fetch - processPackages [harpia]: New version: [1.7] Old Version: [1.6]
+[2023-07-31 05:04:19] WARNING root fetch - processPackages [michaelPanExpediteLib]: Skipping, unable to determine old version
+[2023-07-31 05:04:19] INFO root fetch - main [MainThread]: End processing [michaelPanExpediteLib] error
+[2023-07-31 05:04:19] INFO root fetch - processPackages [model-connect]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-31 05:04:19] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/64/f9/eed291371f1f83962e2389114a664daa828ebe3cc2c7437b14d5067dd34e/reflex-0.2.3a8.tar.gz
+[2023-07-31 05:04:19] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-07-31 05:04:19] INFO root fetch - processPackages [model-connect]: Downloading https://files.pythonhosted.org/packages/cb/e7/a346b2e0e5fc3ac5d9717f431e9faedca19fc64cf840bf13bdb58eb15349/model-connect-0.0.3.tar.gz
+[2023-07-31 05:04:19] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/be/66/bbdc4d2b7e4db9614328ff78177068277b02c4ba72e045274a4cec643adb/data_ecosystem_flask-202307.0.38.tar.gz
+[2023-07-31 05:04:19] INFO root fetch - processPackages [soursop]: Downloading https://files.pythonhosted.org/packages/a5/28/bf3486fecbce619002890de298d0a5e11c10f6cfb2d6efced4046f1b45d1/soursop-0.2.3.tar.gz
+[2023-07-31 05:04:20] INFO root fetch - processPackages [omic-django-herald]: Downloading https://files.pythonhosted.org/packages/cc/30/55b03cc7bb4902c875cacab718cf823016beef6670ea59986e8a80d34554/omic-django-herald-0.2.1.20.tar.gz
+[2023-07-31 05:04:20] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/d7/93/4370fc063de862327d5e557e4049c445cc76bf44dee882917f979df51b83/harpia-1.6.tar.gz
+[2023-07-31 05:04:20] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-07-31 05:04:20] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/38/d2/0b6288ac028b0fbbc547f8eceab27fd5e8e6f31b8922c92a739099af840c/reflex-0.2.3a9.tar.gz
+[2023-07-31 05:04:20] INFO root fetch - processPackages [model-connect]: Downloading https://files.pythonhosted.org/packages/7b/cf/e94b31bce1173986594982589b9a41ff8e528ad3bc6eb9911011d996a800/model-connect-0.0.4.tar.gz
+[2023-07-31 05:04:20] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-31 05:04:20] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230731/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 05:04:20] INFO root fetch - processPackages [omic-django-herald]: Downloading https://files.pythonhosted.org/packages/80/87/87580869b171d01f829079b201726a2985fa79d108e3c4e2abbe95b9fe57/omic-django-herald-0.2.1.21.tar.gz
+[2023-07-31 05:04:20] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/b2/63/f9972c9325aaa8f072021458434c5735720e575e3a4875f4e556734529e8/data_ecosystem_flask-202307.0.4.tar.gz
+[2023-07-31 05:04:20] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2023-07-31 05:04:20] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.2.3a8.tar.gz tmp/reflex-0.2.3a9.tar.gz --markdown 20230731/r/reflex/0.2.3a8-0.2.3a9/diff.md --exclude *.pyd
+[2023-07-31 05:04:20] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/84/c0/1d16c40eb61af06884cdbb924d0fb669e40db9eb16992d65c48bd061e157/harpia-1.7.tar.gz
+[2023-07-31 05:04:20] INFO root fetch - processPackages [model-connect]: executing diffoscope
+[2023-07-31 05:04:20] INFO root fetch - processPackages [model-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-connect-0.0.3.tar.gz tmp/model-connect-0.0.4.tar.gz --markdown 20230731/m/model-connect/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-31 05:04:20] INFO root fetch - processPackages [omic-django-herald]: executing diffoscope
+[2023-07-31 05:04:20] INFO root fetch - processPackages [omic-django-herald]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omic-django-herald-0.2.1.20.tar.gz tmp/omic-django-herald-0.2.1.21.tar.gz --markdown 20230731/o/omic-django-herald/0.2.1.20-0.2.1.21/diff.md --exclude *.pyd
+[2023-07-31 05:04:20] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-07-31 05:04:20] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202307.0.38.tar.gz tmp/data_ecosystem_flask-202307.0.4.tar.gz --markdown 20230731/d/data-ecosystem-flask/202307.0.38-202307.0.4/diff.md --exclude *.pyd
+[2023-07-31 05:04:20] INFO root fetch - processPackages [soursop]: Downloading https://files.pythonhosted.org/packages/46/7c/ed0d47073b28595abdca03340c287aee27521ff39bf1f7b9fb86f8fb58b0/soursop-0.2.4.tar.gz
+[2023-07-31 05:04:20] INFO root fetch - processPackages [harpia]: executing diffoscope
+[2023-07-31 05:04:20] INFO root fetch - processPackages [harpia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harpia-1.6.tar.gz tmp/harpia-1.7.tar.gz --markdown 20230731/h/harpia/1.6-1.7/diff.md --exclude *.pyd
+[2023-07-31 05:04:21] INFO root fetch - processPackages [soursop]: executing diffoscope
+[2023-07-31 05:04:21] INFO root fetch - processPackages [soursop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soursop-0.2.3.tar.gz tmp/soursop-0.2.4.tar.gz --markdown 20230731/s/soursop/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-31 05:04:21] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-07-31 05:04:21] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-07-31 05:04:21] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-31 05:04:21] INFO root fetch - processPackages [model-connect]: Remove: archive file [/home/abi/fetcher/tmp/model-connect-0.0.3.tar.gz]
+[2023-07-31 05:04:21] INFO root fetch - processPackages [model-connect]: Remove: archive file [/home/abi/fetcher/tmp/model-connect-0.0.4.tar.gz]
+[2023-07-31 05:04:21] INFO root fetch - main [MainThread]: End processing [model-connect]: success
+[2023-07-31 05:04:21] INFO root fetch - processPackages [omic-django-herald]: Remove: archive file [/home/abi/fetcher/tmp/omic-django-herald-0.2.1.20.tar.gz]
+[2023-07-31 05:04:21] INFO root fetch - processPackages [omic-django-herald]: Remove: archive file [/home/abi/fetcher/tmp/omic-django-herald-0.2.1.21.tar.gz]
+[2023-07-31 05:04:21] INFO root fetch - main [MainThread]: End processing [omic-django-herald]: success
+[2023-07-31 05:04:21] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.38.tar.gz]
+[2023-07-31 05:04:21] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.4.tar.gz]
+[2023-07-31 05:04:21] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-07-31 05:04:22] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.3a8.tar.gz]
+[2023-07-31 05:04:22] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.3a9.tar.gz]
+[2023-07-31 05:04:22] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2023-07-31 05:04:22] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.6.tar.gz]
+[2023-07-31 05:04:22] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.7.tar.gz]
+[2023-07-31 05:04:22] INFO root fetch - main [MainThread]: End processing [harpia]: success
+[2023-07-31 05:04:22] INFO root fetch - processPackages [soursop]: Remove: archive file [/home/abi/fetcher/tmp/soursop-0.2.3.tar.gz]
+[2023-07-31 05:04:22] INFO root fetch - processPackages [soursop]: Remove: archive file [/home/abi/fetcher/tmp/soursop-0.2.4.tar.gz]
+[2023-07-31 05:04:22] INFO root fetch - main [MainThread]: End processing [soursop]: success
+[2023-07-31 05:04:22] INFO root fetch - main [MainThread]: Store serial: [19102112]
