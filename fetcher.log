@@ -6270,3 +6270,48 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 05:30:19] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.0.2043rc0.tar.gz]
 [2023-07-31 05:30:19] INFO root fetch - main [MainThread]: End processing [bbot]: success
 [2023-07-31 05:30:19] INFO root fetch - main [MainThread]: Store serial: [19102256]
+[2023-07-31 05:35:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102256]
+[2023-07-31 05:35:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-31 05:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoapi-django
+[2023-07-31 05:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zood
+[2023-07-31 05:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bsc-utils
+[2023-07-31 05:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idev-pycolor
+[2023-07-31 05:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: liangutil
+[2023-07-31 05:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: weekfivepackage
+[2023-07-31 05:35:28] INFO root fetch - processPackages [idev-pycolor]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-31 05:35:28] INFO root fetch - processPackages [bsc-utils]: New version: [1.0.2b0] Old Version: [1.0.2]
+[2023-07-31 05:35:28] INFO root fetch - processPackages [autoapi-django]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-31 05:35:28] WARNING root fetch - processPackages [liangutil]: Skipping, unable to determine old version
+[2023-07-31 05:35:28] INFO root fetch - main [MainThread]: End processing [liangutil] error
+[2023-07-31 05:35:28] INFO root fetch - processPackages [zood]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-31 05:35:28] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/8d/7c/4b61c6ea3db67f9169af041928d7212378da9f89bca0f2d586e9f1c8d53f/zood-0.8.3.tar.gz
+[2023-07-31 05:35:28] WARNING root fetch - processPackages [weekfivepackage]: Skipping, unable to determine old version
+[2023-07-31 05:35:28] INFO root fetch - main [MainThread]: End processing [weekfivepackage] error
+[2023-07-31 05:35:28] INFO root fetch - processPackages [bsc-utils]: Downloading https://files.pythonhosted.org/packages/f1/51/48b6cfdb16e094893e1cb47e1cfc457b95b12b6c1346819818d291584f50/bsc_utils-1.0.2.tar.gz
+[2023-07-31 05:35:28] INFO root fetch - processPackages [autoapi-django]: Downloading https://files.pythonhosted.org/packages/33/37/fdee8136fc0237aea9075a557a730240a9f626eff149eb5e8328776b4321/autoapi-django-0.9.1.tar.gz
+[2023-07-31 05:35:28] INFO root fetch - processPackages [idev-pycolor]: Downloading https://files.pythonhosted.org/packages/7a/9b/33a6ede1e470f2ee5c2a77d171621e973ee587d542b7bd555372129be3fc/idev-pycolor-1.0.1.tar.gz
+[2023-07-31 05:35:28] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/8f/2a/39cf66b8d8013795e0ca6b7d9e886923ab7eb2ae1ed371e2d9a7e4d1a483/zood-0.8.4.tar.gz
+[2023-07-31 05:35:28] INFO root fetch - processPackages [bsc-utils]: Downloading https://files.pythonhosted.org/packages/78/9f/303a735a1b8b02d12cbb8d1b5c29a00491056f53a79de77d5b6d5809d1d2/bsc_utils-1.0.2b0.tar.gz
+[2023-07-31 05:35:29] INFO root fetch - processPackages [autoapi-django]: Downloading https://files.pythonhosted.org/packages/4a/c8/e5fbd22789d51741011533765bab6db3930f338c9225d61686e4dec24027/autoapi-django-0.9.2.tar.gz
+[2023-07-31 05:35:29] INFO root fetch - processPackages [idev-pycolor]: Downloading https://files.pythonhosted.org/packages/83/25/4662705a4e1ab38e72a97f1a7dafb643a9e68d7ec64a23f1697db7f7d170/idev-pycolor-1.0.2.tar.gz
+[2023-07-31 05:35:29] INFO root fetch - processPackages [zood]: executing diffoscope
+[2023-07-31 05:35:29] INFO root fetch - processPackages [zood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zood-0.8.3.tar.gz tmp/zood-0.8.4.tar.gz --markdown 20230731/z/zood/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-31 05:35:29] INFO root fetch - processPackages [bsc-utils]: executing diffoscope
+[2023-07-31 05:35:29] INFO root fetch - processPackages [bsc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsc_utils-1.0.2.tar.gz tmp/bsc_utils-1.0.2b0.tar.gz --markdown 20230731/b/bsc-utils/1.0.2-1.0.2b0/diff.md --exclude *.pyd
+[2023-07-31 05:35:29] INFO root fetch - processPackages [autoapi-django]: executing diffoscope
+[2023-07-31 05:35:29] INFO root fetch - processPackages [autoapi-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoapi-django-0.9.1.tar.gz tmp/autoapi-django-0.9.2.tar.gz --markdown 20230731/a/autoapi-django/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-31 05:35:29] INFO root fetch - processPackages [idev-pycolor]: executing diffoscope
+[2023-07-31 05:35:29] INFO root fetch - processPackages [idev-pycolor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idev-pycolor-1.0.1.tar.gz tmp/idev-pycolor-1.0.2.tar.gz --markdown 20230731/i/idev-pycolor/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-31 05:35:30] INFO root fetch - processPackages [bsc-utils]: Remove: archive file [/home/abi/fetcher/tmp/bsc_utils-1.0.2.tar.gz]
+[2023-07-31 05:35:30] INFO root fetch - processPackages [bsc-utils]: Remove: archive file [/home/abi/fetcher/tmp/bsc_utils-1.0.2b0.tar.gz]
+[2023-07-31 05:35:30] INFO root fetch - main [MainThread]: End processing [bsc-utils]: success
+[2023-07-31 05:35:30] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.8.3.tar.gz]
+[2023-07-31 05:35:30] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.8.4.tar.gz]
+[2023-07-31 05:35:30] INFO root fetch - main [MainThread]: End processing [zood]: success
+[2023-07-31 05:35:30] INFO root fetch - processPackages [autoapi-django]: Remove: archive file [/home/abi/fetcher/tmp/autoapi-django-0.9.1.tar.gz]
+[2023-07-31 05:35:30] INFO root fetch - processPackages [autoapi-django]: Remove: archive file [/home/abi/fetcher/tmp/autoapi-django-0.9.2.tar.gz]
+[2023-07-31 05:35:30] INFO root fetch - main [MainThread]: End processing [autoapi-django]: success
+[2023-07-31 05:35:30] INFO root fetch - processPackages [idev-pycolor]: Remove: archive file [/home/abi/fetcher/tmp/idev-pycolor-1.0.1.tar.gz]
+[2023-07-31 05:35:30] INFO root fetch - processPackages [idev-pycolor]: Remove: archive file [/home/abi/fetcher/tmp/idev-pycolor-1.0.2.tar.gz]
+[2023-07-31 05:35:30] INFO root fetch - main [MainThread]: End processing [idev-pycolor]: success
+[2023-07-31 05:35:30] INFO root fetch - main [MainThread]: Store serial: [19102284]
