@@ -17801,3 +17801,124 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 14:06:42] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.3.4.tar.gz]
 [2023-07-31 14:06:42] INFO root fetch - main [MainThread]: End processing [oneat]: success
 [2023-07-31 14:06:42] INFO root fetch - main [MainThread]: Store serial: [19107084]
+[2023-07-31 14:11:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19107084]
+[2023-07-31 14:11:50] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-31 14:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moleculekit
+[2023-07-31 14:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MAZAlib
+[2023-07-31 14:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ftmq
+[2023-07-31 14:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wormcat-batch
+[2023-07-31 14:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arthub-api
+[2023-07-31 14:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ima-predeployed
+[2023-07-31 14:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: KorDigits
+[2023-07-31 14:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastembed
+[2023-07-31 14:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly-intel
+[2023-07-31 14:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: frigobar
+[2023-07-31 14:11:51] INFO root fetch - processPackages [fastembed]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-07-31 14:11:51] INFO root fetch - processPackages [KorDigits]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-31 14:11:51] WARNING root fetch - processPackages [frigobar]: Skipping, unable to determine old version
+[2023-07-31 14:11:51] INFO root fetch - processPackages [frigobar]: Start processing: nnd-app-sdk
+[2023-07-31 14:11:51] INFO root fetch - main [MainThread]: End processing [frigobar] error
+[2023-07-31 14:11:51] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 14:11:51] INFO root fetch - processPackages [wormcat-batch]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-31 14:11:51] INFO root fetch - processPackages [arthub-api]: New version: [1.8.6] Old Version: [1.8.5]
+[2023-07-31 14:11:51] INFO root fetch - processPackages [ftmq]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-07-31 14:11:51] INFO root fetch - processPackages [moleculekit]: New version: [1.7.7] Old Version: [1.7.6]
+[2023-07-31 14:11:51] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230730] Old Version: [2.14.0.dev20230729]
+[2023-07-31 14:11:51] INFO root fetch - processPackages [ima-predeployed]: New version: [2.0.0b5] Old Version: [2.0.0b4]
+[2023-07-31 14:11:51] WARNING root fetch - processPackages [nnd-app-sdk]: Skipping, unable to determine old version
+[2023-07-31 14:11:51] INFO root fetch - processPackages [nnd-app-sdk]: Start processing: dy-menu
+[2023-07-31 14:11:51] INFO root fetch - main [MainThread]: End processing [nnd-app-sdk] error
+[2023-07-31 14:11:51] INFO root fetch - processPackages [fastembed]: Downloading https://files.pythonhosted.org/packages/5b/1c/c2b0aeb27f60a825f93cd30369b91671152d4e8ca8b1d244feab761fd5c5/fastembed-0.0.1a2.tar.gz
+[2023-07-31 14:11:51] WARNING root fetch - processPackages [dy-menu]: Skipping, unable to determine old version
+[2023-07-31 14:11:51] INFO root fetch - processPackages [dy-menu]: Start processing: symbolicai
+[2023-07-31 14:11:51] INFO root fetch - main [MainThread]: End processing [dy-menu] error
+[2023-07-31 14:11:51] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/2e/42/b1c182d6e072c0e44f2a6906953ae83d4afd22f90e0e1b5f2d8c694d34c9/arthub_api-1.8.5.tar.gz
+[2023-07-31 14:11:51] INFO root fetch - processPackages [KorDigits]: Downloading https://files.pythonhosted.org/packages/72/12/09f4a3063211000a1e09b9ae7fb481f7dae327fc06126d93b7ee8d96d5fb/KorDigits-1.1.5-py3-none-any.whl
+[2023-07-31 14:11:51] INFO root fetch - processPackages [ftmq]: Downloading https://files.pythonhosted.org/packages/eb/19/65ecb5675a9b945022a6bee7e08af5152cc1f4f142795b59ea1b8cf5e625/ftmq-0.1.6.tar.gz
+[2023-07-31 14:11:51] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-31 14:11:51] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/50/f4/08487d2e9ffaf4c2459a82bdb215d7a1e77e96862254778678316ddb1a94/MAZAlib-0.0.8.tar.gz
+[2023-07-31 14:11:51] WARNING root fetch - processPackages [KorDigits]: Skipping package: exceeds size limit 61312242>=10485760
+[2023-07-31 14:11:51] INFO root fetch - processPackages [KorDigits]: Start processing: oneat
+[2023-07-31 14:11:51] INFO root fetch - main [MainThread]: End processing [KorDigits] error
+[2023-07-31 14:11:51] INFO root fetch - processPackages [moleculekit]: Downloading https://files.pythonhosted.org/packages/fa/63/993d55964a5afc9417ca31ab06a7d08f10b8fb38c63157bef0f350b4bb49/moleculekit-1.7.6.tar.gz
+[2023-07-31 14:11:51] INFO root fetch - processPackages [wormcat-batch]: Downloading https://files.pythonhosted.org/packages/9a/86/20bd4768a937d045c77ee32ba98bfb4124aa624b2a8e6b56acf98b749248/wormcat_batch-1.0.8.tar.gz
+[2023-07-31 14:11:51] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/08/b9/bdce816b8cdd4df27314d070da2c5ebbb63236e3a1b0cf211ba3f14907cf/ima-predeployed-2.0.0b4.tar.gz
+[2023-07-31 14:11:51] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/8e/1b/0d03df0aabe0977b12a7c598ed3cd86b3328f1b301f56b39be338c23180b/tf_nightly_intel-2.14.0.dev20230729-cp39-cp39-win_amd64.whl
+[2023-07-31 14:11:51] INFO root fetch - processPackages [oneat]: New version: [6.3.6] Old Version: [6.3.5]
+[2023-07-31 14:11:51] INFO root fetch - processPackages [fastembed]: Downloading https://files.pythonhosted.org/packages/c6/94/4cc9a72b7bd8e3c7d96681a260eb89aaaf455ec85dcb11b8703cf29320a4/fastembed-0.0.1a3.tar.gz
+[2023-07-31 14:11:51] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 184979355>=10485760
+[2023-07-31 14:11:51] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: python-roborock
+[2023-07-31 14:11:51] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-31 14:11:51] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-07-31 14:11:51] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/68/a8/622a608836c99fb67cddb28aa7365beee20586e41c7de98869079ae9d620/arthub_api-1.8.6.tar.gz
+[2023-07-31 14:11:51] INFO root fetch - processPackages [ftmq]: Downloading https://files.pythonhosted.org/packages/0f/17/b70d4ed50c25d8c6a428b38523886c47fc7ff10322d6f82aa5ca53ee6d09/ftmq-0.2.0.tar.gz
+[2023-07-31 14:11:52] INFO root fetch - processPackages [fastembed]: executing diffoscope
+[2023-07-31 14:11:52] INFO root fetch - processPackages [fastembed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastembed-0.0.1a2.tar.gz tmp/fastembed-0.0.1a3.tar.gz --markdown 20230731/f/fastembed/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-07-31 14:11:52] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/3d/f2/9215dfb23ef22337268f42a622c3ce88e0d7f820c53530078a93f5ebb8d4/oneat-6.3.5.tar.gz
+[2023-07-31 14:11:52] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/ee/bf/644071a273d92a917989a5acc834c89301fde3a6a32435ce6290de2d5504/MAZAlib-0.0.9.tar.gz
+[2023-07-31 14:11:52] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-07-31 14:11:52] INFO root fetch - processPackages [wormcat-batch]: Downloading https://files.pythonhosted.org/packages/3a/fa/ef7fe9c78cffb4fb7c9fb81cc8c5a3413bc72805c085d309a38c2c7b516a/wormcat_batch-1.0.9.tar.gz
+[2023-07-31 14:11:52] INFO root fetch - processPackages [ftmq]: executing diffoscope
+[2023-07-31 14:11:52] INFO root fetch - processPackages [ftmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftmq-0.1.6.tar.gz tmp/ftmq-0.2.0.tar.gz --markdown 20230731/f/ftmq/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-07-31 14:11:52] INFO root fetch - processPackages [arthub-api]: executing diffoscope
+[2023-07-31 14:11:52] INFO root fetch - processPackages [arthub-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_api-1.8.5.tar.gz tmp/arthub_api-1.8.6.tar.gz --markdown 20230731/a/arthub-api/1.8.5-1.8.6/diff.md --exclude *.pyd
+[2023-07-31 14:11:52] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-31 14:11:52] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.8.tar.gz tmp/MAZAlib-0.0.9.tar.gz --markdown 20230731/M/MAZAlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 14:11:52] INFO root fetch - processPackages [wormcat-batch]: executing diffoscope
+[2023-07-31 14:11:52] INFO root fetch - processPackages [wormcat-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wormcat_batch-1.0.8.tar.gz tmp/wormcat_batch-1.0.9.tar.gz --markdown 20230731/w/wormcat-batch/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 14:11:52] INFO root fetch - processPackages [moleculekit]: Downloading https://files.pythonhosted.org/packages/9b/3d/351d6444550ae455f20139e1d71ab138449c75b4a9782ac831dc9c6daa76/moleculekit-1.7.7.tar.gz
+[2023-07-31 14:11:52] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/bc/a5/7bd08437421c34e92b81b72e3d3eaf9ab00bc7dcca9dd03a427476c13e59/python_roborock-0.9.0.tar.gz
+[2023-07-31 14:11:52] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/a9/0e/ef5d7eb3448a991780c00717d55bcba8541e7daca8c87e3907ff012b3633/ima-predeployed-2.0.0b5.tar.gz
+[2023-07-31 14:11:52] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/40/9b/30bb82604def56c9a66db0578b68938e38bd30a9c931295d66012a137825/python_roborock-0.9.0rc0.tar.gz
+[2023-07-31 14:11:52] INFO root fetch - processPackages [ima-predeployed]: executing diffoscope
+[2023-07-31 14:11:52] INFO root fetch - processPackages [ima-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ima-predeployed-2.0.0b4.tar.gz tmp/ima-predeployed-2.0.0b5.tar.gz --markdown 20230731/i/ima-predeployed/2.0.0b4-2.0.0b5/diff.md --exclude *.pyd
+[2023-07-31 14:11:52] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-07-31 14:11:52] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230731/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-07-31 14:11:52] INFO root fetch - processPackages [fastembed]: Remove: archive file [/home/abi/fetcher/tmp/fastembed-0.0.1a2.tar.gz]
+[2023-07-31 14:11:52] INFO root fetch - processPackages [fastembed]: Remove: archive file [/home/abi/fetcher/tmp/fastembed-0.0.1a3.tar.gz]
+[2023-07-31 14:11:52] INFO root fetch - processPackages [fastembed]: Start processing: prometrix
+[2023-07-31 14:11:52] INFO root fetch - main [MainThread]: End processing [fastembed]: success
+[2023-07-31 14:11:53] INFO root fetch - processPackages [prometrix]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 14:11:53] INFO root fetch - processPackages [prometrix]: Downloading https://files.pythonhosted.org/packages/d6/7d/e6498ac2bc10ab7bd1d7b6a240a0949afeae19796fbe7fe66b97b3b63698/prometrix-0.1.8.tar.gz
+[2023-07-31 14:11:53] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.8.tar.gz]
+[2023-07-31 14:11:53] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.9.tar.gz]
+[2023-07-31 14:11:53] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-31 14:11:53] INFO root fetch - processPackages [moleculekit]: executing diffoscope
+[2023-07-31 14:11:53] INFO root fetch - processPackages [moleculekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moleculekit-1.7.6.tar.gz tmp/moleculekit-1.7.7.tar.gz --markdown 20230731/m/moleculekit/1.7.6-1.7.7/diff.md --exclude *.pyd
+[2023-07-31 14:11:53] INFO root fetch - processPackages [ftmq]: Remove: archive file [/home/abi/fetcher/tmp/ftmq-0.1.6.tar.gz]
+[2023-07-31 14:11:53] INFO root fetch - processPackages [ftmq]: Remove: archive file [/home/abi/fetcher/tmp/ftmq-0.2.0.tar.gz]
+[2023-07-31 14:11:53] INFO root fetch - main [MainThread]: End processing [ftmq]: success
+[2023-07-31 14:11:53] INFO root fetch - processPackages [wormcat-batch]: Remove: archive file [/home/abi/fetcher/tmp/wormcat_batch-1.0.8.tar.gz]
+[2023-07-31 14:11:53] INFO root fetch - processPackages [wormcat-batch]: Remove: archive file [/home/abi/fetcher/tmp/wormcat_batch-1.0.9.tar.gz]
+[2023-07-31 14:11:53] INFO root fetch - main [MainThread]: End processing [wormcat-batch]: success
+[2023-07-31 14:11:53] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-07-31 14:11:53] INFO root fetch - processPackages [prometrix]: Downloading https://files.pythonhosted.org/packages/f7/aa/209d2eabc5db1de1a35d3481ee72b1ae3164752af4884012ee4812d3d02e/prometrix-0.1.9.tar.gz
+[2023-07-31 14:11:53] INFO root fetch - processPackages [arthub-api]: Remove: archive file [/home/abi/fetcher/tmp/arthub_api-1.8.5.tar.gz]
+[2023-07-31 14:11:53] INFO root fetch - processPackages [arthub-api]: Remove: archive file [/home/abi/fetcher/tmp/arthub_api-1.8.6.tar.gz]
+[2023-07-31 14:11:53] INFO root fetch - main [MainThread]: End processing [arthub-api]: success
+[2023-07-31 14:11:53] INFO root fetch - processPackages [prometrix]: executing diffoscope
+[2023-07-31 14:11:53] INFO root fetch - processPackages [prometrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometrix-0.1.8.tar.gz tmp/prometrix-0.1.9.tar.gz --markdown 20230731/p/prometrix/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 14:11:53] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/fc/87/77b7c4d592ff7a37dfa1df3ae80efe92dac45e61a3a76b9a5b0d8d32da00/oneat-6.3.6.tar.gz
+[2023-07-31 14:11:54] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0.tar.gz]
+[2023-07-31 14:11:54] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0rc0.tar.gz]
+[2023-07-31 14:11:54] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-07-31 14:11:54] INFO root fetch - processPackages [prometrix]: Remove: archive file [/home/abi/fetcher/tmp/prometrix-0.1.8.tar.gz]
+[2023-07-31 14:11:54] INFO root fetch - processPackages [prometrix]: Remove: archive file [/home/abi/fetcher/tmp/prometrix-0.1.9.tar.gz]
+[2023-07-31 14:11:54] INFO root fetch - main [MainThread]: End processing [prometrix]: success
+[2023-07-31 14:11:54] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b4.tar.gz]
+[2023-07-31 14:11:54] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b5.tar.gz]
+[2023-07-31 14:11:54] INFO root fetch - main [MainThread]: End processing [ima-predeployed]: success
+[2023-07-31 14:11:54] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-31 14:11:54] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-6.3.5.tar.gz tmp/oneat-6.3.6.tar.gz --markdown 20230731/o/oneat/6.3.5-6.3.6/diff.md --exclude *.pyd
+[2023-07-31 14:11:55] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-07-31 14:11:55] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230731/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-31 14:11:56] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-07-31 14:11:56] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-07-31 14:11:56] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-07-31 14:11:56] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.3.5.tar.gz]
+[2023-07-31 14:11:56] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.3.6.tar.gz]
+[2023-07-31 14:11:56] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-31 14:11:59] INFO root fetch - processPackages [moleculekit]: Remove: archive file [/home/abi/fetcher/tmp/moleculekit-1.7.6.tar.gz]
+[2023-07-31 14:11:59] INFO root fetch - processPackages [moleculekit]: Remove: archive file [/home/abi/fetcher/tmp/moleculekit-1.7.7.tar.gz]
+[2023-07-31 14:11:59] INFO root fetch - main [MainThread]: End processing [moleculekit]: success
+[2023-07-31 14:11:59] INFO root fetch - main [MainThread]: Store serial: [19107135]
