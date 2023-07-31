@@ -8359,3 +8359,130 @@ AssertionError: tmp/llamac2py-0.1.3.tar.gz does not exist
 [2023-07-31 08:12:00] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230730.tar.gz]
 [2023-07-31 08:12:00] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-07-31 08:12:00] INFO root fetch - main [MainThread]: Store serial: [19103282]
+[2023-07-31 08:17:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19103282]
+[2023-07-31 08:17:09] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-31 08:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promptcreatives
+[2023-07-31 08:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: midpay
+[2023-07-31 08:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scranpy
+[2023-07-31 08:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-gui
+[2023-07-31 08:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s
+[2023-07-31 08:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: natchecker
+[2023-07-31 08:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: material-zui
+[2023-07-31 08:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ansys-api-discovery
+[2023-07-31 08:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyevspace
+[2023-07-31 08:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: abstract-gui
+[2023-07-31 08:17:09] INFO root fetch - processPackages [ansys-api-discovery]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-31 08:17:09] WARNING root fetch - processPackages [promptcreatives]: Skipping, unable to determine old version
+[2023-07-31 08:17:09] INFO root fetch - processPackages [promptcreatives]: Start processing: midify
+[2023-07-31 08:17:09] INFO root fetch - main [MainThread]: End processing [promptcreatives] error
+[2023-07-31 08:17:09] INFO root fetch - processPackages [scranpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 08:17:09] WARNING root fetch - processPackages [natchecker]: Skipping, unable to determine old version
+[2023-07-31 08:17:09] INFO root fetch - processPackages [natchecker]: Start processing: bilibili-download-icexmoon
+[2023-07-31 08:17:09] INFO root fetch - processPackages [material-zui]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-31 08:17:09] INFO root fetch - main [MainThread]: End processing [natchecker] error
+[2023-07-31 08:17:09] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.53.7] Old Version: [0.0.53.6]
+[2023-07-31 08:17:09] INFO root fetch - processPackages [pyevspace]: New version: [0.14.0] Old Version: [0.0.9]
+[2023-07-31 08:17:09] INFO root fetch - processPackages [midify]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-31 08:17:09] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.53.7] Old Version: [0.0.53.6]
+[2023-07-31 08:17:09] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-31 08:17:09] WARNING root fetch - processPackages [midpay]: Skipping, unable to determine old version
+[2023-07-31 08:17:09] INFO root fetch - processPackages [midpay]: Start processing: fyers-sdk
+[2023-07-31 08:17:09] INFO root fetch - main [MainThread]: End processing [midpay] error
+[2023-07-31 08:17:09] INFO root fetch - processPackages [bilibili-download-icexmoon]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 08:17:09] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/44/d7/a7fbbb8a9b5c88db39c515727580e258146789ceecc9750936fd1869d377/abstract_gui-0.0.53.6.tar.gz
+[2023-07-31 08:17:09] INFO root fetch - processPackages [fyers-sdk]: New version: [1.0.0] Old Version: [0.4]
+[2023-07-31 08:17:09] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/44/d7/a7fbbb8a9b5c88db39c515727580e258146789ceecc9750936fd1869d377/abstract_gui-0.0.53.6.tar.gz
+[2023-07-31 08:17:09] INFO root fetch - processPackages [scranpy]: Downloading https://files.pythonhosted.org/packages/55/c7/177750df9ac193501972728bcc8b2bfbfb2a96139b86bd660923177a136d/scranpy-0.0.2.tar.gz
+[2023-07-31 08:17:09] INFO root fetch - processPackages [ansys-api-discovery]: Downloading https://files.pythonhosted.org/packages/63/14/34f11f0dae6f9df153c28de4a534e25c200b30c8114beeccc0ecf63302d3/ansys-api-discovery-0.4.1.tar.gz
+[2023-07-31 08:17:09] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-07-31 08:17:09] INFO root fetch - processPackages [bilibili-download-icexmoon]: Downloading https://files.pythonhosted.org/packages/80/50/185ce51fef85f0a13d547c57583b9fc8fab953d76e5fea8733e85afb73da/bilibili-download-icexmoon-0.0.2.tar.gz
+[2023-07-31 08:17:09] INFO root fetch - processPackages [pyevspace]: Downloading https://files.pythonhosted.org/packages/c2/c5/2d7844e5dad8d71ad5a3fcdc00626ef9f1df7a97836bf1336405179b5d72/pyevspace-0.0.9.tar.gz
+[2023-07-31 08:17:09] INFO root fetch - processPackages [midify]: Downloading https://files.pythonhosted.org/packages/fa/53/fade98581f0e26b86e1b6e24b1ecf15865c7fa9017d4fb4c73f312997b0c/midify-0.1.1.tar.gz
+[2023-07-31 08:17:09] INFO root fetch - processPackages [material-zui]: Downloading https://files.pythonhosted.org/packages/2f/36/932fe104298e70c1e32cc604fa889d283f91dcb7fc8fbf093fd23e3cb193/material_zui-0.1.3.tar.gz
+[2023-07-31 08:17:09] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/a1/e2/0a1d85866d83b2222e179442b09fd5d36b8d0a0045e9e0842287fdeef049/fyers_sdk-0.4.tar.gz
+[2023-07-31 08:17:10] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/1d/e8/cecfc9e29c668245f492163bd43a77552bd7fc693e221d7f0d8aa2545ec8/abstract_gui-0.0.53.7.tar.gz
+[2023-07-31 08:17:10] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/1d/e8/cecfc9e29c668245f492163bd43a77552bd7fc693e221d7f0d8aa2545ec8/abstract_gui-0.0.53.7.tar.gz
+[2023-07-31 08:17:10] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-07-31 08:17:10] INFO root fetch - processPackages [bilibili-download-icexmoon]: Downloading https://files.pythonhosted.org/packages/05/7c/2c51a45964f97be6ba73f8d60baf867c8674566c354e4a8b05f8fc2bb458/bilibili-download-icexmoon-0.0.3.tar.gz
+[2023-07-31 08:17:10] INFO root fetch - processPackages [ansys-api-discovery]: Downloading https://files.pythonhosted.org/packages/e8/d7/f96f805e4725c166e1066240440efc3a60fcefd6c8b54fa1d1c034aeb338/ansys-api-discovery-0.4.2.tar.gz
+[2023-07-31 08:17:10] INFO root fetch - processPackages [scranpy]: Downloading https://files.pythonhosted.org/packages/d9/8a/82f535944392a0bab8fe18525cc33d385c024ad4d3e4d7e667fad91feda6/scranpy-0.0.3.tar.gz
+[2023-07-31 08:17:10] INFO root fetch - processPackages [pyevspace]: Downloading https://files.pythonhosted.org/packages/13/97/2899e6081dbcc7ca47402f60f3879b811414815b0b31762dec30116a9c3d/pyevspace-0.14.0.tar.gz
+[2023-07-31 08:17:10] INFO root fetch - processPackages [midify]: Downloading https://files.pythonhosted.org/packages/83/c5/4bbae37d0c0b3bd47c2c98ba682afe30f6a8d463db1cfdc8a1af49e08968/midify-0.2.0.tar.gz
+[2023-07-31 08:17:10] INFO root fetch - processPackages [material-zui]: Downloading https://files.pythonhosted.org/packages/ad/6d/eb611c219baffb54bb4fde54cb23f6e8000ec4e7329ab5c99972e37e1c72/material_zui-0.1.4.tar.gz
+[2023-07-31 08:17:10] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 08:17:10] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.53.6.tar.gz tmp/abstract_gui-0.0.53.7.tar.gz --markdown 20230731/a/abstract-gui/0.0.53.6-0.0.53.7/diff.md --exclude *.pyd
+[2023-07-31 08:17:10] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 08:17:10] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.53.6.tar.gz tmp/abstract_gui-0.0.53.7.tar.gz --markdown 20230731/a/abstract-gui/0.0.53.6-0.0.53.7/diff.md --exclude *.pyd
+[2023-07-31 08:17:10] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/c8/5f/06f8cf62cb2eaeacfd47d4ad7407c765872dc57f151d323fb1e8619aad9e/fyers_sdk-1.0.0.tar.gz
+[2023-07-31 08:17:10] INFO root fetch - processPackages [bilibili-download-icexmoon]: executing diffoscope
+[2023-07-31 08:17:10] INFO root fetch - processPackages [bilibili-download-icexmoon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilibili-download-icexmoon-0.0.2.tar.gz tmp/bilibili-download-icexmoon-0.0.3.tar.gz --markdown 20230731/b/bilibili-download-icexmoon/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 08:17:10] INFO root fetch - processPackages [ansys-api-discovery]: executing diffoscope
+[2023-07-31 08:17:10] INFO root fetch - processPackages [ansys-api-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-discovery-0.4.1.tar.gz tmp/ansys-api-discovery-0.4.2.tar.gz --markdown 20230731/a/ansys-api-discovery/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-31 08:17:10] INFO root fetch - processPackages [pyevspace]: executing diffoscope
+[2023-07-31 08:17:10] INFO root fetch - processPackages [pyevspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyevspace-0.0.9.tar.gz tmp/pyevspace-0.14.0.tar.gz --markdown 20230731/p/pyevspace/0.0.9-0.14.0/diff.md --exclude *.pyd
+[2023-07-31 08:17:10] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-31 08:17:10] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230731/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-31 08:17:10] INFO root fetch - processPackages [material-zui]: executing diffoscope
+[2023-07-31 08:17:10] INFO root fetch - processPackages [material-zui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/material_zui-0.1.3.tar.gz tmp/material_zui-0.1.4.tar.gz --markdown 20230731/m/material-zui/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-31 08:17:10] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-07-31 08:17:10] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-0.4.tar.gz tmp/fyers_sdk-1.0.0.tar.gz --markdown 20230731/f/fyers-sdk/0.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-31 08:17:10] INFO root fetch - processPackages [midify]: executing diffoscope
+[2023-07-31 08:17:10] INFO root fetch - processPackages [midify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midify-0.1.1.tar.gz tmp/midify-0.2.0.tar.gz --markdown 20230731/m/midify/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-31 08:17:10] INFO root fetch - processPackages [scranpy]: executing diffoscope
+[2023-07-31 08:17:10] INFO root fetch - processPackages [scranpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scranpy-0.0.2.tar.gz tmp/scranpy-0.0.3.tar.gz --markdown 20230731/s/scranpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 08:17:12] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.6.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.7.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - processPackages [abstract-gui]: Start processing: barcodes-uc
+[2023-07-31 08:17:12] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 08:17:12] INFO root fetch - processPackages [pyevspace]: Remove: archive file [/home/abi/fetcher/tmp/pyevspace-0.0.9.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - processPackages [pyevspace]: Remove: archive file [/home/abi/fetcher/tmp/pyevspace-0.14.0.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - processPackages [pyevspace]: Start processing: cdk8s
+[2023-07-31 08:17:12] INFO root fetch - main [MainThread]: End processing [pyevspace]: success
+[2023-07-31 08:17:12] INFO root fetch - processPackages [barcodes-uc]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-31 08:17:12] INFO root fetch - processPackages [abstract-gui]: Start processing: testApiGroup
+[2023-07-31 08:17:12] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 08:17:12] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-31 08:17:12] INFO root fetch - processPackages [testApiGroup]: New version: [1.0.0.2] Old Version: [1.0.0.1]
+[2023-07-31 08:17:12] INFO root fetch - processPackages [midify]: Remove: archive file [/home/abi/fetcher/tmp/midify-0.1.1.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - processPackages [midify]: Remove: archive file [/home/abi/fetcher/tmp/midify-0.2.0.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - main [MainThread]: End processing [midify]: success
+[2023-07-31 08:17:12] INFO root fetch - processPackages [bilibili-download-icexmoon]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-download-icexmoon-0.0.2.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - processPackages [bilibili-download-icexmoon]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-download-icexmoon-0.0.3.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - main [MainThread]: End processing [bilibili-download-icexmoon]: success
+[2023-07-31 08:17:12] INFO root fetch - processPackages [ansys-api-discovery]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-discovery-0.4.1.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - processPackages [ansys-api-discovery]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-discovery-0.4.2.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - main [MainThread]: End processing [ansys-api-discovery]: success
+[2023-07-31 08:17:12] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-0.4.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-1.0.0.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-07-31 08:17:12] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-31 08:17:12] INFO root fetch - processPackages [barcodes-uc]: Downloading https://files.pythonhosted.org/packages/f0/f3/565cbcedd6fca220c80738f5a836bc26d3e24f634f18ba5841645fce2ee1/barcodes_uc-0.5.0.tar.gz
+[2023-07-31 08:17:12] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-07-31 08:17:12] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/9c/61/c3d1b34e101db3311acfc1abe0b054adee84b6de9c9c31d6cfa604889fa1/testApiGroup-1.0.0.1.tar.gz
+[2023-07-31 08:17:12] INFO root fetch - processPackages [material-zui]: Remove: archive file [/home/abi/fetcher/tmp/material_zui-0.1.3.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - processPackages [material-zui]: Remove: archive file [/home/abi/fetcher/tmp/material_zui-0.1.4.tar.gz]
+[2023-07-31 08:17:12] INFO root fetch - main [MainThread]: End processing [material-zui]: success
+[2023-07-31 08:17:12] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-31 08:17:12] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230731/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-31 08:17:12] INFO root fetch - processPackages [barcodes-uc]: Downloading https://files.pythonhosted.org/packages/cc/1e/fe1d15db7c7087d69455b67424a8ec974718a4011b96f8a41c238e7a5b03/barcodes_uc-0.6.0.tar.gz
+[2023-07-31 08:17:12] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/27/f5/a10a455030fb7cec91eaa994cb8a2c3804764aa755ad607e0ba84c746b0a/testApiGroup-1.0.0.2.tar.gz
+[2023-07-31 08:17:12] INFO root fetch - processPackages [barcodes-uc]: executing diffoscope
+[2023-07-31 08:17:12] INFO root fetch - processPackages [barcodes-uc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barcodes_uc-0.5.0.tar.gz tmp/barcodes_uc-0.6.0.tar.gz --markdown 20230731/b/barcodes-uc/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-31 08:17:12] INFO root fetch - processPackages [testApiGroup]: executing diffoscope
+[2023-07-31 08:17:12] INFO root fetch - processPackages [testApiGroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testApiGroup-1.0.0.1.tar.gz tmp/testApiGroup-1.0.0.2.tar.gz --markdown 20230731/t/testApiGroup/1.0.0.1-1.0.0.2/diff.md --exclude *.pyd
+[2023-07-31 08:17:13] ERROR root fetch - processPackages [cdk8s]: Diffoscope failed: time="2023-07-31T08:17:12+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/cdk8s-2.8.0.tar.gz: No such file or directory
+
+[2023-07-31 08:17:13] INFO root fetch - main [MainThread]: End processing [cdk8s] error
+[2023-07-31 08:17:13] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.1.tar.gz]
+[2023-07-31 08:17:13] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.2.tar.gz]
+[2023-07-31 08:17:13] INFO root fetch - main [MainThread]: End processing [testApiGroup]: success
+[2023-07-31 08:17:13] INFO root fetch - processPackages [barcodes-uc]: Remove: archive file [/home/abi/fetcher/tmp/barcodes_uc-0.5.0.tar.gz]
+[2023-07-31 08:17:13] INFO root fetch - processPackages [barcodes-uc]: Remove: archive file [/home/abi/fetcher/tmp/barcodes_uc-0.6.0.tar.gz]
+[2023-07-31 08:17:13] INFO root fetch - main [MainThread]: End processing [barcodes-uc]: success
+[2023-07-31 08:17:16] INFO root fetch - processPackages [scranpy]: Remove: archive file [/home/abi/fetcher/tmp/scranpy-0.0.2.tar.gz]
+[2023-07-31 08:17:16] INFO root fetch - processPackages [scranpy]: Remove: archive file [/home/abi/fetcher/tmp/scranpy-0.0.3.tar.gz]
+[2023-07-31 08:17:16] INFO root fetch - main [MainThread]: End processing [scranpy]: success
+[2023-07-31 08:17:16] INFO root fetch - main [MainThread]: Store serial: [19103347]
