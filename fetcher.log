@@ -8649,3 +8649,69 @@ AssertionError: tmp/llamac2py-0.1.3.tar.gz does not exist
 [2023-07-31 08:27:45] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230731.tar.gz]
 [2023-07-31 08:27:45] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-31 08:27:45] INFO root fetch - main [MainThread]: Store serial: [19103415]
+[2023-07-31 08:32:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19103415]
+[2023-07-31 08:32:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-31 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maxware-tsp-cli
+[2023-07-31 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dingman-openapi-server
+[2023-07-31 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: v2rayp
+[2023-07-31 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmem-plugin-csvcombine
+[2023-07-31 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testApiGroup
+[2023-07-31 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ulid-rs-py
+[2023-07-31 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: email-extractor-unicode
+[2023-07-31 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hotel-manage-soumya
+[2023-07-31 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Products.Formulator
+[2023-07-31 08:32:54] INFO root fetch - processPackages [Products.Formulator]: New version: [2.1] Old Version: [2.0.dev0]
+[2023-07-31 08:32:54] INFO root fetch - processPackages [ulid-rs-py]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 08:32:54] INFO root fetch - processPackages [testApiGroup]: New version: [1.0.0.3] Old Version: [1.0.0.2]
+[2023-07-31 08:32:54] INFO root fetch - processPackages [maxware-tsp-cli]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-31 08:32:54] WARNING root fetch - processPackages [cmem-plugin-csvcombine]: Skipping, unable to determine old version
+[2023-07-31 08:32:54] INFO root fetch - main [MainThread]: End processing [cmem-plugin-csvcombine] error
+[2023-07-31 08:32:54] WARNING root fetch - processPackages [email-extractor-unicode]: Skipping, unable to determine old version
+[2023-07-31 08:32:54] INFO root fetch - main [MainThread]: End processing [email-extractor-unicode] error
+[2023-07-31 08:32:54] INFO root fetch - processPackages [hotel-manage-soumya]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-31 08:32:54] WARNING root fetch - processPackages [v2rayp]: Skipping, unable to determine old version
+[2023-07-31 08:32:54] INFO root fetch - main [MainThread]: End processing [v2rayp] error
+[2023-07-31 08:32:54] INFO root fetch - processPackages [dingman-openapi-server]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-31 08:32:54] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/27/f5/a10a455030fb7cec91eaa994cb8a2c3804764aa755ad607e0ba84c746b0a/testApiGroup-1.0.0.2.tar.gz
+[2023-07-31 08:32:54] INFO root fetch - processPackages [ulid-rs-py]: Downloading https://files.pythonhosted.org/packages/03/2d/0eddf8624a7987a66c8fa65ddaaea683f31304a292ac4a55f4b6a0da54cc/ulid_rs_py-0.1.1.tar.gz
+[2023-07-31 08:32:54] INFO root fetch - processPackages [hotel-manage-soumya]: Downloading https://files.pythonhosted.org/packages/dc/ce/f029bd0cfe75cf38a9214610130846ae408b68ba6277264afba43709e0ec/hotel_manage_soumya-0.0.3.tar.gz
+[2023-07-31 08:32:54] INFO root fetch - processPackages [maxware-tsp-cli]: Downloading https://files.pythonhosted.org/packages/ab/60/d2a949d76c920d76ce9f9b090b47ba5f937decfb1225ae8873e0765d9c02/maxware_tsp_cli-0.1.0.tar.gz
+[2023-07-31 08:32:54] INFO root fetch - processPackages [Products.Formulator]: Downloading https://files.pythonhosted.org/packages/58/c2/afc6625d822adb459cf5699e3dcbc77c45e5e6a08aba4daca1a706c65361/Products.Formulator-2.0.dev0.tar.gz
+[2023-07-31 08:32:54] INFO root fetch - processPackages [dingman-openapi-server]: Downloading https://files.pythonhosted.org/packages/57/65/1077530ddbe2be65358ac199a9a218f2523693283ba63db5e2588b3933f1/dingman_openapi_server-1.0.3.tar.gz
+[2023-07-31 08:32:54] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/a0/c8/2a88521f5f5083d5c1893e4fc90875bbb7add87996c98b6d03171cc8bfcc/testApiGroup-1.0.0.3.tar.gz
+[2023-07-31 08:32:54] INFO root fetch - processPackages [ulid-rs-py]: Downloading https://files.pythonhosted.org/packages/5a/52/c9db0036ed6ab7810ae21a3bb1d98169a1d7cfcacabc83343ea8195dc042/ulid_rs_py-0.1.2.tar.gz
+[2023-07-31 08:32:55] INFO root fetch - processPackages [maxware-tsp-cli]: Downloading https://files.pythonhosted.org/packages/8e/53/b5dc81ececd34c201bda63d12f9a6bb414e8249397453ff57315431ea0a5/maxware_tsp_cli-0.2.0.tar.gz
+[2023-07-31 08:32:55] INFO root fetch - processPackages [dingman-openapi-server]: Downloading https://files.pythonhosted.org/packages/10/90/189b1f5486855c857eb9d800a25498a4589579d1659403dd60f63a708b7c/dingman_openapi_server-1.0.4.tar.gz
+[2023-07-31 08:32:55] INFO root fetch - processPackages [testApiGroup]: executing diffoscope
+[2023-07-31 08:32:55] INFO root fetch - processPackages [testApiGroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testApiGroup-1.0.0.2.tar.gz tmp/testApiGroup-1.0.0.3.tar.gz --markdown 20230731/t/testApiGroup/1.0.0.2-1.0.0.3/diff.md --exclude *.pyd
+[2023-07-31 08:32:55] INFO root fetch - processPackages [Products.Formulator]: Downloading https://files.pythonhosted.org/packages/23/2a/df777fc883e09d23401ff96e33252ae867016060356c253c672214098037/Products.Formulator-2.1.tar.gz
+[2023-07-31 08:32:55] INFO root fetch - processPackages [ulid-rs-py]: executing diffoscope
+[2023-07-31 08:32:55] INFO root fetch - processPackages [ulid-rs-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ulid_rs_py-0.1.1.tar.gz tmp/ulid_rs_py-0.1.2.tar.gz --markdown 20230731/u/ulid-rs-py/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 08:32:55] INFO root fetch - processPackages [hotel-manage-soumya]: Downloading https://files.pythonhosted.org/packages/fc/8b/19a1bd3ab9297dc1eb4a014f15cd8af5d0bbb2fc3cc4177b19f9907a812d/hotel_manage_soumya-0.0.4.tar.gz
+[2023-07-31 08:32:55] INFO root fetch - processPackages [dingman-openapi-server]: executing diffoscope
+[2023-07-31 08:32:55] INFO root fetch - processPackages [dingman-openapi-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingman_openapi_server-1.0.3.tar.gz tmp/dingman_openapi_server-1.0.4.tar.gz --markdown 20230731/d/dingman-openapi-server/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-31 08:32:55] INFO root fetch - processPackages [Products.Formulator]: executing diffoscope
+[2023-07-31 08:32:55] INFO root fetch - processPackages [Products.Formulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.Formulator-2.0.dev0.tar.gz tmp/Products.Formulator-2.1.tar.gz --markdown 20230731/P/Products.Formulator/2.0.dev0-2.1/diff.md --exclude *.pyd
+[2023-07-31 08:32:55] INFO root fetch - processPackages [maxware-tsp-cli]: executing diffoscope
+[2023-07-31 08:32:55] INFO root fetch - processPackages [maxware-tsp-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxware_tsp_cli-0.1.0.tar.gz tmp/maxware_tsp_cli-0.2.0.tar.gz --markdown 20230731/m/maxware-tsp-cli/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-31 08:32:56] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.2.tar.gz]
+[2023-07-31 08:32:56] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.3.tar.gz]
+[2023-07-31 08:32:56] INFO root fetch - main [MainThread]: End processing [testApiGroup]: success
+[2023-07-31 08:32:56] INFO root fetch - processPackages [ulid-rs-py]: Remove: archive file [/home/abi/fetcher/tmp/ulid_rs_py-0.1.1.tar.gz]
+[2023-07-31 08:32:56] INFO root fetch - processPackages [ulid-rs-py]: Remove: archive file [/home/abi/fetcher/tmp/ulid_rs_py-0.1.2.tar.gz]
+[2023-07-31 08:32:56] INFO root fetch - main [MainThread]: End processing [ulid-rs-py]: success
+[2023-07-31 08:32:56] INFO root fetch - processPackages [dingman-openapi-server]: Remove: archive file [/home/abi/fetcher/tmp/dingman_openapi_server-1.0.3.tar.gz]
+[2023-07-31 08:32:56] INFO root fetch - processPackages [dingman-openapi-server]: Remove: archive file [/home/abi/fetcher/tmp/dingman_openapi_server-1.0.4.tar.gz]
+[2023-07-31 08:32:56] INFO root fetch - main [MainThread]: End processing [dingman-openapi-server]: success
+[2023-07-31 08:32:56] INFO root fetch - processPackages [hotel-manage-soumya]: executing diffoscope
+[2023-07-31 08:32:56] INFO root fetch - processPackages [hotel-manage-soumya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotel_manage_soumya-0.0.3.tar.gz tmp/hotel_manage_soumya-0.0.4.tar.gz --markdown 20230731/h/hotel-manage-soumya/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-31 08:32:56] INFO root fetch - processPackages [maxware-tsp-cli]: Remove: archive file [/home/abi/fetcher/tmp/maxware_tsp_cli-0.1.0.tar.gz]
+[2023-07-31 08:32:56] INFO root fetch - processPackages [maxware-tsp-cli]: Remove: archive file [/home/abi/fetcher/tmp/maxware_tsp_cli-0.2.0.tar.gz]
+[2023-07-31 08:32:56] INFO root fetch - main [MainThread]: End processing [maxware-tsp-cli]: success
+[2023-07-31 08:32:56] INFO root fetch - processPackages [Products.Formulator]: Remove: archive file [/home/abi/fetcher/tmp/Products.Formulator-2.0.dev0.tar.gz]
+[2023-07-31 08:32:56] INFO root fetch - processPackages [Products.Formulator]: Remove: archive file [/home/abi/fetcher/tmp/Products.Formulator-2.1.tar.gz]
+[2023-07-31 08:32:56] INFO root fetch - main [MainThread]: End processing [Products.Formulator]: success
+[2023-07-31 08:33:10] INFO root fetch - processPackages [hotel-manage-soumya]: Remove: archive file [/home/abi/fetcher/tmp/hotel_manage_soumya-0.0.3.tar.gz]
+[2023-07-31 08:33:10] INFO root fetch - processPackages [hotel-manage-soumya]: Remove: archive file [/home/abi/fetcher/tmp/hotel_manage_soumya-0.0.4.tar.gz]
+[2023-07-31 08:33:10] INFO root fetch - main [MainThread]: End processing [hotel-manage-soumya]: success
+[2023-07-31 08:33:10] INFO root fetch - main [MainThread]: Store serial: [19103484]
