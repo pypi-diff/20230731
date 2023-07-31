@@ -6576,3 +6576,145 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 06:01:27] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.2.2.tar.gz]
 [2023-07-31 06:01:27] INFO root fetch - main [MainThread]: End processing [cPyparsing]: success
 [2023-07-31 06:01:27] INFO root fetch - main [MainThread]: Store serial: [19102424]
+[2023-07-31 06:06:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102424]
+[2023-07-31 06:06:36] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-31 06:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinject-design
+[2023-07-31 06:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentiment-analysis-tagit
+[2023-07-31 06:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentiment-analysis-tagit
+[2023-07-31 06:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sentiment-analysis-tagit
+[2023-07-31 06:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llamac2py
+[2023-07-31 06:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py3simplesoap
+[2023-07-31 06:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stdflow
+[2023-07-31 06:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightning-template
+[2023-07-31 06:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stdflow
+[2023-07-31 06:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: abstract-gui
+[2023-07-31 06:06:36] INFO root fetch - processPackages [stdflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 06:06:36] INFO root fetch - processPackages [py3simplesoap]: New version: [0.3] Old Version: [0.2]
+[2023-07-31 06:06:36] INFO root fetch - processPackages [stdflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 06:06:36] INFO root fetch - processPackages [pinject-design]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-31 06:06:36] WARNING root fetch - processPackages [llamac2py]: Skipping, unable to determine old version
+[2023-07-31 06:06:36] INFO root fetch - processPackages [llamac2py]: Start processing: gehomesdk
+[2023-07-31 06:06:36] INFO root fetch - main [MainThread]: End processing [llamac2py] error
+[2023-07-31 06:06:36] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.51.15] Old Version: [0.0.51.14]
+[2023-07-31 06:06:36] INFO root fetch - processPackages [lightning-template]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-31 06:06:36] INFO root fetch - processPackages [sentiment-analysis-tagit]: New version: [0.3] Old Version: [0.2]
+[2023-07-31 06:06:36] INFO root fetch - processPackages [sentiment-analysis-tagit]: New version: [0.3] Old Version: [0.2]
+[2023-07-31 06:06:36] INFO root fetch - processPackages [sentiment-analysis-tagit]: New version: [0.3] Old Version: [0.2]
+[2023-07-31 06:06:36] INFO root fetch - processPackages [gehomesdk]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-31 06:06:36] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/37/2b/dc718c9a789aae941c5744468c42fa99c1ca83c6fc824add3debc6df543d/stdflow-0.0.8.tar.gz
+[2023-07-31 06:06:36] INFO root fetch - processPackages [py3simplesoap]: Downloading https://files.pythonhosted.org/packages/31/6c/4b393dc37023f43ccdb3af8fd585e354c740f2433bdee4d7504b14003e4b/py3simplesoap-0.2.tar.gz
+[2023-07-31 06:06:36] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a7/9f/a4979c34444f0a828e5df54e2be1ecaadcee3d75fe7d9f80a08d4c4eac3b/pinject_design-0.1.98.tar.gz
+[2023-07-31 06:06:36] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/37/2b/dc718c9a789aae941c5744468c42fa99c1ca83c6fc824add3debc6df543d/stdflow-0.0.8.tar.gz
+[2023-07-31 06:06:36] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/b0/f6/93dd37bc2b94d5d7e2f8e63f530f55054f1148cf88c1d5a27266686cbd78/abstract_gui-0.0.51.14.tar.gz
+[2023-07-31 06:06:37] INFO root fetch - processPackages [gehomesdk]: Downloading https://files.pythonhosted.org/packages/78/e5/65dceafdeed2a83f4b797c95f5b80947cac4ec3190896167f2cd247dc1a0/gehomesdk-0.5.8.tar.gz
+[2023-07-31 06:06:37] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/02/11/7adc65a37051e683e640c2d809c7c632b057a921dc18e048fec2653ec093/lightning-template-1.1.8.tar.gz
+[2023-07-31 06:06:37] INFO root fetch - processPackages [sentiment-analysis-tagit]: Downloading https://files.pythonhosted.org/packages/e8/3b/8c3c4955cb00f950bc64d80d5de725c485f6c6ee0291f458a10c6edf19ce/sentiment-analysis-tagit-0.2.tar.gz
+[2023-07-31 06:06:37] INFO root fetch - processPackages [sentiment-analysis-tagit]: Downloading https://files.pythonhosted.org/packages/e8/3b/8c3c4955cb00f950bc64d80d5de725c485f6c6ee0291f458a10c6edf19ce/sentiment-analysis-tagit-0.2.tar.gz
+[2023-07-31 06:06:37] INFO root fetch - processPackages [sentiment-analysis-tagit]: Downloading https://files.pythonhosted.org/packages/e8/3b/8c3c4955cb00f950bc64d80d5de725c485f6c6ee0291f458a10c6edf19ce/sentiment-analysis-tagit-0.2.tar.gz
+[2023-07-31 06:06:37] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/93/a7/7a92845fb1a7092159c2fbc2b23c0b733e7c93e5cd012f6538ca900ea3b6/stdflow-0.0.9-py3-none-any.whl
+[2023-07-31 06:06:37] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/93/a7/7a92845fb1a7092159c2fbc2b23c0b733e7c93e5cd012f6538ca900ea3b6/stdflow-0.0.9-py3-none-any.whl
+[2023-07-31 06:06:37] INFO root fetch - processPackages [gehomesdk]: Downloading https://files.pythonhosted.org/packages/5d/14/ca1060e76076aab267e2a6e7dccae7575d443a3075ccc7203d8704e52b3a/gehomesdk-0.5.9.tar.gz
+[2023-07-31 06:06:37] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a1/60/23fa127950edf1bf1131253d21bdf092cb149e44bdf95f1e99ddd8a07170/pinject_design-0.1.99.tar.gz
+[2023-07-31 06:06:37] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/aa/1f/e8481adc374506244c1f3803d9d995eec575e6b2f78cf9d0bcd59bd921f6/abstract_gui-0.0.51.15.tar.gz
+[2023-07-31 06:06:37] INFO root fetch - processPackages [py3simplesoap]: Downloading https://files.pythonhosted.org/packages/b4/fc/975e8879f842070316e6a6c0269cc6304b2fede29ab9d7e3431e50ac4b52/py3simplesoap-0.3.tar.gz
+[2023-07-31 06:06:37] INFO root fetch - processPackages [sentiment-analysis-tagit]: Downloading https://files.pythonhosted.org/packages/f5/55/2d6e2b0e504ebfc81286e060219db9bff1542d587e853bc798cd6b8b6742/sentiment-analysis-tagit-0.3.tar.gz
+[2023-07-31 06:06:37] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/cf/fe/1a264a7e34660333c7c10d1ccfb94df7732b6a0c3642962392c7fb8f8dfd/lightning-template-1.1.9.tar.gz
+[2023-07-31 06:06:37] INFO root fetch - processPackages [sentiment-analysis-tagit]: Downloading https://files.pythonhosted.org/packages/f5/55/2d6e2b0e504ebfc81286e060219db9bff1542d587e853bc798cd6b8b6742/sentiment-analysis-tagit-0.3.tar.gz
+[2023-07-31 06:06:37] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-31 06:06:37] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.8.tar.gz tmp/stdflow-0.0.9-py3-none-any.whl.zip --markdown 20230731/s/stdflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 06:06:37] INFO root fetch - processPackages [sentiment-analysis-tagit]: Downloading https://files.pythonhosted.org/packages/f5/55/2d6e2b0e504ebfc81286e060219db9bff1542d587e853bc798cd6b8b6742/sentiment-analysis-tagit-0.3.tar.gz
+[2023-07-31 06:06:37] INFO root fetch - processPackages [gehomesdk]: executing diffoscope
+[2023-07-31 06:06:37] INFO root fetch - processPackages [gehomesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gehomesdk-0.5.8.tar.gz tmp/gehomesdk-0.5.9.tar.gz --markdown 20230731/g/gehomesdk/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-31 06:06:37] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-31 06:06:37] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.8.tar.gz tmp/stdflow-0.0.9-py3-none-any.whl.zip --markdown 20230731/s/stdflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 06:06:37] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-31 06:06:37] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.98.tar.gz tmp/pinject_design-0.1.99.tar.gz --markdown 20230731/p/pinject-design/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-31 06:06:37] INFO root fetch - processPackages [sentiment-analysis-tagit]: executing diffoscope
+[2023-07-31 06:06:37] INFO root fetch - processPackages [sentiment-analysis-tagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment-analysis-tagit-0.2.tar.gz tmp/sentiment-analysis-tagit-0.3.tar.gz --markdown 20230731/s/sentiment-analysis-tagit/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-31 06:06:37] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-07-31 06:06:37] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.1.8.tar.gz tmp/lightning-template-1.1.9.tar.gz --markdown 20230731/l/lightning-template/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-31 06:06:37] INFO root fetch - processPackages [sentiment-analysis-tagit]: executing diffoscope
+[2023-07-31 06:06:37] INFO root fetch - processPackages [sentiment-analysis-tagit]: executing diffoscope
+[2023-07-31 06:06:37] INFO root fetch - processPackages [sentiment-analysis-tagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment-analysis-tagit-0.2.tar.gz tmp/sentiment-analysis-tagit-0.3.tar.gz --markdown 20230731/s/sentiment-analysis-tagit/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-31 06:06:37] INFO root fetch - processPackages [sentiment-analysis-tagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment-analysis-tagit-0.2.tar.gz tmp/sentiment-analysis-tagit-0.3.tar.gz --markdown 20230731/s/sentiment-analysis-tagit/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-31 06:06:37] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 06:06:37] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.51.14.tar.gz tmp/abstract_gui-0.0.51.15.tar.gz --markdown 20230731/a/abstract-gui/0.0.51.14-0.0.51.15/diff.md --exclude *.pyd
+[2023-07-31 06:06:37] INFO root fetch - processPackages [py3simplesoap]: executing diffoscope
+[2023-07-31 06:06:37] INFO root fetch - processPackages [py3simplesoap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3simplesoap-0.2.tar.gz tmp/py3simplesoap-0.3.tar.gz --markdown 20230731/p/py3simplesoap/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-31 06:06:39] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.8.tar.gz]
+[2023-07-31 06:06:39] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-31 06:06:39] INFO root fetch - processPackages [stdflow]: Start processing: chromedriver-binary
+[2023-07-31 06:06:39] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-31 06:06:39] INFO root fetch - processPackages [stdflow]: Start processing: harpia
+[2023-07-31 06:06:39] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-31 06:06:39] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-07-31 06:06:39] INFO root fetch - processPackages [harpia]: New version: [1.9] Old Version: [1.8]
+[2023-07-31 06:06:39] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-07-31 06:06:39] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/b9/bd/bec9e26fa006f85aa36e080f34c2d15540cbccd6695261e0c4b5c8cffae3/harpia-1.8.tar.gz
+[2023-07-31 06:06:39] INFO root fetch - processPackages [sentiment-analysis-tagit]: Remove: archive file [/home/abi/fetcher/tmp/sentiment-analysis-tagit-0.2.tar.gz]
+[2023-07-31 06:06:39] INFO root fetch - processPackages [sentiment-analysis-tagit]: Remove: archive file [/home/abi/fetcher/tmp/sentiment-analysis-tagit-0.3.tar.gz]
+[2023-07-31 06:06:39] INFO root fetch - processPackages [sentiment-analysis-tagit]: Start processing: pyautomail
+[2023-07-31 06:06:39] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-tagit]: success
+[2023-07-31 06:06:39] INFO root fetch - processPackages [py3simplesoap]: Remove: archive file [/home/abi/fetcher/tmp/py3simplesoap-0.2.tar.gz]
+[2023-07-31 06:06:39] INFO root fetch - processPackages [py3simplesoap]: Remove: archive file [/home/abi/fetcher/tmp/py3simplesoap-0.3.tar.gz]
+[2023-07-31 06:06:39] INFO root fetch - processPackages [py3simplesoap]: Start processing: fluidsdk
+[2023-07-31 06:06:39] INFO root fetch - main [MainThread]: End processing [py3simplesoap]: success
+[2023-07-31 06:06:39] INFO root fetch - processPackages [sentiment-analysis-tagit]: Start processing: fluidsdk
+[2023-07-31 06:06:39] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.98.tar.gz]
+[2023-07-31 06:06:39] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-tagit]: success
+[2023-07-31 06:06:39] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.99.tar.gz]
+[2023-07-31 06:06:39] INFO root fetch - processPackages [pinject-design]: Start processing: deep-training
+[2023-07-31 06:06:39] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-31 06:06:39] INFO root fetch - processPackages [pyautomail]: New version: [1.5.1.2] Old Version: [1.5.1.1]
+[2023-07-31 06:06:39] INFO root fetch - processPackages [fluidsdk]: New version: [0.4.1] Old Version: [0.4]
+[2023-07-31 06:06:39] INFO root fetch - processPackages [fluidsdk]: New version: [0.4.1] Old Version: [0.4]
+[2023-07-31 06:06:39] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.51.14.tar.gz]
+[2023-07-31 06:06:39] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.51.15.tar.gz]
+[2023-07-31 06:06:39] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 06:06:39] INFO root fetch - processPackages [deep-training]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 06:06:39] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-tagit]: success
+[2023-07-31 06:06:39] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.1.8.tar.gz]
+[2023-07-31 06:06:39] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.1.9.tar.gz]
+[2023-07-31 06:06:39] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-07-31 06:06:39] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-07-31 06:06:39] INFO root fetch - processPackages [fluidsdk]: Downloading https://files.pythonhosted.org/packages/71/05/81b0996ea55775424b14077a85ec574fff64897422d5f416f38fec08b4d7/fluidsdk-0.4.tar.gz
+[2023-07-31 06:06:39] INFO root fetch - processPackages [fluidsdk]: Downloading https://files.pythonhosted.org/packages/71/05/81b0996ea55775424b14077a85ec574fff64897422d5f416f38fec08b4d7/fluidsdk-0.4.tar.gz
+[2023-07-31 06:06:39] INFO root fetch - processPackages [pyautomail]: Downloading https://files.pythonhosted.org/packages/06/9a/86274e4c067f0f754a3a3ffcdfd4a6881c7aabbbd4c8b67ac7c2c80d19fc/pyautomail-1.5.1.1.tar.gz
+[2023-07-31 06:06:39] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/59/83/3af90baf6ec6ec35174c71bb4f97c42e375b50ef5ee50f81fbb4f0a70952/harpia-1.9.tar.gz
+[2023-07-31 06:06:39] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/87/b3/3c8fcf7b1e70c43e235098b71636333ed9cdfaf9b6c6fbc85f67531280e1/deep_training-0.1.8-py3-none-any.whl
+[2023-07-31 06:06:39] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-07-31 06:06:39] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230731/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-07-31 06:06:39] INFO root fetch - processPackages [harpia]: executing diffoscope
+[2023-07-31 06:06:39] INFO root fetch - processPackages [harpia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harpia-1.8.tar.gz tmp/harpia-1.9.tar.gz --markdown 20230731/h/harpia/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-31 06:06:40] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/97/8f/30bf3a3b2b45dc48f23a82065cc1cff429cfa9ec38e2c8dfd40bc15ada07/deep_training-0.1.9-py3-none-any.whl
+[2023-07-31 06:06:40] INFO root fetch - processPackages [gehomesdk]: Remove: archive file [/home/abi/fetcher/tmp/gehomesdk-0.5.8.tar.gz]
+[2023-07-31 06:06:40] INFO root fetch - processPackages [gehomesdk]: Remove: archive file [/home/abi/fetcher/tmp/gehomesdk-0.5.9.tar.gz]
+[2023-07-31 06:06:40] INFO root fetch - main [MainThread]: End processing [gehomesdk]: success
+[2023-07-31 06:06:40] INFO root fetch - processPackages [pyautomail]: Downloading https://files.pythonhosted.org/packages/40/bf/5a0a1e001cd3f76ab5f57112ca8361bf06ee86fda771dec3da1e85f39347/pyautomail-1.5.1.2.tar.gz
+[2023-07-31 06:06:40] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-07-31 06:06:40] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.8-py3-none-any.whl.zip tmp/deep_training-0.1.9-py3-none-any.whl.zip --markdown 20230731/d/deep-training/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 06:06:40] INFO root fetch - processPackages [fluidsdk]: Downloading https://files.pythonhosted.org/packages/ae/04/b5533f85a5039ad605bd503feb12ec97358407559e9906f9d272264d82e1/fluidsdk-0.4.1.tar.gz
+[2023-07-31 06:06:40] INFO root fetch - processPackages [fluidsdk]: Downloading https://files.pythonhosted.org/packages/ae/04/b5533f85a5039ad605bd503feb12ec97358407559e9906f9d272264d82e1/fluidsdk-0.4.1.tar.gz
+[2023-07-31 06:06:40] INFO root fetch - processPackages [pyautomail]: executing diffoscope
+[2023-07-31 06:06:40] INFO root fetch - processPackages [pyautomail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautomail-1.5.1.1.tar.gz tmp/pyautomail-1.5.1.2.tar.gz --markdown 20230731/p/pyautomail/1.5.1.1-1.5.1.2/diff.md --exclude *.pyd
+[2023-07-31 06:06:40] INFO root fetch - processPackages [fluidsdk]: executing diffoscope
+[2023-07-31 06:06:40] INFO root fetch - processPackages [fluidsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluidsdk-0.4.tar.gz tmp/fluidsdk-0.4.1.tar.gz --markdown 20230731/f/fluidsdk/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-07-31 06:06:40] INFO root fetch - processPackages [fluidsdk]: executing diffoscope
+[2023-07-31 06:06:40] INFO root fetch - processPackages [fluidsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluidsdk-0.4.tar.gz tmp/fluidsdk-0.4.1.tar.gz --markdown 20230731/f/fluidsdk/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-07-31 06:06:40] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2023-07-31 06:06:40] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2023-07-31 06:06:40] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-07-31 06:06:41] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.8.tar.gz]
+[2023-07-31 06:06:41] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.9.tar.gz]
+[2023-07-31 06:06:41] INFO root fetch - main [MainThread]: End processing [harpia]: success
+[2023-07-31 06:06:41] INFO root fetch - processPackages [pyautomail]: Remove: archive file [/home/abi/fetcher/tmp/pyautomail-1.5.1.1.tar.gz]
+[2023-07-31 06:06:41] INFO root fetch - processPackages [pyautomail]: Remove: archive file [/home/abi/fetcher/tmp/pyautomail-1.5.1.2.tar.gz]
+[2023-07-31 06:06:41] INFO root fetch - main [MainThread]: End processing [pyautomail]: success
+[2023-07-31 06:06:42] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.8-py3-none-any.whl.zip]
+[2023-07-31 06:06:42] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.9-py3-none-any.whl.zip]
+[2023-07-31 06:06:42] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-07-31 06:06:45] INFO root fetch - processPackages [fluidsdk]: Remove: archive file [/home/abi/fetcher/tmp/fluidsdk-0.4.tar.gz]
+[2023-07-31 06:06:45] INFO root fetch - processPackages [fluidsdk]: Remove: archive file [/home/abi/fetcher/tmp/fluidsdk-0.4.1.tar.gz]
+[2023-07-31 06:06:45] INFO root fetch - main [MainThread]: End processing [fluidsdk]: success
+[2023-07-31 06:06:45] INFO root fetch - main [MainThread]: End processing [fluidsdk]: success
+[2023-07-31 06:06:45] INFO root fetch - main [MainThread]: Store serial: [19102483]
