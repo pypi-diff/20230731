@@ -4912,3 +4912,75 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 03:40:32] INFO root fetch - processPackages [nncase-kpu]: Remove: archive file [/home/abi/fetcher/tmp/nncase_kpu-2.2.0.20230728-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-31 03:40:32] INFO root fetch - main [MainThread]: End processing [nncase-kpu]: success
 [2023-07-31 03:40:32] INFO root fetch - main [MainThread]: Store serial: [19101724]
+[2023-07-31 03:45:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19101724]
+[2023-07-31 03:45:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-31 03:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proactive
+[2023-07-31 03:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-django
+[2023-07-31 03:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbTool
+[2023-07-31 03:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybuc
+[2023-07-31 03:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proactive-jupyter-kernel
+[2023-07-31 03:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lego-image-converter
+[2023-07-31 03:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-apl
+[2023-07-31 03:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lego-image-converter
+[2023-07-31 03:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-organizations
+[2023-07-31 03:45:42] WARNING root fetch - processPackages [lbTool]: Skipping, unable to determine old version
+[2023-07-31 03:45:42] INFO root fetch - main [MainThread]: End processing [lbTool] error
+[2023-07-31 03:45:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-31 03:45:42] INFO root fetch - processPackages [lego-image-converter]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-31 03:45:42] INFO root fetch - processPackages [lego-image-converter]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-31 03:45:42] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-07-31 03:45:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-07-31 03:45:42] INFO root fetch - processPackages [pybuc]: New version: [0.9.10] Old Version: [0.8.10]
+[2023-07-31 03:45:42] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.927] Old Version: [0.0.926]
+[2023-07-31 03:45:42] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 03:45:42] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/af/f7/2b51cd4ec05bfe10014c8e91e92ea9a404bd7eb92912d5e704a335fcce24/nbdev-apl-0.0.926.tar.gz
+[2023-07-31 03:45:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-31 03:45:42] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-07-31 03:45:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-07-31 03:45:42] INFO root fetch - processPackages [lego-image-converter]: Downloading https://files.pythonhosted.org/packages/f3/eb/42e29fb94879194a8787444c25764022b7ca512a83baf7118dc101a2096b/lego_image_converter-0.0.4.tar.gz
+[2023-07-31 03:45:42] INFO root fetch - processPackages [lego-image-converter]: Downloading https://files.pythonhosted.org/packages/f3/eb/42e29fb94879194a8787444c25764022b7ca512a83baf7118dc101a2096b/lego_image_converter-0.0.4.tar.gz
+[2023-07-31 03:45:42] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-31 03:45:42] INFO root fetch - processPackages [pybuc]: Downloading https://files.pythonhosted.org/packages/ff/a6/647d6e38a6519bf2966722e1789589d0e50eea7a6376967ab7afbc093f70/pybuc-0.8.10.tar.gz
+[2023-07-31 03:45:42] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-07-31 03:45:42] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-07-31 03:45:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-31 03:45:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-07-31 03:45:42] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/a6/24/45c28f17a0269764e410bffdf9c0598ee148ec0de4c8579adecce2722e18/nbdev-apl-0.0.927.tar.gz
+[2023-07-31 03:45:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-31 03:45:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230731/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-31 03:45:42] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-31 03:45:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-07-31 03:45:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230731/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-07-31 03:45:43] INFO root fetch - processPackages [lego-image-converter]: Downloading https://files.pythonhosted.org/packages/2b/5a/22adff3c5c8a069f29b3b55bc63ca7fde0e68cc68ad75d75bea3a0547722/lego_image_converter-0.0.5.tar.gz
+[2023-07-31 03:45:43] INFO root fetch - processPackages [lego-image-converter]: Downloading https://files.pythonhosted.org/packages/2b/5a/22adff3c5c8a069f29b3b55bc63ca7fde0e68cc68ad75d75bea3a0547722/lego_image_converter-0.0.5.tar.gz
+[2023-07-31 03:45:43] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-31 03:45:43] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.926.tar.gz tmp/nbdev-apl-0.0.927.tar.gz --markdown 20230731/n/nbdev-apl/0.0.926-0.0.927/diff.md --exclude *.pyd
+[2023-07-31 03:45:43] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-31 03:45:43] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230731/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 03:45:43] INFO root fetch - processPackages [lego-image-converter]: executing diffoscope
+[2023-07-31 03:45:43] INFO root fetch - processPackages [lego-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lego_image_converter-0.0.4.tar.gz tmp/lego_image_converter-0.0.5.tar.gz --markdown 20230731/l/lego-image-converter/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-31 03:45:43] INFO root fetch - processPackages [lego-image-converter]: executing diffoscope
+[2023-07-31 03:45:43] INFO root fetch - processPackages [lego-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lego_image_converter-0.0.4.tar.gz tmp/lego_image_converter-0.0.5.tar.gz --markdown 20230731/l/lego-image-converter/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-31 03:45:43] INFO root fetch - processPackages [pybuc]: Downloading https://files.pythonhosted.org/packages/36/ff/435775953f489894dbc63700890c9984ecc56774ee84cef35a35acadf8b2/pybuc-0.9.10.tar.gz
+[2023-07-31 03:45:44] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-31 03:45:44] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-31 03:45:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-31 03:45:44] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-07-31 03:45:44] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-07-31 03:45:44] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-07-31 03:45:44] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.926.tar.gz]
+[2023-07-31 03:45:44] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.927.tar.gz]
+[2023-07-31 03:45:44] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-31 03:45:44] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-31 03:45:44] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-31 03:45:44] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-31 03:45:44] INFO root fetch - processPackages [lego-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/lego_image_converter-0.0.4.tar.gz]
+[2023-07-31 03:45:44] INFO root fetch - processPackages [lego-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/lego_image_converter-0.0.5.tar.gz]
+[2023-07-31 03:45:44] INFO root fetch - main [MainThread]: End processing [lego-image-converter]: success
+[2023-07-31 03:45:44] INFO root fetch - main [MainThread]: End processing [lego-image-converter]: success
+[2023-07-31 03:45:45] INFO root fetch - processPackages [pybuc]: executing diffoscope
+[2023-07-31 03:45:45] INFO root fetch - processPackages [pybuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuc-0.8.10.tar.gz tmp/pybuc-0.9.10.tar.gz --markdown 20230731/p/pybuc/0.8.10-0.9.10/diff.md --exclude *.pyd
+[2023-07-31 03:45:46] INFO root fetch - processPackages [pybuc]: Remove: archive file [/home/abi/fetcher/tmp/pybuc-0.8.10.tar.gz]
+[2023-07-31 03:45:46] INFO root fetch - processPackages [pybuc]: Remove: archive file [/home/abi/fetcher/tmp/pybuc-0.9.10.tar.gz]
+[2023-07-31 03:45:46] INFO root fetch - main [MainThread]: End processing [pybuc]: success
+[2023-07-31 03:45:46] INFO root fetch - main [MainThread]: Store serial: [19101750]
