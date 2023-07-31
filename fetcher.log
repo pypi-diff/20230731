@@ -6767,3 +6767,66 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 06:11:56] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.1.1.tar.gz]
 [2023-07-31 06:11:56] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
 [2023-07-31 06:11:56] INFO root fetch - main [MainThread]: Store serial: [19102502]
+[2023-07-31 06:17:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102502]
+[2023-07-31 06:17:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-31 06:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ray-proxy
+[2023-07-31 06:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: harpia
+[2023-07-31 06:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-gui
+[2023-07-31 06:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sentiment-analyser-tagit
+[2023-07-31 06:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: creepypasta
+[2023-07-31 06:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mathtext
+[2023-07-31 06:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MedPalm
+[2023-07-31 06:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pewlib
+[2023-07-31 06:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstract-gui
+[2023-07-31 06:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: owt
+[2023-07-31 06:17:04] WARNING root fetch - processPackages [creepypasta]: Skipping, unable to determine old version
+[2023-07-31 06:17:04] INFO root fetch - main [MainThread]: End processing [creepypasta] error
+[2023-07-31 06:17:04] INFO root fetch - processPackages [pewlib]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-31 06:17:05] INFO root fetch - processPackages [mathtext]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 06:17:05] WARNING root fetch - processPackages [sentiment-analyser-tagit]: Skipping, unable to determine old version
+[2023-07-31 06:17:05] INFO root fetch - main [MainThread]: End processing [sentiment-analyser-tagit] error
+[2023-07-31 06:17:05] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.51.161] Old Version: [0.0.51.16]
+[2023-07-31 06:17:05] INFO root fetch - processPackages [harpia]: New version: [1.9] Old Version: [1.8]
+[2023-07-31 06:17:05] INFO root fetch - processPackages [ray-proxy]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-31 06:17:05] WARNING root fetch - processPackages [owt]: Skipping, unable to determine old version
+[2023-07-31 06:17:05] WARNING root fetch - processPackages [MedPalm]: Skipping, unable to determine old version
+[2023-07-31 06:17:05] INFO root fetch - main [MainThread]: End processing [owt] error
+[2023-07-31 06:17:05] INFO root fetch - main [MainThread]: End processing [MedPalm] error
+[2023-07-31 06:17:05] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.51.161] Old Version: [0.0.51.16]
+[2023-07-31 06:17:05] INFO root fetch - processPackages [pewlib]: Downloading https://files.pythonhosted.org/packages/e7/d3/f52e06ecac7cbedacca96bd498c081b37546fc9de228ae5ef67bf38e1dd2/pewlib-0.8.2.tar.gz
+[2023-07-31 06:17:05] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/b9/bd/bec9e26fa006f85aa36e080f34c2d15540cbccd6695261e0c4b5c8cffae3/harpia-1.8.tar.gz
+[2023-07-31 06:17:05] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/68/bf/4a801a39c14808686fe730d2e5e7443ab6c83d717905776e7afed832a389/abstract_gui-0.0.51.16.tar.gz
+[2023-07-31 06:17:05] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/68/bf/4a801a39c14808686fe730d2e5e7443ab6c83d717905776e7afed832a389/abstract_gui-0.0.51.16.tar.gz
+[2023-07-31 06:17:05] INFO root fetch - processPackages [ray-proxy]: Downloading https://files.pythonhosted.org/packages/fa/55/7ad201ba9a1012167c896ff3dd01532c3da7014eda75546815f2a6204f2a/ray_proxy-0.1.7.tar.gz
+[2023-07-31 06:17:05] INFO root fetch - processPackages [mathtext]: Downloading https://files.pythonhosted.org/packages/12/fc/43c69273b15fcec408339f8eb8bdcad454e58c30e87634b864c78b60a6d2/mathtext-0.0.8.tar.gz
+[2023-07-31 06:17:05] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/59/83/3af90baf6ec6ec35174c71bb4f97c42e375b50ef5ee50f81fbb4f0a70952/harpia-1.9.tar.gz
+[2023-07-31 06:17:05] INFO root fetch - processPackages [pewlib]: Downloading https://files.pythonhosted.org/packages/f7/1d/3b02297b5da0eb5e99a90a3573de916baddaaa80af868dc8d3e0d85d1bef/pewlib-0.8.3.tar.gz
+[2023-07-31 06:17:05] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/37/a2/530fa373391309d0767e894e57d6ca86f178b6adbba34aa1411c84473734/abstract_gui-0.0.51.161.tar.gz
+[2023-07-31 06:17:05] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/37/a2/530fa373391309d0767e894e57d6ca86f178b6adbba34aa1411c84473734/abstract_gui-0.0.51.161.tar.gz
+[2023-07-31 06:17:05] INFO root fetch - processPackages [ray-proxy]: Downloading https://files.pythonhosted.org/packages/ba/07/c278f90bbdc0b1da8b216325a0e0c255c27bf12af4fdc1f805d432863846/ray_proxy-0.1.8.tar.gz
+[2023-07-31 06:17:05] INFO root fetch - processPackages [harpia]: executing diffoscope
+[2023-07-31 06:17:05] INFO root fetch - processPackages [harpia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harpia-1.8.tar.gz tmp/harpia-1.9.tar.gz --markdown 20230731/h/harpia/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-31 06:17:05] INFO root fetch - processPackages [pewlib]: executing diffoscope
+[2023-07-31 06:17:05] INFO root fetch - processPackages [pewlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pewlib-0.8.2.tar.gz tmp/pewlib-0.8.3.tar.gz --markdown 20230731/p/pewlib/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-31 06:17:05] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 06:17:05] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.51.16.tar.gz tmp/abstract_gui-0.0.51.161.tar.gz --markdown 20230731/a/abstract-gui/0.0.51.16-0.0.51.161/diff.md --exclude *.pyd
+[2023-07-31 06:17:05] INFO root fetch - processPackages [ray-proxy]: executing diffoscope
+[2023-07-31 06:17:05] INFO root fetch - processPackages [ray-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ray_proxy-0.1.7.tar.gz tmp/ray_proxy-0.1.8.tar.gz --markdown 20230731/r/ray-proxy/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-31 06:17:05] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 06:17:05] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.51.16.tar.gz tmp/abstract_gui-0.0.51.161.tar.gz --markdown 20230731/a/abstract-gui/0.0.51.16-0.0.51.161/diff.md --exclude *.pyd
+[2023-07-31 06:17:06] WARNING root fetch - processPackages [mathtext]: Skipping package: exceeds size limit 11880565>=10485760
+[2023-07-31 06:17:06] INFO root fetch - main [MainThread]: End processing [mathtext] error
+[2023-07-31 06:17:06] INFO root fetch - processPackages [ray-proxy]: Remove: archive file [/home/abi/fetcher/tmp/ray_proxy-0.1.7.tar.gz]
+[2023-07-31 06:17:06] INFO root fetch - processPackages [ray-proxy]: Remove: archive file [/home/abi/fetcher/tmp/ray_proxy-0.1.8.tar.gz]
+[2023-07-31 06:17:06] INFO root fetch - main [MainThread]: End processing [ray-proxy]: success
+[2023-07-31 06:17:06] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.51.16.tar.gz]
+[2023-07-31 06:17:06] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.51.161.tar.gz]
+[2023-07-31 06:17:06] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 06:17:06] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 06:17:06] INFO root fetch - processPackages [pewlib]: Remove: archive file [/home/abi/fetcher/tmp/pewlib-0.8.2.tar.gz]
+[2023-07-31 06:17:06] INFO root fetch - processPackages [pewlib]: Remove: archive file [/home/abi/fetcher/tmp/pewlib-0.8.3.tar.gz]
+[2023-07-31 06:17:06] INFO root fetch - main [MainThread]: End processing [pewlib]: success
+[2023-07-31 06:17:07] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.8.tar.gz]
+[2023-07-31 06:17:07] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.9.tar.gz]
+[2023-07-31 06:17:07] INFO root fetch - main [MainThread]: End processing [harpia]: success
+[2023-07-31 06:17:07] INFO root fetch - main [MainThread]: Store serial: [19102542]
