@@ -13729,3 +13729,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 11:49:44] INFO root fetch - processPackages [phylo-treetime]: Remove: archive file [/home/abi/fetcher/tmp/phylo-treetime-0.9.6.tar.gz]
 [2023-07-31 11:49:44] INFO root fetch - main [MainThread]: End processing [phylo-treetime]: success
 [2023-07-31 11:49:44] INFO root fetch - main [MainThread]: Store serial: [19105612]
+[2023-07-31 11:54:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19105612]
+[2023-07-31 11:54:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-31 11:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pcs-get
+[2023-07-31 11:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parse-it
+[2023-07-31 11:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gcodeparser
+[2023-07-31 11:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anyforce
+[2023-07-31 11:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: food-project
+[2023-07-31 11:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensorage
+[2023-07-31 11:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oneat
+[2023-07-31 11:54:53] WARNING root fetch - processPackages [food-project]: Skipping, unable to determine old version
+[2023-07-31 11:54:53] INFO root fetch - main [MainThread]: End processing [food-project] error
+[2023-07-31 11:54:53] INFO root fetch - processPackages [tensorage]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-31 11:54:53] INFO root fetch - processPackages [gcodeparser]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-31 11:54:53] INFO root fetch - processPackages [pcs-get]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 11:54:53] INFO root fetch - processPackages [parse-it]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-07-31 11:54:53] INFO root fetch - processPackages [oneat]: New version: [6.3.2] Old Version: [6.3.0]
+[2023-07-31 11:54:53] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-31 11:54:53] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/cd/52/dbb13663fccbffb09d020cc56e8a7a1b551efa4c47759a518f758bba3f02/parse_it-3.7.0.tar.gz
+[2023-07-31 11:54:53] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/97/d8/550fa7e703afc2c1dc45dab09e0eb6881fecb73caa61c52e3dba51a0a2d2/tensorage-0.0.6.tar.gz
+[2023-07-31 11:54:53] INFO root fetch - processPackages [gcodeparser]: Downloading https://files.pythonhosted.org/packages/3f/9f/59639bd09a7e92f4732c082359b2c684d52e0446dd9132d298a40671dac1/gcodeparser-0.0.9.tar.gz
+[2023-07-31 11:54:53] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/3a/6f/57cedd11d2ecac8caa71bb7df7102cd3b88e9742e65d3e962e93844fbc30/oneat-6.3.0.tar.gz
+[2023-07-31 11:54:53] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-07-31 11:54:54] INFO root fetch - processPackages [pcs-get]: Downloading https://files.pythonhosted.org/packages/4b/4f/ccda69d95d38dc5ed153ec75d6392a1e3014d755a251f2d495c3295cedba/pcs-get-0.9.8.tar.gz
+[2023-07-31 11:54:54] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/3b/d8/0a3f4a732fa677a35dbea4e9c72741f55e44859dc1c79bf5edfce61d95f0/parse_it-3.8.0.tar.gz
+[2023-07-31 11:54:54] INFO root fetch - processPackages [gcodeparser]: Downloading https://files.pythonhosted.org/packages/89/3f/23bf6848a66d5c269b91203129f2c1f6d70615deac4269378d4ca89a679e/gcodeparser-0.1.0.tar.gz
+[2023-07-31 11:54:54] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-07-31 11:54:54] INFO root fetch - processPackages [pcs-get]: Downloading https://files.pythonhosted.org/packages/bb/55/43913e2458fce33731d3daf6e75b5b5b4253d4e34ac986c90f2e7a365d18/pcs-get-0.9.9.tar.gz
+[2023-07-31 11:54:54] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/b6/d6/9bd0bc44601e948ff960c383b65184ade564904ba4d94a92e9eaa6dec37f/tensorage-0.0.7.tar.gz
+[2023-07-31 11:54:54] INFO root fetch - processPackages [gcodeparser]: executing diffoscope
+[2023-07-31 11:54:54] INFO root fetch - processPackages [gcodeparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcodeparser-0.0.9.tar.gz tmp/gcodeparser-0.1.0.tar.gz --markdown 20230731/g/gcodeparser/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-31 11:54:54] INFO root fetch - processPackages [parse-it]: executing diffoscope
+[2023-07-31 11:54:54] INFO root fetch - processPackages [parse-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_it-3.7.0.tar.gz tmp/parse_it-3.8.0.tar.gz --markdown 20230731/p/parse-it/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-07-31 11:54:54] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-07-31 11:54:54] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230731/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 11:54:54] INFO root fetch - processPackages [pcs-get]: executing diffoscope
+[2023-07-31 11:54:54] INFO root fetch - processPackages [pcs-get]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcs-get-0.9.8.tar.gz tmp/pcs-get-0.9.9.tar.gz --markdown 20230731/p/pcs-get/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 11:54:54] INFO root fetch - processPackages [tensorage]: executing diffoscope
+[2023-07-31 11:54:54] INFO root fetch - processPackages [tensorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorage-0.0.6.tar.gz tmp/tensorage-0.0.7.tar.gz --markdown 20230731/t/tensorage/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-31 11:54:54] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/83/d0/87aa34346b12ce7b46c21b2a1eb2cf9146068ab40158c3818a5714d4ed98/oneat-6.3.2.tar.gz
+[2023-07-31 11:54:55] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.6.tar.gz]
+[2023-07-31 11:54:55] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.7.tar.gz]
+[2023-07-31 11:54:55] INFO root fetch - main [MainThread]: End processing [tensorage]: success
+[2023-07-31 11:54:55] INFO root fetch - processPackages [gcodeparser]: Remove: archive file [/home/abi/fetcher/tmp/gcodeparser-0.0.9.tar.gz]
+[2023-07-31 11:54:55] INFO root fetch - processPackages [gcodeparser]: Remove: archive file [/home/abi/fetcher/tmp/gcodeparser-0.1.0.tar.gz]
+[2023-07-31 11:54:55] INFO root fetch - main [MainThread]: End processing [gcodeparser]: success
+[2023-07-31 11:54:55] INFO root fetch - processPackages [parse-it]: Remove: archive file [/home/abi/fetcher/tmp/parse_it-3.7.0.tar.gz]
+[2023-07-31 11:54:55] INFO root fetch - processPackages [parse-it]: Remove: archive file [/home/abi/fetcher/tmp/parse_it-3.8.0.tar.gz]
+[2023-07-31 11:54:55] INFO root fetch - main [MainThread]: End processing [parse-it]: success
+[2023-07-31 11:54:55] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-07-31 11:54:55] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-07-31 11:54:55] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-07-31 11:54:55] INFO root fetch - processPackages [pcs-get]: Remove: archive file [/home/abi/fetcher/tmp/pcs-get-0.9.8.tar.gz]
+[2023-07-31 11:54:55] INFO root fetch - processPackages [pcs-get]: Remove: archive file [/home/abi/fetcher/tmp/pcs-get-0.9.9.tar.gz]
+[2023-07-31 11:54:55] INFO root fetch - main [MainThread]: End processing [pcs-get]: success
+[2023-07-31 11:54:56] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-31 11:54:56] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-6.3.0.tar.gz tmp/oneat-6.3.2.tar.gz --markdown 20230731/o/oneat/6.3.0-6.3.2/diff.md --exclude *.pyd
+[2023-07-31 11:54:58] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.3.0.tar.gz]
+[2023-07-31 11:54:58] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.3.2.tar.gz]
+[2023-07-31 11:54:58] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-31 11:54:58] INFO root fetch - main [MainThread]: Store serial: [19105640]
