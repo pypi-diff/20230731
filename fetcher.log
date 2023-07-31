@@ -22335,3 +22335,146 @@ AssertionError: tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.z
 [2023-07-31 16:35:09] INFO root fetch - processPackages [mwdb-core]: Remove: archive file [/home/abi/fetcher/tmp/mwdb_core-2.9.0-py3-none-any.whl.zip]
 [2023-07-31 16:35:09] INFO root fetch - main [MainThread]: End processing [mwdb-core]: success
 [2023-07-31 16:35:09] INFO root fetch - main [MainThread]: Store serial: [19108879]
+[2023-07-31 16:40:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19108879]
+[2023-07-31 16:40:19] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-31 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: draco-ml
+[2023-07-31 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openshift-python-wrapper
+[2023-07-31 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hestia-earth-models
+[2023-07-31 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-access-sdk
+[2023-07-31 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geopic-tag-reader
+[2023-07-31 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ReadROOT
+[2023-07-31 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dark-web-scraper
+[2023-07-31 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jgp-report-creditos
+[2023-07-31 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: epure
+[2023-07-31 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-hole
+[2023-07-31 16:40:20] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2023-07-31 16:40:20] INFO root fetch - processPackages [draco-ml]: New version: [0.2.1.dev1] Old Version: [0.2.1.dev0]
+[2023-07-31 16:40:20] INFO root fetch - processPackages [geopic-tag-reader]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-31 16:40:20] INFO root fetch - processPackages [jgp-report-creditos]: New version: [0.0.9] Old Version: [0.0.17]
+[2023-07-31 16:40:20] INFO root fetch - processPackages [dark-web-scraper]: New version: [0.3] Old Version: [0.2]
+[2023-07-31 16:40:20] INFO root fetch - processPackages [ReadROOT]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-31 16:40:20] INFO root fetch - processPackages [python-hole]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-31 16:40:20] INFO root fetch - processPackages [epure]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-31 16:40:20] INFO root fetch - processPackages [hestia-earth-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-31 16:40:20] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-07-31 16:40:20] INFO root fetch - processPackages [jgp-report-creditos]: Downloading https://files.pythonhosted.org/packages/f6/5c/6babfd9bfed2d3f8d31cec2506409509b49bf8db951282a83f4dbe144419/jgp_report_creditos-0.0.17.tar.gz
+[2023-07-31 16:40:20] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2023-07-31 16:40:20] INFO root fetch - processPackages [dark-web-scraper]: Downloading https://files.pythonhosted.org/packages/83/51/84d562c423c51b64e0b19991562d45a79aed31a80546ea156e9c6aede45d/dark_web_scraper-0.2.tar.gz
+[2023-07-31 16:40:20] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/a2/61/d19a2d7e01e8a5e0035eea49d6f5bdd2e224d17d89fe9ef0012f7ff05723/hestia-earth-models-0.9.0.tar.gz
+[2023-07-31 16:40:20] INFO root fetch - processPackages [python-hole]: Downloading https://files.pythonhosted.org/packages/f5/b5/71aed7b4e8b22cefe0b61cdf8727018c6e3d9dca6080936bc2fddab9c3cd/python-hole-0.0.5.tar.gz
+[2023-07-31 16:40:20] INFO root fetch - processPackages [draco-ml]: Downloading https://files.pythonhosted.org/packages/90/f1/f62b5f9406a31547f8db1713b066bd102c107715792483d31628a975bfc8/draco-ml-0.2.1.dev0.tar.gz
+[2023-07-31 16:40:20] INFO root fetch - processPackages [geopic-tag-reader]: Downloading https://files.pythonhosted.org/packages/c0/5e/fbc3885da9c04491a8941d22b1e7e7f7b21f05843f82233073b5940bc1b4/geopic_tag_reader-0.3.0.tar.gz
+[2023-07-31 16:40:20] INFO root fetch - processPackages [ReadROOT]: Downloading https://files.pythonhosted.org/packages/dc/38/a0cbf8d994c4c9e16375ff8cf9f2cbe007eab534863b727e3522da40313f/ReadROOT-2.3.8.tar.gz
+[2023-07-31 16:40:20] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-07-31 16:40:20] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/43/6c/c26358007dbb906b402655423da9b7bedbcfcf392c2c9e20b8164e5c862e/epure-0.2.8.tar.gz
+[2023-07-31 16:40:20] WARNING root fetch - processPackages [geopic-tag-reader]: Skipping package: exceeds size limit 21294527>=10485760
+[2023-07-31 16:40:20] INFO root fetch - processPackages [geopic-tag-reader]: Start processing: hotsos
+[2023-07-31 16:40:20] INFO root fetch - main [MainThread]: End processing [geopic-tag-reader] error
+[2023-07-31 16:40:20] INFO root fetch - processPackages [hotsos]: New version: [1.16.0.post8] Old Version: [1.16.0.post7]
+[2023-07-31 16:40:20] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/59/94/5b9b4317f8ae747ccffceb5debddd5d4f68a8aac6d6d53afb2ade6dbdfdb/hestia-earth-models-0.9.1.tar.gz
+[2023-07-31 16:40:20] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2023-07-31 16:40:20] INFO root fetch - processPackages [jgp-report-creditos]: Downloading https://files.pythonhosted.org/packages/a2/b7/889dd0d4d43a0595194eafda6e62ff265ed1f3a6e4a048083ed75f59530e/jgp_report_creditos-0.0.9.tar.gz
+[2023-07-31 16:40:20] INFO root fetch - processPackages [dark-web-scraper]: Downloading https://files.pythonhosted.org/packages/3a/a9/547b74d23abc66a6ad84c40a920e39116568726d585e838dad9d61da759a/dark_web_scraper-0.3.tar.gz
+[2023-07-31 16:40:20] INFO root fetch - processPackages [python-hole]: Downloading https://files.pythonhosted.org/packages/34/ba/31be141e487dafa5b3db93aaadc358740b5d04ab425b66790a41d097fc38/python-hole-0.0.6.tar.gz
+[2023-07-31 16:40:20] INFO root fetch - processPackages [hestia-earth-models]: executing diffoscope
+[2023-07-31 16:40:20] INFO root fetch - processPackages [hestia-earth-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-models-0.9.0.tar.gz tmp/hestia-earth-models-0.9.1.tar.gz --markdown 20230731/h/hestia-earth-models/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-31 16:40:21] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/01/45/f393e3402962f6e39e49a002d4e1e72d76eb958b376477c86a171ecb7c91/hotsos-1.16.0.post7.tar.gz
+[2023-07-31 16:40:21] INFO root fetch - processPackages [ReadROOT]: Downloading https://files.pythonhosted.org/packages/72/98/b4549363fce317c0b27f15bfde2ec1bbe3beb1f5e15c70a994664bffb0be/ReadROOT-2.3.9.tar.gz
+[2023-07-31 16:40:21] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/63/be/5f55b879f17e553d286060c5527d714551546adddef9befd9ac088862e1a/epure-0.2.9.tar.gz
+[2023-07-31 16:40:21] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-07-31 16:40:21] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2023-07-31 16:40:21] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20230731/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2023-07-31 16:40:21] INFO root fetch - processPackages [dark-web-scraper]: executing diffoscope
+[2023-07-31 16:40:21] INFO root fetch - processPackages [dark-web-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark_web_scraper-0.2.tar.gz tmp/dark_web_scraper-0.3.tar.gz --markdown 20230731/d/dark-web-scraper/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-31 16:40:21] INFO root fetch - processPackages [python-hole]: executing diffoscope
+[2023-07-31 16:40:21] INFO root fetch - processPackages [python-hole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-hole-0.0.5.tar.gz tmp/python-hole-0.0.6.tar.gz --markdown 20230731/p/python-hole/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-31 16:40:21] INFO root fetch - processPackages [draco-ml]: Downloading https://files.pythonhosted.org/packages/68/62/58b7d55de9e7573e2794f33ef9a480bc54a0ae229faeed1467eeb87d05c0/draco-ml-0.2.1.dev1.tar.gz
+[2023-07-31 16:40:21] INFO root fetch - processPackages [jgp-report-creditos]: executing diffoscope
+[2023-07-31 16:40:21] INFO root fetch - processPackages [jgp-report-creditos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgp_report_creditos-0.0.17.tar.gz tmp/jgp_report_creditos-0.0.9.tar.gz --markdown 20230731/j/jgp-report-creditos/0.0.17-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 16:40:21] INFO root fetch - processPackages [ReadROOT]: executing diffoscope
+[2023-07-31 16:40:21] INFO root fetch - processPackages [ReadROOT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReadROOT-2.3.8.tar.gz tmp/ReadROOT-2.3.9.tar.gz --markdown 20230731/R/ReadROOT/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-31 16:40:21] INFO root fetch - processPackages [epure]: executing diffoscope
+[2023-07-31 16:40:21] INFO root fetch - processPackages [epure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epure-0.2.8.tar.gz tmp/epure-0.2.9.tar.gz --markdown 20230731/e/epure/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-31 16:40:21] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-07-31 16:40:21] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230731/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-07-31 16:40:21] INFO root fetch - processPackages [draco-ml]: executing diffoscope
+[2023-07-31 16:40:21] INFO root fetch - processPackages [draco-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draco-ml-0.2.1.dev0.tar.gz tmp/draco-ml-0.2.1.dev1.tar.gz --markdown 20230731/d/draco-ml/0.2.1.dev0-0.2.1.dev1/diff.md --exclude *.pyd
+[2023-07-31 16:40:21] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/5e/a9/bb3ccdf76496dcf06ac980d9c1ec2dbd759c402656fd9727338ae6fa814e/hotsos-1.16.0.post8.tar.gz
+[2023-07-31 16:40:21] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-07-31 16:40:21] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.16.0.post7.tar.gz tmp/hotsos-1.16.0.post8.tar.gz --markdown 20230731/h/hotsos/1.16.0.post7-1.16.0.post8/diff.md --exclude *.pyd
+[2023-07-31 16:40:22] INFO root fetch - processPackages [dark-web-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dark_web_scraper-0.2.tar.gz]
+[2023-07-31 16:40:22] INFO root fetch - processPackages [dark-web-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dark_web_scraper-0.3.tar.gz]
+[2023-07-31 16:40:22] INFO root fetch - processPackages [dark-web-scraper]: Start processing: handy-archives
+[2023-07-31 16:40:22] INFO root fetch - main [MainThread]: End processing [dark-web-scraper]: success
+[2023-07-31 16:40:22] INFO root fetch - processPackages [handy-archives]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-31 16:40:22] INFO root fetch - processPackages [python-hole]: Remove: archive file [/home/abi/fetcher/tmp/python-hole-0.0.5.tar.gz]
+[2023-07-31 16:40:22] INFO root fetch - processPackages [python-hole]: Remove: archive file [/home/abi/fetcher/tmp/python-hole-0.0.6.tar.gz]
+[2023-07-31 16:40:22] INFO root fetch - processPackages [python-hole]: Start processing: qwak-core
+[2023-07-31 16:40:22] INFO root fetch - main [MainThread]: End processing [python-hole]: success
+[2023-07-31 16:40:22] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 16:40:22] INFO root fetch - processPackages [handy-archives]: Downloading https://files.pythonhosted.org/packages/37/f0/3450721b4462677c6bcf09bb67888a0faf0ae8a712f10d193d5ee336c3d5/handy-archives-0.1.4.tar.gz
+[2023-07-31 16:40:22] INFO root fetch - processPackages [jgp-report-creditos]: Remove: archive file [/home/abi/fetcher/tmp/jgp_report_creditos-0.0.17.tar.gz]
+[2023-07-31 16:40:22] INFO root fetch - processPackages [jgp-report-creditos]: Remove: archive file [/home/abi/fetcher/tmp/jgp_report_creditos-0.0.9.tar.gz]
+[2023-07-31 16:40:22] INFO root fetch - processPackages [jgp-report-creditos]: Start processing: aws-network-firewall
+[2023-07-31 16:40:22] INFO root fetch - main [MainThread]: End processing [jgp-report-creditos]: success
+[2023-07-31 16:40:23] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.8.tar.gz]
+[2023-07-31 16:40:23] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.9.tar.gz]
+[2023-07-31 16:40:23] INFO root fetch - processPackages [epure]: Start processing: bridgecrew
+[2023-07-31 16:40:23] INFO root fetch - main [MainThread]: End processing [epure]: success
+[2023-07-31 16:40:23] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-31 16:40:23] INFO root fetch - processPackages [aws-network-firewall]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-31 16:40:23] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-31 16:40:23] INFO root fetch - processPackages [ReadROOT]: Remove: archive file [/home/abi/fetcher/tmp/ReadROOT-2.3.8.tar.gz]
+[2023-07-31 16:40:23] INFO root fetch - processPackages [ReadROOT]: Remove: archive file [/home/abi/fetcher/tmp/ReadROOT-2.3.9.tar.gz]
+[2023-07-31 16:40:23] INFO root fetch - processPackages [handy-archives]: Downloading https://files.pythonhosted.org/packages/0d/c1/de653344a7be2aea0c3123d0ad1ea55fa56ced0e6336f98d5542a64d28e9/handy_archives-0.2.0.tar.gz
+[2023-07-31 16:40:23] INFO root fetch - processPackages [ReadROOT]: Start processing: earthformer
+[2023-07-31 16:40:23] INFO root fetch - main [MainThread]: End processing [ReadROOT]: success
+[2023-07-31 16:40:23] INFO root fetch - processPackages [aws-network-firewall]: Downloading https://files.pythonhosted.org/packages/d0/d6/a900634851eb01651d81d6df5b400edd60837b3a56688676120dc7b57205/aws_network_firewall-0.7.1.tar.gz
+[2023-07-31 16:40:23] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.7.12.tar.gz]
+[2023-07-31 16:40:23] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.9.12.tar.gz]
+[2023-07-31 16:40:23] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2023-07-31 16:40:23] INFO root fetch - processPackages [draco-ml]: Remove: archive file [/home/abi/fetcher/tmp/draco-ml-0.2.1.dev0.tar.gz]
+[2023-07-31 16:40:23] INFO root fetch - processPackages [draco-ml]: Remove: archive file [/home/abi/fetcher/tmp/draco-ml-0.2.1.dev1.tar.gz]
+[2023-07-31 16:40:23] INFO root fetch - main [MainThread]: End processing [draco-ml]: success
+[2023-07-31 16:40:23] INFO root fetch - processPackages [earthformer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 16:40:23] INFO root fetch - processPackages [handy-archives]: executing diffoscope
+[2023-07-31 16:40:23] INFO root fetch - processPackages [handy-archives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/handy-archives-0.1.4.tar.gz tmp/handy_archives-0.2.0.tar.gz --markdown 20230731/h/handy-archives/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-31 16:40:23] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-31 16:40:23] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-31 16:40:23] INFO root fetch - processPackages [earthformer]: Downloading https://files.pythonhosted.org/packages/0b/c9/824910d235a75cb7a9cd1948bf66be6d4f089445d0f00ea6fac735f5da59/earthformer-0.0.1.tar.gz
+[2023-07-31 16:40:23] INFO root fetch - processPackages [aws-network-firewall]: Downloading https://files.pythonhosted.org/packages/f1/cf/d9fe40b0e566456be16e1c98a8cb877ed26924f8a36fa39cbce9d9b0419f/aws_network_firewall-0.7.2.tar.gz
+[2023-07-31 16:40:23] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-31 16:40:23] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230731/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 16:40:23] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-07-31 16:40:23] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-07-31 16:40:23] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-07-31 16:40:23] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-31 16:40:23] INFO root fetch - processPackages [aws-network-firewall]: executing diffoscope
+[2023-07-31 16:40:23] INFO root fetch - processPackages [aws-network-firewall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_network_firewall-0.7.1.tar.gz tmp/aws_network_firewall-0.7.2.tar.gz --markdown 20230731/a/aws-network-firewall/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-31 16:40:23] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-31 16:40:23] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230731/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-31 16:40:23] INFO root fetch - processPackages [earthformer]: Downloading https://files.pythonhosted.org/packages/fb/7d/85fe83d9aeb69a38da745ca8fcc6f961046202b003d75dd2959a3bad9b1b/earthformer-0.0.2.tar.gz
+[2023-07-31 16:40:24] INFO root fetch - processPackages [earthformer]: executing diffoscope
+[2023-07-31 16:40:24] INFO root fetch - processPackages [earthformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthformer-0.0.1.tar.gz tmp/earthformer-0.0.2.tar.gz --markdown 20230731/e/earthformer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 16:40:24] INFO root fetch - processPackages [handy-archives]: Remove: archive file [/home/abi/fetcher/tmp/handy-archives-0.1.4.tar.gz]
+[2023-07-31 16:40:24] INFO root fetch - processPackages [handy-archives]: Remove: archive file [/home/abi/fetcher/tmp/handy_archives-0.2.0.tar.gz]
+[2023-07-31 16:40:24] INFO root fetch - main [MainThread]: End processing [handy-archives]: success
+[2023-07-31 16:40:24] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.0.tar.gz]
+[2023-07-31 16:40:24] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.1.tar.gz]
+[2023-07-31 16:40:24] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
+[2023-07-31 16:40:24] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.16.0.post7.tar.gz]
+[2023-07-31 16:40:24] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.16.0.post8.tar.gz]
+[2023-07-31 16:40:24] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-07-31 16:40:24] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-31 16:40:24] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-31 16:40:24] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-31 16:40:24] INFO root fetch - processPackages [aws-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/aws_network_firewall-0.7.1.tar.gz]
+[2023-07-31 16:40:24] INFO root fetch - processPackages [aws-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/aws_network_firewall-0.7.2.tar.gz]
+[2023-07-31 16:40:24] INFO root fetch - main [MainThread]: End processing [aws-network-firewall]: success
+[2023-07-31 16:40:25] INFO root fetch - processPackages [earthformer]: Remove: archive file [/home/abi/fetcher/tmp/earthformer-0.0.1.tar.gz]
+[2023-07-31 16:40:25] INFO root fetch - processPackages [earthformer]: Remove: archive file [/home/abi/fetcher/tmp/earthformer-0.0.2.tar.gz]
+[2023-07-31 16:40:25] INFO root fetch - main [MainThread]: End processing [earthformer]: success
+[2023-07-31 16:40:26] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-31 16:40:26] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-31 16:40:26] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-31 16:40:26] INFO root fetch - main [MainThread]: Store serial: [19108926]
