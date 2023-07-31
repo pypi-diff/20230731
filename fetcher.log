@@ -6718,3 +6718,52 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 06:06:45] INFO root fetch - main [MainThread]: End processing [fluidsdk]: success
 [2023-07-31 06:06:45] INFO root fetch - main [MainThread]: End processing [fluidsdk]: success
 [2023-07-31 06:06:45] INFO root fetch - main [MainThread]: Store serial: [19102483]
+[2023-07-31 06:11:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102483]
+[2023-07-31 06:11:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-31 06:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-book-util
+[2023-07-31 06:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graph-data-generator
+[2023-07-31 06:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentiment-analysis-tagit
+[2023-07-31 06:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-gui
+[2023-07-31 06:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sentiment-analysis-tagit
+[2023-07-31 06:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neuralpit
+[2023-07-31 06:11:54] INFO root fetch - processPackages [sentiment-analysis-tagit]: New version: [0.6] Old Version: [0.5]
+[2023-07-31 06:11:54] INFO root fetch - processPackages [neuralpit]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-31 06:11:54] INFO root fetch - processPackages [py-book-util]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 06:11:54] INFO root fetch - processPackages [sentiment-analysis-tagit]: New version: [0.6] Old Version: [0.5]
+[2023-07-31 06:11:54] WARNING root fetch - processPackages [graph-data-generator]: Skipping, unable to determine old version
+[2023-07-31 06:11:54] INFO root fetch - main [MainThread]: End processing [graph-data-generator] error
+[2023-07-31 06:11:54] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.51.16] Old Version: [0.0.51.15]
+[2023-07-31 06:11:54] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/aa/1f/e8481adc374506244c1f3803d9d995eec575e6b2f78cf9d0bcd59bd921f6/abstract_gui-0.0.51.15.tar.gz
+[2023-07-31 06:11:54] INFO root fetch - processPackages [sentiment-analysis-tagit]: Downloading https://files.pythonhosted.org/packages/65/7c/b6e6ef09c7b81ca90e802414d9a3f5980178137f431fe345184cbf5ad98e/sentiment_analysis_tagit-0.5-py3-none-any.whl
+[2023-07-31 06:11:55] INFO root fetch - processPackages [py-book-util]: Downloading https://files.pythonhosted.org/packages/8e/b0/9504155f9895b66bac6ce6ec5f9f521cfcc070673417ec7d583fb50bef75/py_book_util-0.1.8.tar.gz
+[2023-07-31 06:11:55] INFO root fetch - processPackages [sentiment-analysis-tagit]: Downloading https://files.pythonhosted.org/packages/65/7c/b6e6ef09c7b81ca90e802414d9a3f5980178137f431fe345184cbf5ad98e/sentiment_analysis_tagit-0.5-py3-none-any.whl
+[2023-07-31 06:11:55] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/71/c4/a4149cdbfa6274ef2efcb577708883603ec9657d3e5d8d5bfd704d11cf86/neuralpit-2.1.0.tar.gz
+[2023-07-31 06:11:55] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/68/bf/4a801a39c14808686fe730d2e5e7443ab6c83d717905776e7afed832a389/abstract_gui-0.0.51.16.tar.gz
+[2023-07-31 06:11:55] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/c9/29/0b6f62abe56e23649e1c96797b91e13fbd4507217dbc7e0a3ba22d80421c/neuralpit-2.1.1.tar.gz
+[2023-07-31 06:11:55] INFO root fetch - processPackages [sentiment-analysis-tagit]: Downloading https://files.pythonhosted.org/packages/15/c6/a01c084f7196c00b31a62dff5fa80123d030cdd64ce21a8ec621c586b7f6/sentiment_analysis_tagit-0.6-py3-none-any.whl
+[2023-07-31 06:11:55] INFO root fetch - processPackages [sentiment-analysis-tagit]: Downloading https://files.pythonhosted.org/packages/15/c6/a01c084f7196c00b31a62dff5fa80123d030cdd64ce21a8ec621c586b7f6/sentiment_analysis_tagit-0.6-py3-none-any.whl
+[2023-07-31 06:11:55] INFO root fetch - processPackages [py-book-util]: Downloading https://files.pythonhosted.org/packages/7a/24/f9aa1a02020217de693a235eede5ff9b666a960b8f5f4d7f052c6527bcaf/py_book_util-0.1.9.tar.gz
+[2023-07-31 06:11:55] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 06:11:55] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.51.15.tar.gz tmp/abstract_gui-0.0.51.16.tar.gz --markdown 20230731/a/abstract-gui/0.0.51.15-0.0.51.16/diff.md --exclude *.pyd
+[2023-07-31 06:11:55] INFO root fetch - processPackages [sentiment-analysis-tagit]: executing diffoscope
+[2023-07-31 06:11:55] INFO root fetch - processPackages [sentiment-analysis-tagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analysis_tagit-0.5-py3-none-any.whl.zip tmp/sentiment_analysis_tagit-0.6-py3-none-any.whl.zip --markdown 20230731/s/sentiment-analysis-tagit/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-31 06:11:55] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-07-31 06:11:55] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.1.0.tar.gz tmp/neuralpit-2.1.1.tar.gz --markdown 20230731/n/neuralpit/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-31 06:11:55] INFO root fetch - processPackages [sentiment-analysis-tagit]: executing diffoscope
+[2023-07-31 06:11:55] INFO root fetch - processPackages [sentiment-analysis-tagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analysis_tagit-0.5-py3-none-any.whl.zip tmp/sentiment_analysis_tagit-0.6-py3-none-any.whl.zip --markdown 20230731/s/sentiment-analysis-tagit/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-31 06:11:55] INFO root fetch - processPackages [py-book-util]: executing diffoscope
+[2023-07-31 06:11:55] INFO root fetch - processPackages [py-book-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_book_util-0.1.8.tar.gz tmp/py_book_util-0.1.9.tar.gz --markdown 20230731/p/py-book-util/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 06:11:56] INFO root fetch - processPackages [sentiment-analysis-tagit]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_tagit-0.5-py3-none-any.whl.zip]
+[2023-07-31 06:11:56] INFO root fetch - processPackages [sentiment-analysis-tagit]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_tagit-0.6-py3-none-any.whl.zip]
+[2023-07-31 06:11:56] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-tagit]: success
+[2023-07-31 06:11:56] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.51.15.tar.gz]
+[2023-07-31 06:11:56] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.51.16.tar.gz]
+[2023-07-31 06:11:56] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 06:11:56] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-tagit]: success
+[2023-07-31 06:11:56] INFO root fetch - processPackages [py-book-util]: Remove: archive file [/home/abi/fetcher/tmp/py_book_util-0.1.8.tar.gz]
+[2023-07-31 06:11:56] INFO root fetch - processPackages [py-book-util]: Remove: archive file [/home/abi/fetcher/tmp/py_book_util-0.1.9.tar.gz]
+[2023-07-31 06:11:56] INFO root fetch - main [MainThread]: End processing [py-book-util]: success
+[2023-07-31 06:11:56] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.1.0.tar.gz]
+[2023-07-31 06:11:56] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.1.1.tar.gz]
+[2023-07-31 06:11:56] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-07-31 06:11:56] INFO root fetch - main [MainThread]: Store serial: [19102502]
