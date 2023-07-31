@@ -16665,3 +16665,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 13:11:14] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.9.tar.gz]
 [2023-07-31 13:11:14] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
 [2023-07-31 13:11:14] INFO root fetch - main [MainThread]: Store serial: [19106630]
+[2023-07-31 13:16:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19106630]
+[2023-07-31 13:16:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-31 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mc-trimmer
+[2023-07-31 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansys-fluent-core
+[2023-07-31 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apisql
+[2023-07-31 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-rarity
+[2023-07-31 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: img2table
+[2023-07-31 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eea.dexterity.indicators
+[2023-07-31 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-scheduler-sdk-preview
+[2023-07-31 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-crm-project-task
+[2023-07-31 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudify-cluster-manager
+[2023-07-31 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oot
+[2023-07-31 13:16:23] INFO root fetch - processPackages [apisql]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-31 13:16:23] INFO root fetch - processPackages [ansys-fluent-core]: New version: [0.17.dev2] Old Version: [0.17.dev1]
+[2023-07-31 13:16:23] INFO root fetch - processPackages [img2table]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-31 13:16:23] INFO root fetch - processPackages [eea.dexterity.indicators]: New version: [7.1] Old Version: [7.0]
+[2023-07-31 13:16:23] WARNING root fetch - processPackages [oot]: Skipping, unable to determine old version
+[2023-07-31 13:16:23] INFO root fetch - main [MainThread]: End processing [oot] error
+[2023-07-31 13:16:23] INFO root fetch - processPackages [mc-trimmer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 13:16:23] INFO root fetch - processPackages [odoo-addon-crm-project-task]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.1]
+[2023-07-31 13:16:23] INFO root fetch - processPackages [open-rarity]: New version: [1.0.0a1] Old Version: [0.7.2]
+[2023-07-31 13:16:23] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: New version: [0.0.812] Old Version: [0.0.807]
+[2023-07-31 13:16:23] INFO root fetch - processPackages [cloudify-cluster-manager]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-31 13:16:23] INFO root fetch - processPackages [apisql]: Downloading https://files.pythonhosted.org/packages/cc/e0/2759c2ad8af04c06e2206a69cdaf5c0fbef056d2890389fa0f1ae445cfa8/apisql-0.3.0.tar.gz
+[2023-07-31 13:16:23] INFO root fetch - processPackages [img2table]: Downloading https://files.pythonhosted.org/packages/1e/8d/3a08b8e995be367aa8290869b5b7cf2fe5f53ed547e4c25de01be3407972/img2table-1.0.7.tar.gz
+[2023-07-31 13:16:23] INFO root fetch - processPackages [mc-trimmer]: Downloading https://files.pythonhosted.org/packages/54/2a/f6b58301a83fa218dd8707a7fb6a339ec462b98e6f4678879ecd55619b77/mc_trimmer-0.1.0.tar.gz
+[2023-07-31 13:16:23] INFO root fetch - processPackages [eea.dexterity.indicators]: Downloading https://files.pythonhosted.org/packages/15/f8/a72931200dc0cb63eb5803d13d7894ca8f4a935fa1a5aa1feef55bc6c5f6/eea.dexterity.indicators-7.0.zip
+[2023-07-31 13:16:23] INFO root fetch - processPackages [open-rarity]: Downloading https://files.pythonhosted.org/packages/28/8e/a74b33606076b3440c0794ad801226efcba488b84420f7ec0caf5296d343/open_rarity-0.7.2.tar.gz
+[2023-07-31 13:16:23] INFO root fetch - processPackages [odoo-addon-crm-project-task]: Downloading https://files.pythonhosted.org/packages/1f/bd/f105f15835abcd6bd739d2d431fd715d5417a2527d0f733ce005601691cc/odoo_addon_crm_project_task-15.0.1.0.1-py3-none-any.whl
+[2023-07-31 13:16:23] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/34/45/b812f11cff791dd8b55e28c7963540c0dd53e7b0d5183fa54cb11619559d/lusid-scheduler-sdk-preview-0.0.807.tar.gz
+[2023-07-31 13:16:24] INFO root fetch - processPackages [cloudify-cluster-manager]: Downloading https://files.pythonhosted.org/packages/3c/08/adf4d195f2c186a46082a1d903401800c6fb9e8ceee4d2aac4f48b3d1a97/cloudify-cluster-manager-1.1.5.tar.gz
+[2023-07-31 13:16:24] INFO root fetch - processPackages [apisql]: Downloading https://files.pythonhosted.org/packages/e9/a9/20569412f0159e801238f89ccf4a97db7786640405228d65c7e187cc13aa/apisql-0.3.1.tar.gz
+[2023-07-31 13:16:24] INFO root fetch - processPackages [ansys-fluent-core]: Downloading https://files.pythonhosted.org/packages/62/27/7acbee4110710d01d0e95fd15e539f856920028ed1e0dd44ef0b87446260/ansys-fluent-core-0.17.dev2.tar.gz
+[2023-07-31 13:16:24] INFO root fetch - processPackages [mc-trimmer]: Downloading https://files.pythonhosted.org/packages/a0/4d/cbd5ba6496ce8048898be53e294d30b04c3053f88952104a4760730e602a/mc_trimmer-0.1.1.tar.gz
+[2023-07-31 13:16:24] INFO root fetch - processPackages [apisql]: executing diffoscope
+[2023-07-31 13:16:24] INFO root fetch - processPackages [apisql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apisql-0.3.0.tar.gz tmp/apisql-0.3.1.tar.gz --markdown 20230731/a/apisql/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-31 13:16:24] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f3/41/d955ada043cd930c3874c0a96e8735dfd90d3b2597cf9c1ec9d8e547d65d/lusid-scheduler-sdk-preview-0.0.812.tar.gz
+[2023-07-31 13:16:24] INFO root fetch - processPackages [cloudify-cluster-manager]: Downloading https://files.pythonhosted.org/packages/64/e5/a34e899e1be40905396bab410aa7fef5584fdd4630312379c384ce3d6d55/cloudify-cluster-manager-1.1.6.tar.gz
+[2023-07-31 13:16:24] INFO root fetch - processPackages [open-rarity]: Downloading https://files.pythonhosted.org/packages/13/c9/bd5cb71a21591cd0daf8416f100d1e01fd708f52a44c61b46e62024c0556/open-rarity-1.0.0a1.tar.gz
+[2023-07-31 13:16:24] INFO root fetch - processPackages [eea.dexterity.indicators]: Downloading https://files.pythonhosted.org/packages/75/16/0ca973caf4c74d4355dada385ceeb0133cbdae750a385c296e5709fbacfe/eea.dexterity.indicators-7.1.zip
+[2023-07-31 13:16:24] INFO root fetch - processPackages [mc-trimmer]: executing diffoscope
+[2023-07-31 13:16:24] INFO root fetch - processPackages [mc-trimmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mc_trimmer-0.1.0.tar.gz tmp/mc_trimmer-0.1.1.tar.gz --markdown 20230731/m/mc-trimmer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 13:16:24] INFO root fetch - processPackages [odoo-addon-crm-project-task]: Downloading https://files.pythonhosted.org/packages/4e/c6/f3b86152be2dbfcc20905a38ed40b4f316e94ef4d63b3552eb73812bca3e/odoo_addon_crm_project_task-15.0.1.1.0-py3-none-any.whl
+[2023-07-31 13:16:24] INFO root fetch - processPackages [ansys-fluent-core]: executing diffoscope
+[2023-07-31 13:16:24] INFO root fetch - processPackages [ansys-fluent-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-fluent-core-0.17.dev1.tar.gz tmp/ansys-fluent-core-0.17.dev2.tar.gz --markdown 20230731/a/ansys-fluent-core/0.17.dev1-0.17.dev2/diff.md --exclude *.pyd
+[2023-07-31 13:16:24] INFO root fetch - processPackages [img2table]: Downloading https://files.pythonhosted.org/packages/e0/4d/d246ca7cc686473187e3bda16e3127e3215e209583f594ef14221824fe67/img2table-1.0.8.tar.gz
+[2023-07-31 13:16:24] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: executing diffoscope
+[2023-07-31 13:16:24] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-scheduler-sdk-preview-0.0.807.tar.gz tmp/lusid-scheduler-sdk-preview-0.0.812.tar.gz --markdown 20230731/l/lusid-scheduler-sdk-preview/0.0.807-0.0.812/diff.md --exclude *.pyd
+[2023-07-31 13:16:24] INFO root fetch - processPackages [odoo-addon-crm-project-task]: executing diffoscope
+[2023-07-31 13:16:24] INFO root fetch - processPackages [odoo-addon-crm-project-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_project_task-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_crm_project_task-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230731/o/odoo-addon-crm-project-task/15.0.1.0.1-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-31 13:16:24] INFO root fetch - processPackages [eea.dexterity.indicators]: executing diffoscope
+[2023-07-31 13:16:24] INFO root fetch - processPackages [eea.dexterity.indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.dexterity.indicators-7.0.zip tmp/eea.dexterity.indicators-7.1.zip --markdown 20230731/e/eea.dexterity.indicators/7.0-7.1/diff.md --exclude *.pyd
+[2023-07-31 13:16:24] INFO root fetch - processPackages [cloudify-cluster-manager]: executing diffoscope
+[2023-07-31 13:16:24] INFO root fetch - processPackages [cloudify-cluster-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudify-cluster-manager-1.1.5.tar.gz tmp/cloudify-cluster-manager-1.1.6.tar.gz --markdown 20230731/c/cloudify-cluster-manager/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-31 13:16:24] INFO root fetch - processPackages [open-rarity]: executing diffoscope
+[2023-07-31 13:16:24] INFO root fetch - processPackages [open-rarity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_rarity-0.7.2.tar.gz tmp/open-rarity-1.0.0a1.tar.gz --markdown 20230731/o/open-rarity/0.7.2-1.0.0a1/diff.md --exclude *.pyd
+[2023-07-31 13:16:25] INFO root fetch - processPackages [img2table]: executing diffoscope
+[2023-07-31 13:16:25] INFO root fetch - processPackages [img2table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img2table-1.0.7.tar.gz tmp/img2table-1.0.8.tar.gz --markdown 20230731/i/img2table/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-31 13:16:25] INFO root fetch - processPackages [apisql]: Remove: archive file [/home/abi/fetcher/tmp/apisql-0.3.0.tar.gz]
+[2023-07-31 13:16:25] INFO root fetch - processPackages [apisql]: Remove: archive file [/home/abi/fetcher/tmp/apisql-0.3.1.tar.gz]
+[2023-07-31 13:16:25] INFO root fetch - main [MainThread]: End processing [apisql]: success
+[2023-07-31 13:16:25] INFO root fetch - processPackages [mc-trimmer]: Remove: archive file [/home/abi/fetcher/tmp/mc_trimmer-0.1.0.tar.gz]
+[2023-07-31 13:16:25] INFO root fetch - processPackages [mc-trimmer]: Remove: archive file [/home/abi/fetcher/tmp/mc_trimmer-0.1.1.tar.gz]
+[2023-07-31 13:16:25] INFO root fetch - main [MainThread]: End processing [mc-trimmer]: success
+[2023-07-31 13:16:26] INFO root fetch - processPackages [odoo-addon-crm-project-task]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_project_task-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-31 13:16:26] INFO root fetch - processPackages [odoo-addon-crm-project-task]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_project_task-15.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-31 13:16:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-project-task]: success
+[2023-07-31 13:16:26] INFO root fetch - processPackages [open-rarity]: Remove: archive file [/home/abi/fetcher/tmp/open_rarity-0.7.2.tar.gz]
+[2023-07-31 13:16:26] INFO root fetch - processPackages [open-rarity]: Remove: archive file [/home/abi/fetcher/tmp/open-rarity-1.0.0a1.tar.gz]
+[2023-07-31 13:16:26] INFO root fetch - main [MainThread]: End processing [open-rarity]: success
+[2023-07-31 13:16:26] INFO root fetch - processPackages [cloudify-cluster-manager]: Remove: archive file [/home/abi/fetcher/tmp/cloudify-cluster-manager-1.1.5.tar.gz]
+[2023-07-31 13:16:26] INFO root fetch - processPackages [cloudify-cluster-manager]: Remove: archive file [/home/abi/fetcher/tmp/cloudify-cluster-manager-1.1.6.tar.gz]
+[2023-07-31 13:16:26] INFO root fetch - main [MainThread]: End processing [cloudify-cluster-manager]: success
+[2023-07-31 13:16:26] INFO root fetch - processPackages [eea.dexterity.indicators]: Remove: archive file [/home/abi/fetcher/tmp/eea.dexterity.indicators-7.0.zip]
+[2023-07-31 13:16:26] INFO root fetch - processPackages [eea.dexterity.indicators]: Remove: archive file [/home/abi/fetcher/tmp/eea.dexterity.indicators-7.1.zip]
+[2023-07-31 13:16:26] INFO root fetch - main [MainThread]: End processing [eea.dexterity.indicators]: success
+[2023-07-31 13:16:26] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.807.tar.gz]
+[2023-07-31 13:16:26] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.812.tar.gz]
+[2023-07-31 13:16:26] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk-preview]: success
+[2023-07-31 13:16:27] INFO root fetch - processPackages [img2table]: Remove: archive file [/home/abi/fetcher/tmp/img2table-1.0.7.tar.gz]
+[2023-07-31 13:16:27] INFO root fetch - processPackages [img2table]: Remove: archive file [/home/abi/fetcher/tmp/img2table-1.0.8.tar.gz]
+[2023-07-31 13:16:27] INFO root fetch - main [MainThread]: End processing [img2table]: success
+[2023-07-31 13:19:24] ERROR root fetch - processPackages [ansys-fluent-core]: Timeout during execution of pkgdiff
+[2023-07-31 13:19:24] INFO root fetch - main [MainThread]: End processing [ansys-fluent-core] error
+[2023-07-31 13:19:24] INFO root fetch - main [MainThread]: Store serial: [19106655]
