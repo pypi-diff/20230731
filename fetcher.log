@@ -20277,3 +20277,188 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-31 15:33:49] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.1.tar.gz]
 [2023-07-31 15:33:49] INFO root fetch - main [MainThread]: End processing [notebook]: success
 [2023-07-31 15:33:49] INFO root fetch - main [MainThread]: Store serial: [19108089]
+[2023-07-31 15:38:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19108089]
+[2023-07-31 15:38:58] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-31 15:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-07-31 15:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccdt
+[2023-07-31 15:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangocms-aldryn-forms
+[2023-07-31 15:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sourmash-plugin-abundhist
+[2023-07-31 15:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyxk
+[2023-07-31 15:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coiled
+[2023-07-31 15:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Coquille
+[2023-07-31 15:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyPhasesML
+[2023-07-31 15:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ckanext-envidat-validators
+[2023-07-31 15:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: malwareDetector
+[2023-07-31 15:38:58] WARNING root fetch - processPackages [ckanext-envidat-validators]: Skipping, unable to determine old version
+[2023-07-31 15:38:58] INFO root fetch - processPackages [ckanext-envidat-validators]: Start processing: ragger
+[2023-07-31 15:38:58] INFO root fetch - main [MainThread]: End processing [ckanext-envidat-validators] error
+[2023-07-31 15:38:58] INFO root fetch - processPackages [pyPhasesML]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-31 15:38:58] INFO root fetch - processPackages [malwareDetector]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 15:38:58] WARNING root fetch - processPackages [sourmash-plugin-abundhist]: Skipping, unable to determine old version
+[2023-07-31 15:38:59] INFO root fetch - processPackages [sourmash-plugin-abundhist]: Start processing: moranpycess
+[2023-07-31 15:38:59] INFO root fetch - main [MainThread]: End processing [sourmash-plugin-abundhist] error
+[2023-07-31 15:38:59] INFO root fetch - processPackages [Coquille]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-07-31 15:38:59] INFO root fetch - processPackages [pyxk]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-07-31 15:38:59] INFO root fetch - processPackages [ragger]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-31 15:38:59] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-31 15:38:59] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 15:38:59] INFO root fetch - processPackages [coiled]: New version: [0.9.2.dev4] Old Version: [0.9.2.dev3]
+[2023-07-31 15:38:59] INFO root fetch - processPackages [djangocms-aldryn-forms]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-07-31 15:38:59] INFO root fetch - processPackages [moranpycess]: New version: [1.1.0] Old Version: [1.0.39]
+[2023-07-31 15:38:59] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/fc/a8/e71effb081edf4d153f4030ab91d62361983b7170a486009f874b126bff8/pyPhasesML-0.7.4.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/77/a6/e0bf05ecd981ae79aa3675d0bfdca4323ccd551a4ed1b5237a2fc90f2032/Coquille-1.1.2.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [pyxk]: Downloading https://files.pythonhosted.org/packages/24/67/3483ae3ee83e161aa7b732e61836e787d12c056550cbc327e0bf7610058e/pyxk-0.6.6.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [malwareDetector]: Downloading https://files.pythonhosted.org/packages/47/2a/c76f75665817ca0d82f37d2ac6932f4c8e2820e048da9c51b86b9957f75b/malwareDetector-0.1.1.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/32/bc/ac3dab87c351984ae6522bf91695811f7df3607fcbcf2e87e12ccdcae4e5/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/82/04/82bc3bf0c47a6f88a45e1b5604b67e6f9d9d9068f3a4713025a7590f00e8/ragger-1.9.1.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [djangocms-aldryn-forms]: Downloading https://files.pythonhosted.org/packages/f7/33/e51a1860269064ba30e89dd3f2db5bd2c25fbc84a574594a531691857a00/djangocms-aldryn-forms-7.0.0.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/f8/7e/9f3de0c72b5294563418827b1a2f959414b0c817a43732622e5f31746c84/coiled-0.9.2.dev3.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [moranpycess]: Downloading https://files.pythonhosted.org/packages/99/cc/878a15fe932a9254737850a13853040e32d210cd87d76b9cdc5685660757/moranpycess-1.0.39.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/6a/ae/fa01045712bb3eba9e0b5134049d4d12a48ae9a7f6dc759832ff97474a3a/pyPhasesML-0.7.5.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/3a/9b/d09c1dea73593985a522d3c95dbfff576944dab23da96da21cd31fa75e85/Coquille-1.2.0.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/87/60/cd337f65781a604c1d436fcd62f8ffdaff0bc80e00546a9c715fa9561007/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [malwareDetector]: Downloading https://files.pythonhosted.org/packages/a9/55/a58833ea90782c13cc9438773cbbe394c06b010a4c3b810e79ebb6afd1d8/malwareDetector-0.1.2.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [pyPhasesML]: executing diffoscope
+[2023-07-31 15:38:59] INFO root fetch - processPackages [pyPhasesML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesML-0.7.4.tar.gz tmp/pyPhasesML-0.7.5.tar.gz --markdown 20230731/p/pyPhasesML/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-07-31 15:38:59] INFO root fetch - processPackages [pyxk]: Downloading https://files.pythonhosted.org/packages/15/52/c526ab2b121132be336362709f48d5824cdcda3da55fbd68cbe6d64d71b8/pyxk-0.6.7.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [moranpycess]: Downloading https://files.pythonhosted.org/packages/39/3c/163b3319c0e75e5fb4c3e11ed28f2f0afb905ba2b29b61a77460da7666ba/moranpycess-1.1.0.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [djangocms-aldryn-forms]: Downloading https://files.pythonhosted.org/packages/55/db/4828c4abd9c5eb84c8f7ab3a1e215a8c833163a8d089bddc539fe7a5a1de/djangocms-aldryn-forms-7.0.1.tar.gz
+[2023-07-31 15:38:59] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-07-31 15:39:00] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/7b/45/1653d696861ea92b567a9b6c985043e69b95d19fbe8f9320a5e6cce971ea/coiled-0.9.2.dev4.tar.gz
+[2023-07-31 15:39:00] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-07-31 15:39:00] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230731/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 15:39:00] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/55/ac/75fc7e94a713ed26019e36497774d89d7eaa377fab2ac4183dd45fc028b5/ragger-1.9.2.tar.gz
+[2023-07-31 15:39:00] INFO root fetch - processPackages [Coquille]: executing diffoscope
+[2023-07-31 15:39:00] INFO root fetch - processPackages [Coquille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Coquille-1.1.2.tar.gz tmp/Coquille-1.2.0.tar.gz --markdown 20230731/C/Coquille/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-07-31 15:39:00] INFO root fetch - processPackages [malwareDetector]: executing diffoscope
+[2023-07-31 15:39:00] INFO root fetch - processPackages [malwareDetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malwareDetector-0.1.1.tar.gz tmp/malwareDetector-0.1.2.tar.gz --markdown 20230731/m/malwareDetector/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 15:39:00] INFO root fetch - processPackages [pyxk]: executing diffoscope
+[2023-07-31 15:39:00] INFO root fetch - processPackages [pyxk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxk-0.6.6.tar.gz tmp/pyxk-0.6.7.tar.gz --markdown 20230731/p/pyxk/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-07-31 15:39:00] INFO root fetch - processPackages [djangocms-aldryn-forms]: executing diffoscope
+[2023-07-31 15:39:00] INFO root fetch - processPackages [djangocms-aldryn-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-aldryn-forms-7.0.0.tar.gz tmp/djangocms-aldryn-forms-7.0.1.tar.gz --markdown 20230731/d/djangocms-aldryn-forms/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-07-31 15:39:00] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-31 15:39:00] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.2.dev3.tar.gz tmp/coiled-0.9.2.dev4.tar.gz --markdown 20230731/c/coiled/0.9.2.dev3-0.9.2.dev4/diff.md --exclude *.pyd
+[2023-07-31 15:39:00] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-07-31 15:39:00] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230731/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-31 15:39:00] INFO root fetch - processPackages [moranpycess]: executing diffoscope
+[2023-07-31 15:39:00] INFO root fetch - processPackages [moranpycess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moranpycess-1.0.39.tar.gz tmp/moranpycess-1.1.0.tar.gz --markdown 20230731/m/moranpycess/1.0.39-1.1.0/diff.md --exclude *.pyd
+[2023-07-31 15:39:00] INFO root fetch - processPackages [ragger]: executing diffoscope
+[2023-07-31 15:39:00] INFO root fetch - processPackages [ragger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragger-1.9.1.tar.gz tmp/ragger-1.9.2.tar.gz --markdown 20230731/r/ragger/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-31 15:39:01] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.4.tar.gz]
+[2023-07-31 15:39:01] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.5.tar.gz]
+[2023-07-31 15:39:01] INFO root fetch - processPackages [pyPhasesML]: Start processing: qoa4ml
+[2023-07-31 15:39:01] INFO root fetch - main [MainThread]: End processing [pyPhasesML]: success
+[2023-07-31 15:39:01] INFO root fetch - processPackages [qoa4ml]: New version: [0.0.9] Old Version: [0.0.87]
+[2023-07-31 15:39:01] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/f9/ab/d872146ca0f52024186e95635a738a6c4315cdc8562fccf5d50054ae4fc5/qoa4ml-0.0.87.tar.gz
+[2023-07-31 15:39:01] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz]
+[2023-07-31 15:39:01] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz]
+[2023-07-31 15:39:01] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Start processing: lusid-scheduler-sdk-preview
+[2023-07-31 15:39:01] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-07-31 15:39:01] INFO root fetch - processPackages [malwareDetector]: Remove: archive file [/home/abi/fetcher/tmp/malwareDetector-0.1.1.tar.gz]
+[2023-07-31 15:39:01] INFO root fetch - processPackages [malwareDetector]: Remove: archive file [/home/abi/fetcher/tmp/malwareDetector-0.1.2.tar.gz]
+[2023-07-31 15:39:01] INFO root fetch - processPackages [malwareDetector]: Start processing: dash-express
+[2023-07-31 15:39:01] INFO root fetch - main [MainThread]: End processing [malwareDetector]: success
+[2023-07-31 15:39:01] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: New version: [0.0.818] Old Version: [0.0.817]
+[2023-07-31 15:39:01] INFO root fetch - processPackages [dash-express]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-31 15:39:01] INFO root fetch - processPackages [pyxk]: Remove: archive file [/home/abi/fetcher/tmp/pyxk-0.6.6.tar.gz]
+[2023-07-31 15:39:01] INFO root fetch - processPackages [pyxk]: Remove: archive file [/home/abi/fetcher/tmp/pyxk-0.6.7.tar.gz]
+[2023-07-31 15:39:01] INFO root fetch - processPackages [pyxk]: Start processing: cjptools
+[2023-07-31 15:39:01] INFO root fetch - main [MainThread]: End processing [pyxk]: success
+[2023-07-31 15:39:01] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/0c/01/118d11594cadd27f432673733bcdd3696a16233bffeac49f779a2ff835f8/qoa4ml-0.0.9.tar.gz
+[2023-07-31 15:39:02] INFO root fetch - processPackages [Coquille]: Remove: archive file [/home/abi/fetcher/tmp/Coquille-1.1.2.tar.gz]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [Coquille]: Remove: archive file [/home/abi/fetcher/tmp/Coquille-1.2.0.tar.gz]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [Coquille]: Start processing: dashvector
+[2023-07-31 15:39:02] INFO root fetch - main [MainThread]: End processing [Coquille]: success
+[2023-07-31 15:39:02] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [ccdt]: Start processing: fern-optimizely
+[2023-07-31 15:39:02] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-07-31 15:39:02] INFO root fetch - processPackages [cjptools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/2f/88/d02fa61301f32adb2f91888d605ee061aa788db8753da4653537b37b4cdc/lusid-scheduler-sdk-preview-0.0.817.tar.gz
+[2023-07-31 15:39:02] INFO root fetch - processPackages [dashvector]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [fern-optimizely]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [moranpycess]: Remove: archive file [/home/abi/fetcher/tmp/moranpycess-1.0.39.tar.gz]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [moranpycess]: Remove: archive file [/home/abi/fetcher/tmp/moranpycess-1.1.0.tar.gz]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.2.dev3.tar.gz]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.2.dev4.tar.gz]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [moranpycess]: Start processing: fbgemm-gpu-nightly
+[2023-07-31 15:39:02] INFO root fetch - main [MainThread]: End processing [moranpycess]: success
+[2023-07-31 15:39:02] INFO root fetch - processPackages [coiled]: Start processing: extract-msg
+[2023-07-31 15:39:02] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-31 15:39:02] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-07-31 15:39:02] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.0.87.tar.gz tmp/qoa4ml-0.0.9.tar.gz --markdown 20230731/q/qoa4ml/0.0.87-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 15:39:02] INFO root fetch - processPackages [dash-express]: Downloading https://files.pythonhosted.org/packages/0e/19/55258dc9d5920f1768be10596890ce51dae8eabb58d695cec54f2a9504f4/dash_express-1.0.1.tar.gz
+[2023-07-31 15:39:02] INFO root fetch - processPackages [dashvector]: Downloading https://files.pythonhosted.org/packages/fb/2e/f735ebdeb39a7148eba4c4be866fcdde9cd52aab04f286fac562bcb78e37/dashvector-0.0.17-py3-none-any.whl
+[2023-07-31 15:39:02] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.30] Old Version: [2023.7.29]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [extract-msg]: New version: [0.42.1] Old Version: [0.42.0]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/14/36/4b67064282e2251544a57aaffd6426c1b937a91a515b0edd7e2859421a5a/cjptools-0.1.2.tar.gz
+[2023-07-31 15:39:02] INFO root fetch - processPackages [djangocms-aldryn-forms]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-aldryn-forms-7.0.0.tar.gz]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [djangocms-aldryn-forms]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-aldryn-forms-7.0.1.tar.gz]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [djangocms-aldryn-forms]: Start processing: merge-files
+[2023-07-31 15:39:02] INFO root fetch - main [MainThread]: End processing [djangocms-aldryn-forms]: success
+[2023-07-31 15:39:02] INFO root fetch - processPackages [fern-optimizely]: Downloading https://files.pythonhosted.org/packages/5a/1d/4457be98913ae110762fdec0697f0c074c6b363b8b3ef20bd0c5e19628ab/fern_optimizely-0.0.8.tar.gz
+[2023-07-31 15:39:02] INFO root fetch - processPackages [merge-files]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/e9/3e/d9bd7b3ec4af3bb8c63ab6b85507112446171edd65621246a26463ebe988/lusid-scheduler-sdk-preview-0.0.818.tar.gz
+[2023-07-31 15:39:02] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/fa/94/6a7a21adaa36e00eb51121ddfb546ee27a07be5727e14b74406b356cd538/fbgemm_gpu_nightly-2023.7.29-cp311-cp311-manylinux2014_x86_64.whl
+[2023-07-31 15:39:02] INFO root fetch - processPackages [extract-msg]: Downloading https://files.pythonhosted.org/packages/55/3d/5625a11a5ae55e27dfa799a5313266396a578b616b6c0595e76ac7e164aa/extract_msg-0.42.0.tar.gz
+[2023-07-31 15:39:02] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.1.tar.gz]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.2.tar.gz]
+[2023-07-31 15:39:02] INFO root fetch - processPackages [ragger]: Start processing: jinjanator-plugins
+[2023-07-31 15:39:02] INFO root fetch - main [MainThread]: End processing [ragger]: success
+[2023-07-31 15:39:02] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 218111385>=10485760
+[2023-07-31 15:39:02] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-31 15:39:02] INFO root fetch - processPackages [dash-express]: Downloading https://files.pythonhosted.org/packages/ba/6a/9abe3fad995d0b514b3e6cd97d95c0874575b000a9255e23ee662b5c9213/dash_express-1.0.2.tar.gz
+[2023-07-31 15:39:02] INFO root fetch - processPackages [dashvector]: Downloading https://files.pythonhosted.org/packages/04/41/8104cf21f69d7385ca61646767b63e7ca52a77104137444e851c0441fd25/dashvector-0.0.18-py3-none-any.whl
+[2023-07-31 15:39:02] INFO root fetch - processPackages [merge-files]: Downloading https://files.pythonhosted.org/packages/9f/51/08bc2d975132a5354fd26a3bd57a09eed15407570fdc2d3da638bb23b959/merge_files-0.1.3.tar.gz
+[2023-07-31 15:39:02] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/8d/a4/8ac8ee6a53b4d08fd10460d45a7a6f27cd5bc3528e6e1da4272fccf5b1ef/cjptools-0.1.3.tar.gz
+[2023-07-31 15:39:02] INFO root fetch - processPackages [dash-express]: executing diffoscope
+[2023-07-31 15:39:02] INFO root fetch - processPackages [dash-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_express-1.0.1.tar.gz tmp/dash_express-1.0.2.tar.gz --markdown 20230731/d/dash-express/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-31 15:39:02] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: executing diffoscope
+[2023-07-31 15:39:02] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-scheduler-sdk-preview-0.0.817.tar.gz tmp/lusid-scheduler-sdk-preview-0.0.818.tar.gz --markdown 20230731/l/lusid-scheduler-sdk-preview/0.0.817-0.0.818/diff.md --exclude *.pyd
+[2023-07-31 15:39:02] INFO root fetch - processPackages [cjptools]: executing diffoscope
+[2023-07-31 15:39:02] INFO root fetch - processPackages [cjptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjptools-0.1.2.tar.gz tmp/cjptools-0.1.3.tar.gz --markdown 20230731/c/cjptools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-31 15:39:02] INFO root fetch - processPackages [fern-optimizely]: Downloading https://files.pythonhosted.org/packages/38/d6/f1cb303fbcdf358a212490b9154a506d10fa2a915c48c1d8ee92649fdc9d/fern_optimizely-0.0.9.tar.gz
+[2023-07-31 15:39:02] INFO root fetch - processPackages [dashvector]: executing diffoscope
+[2023-07-31 15:39:02] INFO root fetch - processPackages [dashvector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashvector-0.0.17-py3-none-any.whl.zip tmp/dashvector-0.0.18-py3-none-any.whl.zip --markdown 20230731/d/dashvector/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-07-31 15:39:02] INFO root fetch - processPackages [jinjanator-plugins]: New version: [23.2.1] Old Version: [23.2.0]
+[2023-07-31 15:39:03] INFO root fetch - processPackages [extract-msg]: Downloading https://files.pythonhosted.org/packages/96/46/d3941fadb823248f20cb4706ee1162cd9fcd81b24e9309be6aff972364ad/extract_msg-0.42.1.tar.gz
+[2023-07-31 15:39:03] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.87.tar.gz]
+[2023-07-31 15:39:03] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.9.tar.gz]
+[2023-07-31 15:39:03] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-07-31 15:39:03] INFO root fetch - processPackages [fern-optimizely]: executing diffoscope
+[2023-07-31 15:39:03] INFO root fetch - processPackages [fern-optimizely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_optimizely-0.0.8.tar.gz tmp/fern_optimizely-0.0.9.tar.gz --markdown 20230731/f/fern-optimizely/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 15:39:03] INFO root fetch - processPackages [merge-files]: Downloading https://files.pythonhosted.org/packages/95/f5/fc2e3c420f48b8f125a609f9611b47d2f4720cf52bea2be8fa9840557ac4/merge_files-0.1.4.tar.gz
+[2023-07-31 15:39:03] INFO root fetch - processPackages [jinjanator-plugins]: Downloading https://files.pythonhosted.org/packages/e5/6f/3b78329821f9b4a45dbd4b43ef24dfd4b30cf1d5e287f9c08c8cdfe086bf/jinjanator_plugins-23.2.0.tar.gz
+[2023-07-31 15:39:03] INFO root fetch - processPackages [merge-files]: executing diffoscope
+[2023-07-31 15:39:03] INFO root fetch - processPackages [merge-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merge_files-0.1.3.tar.gz tmp/merge_files-0.1.4.tar.gz --markdown 20230731/m/merge-files/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-31 15:39:03] INFO root fetch - processPackages [extract-msg]: executing diffoscope
+[2023-07-31 15:39:03] INFO root fetch - processPackages [extract-msg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extract_msg-0.42.0.tar.gz tmp/extract_msg-0.42.1.tar.gz --markdown 20230731/e/extract-msg/0.42.0-0.42.1/diff.md --exclude *.pyd
+[2023-07-31 15:39:03] INFO root fetch - processPackages [jinjanator-plugins]: Downloading https://files.pythonhosted.org/packages/98/96/b0f1642dd8dcbbb7bcc9348aa84a0fa93b91f2c3d28bce133be880b68a86/jinjanator_plugins-23.2.1.tar.gz
+[2023-07-31 15:39:03] INFO root fetch - processPackages [jinjanator-plugins]: executing diffoscope
+[2023-07-31 15:39:03] INFO root fetch - processPackages [jinjanator-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinjanator_plugins-23.2.0.tar.gz tmp/jinjanator_plugins-23.2.1.tar.gz --markdown 20230731/j/jinjanator-plugins/23.2.0-23.2.1/diff.md --exclude *.pyd
+[2023-07-31 15:39:04] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.2.tar.gz]
+[2023-07-31 15:39:04] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.3.tar.gz]
+[2023-07-31 15:39:04] INFO root fetch - main [MainThread]: End processing [cjptools]: success
+[2023-07-31 15:39:04] INFO root fetch - processPackages [dash-express]: Remove: archive file [/home/abi/fetcher/tmp/dash_express-1.0.1.tar.gz]
+[2023-07-31 15:39:04] INFO root fetch - processPackages [dash-express]: Remove: archive file [/home/abi/fetcher/tmp/dash_express-1.0.2.tar.gz]
+[2023-07-31 15:39:04] INFO root fetch - main [MainThread]: End processing [dash-express]: success
+[2023-07-31 15:39:04] INFO root fetch - processPackages [fern-optimizely]: Remove: archive file [/home/abi/fetcher/tmp/fern_optimizely-0.0.8.tar.gz]
+[2023-07-31 15:39:04] INFO root fetch - processPackages [fern-optimizely]: Remove: archive file [/home/abi/fetcher/tmp/fern_optimizely-0.0.9.tar.gz]
+[2023-07-31 15:39:04] INFO root fetch - main [MainThread]: End processing [fern-optimizely]: success
+[2023-07-31 15:39:04] INFO root fetch - processPackages [dashvector]: Remove: archive file [/home/abi/fetcher/tmp/dashvector-0.0.17-py3-none-any.whl.zip]
+[2023-07-31 15:39:04] INFO root fetch - processPackages [dashvector]: Remove: archive file [/home/abi/fetcher/tmp/dashvector-0.0.18-py3-none-any.whl.zip]
+[2023-07-31 15:39:04] INFO root fetch - main [MainThread]: End processing [dashvector]: success
+[2023-07-31 15:39:04] INFO root fetch - processPackages [merge-files]: Remove: archive file [/home/abi/fetcher/tmp/merge_files-0.1.3.tar.gz]
+[2023-07-31 15:39:04] INFO root fetch - processPackages [merge-files]: Remove: archive file [/home/abi/fetcher/tmp/merge_files-0.1.4.tar.gz]
+[2023-07-31 15:39:04] INFO root fetch - main [MainThread]: End processing [merge-files]: success
+[2023-07-31 15:39:04] INFO root fetch - processPackages [jinjanator-plugins]: Remove: archive file [/home/abi/fetcher/tmp/jinjanator_plugins-23.2.0.tar.gz]
+[2023-07-31 15:39:04] INFO root fetch - processPackages [jinjanator-plugins]: Remove: archive file [/home/abi/fetcher/tmp/jinjanator_plugins-23.2.1.tar.gz]
+[2023-07-31 15:39:04] INFO root fetch - main [MainThread]: End processing [jinjanator-plugins]: success
+[2023-07-31 15:39:04] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.817.tar.gz]
+[2023-07-31 15:39:04] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.818.tar.gz]
+[2023-07-31 15:39:04] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk-preview]: success
+[2023-07-31 15:39:04] INFO root fetch - processPackages [extract-msg]: Remove: archive file [/home/abi/fetcher/tmp/extract_msg-0.42.0.tar.gz]
+[2023-07-31 15:39:04] INFO root fetch - processPackages [extract-msg]: Remove: archive file [/home/abi/fetcher/tmp/extract_msg-0.42.1.tar.gz]
+[2023-07-31 15:39:04] INFO root fetch - main [MainThread]: End processing [extract-msg]: success
+[2023-07-31 15:39:04] INFO root fetch - main [MainThread]: Store serial: [19108154]
