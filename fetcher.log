@@ -5164,3 +5164,72 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 04:01:36] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
 [2023-07-31 04:01:36] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-07-31 04:01:36] INFO root fetch - main [MainThread]: Store serial: [19101815]
+[2023-07-31 04:06:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19101815]
+[2023-07-31 04:06:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-31 04:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-avatar
+[2023-07-31 04:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickbar
+[2023-07-31 04:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cudagrad
+[2023-07-31 04:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lichenggong
+[2023-07-31 04:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reason-workbench-poc
+[2023-07-31 04:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-avatar20220130-py2
+[2023-07-31 04:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ahk
+[2023-07-31 04:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: readmeai
+[2023-07-31 04:06:44] INFO root fetch - processPackages [cudagrad]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-07-31 04:06:44] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: New version: [1.0.9] Old Version: [1.0.24]
+[2023-07-31 04:06:44] WARNING root fetch - processPackages [reason-workbench-poc]: Skipping, unable to determine old version
+[2023-07-31 04:06:44] INFO root fetch - main [MainThread]: End processing [reason-workbench-poc] error
+[2023-07-31 04:06:44] INFO root fetch - processPackages [quickbar]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-31 04:06:44] INFO root fetch - processPackages [lichenggong]: New version: [0.5.1.0] Old Version: [0.5.0.0]
+[2023-07-31 04:06:44] INFO root fetch - processPackages [readmeai]: New version: [0.0.73] Old Version: [0.0.72]
+[2023-07-31 04:06:44] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: New version: [1.0.3] Old Version: [1.0.28]
+[2023-07-31 04:06:44] INFO root fetch - processPackages [ahk]: New version: [1.3.0] Old Version: [1.2.0rc2]
+[2023-07-31 04:06:44] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/0b/94/9439f3f7ffbee8753f99379f86cc2baf18eb586f699f771c3e10c70b06d1/readmeai-0.0.72.tar.gz
+[2023-07-31 04:06:44] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/fd/2b/a8197f95b1626d4e3cff2277d412d3825f84a0feec0a86b179f7c123f3de/cudagrad-0.0.33.tar.gz
+[2023-07-31 04:06:44] INFO root fetch - processPackages [quickbar]: Downloading https://files.pythonhosted.org/packages/90/5b/ae2b02c1f1e79138181cfe427b5bd9153804220045cf0d896334d22c2046/quickbar-0.0.3.tar.gz
+[2023-07-31 04:06:44] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Downloading https://files.pythonhosted.org/packages/0a/35/3098ce6441b4dcf8a02581c47156e4184361c363a3f7a4a8d34c8ac4da13/aliyun-python-sdk-avatar-1.0.24.tar.gz
+[2023-07-31 04:06:44] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/47/0a/ba900ac9949214e12e5217a839b1893c1400f9a023bcae5f445b3bd7062e/alibabacloud_avatar20220130_py2-1.0.28.tar.gz
+[2023-07-31 04:06:44] INFO root fetch - processPackages [lichenggong]: Downloading https://files.pythonhosted.org/packages/6c/6d/2d99edcc0480591d7c1b25fe7f0c5abb35eeb8b6791d52cd600e4742dd9e/lichenggong-0.5.0.0.tar.gz
+[2023-07-31 04:06:45] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/27/ba/2d34ee64d87ad47c69883f0caa104561a7bb751e8062f6878827fcdc4a64/ahk-1.2.0rc2.tar.gz
+[2023-07-31 04:06:45] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/da/1d/4f9764acdaf94eb105a7e51d161c3a885e04d1c98dd571bc185c6db748be/readmeai-0.0.73.tar.gz
+[2023-07-31 04:06:45] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/37/a7/8f8d31ab4f7c39a746d7a44fc028f5a6afc6e5ed2e4335ae8c53051f0488/cudagrad-0.0.34.tar.gz
+[2023-07-31 04:06:45] INFO root fetch - processPackages [quickbar]: Downloading https://files.pythonhosted.org/packages/7b/4b/829fc3474ee115b93ba9d7b1c80244d2b6bcc0fc6508ed5d04c34e470ba2/quickbar-0.1.0.tar.gz
+[2023-07-31 04:06:45] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-31 04:06:45] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.72.tar.gz tmp/readmeai-0.0.73.tar.gz --markdown 20230731/r/readmeai/0.0.72-0.0.73/diff.md --exclude *.pyd
+[2023-07-31 04:06:45] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Downloading https://files.pythonhosted.org/packages/ff/e8/ba9744da258b0e71cdc1b7fe1a4f25a7bd3d9806ce5911f0b24f0f754815/aliyun-python-sdk-avatar-1.0.9.tar.gz
+[2023-07-31 04:06:45] INFO root fetch - processPackages [lichenggong]: Downloading https://files.pythonhosted.org/packages/f2/d3/996935a2b64e8bcebe78b58bf635990d6a1b82b134cf03c0c967a40e2f39/lichenggong-0.5.1.0.tar.gz
+[2023-07-31 04:06:45] INFO root fetch - processPackages [cudagrad]: executing diffoscope
+[2023-07-31 04:06:45] INFO root fetch - processPackages [cudagrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudagrad-0.0.33.tar.gz tmp/cudagrad-0.0.34.tar.gz --markdown 20230731/c/cudagrad/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-07-31 04:06:45] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/24/54/b74d23547b44c5f4f5fc8e9a3db510f9e11eabcd357c464590fdd9af7ee1/alibabacloud_avatar20220130_py2-1.0.3.tar.gz
+[2023-07-31 04:06:45] INFO root fetch - processPackages [quickbar]: executing diffoscope
+[2023-07-31 04:06:45] INFO root fetch - processPackages [quickbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickbar-0.0.3.tar.gz tmp/quickbar-0.1.0.tar.gz --markdown 20230731/q/quickbar/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-31 04:06:45] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/cf/2d/e413c827332185304019a98e50eb7762c587ad469bf3faeb2d76065a396d/ahk-1.3.0.tar.gz
+[2023-07-31 04:06:45] INFO root fetch - processPackages [lichenggong]: executing diffoscope
+[2023-07-31 04:06:45] INFO root fetch - processPackages [lichenggong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lichenggong-0.5.0.0.tar.gz tmp/lichenggong-0.5.1.0.tar.gz --markdown 20230731/l/lichenggong/0.5.0.0-0.5.1.0/diff.md --exclude *.pyd
+[2023-07-31 04:06:45] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: executing diffoscope
+[2023-07-31 04:06:45] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_avatar20220130_py2-1.0.28.tar.gz tmp/alibabacloud_avatar20220130_py2-1.0.3.tar.gz --markdown 20230731/a/alibabacloud-avatar20220130-py2/1.0.28-1.0.3/diff.md --exclude *.pyd
+[2023-07-31 04:06:45] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: executing diffoscope
+[2023-07-31 04:06:45] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-avatar-1.0.24.tar.gz tmp/aliyun-python-sdk-avatar-1.0.9.tar.gz --markdown 20230731/a/aliyun-python-sdk-avatar/1.0.24-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 04:06:45] INFO root fetch - processPackages [ahk]: executing diffoscope
+[2023-07-31 04:06:45] INFO root fetch - processPackages [ahk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahk-1.2.0rc2.tar.gz tmp/ahk-1.3.0.tar.gz --markdown 20230731/a/ahk/1.2.0rc2-1.3.0/diff.md --exclude *.pyd
+[2023-07-31 04:06:46] INFO root fetch - processPackages [quickbar]: Remove: archive file [/home/abi/fetcher/tmp/quickbar-0.0.3.tar.gz]
+[2023-07-31 04:06:46] INFO root fetch - processPackages [quickbar]: Remove: archive file [/home/abi/fetcher/tmp/quickbar-0.1.0.tar.gz]
+[2023-07-31 04:06:46] INFO root fetch - main [MainThread]: End processing [quickbar]: success
+[2023-07-31 04:06:46] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.72.tar.gz]
+[2023-07-31 04:06:46] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.73.tar.gz]
+[2023-07-31 04:06:46] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-31 04:06:46] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130_py2-1.0.28.tar.gz]
+[2023-07-31 04:06:46] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130_py2-1.0.3.tar.gz]
+[2023-07-31 04:06:46] INFO root fetch - main [MainThread]: End processing [alibabacloud-avatar20220130-py2]: success
+[2023-07-31 04:06:46] INFO root fetch - processPackages [lichenggong]: Remove: archive file [/home/abi/fetcher/tmp/lichenggong-0.5.0.0.tar.gz]
+[2023-07-31 04:06:46] INFO root fetch - processPackages [lichenggong]: Remove: archive file [/home/abi/fetcher/tmp/lichenggong-0.5.1.0.tar.gz]
+[2023-07-31 04:06:46] INFO root fetch - main [MainThread]: End processing [lichenggong]: success
+[2023-07-31 04:06:46] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.33.tar.gz]
+[2023-07-31 04:06:46] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.34.tar.gz]
+[2023-07-31 04:06:46] INFO root fetch - main [MainThread]: End processing [cudagrad]: success
+[2023-07-31 04:06:46] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-avatar-1.0.24.tar.gz]
+[2023-07-31 04:06:46] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-avatar-1.0.9.tar.gz]
+[2023-07-31 04:06:46] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-avatar]: success
+[2023-07-31 04:06:47] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.2.0rc2.tar.gz]
+[2023-07-31 04:06:47] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.3.0.tar.gz]
+[2023-07-31 04:06:47] INFO root fetch - main [MainThread]: End processing [ahk]: success
+[2023-07-31 04:06:47] INFO root fetch - main [MainThread]: Store serial: [19101840]
