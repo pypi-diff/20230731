@@ -7465,3 +7465,167 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 07:09:09] INFO root fetch - processPackages [blender-stubs]: Remove: archive file [/home/abi/fetcher/tmp/blender-stubs-3.2.0.27.dev5710410943.tar.gz]
 [2023-07-31 07:09:09] INFO root fetch - main [MainThread]: End processing [blender-stubs]: success
 [2023-07-31 07:09:09] INFO root fetch - main [MainThread]: Store serial: [19102821]
+[2023-07-31 07:14:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102821]
+[2023-07-31 07:14:18] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-31 07:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-gui
+[2023-07-31 07:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Midify
+[2023-07-31 07:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lunchable
+[2023-07-31 07:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-07-31 07:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-homeassistant-custom-component
+[2023-07-31 07:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-07-31 07:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydantic-flask
+[2023-07-31 07:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-prototyping-sdk.identity
+[2023-07-31 07:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-07-31 07:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-07-31 07:14:19] INFO root fetch - processPackages [lunchable]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-31 07:14:19] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-31 07:14:19] WARNING root fetch - processPackages [pydantic-flask]: Skipping, unable to determine old version
+[2023-07-31 07:14:19] INFO root fetch - processPackages [pydantic-flask]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-07-31 07:14:19] INFO root fetch - main [MainThread]: End processing [pydantic-flask] error
+[2023-07-31 07:14:19] INFO root fetch - processPackages [Midify]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 07:14:19] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.52.27] Old Version: [0.0.52.26]
+[2023-07-31 07:14:19] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 07:14:19] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-07-31 07:14:19] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-31 07:14:19] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-31 07:14:19] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-31 07:14:19] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-31 07:14:19] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2023-07-31 07:14:19] INFO root fetch - processPackages [lunchable]: Downloading https://files.pythonhosted.org/packages/08/19/6a604a8dc1b9749297d298024ae8cea1eb7d3dbc446cbcdb541e1603cf8b/lunchable-0.8.0.tar.gz
+[2023-07-31 07:14:19] INFO root fetch - processPackages [Midify]: Downloading https://files.pythonhosted.org/packages/e1/60/37be7761bc7d1501d6878b8c188a299d40526722f456396e656e3361e9f2/Midify-0.1.0.tar.gz
+[2023-07-31 07:14:19] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/89/4d/0cfe83cf0a1839adc268021cacce00587ffd6e3e033f30a3109817ac616e/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz
+[2023-07-31 07:14:19] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/97/38/e2f9b14890efcd00ef828b165bd9ff276265616d79d8d621c6ec8b436d08/aws_prototyping_sdk.identity-0.9.3.tar.gz
+[2023-07-31 07:14:19] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/c2/ea/7c14ff989c0b2373b5d43ddce3b4c66c4d0ff7b24f7d12a7b37290fd23c7/abstract_gui-0.0.52.26.tar.gz
+[2023-07-31 07:14:19] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/62/6e/219166e3d14e639aae9211cbc1509a6dbe15cc23f9142e59ce77cdea2f2e/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz
+[2023-07-31 07:14:19] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/9b/a8/fb239c1d2008fa7b1297ad1672aa3e98e9a9063bff2eaa6cdcd842a88a9b/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz
+[2023-07-31 07:14:19] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/9b/9d/e0b01f09029cc3275b5cbb982ad82eb722a32dabcd2db0b85d04e5e1e95e/aws_prototyping_sdk.aws_arch-0.19.8.tar.gz
+[2023-07-31 07:14:19] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/a6/45/ddfefdff429d9a4baf37e564fdd0a983f5ea8166d0e2334b90c0b418756a/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz
+[2023-07-31 07:14:19] INFO root fetch - processPackages [Midify]: Downloading https://files.pythonhosted.org/packages/fa/53/fade98581f0e26b86e1b6e24b1ecf15865c7fa9017d4fb4c73f312997b0c/midify-0.1.1.tar.gz
+[2023-07-31 07:14:20] INFO root fetch - processPackages [lunchable]: Downloading https://files.pythonhosted.org/packages/74/82/12c8dd3d26a69068b1aa59eafff0133b95678c922eddda073c47dbfa0eb8/lunchable-0.8.1.tar.gz
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/4f/9d/94a124e4f88dd060b8de9979d16e3ba1cb19e6590bed27dc100625fd0edb/aws_prototyping_sdk.identity-0.9.4.tar.gz
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/f7/be/7cbad907d8e6a591b873fd439e612fd865cdc76a1042feba71c36cd4bed5/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz
+[2023-07-31 07:14:20] INFO root fetch - processPackages [lunchable]: executing diffoscope
+[2023-07-31 07:14:20] INFO root fetch - processPackages [lunchable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunchable-0.8.0.tar.gz tmp/lunchable-0.8.1.tar.gz --markdown 20230731/l/lunchable/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/12/71/4f7e5e98d46a0838bcfdff9092c0d810bc7a9d8a2026f6359027e18bd571/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/ef/05/b722ba023c19fdaec868b3d4963e41743ef58e82a6aa6b26fdc843152495/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz
+[2023-07-31 07:14:20] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/f8/ba/554a7b0f72f4d3bee61ca18e40ded43bc5675cec6ec5fcac87990c4ccd13/abstract_gui-0.0.52.27.tar.gz
+[2023-07-31 07:14:20] INFO root fetch - processPackages [Midify]: executing diffoscope
+[2023-07-31 07:14:20] INFO root fetch - processPackages [Midify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Midify-0.1.0.tar.gz tmp/midify-0.1.1.tar.gz --markdown 20230731/M/Midify/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230731/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230731/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/50/a5/38b1bbe94b587fb0e87caef969a05ba18b295e505292f0ba228b136ae731/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230731/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-31 07:14:20] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230731/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-31 07:14:20] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19300041>=10485760
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: aws-prototyping-sdk.pipeline
+[2023-07-31 07:14:20] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-07-31 07:14:20] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 07:14:20] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.52.26.tar.gz tmp/abstract_gui-0.0.52.27.tar.gz --markdown 20230731/a/abstract-gui/0.0.52.26-0.0.52.27/diff.md --exclude *.pyd
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230731/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-31 07:14:20] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/42/08/74d21c65ab1d20b6b0ffa70724b1674c9dfb7fb5928c75be8facb32049a8/aws_prototyping_sdk.pipeline-0.9.3.tar.gz
+[2023-07-31 07:14:21] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-07-31 07:14:21] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230731/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/3b/25/07bfef78766c8655b384c468aeb5f171d537aafabe48a0af1fd12c7301df/aws_prototyping_sdk.pipeline-0.9.4.tar.gz
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230731/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-31 07:14:21] INFO root fetch - processPackages [Midify]: Remove: archive file [/home/abi/fetcher/tmp/Midify-0.1.0.tar.gz]
+[2023-07-31 07:14:21] INFO root fetch - processPackages [Midify]: Remove: archive file [/home/abi/fetcher/tmp/midify-0.1.1.tar.gz]
+[2023-07-31 07:14:21] INFO root fetch - processPackages [Midify]: Start processing: aws-prototyping-sdk.static-website
+[2023-07-31 07:14:21] INFO root fetch - main [MainThread]: End processing [Midify]: success
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/33/2f/60587f31d52e48c949b1da26eb9e70f7d2091bc14ce396730cba7ee0991f/aws_prototyping_sdk.static_website-0.9.3.tar.gz
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz]
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz]
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-07-31 07:14:21] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-07-31 07:14:21] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.52.26.tar.gz]
+[2023-07-31 07:14:21] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.52.27.tar.gz]
+[2023-07-31 07:14:21] INFO root fetch - processPackages [abstract-gui]: Start processing: docarray
+[2023-07-31 07:14:21] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz]
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz]
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Start processing: midify
+[2023-07-31 07:14:21] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz]
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz]
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Start processing: data-serialize
+[2023-07-31 07:14:21] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz]
+[2023-07-31 07:14:21] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz]
+[2023-07-31 07:14:21] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Start processing: abstract-gui
+[2023-07-31 07:14:21] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-07-31 07:14:21] INFO root fetch - processPackages [data-serialize]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-31 07:14:22] INFO root fetch - processPackages [midify]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 07:14:22] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.53.0] Old Version: [0.0.52.28]
+[2023-07-31 07:14:22] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz]
+[2023-07-31 07:14:22] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz]
+[2023-07-31 07:14:22] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Start processing: tflite-runtime-nightly
+[2023-07-31 07:14:22] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-07-31 07:14:22] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/ce/60/72043fc0e30f8705240241169b3b70906aceae84a2a19822234ae4fa038d/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz
+[2023-07-31 07:14:22] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/e5/0f/641eb55e81a3b33a7465ceab3037ff68668a4f9bba07d31995a7c7bd15b2/aws_prototyping_sdk.static_website-0.9.4.tar.gz
+[2023-07-31 07:14:22] INFO root fetch - processPackages [data-serialize]: Downloading https://files.pythonhosted.org/packages/c6/7d/9fdd614485a6591069bc27f3a4c7cef1aa3c581bd61b9902cc163a2c0fbe/data_serialize-0.2.1-py3-none-any.whl
+[2023-07-31 07:14:22] INFO root fetch - processPackages [midify]: Downloading https://files.pythonhosted.org/packages/e1/60/37be7761bc7d1501d6878b8c188a299d40526722f456396e656e3361e9f2/Midify-0.1.0.tar.gz
+[2023-07-31 07:14:22] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230729] Old Version: [2.14.0.dev20230728]
+[2023-07-31 07:14:22] INFO root fetch - processPackages [lunchable]: Remove: archive file [/home/abi/fetcher/tmp/lunchable-0.8.0.tar.gz]
+[2023-07-31 07:14:22] INFO root fetch - processPackages [lunchable]: Remove: archive file [/home/abi/fetcher/tmp/lunchable-0.8.1.tar.gz]
+[2023-07-31 07:14:22] INFO root fetch - main [MainThread]: End processing [lunchable]: success
+[2023-07-31 07:14:22] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-31 07:14:22] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-07-31 07:14:22] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230731/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-31 07:14:22] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/3e/29/2f6b3993b376326a42631a55f5762594e4db0ed01e7a9f3389517a4435dd/tflite_runtime_nightly-2.14.0.dev20230728-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-07-31 07:14:22] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/53/fa/5eb434b504b0ac4ead6e09e1673724e31e6a7e529bac716b4e5fbdcffd6d/abstract_gui-0.0.52.28.tar.gz
+[2023-07-31 07:14:22] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2023-07-31 07:14:22] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2023-07-31 07:14:22] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-07-31 07:14:22] INFO root fetch - processPackages [midify]: Downloading https://files.pythonhosted.org/packages/fa/53/fade98581f0e26b86e1b6e24b1ecf15865c7fa9017d4fb4c73f312997b0c/midify-0.1.1.tar.gz
+[2023-07-31 07:14:22] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz]
+[2023-07-31 07:14:22] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz]
+[2023-07-31 07:14:22] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-07-31 07:14:22] INFO root fetch - processPackages [data-serialize]: Downloading https://files.pythonhosted.org/packages/d0/49/cc5477783f464563093fab28f73e647b1a78d5b5bc472fc7b69a1cf2f991/data_serialize-0.2.2-py3-none-any.whl
+[2023-07-31 07:14:22] INFO root fetch - processPackages [midify]: executing diffoscope
+[2023-07-31 07:14:22] INFO root fetch - processPackages [midify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Midify-0.1.0.tar.gz tmp/midify-0.1.1.tar.gz --markdown 20230731/m/midify/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 07:14:22] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/f4/27/5047b871b36882879776010666de606ac6b0119b47d0cac24792b8cc5991/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz
+[2023-07-31 07:14:22] INFO root fetch - processPackages [data-serialize]: executing diffoscope
+[2023-07-31 07:14:22] INFO root fetch - processPackages [data-serialize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_serialize-0.2.1-py3-none-any.whl.zip tmp/data_serialize-0.2.2-py3-none-any.whl.zip --markdown 20230731/d/data-serialize/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-31 07:14:22] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/ed/bb/1ab3058fe9f7cb887a54cddedf24b5abefc8e62c4c95639dd868e8661661/tflite_runtime_nightly-2.14.0.dev20230729-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-07-31 07:14:22] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/8f/31/ebb9d4b3979f259f9fc42ca48add5a1a26d4422097d9ef522559b6d77041/abstract_gui-0.0.53.0-py3-none-any.whl
+[2023-07-31 07:14:22] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-07-31 07:14:22] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz --markdown 20230731/a/aws-prototyping-sdk.type-safe-api/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-07-31 07:14:22] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-31 07:14:22] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-07-31 07:14:22] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230728-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230729-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20230731/t/tflite-runtime-nightly/2.14.0.dev20230728-2.14.0.dev20230729/diff.md --exclude *.pyd
+[2023-07-31 07:14:23] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-31 07:14:23] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230731/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-31 07:14:23] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 07:14:23] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.52.28.tar.gz tmp/abstract_gui-0.0.53.0-py3-none-any.whl.zip --markdown 20230731/a/abstract-gui/0.0.52.28-0.0.53.0/diff.md --exclude *.pyd
+[2023-07-31 07:14:23] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz]
+[2023-07-31 07:14:23] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz]
+[2023-07-31 07:14:23] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-07-31 07:14:23] INFO root fetch - processPackages [midify]: Remove: archive file [/home/abi/fetcher/tmp/Midify-0.1.0.tar.gz]
+[2023-07-31 07:14:23] INFO root fetch - processPackages [midify]: Remove: archive file [/home/abi/fetcher/tmp/midify-0.1.1.tar.gz]
+[2023-07-31 07:14:23] INFO root fetch - main [MainThread]: End processing [midify]: success
+[2023-07-31 07:14:23] INFO root fetch - processPackages [data-serialize]: Remove: archive file [/home/abi/fetcher/tmp/data_serialize-0.2.1-py3-none-any.whl.zip]
+[2023-07-31 07:14:23] INFO root fetch - processPackages [data-serialize]: Remove: archive file [/home/abi/fetcher/tmp/data_serialize-0.2.2-py3-none-any.whl.zip]
+[2023-07-31 07:14:23] INFO root fetch - main [MainThread]: End processing [data-serialize]: success
+[2023-07-31 07:14:23] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz]
+[2023-07-31 07:14:23] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
+[2023-07-31 07:14:23] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-07-31 07:14:24] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230728-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-07-31 07:14:24] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230729-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-07-31 07:14:24] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-07-31 07:14:24] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.52.28.tar.gz]
+[2023-07-31 07:14:24] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.0-py3-none-any.whl.zip]
+[2023-07-31 07:14:24] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 07:14:24] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-07-31 07:14:24] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-07-31 07:14:24] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-31 07:14:24] INFO root fetch - main [MainThread]: Store serial: [19102886]
