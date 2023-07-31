@@ -7300,3 +7300,78 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 06:58:43] INFO root fetch - main [MainThread]: End processing [peitho-data]: success
 [2023-07-31 06:58:43] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
 [2023-07-31 06:58:43] INFO root fetch - main [MainThread]: Store serial: [19102729]
+[2023-07-31 07:03:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102729]
+[2023-07-31 07:03:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-31 07:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crypto-screening
+[2023-07-31 07:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stigg-api-client
+[2023-07-31 07:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptify
+[2023-07-31 07:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: serra
+[2023-07-31 07:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client-v2
+[2023-07-31 07:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: component-contribution
+[2023-07-31 07:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-gui
+[2023-07-31 07:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: polyrepo
+[2023-07-31 07:03:52] INFO root fetch - processPackages [crypto-screening]: New version: [8.4.0] Old Version: [8.3.0]
+[2023-07-31 07:03:52] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.514.0] Old Version: [0.512.0]
+[2023-07-31 07:03:52] INFO root fetch - processPackages [stigg-api-client]: New version: [0.514.0] Old Version: [0.512.0]
+[2023-07-31 07:03:52] INFO root fetch - processPackages [serra]: New version: [0.6] Old Version: [0.5]
+[2023-07-31 07:03:52] INFO root fetch - processPackages [promptify]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-31 07:03:52] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.52.24] Old Version: [0.0.52.23]
+[2023-07-31 07:03:52] INFO root fetch - processPackages [polyrepo]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 07:03:52] INFO root fetch - processPackages [component-contribution]: New version: [0.5.0b1] Old Version: [0.4.6]
+[2023-07-31 07:03:52] INFO root fetch - processPackages [promptify]: Downloading https://files.pythonhosted.org/packages/a6/48/262707f490c3abfd7b1c2219fb8feb80a8be20f7a6450a10a1ca0f363dab/promptify-2.0.1.tar.gz
+[2023-07-31 07:03:52] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/2c/9b/20b19b279252caffb0bee28daf0303109103bdfe79c9b2dee76000ed6ce5/crypto-screening-8.3.0.tar.gz
+[2023-07-31 07:03:52] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/47/5f/e040d82a95678ed49faa4180f7132543fb18281ac3d2c0fa30263afe3613/stigg_api_client_v2-0.512.0.tar.gz
+[2023-07-31 07:03:52] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/5d/9e/7e28c3f210227161153ee0b72147ad51bbf199d2330277d44bee8248c4dc/abstract_gui-0.0.52.23.tar.gz
+[2023-07-31 07:03:52] INFO root fetch - processPackages [polyrepo]: Downloading https://files.pythonhosted.org/packages/8d/8a/3046d12fe0c63fa0d1e3f90d785bcbb29d780dde60c81bc5572ac1753c2e/polyrepo-0.1.1.tar.gz
+[2023-07-31 07:03:52] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/ff/15/ca77f78fb744235d1cf73f310dfa7d37c584222356a7c72067613efd9055/stigg_api_client-0.512.0.tar.gz
+[2023-07-31 07:03:52] INFO root fetch - processPackages [component-contribution]: Downloading https://files.pythonhosted.org/packages/96/04/959cbb93177b49f183cdacbe6c8fbb6a71d89bf4b6f81b42807449354756/component-contribution-0.4.6.tar.gz
+[2023-07-31 07:03:52] INFO root fetch - processPackages [serra]: Downloading https://files.pythonhosted.org/packages/e0/06/a649e0863047ef5f6079d60b62ebe04c414f737e95b4ab4e33936f2ec435/serra-0.5.tar.gz
+[2023-07-31 07:03:52] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/64/3a/6efbc8e4427e0a3b4be87c7b402374d5ab2008946a8e8eb67b916b85a98e/abstract_gui-0.0.52.24.tar.gz
+[2023-07-31 07:03:53] INFO root fetch - processPackages [polyrepo]: Downloading https://files.pythonhosted.org/packages/05/a1/baa6a8fadd3629988e7e8b665013268ea8343919a99de6170b478e8b3294/polyrepo-0.1.2.tar.gz
+[2023-07-31 07:03:53] INFO root fetch - processPackages [component-contribution]: Downloading https://files.pythonhosted.org/packages/57/5a/d98d0e1901363aec7d263faf1cc985c7f1c8ac9ba19edb5751d4ea30f4c9/component-contribution-0.5.0b1.tar.gz
+[2023-07-31 07:03:53] INFO root fetch - processPackages [promptify]: Downloading https://files.pythonhosted.org/packages/8f/5b/23df0bd52b694a65d170cfe069add615048fc02646e88bfca48706c0c828/promptify-2.0.2.tar.gz
+[2023-07-31 07:03:53] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/45/6e/8247ddd733b3beb54fdf543f1e8b6392d0eadd7898e7ce5e189ff6dceb61/stigg_api_client_v2-0.514.0.tar.gz
+[2023-07-31 07:03:53] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/85/88/c1ca60abadad5e01b6296146b5251eb50480af1c38cde78f0d61aac8ec87/crypto-screening-8.4.0.tar.gz
+[2023-07-31 07:03:53] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/25/7e/158d01cd9841805cba20d0c2af15c226152238341f7075ddfcd29de8be83/stigg_api_client-0.514.0.tar.gz
+[2023-07-31 07:03:53] INFO root fetch - processPackages [serra]: Downloading https://files.pythonhosted.org/packages/25/12/c0ea430dd8c440a9f50e59a3c7c3324aaa3396b1bfd722abdc1e35ae448f/serra-0.6.tar.gz
+[2023-07-31 07:03:53] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 07:03:53] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.52.23.tar.gz tmp/abstract_gui-0.0.52.24.tar.gz --markdown 20230731/a/abstract-gui/0.0.52.23-0.0.52.24/diff.md --exclude *.pyd
+[2023-07-31 07:03:53] INFO root fetch - processPackages [polyrepo]: executing diffoscope
+[2023-07-31 07:03:53] INFO root fetch - processPackages [polyrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyrepo-0.1.1.tar.gz tmp/polyrepo-0.1.2.tar.gz --markdown 20230731/p/polyrepo/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 07:03:53] INFO root fetch - processPackages [component-contribution]: executing diffoscope
+[2023-07-31 07:03:53] INFO root fetch - processPackages [component-contribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/component-contribution-0.4.6.tar.gz tmp/component-contribution-0.5.0b1.tar.gz --markdown 20230731/c/component-contribution/0.4.6-0.5.0b1/diff.md --exclude *.pyd
+[2023-07-31 07:03:53] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-31 07:03:53] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.512.0.tar.gz tmp/stigg_api_client_v2-0.514.0.tar.gz --markdown 20230731/s/stigg-api-client-v2/0.512.0-0.514.0/diff.md --exclude *.pyd
+[2023-07-31 07:03:53] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-31 07:03:53] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-8.3.0.tar.gz tmp/crypto-screening-8.4.0.tar.gz --markdown 20230731/c/crypto-screening/8.3.0-8.4.0/diff.md --exclude *.pyd
+[2023-07-31 07:03:53] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-31 07:03:53] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.512.0.tar.gz tmp/stigg_api_client-0.514.0.tar.gz --markdown 20230731/s/stigg-api-client/0.512.0-0.514.0/diff.md --exclude *.pyd
+[2023-07-31 07:03:53] INFO root fetch - processPackages [serra]: executing diffoscope
+[2023-07-31 07:03:53] INFO root fetch - processPackages [serra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serra-0.5.tar.gz tmp/serra-0.6.tar.gz --markdown 20230731/s/serra/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-31 07:03:53] INFO root fetch - processPackages [promptify]: executing diffoscope
+[2023-07-31 07:03:53] INFO root fetch - processPackages [promptify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptify-2.0.1.tar.gz tmp/promptify-2.0.2.tar.gz --markdown 20230731/p/promptify/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-31 07:03:54] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.52.23.tar.gz]
+[2023-07-31 07:03:54] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.52.24.tar.gz]
+[2023-07-31 07:03:54] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 07:03:54] INFO root fetch - processPackages [component-contribution]: Remove: archive file [/home/abi/fetcher/tmp/component-contribution-0.4.6.tar.gz]
+[2023-07-31 07:03:54] INFO root fetch - processPackages [component-contribution]: Remove: archive file [/home/abi/fetcher/tmp/component-contribution-0.5.0b1.tar.gz]
+[2023-07-31 07:03:54] INFO root fetch - main [MainThread]: End processing [component-contribution]: success
+[2023-07-31 07:03:54] INFO root fetch - processPackages [polyrepo]: Remove: archive file [/home/abi/fetcher/tmp/polyrepo-0.1.1.tar.gz]
+[2023-07-31 07:03:54] INFO root fetch - processPackages [polyrepo]: Remove: archive file [/home/abi/fetcher/tmp/polyrepo-0.1.2.tar.gz]
+[2023-07-31 07:03:54] INFO root fetch - main [MainThread]: End processing [polyrepo]: success
+[2023-07-31 07:03:54] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.512.0.tar.gz]
+[2023-07-31 07:03:54] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.514.0.tar.gz]
+[2023-07-31 07:03:54] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-31 07:03:54] INFO root fetch - processPackages [serra]: Remove: archive file [/home/abi/fetcher/tmp/serra-0.5.tar.gz]
+[2023-07-31 07:03:54] INFO root fetch - processPackages [serra]: Remove: archive file [/home/abi/fetcher/tmp/serra-0.6.tar.gz]
+[2023-07-31 07:03:54] INFO root fetch - main [MainThread]: End processing [serra]: success
+[2023-07-31 07:03:54] INFO root fetch - processPackages [promptify]: Remove: archive file [/home/abi/fetcher/tmp/promptify-2.0.1.tar.gz]
+[2023-07-31 07:03:54] INFO root fetch - processPackages [promptify]: Remove: archive file [/home/abi/fetcher/tmp/promptify-2.0.2.tar.gz]
+[2023-07-31 07:03:54] INFO root fetch - main [MainThread]: End processing [promptify]: success
+[2023-07-31 07:03:54] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.512.0.tar.gz]
+[2023-07-31 07:03:54] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.514.0.tar.gz]
+[2023-07-31 07:03:54] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-31 07:03:55] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.3.0.tar.gz]
+[2023-07-31 07:03:55] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.4.0.tar.gz]
+[2023-07-31 07:03:55] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-31 07:03:55] INFO root fetch - main [MainThread]: Store serial: [19102753]
