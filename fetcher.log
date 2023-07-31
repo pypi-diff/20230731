@@ -6003,3 +6003,51 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 05:09:33] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
 [2023-07-31 05:09:33] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-07-31 05:09:33] INFO root fetch - main [MainThread]: Store serial: [19102125]
+[2023-07-31 05:14:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102125]
+[2023-07-31 05:14:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-31 05:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wikichangewatcher
+[2023-07-31 05:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lego-image-converter
+[2023-07-31 05:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meringue
+[2023-07-31 05:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GANDLF
+[2023-07-31 05:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grapes-graph
+[2023-07-31 05:14:42] INFO root fetch - processPackages [meringue]: New version: [1.2.0.dev1] Old Version: [1.1.0.dev6]
+[2023-07-31 05:14:42] INFO root fetch - processPackages [wikichangewatcher]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-31 05:14:42] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230731] Old Version: [0.0.17.dev20230730]
+[2023-07-31 05:14:42] INFO root fetch - processPackages [grapes-graph]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 05:14:42] INFO root fetch - processPackages [lego-image-converter]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 05:14:42] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/ad/9c/72f69819e70bdacd8c7d149a8be790e73a5ead3515ab426fbc74b47b8bd4/GANDLF-0.0.17.dev20230730.tar.gz
+[2023-07-31 05:14:42] INFO root fetch - processPackages [wikichangewatcher]: Downloading https://files.pythonhosted.org/packages/53/59/d04d0cc9883f31bde5cf857cef5b7377679da51b8f090e052e965434ef83/wikichangewatcher-0.0.3-py3-none-any.whl
+[2023-07-31 05:14:42] INFO root fetch - processPackages [lego-image-converter]: Downloading https://files.pythonhosted.org/packages/a5/82/a715cb7546475a2c9f304ff26cde119ac6cded5233c8bc3cb0eeec4ee5dd/lego_image_converter-0.1.1.tar.gz
+[2023-07-31 05:14:42] INFO root fetch - processPackages [meringue]: Downloading https://files.pythonhosted.org/packages/28/4c/b7f2ec7a5f119ecebb6ae57a45dd7c93736968df6e2b428cf6ffdf2ae473/meringue-1.1.0.dev6.tar.gz
+[2023-07-31 05:14:42] INFO root fetch - processPackages [grapes-graph]: Downloading https://files.pythonhosted.org/packages/5d/94/29d875f2f6e7ec92663c2eec44f5d83734aa66bfd1a710f31c5b57e19f28/grapes-graph-0.0.2.tar.gz
+[2023-07-31 05:14:42] INFO root fetch - processPackages [wikichangewatcher]: Downloading https://files.pythonhosted.org/packages/38/99/08ed5e63f8bf3129c0081e1c902126244c2853cc96416cc831d140c1ad5c/wikichangewatcher-0.1.0-py3-none-any.whl
+[2023-07-31 05:14:42] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/62/02/4b0826514100b062e17c9be1c03f6c2215554914a83e8e9c5f32c626ce1c/GANDLF-0.0.17.dev20230731.tar.gz
+[2023-07-31 05:14:42] INFO root fetch - processPackages [lego-image-converter]: Downloading https://files.pythonhosted.org/packages/d3/0e/7fdf31ed336abe4873a51ee11fd4a26f29e3ba935edd56b2e46be1a0ad97/lego_image_converter-0.1.2.tar.gz
+[2023-07-31 05:14:42] INFO root fetch - processPackages [meringue]: Downloading https://files.pythonhosted.org/packages/76/c6/310059247d238a07cd76420e7df4fd7b1f1439e068249825dee48075e7fc/meringue-1.2.0.dev1.tar.gz
+[2023-07-31 05:14:42] INFO root fetch - processPackages [grapes-graph]: Downloading https://files.pythonhosted.org/packages/a0/9d/a48a50fe233d3efb3edeed4fd7886e8fd07d18bb55debcca473aef627879/grapes-graph-0.0.3.tar.gz
+[2023-07-31 05:14:42] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-31 05:14:42] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230730.tar.gz tmp/GANDLF-0.0.17.dev20230731.tar.gz --markdown 20230731/G/GANDLF/0.0.17.dev20230730-0.0.17.dev20230731/diff.md --exclude *.pyd
+[2023-07-31 05:14:42] INFO root fetch - processPackages [wikichangewatcher]: executing diffoscope
+[2023-07-31 05:14:42] INFO root fetch - processPackages [wikichangewatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikichangewatcher-0.0.3-py3-none-any.whl.zip tmp/wikichangewatcher-0.1.0-py3-none-any.whl.zip --markdown 20230731/w/wikichangewatcher/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-31 05:14:42] INFO root fetch - processPackages [meringue]: executing diffoscope
+[2023-07-31 05:14:42] INFO root fetch - processPackages [meringue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meringue-1.1.0.dev6.tar.gz tmp/meringue-1.2.0.dev1.tar.gz --markdown 20230731/m/meringue/1.1.0.dev6-1.2.0.dev1/diff.md --exclude *.pyd
+[2023-07-31 05:14:42] INFO root fetch - processPackages [grapes-graph]: executing diffoscope
+[2023-07-31 05:14:42] INFO root fetch - processPackages [grapes-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grapes-graph-0.0.2.tar.gz tmp/grapes-graph-0.0.3.tar.gz --markdown 20230731/g/grapes-graph/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 05:14:42] INFO root fetch - processPackages [lego-image-converter]: executing diffoscope
+[2023-07-31 05:14:42] INFO root fetch - processPackages [lego-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lego_image_converter-0.1.1.tar.gz tmp/lego_image_converter-0.1.2.tar.gz --markdown 20230731/l/lego-image-converter/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 05:14:43] INFO root fetch - processPackages [wikichangewatcher]: Remove: archive file [/home/abi/fetcher/tmp/wikichangewatcher-0.0.3-py3-none-any.whl.zip]
+[2023-07-31 05:14:43] INFO root fetch - processPackages [wikichangewatcher]: Remove: archive file [/home/abi/fetcher/tmp/wikichangewatcher-0.1.0-py3-none-any.whl.zip]
+[2023-07-31 05:14:43] INFO root fetch - main [MainThread]: End processing [wikichangewatcher]: success
+[2023-07-31 05:14:43] INFO root fetch - processPackages [grapes-graph]: Remove: archive file [/home/abi/fetcher/tmp/grapes-graph-0.0.2.tar.gz]
+[2023-07-31 05:14:43] INFO root fetch - processPackages [grapes-graph]: Remove: archive file [/home/abi/fetcher/tmp/grapes-graph-0.0.3.tar.gz]
+[2023-07-31 05:14:43] INFO root fetch - main [MainThread]: End processing [grapes-graph]: success
+[2023-07-31 05:14:43] INFO root fetch - processPackages [lego-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/lego_image_converter-0.1.1.tar.gz]
+[2023-07-31 05:14:43] INFO root fetch - processPackages [lego-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/lego_image_converter-0.1.2.tar.gz]
+[2023-07-31 05:14:43] INFO root fetch - main [MainThread]: End processing [lego-image-converter]: success
+[2023-07-31 05:14:43] INFO root fetch - processPackages [meringue]: Remove: archive file [/home/abi/fetcher/tmp/meringue-1.1.0.dev6.tar.gz]
+[2023-07-31 05:14:43] INFO root fetch - processPackages [meringue]: Remove: archive file [/home/abi/fetcher/tmp/meringue-1.2.0.dev1.tar.gz]
+[2023-07-31 05:14:43] INFO root fetch - main [MainThread]: End processing [meringue]: success
+[2023-07-31 05:14:44] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230730.tar.gz]
+[2023-07-31 05:14:44] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230731.tar.gz]
+[2023-07-31 05:14:44] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-31 05:14:44] INFO root fetch - main [MainThread]: Store serial: [19102141]
