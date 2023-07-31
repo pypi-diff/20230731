@@ -10535,3 +10535,43 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 09:58:07] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.5.tar.gz]
 [2023-07-31 09:58:07] INFO root fetch - main [MainThread]: End processing [metal-python]: success
 [2023-07-31 09:58:07] INFO root fetch - main [MainThread]: Store serial: [19104239]
+[2023-07-31 10:03:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19104239]
+[2023-07-31 10:03:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-31 10:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-07-31 10:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytch-fetch
+[2023-07-31 10:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpoints
+[2023-07-31 10:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpoints
+[2023-07-31 10:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swagd
+[2023-07-31 10:03:16] WARNING root fetch - processPackages [swagd]: Skipping, unable to determine old version
+[2023-07-31 10:03:16] INFO root fetch - main [MainThread]: End processing [swagd] error
+[2023-07-31 10:03:16] INFO root fetch - processPackages [mpoints]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-07-31 10:03:16] INFO root fetch - processPackages [mpoints]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-07-31 10:03:16] INFO root fetch - processPackages [pytch-fetch]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-31 10:03:16] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230731075809] Old Version: [2.2.1.dev20230731070139]
+[2023-07-31 10:03:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e3/e1/e27cd54bf9b89416d9f696eb9a2181236cb0355670741e53341160ef4032/localstack-core-2.2.1.dev20230731070139.tar.gz
+[2023-07-31 10:03:16] INFO root fetch - processPackages [pytch-fetch]: Downloading https://files.pythonhosted.org/packages/28/04/000fd2a9e089e2e372b236394db8173f74d029371dd52f3ca362bf607878/pytch-fetch-1.2.1.tar.gz
+[2023-07-31 10:03:16] INFO root fetch - processPackages [mpoints]: Downloading https://files.pythonhosted.org/packages/f1/f7/972ff3f77166b43eca0f3efbe50e9b782d225ffc485a141d84d567151506/mpoints-0.3.0.tar.gz
+[2023-07-31 10:03:16] INFO root fetch - processPackages [mpoints]: Downloading https://files.pythonhosted.org/packages/f1/f7/972ff3f77166b43eca0f3efbe50e9b782d225ffc485a141d84d567151506/mpoints-0.3.0.tar.gz
+[2023-07-31 10:03:17] INFO root fetch - processPackages [pytch-fetch]: Downloading https://files.pythonhosted.org/packages/74/14/41c34288b0ebc65234ac39a11ac0ede27e6caeaf551eadad045e33971d54/pytch-fetch-1.2.2.tar.gz
+[2023-07-31 10:03:17] INFO root fetch - processPackages [mpoints]: Downloading https://files.pythonhosted.org/packages/1a/98/44fc3036875de8052b406348c8f7c8876317c694ae935c3ad11145012c6e/mpoints-1.0.0.tar.gz
+[2023-07-31 10:03:17] INFO root fetch - processPackages [mpoints]: Downloading https://files.pythonhosted.org/packages/1a/98/44fc3036875de8052b406348c8f7c8876317c694ae935c3ad11145012c6e/mpoints-1.0.0.tar.gz
+[2023-07-31 10:03:17] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c6/42/4d0b52e527ca959c71e3007541528f597db3417d3fbbceaa5fb6d054d646/localstack-core-2.2.1.dev20230731075809.tar.gz
+[2023-07-31 10:03:17] INFO root fetch - processPackages [pytch-fetch]: executing diffoscope
+[2023-07-31 10:03:17] INFO root fetch - processPackages [pytch-fetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytch-fetch-1.2.1.tar.gz tmp/pytch-fetch-1.2.2.tar.gz --markdown 20230731/p/pytch-fetch/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-31 10:03:17] INFO root fetch - processPackages [mpoints]: executing diffoscope
+[2023-07-31 10:03:17] INFO root fetch - processPackages [mpoints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpoints-0.3.0.tar.gz tmp/mpoints-1.0.0.tar.gz --markdown 20230731/m/mpoints/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-31 10:03:17] INFO root fetch - processPackages [mpoints]: executing diffoscope
+[2023-07-31 10:03:17] INFO root fetch - processPackages [mpoints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpoints-0.3.0.tar.gz tmp/mpoints-1.0.0.tar.gz --markdown 20230731/m/mpoints/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-31 10:03:17] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-31 10:03:17] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230731070139.tar.gz tmp/localstack-core-2.2.1.dev20230731075809.tar.gz --markdown 20230731/l/localstack-core/2.2.1.dev20230731070139-2.2.1.dev20230731075809/diff.md --exclude *.pyd
+[2023-07-31 10:03:18] INFO root fetch - processPackages [pytch-fetch]: Remove: archive file [/home/abi/fetcher/tmp/pytch-fetch-1.2.1.tar.gz]
+[2023-07-31 10:03:18] INFO root fetch - processPackages [mpoints]: Remove: archive file [/home/abi/fetcher/tmp/mpoints-0.3.0.tar.gz]
+[2023-07-31 10:03:18] INFO root fetch - processPackages [pytch-fetch]: Remove: archive file [/home/abi/fetcher/tmp/pytch-fetch-1.2.2.tar.gz]
+[2023-07-31 10:03:18] INFO root fetch - processPackages [mpoints]: Remove: archive file [/home/abi/fetcher/tmp/mpoints-1.0.0.tar.gz]
+[2023-07-31 10:03:18] INFO root fetch - main [MainThread]: End processing [pytch-fetch]: success
+[2023-07-31 10:03:18] INFO root fetch - main [MainThread]: End processing [mpoints]: success
+[2023-07-31 10:03:18] INFO root fetch - main [MainThread]: End processing [mpoints]: success
+[2023-07-31 10:03:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230731070139.tar.gz]
+[2023-07-31 10:03:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230731075809.tar.gz]
+[2023-07-31 10:03:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-31 10:03:21] INFO root fetch - main [MainThread]: Store serial: [19104255]
