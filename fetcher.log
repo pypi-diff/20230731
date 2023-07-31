@@ -7125,3 +7125,51 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 06:43:10] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.3.0.tar.gz]
 [2023-07-31 06:43:10] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
 [2023-07-31 06:43:10] INFO root fetch - main [MainThread]: Store serial: [19102656]
+[2023-07-31 06:48:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102656]
+[2023-07-31 06:48:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-31 06:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: creepypasta
+[2023-07-31 06:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Akatosh
+[2023-07-31 06:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-gui
+[2023-07-31 06:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: promptify
+[2023-07-31 06:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raga-cli
+[2023-07-31 06:48:18] INFO root fetch - processPackages [creepypasta]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 06:48:18] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 06:48:18] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.52.22] Old Version: [0.0.52.21]
+[2023-07-31 06:48:18] INFO root fetch - processPackages [promptify]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-31 06:48:18] INFO root fetch - processPackages [Akatosh]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-31 06:48:18] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/78/a2/fa0f72f2a1604ab757857401b3b6f1d1e4baad5a82ba85e1d6102278803a/abstract_gui-0.0.52.21.tar.gz
+[2023-07-31 06:48:19] INFO root fetch - processPackages [creepypasta]: Downloading https://files.pythonhosted.org/packages/fd/61/b28ff7b9ed393519aeaffdc9cfa3faef6768b5e53b0a332b04657115ecfb/creepypasta-0.0.2.tar.gz
+[2023-07-31 06:48:19] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/c1/53/cc5efcf41c4c05eaf29e5d7b8e275ee146724fb17f1e1bfe092f13ca72ff/raga-cli-0.1.8.tar.gz
+[2023-07-31 06:48:19] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/e2/e7/6c1d1482a537fca8077c215962bab5386c96445324bbc1939e7a633362d0/Akatosh-2.1.8.tar.gz
+[2023-07-31 06:48:19] INFO root fetch - processPackages [promptify]: Downloading https://files.pythonhosted.org/packages/ce/93/bb1ae0e00e402cfac14c67a6064b5b97039a826d9a63389c048fd7c2ac22/promptify-2.0.0.tar.gz
+[2023-07-31 06:48:19] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/3e/0a/e1f01b2503f8b5cc894a7775fa9da9d4e4c89a1e1fe325a3297cfcf27bc4/abstract_gui-0.0.52.22.tar.gz
+[2023-07-31 06:48:19] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 06:48:19] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.52.21.tar.gz tmp/abstract_gui-0.0.52.22.tar.gz --markdown 20230731/a/abstract-gui/0.0.52.21-0.0.52.22/diff.md --exclude *.pyd
+[2023-07-31 06:48:19] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/0d/9c/8b802aa5065ce5f33524b2b37b7b9c6221704f29fb6686df153fab969cfe/Akatosh-2.1.9.tar.gz
+[2023-07-31 06:48:19] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/3e/dd/43266982ab7fcc72f99fde19db03705a244869f669ae7ae096cbfc9ed3e7/raga-cli-0.1.9.tar.gz
+[2023-07-31 06:48:19] INFO root fetch - processPackages [promptify]: Downloading https://files.pythonhosted.org/packages/a6/48/262707f490c3abfd7b1c2219fb8feb80a8be20f7a6450a10a1ca0f363dab/promptify-2.0.1.tar.gz
+[2023-07-31 06:48:19] INFO root fetch - processPackages [creepypasta]: Downloading https://files.pythonhosted.org/packages/08/08/774971e2bb9c517bf4e1bd0d31674794f9b0dad3ad2af7f5cf231c4e19a3/creepypasta-0.0.3.tar.gz
+[2023-07-31 06:48:19] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2023-07-31 06:48:19] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akatosh-2.1.8.tar.gz tmp/Akatosh-2.1.9.tar.gz --markdown 20230731/A/Akatosh/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-31 06:48:19] INFO root fetch - processPackages [creepypasta]: executing diffoscope
+[2023-07-31 06:48:19] INFO root fetch - processPackages [creepypasta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creepypasta-0.0.2.tar.gz tmp/creepypasta-0.0.3.tar.gz --markdown 20230731/c/creepypasta/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 06:48:19] INFO root fetch - processPackages [promptify]: executing diffoscope
+[2023-07-31 06:48:19] INFO root fetch - processPackages [promptify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptify-2.0.0.tar.gz tmp/promptify-2.0.1.tar.gz --markdown 20230731/p/promptify/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-31 06:48:19] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-07-31 06:48:19] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230731/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 06:48:20] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.52.21.tar.gz]
+[2023-07-31 06:48:20] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.52.22.tar.gz]
+[2023-07-31 06:48:20] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 06:48:20] INFO root fetch - processPackages [creepypasta]: Remove: archive file [/home/abi/fetcher/tmp/creepypasta-0.0.2.tar.gz]
+[2023-07-31 06:48:20] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.1.8.tar.gz]
+[2023-07-31 06:48:20] INFO root fetch - processPackages [creepypasta]: Remove: archive file [/home/abi/fetcher/tmp/creepypasta-0.0.3.tar.gz]
+[2023-07-31 06:48:20] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.1.9.tar.gz]
+[2023-07-31 06:48:20] INFO root fetch - main [MainThread]: End processing [creepypasta]: success
+[2023-07-31 06:48:20] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2023-07-31 06:48:20] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.8.tar.gz]
+[2023-07-31 06:48:20] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.9.tar.gz]
+[2023-07-31 06:48:20] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-07-31 06:48:20] INFO root fetch - processPackages [promptify]: Remove: archive file [/home/abi/fetcher/tmp/promptify-2.0.0.tar.gz]
+[2023-07-31 06:48:20] INFO root fetch - processPackages [promptify]: Remove: archive file [/home/abi/fetcher/tmp/promptify-2.0.1.tar.gz]
+[2023-07-31 06:48:20] INFO root fetch - main [MainThread]: End processing [promptify]: success
+[2023-07-31 06:48:20] INFO root fetch - main [MainThread]: Store serial: [19102673]
