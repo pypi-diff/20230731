@@ -11880,3 +11880,175 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 10:53:28] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.0a5.tar.gz]
 [2023-07-31 10:53:28] INFO root fetch - main [MainThread]: End processing [voila]: success
 [2023-07-31 10:53:28] INFO root fetch - main [MainThread]: Store serial: [19104876]
+[2023-07-31 10:58:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19104876]
+[2023-07-31 10:58:38] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-31 10:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-ssi-hr-dicipline
+[2023-07-31 10:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ssi-hr-award
+[2023-07-31 10:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-ssi-hr-career-transition
+[2023-07-31 10:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-enroll
+[2023-07-31 10:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bmw-lobster-core
+[2023-07-31 10:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bmw-lobster
+[2023-07-31 10:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bmw-lobster-tool-codebeamer
+[2023-07-31 10:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bmw-lobster-tool-cpp
+[2023-07-31 10:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bmw-lobster-tool-gtest
+[2023-07-31 10:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bmw-lobster-tool-json
+[2023-07-31 10:58:38] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 10:58:38] INFO root fetch - processPackages [bmw-lobster]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 10:58:38] INFO root fetch - processPackages [bmw-lobster-core]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 10:58:38] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-award]: Skipping, unable to determine old version
+[2023-07-31 10:58:38] INFO root fetch - processPackages [odoo14-addon-ssi-hr-award]: Start processing: bmw-lobster-tool-python
+[2023-07-31 10:58:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-award] error
+[2023-07-31 10:58:38] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 10:58:38] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-dicipline]: Skipping, unable to determine old version
+[2023-07-31 10:58:38] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-career-transition]: Skipping, unable to determine old version
+[2023-07-31 10:58:38] INFO root fetch - processPackages [odoo14-addon-ssi-hr-dicipline]: Start processing: bmw-lobster-tool-trlc
+[2023-07-31 10:58:38] INFO root fetch - processPackages [bmw-lobster-tool-json]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 10:58:38] INFO root fetch - processPackages [odoo14-addon-ssi-hr-career-transition]: Start processing: bmw-lobster-monolithic
+[2023-07-31 10:58:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-dicipline] error
+[2023-07-31 10:58:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-career-transition] error
+[2023-07-31 10:58:38] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 10:58:38] INFO root fetch - processPackages [bmw-lobster-tool-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 10:58:38] INFO root fetch - processPackages [bmw-lobster-monolithic]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 10:58:38] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Downloading https://files.pythonhosted.org/packages/7f/8f/583e623fa8c344459aa54e1c093e6e461694f79fa13bca8cb62011bd6600/bmw-lobster-tool-cpp-0.9.8.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster]: Downloading https://files.pythonhosted.org/packages/e3/0f/938a4999a754b1687272b3dc78a83485d90666572b6b62be7434bb766622/bmw-lobster-0.9.8.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-core]: Downloading https://files.pythonhosted.org/packages/70/b8/a4235658f71e54481da8b59a0e17b44ad185175cb3b8219a59edf46c3542/bmw-lobster-core-0.9.8.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-json]: Downloading https://files.pythonhosted.org/packages/05/45/4882e7702707c38a14ffee12dfd1e58f96c7a25305e03377c038ea0519d9/bmw-lobster-tool-json-0.9.8.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-python]: Downloading https://files.pythonhosted.org/packages/7c/f5/c7a66d84f38ba64fc544cd74507800f22d6cd6bfcd94a3bfc06787926679/bmw-lobster-tool-python-0.9.8.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-monolithic]: Downloading https://files.pythonhosted.org/packages/a7/83/f17b3ab37b5da2fc27192529bab2bbd0acc99e7dc2b1b1855991a266267f/bmw-lobster-monolithic-0.9.8.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Downloading https://files.pythonhosted.org/packages/0f/7e/66725fa301e36e6c27de5776e9069ab78db150a5efc2879cdaacb93ddbfc/bmw-lobster-tool-gtest-0.9.8.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Downloading https://files.pythonhosted.org/packages/e9/20/95922881543b39744f5e93a5683718bc46490879274f0fee9af9c45f5130/bmw-lobster-tool-codebeamer-0.9.8.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Downloading https://files.pythonhosted.org/packages/f0/60/881e40a849d92bf797daabfd53af5d6451e054c4a6ffa0f10e459b6f4f35/bmw-lobster-tool-trlc-0.9.8.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Downloading https://files.pythonhosted.org/packages/aa/6e/91dcea1889a684c13cf868f389601f14242d76085ced786a96f4f7eeec4e/bmw-lobster-tool-cpp-0.9.9.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster]: Downloading https://files.pythonhosted.org/packages/48/d6/256e5b22d6d0df395968bca66053af1e8e0074b805d092a8dae091b72498/bmw-lobster-0.9.9.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-json]: Downloading https://files.pythonhosted.org/packages/9c/2e/e8d7f3888e4e1c828e34a7f3bf6622283d9aa40093c28c3e0001257a9631/bmw-lobster-tool-json-0.9.9.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-core]: Downloading https://files.pythonhosted.org/packages/bc/63/3bad0685981f69e10acfb89c0a71935ddcba9d844330d40d78942971914b/bmw-lobster-core-0.9.9.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: executing diffoscope
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-cpp-0.9.8.tar.gz tmp/bmw-lobster-tool-cpp-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-tool-cpp/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster]: executing diffoscope
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-0.9.8.tar.gz tmp/bmw-lobster-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-python]: Downloading https://files.pythonhosted.org/packages/13/ba/0f726a4c76c280fe09eb2bb632b935e8824ae1c682e9f0c1e40dcec7205d/bmw-lobster-tool-python-0.9.9.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-monolithic]: Downloading https://files.pythonhosted.org/packages/55/c0/dcc7952dcb7a6308603adcafcc63a92a6513da47775cba851506d1c9674c/bmw-lobster-monolithic-0.9.9.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-json]: executing diffoscope
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-json-0.9.8.tar.gz tmp/bmw-lobster-tool-json-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-tool-json/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Downloading https://files.pythonhosted.org/packages/76/8b/9d9fca6061984dc71c1a29bf70e33c8fe812790e20ac506bcc48ce77dc54/bmw-lobster-tool-codebeamer-0.9.9.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Downloading https://files.pythonhosted.org/packages/cd/14/6bfaf65e775599b434e86ac7e542f9c09046efc32ba67f90c1c9f64ac704/bmw-lobster-tool-gtest-0.9.9.tar.gz
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-core]: executing diffoscope
+[2023-07-31 10:58:39] INFO root fetch - processPackages [bmw-lobster-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-core-0.9.8.tar.gz tmp/bmw-lobster-core-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-core/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 10:58:40] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Downloading https://files.pythonhosted.org/packages/6c/af/03b09790074308287893148728fc9d158e70a34aa4f9de9a5961dffe665a/bmw-lobster-tool-trlc-0.9.9.tar.gz
+[2023-07-31 10:58:40] INFO root fetch - processPackages [bmw-lobster-monolithic]: executing diffoscope
+[2023-07-31 10:58:40] INFO root fetch - processPackages [bmw-lobster-monolithic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-monolithic-0.9.8.tar.gz tmp/bmw-lobster-monolithic-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-monolithic/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 10:58:40] INFO root fetch - processPackages [bmw-lobster-tool-python]: executing diffoscope
+[2023-07-31 10:58:40] INFO root fetch - processPackages [bmw-lobster-tool-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-python-0.9.8.tar.gz tmp/bmw-lobster-tool-python-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-tool-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 10:58:40] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-07-31 10:58:40] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230731/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-31 10:58:40] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: executing diffoscope
+[2023-07-31 10:58:40] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-codebeamer-0.9.8.tar.gz tmp/bmw-lobster-tool-codebeamer-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-tool-codebeamer/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 10:58:40] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: executing diffoscope
+[2023-07-31 10:58:40] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-gtest-0.9.8.tar.gz tmp/bmw-lobster-tool-gtest-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-tool-gtest/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 10:58:40] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: executing diffoscope
+[2023-07-31 10:58:40] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-trlc-0.9.8.tar.gz tmp/bmw-lobster-tool-trlc-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-tool-trlc/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-0.9.8.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-0.9.9.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster]: Start processing: docarray
+[2023-07-31 10:58:41] INFO root fetch - main [MainThread]: End processing [bmw-lobster]: success
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-tool-json]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-json-0.9.8.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-tool-json]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-json-0.9.9.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-tool-json]: Start processing: gpforecaster
+[2023-07-31 10:58:41] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-json]: success
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-cpp-0.9.8.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-cpp-0.9.9.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Start processing: nginx-set-conf-equitania
+[2023-07-31 10:58:41] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-cpp]: success
+[2023-07-31 10:58:41] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [nginx-set-conf-equitania]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.99] Old Version: [0.3.98]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-31 10:58:41] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/f9/50/6523c659861818aaf52b42a9c19099c28e8894d37e89b2e6ee08016173a1/gpforecaster-0.3.98.tar.gz
+[2023-07-31 10:58:41] INFO root fetch - processPackages [nginx-set-conf-equitania]: Downloading https://files.pythonhosted.org/packages/bd/d0/3294678d0cad7830ad28eda33b5e692567b6eacf9464500cffe927067c9e/nginx-set-conf-equitania-0.9.2.tar.gz
+[2023-07-31 10:58:41] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/55/4a/abb8d729cce08753e894bde77a798a8d511f146cc78964011fdcf2c4c76c/gpforecaster-0.3.99.tar.gz
+[2023-07-31 10:58:41] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-tool-python]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-python-0.9.8.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-tool-python]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-python-0.9.9.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-tool-python]: Start processing: betwatch
+[2023-07-31 10:58:41] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-python]: success
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-core]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-core-0.9.8.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-core]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-core-0.9.9.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-core]: Start processing: pyrpd
+[2023-07-31 10:58:41] INFO root fetch - main [MainThread]: End processing [bmw-lobster-core]: success
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-trlc-0.9.8.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-trlc-0.9.9.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Start processing: pymc
+[2023-07-31 10:58:41] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-trlc]: success
+[2023-07-31 10:58:41] INFO root fetch - processPackages [betwatch]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-monolithic]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-monolithic-0.9.8.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-codebeamer-0.9.8.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-monolithic]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-monolithic-0.9.9.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-codebeamer-0.9.9.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Start processing: mteb
+[2023-07-31 10:58:41] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-codebeamer]: success
+[2023-07-31 10:58:41] INFO root fetch - processPackages [bmw-lobster-monolithic]: Start processing: betwatch
+[2023-07-31 10:58:41] INFO root fetch - main [MainThread]: End processing [bmw-lobster-monolithic]: success
+[2023-07-31 10:58:41] INFO root fetch - processPackages [pyrpd]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [pymc]: New version: [5.7.0] Old Version: [5.6.1]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.98.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.99.tar.gz]
+[2023-07-31 10:58:41] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-07-31 10:58:41] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-07-31 10:58:41] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.98.tar.gz tmp/gpforecaster-0.3.99.tar.gz --markdown 20230731/g/gpforecaster/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2023-07-31 10:58:42] INFO root fetch - processPackages [mteb]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-31 10:58:42] INFO root fetch - processPackages [betwatch]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-31 10:58:42] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-31 10:58:42] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230731/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-31 10:58:42] INFO root fetch - processPackages [nginx-set-conf-equitania]: Downloading https://files.pythonhosted.org/packages/5e/4f/1389ed08102ded8f444ffaeb442a5a131db522b346871632ce397b85c0bf/nginx-set-conf-equitania-0.9.3.tar.gz
+[2023-07-31 10:58:42] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-gtest-0.9.8.tar.gz]
+[2023-07-31 10:58:42] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-gtest-0.9.9.tar.gz]
+[2023-07-31 10:58:42] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-gtest]: success
+[2023-07-31 10:58:42] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/72/a6/735f55184625974b9140d74aa3841cec5b759c82a3a0b84f4c5eb0f83a18/betwatch-1.1.3.tar.gz
+[2023-07-31 10:58:42] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/72/a6/735f55184625974b9140d74aa3841cec5b759c82a3a0b84f4c5eb0f83a18/betwatch-1.1.3.tar.gz
+[2023-07-31 10:58:42] INFO root fetch - processPackages [nginx-set-conf-equitania]: executing diffoscope
+[2023-07-31 10:58:42] INFO root fetch - processPackages [nginx-set-conf-equitania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nginx-set-conf-equitania-0.9.2.tar.gz tmp/nginx-set-conf-equitania-0.9.3.tar.gz --markdown 20230731/n/nginx-set-conf-equitania/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-31 10:58:42] INFO root fetch - processPackages [pymc]: Downloading https://files.pythonhosted.org/packages/4b/b4/9fd1170f495bae6bf6dfb6e85b4bb4bef9359a74482f565f21652be9db0b/pymc-5.6.1.tar.gz
+[2023-07-31 10:58:42] INFO root fetch - processPackages [pyrpd]: Downloading https://files.pythonhosted.org/packages/e4/bc/5f1330808416b38b71e23e039e87e3bb50a1ce9a03633f089557d9285ebe/pyrpd-1.0.2.tar.gz
+[2023-07-31 10:58:42] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/a3/2b/af5bba038485ea1f1756391febe9c63393a4df82af88f92fbbefacb0b668/mteb-1.0.2.tar.gz
+[2023-07-31 10:58:42] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/ee/af/ac528bc00d2146ff2339670b41343175feabebc0d1347268453ab8240639/betwatch-1.1.4.tar.gz
+[2023-07-31 10:58:42] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/ee/af/ac528bc00d2146ff2339670b41343175feabebc0d1347268453ab8240639/betwatch-1.1.4.tar.gz
+[2023-07-31 10:58:42] INFO root fetch - processPackages [pyrpd]: Downloading https://files.pythonhosted.org/packages/dd/ce/fc99ae8ead9e2079f73beecad4f9cebcee18650a56420f24c42685c2679b/pyrpd-1.0.3.tar.gz
+[2023-07-31 10:58:42] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/c4/6f/939616dd41c77d70684eff4ee5f4ee2b0379dc32e4a7152c1f4aedd87809/mteb-1.1.0.tar.gz
+[2023-07-31 10:58:42] INFO root fetch - processPackages [betwatch]: executing diffoscope
+[2023-07-31 10:58:42] INFO root fetch - processPackages [betwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betwatch-1.1.3.tar.gz tmp/betwatch-1.1.4.tar.gz --markdown 20230731/b/betwatch/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-31 10:58:42] INFO root fetch - processPackages [betwatch]: executing diffoscope
+[2023-07-31 10:58:42] INFO root fetch - processPackages [betwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betwatch-1.1.3.tar.gz tmp/betwatch-1.1.4.tar.gz --markdown 20230731/b/betwatch/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-31 10:58:42] INFO root fetch - processPackages [pymc]: Downloading https://files.pythonhosted.org/packages/9c/dc/0224e5ed74f1ffde033b9037ed05ed90d541edeea8bce939e960742eca9e/pymc-5.7.0.tar.gz
+[2023-07-31 10:58:42] INFO root fetch - processPackages [pyrpd]: executing diffoscope
+[2023-07-31 10:58:42] INFO root fetch - processPackages [pyrpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrpd-1.0.2.tar.gz tmp/pyrpd-1.0.3.tar.gz --markdown 20230731/p/pyrpd/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-31 10:58:42] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2023-07-31 10:58:42] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.0.2.tar.gz tmp/mteb-1.1.0.tar.gz --markdown 20230731/m/mteb/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-31 10:58:42] INFO root fetch - processPackages [pymc]: executing diffoscope
+[2023-07-31 10:58:42] INFO root fetch - processPackages [pymc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymc-5.6.1.tar.gz tmp/pymc-5.7.0.tar.gz --markdown 20230731/p/pymc/5.6.1-5.7.0/diff.md --exclude *.pyd
+[2023-07-31 10:58:42] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.98.tar.gz]
+[2023-07-31 10:58:42] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.99.tar.gz]
+[2023-07-31 10:58:42] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-07-31 10:58:43] INFO root fetch - processPackages [nginx-set-conf-equitania]: Remove: archive file [/home/abi/fetcher/tmp/nginx-set-conf-equitania-0.9.2.tar.gz]
+[2023-07-31 10:58:43] INFO root fetch - processPackages [nginx-set-conf-equitania]: Remove: archive file [/home/abi/fetcher/tmp/nginx-set-conf-equitania-0.9.3.tar.gz]
+[2023-07-31 10:58:43] INFO root fetch - main [MainThread]: End processing [nginx-set-conf-equitania]: success
+[2023-07-31 10:58:43] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-07-31 10:58:43] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-07-31 10:58:43] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-31 10:58:43] INFO root fetch - processPackages [betwatch]: Remove: archive file [/home/abi/fetcher/tmp/betwatch-1.1.3.tar.gz]
+[2023-07-31 10:58:43] INFO root fetch - processPackages [betwatch]: Remove: archive file [/home/abi/fetcher/tmp/betwatch-1.1.4.tar.gz]
+[2023-07-31 10:58:43] INFO root fetch - main [MainThread]: End processing [betwatch]: success
+[2023-07-31 10:58:43] INFO root fetch - main [MainThread]: End processing [betwatch]: success
+[2023-07-31 10:58:43] INFO root fetch - processPackages [pyrpd]: Remove: archive file [/home/abi/fetcher/tmp/pyrpd-1.0.2.tar.gz]
+[2023-07-31 10:58:43] INFO root fetch - processPackages [pyrpd]: Remove: archive file [/home/abi/fetcher/tmp/pyrpd-1.0.3.tar.gz]
+[2023-07-31 10:58:43] INFO root fetch - main [MainThread]: End processing [pyrpd]: success
+[2023-07-31 10:58:44] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.0.2.tar.gz]
+[2023-07-31 10:58:44] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.1.0.tar.gz]
+[2023-07-31 10:58:44] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2023-07-31 10:58:44] INFO root fetch - processPackages [pymc]: Remove: archive file [/home/abi/fetcher/tmp/pymc-5.6.1.tar.gz]
+[2023-07-31 10:58:44] INFO root fetch - processPackages [pymc]: Remove: archive file [/home/abi/fetcher/tmp/pymc-5.7.0.tar.gz]
+[2023-07-31 10:58:44] INFO root fetch - main [MainThread]: End processing [pymc]: success
+[2023-07-31 10:58:44] INFO root fetch - main [MainThread]: Store serial: [19104942]
