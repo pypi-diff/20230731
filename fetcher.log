@@ -7828,3 +7828,45 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 07:29:58] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
 [2023-07-31 07:29:58] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
 [2023-07-31 07:29:58] INFO root fetch - main [MainThread]: Store serial: [19102973]
+[2023-07-31 07:35:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102973]
+[2023-07-31 07:35:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-31 07:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addons-oca-stock-logistics-workflow
+[2023-07-31 07:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: youth-version-of-setu4
+[2023-07-31 07:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-gui
+[2023-07-31 07:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chargebee
+[2023-07-31 07:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: salinic
+[2023-07-31 07:35:07] WARNING root fetch - processPackages [salinic]: Skipping, unable to determine old version
+[2023-07-31 07:35:07] INFO root fetch - main [MainThread]: End processing [salinic] error
+[2023-07-31 07:35:07] INFO root fetch - processPackages [youth-version-of-setu4]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 07:35:07] INFO root fetch - processPackages [chargebee]: New version: [2.9.0] Old Version: [2.8.4]
+[2023-07-31 07:35:07] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-workflow]: New version: [14.0.20230730.0] Old Version: [14.0.20230320.0]
+[2023-07-31 07:35:07] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.53.3] Old Version: [0.0.53.2]
+[2023-07-31 07:35:07] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/f5/46/35273799156a944b144e5da23b48c685b96059569e1b3a6e03dd84a2a28d/abstract_gui-0.0.53.2.tar.gz
+[2023-07-31 07:35:07] INFO root fetch - processPackages [youth-version-of-setu4]: Downloading https://files.pythonhosted.org/packages/a7/a6/49dd0bbddd24c7c4db3eb5d6dc8838818c2f1258b4bbbe922bde623e5036/youth-version-of-setu4-0.0.8.tar.gz
+[2023-07-31 07:35:07] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/bf/de/6008987accb72a19f9dd1682ef97f59e890a62dac792324672a45e120970/odoo14_addons_oca_stock_logistics_workflow-14.0.20230320.0-py3-none-any.whl
+[2023-07-31 07:35:07] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/99/7c/ebaaca7d47a6de9353d082ff9eaca8d63b76e53a5ca5bf3f9c279642102c/chargebee-2.8.4.tar.gz
+[2023-07-31 07:35:07] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/c4/ef/38afef18c03038fa16d5d6582fe4c721529da19fdf950fb0fcfa174e61cf/abstract_gui-0.0.53.3.tar.gz
+[2023-07-31 07:35:07] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 07:35:07] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.53.2.tar.gz tmp/abstract_gui-0.0.53.3.tar.gz --markdown 20230731/a/abstract-gui/0.0.53.2-0.0.53.3/diff.md --exclude *.pyd
+[2023-07-31 07:35:07] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/e0/90/bfd0dd51b3ef1100a2e088481af1bdddb5b6097f2f39c067bb2cea39f566/odoo14_addons_oca_stock_logistics_workflow-14.0.20230730.0-py3-none-any.whl
+[2023-07-31 07:35:07] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/a6/9e/648a4d782f53ea14a4b6101e7cad249e6b53b97ada5f89bf1020b45db99f/chargebee-2.9.0.tar.gz
+[2023-07-31 07:35:07] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2023-07-31 07:35:07] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_stock_logistics_workflow-14.0.20230320.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_stock_logistics_workflow-14.0.20230730.0-py3-none-any.whl.zip --markdown 20230731/o/odoo14-addons-oca-stock-logistics-workflow/14.0.20230320.0-14.0.20230730.0/diff.md --exclude *.pyd
+[2023-07-31 07:35:07] INFO root fetch - processPackages [chargebee]: executing diffoscope
+[2023-07-31 07:35:07] INFO root fetch - processPackages [chargebee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chargebee-2.8.4.tar.gz tmp/chargebee-2.9.0.tar.gz --markdown 20230731/c/chargebee/2.8.4-2.9.0/diff.md --exclude *.pyd
+[2023-07-31 07:35:08] INFO root fetch - processPackages [youth-version-of-setu4]: Downloading https://files.pythonhosted.org/packages/e3/51/7c3835836df98674eb53b39bf18b3a0f01427944e1324089db4ae7a12fd3/youth-version-of-setu4-0.0.9.tar.gz
+[2023-07-31 07:35:08] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.2.tar.gz]
+[2023-07-31 07:35:08] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.3.tar.gz]
+[2023-07-31 07:35:08] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 07:35:08] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_stock_logistics_workflow-14.0.20230320.0-py3-none-any.whl.zip]
+[2023-07-31 07:35:08] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_stock_logistics_workflow-14.0.20230730.0-py3-none-any.whl.zip]
+[2023-07-31 07:35:08] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-stock-logistics-workflow]: success
+[2023-07-31 07:35:08] INFO root fetch - processPackages [youth-version-of-setu4]: executing diffoscope
+[2023-07-31 07:35:08] INFO root fetch - processPackages [youth-version-of-setu4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youth-version-of-setu4-0.0.8.tar.gz tmp/youth-version-of-setu4-0.0.9.tar.gz --markdown 20230731/y/youth-version-of-setu4/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 07:35:08] INFO root fetch - processPackages [chargebee]: Remove: archive file [/home/abi/fetcher/tmp/chargebee-2.8.4.tar.gz]
+[2023-07-31 07:35:08] INFO root fetch - processPackages [chargebee]: Remove: archive file [/home/abi/fetcher/tmp/chargebee-2.9.0.tar.gz]
+[2023-07-31 07:35:08] INFO root fetch - main [MainThread]: End processing [chargebee]: success
+[2023-07-31 07:35:12] INFO root fetch - processPackages [youth-version-of-setu4]: Remove: archive file [/home/abi/fetcher/tmp/youth-version-of-setu4-0.0.8.tar.gz]
+[2023-07-31 07:35:12] INFO root fetch - processPackages [youth-version-of-setu4]: Remove: archive file [/home/abi/fetcher/tmp/youth-version-of-setu4-0.0.9.tar.gz]
+[2023-07-31 07:35:12] INFO root fetch - main [MainThread]: End processing [youth-version-of-setu4]: success
+[2023-07-31 07:35:12] INFO root fetch - main [MainThread]: Store serial: [19102987]
