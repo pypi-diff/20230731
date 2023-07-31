@@ -18123,3 +18123,153 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 14:22:46] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.18.9.tar.gz]
 [2023-07-31 14:22:46] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
 [2023-07-31 14:22:46] INFO root fetch - main [MainThread]: Store serial: [19107212]
+[2023-07-31 14:27:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19107212]
+[2023-07-31 14:27:55] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-31 14:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: async-nec-beamer
+[2023-07-31 14:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudshell-orch-core
+[2023-07-31 14:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eodc-faas-openeo
+[2023-07-31 14:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qoa4ml
+[2023-07-31 14:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fenjing
+[2023-07-31 14:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pasta-eln
+[2023-07-31 14:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atooms-database
+[2023-07-31 14:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kv-deta
+[2023-07-31 14:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: utf-queue-client
+[2023-07-31 14:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: keboola.json-to-csv
+[2023-07-31 14:27:55] INFO root fetch - processPackages [atooms-database]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-31 14:27:55] INFO root fetch - processPackages [cloudshell-orch-core]: New version: [4.3.0.282] Old Version: [4.2.0.263]
+[2023-07-31 14:27:55] INFO root fetch - processPackages [async-nec-beamer]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-31 14:27:55] INFO root fetch - processPackages [kv-deta]: New version: [0.1.8a0] Old Version: [0.1.7a0]
+[2023-07-31 14:27:55] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2023.7.5rc1] Old Version: [2023.7.4]
+[2023-07-31 14:27:55] INFO root fetch - processPackages [keboola.json-to-csv]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-31 14:27:55] INFO root fetch - processPackages [qoa4ml]: New version: [0.0.9] Old Version: [0.0.83]
+[2023-07-31 14:27:55] INFO root fetch - processPackages [fenjing]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-31 14:27:55] INFO root fetch - processPackages [pasta-eln]: New version: [2.4.7] Old Version: [2.4.6]
+[2023-07-31 14:27:55] INFO root fetch - processPackages [utf-queue-client]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-31 14:27:55] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/1a/17/e8b6cfdc2ee6b11075e2e66876d9374b84d0b5122e25fda7a3556d98e682/pasta_eln-2.4.6-py3-none-any.whl
+[2023-07-31 14:27:55] INFO root fetch - processPackages [atooms-database]: Downloading https://files.pythonhosted.org/packages/f0/9e/2338795249e59ee0fef9e315da8fca9208725bbd0d308d975910e038b683/atooms_database-0.3.0-py2.py3-none-any.whl
+[2023-07-31 14:27:55] INFO root fetch - processPackages [keboola.json-to-csv]: Downloading https://files.pythonhosted.org/packages/3b/0b/a857ba9ebe5e97ee5147f2bea4abb690957f65d2454c0784fd8383180be2/keboola.json-to-csv-0.0.4.tar.gz
+[2023-07-31 14:27:55] INFO root fetch - processPackages [async-nec-beamer]: Downloading https://files.pythonhosted.org/packages/23/eb/9280362efb8e6d2de76feb1a6e3466bf36b3c28d91ed741c939de2fb96c3/async_nec_beamer-0.1.4.tar.gz
+[2023-07-31 14:27:55] INFO root fetch - processPackages [cloudshell-orch-core]: Downloading https://files.pythonhosted.org/packages/c5/00/8727d639503af1d127a1151d72060338b3db78bd512ddda6daf78c84aaa7/cloudshell-orch-core-4.2.0.263.tar.gz
+[2023-07-31 14:27:56] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/b1/db/ea219d11aeb5c299b0f04458823cee8885301957c4d726dfaa9b30653d3c/qoa4ml-0.0.83.tar.gz
+[2023-07-31 14:27:56] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/8a/58/8cad0e65598e6c08714f7bdfcbb9b2d0afc421ab391cbb7fe66bd62a3965/fenjing-0.5.1.tar.gz
+[2023-07-31 14:27:56] INFO root fetch - processPackages [kv-deta]: Downloading https://files.pythonhosted.org/packages/2d/fd/233507a493adc5dd807cc60169638cd2ad402ba366d31fffae2cede455f2/kv_deta-0.1.7a0-py3-none-any.whl
+[2023-07-31 14:27:56] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/cb/ac/e4972492b5c3832469517455c1da3c90db2012cad65f4f0da96ee86eb1bc/eodc_faas_openeo-2023.7.4.tar.gz
+[2023-07-31 14:27:56] INFO root fetch - processPackages [utf-queue-client]: Downloading https://files.pythonhosted.org/packages/f4/a5/7ea326c15a63e6a631add51034113cad6b2b131bdc771cba0cfc78faccb5/utf-queue-client-1.9.4.tar.gz
+[2023-07-31 14:27:56] INFO root fetch - processPackages [atooms-database]: Downloading https://files.pythonhosted.org/packages/ba/9c/0f6134d65244de275a1b69d0afbb406cda43fcfbd0c21968524492b71782/atooms_database-0.3.1-py2.py3-none-any.whl
+[2023-07-31 14:27:56] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/38/46/8b1458c7ff740afd512d690a01270b52c74d237901b2e7d6b8ceffdce1f4/pasta_eln-2.4.7-py3-none-any.whl
+[2023-07-31 14:27:56] INFO root fetch - processPackages [keboola.json-to-csv]: Downloading https://files.pythonhosted.org/packages/db/a5/d3b336ec04a11682f1000bcc6697d103c06c41fb47af70d4e44afe1e685d/keboola.json-to-csv-0.0.5.tar.gz
+[2023-07-31 14:27:56] INFO root fetch - processPackages [async-nec-beamer]: Downloading https://files.pythonhosted.org/packages/31/8c/474e1fef00b208fb8c944fc93b909a6041548d0f04a1333dcef2f885339a/async_nec_beamer-0.2.0.tar.gz
+[2023-07-31 14:27:56] INFO root fetch - processPackages [cloudshell-orch-core]: Downloading https://files.pythonhosted.org/packages/64/ad/2c1ed3971930655520f9078ac58f9ee61d38b816805b17e35bba452191c8/cloudshell-orch-core-4.3.0.282.tar.gz
+[2023-07-31 14:27:56] INFO root fetch - processPackages [atooms-database]: executing diffoscope
+[2023-07-31 14:27:56] INFO root fetch - processPackages [atooms-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atooms_database-0.3.0-py2.py3-none-any.whl.zip tmp/atooms_database-0.3.1-py2.py3-none-any.whl.zip --markdown 20230731/a/atooms-database/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-31 14:27:56] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/0c/01/118d11594cadd27f432673733bcdd3696a16233bffeac49f779a2ff835f8/qoa4ml-0.0.9.tar.gz
+[2023-07-31 14:27:56] INFO root fetch - processPackages [pasta-eln]: executing diffoscope
+[2023-07-31 14:27:56] INFO root fetch - processPackages [pasta-eln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_eln-2.4.6-py3-none-any.whl.zip tmp/pasta_eln-2.4.7-py3-none-any.whl.zip --markdown 20230731/p/pasta-eln/2.4.6-2.4.7/diff.md --exclude *.pyd
+[2023-07-31 14:27:56] INFO root fetch - processPackages [keboola.json-to-csv]: executing diffoscope
+[2023-07-31 14:27:56] INFO root fetch - processPackages [keboola.json-to-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keboola.json-to-csv-0.0.4.tar.gz tmp/keboola.json-to-csv-0.0.5.tar.gz --markdown 20230731/k/keboola.json-to-csv/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-31 14:27:56] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/25/c0/70c9e83683a31318cfb46b5eb001a6c07299f9bd5294653a3b8cd37b1598/fenjing-0.5.2.tar.gz
+[2023-07-31 14:27:56] INFO root fetch - processPackages [kv-deta]: Downloading https://files.pythonhosted.org/packages/75/ab/f67dd146b33a36f05fb81cb3638d1f21d8b234794f37f5e90f3b9b05b1bf/kv_deta-0.1.8a0-py3-none-any.whl
+[2023-07-31 14:27:56] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/23/f3/9d78c94324bb24d009a2c8aba828e2495806fdca2269152d22f14d157bdc/eodc_faas_openeo-2023.7.5rc1.tar.gz
+[2023-07-31 14:27:56] INFO root fetch - processPackages [async-nec-beamer]: executing diffoscope
+[2023-07-31 14:27:56] INFO root fetch - processPackages [async-nec-beamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_nec_beamer-0.1.4.tar.gz tmp/async_nec_beamer-0.2.0.tar.gz --markdown 20230731/a/async-nec-beamer/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-31 14:27:56] INFO root fetch - processPackages [cloudshell-orch-core]: executing diffoscope
+[2023-07-31 14:27:56] INFO root fetch - processPackages [cloudshell-orch-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudshell-orch-core-4.2.0.263.tar.gz tmp/cloudshell-orch-core-4.3.0.282.tar.gz --markdown 20230731/c/cloudshell-orch-core/4.2.0.263-4.3.0.282/diff.md --exclude *.pyd
+[2023-07-31 14:27:56] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-07-31 14:27:56] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.5.1.tar.gz tmp/fenjing-0.5.2.tar.gz --markdown 20230731/f/fenjing/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-31 14:27:56] INFO root fetch - processPackages [kv-deta]: executing diffoscope
+[2023-07-31 14:27:56] INFO root fetch - processPackages [kv-deta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_deta-0.1.7a0-py3-none-any.whl.zip tmp/kv_deta-0.1.8a0-py3-none-any.whl.zip --markdown 20230731/k/kv-deta/0.1.7a0-0.1.8a0/diff.md --exclude *.pyd
+[2023-07-31 14:27:56] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-07-31 14:27:56] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.0.83.tar.gz tmp/qoa4ml-0.0.9.tar.gz --markdown 20230731/q/qoa4ml/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 14:27:56] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2023-07-31 14:27:56] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2023.7.4.tar.gz tmp/eodc_faas_openeo-2023.7.5rc1.tar.gz --markdown 20230731/e/eodc-faas-openeo/2023.7.4-2023.7.5rc1/diff.md --exclude *.pyd
+[2023-07-31 14:27:56] INFO root fetch - processPackages [utf-queue-client]: Downloading https://files.pythonhosted.org/packages/73/f9/0049a0f247e6d022e33ae04053deb8dc492d53e2adfb5c83ff1687889346/utf-queue-client-1.9.5.tar.gz
+[2023-07-31 14:27:56] INFO root fetch - processPackages [utf-queue-client]: executing diffoscope
+[2023-07-31 14:27:56] INFO root fetch - processPackages [utf-queue-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utf-queue-client-1.9.4.tar.gz tmp/utf-queue-client-1.9.5.tar.gz --markdown 20230731/u/utf-queue-client/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-31 14:27:58] INFO root fetch - processPackages [keboola.json-to-csv]: Remove: archive file [/home/abi/fetcher/tmp/keboola.json-to-csv-0.0.4.tar.gz]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [keboola.json-to-csv]: Remove: archive file [/home/abi/fetcher/tmp/keboola.json-to-csv-0.0.5.tar.gz]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [keboola.json-to-csv]: Start processing: dessia-common
+[2023-07-31 14:27:58] INFO root fetch - main [MainThread]: End processing [keboola.json-to-csv]: success
+[2023-07-31 14:27:58] INFO root fetch - processPackages [atooms-database]: Remove: archive file [/home/abi/fetcher/tmp/atooms_database-0.3.0-py2.py3-none-any.whl.zip]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [atooms-database]: Remove: archive file [/home/abi/fetcher/tmp/atooms_database-0.3.1-py2.py3-none-any.whl.zip]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [atooms-database]: Start processing: geodatacrawler
+[2023-07-31 14:27:58] INFO root fetch - main [MainThread]: End processing [atooms-database]: success
+[2023-07-31 14:27:58] INFO root fetch - processPackages [async-nec-beamer]: Remove: archive file [/home/abi/fetcher/tmp/async_nec_beamer-0.1.4.tar.gz]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [async-nec-beamer]: Remove: archive file [/home/abi/fetcher/tmp/async_nec_beamer-0.2.0.tar.gz]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [async-nec-beamer]: Start processing: githup
+[2023-07-31 14:27:58] INFO root fetch - main [MainThread]: End processing [async-nec-beamer]: success
+[2023-07-31 14:27:58] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.7.4.tar.gz]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.7.5rc1.tar.gz]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [eodc-faas-openeo]: Start processing: lambda-handler
+[2023-07-31 14:27:58] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2023-07-31 14:27:58] WARNING root fetch - processPackages [geodatacrawler]: Skipping, unable to determine old version
+[2023-07-31 14:27:58] INFO root fetch - processPackages [dessia-common]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [geodatacrawler]: Start processing: atooms-dynamics
+[2023-07-31 14:27:58] INFO root fetch - main [MainThread]: End processing [geodatacrawler] error
+[2023-07-31 14:27:58] INFO root fetch - processPackages [githup]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [lambda-handler]: New version: [2.0.0a4] Old Version: [2.0.0a3]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [kv-deta]: Remove: archive file [/home/abi/fetcher/tmp/kv_deta-0.1.7a0-py3-none-any.whl.zip]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [kv-deta]: Remove: archive file [/home/abi/fetcher/tmp/kv_deta-0.1.8a0-py3-none-any.whl.zip]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [atooms-dynamics]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [kv-deta]: Start processing: langroid
+[2023-07-31 14:27:58] INFO root fetch - main [MainThread]: End processing [kv-deta]: success
+[2023-07-31 14:27:58] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.4.6-py3-none-any.whl.zip]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.4.7-py3-none-any.whl.zip]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [pasta-eln]: Start processing: asmysql
+[2023-07-31 14:27:58] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
+[2023-07-31 14:27:58] INFO root fetch - processPackages [langroid]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.83.tar.gz]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.9.tar.gz]
+[2023-07-31 14:27:58] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-07-31 14:27:58] INFO root fetch - processPackages [fenjing]: Remove: archive file [/home/abi/fetcher/tmp/fenjing-0.5.1.tar.gz]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [fenjing]: Remove: archive file [/home/abi/fetcher/tmp/fenjing-0.5.2.tar.gz]
+[2023-07-31 14:27:58] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-07-31 14:27:58] INFO root fetch - processPackages [atooms-dynamics]: Downloading https://files.pythonhosted.org/packages/4e/38/b56ebb498d4a50af3185e9c446f6971393039ad8b8182b2c05a2724131d8/atooms_dynamics-1.1.1-py2.py3-none-any.whl
+[2023-07-31 14:27:58] INFO root fetch - processPackages [utf-queue-client]: Remove: archive file [/home/abi/fetcher/tmp/utf-queue-client-1.9.4.tar.gz]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [utf-queue-client]: Remove: archive file [/home/abi/fetcher/tmp/utf-queue-client-1.9.5.tar.gz]
+[2023-07-31 14:27:58] INFO root fetch - main [MainThread]: End processing [utf-queue-client]: success
+[2023-07-31 14:27:58] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/7a/ce/b1d1f30dd3e895c16d1ca0dafef29f9168219fcc02626055b93332dc12d8/lambda_handler-2.0.0a3.tar.gz
+[2023-07-31 14:27:58] INFO root fetch - processPackages [githup]: Downloading https://files.pythonhosted.org/packages/fe/27/2e906bf4564ad8e6683177c3e4f9a5282a6ebcadceb5515a67482e249a91/githup-0.0.2.tar.gz
+[2023-07-31 14:27:58] INFO root fetch - processPackages [dessia-common]: Downloading https://files.pythonhosted.org/packages/5b/cd/605b42d1a0afc1015848860e946c69b76b19b3aa619440db3e08868cd5df/dessia_common-0.9.1.tar.gz
+[2023-07-31 14:27:58] INFO root fetch - processPackages [cloudshell-orch-core]: Remove: archive file [/home/abi/fetcher/tmp/cloudshell-orch-core-4.2.0.263.tar.gz]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [cloudshell-orch-core]: Remove: archive file [/home/abi/fetcher/tmp/cloudshell-orch-core-4.3.0.282.tar.gz]
+[2023-07-31 14:27:58] INFO root fetch - main [MainThread]: End processing [cloudshell-orch-core]: success
+[2023-07-31 14:27:58] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/50/7f/7a84baab944d9efa300ce573a47110938978a4d7b72cbb13d3a7cf13ee14/langroid-0.1.8.tar.gz
+[2023-07-31 14:27:58] INFO root fetch - processPackages [asmysql]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 14:27:58] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/b2/48/00e2d6a1639042a486544d5f5f9200c7e72369b7fcde95da7bc64dd92b55/langroid-0.1.9.tar.gz
+[2023-07-31 14:27:58] INFO root fetch - processPackages [asmysql]: Downloading https://files.pythonhosted.org/packages/2d/ee/3cda947313ca7da0b437745cb4de73afa590d894a7a61230fa38c47ecd90/asmysql-0.1.1.tar.gz
+[2023-07-31 14:27:58] INFO root fetch - processPackages [githup]: Downloading https://files.pythonhosted.org/packages/6e/2e/2e3d0984f4e72012092fccd267a9e36a104f8602950171bd1b8aa28767cb/githup-0.0.3.tar.gz
+[2023-07-31 14:27:58] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2023-07-31 14:27:58] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.8.tar.gz tmp/langroid-0.1.9.tar.gz --markdown 20230731/l/langroid/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 14:27:58] INFO root fetch - processPackages [atooms-dynamics]: Downloading https://files.pythonhosted.org/packages/22/d3/b753708ce13eefc6f9a19e2da637d9ea84a923e2933e28b9ec27e2b3e1cb/atooms_dynamics-1.1.2-py2.py3-none-any.whl
+[2023-07-31 14:27:58] INFO root fetch - processPackages [githup]: executing diffoscope
+[2023-07-31 14:27:58] INFO root fetch - processPackages [githup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/githup-0.0.2.tar.gz tmp/githup-0.0.3.tar.gz --markdown 20230731/g/githup/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 14:27:58] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/f3/78/0211de68e0d202bef061b6fd98ca1b19c9f662406296c0ddfe9a207325d2/lambda_handler-2.0.0a4.tar.gz
+[2023-07-31 14:27:58] INFO root fetch - processPackages [atooms-dynamics]: executing diffoscope
+[2023-07-31 14:27:58] INFO root fetch - processPackages [atooms-dynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atooms_dynamics-1.1.1-py2.py3-none-any.whl.zip tmp/atooms_dynamics-1.1.2-py2.py3-none-any.whl.zip --markdown 20230731/a/atooms-dynamics/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-31 14:27:58] INFO root fetch - processPackages [dessia-common]: Downloading https://files.pythonhosted.org/packages/e7/4e/dfe8f13e6197ebfd7f5106809f999bbe4d6c2691476c2adfd6357f31a3e7/dessia_common-0.9.2.tar.gz
+[2023-07-31 14:27:59] INFO root fetch - processPackages [asmysql]: Downloading https://files.pythonhosted.org/packages/5f/5e/0805668446de208ec8934dbc0e239fa6093e240e09371cda0fd4d55358a9/asmysql-0.1.2.tar.gz
+[2023-07-31 14:27:59] INFO root fetch - processPackages [lambda-handler]: executing diffoscope
+[2023-07-31 14:27:59] INFO root fetch - processPackages [lambda-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambda_handler-2.0.0a3.tar.gz tmp/lambda_handler-2.0.0a4.tar.gz --markdown 20230731/l/lambda-handler/2.0.0a3-2.0.0a4/diff.md --exclude *.pyd
+[2023-07-31 14:27:59] INFO root fetch - processPackages [dessia-common]: executing diffoscope
+[2023-07-31 14:27:59] INFO root fetch - processPackages [dessia-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dessia_common-0.9.1.tar.gz tmp/dessia_common-0.9.2.tar.gz --markdown 20230731/d/dessia-common/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-31 14:27:59] INFO root fetch - processPackages [asmysql]: executing diffoscope
+[2023-07-31 14:27:59] INFO root fetch - processPackages [asmysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asmysql-0.1.1.tar.gz tmp/asmysql-0.1.2.tar.gz --markdown 20230731/a/asmysql/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 14:27:59] INFO root fetch - processPackages [githup]: Remove: archive file [/home/abi/fetcher/tmp/githup-0.0.2.tar.gz]
+[2023-07-31 14:27:59] INFO root fetch - processPackages [githup]: Remove: archive file [/home/abi/fetcher/tmp/githup-0.0.3.tar.gz]
+[2023-07-31 14:27:59] INFO root fetch - main [MainThread]: End processing [githup]: success
+[2023-07-31 14:27:59] INFO root fetch - processPackages [atooms-dynamics]: Remove: archive file [/home/abi/fetcher/tmp/atooms_dynamics-1.1.1-py2.py3-none-any.whl.zip]
+[2023-07-31 14:27:59] INFO root fetch - processPackages [atooms-dynamics]: Remove: archive file [/home/abi/fetcher/tmp/atooms_dynamics-1.1.2-py2.py3-none-any.whl.zip]
+[2023-07-31 14:27:59] INFO root fetch - main [MainThread]: End processing [atooms-dynamics]: success
+[2023-07-31 14:28:00] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.8.tar.gz]
+[2023-07-31 14:28:00] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.9.tar.gz]
+[2023-07-31 14:28:00] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2023-07-31 14:28:00] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda_handler-2.0.0a3.tar.gz]
+[2023-07-31 14:28:00] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda_handler-2.0.0a4.tar.gz]
+[2023-07-31 14:28:00] INFO root fetch - main [MainThread]: End processing [lambda-handler]: success
+[2023-07-31 14:28:00] INFO root fetch - processPackages [asmysql]: Remove: archive file [/home/abi/fetcher/tmp/asmysql-0.1.1.tar.gz]
+[2023-07-31 14:28:00] INFO root fetch - processPackages [asmysql]: Remove: archive file [/home/abi/fetcher/tmp/asmysql-0.1.2.tar.gz]
+[2023-07-31 14:28:00] INFO root fetch - main [MainThread]: End processing [asmysql]: success
+[2023-07-31 14:28:01] INFO root fetch - processPackages [dessia-common]: Remove: archive file [/home/abi/fetcher/tmp/dessia_common-0.9.1.tar.gz]
+[2023-07-31 14:28:01] INFO root fetch - processPackages [dessia-common]: Remove: archive file [/home/abi/fetcher/tmp/dessia_common-0.9.2.tar.gz]
+[2023-07-31 14:28:01] INFO root fetch - main [MainThread]: End processing [dessia-common]: success
+[2023-07-31 14:28:01] INFO root fetch - main [MainThread]: Store serial: [19107260]
