@@ -23494,3 +23494,111 @@ AssertionError: tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.z
 [2023-07-31 17:08:54] INFO root fetch - main [MainThread]: End processing [trytond]: success
 [2023-07-31 17:08:54] INFO root fetch - main [MainThread]: End processing [trytond]: success
 [2023-07-31 17:08:54] INFO root fetch - main [MainThread]: Store serial: [19109347]
+[2023-07-31 17:13:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19109347]
+[2023-07-31 17:14:02] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-31 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytond
+[2023-07-31 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botorift
+[2023-07-31 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phylotreelib
+[2023-07-31 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neulabs-cdk-constructs
+[2023-07-31 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sharetop
+[2023-07-31 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-rds20140815-py2
+[2023-07-31 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: paxLibUL
+[2023-07-31 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-rds20140815
+[2023-07-31 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: caloutils
+[2023-07-31 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qoa4ml
+[2023-07-31 17:14:03] WARNING root fetch - processPackages [botorift]: Skipping, unable to determine old version
+[2023-07-31 17:14:03] INFO root fetch - processPackages [botorift]: Start processing: etherbase-predeployed
+[2023-07-31 17:14:03] INFO root fetch - main [MainThread]: End processing [botorift] error
+[2023-07-31 17:14:03] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-31 17:14:03] INFO root fetch - processPackages [neulabs-cdk-constructs]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-31 17:14:03] INFO root fetch - processPackages [paxLibUL]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 17:14:03] INFO root fetch - processPackages [sharetop]: New version: [2.4.6] Old Version: [2.4.5]
+[2023-07-31 17:14:03] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-07-31 17:14:03] INFO root fetch - processPackages [caloutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 17:14:03] INFO root fetch - processPackages [qoa4ml]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-07-31 17:14:03] INFO root fetch - processPackages [trytond]: New version: [6.8.3] Old Version: [6.8.2]
+[2023-07-31 17:14:03] INFO root fetch - processPackages [phylotreelib]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-31 17:14:03] INFO root fetch - processPackages [etherbase-predeployed]: New version: [1.1.0b3] Old Version: [1.1.0b2]
+[2023-07-31 17:14:03] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/e6/2c/57cadc29453bf0051931fdc7bfae0f85bbbc21149fe0c878d581347062e8/alibabacloud_rds20140815_py2-1.3.9.tar.gz
+[2023-07-31 17:14:03] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/5f/38/f84538e433bf80888d80fff1ecb5949fa755b46ec10e96b1238c937fc80f/alibabacloud_rds20140815-2.2.8.tar.gz
+[2023-07-31 17:14:03] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/e7/68/2ab2c5998c978acde95155f9d8882b12a15ebe9059c29c3220d4f615d27a/qoa4ml-0.0.92.tar.gz
+[2023-07-31 17:14:03] INFO root fetch - processPackages [neulabs-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/55/6f/5ca89ddb755c6d5358242694d892e89dbf8c4b6f930ef9ea0bd17991b100/neulabs-cdk-constructs-0.5.1.tar.gz
+[2023-07-31 17:14:03] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/d2/cd/11694f49cdc9560e2ab98dfa3c3f8d06567bebb22d394cfb713ad20625bb/trytond-6.8.2.tar.gz
+[2023-07-31 17:14:03] INFO root fetch - processPackages [phylotreelib]: Downloading https://files.pythonhosted.org/packages/cb/fb/4129474e203eb7ff7a6c9f42fad45c6afbf7415569c6e2ec1fcba40d0357/phylotreelib-1.9.0.tar.gz
+[2023-07-31 17:14:03] INFO root fetch - processPackages [caloutils]: Downloading https://files.pythonhosted.org/packages/0d/1d/7db4d5e3c6144898baeffb5d0de5d782bab68517714971a4a95183c422c3/caloutils-0.0.8.tar.gz
+[2023-07-31 17:14:03] INFO root fetch - processPackages [paxLibUL]: Downloading https://files.pythonhosted.org/packages/ad/d6/365a1e979c67771b2bf048a64c4b1fab76eb5a0d9f207d1d142ba2506276/paxLibUL-0.1.8.tar.gz
+[2023-07-31 17:14:03] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/5a/0a/201ba9c6885ba0eaf4a16b5e0e20a832121d23b49ef97c182238b49a8605/sharetop-2.4.5.tar.gz
+[2023-07-31 17:14:03] INFO root fetch - processPackages [etherbase-predeployed]: Downloading https://files.pythonhosted.org/packages/51/21/b929f05a9c58146b2f29c0797c3ff99adef6ce1de0f05470ac5076d248fc/etherbase-predeployed-1.1.0b2.tar.gz
+[2023-07-31 17:14:03] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/8e/38/2ed843ab2f4bae57c984e9c496af84eaedd402b05d3492d4c9d1a253f508/alibabacloud_rds20140815-2.2.9.tar.gz
+[2023-07-31 17:14:04] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/b7/05/10f727875fa13fa2ffc36a9887884eb325765c4c9b760094598fe1608db2/trytond-6.8.3.tar.gz
+[2023-07-31 17:14:04] INFO root fetch - processPackages [phylotreelib]: Downloading https://files.pythonhosted.org/packages/0b/9c/4b0689963cdbd3666b5a42d32decedfd9833c728f364b00bea9f7b6a98f3/phylotreelib-1.9.1.tar.gz
+[2023-07-31 17:14:04] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/ac/8b/5f1d422f328bbf017d57685efb7b2a069996d7bf21a09cff25df64b7c4d4/qoa4ml-0.0.93.tar.gz
+[2023-07-31 17:14:04] INFO root fetch - processPackages [neulabs-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b4/25/e0f0061120055e2d2099dec181bac3112291b8687de0c6e74ab072040971/neulabs-cdk-constructs-0.5.2.tar.gz
+[2023-07-31 17:14:04] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/d3/3f/d2e8c8209c87aa68f9b07b2d10f12ef5815c7aac1b31b9991c0abf06636a/alibabacloud_rds20140815_py2-1.4.0.tar.gz
+[2023-07-31 17:14:04] INFO root fetch - processPackages [caloutils]: Downloading https://files.pythonhosted.org/packages/e8/de/ad461f910765888d911ed1d321e0569e5d8c6f9badffeeaf2cd7cea6b6f8/caloutils-0.0.9.tar.gz
+[2023-07-31 17:14:04] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/1c/59/33ba4b505e0bfd4a3dfeac92b7800bb935548a1be9092dccb6828bd9d621/sharetop-2.4.6.tar.gz
+[2023-07-31 17:14:04] INFO root fetch - processPackages [paxLibUL]: Downloading https://files.pythonhosted.org/packages/77/90/fd34de0ede59564df03e224ec150572d68868bde2621751debe61eb8dece/paxLibUL-0.1.9.tar.gz
+[2023-07-31 17:14:04] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-07-31 17:14:04] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.8.tar.gz tmp/alibabacloud_rds20140815-2.2.9.tar.gz --markdown 20230731/a/alibabacloud-rds20140815/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-31 17:14:04] INFO root fetch - processPackages [etherbase-predeployed]: Downloading https://files.pythonhosted.org/packages/3d/3d/9e8a9263aced10d2e82058dcb79e0685a5e6db3102a640656eebcfc6a889/etherbase-predeployed-1.1.0b3.tar.gz
+[2023-07-31 17:14:04] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-07-31 17:14:04] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.0.92.tar.gz tmp/qoa4ml-0.0.93.tar.gz --markdown 20230731/q/qoa4ml/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-07-31 17:14:04] INFO root fetch - processPackages [phylotreelib]: executing diffoscope
+[2023-07-31 17:14:04] INFO root fetch - processPackages [phylotreelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylotreelib-1.9.0.tar.gz tmp/phylotreelib-1.9.1.tar.gz --markdown 20230731/p/phylotreelib/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-31 17:14:04] INFO root fetch - processPackages [trytond]: executing diffoscope
+[2023-07-31 17:14:04] INFO root fetch - processPackages [trytond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-6.8.2.tar.gz tmp/trytond-6.8.3.tar.gz --markdown 20230731/t/trytond/6.8.2-6.8.3/diff.md --exclude *.pyd
+[2023-07-31 17:14:04] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-07-31 17:14:04] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.3.9.tar.gz tmp/alibabacloud_rds20140815_py2-1.4.0.tar.gz --markdown 20230731/a/alibabacloud-rds20140815-py2/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-07-31 17:14:04] INFO root fetch - processPackages [neulabs-cdk-constructs]: executing diffoscope
+[2023-07-31 17:14:04] INFO root fetch - processPackages [neulabs-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neulabs-cdk-constructs-0.5.1.tar.gz tmp/neulabs-cdk-constructs-0.5.2.tar.gz --markdown 20230731/n/neulabs-cdk-constructs/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-31 17:14:04] INFO root fetch - processPackages [paxLibUL]: executing diffoscope
+[2023-07-31 17:14:04] INFO root fetch - processPackages [paxLibUL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paxLibUL-0.1.8.tar.gz tmp/paxLibUL-0.1.9.tar.gz --markdown 20230731/p/paxLibUL/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 17:14:04] INFO root fetch - processPackages [sharetop]: executing diffoscope
+[2023-07-31 17:14:04] INFO root fetch - processPackages [sharetop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharetop-2.4.5.tar.gz tmp/sharetop-2.4.6.tar.gz --markdown 20230731/s/sharetop/2.4.5-2.4.6/diff.md --exclude *.pyd
+[2023-07-31 17:14:04] INFO root fetch - processPackages [caloutils]: executing diffoscope
+[2023-07-31 17:14:04] INFO root fetch - processPackages [caloutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caloutils-0.0.8.tar.gz tmp/caloutils-0.0.9.tar.gz --markdown 20230731/c/caloutils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 17:14:04] INFO root fetch - processPackages [etherbase-predeployed]: executing diffoscope
+[2023-07-31 17:14:04] INFO root fetch - processPackages [etherbase-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etherbase-predeployed-1.1.0b2.tar.gz tmp/etherbase-predeployed-1.1.0b3.tar.gz --markdown 20230731/e/etherbase-predeployed/1.1.0b2-1.1.0b3/diff.md --exclude *.pyd
+[2023-07-31 17:14:05] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.92.tar.gz]
+[2023-07-31 17:14:05] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.93.tar.gz]
+[2023-07-31 17:14:05] INFO root fetch - processPackages [qoa4ml]: Start processing: pytimbr-api
+[2023-07-31 17:14:05] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-07-31 17:14:05] WARNING root fetch - processPackages [pytimbr-api]: Skipping, unable to determine old version
+[2023-07-31 17:14:05] INFO root fetch - processPackages [pytimbr-api]: Start processing: matgl
+[2023-07-31 17:14:05] INFO root fetch - main [MainThread]: End processing [pytimbr-api] error
+[2023-07-31 17:14:05] INFO root fetch - processPackages [phylotreelib]: Remove: archive file [/home/abi/fetcher/tmp/phylotreelib-1.9.0.tar.gz]
+[2023-07-31 17:14:05] INFO root fetch - processPackages [phylotreelib]: Remove: archive file [/home/abi/fetcher/tmp/phylotreelib-1.9.1.tar.gz]
+[2023-07-31 17:14:05] INFO root fetch - main [MainThread]: End processing [phylotreelib]: success
+[2023-07-31 17:14:05] INFO root fetch - processPackages [matgl]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-31 17:14:05] INFO root fetch - processPackages [paxLibUL]: Remove: archive file [/home/abi/fetcher/tmp/paxLibUL-0.1.8.tar.gz]
+[2023-07-31 17:14:05] INFO root fetch - processPackages [paxLibUL]: Remove: archive file [/home/abi/fetcher/tmp/paxLibUL-0.1.9.tar.gz]
+[2023-07-31 17:14:05] INFO root fetch - main [MainThread]: End processing [paxLibUL]: success
+[2023-07-31 17:14:06] INFO root fetch - processPackages [neulabs-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/neulabs-cdk-constructs-0.5.1.tar.gz]
+[2023-07-31 17:14:06] INFO root fetch - processPackages [neulabs-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/neulabs-cdk-constructs-0.5.2.tar.gz]
+[2023-07-31 17:14:06] INFO root fetch - main [MainThread]: End processing [neulabs-cdk-constructs]: success
+[2023-07-31 17:14:06] INFO root fetch - processPackages [caloutils]: Remove: archive file [/home/abi/fetcher/tmp/caloutils-0.0.8.tar.gz]
+[2023-07-31 17:14:06] INFO root fetch - processPackages [caloutils]: Remove: archive file [/home/abi/fetcher/tmp/caloutils-0.0.9.tar.gz]
+[2023-07-31 17:14:06] INFO root fetch - main [MainThread]: End processing [caloutils]: success
+[2023-07-31 17:14:06] INFO root fetch - processPackages [etherbase-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/etherbase-predeployed-1.1.0b2.tar.gz]
+[2023-07-31 17:14:06] INFO root fetch - processPackages [etherbase-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/etherbase-predeployed-1.1.0b3.tar.gz]
+[2023-07-31 17:14:06] INFO root fetch - main [MainThread]: End processing [etherbase-predeployed]: success
+[2023-07-31 17:14:06] INFO root fetch - processPackages [matgl]: Downloading https://files.pythonhosted.org/packages/cf/b2/412360d7790d4d06fe9bf46514f56d415c113c009f616ddd6c317ac3f8ae/matgl-0.7.1.tar.gz
+[2023-07-31 17:14:06] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.8.tar.gz]
+[2023-07-31 17:14:06] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.9.tar.gz]
+[2023-07-31 17:14:06] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-07-31 17:14:06] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.3.9.tar.gz]
+[2023-07-31 17:14:06] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.4.0.tar.gz]
+[2023-07-31 17:14:06] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-07-31 17:14:06] INFO root fetch - processPackages [sharetop]: Remove: archive file [/home/abi/fetcher/tmp/sharetop-2.4.5.tar.gz]
+[2023-07-31 17:14:06] INFO root fetch - processPackages [sharetop]: Remove: archive file [/home/abi/fetcher/tmp/sharetop-2.4.6.tar.gz]
+[2023-07-31 17:14:06] INFO root fetch - main [MainThread]: End processing [sharetop]: success
+[2023-07-31 17:14:06] INFO root fetch - processPackages [matgl]: Downloading https://files.pythonhosted.org/packages/1a/2a/ad7fafb00985d34d8a0636b78e0ae573abefae58b3ec8149ba5efa071755/matgl-0.8.0.tar.gz
+[2023-07-31 17:14:06] INFO root fetch - processPackages [matgl]: executing diffoscope
+[2023-07-31 17:14:06] INFO root fetch - processPackages [matgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matgl-0.7.1.tar.gz tmp/matgl-0.8.0.tar.gz --markdown 20230731/m/matgl/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-31 17:14:07] INFO root fetch - processPackages [matgl]: Remove: archive file [/home/abi/fetcher/tmp/matgl-0.7.1.tar.gz]
+[2023-07-31 17:14:07] INFO root fetch - processPackages [matgl]: Remove: archive file [/home/abi/fetcher/tmp/matgl-0.8.0.tar.gz]
+[2023-07-31 17:14:07] INFO root fetch - main [MainThread]: End processing [matgl]: success
+[2023-07-31 17:14:08] INFO root fetch - processPackages [trytond]: Remove: archive file [/home/abi/fetcher/tmp/trytond-6.8.2.tar.gz]
+[2023-07-31 17:14:08] INFO root fetch - processPackages [trytond]: Remove: archive file [/home/abi/fetcher/tmp/trytond-6.8.3.tar.gz]
+[2023-07-31 17:14:08] INFO root fetch - main [MainThread]: End processing [trytond]: success
+[2023-07-31 17:14:08] INFO root fetch - main [MainThread]: Store serial: [19109397]
