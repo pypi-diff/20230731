@@ -17608,3 +17608,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 13:56:14] INFO root fetch - processPackages [neolibrary]: Remove: archive file [/home/abi/fetcher/tmp/neolibrary-0.1.4b0.tar.gz]
 [2023-07-31 13:56:14] INFO root fetch - main [MainThread]: End processing [neolibrary]: success
 [2023-07-31 13:56:14] INFO root fetch - main [MainThread]: Store serial: [19107002]
+[2023-07-31 14:01:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19107002]
+[2023-07-31 14:01:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-31 14:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mediaify
+[2023-07-31 14:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: config-server-client
+[2023-07-31 14:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtdraw
+[2023-07-31 14:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mb_netmgmt
+[2023-07-31 14:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scargo
+[2023-07-31 14:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cog
+[2023-07-31 14:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ixoncdkingress
+[2023-07-31 14:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codegrade
+[2023-07-31 14:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arthub-api
+[2023-07-31 14:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: s1282006-learn
+[2023-07-31 14:01:24] INFO root fetch - processPackages [scargo]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-31 14:01:24] INFO root fetch - processPackages [ixoncdkingress]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 14:01:24] INFO root fetch - processPackages [codegrade]: New version: [16.1.9] Old Version: [16.1.8]
+[2023-07-31 14:01:24] INFO root fetch - processPackages [config-server-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 14:01:24] INFO root fetch - processPackages [qtdraw]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-31 14:01:24] INFO root fetch - processPackages [mediaify]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-07-31 14:01:24] WARNING root fetch - processPackages [s1282006-learn]: Skipping, unable to determine old version
+[2023-07-31 14:01:24] INFO root fetch - processPackages [s1282006-learn]: Start processing: scratchattach
+[2023-07-31 14:01:24] INFO root fetch - main [MainThread]: End processing [s1282006-learn] error
+[2023-07-31 14:01:24] INFO root fetch - processPackages [mb_netmgmt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 14:01:24] INFO root fetch - processPackages [cog]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-31 14:01:24] INFO root fetch - processPackages [arthub-api]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-07-31 14:01:24] INFO root fetch - processPackages [scratchattach]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-31 14:01:24] INFO root fetch - processPackages [config-server-client]: Downloading https://files.pythonhosted.org/packages/97/b1/d211ab19e34b23bea92e2f8bded5ab24628b675cd462bdb7a892b6131c5a/config-server-client-0.0.2.tar.gz
+[2023-07-31 14:01:24] INFO root fetch - processPackages [qtdraw]: Downloading https://files.pythonhosted.org/packages/d1/2f/667a454c03984b524a4698dfc7f1f2f1b6cabe4786247452aeace105bfac/qtdraw-1.1.7.tar.gz
+[2023-07-31 14:01:24] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/a0/2d/0640ef41c605775e400beaebb329484eeb3fd66efa2a7667a1c9b6e9a1cd/scratchattach-1.2.8.tar.gz
+[2023-07-31 14:01:24] INFO root fetch - processPackages [mediaify]: Downloading https://files.pythonhosted.org/packages/49/35/5a108bace73ef87b48182ad6bb7cbce4751fb1ad003eadb328960d12e0e3/mediaify-3.0.6.tar.gz
+[2023-07-31 14:01:24] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/b3/1b/2738933755f61b85947702010ca1d9403e64824e49dcdc082f1b61a07b4a/ixoncdkingress-0.0.8.tar.gz
+[2023-07-31 14:01:24] INFO root fetch - processPackages [scargo]: Downloading https://files.pythonhosted.org/packages/b9/a6/57dca20306cb945b55267832a24f0ba66a437b840fdfb18633ce9de867c4/scargo-1.6.1.tar.gz
+[2023-07-31 14:01:24] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/a2/99/6dd91f125d60162d9298aca4e361d64263b90012dc12a802e2171ac952ee/codegrade-16.1.8.tar.gz
+[2023-07-31 14:01:24] INFO root fetch - processPackages [mb_netmgmt]: Downloading https://files.pythonhosted.org/packages/c5/08/34cb3d39ed007932f38305034cf8a5455e5fc04967b4330d641500c725d4/mb_netmgmt-0.0.8.tar.gz
+[2023-07-31 14:01:24] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/3b/6d/eb48a15a8ffd19b523f9f2aa2358489b090b26b88582b61dd2d7d6ccec82/arthub_api-1.8.4.tar.gz
+[2023-07-31 14:01:24] INFO root fetch - processPackages [cog]: Downloading https://files.pythonhosted.org/packages/d6/52/1e8bac451c775adada0234b15673386c3d20ecf4f067776dee5224871baa/cog-0.8.3-py3-none-any.whl
+[2023-07-31 14:01:24] WARNING root fetch - processPackages [mediaify]: Skipping package: exceeds size limit 43541752>=10485760
+[2023-07-31 14:01:24] INFO root fetch - processPackages [mediaify]: Start processing: meilisearch
+[2023-07-31 14:01:24] INFO root fetch - main [MainThread]: End processing [mediaify] error
+[2023-07-31 14:01:25] INFO root fetch - processPackages [meilisearch]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-31 14:01:25] INFO root fetch - processPackages [config-server-client]: Downloading https://files.pythonhosted.org/packages/7a/7c/0208c3f6741b032ad78efa727857fae60f3b1219fa6d379e277879d73186/config_server_client-0.0.3.tar.gz
+[2023-07-31 14:01:25] INFO root fetch - processPackages [qtdraw]: Downloading https://files.pythonhosted.org/packages/f7/96/7dbf404ec3195f44a953c5855de8131e772545cf02bb7ecce2f18142d0fe/qtdraw-1.1.8.tar.gz
+[2023-07-31 14:01:25] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/64/50/52b9915d759366b336029c2b9af3329183fdfec6d446a3431093dd2ff19e/scratchattach-1.2.9.tar.gz
+[2023-07-31 14:01:25] INFO root fetch - processPackages [config-server-client]: executing diffoscope
+[2023-07-31 14:01:25] INFO root fetch - processPackages [config-server-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config-server-client-0.0.2.tar.gz tmp/config_server_client-0.0.3.tar.gz --markdown 20230731/c/config-server-client/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 14:01:25] INFO root fetch - processPackages [qtdraw]: executing diffoscope
+[2023-07-31 14:01:25] INFO root fetch - processPackages [qtdraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtdraw-1.1.7.tar.gz tmp/qtdraw-1.1.8.tar.gz --markdown 20230731/q/qtdraw/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-31 14:01:25] INFO root fetch - processPackages [scargo]: Downloading https://files.pythonhosted.org/packages/94/47/51ccab1539239c1e17a236113cb1fa6c3a891f16e45a2e29837b55293574/scargo-1.6.2.tar.gz
+[2023-07-31 14:01:25] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/2e/42/b1c182d6e072c0e44f2a6906953ae83d4afd22f90e0e1b5f2d8c694d34c9/arthub_api-1.8.5.tar.gz
+[2023-07-31 14:01:25] INFO root fetch - processPackages [scratchattach]: executing diffoscope
+[2023-07-31 14:01:25] INFO root fetch - processPackages [scratchattach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchattach-1.2.8.tar.gz tmp/scratchattach-1.2.9.tar.gz --markdown 20230731/s/scratchattach/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-31 14:01:25] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/5c/19/067059110db7547fcfe643055d33ab487be554e0741049ea108c0e330c22/codegrade-16.1.9.tar.gz
+[2023-07-31 14:01:25] INFO root fetch - processPackages [mb_netmgmt]: Downloading https://files.pythonhosted.org/packages/f5/4a/2237f43f6621af590e38d99a70ba13765ba572848f251dd89f9e01ef5d47/mb_netmgmt-0.0.9.tar.gz
+[2023-07-31 14:01:25] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/81/5d/64486ddfc794e9b261c3c76607feaa76e92ecb01cd26ffd13bced3ecac65/ixoncdkingress-0.0.9.tar.gz
+[2023-07-31 14:01:25] INFO root fetch - processPackages [meilisearch]: Downloading https://files.pythonhosted.org/packages/b9/85/28be9699d845a730a6fe8c9a53988a90246852c52bbc616c6fafb8f691d9/meilisearch-0.8.3.tar.gz
+[2023-07-31 14:01:25] INFO root fetch - processPackages [scargo]: executing diffoscope
+[2023-07-31 14:01:25] INFO root fetch - processPackages [scargo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scargo-1.6.1.tar.gz tmp/scargo-1.6.2.tar.gz --markdown 20230731/s/scargo/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-31 14:01:25] INFO root fetch - processPackages [cog]: Downloading https://files.pythonhosted.org/packages/d0/21/f2267053a0906c0d19f4ee715158093388f9e212206979d06aa8421130ce/cog-0.8.4-py3-none-any.whl
+[2023-07-31 14:01:25] INFO root fetch - processPackages [arthub-api]: executing diffoscope
+[2023-07-31 14:01:25] INFO root fetch - processPackages [arthub-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_api-1.8.4.tar.gz tmp/arthub_api-1.8.5.tar.gz --markdown 20230731/a/arthub-api/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-07-31 14:01:25] INFO root fetch - processPackages [mb_netmgmt]: executing diffoscope
+[2023-07-31 14:01:25] INFO root fetch - processPackages [mb_netmgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_netmgmt-0.0.8.tar.gz tmp/mb_netmgmt-0.0.9.tar.gz --markdown 20230731/m/mb_netmgmt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 14:01:25] INFO root fetch - processPackages [ixoncdkingress]: executing diffoscope
+[2023-07-31 14:01:25] INFO root fetch - processPackages [codegrade]: executing diffoscope
+[2023-07-31 14:01:25] INFO root fetch - processPackages [ixoncdkingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixoncdkingress-0.0.8.tar.gz tmp/ixoncdkingress-0.0.9.tar.gz --markdown 20230731/i/ixoncdkingress/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 14:01:25] INFO root fetch - processPackages [codegrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegrade-16.1.8.tar.gz tmp/codegrade-16.1.9.tar.gz --markdown 20230731/c/codegrade/16.1.8-16.1.9/diff.md --exclude *.pyd
+[2023-07-31 14:01:25] INFO root fetch - processPackages [cog]: executing diffoscope
+[2023-07-31 14:01:25] INFO root fetch - processPackages [cog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cog-0.8.3-py3-none-any.whl.zip tmp/cog-0.8.4-py3-none-any.whl.zip --markdown 20230731/c/cog/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-31 14:01:25] INFO root fetch - processPackages [meilisearch]: Downloading https://files.pythonhosted.org/packages/d3/c7/70afe0fb413413473e498aead75fa0b9ad0af1d23935ef355868402d199d/meilisearch-0.9.0.tar.gz
+[2023-07-31 14:01:26] INFO root fetch - processPackages [meilisearch]: executing diffoscope
+[2023-07-31 14:01:26] INFO root fetch - processPackages [meilisearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch-0.8.3.tar.gz tmp/meilisearch-0.9.0.tar.gz --markdown 20230731/m/meilisearch/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 14:01:26] INFO root fetch - processPackages [config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/config-server-client-0.0.2.tar.gz]
+[2023-07-31 14:01:26] INFO root fetch - processPackages [config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/config_server_client-0.0.3.tar.gz]
+[2023-07-31 14:01:26] INFO root fetch - processPackages [config-server-client]: Start processing: pandapipes
+[2023-07-31 14:01:26] INFO root fetch - main [MainThread]: End processing [config-server-client]: success
+[2023-07-31 14:01:26] INFO root fetch - processPackages [pandapipes]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-07-31 14:01:26] INFO root fetch - processPackages [pandapipes]: Downloading https://files.pythonhosted.org/packages/25/d8/58dc3ed219276182dbf7b5265d0db997a26b31e2a6d825abe81ca78986a7/pandapipes-0.8.4.zip
+[2023-07-31 14:01:27] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.2.8.tar.gz]
+[2023-07-31 14:01:27] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.2.9.tar.gz]
+[2023-07-31 14:01:27] INFO root fetch - main [MainThread]: End processing [scratchattach]: success
+[2023-07-31 14:01:27] INFO root fetch - processPackages [qtdraw]: Remove: archive file [/home/abi/fetcher/tmp/qtdraw-1.1.7.tar.gz]
+[2023-07-31 14:01:27] INFO root fetch - processPackages [qtdraw]: Remove: archive file [/home/abi/fetcher/tmp/qtdraw-1.1.8.tar.gz]
+[2023-07-31 14:01:27] INFO root fetch - main [MainThread]: End processing [qtdraw]: success
+[2023-07-31 14:01:27] INFO root fetch - processPackages [arthub-api]: Remove: archive file [/home/abi/fetcher/tmp/arthub_api-1.8.4.tar.gz]
+[2023-07-31 14:01:27] INFO root fetch - processPackages [arthub-api]: Remove: archive file [/home/abi/fetcher/tmp/arthub_api-1.8.5.tar.gz]
+[2023-07-31 14:01:27] INFO root fetch - main [MainThread]: End processing [arthub-api]: success
+[2023-07-31 14:01:27] INFO root fetch - processPackages [mb_netmgmt]: Remove: archive file [/home/abi/fetcher/tmp/mb_netmgmt-0.0.8.tar.gz]
+[2023-07-31 14:01:27] INFO root fetch - processPackages [mb_netmgmt]: Remove: archive file [/home/abi/fetcher/tmp/mb_netmgmt-0.0.9.tar.gz]
+[2023-07-31 14:01:27] INFO root fetch - main [MainThread]: End processing [mb_netmgmt]: success
+[2023-07-31 14:01:27] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.8.tar.gz]
+[2023-07-31 14:01:27] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.9.tar.gz]
+[2023-07-31 14:01:27] INFO root fetch - main [MainThread]: End processing [ixoncdkingress]: success
+[2023-07-31 14:01:27] INFO root fetch - processPackages [pandapipes]: Downloading https://files.pythonhosted.org/packages/ac/c9/d4166cb0137d36bf6eaef5ec21e37f543191d5cfd02455d1d4a0b496e52e/pandapipes-0.8.5.zip
+[2023-07-31 14:01:27] INFO root fetch - processPackages [scargo]: Remove: archive file [/home/abi/fetcher/tmp/scargo-1.6.1.tar.gz]
+[2023-07-31 14:01:27] INFO root fetch - processPackages [scargo]: Remove: archive file [/home/abi/fetcher/tmp/scargo-1.6.2.tar.gz]
+[2023-07-31 14:01:27] INFO root fetch - main [MainThread]: End processing [scargo]: success
+[2023-07-31 14:01:27] INFO root fetch - processPackages [meilisearch]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch-0.8.3.tar.gz]
+[2023-07-31 14:01:27] INFO root fetch - processPackages [meilisearch]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch-0.9.0.tar.gz]
+[2023-07-31 14:01:27] INFO root fetch - main [MainThread]: End processing [meilisearch]: success
+[2023-07-31 14:01:27] INFO root fetch - processPackages [cog]: Remove: archive file [/home/abi/fetcher/tmp/cog-0.8.3-py3-none-any.whl.zip]
+[2023-07-31 14:01:27] INFO root fetch - processPackages [cog]: Remove: archive file [/home/abi/fetcher/tmp/cog-0.8.4-py3-none-any.whl.zip]
+[2023-07-31 14:01:27] INFO root fetch - main [MainThread]: End processing [cog]: success
+[2023-07-31 14:01:27] INFO root fetch - processPackages [pandapipes]: executing diffoscope
+[2023-07-31 14:01:27] INFO root fetch - processPackages [pandapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandapipes-0.8.4.zip tmp/pandapipes-0.8.5.zip --markdown 20230731/p/pandapipes/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-07-31 14:01:29] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.8.tar.gz]
+[2023-07-31 14:01:29] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.9.tar.gz]
+[2023-07-31 14:01:29] INFO root fetch - main [MainThread]: End processing [codegrade]: success
+[2023-07-31 14:01:30] INFO root fetch - processPackages [pandapipes]: Remove: archive file [/home/abi/fetcher/tmp/pandapipes-0.8.4.zip]
+[2023-07-31 14:01:30] INFO root fetch - processPackages [pandapipes]: Remove: archive file [/home/abi/fetcher/tmp/pandapipes-0.8.5.zip]
+[2023-07-31 14:01:30] INFO root fetch - main [MainThread]: End processing [pandapipes]: success
+[2023-07-31 14:01:30] INFO root fetch - main [MainThread]: Store serial: [19107044]
