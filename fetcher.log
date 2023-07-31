@@ -16100,3 +16100,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 12:44:37] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230730.tar.gz]
 [2023-07-31 12:44:37] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2023-07-31 12:44:37] INFO root fetch - main [MainThread]: Store serial: [19106372]
+[2023-07-31 12:49:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19106372]
+[2023-07-31 12:49:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-31 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eea.volto.policy
+[2023-07-31 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mwdb-iocextract
+[2023-07-31 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: midify
+[2023-07-31 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zadarapyV2
+[2023-07-31 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qiskit-classroom-converter
+[2023-07-31 12:49:46] INFO root fetch - processPackages [qiskit-classroom-converter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 12:49:46] INFO root fetch - processPackages [midify]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-31 12:49:46] INFO root fetch - processPackages [zadarapyV2]: New version: [23.3.post1.dev120] Old Version: [23.3.1.dev120]
+[2023-07-31 12:49:46] INFO root fetch - processPackages [eea.volto.policy]: New version: [2.3] Old Version: [2.2]
+[2023-07-31 12:49:46] INFO root fetch - processPackages [mwdb-iocextract]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-31 12:49:46] INFO root fetch - processPackages [qiskit-classroom-converter]: Downloading https://files.pythonhosted.org/packages/8e/c8/eea9b79628fdb6d87f9e4eb040002ab07c2f9bfa0fa2b1dcff5679dddcf9/qiskit-classroom-converter-0.0.2.tar.gz
+[2023-07-31 12:49:46] INFO root fetch - processPackages [zadarapyV2]: Downloading https://files.pythonhosted.org/packages/84/d7/836f1e3623283a2192efa1b3c97df036f7e83fa94fd65ca3eceb93064c0f/zadarapyV2-23.3.1.dev120.tar.gz
+[2023-07-31 12:49:46] INFO root fetch - processPackages [midify]: Downloading https://files.pythonhosted.org/packages/5a/2c/20088e7e779c504cdae09f4f00e9792df883cea9f45d25e263e79b9ac60d/midify-0.3.0.tar.gz
+[2023-07-31 12:49:46] INFO root fetch - processPackages [mwdb-iocextract]: Downloading https://files.pythonhosted.org/packages/58/77/6472982c7bd162386215d2ecc4046ef8caeade38d7d376dddb24ad7c5f55/mwdb-iocextract-1.2.0.tar.gz
+[2023-07-31 12:49:46] INFO root fetch - processPackages [eea.volto.policy]: Downloading https://files.pythonhosted.org/packages/6f/6c/0223728424fce6b3b99797d7194e55414926b93e7433673c5c06dc5dd111/eea.volto.policy-2.2.zip
+[2023-07-31 12:49:47] INFO root fetch - processPackages [qiskit-classroom-converter]: Downloading https://files.pythonhosted.org/packages/12/a2/f5efbf881f1e9458d00ef211991489d2f3ed6e2ba45c6e53a565e40f99a2/qiskit-classroom-converter-0.0.3.tar.gz
+[2023-07-31 12:49:47] INFO root fetch - processPackages [midify]: Downloading https://files.pythonhosted.org/packages/17/3a/03d87729e1c4185ed6142f4ea0d6bf6bcf91fd47228175ee84d455ebd35d/midify-0.3.1.tar.gz
+[2023-07-31 12:49:47] INFO root fetch - processPackages [mwdb-iocextract]: Downloading https://files.pythonhosted.org/packages/58/e4/8e98f93a7ba40d51089280c019dd874da41ef815f9fc92eaa1b1d30b9d33/mwdb-iocextract-1.2.1.tar.gz
+[2023-07-31 12:49:47] INFO root fetch - processPackages [qiskit-classroom-converter]: executing diffoscope
+[2023-07-31 12:49:47] INFO root fetch - processPackages [qiskit-classroom-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-classroom-converter-0.0.2.tar.gz tmp/qiskit-classroom-converter-0.0.3.tar.gz --markdown 20230731/q/qiskit-classroom-converter/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 12:49:47] INFO root fetch - processPackages [eea.volto.policy]: Downloading https://files.pythonhosted.org/packages/96/40/f87b4d513bae015b66e41dbdee402d8d14eb14e1e9407deecd1395e222da/eea.volto.policy-2.3.zip
+[2023-07-31 12:49:47] INFO root fetch - processPackages [zadarapyV2]: Downloading https://files.pythonhosted.org/packages/58/9b/45faf3036468c7d8da14d90a9446eb0a2051d29c85ecaaa92e1d7755c6d5/zadarapyV2-23.3.post1.dev120.tar.gz
+[2023-07-31 12:49:47] INFO root fetch - processPackages [midify]: executing diffoscope
+[2023-07-31 12:49:47] INFO root fetch - processPackages [midify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midify-0.3.0.tar.gz tmp/midify-0.3.1.tar.gz --markdown 20230731/m/midify/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-31 12:49:47] INFO root fetch - processPackages [mwdb-iocextract]: executing diffoscope
+[2023-07-31 12:49:47] INFO root fetch - processPackages [mwdb-iocextract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwdb-iocextract-1.2.0.tar.gz tmp/mwdb-iocextract-1.2.1.tar.gz --markdown 20230731/m/mwdb-iocextract/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-31 12:49:47] INFO root fetch - processPackages [eea.volto.policy]: executing diffoscope
+[2023-07-31 12:49:47] INFO root fetch - processPackages [eea.volto.policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.volto.policy-2.2.zip tmp/eea.volto.policy-2.3.zip --markdown 20230731/e/eea.volto.policy/2.2-2.3/diff.md --exclude *.pyd
+[2023-07-31 12:49:47] INFO root fetch - processPackages [zadarapyV2]: executing diffoscope
+[2023-07-31 12:49:47] INFO root fetch - processPackages [zadarapyV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zadarapyV2-23.3.1.dev120.tar.gz tmp/zadarapyV2-23.3.post1.dev120.tar.gz --markdown 20230731/z/zadarapyV2/23.3.1.dev120-23.3.post1.dev120/diff.md --exclude *.pyd
+[2023-07-31 12:49:48] INFO root fetch - processPackages [mwdb-iocextract]: Remove: archive file [/home/abi/fetcher/tmp/mwdb-iocextract-1.2.0.tar.gz]
+[2023-07-31 12:49:48] INFO root fetch - processPackages [mwdb-iocextract]: Remove: archive file [/home/abi/fetcher/tmp/mwdb-iocextract-1.2.1.tar.gz]
+[2023-07-31 12:49:48] INFO root fetch - main [MainThread]: End processing [mwdb-iocextract]: success
+[2023-07-31 12:49:48] INFO root fetch - processPackages [qiskit-classroom-converter]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-classroom-converter-0.0.2.tar.gz]
+[2023-07-31 12:49:48] INFO root fetch - processPackages [qiskit-classroom-converter]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-classroom-converter-0.0.3.tar.gz]
+[2023-07-31 12:49:48] INFO root fetch - main [MainThread]: End processing [qiskit-classroom-converter]: success
+[2023-07-31 12:49:48] INFO root fetch - processPackages [midify]: Remove: archive file [/home/abi/fetcher/tmp/midify-0.3.0.tar.gz]
+[2023-07-31 12:49:48] INFO root fetch - processPackages [midify]: Remove: archive file [/home/abi/fetcher/tmp/midify-0.3.1.tar.gz]
+[2023-07-31 12:49:48] INFO root fetch - main [MainThread]: End processing [midify]: success
+[2023-07-31 12:49:48] INFO root fetch - processPackages [eea.volto.policy]: Remove: archive file [/home/abi/fetcher/tmp/eea.volto.policy-2.2.zip]
+[2023-07-31 12:49:48] INFO root fetch - processPackages [eea.volto.policy]: Remove: archive file [/home/abi/fetcher/tmp/eea.volto.policy-2.3.zip]
+[2023-07-31 12:49:48] INFO root fetch - main [MainThread]: End processing [eea.volto.policy]: success
+[2023-07-31 12:50:19] INFO root fetch - processPackages [zadarapyV2]: Remove: archive file [/home/abi/fetcher/tmp/zadarapyV2-23.3.1.dev120.tar.gz]
+[2023-07-31 12:50:19] INFO root fetch - processPackages [zadarapyV2]: Remove: archive file [/home/abi/fetcher/tmp/zadarapyV2-23.3.post1.dev120.tar.gz]
+[2023-07-31 12:50:19] INFO root fetch - main [MainThread]: End processing [zadarapyV2]: success
+[2023-07-31 12:50:19] INFO root fetch - main [MainThread]: Store serial: [19106383]
