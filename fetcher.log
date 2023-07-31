@@ -13338,3 +13338,186 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 11:37:09] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-07-31 11:37:09] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-07-31 11:37:09] INFO root fetch - main [MainThread]: Store serial: [19105437]
+[2023-07-31 11:42:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19105437]
+[2023-07-31 11:42:18] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-31 11:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qufit
+[2023-07-31 11:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-repair-stock-move
+[2023-07-31 11:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systembridgecli
+[2023-07-31 11:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systembridgegui
+[2023-07-31 11:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hydrodataset
+[2023-07-31 11:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thyroid-model-damir
+[2023-07-31 11:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pbipy
+[2023-07-31 11:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: systembridgewindowssensors
+[2023-07-31 11:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: astarte-device-sdk
+[2023-07-31 11:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: systembridgefrontend
+[2023-07-31 11:42:18] INFO root fetch - processPackages [qufit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-31 11:42:18] INFO root fetch - processPackages [odoo-addon-repair-stock-move]: New version: [15.0.1.0.2] Old Version: [15.0.1.0.1.1]
+[2023-07-31 11:42:18] INFO root fetch - processPackages [thyroid-model-damir]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 11:42:18] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-31 11:42:18] INFO root fetch - processPackages [astarte-device-sdk]: New version: [0.12.0] Old Version: [0.11.0]
+[2023-07-31 11:42:18] INFO root fetch - processPackages [hydrodataset]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-31 11:42:18] INFO root fetch - processPackages [pbipy]: New version: [2.5.6] Old Version: [2.4.5]
+[2023-07-31 11:42:18] INFO root fetch - processPackages [systembridgewindowssensors]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-31 11:42:18] INFO root fetch - processPackages [systembridgegui]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-31 11:42:18] INFO root fetch - processPackages [systembridgecli]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-31 11:42:19] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/81/2c/02c0da61a4727fb73476c2fa38e036da03aeff26456262a663d075806564/systembridgewindowssensors-3.8.0.dev8.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/48/26/3346b635a896f4a794f8bf96c76e7c1ba52eddfdbf89069c6b89f423f730/qufit-1.1.8.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/57/b3/050e9a7ff3adb63d1efc61115381d83b27eb28e65b4804113ac3308d3a0c/systembridgefrontend-3.8.0.dev8.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/98/49/bef46531661ec04b544df7f3ffbab389abc531ee388df6dfc36a86c0d4eb/systembridgegui-3.8.0.dev8.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [thyroid-model-damir]: Downloading https://files.pythonhosted.org/packages/e1/1a/c1bcba6a21b1e0b0cda02d162e155fade4ed873815c8d8f4e7c84050d361/thyroid_model_damir-0.1.0.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [astarte-device-sdk]: Downloading https://files.pythonhosted.org/packages/90/d1/f9f4d594b2da44fa9d3029aa35eba13266efea12fed0089e3f69b2bae1c7/astarte-device-sdk-0.11.0.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [odoo-addon-repair-stock-move]: Downloading https://files.pythonhosted.org/packages/ce/76/d0e31edae6876cc7c8ff42830e3e2ab9015ddb52a879bd5a5e4319007f72/odoo_addon_repair_stock_move-15.0.1.0.1.1-py3-none-any.whl
+[2023-07-31 11:42:19] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/ae/15/b0e4e3ea36a157948c44984c425eb8315e804af4006d932089217c2dfb3c/systembridgecli-3.8.0.dev8.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [hydrodataset]: Downloading https://files.pythonhosted.org/packages/f6/42/28207efc05943bcdc9e443b4322aec6229a62135dded37aac68824f0f69a/hydrodataset-0.1.0.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [pbipy]: Downloading https://files.pythonhosted.org/packages/87/be/777c2fe8cd0f3e272bb02f36ea8bf2dfda36cf4520f6025eec8dc790c05b/pbipy-2.4.5.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/36/f3/19c7098062820644426fb1b76f2b93a355ff1eb1c6741e392087ab4ee35f/systembridgegui-3.8.0.dev9.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/a7/bd/51ec0da5bcd5903b111736968abaaa3d5a5d6f77e9ccb9ece74f6bb92670/systembridgefrontend-3.8.0.dev9.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/87/39/3d967f4675c26fd1a70df93f23c6afec385d0e325a5ecb715849a65e084f/qufit-1.1.9.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/89/ae/89eef727af1dd3d408211f030a2e83b52d14162a07d9406e0234668c5ca8/systembridgecli-3.8.0.dev9.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-07-31 11:42:19] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.8.tar.gz tmp/qufit-1.1.9.tar.gz --markdown 20230731/q/qufit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-31 11:42:19] INFO root fetch - processPackages [thyroid-model-damir]: Downloading https://files.pythonhosted.org/packages/8a/74/e82ecb8393122cb7f90679def049fcb969c0812d24808b98e0ef643d23ed/thyroid_model_damir-0.1.1.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [systembridgegui]: executing diffoscope
+[2023-07-31 11:42:19] INFO root fetch - processPackages [systembridgegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgegui-3.8.0.dev8.tar.gz tmp/systembridgegui-3.8.0.dev9.tar.gz --markdown 20230731/s/systembridgegui/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-31 11:42:19] INFO root fetch - processPackages [systembridgecli]: executing diffoscope
+[2023-07-31 11:42:19] INFO root fetch - processPackages [systembridgecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgecli-3.8.0.dev8.tar.gz tmp/systembridgecli-3.8.0.dev9.tar.gz --markdown 20230731/s/systembridgecli/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-31 11:42:19] INFO root fetch - processPackages [odoo-addon-repair-stock-move]: Downloading https://files.pythonhosted.org/packages/d2/ae/e5dca0b6bc78c3a4fc3997e57effe56c36f41dcf1f47cb7d0638eec3355c/odoo_addon_repair_stock_move-15.0.1.0.2-py3-none-any.whl
+[2023-07-31 11:42:19] INFO root fetch - processPackages [astarte-device-sdk]: Downloading https://files.pythonhosted.org/packages/ca/fe/65e407c5997af3fc94965a89e56a6a8c649125848a1cc2bb1a4b9e47efe5/astarte-device-sdk-0.12.0.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-31 11:42:19] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.8.0.dev8.tar.gz tmp/systembridgefrontend-3.8.0.dev9.tar.gz --markdown 20230731/s/systembridgefrontend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-31 11:42:19] INFO root fetch - processPackages [hydrodataset]: Downloading https://files.pythonhosted.org/packages/8b/78/f670a7a6c286e563a16dd26ac3320c3b8c2b5b6b77ccc421a25495113b30/hydrodataset-0.1.2.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [pbipy]: Downloading https://files.pythonhosted.org/packages/4f/9f/63ba5c03a0ef0735b2771821267c77013a8051bc4a84c7af7952e1cd6f55/pbipy-2.5.6.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/f8/3d/48f6ce73d6a6180d0f6f923ce1229918e40d9911473401454d592f621804/systembridgewindowssensors-3.8.0.dev9.tar.gz
+[2023-07-31 11:42:19] INFO root fetch - processPackages [odoo-addon-repair-stock-move]: executing diffoscope
+[2023-07-31 11:42:19] INFO root fetch - processPackages [odoo-addon-repair-stock-move]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_repair_stock_move-15.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_repair_stock_move-15.0.1.0.2-py3-none-any.whl.zip --markdown 20230731/o/odoo-addon-repair-stock-move/15.0.1.0.1.1-15.0.1.0.2/diff.md --exclude *.pyd
+[2023-07-31 11:42:19] INFO root fetch - processPackages [thyroid-model-damir]: executing diffoscope
+[2023-07-31 11:42:19] INFO root fetch - processPackages [thyroid-model-damir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thyroid_model_damir-0.1.0.tar.gz tmp/thyroid_model_damir-0.1.1.tar.gz --markdown 20230731/t/thyroid-model-damir/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 11:42:19] INFO root fetch - processPackages [astarte-device-sdk]: executing diffoscope
+[2023-07-31 11:42:19] INFO root fetch - processPackages [astarte-device-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astarte-device-sdk-0.11.0.tar.gz tmp/astarte-device-sdk-0.12.0.tar.gz --markdown 20230731/a/astarte-device-sdk/0.11.0-0.12.0/diff.md --exclude *.pyd
+[2023-07-31 11:42:19] INFO root fetch - processPackages [hydrodataset]: executing diffoscope
+[2023-07-31 11:42:19] INFO root fetch - processPackages [hydrodataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrodataset-0.1.0.tar.gz tmp/hydrodataset-0.1.2.tar.gz --markdown 20230731/h/hydrodataset/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 11:42:19] INFO root fetch - processPackages [pbipy]: executing diffoscope
+[2023-07-31 11:42:19] INFO root fetch - processPackages [pbipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbipy-2.4.5.tar.gz tmp/pbipy-2.5.6.tar.gz --markdown 20230731/p/pbipy/2.4.5-2.5.6/diff.md --exclude *.pyd
+[2023-07-31 11:42:20] INFO root fetch - processPackages [systembridgewindowssensors]: executing diffoscope
+[2023-07-31 11:42:20] INFO root fetch - processPackages [systembridgewindowssensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz --markdown 20230731/s/systembridgewindowssensors/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-31 11:42:21] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev8.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev9.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [systembridgecli]: Start processing: fyers-sdk
+[2023-07-31 11:42:21] INFO root fetch - main [MainThread]: End processing [systembridgecli]: success
+[2023-07-31 11:42:21] INFO root fetch - processPackages [fyers-sdk]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev8.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev9.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [systembridgegui]: Start processing: magik
+[2023-07-31 11:42:21] INFO root fetch - main [MainThread]: End processing [systembridgegui]: success
+[2023-07-31 11:42:21] INFO root fetch - processPackages [magik]: New version: [0.2.5] Old Version: [0.2.2]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.8.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/37/97/244ed9845bb009bdc85d37d799fd104ee10e4b64153a4f886664f6a982ad/fyers_sdk-1.0.6.tar.gz
+[2023-07-31 11:42:21] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.9.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [qufit]: Start processing: MuPhyN
+[2023-07-31 11:42:21] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-07-31 11:42:21] INFO root fetch - processPackages [odoo-addon-repair-stock-move]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_stock_move-15.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [odoo-addon-repair-stock-move]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_stock_move-15.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [odoo-addon-repair-stock-move]: Start processing: starwhale
+[2023-07-31 11:42:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-stock-move]: success
+[2023-07-31 11:42:21] INFO root fetch - processPackages [MuPhyN]: New version: [0.1.1.post4] Old Version: [0.1.0.post8]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [starwhale]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [astarte-device-sdk]: Remove: archive file [/home/abi/fetcher/tmp/astarte-device-sdk-0.11.0.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [astarte-device-sdk]: Remove: archive file [/home/abi/fetcher/tmp/astarte-device-sdk-0.12.0.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [astarte-device-sdk]: Start processing: dicergirl
+[2023-07-31 11:42:21] INFO root fetch - main [MainThread]: End processing [astarte-device-sdk]: success
+[2023-07-31 11:42:21] INFO root fetch - processPackages [MuPhyN]: Downloading https://files.pythonhosted.org/packages/63/32/f1d0a67eac0c2a48cf4582309a681f8820d892b2fc99c5c77c308ccd9991/MuPhyN-0.1.0.post8.tar.gz
+[2023-07-31 11:42:21] INFO root fetch - processPackages [dicergirl]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/69/76/50f8bcd0470e3c5e047b0c2e1294eed3bfa1da8a59de5e0aadd959047981/magik-0.2.2.tar.gz
+[2023-07-31 11:42:21] INFO root fetch - processPackages [pbipy]: Remove: archive file [/home/abi/fetcher/tmp/pbipy-2.4.5.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [pbipy]: Remove: archive file [/home/abi/fetcher/tmp/pbipy-2.5.6.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [pbipy]: Start processing: pipd
+[2023-07-31 11:42:21] INFO root fetch - main [MainThread]: End processing [pbipy]: success
+[2023-07-31 11:42:21] INFO root fetch - processPackages [thyroid-model-damir]: Remove: archive file [/home/abi/fetcher/tmp/thyroid_model_damir-0.1.0.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [thyroid-model-damir]: Remove: archive file [/home/abi/fetcher/tmp/thyroid_model_damir-0.1.1.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [thyroid-model-damir]: Start processing: pretix-manualseats
+[2023-07-31 11:42:21] INFO root fetch - main [MainThread]: End processing [thyroid-model-damir]: success
+[2023-07-31 11:42:21] INFO root fetch - processPackages [hydrodataset]: Remove: archive file [/home/abi/fetcher/tmp/hydrodataset-0.1.0.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [hydrodataset]: Remove: archive file [/home/abi/fetcher/tmp/hydrodataset-0.1.2.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [hydrodataset]: Start processing: odoo-addon-repair-refurbish
+[2023-07-31 11:42:21] INFO root fetch - main [MainThread]: End processing [hydrodataset]: success
+[2023-07-31 11:42:21] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/c0/95/9f4720de7d7930befde2fd617ed99af64db6d5b8c1d9727c6096713b658b/dicergirl-3.0.7.tar.gz
+[2023-07-31 11:42:21] INFO root fetch - processPackages [pipd]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [pretix-manualseats]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.3]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [starwhale]: Downloading https://files.pythonhosted.org/packages/70/7b/9bc320a7a92c7f43a9798929588dcc4362138b13edaff390d721a4377579/starwhale-0.5.8.tar.gz
+[2023-07-31 11:42:21] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev8.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev9.tar.gz]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [systembridgefrontend]: Start processing: vulcan-sql
+[2023-07-31 11:42:21] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-31 11:42:21] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/ca/6f/fa3d9dcb24bf6495a89ecc742bf37b08838a835b3ad234b09c4419bc1e40/fyers_sdk-1.0.7.tar.gz
+[2023-07-31 11:42:21] INFO root fetch - processPackages [pretix-manualseats]: Downloading https://files.pythonhosted.org/packages/eb/e9/e3fa4daf3163bbccd98dba9daaef3fdd4311ef0d9e15cfad19fa7d6bfc45/pretix-manualseats-1.0.1.tar.gz
+[2023-07-31 11:42:21] INFO root fetch - processPackages [MuPhyN]: Downloading https://files.pythonhosted.org/packages/a9/51/69ba64671460c8cef8c8018a041616ae2afd282f75939ee6433e6b04fc41/MuPhyN-0.1.1.post4.tar.gz
+[2023-07-31 11:42:21] INFO root fetch - processPackages [vulcan-sql]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-31 11:42:21] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/cc/99/7708d4e5ef679cbcbefd45080eb8622fb33ac2e3bb21ec184a60a41de830/pipd-0.2.1.tar.gz
+[2023-07-31 11:42:21] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-07-31 11:42:21] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-1.0.6.tar.gz tmp/fyers_sdk-1.0.7.tar.gz --markdown 20230731/f/fyers-sdk/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-31 11:42:21] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/3f/32/3fd7d5f343f145aa6026f04eddb1c92c359df63336373f8ad3b00e09c7b1/magik-0.2.5.tar.gz
+[2023-07-31 11:42:21] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: Downloading https://files.pythonhosted.org/packages/3d/cf/a66690bf768c78e71bed7855c4e7bceefcb990726a908feff9d5442a5ff3/odoo_addon_repair_refurbish-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-31 11:42:22] INFO root fetch - processPackages [MuPhyN]: executing diffoscope
+[2023-07-31 11:42:22] INFO root fetch - processPackages [MuPhyN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MuPhyN-0.1.0.post8.tar.gz tmp/MuPhyN-0.1.1.post4.tar.gz --markdown 20230731/M/MuPhyN/0.1.0.post8-0.1.1.post4/diff.md --exclude *.pyd
+[2023-07-31 11:42:22] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/8b/4a/3b5164723b1baf2ae98bcbc6678920a09d19c1adb79b5925c65e2bacb1a7/dicergirl-3.0.8.tar.gz
+[2023-07-31 11:42:22] INFO root fetch - processPackages [magik]: executing diffoscope
+[2023-07-31 11:42:22] INFO root fetch - processPackages [magik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magik-0.2.2.tar.gz tmp/magik-0.2.5.tar.gz --markdown 20230731/m/magik/0.2.2-0.2.5/diff.md --exclude *.pyd
+[2023-07-31 11:42:22] INFO root fetch - processPackages [dicergirl]: executing diffoscope
+[2023-07-31 11:42:22] INFO root fetch - processPackages [dicergirl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicergirl-3.0.7.tar.gz tmp/dicergirl-3.0.8.tar.gz --markdown 20230731/d/dicergirl/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-07-31 11:42:22] INFO root fetch - processPackages [vulcan-sql]: Downloading https://files.pythonhosted.org/packages/d8/5b/e06da231706162df0386195a5821668d87015d46e9be56ce1a56fbced363/vulcan-sql-0.7.1.tar.gz
+[2023-07-31 11:42:22] INFO root fetch - processPackages [pretix-manualseats]: Downloading https://files.pythonhosted.org/packages/ec/5b/ac994e5e284e7d31d4fc26d5a125a6c35d7b832a1743099d50a40a806b6e/pretix-manualseats-1.0.2.tar.gz
+[2023-07-31 11:42:22] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/49/98/6589e5644df3ab789439b085b2e862dfcb5a56aa4a3b5981c24e1ef049bf/pipd-0.2.2.tar.gz
+[2023-07-31 11:42:22] INFO root fetch - processPackages [pretix-manualseats]: executing diffoscope
+[2023-07-31 11:42:22] INFO root fetch - processPackages [pretix-manualseats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-manualseats-1.0.1.tar.gz tmp/pretix-manualseats-1.0.2.tar.gz --markdown 20230731/p/pretix-manualseats/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-31 11:42:22] INFO root fetch - processPackages [pipd]: executing diffoscope
+[2023-07-31 11:42:22] INFO root fetch - processPackages [pipd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipd-0.2.1.tar.gz tmp/pipd-0.2.2.tar.gz --markdown 20230731/p/pipd/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-31 11:42:22] INFO root fetch - processPackages [vulcan-sql]: Downloading https://files.pythonhosted.org/packages/d0/f6/39b9628265f2729c9f5ed0a19e915e8e076d411962ac080e2129fb90fc56/vulcan-sql-0.7.2.tar.gz
+[2023-07-31 11:42:22] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: Downloading https://files.pythonhosted.org/packages/2b/4d/66c4dc7986ad308e9b292a214c975ed2a86937a937ccc9b7272e73c2d4c7/odoo_addon_repair_refurbish-15.0.1.0.1-py3-none-any.whl
+[2023-07-31 11:42:22] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz]
+[2023-07-31 11:42:22] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz]
+[2023-07-31 11:42:22] INFO root fetch - processPackages [systembridgewindowssensors]: Start processing: Lshengpackage
+[2023-07-31 11:42:22] INFO root fetch - main [MainThread]: End processing [systembridgewindowssensors]: success
+[2023-07-31 11:42:22] INFO root fetch - processPackages [vulcan-sql]: executing diffoscope
+[2023-07-31 11:42:22] INFO root fetch - processPackages [vulcan-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulcan-sql-0.7.1.tar.gz tmp/vulcan-sql-0.7.2.tar.gz --markdown 20230731/v/vulcan-sql/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-31 11:42:22] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: executing diffoscope
+[2023-07-31 11:42:22] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_repair_refurbish-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_repair_refurbish-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230731/o/odoo-addon-repair-refurbish/15.0.1.0.0.3-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-31 11:42:22] INFO root fetch - processPackages [Lshengpackage]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-31 11:42:23] INFO root fetch - processPackages [Lshengpackage]: Downloading https://files.pythonhosted.org/packages/82/b9/a2aeb79158aa5d2c9b95df1b4458e718fc5c6113b5cfa679b3fab03c4641/Lshengpackage-0.4.5.tar.gz
+[2023-07-31 11:42:23] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-1.0.6.tar.gz]
+[2023-07-31 11:42:23] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-1.0.7.tar.gz]
+[2023-07-31 11:42:23] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-07-31 11:42:23] INFO root fetch - processPackages [starwhale]: Downloading https://files.pythonhosted.org/packages/71/7e/8c05d52bdb535866bd23dca1bb182d6306f8831a9c2acf08285cb04e6de3/starwhale-0.5.9.tar.gz
+[2023-07-31 11:42:23] INFO root fetch - processPackages [Lshengpackage]: Downloading https://files.pythonhosted.org/packages/13/bf/20416cbabce8e65edbc44f6f17f9b5d45d58ace21f0d3626518975da61bc/Lshengpackage-0.4.6.tar.gz
+[2023-07-31 11:42:23] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.2.2.tar.gz]
+[2023-07-31 11:42:23] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.2.5.tar.gz]
+[2023-07-31 11:42:23] INFO root fetch - main [MainThread]: End processing [magik]: success
+[2023-07-31 11:42:23] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.7.tar.gz]
+[2023-07-31 11:42:23] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.8.tar.gz]
+[2023-07-31 11:42:23] INFO root fetch - main [MainThread]: End processing [dicergirl]: success
+[2023-07-31 11:42:23] INFO root fetch - processPackages [starwhale]: executing diffoscope
+[2023-07-31 11:42:23] INFO root fetch - processPackages [starwhale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starwhale-0.5.8.tar.gz tmp/starwhale-0.5.9.tar.gz --markdown 20230731/s/starwhale/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-31 11:42:23] INFO root fetch - processPackages [Lshengpackage]: executing diffoscope
+[2023-07-31 11:42:23] INFO root fetch - processPackages [Lshengpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lshengpackage-0.4.5.tar.gz tmp/Lshengpackage-0.4.6.tar.gz --markdown 20230731/L/Lshengpackage/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-31 11:42:23] INFO root fetch - processPackages [pretix-manualseats]: Remove: archive file [/home/abi/fetcher/tmp/pretix-manualseats-1.0.1.tar.gz]
+[2023-07-31 11:42:23] INFO root fetch - processPackages [pretix-manualseats]: Remove: archive file [/home/abi/fetcher/tmp/pretix-manualseats-1.0.2.tar.gz]
+[2023-07-31 11:42:23] INFO root fetch - main [MainThread]: End processing [pretix-manualseats]: success
+[2023-07-31 11:42:23] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.2.1.tar.gz]
+[2023-07-31 11:42:23] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.2.2.tar.gz]
+[2023-07-31 11:42:23] INFO root fetch - main [MainThread]: End processing [pipd]: success
+[2023-07-31 11:42:23] INFO root fetch - processPackages [vulcan-sql]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-sql-0.7.1.tar.gz]
+[2023-07-31 11:42:23] INFO root fetch - processPackages [vulcan-sql]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-sql-0.7.2.tar.gz]
+[2023-07-31 11:42:23] INFO root fetch - main [MainThread]: End processing [vulcan-sql]: success
+[2023-07-31 11:42:24] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_refurbish-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-31 11:42:24] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_refurbish-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-31 11:42:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-refurbish]: success
+[2023-07-31 11:42:24] INFO root fetch - processPackages [Lshengpackage]: Remove: archive file [/home/abi/fetcher/tmp/Lshengpackage-0.4.5.tar.gz]
+[2023-07-31 11:42:24] INFO root fetch - processPackages [Lshengpackage]: Remove: archive file [/home/abi/fetcher/tmp/Lshengpackage-0.4.6.tar.gz]
+[2023-07-31 11:42:24] INFO root fetch - main [MainThread]: End processing [Lshengpackage]: success
+[2023-07-31 11:42:25] INFO root fetch - processPackages [MuPhyN]: Remove: archive file [/home/abi/fetcher/tmp/MuPhyN-0.1.0.post8.tar.gz]
+[2023-07-31 11:42:25] INFO root fetch - processPackages [MuPhyN]: Remove: archive file [/home/abi/fetcher/tmp/MuPhyN-0.1.1.post4.tar.gz]
+[2023-07-31 11:42:25] INFO root fetch - main [MainThread]: End processing [MuPhyN]: success
+[2023-07-31 11:44:28] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.5.8.tar.gz]
+[2023-07-31 11:44:28] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.5.9.tar.gz]
+[2023-07-31 11:44:28] INFO root fetch - main [MainThread]: End processing [starwhale]: success
+[2023-07-31 11:44:28] INFO root fetch - main [MainThread]: Store serial: [19105495]
