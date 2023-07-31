@@ -15501,3 +15501,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 12:12:24] INFO root fetch - processPackages [pytessng]: Remove: archive file [/home/abi/fetcher/tmp/pytessng-0.1.6.tar.gz]
 [2023-07-31 12:12:24] INFO root fetch - main [MainThread]: End processing [pytessng]: success
 [2023-07-31 12:12:24] INFO root fetch - main [MainThread]: Store serial: [19106124]
+[2023-07-31 12:17:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19106124]
+[2023-07-31 12:17:42] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-31 12:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: krillscan
+[2023-07-31 12:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-wsgi3
+[2023-07-31 12:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dicergirl
+[2023-07-31 12:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygoic
+[2023-07-31 12:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client
+[2023-07-31 12:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stigg-api-client-v2
+[2023-07-31 12:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytch-fetch
+[2023-07-31 12:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: monolith-filemanager
+[2023-07-31 12:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: provrandom
+[2023-07-31 12:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anyforce
+[2023-07-31 12:17:42] INFO root fetch - processPackages [monolith-filemanager]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-31 12:17:42] INFO root fetch - processPackages [dicergirl]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-31 12:17:42] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.515.3] Old Version: [0.514.0]
+[2023-07-31 12:17:42] WARNING root fetch - processPackages [provrandom]: Skipping, unable to determine old version
+[2023-07-31 12:17:42] INFO root fetch - processPackages [provrandom]: Start processing: fyers-sdk
+[2023-07-31 12:17:42] INFO root fetch - main [MainThread]: End processing [provrandom] error
+[2023-07-31 12:17:42] WARNING root fetch - processPackages [django-wsgi3]: Skipping, unable to determine old version
+[2023-07-31 12:17:42] INFO root fetch - processPackages [django-wsgi3]: Start processing: avlwrapper
+[2023-07-31 12:17:42] INFO root fetch - main [MainThread]: End processing [django-wsgi3] error
+[2023-07-31 12:17:42] INFO root fetch - processPackages [pygoic]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 12:17:42] INFO root fetch - processPackages [stigg-api-client]: New version: [0.515.3] Old Version: [0.514.0]
+[2023-07-31 12:17:42] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-31 12:17:42] INFO root fetch - processPackages [pytch-fetch]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-31 12:17:42] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-31 12:17:42] INFO root fetch - processPackages [avlwrapper]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-31 12:17:42] INFO root fetch - processPackages [fyers-sdk]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-31 12:17:42] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/45/6e/8247ddd733b3beb54fdf543f1e8b6392d0eadd7898e7ce5e189ff6dceb61/stigg_api_client_v2-0.514.0.tar.gz
+[2023-07-31 12:17:42] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/25/7e/158d01cd9841805cba20d0c2af15c226152238341f7075ddfcd29de8be83/stigg_api_client-0.514.0.tar.gz
+[2023-07-31 12:17:42] INFO root fetch - processPackages [pytch-fetch]: Downloading https://files.pythonhosted.org/packages/74/14/41c34288b0ebc65234ac39a11ac0ede27e6caeaf551eadad045e33971d54/pytch-fetch-1.2.2.tar.gz
+[2023-07-31 12:17:42] INFO root fetch - processPackages [monolith-filemanager]: Downloading https://files.pythonhosted.org/packages/06/27/5b4e87326ea3284b3966cbf8f18819d72661dd2ac981af81796db8d04322/monolith_filemanager-1.1.0.tar.gz
+[2023-07-31 12:17:42] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-07-31 12:17:42] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/8b/4a/3b5164723b1baf2ae98bcbc6678920a09d19c1adb79b5925c65e2bacb1a7/dicergirl-3.0.8.tar.gz
+[2023-07-31 12:17:42] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/ca/6f/fa3d9dcb24bf6495a89ecc742bf37b08838a835b3ad234b09c4419bc1e40/fyers_sdk-1.0.7.tar.gz
+[2023-07-31 12:17:42] INFO root fetch - processPackages [pygoic]: Downloading https://files.pythonhosted.org/packages/49/c7/5c8297fbe40988f5e7cde37df46ce46b9450e547f5aff4ab307fc260351c/pygoic-0.1.0.tar.gz
+[2023-07-31 12:17:42] INFO root fetch - processPackages [krillscan]: Downloading https://files.pythonhosted.org/packages/07/72/938c229df50a90a1c9cd0d6bac0b84269d4bb34a164b5ccf61d2e9cb5c88/krillscan-0.2.8.tar.gz
+[2023-07-31 12:17:42] INFO root fetch - processPackages [avlwrapper]: Downloading https://files.pythonhosted.org/packages/9b/a8/a3638c4a20a419c0e70e6505b2b01c05686ed088d4b2ca9e70aa9cb209e8/avlwrapper-0.3.4.tar.gz
+[2023-07-31 12:17:43] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-07-31 12:17:43] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/1d/5d/37911b1c68ce188b09f06c3aaef128bae3cf91214a856233b4949310c46a/stigg_api_client_v2-0.515.3.tar.gz
+[2023-07-31 12:17:43] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/f6/cb/b9824a0fdc0e9aa787014e1c05fd0ddf7615d0a59fbe4309dc02f2e7b1f9/stigg_api_client-0.515.3.tar.gz
+[2023-07-31 12:17:43] INFO root fetch - processPackages [pytch-fetch]: Downloading https://files.pythonhosted.org/packages/fc/c7/9b086935546b580d4ec694b69b799ea1be157362fb0777416313b850f9b0/pytch-fetch-1.2.3.tar.gz
+[2023-07-31 12:17:43] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/cc/2f/86394a6773784d7b675bced8d86f2838a1653b0cd960f19c21fedf5a8d2b/dicergirl-3.0.9.tar.gz
+[2023-07-31 12:17:43] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/26/f3/b3f2072573fc7cf5f67bbd88c38e6eda4cd7043002c88220138229131e55/fyers_sdk-1.0.8.tar.gz
+[2023-07-31 12:17:43] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-07-31 12:17:43] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230731/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 12:17:43] INFO root fetch - processPackages [monolith-filemanager]: Downloading https://files.pythonhosted.org/packages/93/9a/2c5a84f1ab17383ce83077a0d230d6a778a5ca15fd927da92cfaafd49413/monolith_filemanager-1.1.1.tar.gz
+[2023-07-31 12:17:43] INFO root fetch - processPackages [pygoic]: Downloading https://files.pythonhosted.org/packages/86/e3/5929080a20a928ad37a504be13c15c9d86fc151663e81e38d5e73a3ce5db/pygoic-0.1.1.tar.gz
+[2023-07-31 12:17:43] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-31 12:17:43] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.514.0.tar.gz tmp/stigg_api_client_v2-0.515.3.tar.gz --markdown 20230731/s/stigg-api-client-v2/0.514.0-0.515.3/diff.md --exclude *.pyd
+[2023-07-31 12:17:43] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-31 12:17:43] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.514.0.tar.gz tmp/stigg_api_client-0.515.3.tar.gz --markdown 20230731/s/stigg-api-client/0.514.0-0.515.3/diff.md --exclude *.pyd
+[2023-07-31 12:17:43] INFO root fetch - processPackages [krillscan]: Downloading https://files.pythonhosted.org/packages/b5/55/35d651f1351d7c94b597bb11783e2e9faccafaf74fd7bf2aff59c4711d5f/krillscan-0.2.9.tar.gz
+[2023-07-31 12:17:43] INFO root fetch - processPackages [pytch-fetch]: executing diffoscope
+[2023-07-31 12:17:43] INFO root fetch - processPackages [pytch-fetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytch-fetch-1.2.2.tar.gz tmp/pytch-fetch-1.2.3.tar.gz --markdown 20230731/p/pytch-fetch/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-31 12:17:43] INFO root fetch - processPackages [dicergirl]: executing diffoscope
+[2023-07-31 12:17:43] INFO root fetch - processPackages [dicergirl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicergirl-3.0.8.tar.gz tmp/dicergirl-3.0.9.tar.gz --markdown 20230731/d/dicergirl/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-31 12:17:43] INFO root fetch - processPackages [avlwrapper]: Downloading https://files.pythonhosted.org/packages/0c/c5/f73193a77c4d57a8b87d42ab6f5d13544e7e80f5b06d3ef1e0f719f5d0de/avlwrapper-0.3.5.tar.gz
+[2023-07-31 12:17:43] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-07-31 12:17:43] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-1.0.7.tar.gz tmp/fyers_sdk-1.0.8.tar.gz --markdown 20230731/f/fyers-sdk/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-31 12:17:43] INFO root fetch - processPackages [pygoic]: executing diffoscope
+[2023-07-31 12:17:43] INFO root fetch - processPackages [pygoic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygoic-0.1.0.tar.gz tmp/pygoic-0.1.1.tar.gz --markdown 20230731/p/pygoic/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 12:17:43] INFO root fetch - processPackages [monolith-filemanager]: executing diffoscope
+[2023-07-31 12:17:43] INFO root fetch - processPackages [monolith-filemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monolith_filemanager-1.1.0.tar.gz tmp/monolith_filemanager-1.1.1.tar.gz --markdown 20230731/m/monolith-filemanager/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-31 12:17:43] INFO root fetch - processPackages [avlwrapper]: executing diffoscope
+[2023-07-31 12:17:43] INFO root fetch - processPackages [avlwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avlwrapper-0.3.4.tar.gz tmp/avlwrapper-0.3.5.tar.gz --markdown 20230731/a/avlwrapper/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-31 12:17:43] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-07-31 12:17:43] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230731/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-31 12:17:44] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-07-31 12:17:44] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-07-31 12:17:44] INFO root fetch - processPackages [anyforce]: Start processing: jupyterlab-widgets
+[2023-07-31 12:17:44] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-07-31 12:17:44] INFO root fetch - processPackages [jupyterlab-widgets]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-07-31 12:17:45] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.514.0.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.515.3.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-31 12:17:45] INFO root fetch - processPackages [jupyterlab-widgets]: Downloading https://files.pythonhosted.org/packages/d4/68/ef3070afff437dc92562241294467112566d3b402d85bb9b32e3fd65352a/jupyterlab_widgets-3.0.7.tar.gz
+[2023-07-31 12:17:45] INFO root fetch - processPackages [pygoic]: Remove: archive file [/home/abi/fetcher/tmp/pygoic-0.1.0.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - processPackages [pygoic]: Remove: archive file [/home/abi/fetcher/tmp/pygoic-0.1.1.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - main [MainThread]: End processing [pygoic]: success
+[2023-07-31 12:17:45] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-1.0.7.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-1.0.8.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-07-31 12:17:45] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.514.0.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.515.3.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-31 12:17:45] INFO root fetch - processPackages [avlwrapper]: Remove: archive file [/home/abi/fetcher/tmp/avlwrapper-0.3.4.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - processPackages [avlwrapper]: Remove: archive file [/home/abi/fetcher/tmp/avlwrapper-0.3.5.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - main [MainThread]: End processing [avlwrapper]: success
+[2023-07-31 12:17:45] INFO root fetch - processPackages [pytch-fetch]: Remove: archive file [/home/abi/fetcher/tmp/pytch-fetch-1.2.2.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.8.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - processPackages [pytch-fetch]: Remove: archive file [/home/abi/fetcher/tmp/pytch-fetch-1.2.3.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.9.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - main [MainThread]: End processing [pytch-fetch]: success
+[2023-07-31 12:17:45] INFO root fetch - processPackages [monolith-filemanager]: Remove: archive file [/home/abi/fetcher/tmp/monolith_filemanager-1.1.0.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - main [MainThread]: End processing [dicergirl]: success
+[2023-07-31 12:17:45] INFO root fetch - processPackages [monolith-filemanager]: Remove: archive file [/home/abi/fetcher/tmp/monolith_filemanager-1.1.1.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - main [MainThread]: End processing [monolith-filemanager]: success
+[2023-07-31 12:17:45] INFO root fetch - processPackages [jupyterlab-widgets]: Downloading https://files.pythonhosted.org/packages/94/fc/d6f64bc60663810a04bcff7ac6c50b0ea90b90c681243583fa7c8de776ca/jupyterlab_widgets-3.0.8.tar.gz
+[2023-07-31 12:17:45] INFO root fetch - processPackages [jupyterlab-widgets]: executing diffoscope
+[2023-07-31 12:17:45] INFO root fetch - processPackages [jupyterlab-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_widgets-3.0.7.tar.gz tmp/jupyterlab_widgets-3.0.8.tar.gz --markdown 20230731/j/jupyterlab-widgets/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-07-31 12:17:45] INFO root fetch - processPackages [krillscan]: Remove: archive file [/home/abi/fetcher/tmp/krillscan-0.2.8.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - processPackages [krillscan]: Remove: archive file [/home/abi/fetcher/tmp/krillscan-0.2.9.tar.gz]
+[2023-07-31 12:17:45] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-07-31 12:17:51] INFO root fetch - processPackages [jupyterlab-widgets]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_widgets-3.0.7.tar.gz]
+[2023-07-31 12:17:51] INFO root fetch - processPackages [jupyterlab-widgets]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_widgets-3.0.8.tar.gz]
+[2023-07-31 12:17:51] INFO root fetch - main [MainThread]: End processing [jupyterlab-widgets]: success
+[2023-07-31 12:17:51] INFO root fetch - main [MainThread]: Store serial: [19106171]
