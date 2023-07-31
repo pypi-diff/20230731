@@ -4561,3 +4561,65 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 03:19:38] INFO root fetch - processPackages [flask-script-observable]: Remove: archive file [/home/abi/fetcher/tmp/flask_script_observable-0.0.5.tar.gz]
 [2023-07-31 03:19:38] INFO root fetch - main [MainThread]: End processing [flask-script-observable]: success
 [2023-07-31 03:19:38] INFO root fetch - main [MainThread]: Store serial: [19101583]
+[2023-07-31 03:24:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19101583]
+[2023-07-31 03:24:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-31 03:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-curl
+[2023-07-31 03:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lumibot
+[2023-07-31 03:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: summerepi2
+[2023-07-31 03:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scotthsieh-projen-statemachine
+[2023-07-31 03:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sloth-framework
+[2023-07-31 03:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyload
+[2023-07-31 03:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-script-observable
+[2023-07-31 03:24:47] INFO root fetch - processPackages [flask-script-observable]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-31 03:24:47] INFO root fetch - processPackages [hyload]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-31 03:24:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-31 03:24:47] INFO root fetch - processPackages [sloth-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 03:24:47] INFO root fetch - processPackages [summerepi2]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-31 03:24:47] INFO root fetch - processPackages [lumibot]: New version: [2.7.5] Old Version: [2.7.4]
+[2023-07-31 03:24:47] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-31 03:24:47] INFO root fetch - processPackages [flask-script-observable]: Downloading https://files.pythonhosted.org/packages/f0/b0/42fd307d784e4b9d6eca4377bb4ac547181e63cb3621e71f3204b63997ba/flask_script_observable-0.0.5.tar.gz
+[2023-07-31 03:24:47] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/75/0d/006a214eaeb72416cf89a7becfc002641eb8a9514ecd0ddbda137b98bcb2/sloth-framework-0.1.8.tar.gz
+[2023-07-31 03:24:47] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-07-31 03:24:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-31 03:24:47] INFO root fetch - processPackages [summerepi2]: Downloading https://files.pythonhosted.org/packages/04/a7/5f9ce3dbd0edd6449dc1889e058852dcd3feab5c18fdf00ec1a957a6a9bf/summerepi2-1.2.8.tar.gz
+[2023-07-31 03:24:47] INFO root fetch - processPackages [hyload]: Downloading https://files.pythonhosted.org/packages/1c/ff/5ca3641184af945a6e8f33302443833ee20f3a4f793c03878fbb9fc6ec25/hyload-0.2.6-py3-none-any.whl
+[2023-07-31 03:24:47] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/76/46/ce7139b354fca14942e935b5d6bec69a9acfb85bae3c53722f5e3c1d638f/lumibot-2.7.4.tar.gz
+[2023-07-31 03:24:47] WARNING root fetch - processPackages [lumibot]: Skipping package: exceeds size limit 23897925>=10485760
+[2023-07-31 03:24:47] INFO root fetch - main [MainThread]: End processing [lumibot] error
+[2023-07-31 03:24:47] INFO root fetch - processPackages [summerepi2]: Downloading https://files.pythonhosted.org/packages/e4/e5/3165a4867dfa47a9ff4163381779c5f97aa8e9c44514e66db7106cda331d/summerepi2-1.2.9.tar.gz
+[2023-07-31 03:24:47] INFO root fetch - processPackages [hyload]: Downloading https://files.pythonhosted.org/packages/86/a0/4e85f8a08afec4cdc88e711426f7f48c670ec89ea8a0c4c3e8e54fb0dc38/hyload-0.2.7-py3-none-any.whl
+[2023-07-31 03:24:47] INFO root fetch - processPackages [flask-script-observable]: Downloading https://files.pythonhosted.org/packages/d8/c7/7958c1b957be510f3ca6618de42ca4170062e428afbb609ee556a9dde2d9/flask_script_observable-0.0.6.tar.gz
+[2023-07-31 03:24:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-31 03:24:47] INFO root fetch - processPackages [summerepi2]: executing diffoscope
+[2023-07-31 03:24:47] INFO root fetch - processPackages [summerepi2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summerepi2-1.2.8.tar.gz tmp/summerepi2-1.2.9.tar.gz --markdown 20230731/s/summerepi2/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-31 03:24:47] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-07-31 03:24:47] INFO root fetch - processPackages [hyload]: executing diffoscope
+[2023-07-31 03:24:47] INFO root fetch - processPackages [hyload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyload-0.2.6-py3-none-any.whl.zip tmp/hyload-0.2.7-py3-none-any.whl.zip --markdown 20230731/h/hyload/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-31 03:24:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-31 03:24:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230731/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-31 03:24:48] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/1b/5e/f7756769bdc54ffa207ac448c35548cc179b70dca456bf78b6d4997e96f9/sloth-framework-0.1.9.tar.gz
+[2023-07-31 03:24:48] INFO root fetch - processPackages [flask-script-observable]: executing diffoscope
+[2023-07-31 03:24:48] INFO root fetch - processPackages [flask-script-observable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_script_observable-0.0.5.tar.gz tmp/flask_script_observable-0.0.6.tar.gz --markdown 20230731/f/flask-script-observable/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-31 03:24:48] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-07-31 03:24:48] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230731/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-31 03:24:48] INFO root fetch - processPackages [sloth-framework]: executing diffoscope
+[2023-07-31 03:24:48] INFO root fetch - processPackages [sloth-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sloth-framework-0.1.8.tar.gz tmp/sloth-framework-0.1.9.tar.gz --markdown 20230731/s/sloth-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 03:24:48] INFO root fetch - processPackages [hyload]: Remove: archive file [/home/abi/fetcher/tmp/hyload-0.2.6-py3-none-any.whl.zip]
+[2023-07-31 03:24:48] INFO root fetch - processPackages [hyload]: Remove: archive file [/home/abi/fetcher/tmp/hyload-0.2.7-py3-none-any.whl.zip]
+[2023-07-31 03:24:48] INFO root fetch - main [MainThread]: End processing [hyload]: success
+[2023-07-31 03:24:49] INFO root fetch - processPackages [summerepi2]: Remove: archive file [/home/abi/fetcher/tmp/summerepi2-1.2.8.tar.gz]
+[2023-07-31 03:24:49] INFO root fetch - processPackages [summerepi2]: Remove: archive file [/home/abi/fetcher/tmp/summerepi2-1.2.9.tar.gz]
+[2023-07-31 03:24:49] INFO root fetch - main [MainThread]: End processing [summerepi2]: success
+[2023-07-31 03:24:49] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-07-31 03:24:49] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-07-31 03:24:49] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-07-31 03:24:49] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-31 03:24:49] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-31 03:24:49] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-31 03:24:51] INFO root fetch - processPackages [sloth-framework]: Remove: archive file [/home/abi/fetcher/tmp/sloth-framework-0.1.8.tar.gz]
+[2023-07-31 03:24:51] INFO root fetch - processPackages [sloth-framework]: Remove: archive file [/home/abi/fetcher/tmp/sloth-framework-0.1.9.tar.gz]
+[2023-07-31 03:24:51] INFO root fetch - main [MainThread]: End processing [sloth-framework]: success
+[2023-07-31 03:24:54] INFO root fetch - processPackages [flask-script-observable]: Remove: archive file [/home/abi/fetcher/tmp/flask_script_observable-0.0.5.tar.gz]
+[2023-07-31 03:24:54] INFO root fetch - processPackages [flask-script-observable]: Remove: archive file [/home/abi/fetcher/tmp/flask_script_observable-0.0.6.tar.gz]
+[2023-07-31 03:24:54] INFO root fetch - main [MainThread]: End processing [flask-script-observable]: success
+[2023-07-31 03:24:54] INFO root fetch - main [MainThread]: Store serial: [19101602]
