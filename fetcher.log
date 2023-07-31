@@ -1017,3 +1017,78 @@
 [2023-07-31 02:04:41] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230730.post503.tar.gz]
 [2023-07-31 02:04:41] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-07-31 02:04:41] INFO root fetch - main [MainThread]: Store serial: [19100293]
+[2023-07-31 02:09:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19100293]
+[2023-07-31 02:09:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-31 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxkern-nightly
+[2023-07-31 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fixa
+[2023-07-31 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxutils-nightly
+[2023-07-31 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: activeconfigparser
+[2023-07-31 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: electrolytes
+[2023-07-31 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-compiler-opt
+[2023-07-31 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchlayers-nightly
+[2023-07-31 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-common
+[2023-07-31 02:09:50] INFO root fetch - processPackages [fixa]: New version: [0.8.1] Old Version: [0.7.1]
+[2023-07-31 02:09:50] INFO root fetch - processPackages [electrolytes]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-31 02:09:50] INFO root fetch - processPackages [activeconfigparser]: New version: [0.9.0.1] Old Version: [0.9.0.0a0]
+[2023-07-31 02:09:50] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307310007] Old Version: [0.0.1.dev202307300007]
+[2023-07-31 02:09:50] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-31 02:09:50] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230730] Old Version: [0.0.8.dev20230729]
+[2023-07-31 02:09:50] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-31 02:09:50] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1690675669] Old Version: [1690589242]
+[2023-07-31 02:09:50] INFO root fetch - processPackages [electrolytes]: Downloading https://files.pythonhosted.org/packages/00/2d/9634e21fca92046fe6456a6dee02b327ddd51759aecdf8dda0a69c492d85/electrolytes-0.3.2.tar.gz
+[2023-07-31 02:09:50] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-31 02:09:50] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/8b/c4/2d164fa7260697b91b6b21cca1b32cff192faafa9f8341c9cae7ec7791d1/jaxutils-nightly-0.0.8.dev20230729.tar.gz
+[2023-07-31 02:09:50] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-07-31 02:09:50] INFO root fetch - processPackages [fixa]: Downloading https://files.pythonhosted.org/packages/45/db/1e043f8ae8b16bed09a3db74b407ee6ddbbff1647d194556f14b94c7749d/fixa-0.7.1.tar.gz
+[2023-07-31 02:09:50] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/a6/b2/165cf98f89dab97fe73539d988a4b0d8d9cc6e54ec16a2674c40b5236faa/torchlayers-nightly-1690589242.tar.gz
+[2023-07-31 02:09:50] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/cc/54/5c5f2c7eb94c04a004a99b5a7f2d82bd42ba13f1004c97f5be7cb7fec35b/ml-compiler-opt-0.0.1.dev202307300007.tar.gz
+[2023-07-31 02:09:50] INFO root fetch - processPackages [activeconfigparser]: Downloading https://files.pythonhosted.org/packages/f7/de/2707a971007f870925235d1119ab68dc79d2ec4270a3d940e48b83c1ac63/activeconfigparser-0.9.0.0a0.tar.gz
+[2023-07-31 02:09:50] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-31 02:09:50] INFO root fetch - processPackages [electrolytes]: Downloading https://files.pythonhosted.org/packages/2f/14/fe0f1dafd68f3f90c87c889d22b99c3e9e2b14da869c9ef307b4b7264d1d/electrolytes-0.3.3.tar.gz
+[2023-07-31 02:09:50] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-31 02:09:50] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230731/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-31 02:09:50] INFO root fetch - processPackages [fixa]: Downloading https://files.pythonhosted.org/packages/62/ca/3a3d42a5a5d9c644796b5c3b78cdb3ce83bcb31127769020f58d1dc5c09d/fixa-0.8.1.tar.gz
+[2023-07-31 02:09:50] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/f3/1b/f80f754afb2383d744afdccd2ea65c1277360463debafcaf1d5727a4a3b1/ml-compiler-opt-0.0.1.dev202307310007.tar.gz
+[2023-07-31 02:09:50] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/0b/92/4e486b0d159e711be06ef693fda07df6fbe559bf32d80e8538962cb3cf19/jaxutils-nightly-0.0.8.dev20230730.tar.gz
+[2023-07-31 02:09:50] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/7c/e3/e068d52e80077cdd2494981815aa1ce1502c9f047b62e533ae83d0c931ba/torchlayers-nightly-1690675669.tar.gz
+[2023-07-31 02:09:50] INFO root fetch - processPackages [activeconfigparser]: Downloading https://files.pythonhosted.org/packages/5e/7d/734b3ee1edf9a9a0504e64810ee9cec08c32409965d94a9aed3b587510ce/activeconfigparser-0.9.0.1.tar.gz
+[2023-07-31 02:09:50] INFO root fetch - processPackages [electrolytes]: executing diffoscope
+[2023-07-31 02:09:50] INFO root fetch - processPackages [electrolytes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/electrolytes-0.3.2.tar.gz tmp/electrolytes-0.3.3.tar.gz --markdown 20230731/e/electrolytes/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-31 02:09:50] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-07-31 02:09:51] INFO root fetch - processPackages [fixa]: executing diffoscope
+[2023-07-31 02:09:51] INFO root fetch - processPackages [fixa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixa-0.7.1.tar.gz tmp/fixa-0.8.1.tar.gz --markdown 20230731/f/fixa/0.7.1-0.8.1/diff.md --exclude *.pyd
+[2023-07-31 02:09:51] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-31 02:09:51] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230729.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230730.tar.gz --markdown 20230731/j/jaxutils-nightly/0.0.8.dev20230729-0.0.8.dev20230730/diff.md --exclude *.pyd
+[2023-07-31 02:09:51] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-07-31 02:09:51] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1690589242.tar.gz tmp/torchlayers-nightly-1690675669.tar.gz --markdown 20230731/t/torchlayers-nightly/1690589242-1690675669/diff.md --exclude *.pyd
+[2023-07-31 02:09:51] INFO root fetch - processPackages [activeconfigparser]: executing diffoscope
+[2023-07-31 02:09:51] INFO root fetch - processPackages [activeconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activeconfigparser-0.9.0.0a0.tar.gz tmp/activeconfigparser-0.9.0.1.tar.gz --markdown 20230731/a/activeconfigparser/0.9.0.0a0-0.9.0.1/diff.md --exclude *.pyd
+[2023-07-31 02:09:51] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-31 02:09:51] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307300007.tar.gz tmp/ml-compiler-opt-0.0.1.dev202307310007.tar.gz --markdown 20230731/m/ml-compiler-opt/0.0.1.dev202307300007-0.0.1.dev202307310007/diff.md --exclude *.pyd
+[2023-07-31 02:09:51] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-07-31 02:09:51] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230731/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-31 02:09:51] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-31 02:09:51] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-31 02:09:51] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-31 02:09:52] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230729.tar.gz]
+[2023-07-31 02:09:52] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230730.tar.gz]
+[2023-07-31 02:09:52] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-31 02:09:52] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690589242.tar.gz]
+[2023-07-31 02:09:52] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690675669.tar.gz]
+[2023-07-31 02:09:52] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-07-31 02:09:52] INFO root fetch - processPackages [electrolytes]: Remove: archive file [/home/abi/fetcher/tmp/electrolytes-0.3.2.tar.gz]
+[2023-07-31 02:09:52] INFO root fetch - processPackages [electrolytes]: Remove: archive file [/home/abi/fetcher/tmp/electrolytes-0.3.3.tar.gz]
+[2023-07-31 02:09:52] INFO root fetch - main [MainThread]: End processing [electrolytes]: success
+[2023-07-31 02:09:52] INFO root fetch - processPackages [fixa]: Remove: archive file [/home/abi/fetcher/tmp/fixa-0.7.1.tar.gz]
+[2023-07-31 02:09:52] INFO root fetch - processPackages [fixa]: Remove: archive file [/home/abi/fetcher/tmp/fixa-0.8.1.tar.gz]
+[2023-07-31 02:09:52] INFO root fetch - main [MainThread]: End processing [fixa]: success
+[2023-07-31 02:09:52] INFO root fetch - processPackages [activeconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/activeconfigparser-0.9.0.0a0.tar.gz]
+[2023-07-31 02:09:52] INFO root fetch - processPackages [activeconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/activeconfigparser-0.9.0.1.tar.gz]
+[2023-07-31 02:09:52] INFO root fetch - main [MainThread]: End processing [activeconfigparser]: success
+[2023-07-31 02:09:52] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-07-31 02:09:52] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-07-31 02:09:52] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-07-31 02:09:52] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307300007.tar.gz]
+[2023-07-31 02:09:52] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307310007.tar.gz]
+[2023-07-31 02:09:52] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-31 02:09:52] INFO root fetch - main [MainThread]: Store serial: [19100317]
