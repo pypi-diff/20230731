@@ -17404,3 +17404,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 13:45:42] INFO root fetch - processPackages [spetlr]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-2.1.5.tar.gz]
 [2023-07-31 13:45:42] INFO root fetch - main [MainThread]: End processing [spetlr]: success
 [2023-07-31 13:45:42] INFO root fetch - main [MainThread]: Store serial: [19106920]
+[2023-07-31 13:50:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19106920]
+[2023-07-31 13:50:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-31 13:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: midify
+[2023-07-31 13:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pip2spack
+[2023-07-31 13:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: config-server-client
+[2023-07-31 13:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decentralizedroutines
+[2023-07-31 13:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tortoise-api-model
+[2023-07-31 13:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keboola.json-to-csv
+[2023-07-31 13:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: st-track-viewer
+[2023-07-31 13:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: config-server-client
+[2023-07-31 13:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-scheduler-sdk-preview
+[2023-07-31 13:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neurokit2-cw
+[2023-07-31 13:50:51] INFO root fetch - processPackages [config-server-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 13:50:51] INFO root fetch - processPackages [pip2spack]: New version: [2.0.0a0] Old Version: [1.4.1]
+[2023-07-31 13:50:51] INFO root fetch - processPackages [tortoise-api-model]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-07-31 13:50:51] INFO root fetch - processPackages [st-track-viewer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 13:50:51] INFO root fetch - processPackages [config-server-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 13:50:51] INFO root fetch - processPackages [midify]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-31 13:50:51] INFO root fetch - processPackages [decentralizedroutines]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-07-31 13:50:51] INFO root fetch - processPackages [keboola.json-to-csv]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-31 13:50:51] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: New version: [0.0.813] Old Version: [0.0.812]
+[2023-07-31 13:50:51] WARNING root fetch - processPackages [neurokit2-cw]: Skipping, unable to determine old version
+[2023-07-31 13:50:51] INFO root fetch - main [MainThread]: End processing [neurokit2-cw] error
+[2023-07-31 13:50:52] INFO root fetch - processPackages [config-server-client]: Downloading https://files.pythonhosted.org/packages/36/1a/9611067273b09c5e3ac86110140bd51dfd088f4997dfaaae45fee79d9c79/config-server-client-0.0.1.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [tortoise-api-model]: Downloading https://files.pythonhosted.org/packages/c2/7c/bf29cf483f0120ad7090fa07d53d62840159dfc7be22caf56ba656e06d3f/tortoise_api_model-0.0.7.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [config-server-client]: Downloading https://files.pythonhosted.org/packages/36/1a/9611067273b09c5e3ac86110140bd51dfd088f4997dfaaae45fee79d9c79/config-server-client-0.0.1.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [midify]: Downloading https://files.pythonhosted.org/packages/17/3a/03d87729e1c4185ed6142f4ea0d6bf6bcf91fd47228175ee84d455ebd35d/midify-0.3.1.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/94/07/9764678717f8a80a80b7189b49b71f58054f527f02e5a049bc090b59838b/decentralizedroutines-2.2.1.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f3/41/d955ada043cd930c3874c0a96e8735dfd90d3b2597cf9c1ec9d8e547d65d/lusid-scheduler-sdk-preview-0.0.812.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [pip2spack]: Downloading https://files.pythonhosted.org/packages/38/4f/8b17084af5419ddcf801d035896b48481d9aa6b3ff844a10f3b8ec55276d/pip2spack-1.4.1.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/e4/29/ede730fb99ac355d5f69b2c00442d3c4b83b0f41f24dac4840e3fca4b878/st_track_viewer-0.0.1-py3-none-any.whl
+[2023-07-31 13:50:52] INFO root fetch - processPackages [keboola.json-to-csv]: Downloading https://files.pythonhosted.org/packages/f8/5b/331ff3036531bb4d588638d20d6e01f81d8217aeeeb4f21b92692cf70026/keboola.json-to-csv-0.0.2.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [tortoise-api-model]: Downloading https://files.pythonhosted.org/packages/72/fe/60f7fc3c88d835126499d3333ca9634179d106a892c01b14a41c594fc3f5/tortoise_api_model-0.1.0.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [config-server-client]: Downloading https://files.pythonhosted.org/packages/97/b1/d211ab19e34b23bea92e2f8bded5ab24628b675cd462bdb7a892b6131c5a/config-server-client-0.0.2.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [config-server-client]: Downloading https://files.pythonhosted.org/packages/97/b1/d211ab19e34b23bea92e2f8bded5ab24628b675cd462bdb7a892b6131c5a/config-server-client-0.0.2.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/c7/6a/22fd0ea5a97eda4218171fe5cc84d9c1657cb685e5fb8120ef27ec059ef2/decentralizedroutines-2.2.2.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [midify]: Downloading https://files.pythonhosted.org/packages/4b/ab/4137e2de1298f623ce8daece98bab9075d5b7b2ddeab34e1216e02770a37/midify-0.3.2.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [tortoise-api-model]: executing diffoscope
+[2023-07-31 13:50:52] INFO root fetch - processPackages [tortoise-api-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise_api_model-0.0.7.tar.gz tmp/tortoise_api_model-0.1.0.tar.gz --markdown 20230731/t/tortoise-api-model/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-07-31 13:50:52] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f1/ba/bf6a9348431ffce930c2ad8e58059c57ffc46118d67bb7c5bbda4a185949/lusid-scheduler-sdk-preview-0.0.813.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [pip2spack]: Downloading https://files.pythonhosted.org/packages/c5/dc/83a35e778784cf428d3da454340b2f26670168d39cf2dc891f1f260eb5f4/pip2spack-2.0.0a0.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [config-server-client]: executing diffoscope
+[2023-07-31 13:50:52] INFO root fetch - processPackages [config-server-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config-server-client-0.0.1.tar.gz tmp/config-server-client-0.0.2.tar.gz --markdown 20230731/c/config-server-client/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 13:50:52] INFO root fetch - processPackages [config-server-client]: executing diffoscope
+[2023-07-31 13:50:52] INFO root fetch - processPackages [config-server-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config-server-client-0.0.1.tar.gz tmp/config-server-client-0.0.2.tar.gz --markdown 20230731/c/config-server-client/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 13:50:52] INFO root fetch - processPackages [keboola.json-to-csv]: Downloading https://files.pythonhosted.org/packages/3b/0b/a857ba9ebe5e97ee5147f2bea4abb690957f65d2454c0784fd8383180be2/keboola.json-to-csv-0.0.4.tar.gz
+[2023-07-31 13:50:52] INFO root fetch - processPackages [midify]: executing diffoscope
+[2023-07-31 13:50:52] INFO root fetch - processPackages [midify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midify-0.3.1.tar.gz tmp/midify-0.3.2.tar.gz --markdown 20230731/m/midify/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-31 13:50:52] INFO root fetch - processPackages [decentralizedroutines]: executing diffoscope
+[2023-07-31 13:50:52] INFO root fetch - processPackages [decentralizedroutines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentralizedroutines-2.2.1.tar.gz tmp/decentralizedroutines-2.2.2.tar.gz --markdown 20230731/d/decentralizedroutines/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-07-31 13:50:52] INFO root fetch - processPackages [keboola.json-to-csv]: executing diffoscope
+[2023-07-31 13:50:52] INFO root fetch - processPackages [keboola.json-to-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keboola.json-to-csv-0.0.2.tar.gz tmp/keboola.json-to-csv-0.0.4.tar.gz --markdown 20230731/k/keboola.json-to-csv/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-31 13:50:52] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: executing diffoscope
+[2023-07-31 13:50:52] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-scheduler-sdk-preview-0.0.812.tar.gz tmp/lusid-scheduler-sdk-preview-0.0.813.tar.gz --markdown 20230731/l/lusid-scheduler-sdk-preview/0.0.812-0.0.813/diff.md --exclude *.pyd
+[2023-07-31 13:50:52] INFO root fetch - processPackages [pip2spack]: executing diffoscope
+[2023-07-31 13:50:52] INFO root fetch - processPackages [pip2spack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip2spack-1.4.1.tar.gz tmp/pip2spack-2.0.0a0.tar.gz --markdown 20230731/p/pip2spack/1.4.1-2.0.0a0/diff.md --exclude *.pyd
+[2023-07-31 13:50:53] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/4a/2c/f79f167002add83021b4f5585441111feaca6585f043bc72b038b327ceb9/st_track_viewer-0.0.2.tar.gz
+[2023-07-31 13:50:53] INFO root fetch - processPackages [st-track-viewer]: executing diffoscope
+[2023-07-31 13:50:53] INFO root fetch - processPackages [st-track-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_track_viewer-0.0.1-py3-none-any.whl.zip tmp/st_track_viewer-0.0.2.tar.gz --markdown 20230731/s/st-track-viewer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 13:50:53] INFO root fetch - processPackages [tortoise-api-model]: Remove: archive file [/home/abi/fetcher/tmp/tortoise_api_model-0.0.7.tar.gz]
+[2023-07-31 13:50:53] INFO root fetch - processPackages [tortoise-api-model]: Remove: archive file [/home/abi/fetcher/tmp/tortoise_api_model-0.1.0.tar.gz]
+[2023-07-31 13:50:53] INFO root fetch - main [MainThread]: End processing [tortoise-api-model]: success
+[2023-07-31 13:50:53] INFO root fetch - processPackages [midify]: Remove: archive file [/home/abi/fetcher/tmp/midify-0.3.1.tar.gz]
+[2023-07-31 13:50:53] INFO root fetch - processPackages [midify]: Remove: archive file [/home/abi/fetcher/tmp/midify-0.3.2.tar.gz]
+[2023-07-31 13:50:53] INFO root fetch - main [MainThread]: End processing [midify]: success
+[2023-07-31 13:50:54] INFO root fetch - processPackages [config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/config-server-client-0.0.1.tar.gz]
+[2023-07-31 13:50:54] INFO root fetch - processPackages [config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/config-server-client-0.0.2.tar.gz]
+[2023-07-31 13:50:54] INFO root fetch - main [MainThread]: End processing [config-server-client]: success
+[2023-07-31 13:50:54] INFO root fetch - main [MainThread]: End processing [config-server-client]: success
+[2023-07-31 13:50:54] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-2.2.1.tar.gz]
+[2023-07-31 13:50:54] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-2.2.2.tar.gz]
+[2023-07-31 13:50:54] INFO root fetch - main [MainThread]: End processing [decentralizedroutines]: success
+[2023-07-31 13:50:54] INFO root fetch - processPackages [keboola.json-to-csv]: Remove: archive file [/home/abi/fetcher/tmp/keboola.json-to-csv-0.0.2.tar.gz]
+[2023-07-31 13:50:54] INFO root fetch - processPackages [keboola.json-to-csv]: Remove: archive file [/home/abi/fetcher/tmp/keboola.json-to-csv-0.0.4.tar.gz]
+[2023-07-31 13:50:54] INFO root fetch - main [MainThread]: End processing [keboola.json-to-csv]: success
+[2023-07-31 13:50:54] INFO root fetch - processPackages [pip2spack]: Remove: archive file [/home/abi/fetcher/tmp/pip2spack-1.4.1.tar.gz]
+[2023-07-31 13:50:54] INFO root fetch - processPackages [pip2spack]: Remove: archive file [/home/abi/fetcher/tmp/pip2spack-2.0.0a0.tar.gz]
+[2023-07-31 13:50:54] INFO root fetch - main [MainThread]: End processing [pip2spack]: success
+[2023-07-31 13:50:54] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.812.tar.gz]
+[2023-07-31 13:50:54] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.813.tar.gz]
+[2023-07-31 13:50:54] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk-preview]: success
+[2023-07-31 13:50:55] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.1-py3-none-any.whl.zip]
+[2023-07-31 13:50:55] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.2.tar.gz]
+[2023-07-31 13:50:55] INFO root fetch - main [MainThread]: End processing [st-track-viewer]: success
+[2023-07-31 13:50:55] INFO root fetch - main [MainThread]: Store serial: [19106956]
