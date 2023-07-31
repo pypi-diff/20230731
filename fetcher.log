@@ -5955,3 +5955,51 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 05:04:22] INFO root fetch - processPackages [soursop]: Remove: archive file [/home/abi/fetcher/tmp/soursop-0.2.4.tar.gz]
 [2023-07-31 05:04:22] INFO root fetch - main [MainThread]: End processing [soursop]: success
 [2023-07-31 05:04:22] INFO root fetch - main [MainThread]: Store serial: [19102112]
+[2023-07-31 05:09:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102112]
+[2023-07-31 05:09:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-31 05:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flojoy
+[2023-07-31 05:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazyinit
+[2023-07-31 05:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lego-image-converter
+[2023-07-31 05:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xklb
+[2023-07-31 05:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: michaelPanExpediteLib
+[2023-07-31 05:09:31] INFO root fetch - processPackages [lego-image-converter]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 05:09:31] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-31 05:09:31] INFO root fetch - processPackages [lazyinit]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-07-31 05:09:31] INFO root fetch - processPackages [michaelPanExpediteLib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 05:09:31] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-07-31 05:09:31] INFO root fetch - processPackages [lego-image-converter]: Downloading https://files.pythonhosted.org/packages/5d/8a/2fde73c90c3818d5420fd7d0b8bf3b8df570bfd016fe623d38e356b46010/lego_image_converter-0.1.0.tar.gz
+[2023-07-31 05:09:31] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/f7/34/453e4cd7e7d896d26db808bf72cc7793396567277851f9d0846e77b95099/lazyinit-0.0.31.tar.gz
+[2023-07-31 05:09:31] INFO root fetch - processPackages [michaelPanExpediteLib]: Downloading https://files.pythonhosted.org/packages/1b/c7/d246d609b154cf7863443a21475339993827e0f509e244c1286620362088/michaelPanExpediteLib-0.0.1.tar.gz
+[2023-07-31 05:09:31] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/58/4a/411ed49c4c426bcb70e5ad46561890a01ad521164c31dc1a485ce164a90b/flojoy-0.2.2.dev8.tar.gz
+[2023-07-31 05:09:31] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-31 05:09:31] INFO root fetch - processPackages [lego-image-converter]: Downloading https://files.pythonhosted.org/packages/a5/82/a715cb7546475a2c9f304ff26cde119ac6cded5233c8bc3cb0eeec4ee5dd/lego_image_converter-0.1.1.tar.gz
+[2023-07-31 05:09:31] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/0e/95/3921fcb644e5079ca01f8426c45f5389e2cfe7a08703e3163a58acd9f587/lazyinit-0.0.32.tar.gz
+[2023-07-31 05:09:31] INFO root fetch - processPackages [michaelPanExpediteLib]: Downloading https://files.pythonhosted.org/packages/c3/ce/d6a6e3f3aac36c73c482d0bcbb07469d4c7167516d5be72b7336e00096cd/michaelPanExpediteLib-0.0.2.tar.gz
+[2023-07-31 05:09:32] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/bc/c3/8f34f775e6b17119e5ed320a7df64187257c3d699a70476e77c210160e7f/flojoy-0.2.2.dev9.tar.gz
+[2023-07-31 05:09:32] INFO root fetch - processPackages [lego-image-converter]: executing diffoscope
+[2023-07-31 05:09:32] INFO root fetch - processPackages [lego-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lego_image_converter-0.1.0.tar.gz tmp/lego_image_converter-0.1.1.tar.gz --markdown 20230731/l/lego-image-converter/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 05:09:32] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-31 05:09:32] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.31.tar.gz tmp/lazyinit-0.0.32.tar.gz --markdown 20230731/l/lazyinit/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-07-31 05:09:32] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-07-31 05:09:32] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230731/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-07-31 05:09:32] INFO root fetch - processPackages [michaelPanExpediteLib]: executing diffoscope
+[2023-07-31 05:09:32] INFO root fetch - processPackages [michaelPanExpediteLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/michaelPanExpediteLib-0.0.1.tar.gz tmp/michaelPanExpediteLib-0.0.2.tar.gz --markdown 20230731/m/michaelPanExpediteLib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 05:09:32] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-31 05:09:32] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-31 05:09:32] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230731/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-31 05:09:32] INFO root fetch - processPackages [lego-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/lego_image_converter-0.1.0.tar.gz]
+[2023-07-31 05:09:32] INFO root fetch - processPackages [lego-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/lego_image_converter-0.1.1.tar.gz]
+[2023-07-31 05:09:32] INFO root fetch - main [MainThread]: End processing [lego-image-converter]: success
+[2023-07-31 05:09:33] INFO root fetch - processPackages [michaelPanExpediteLib]: Remove: archive file [/home/abi/fetcher/tmp/michaelPanExpediteLib-0.0.1.tar.gz]
+[2023-07-31 05:09:33] INFO root fetch - processPackages [michaelPanExpediteLib]: Remove: archive file [/home/abi/fetcher/tmp/michaelPanExpediteLib-0.0.2.tar.gz]
+[2023-07-31 05:09:33] INFO root fetch - main [MainThread]: End processing [michaelPanExpediteLib]: success
+[2023-07-31 05:09:33] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev8.tar.gz]
+[2023-07-31 05:09:33] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev9.tar.gz]
+[2023-07-31 05:09:33] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-07-31 05:09:33] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.31.tar.gz]
+[2023-07-31 05:09:33] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.32.tar.gz]
+[2023-07-31 05:09:33] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-31 05:09:33] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-31 05:09:33] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-31 05:09:33] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-31 05:09:33] INFO root fetch - main [MainThread]: Store serial: [19102125]
