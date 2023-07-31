@@ -8571,3 +8571,81 @@ AssertionError: tmp/llamac2py-0.1.3.tar.gz does not exist
 [2023-07-31 08:22:30] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230731.tar.gz]
 [2023-07-31 08:22:30] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-07-31 08:22:30] INFO root fetch - main [MainThread]: Store serial: [19103385]
+[2023-07-31 08:27:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19103385]
+[2023-07-31 08:27:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-31 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-gui
+[2023-07-31 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: termynal
+[2023-07-31 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tzrpc
+[2023-07-31 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hezar
+[2023-07-31 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: binswap
+[2023-07-31 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nastranio
+[2023-07-31 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fake-bpy-module-latest
+[2023-07-31 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-31 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: magnetocaloric
+[2023-07-31 08:27:40] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.53.92] Old Version: [0.0.53.91]
+[2023-07-31 08:27:40] INFO root fetch - processPackages [termynal]: New version: [0.7.0a1] Old Version: [0.7.0a0]
+[2023-07-31 08:27:40] INFO root fetch - processPackages [magnetocaloric]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-31 08:27:40] INFO root fetch - processPackages [nastranio]: New version: [0.14.2] Old Version: [0.14.1]
+[2023-07-31 08:27:40] INFO root fetch - processPackages [binswap]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-31 08:27:40] WARNING root fetch - processPackages [tzrpc]: Skipping, unable to determine old version
+[2023-07-31 08:27:40] INFO root fetch - main [MainThread]: End processing [tzrpc] error
+[2023-07-31 08:27:40] INFO root fetch - processPackages [hezar]: New version: [0.18.1] Old Version: [0.18.0]
+[2023-07-31 08:27:40] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230731] Old Version: [20230730]
+[2023-07-31 08:27:40] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-31 08:27:40] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/23/89/2e5b19b6531df461c2f77d604be7a51b38030a71493546f7fd559d59284e/fake-bpy-module-latest-20230730.tar.gz
+[2023-07-31 08:27:40] INFO root fetch - processPackages [termynal]: Downloading https://files.pythonhosted.org/packages/7b/23/c0e7492d0b1bd160cdb63723e891b5abb413c9daedde274b0e05b8c9c52f/termynal-0.7.0a0.tar.gz
+[2023-07-31 08:27:40] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/b1/58/43192b3f0aca9509393242936953965103a82f0d445cea650f6ac73f1b76/hezar-0.18.0.tar.gz
+[2023-07-31 08:27:40] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/57/22/61cf4cc79cb50c0220a4fe2af28ac4a20696e41cd1333b68ce5747fd1b6b/abstract_gui-0.0.53.91.tar.gz
+[2023-07-31 08:27:40] INFO root fetch - processPackages [magnetocaloric]: Downloading https://files.pythonhosted.org/packages/0e/e8/e7bd50daf3b8cad99ee2585c1ae2f53c95af9ce16527fdcc9c2af8faf674/magnetocaloric-1.2.0.tar.gz
+[2023-07-31 08:27:40] INFO root fetch - processPackages [nastranio]: Downloading https://files.pythonhosted.org/packages/a4/09/e53c522c139524381860ee34e9b44f1972af5de87623a277f30f323ef27a/nastranio-0.14.1.tar.gz
+[2023-07-31 08:27:40] INFO root fetch - processPackages [binswap]: Downloading https://files.pythonhosted.org/packages/36/c7/18dfabff8ea42dba560c764f9478b7f17605d6bc71ea7d6219447a2bd69f/binswap-0.1.1.tar.gz
+[2023-07-31 08:27:40] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-31 08:27:40] INFO root fetch - processPackages [termynal]: Downloading https://files.pythonhosted.org/packages/4e/2f/6f0587c1baf436fbc0ca3e64c0310a69d05c814b2a2bf0644e411ade2069/termynal-0.7.0a1.tar.gz
+[2023-07-31 08:27:40] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/fd/c5/0dfde4ebaf0cc933c1dc0e1522dd6dde2fdb9b0f70a576394ccc0618b199/abstract_gui-0.0.53.92.tar.gz
+[2023-07-31 08:27:40] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/d5/3c/5d0d4ff0be07bde0d6b4e2c56d10e2a695e08295398ba8ba72388d740d47/hezar-0.18.1.tar.gz
+[2023-07-31 08:27:41] INFO root fetch - processPackages [binswap]: Downloading https://files.pythonhosted.org/packages/27/6c/557927aa736d744c2964f3edfb6aa4d96944e7ee6c76a7e68f103012260f/binswap-0.2.0.tar.gz
+[2023-07-31 08:27:41] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/13/96/f1968e0a9dd09109ea0f3875d048d1c849aaddce3acbb14dd89518621509/fake-bpy-module-latest-20230731.tar.gz
+[2023-07-31 08:27:41] INFO root fetch - processPackages [magnetocaloric]: Downloading https://files.pythonhosted.org/packages/2c/98/3ee1214903d3e6daa90af7052069e9d682430d7a87ffbbacc2a634388b7c/magnetocaloric-1.2.1.tar.gz
+[2023-07-31 08:27:41] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 08:27:41] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.53.91.tar.gz tmp/abstract_gui-0.0.53.92.tar.gz --markdown 20230731/a/abstract-gui/0.0.53.91-0.0.53.92/diff.md --exclude *.pyd
+[2023-07-31 08:27:41] INFO root fetch - processPackages [termynal]: executing diffoscope
+[2023-07-31 08:27:41] INFO root fetch - processPackages [termynal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termynal-0.7.0a0.tar.gz tmp/termynal-0.7.0a1.tar.gz --markdown 20230731/t/termynal/0.7.0a0-0.7.0a1/diff.md --exclude *.pyd
+[2023-07-31 08:27:41] INFO root fetch - processPackages [nastranio]: Downloading https://files.pythonhosted.org/packages/cf/59/ea8a5aeca0d08fae19cbeb54efb5e6233844a14d198f92a9b928e51ed572/nastranio-0.14.2.tar.gz
+[2023-07-31 08:27:41] INFO root fetch - processPackages [binswap]: executing diffoscope
+[2023-07-31 08:27:41] INFO root fetch - processPackages [binswap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binswap-0.1.1.tar.gz tmp/binswap-0.2.0.tar.gz --markdown 20230731/b/binswap/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-31 08:27:41] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-07-31 08:27:41] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.18.0.tar.gz tmp/hezar-0.18.1.tar.gz --markdown 20230731/h/hezar/0.18.0-0.18.1/diff.md --exclude *.pyd
+[2023-07-31 08:27:41] INFO root fetch - processPackages [magnetocaloric]: executing diffoscope
+[2023-07-31 08:27:41] INFO root fetch - processPackages [magnetocaloric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnetocaloric-1.2.0.tar.gz tmp/magnetocaloric-1.2.1.tar.gz --markdown 20230731/m/magnetocaloric/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-31 08:27:41] INFO root fetch - processPackages [nastranio]: executing diffoscope
+[2023-07-31 08:27:41] INFO root fetch - processPackages [nastranio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nastranio-0.14.1.tar.gz tmp/nastranio-0.14.2.tar.gz --markdown 20230731/n/nastranio/0.14.1-0.14.2/diff.md --exclude *.pyd
+[2023-07-31 08:27:41] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-31 08:27:41] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230730.tar.gz tmp/fake-bpy-module-latest-20230731.tar.gz --markdown 20230731/f/fake-bpy-module-latest/20230730-20230731/diff.md --exclude *.pyd
+[2023-07-31 08:27:42] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-31 08:27:42] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.91.tar.gz]
+[2023-07-31 08:27:42] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.92.tar.gz]
+[2023-07-31 08:27:42] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 08:27:42] INFO root fetch - processPackages [termynal]: Remove: archive file [/home/abi/fetcher/tmp/termynal-0.7.0a0.tar.gz]
+[2023-07-31 08:27:42] INFO root fetch - processPackages [termynal]: Remove: archive file [/home/abi/fetcher/tmp/termynal-0.7.0a1.tar.gz]
+[2023-07-31 08:27:42] INFO root fetch - main [MainThread]: End processing [termynal]: success
+[2023-07-31 08:27:42] INFO root fetch - processPackages [binswap]: Remove: archive file [/home/abi/fetcher/tmp/binswap-0.1.1.tar.gz]
+[2023-07-31 08:27:42] INFO root fetch - processPackages [binswap]: Remove: archive file [/home/abi/fetcher/tmp/binswap-0.2.0.tar.gz]
+[2023-07-31 08:27:42] INFO root fetch - main [MainThread]: End processing [binswap]: success
+[2023-07-31 08:27:42] INFO root fetch - processPackages [magnetocaloric]: Remove: archive file [/home/abi/fetcher/tmp/magnetocaloric-1.2.0.tar.gz]
+[2023-07-31 08:27:42] INFO root fetch - processPackages [magnetocaloric]: Remove: archive file [/home/abi/fetcher/tmp/magnetocaloric-1.2.1.tar.gz]
+[2023-07-31 08:27:42] INFO root fetch - main [MainThread]: End processing [magnetocaloric]: success
+[2023-07-31 08:27:42] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.18.0.tar.gz]
+[2023-07-31 08:27:42] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.18.1.tar.gz]
+[2023-07-31 08:27:42] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-07-31 08:27:43] INFO root fetch - processPackages [nastranio]: Remove: archive file [/home/abi/fetcher/tmp/nastranio-0.14.1.tar.gz]
+[2023-07-31 08:27:43] INFO root fetch - processPackages [nastranio]: Remove: archive file [/home/abi/fetcher/tmp/nastranio-0.14.2.tar.gz]
+[2023-07-31 08:27:43] INFO root fetch - main [MainThread]: End processing [nastranio]: success
+[2023-07-31 08:27:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-31 08:27:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230731/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 08:27:44] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-31 08:27:44] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-31 08:27:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-31 08:27:45] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230730.tar.gz]
+[2023-07-31 08:27:45] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230731.tar.gz]
+[2023-07-31 08:27:45] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-31 08:27:45] INFO root fetch - main [MainThread]: Store serial: [19103415]
