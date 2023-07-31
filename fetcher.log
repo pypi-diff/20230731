@@ -18691,3 +18691,251 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 14:43:58] INFO root fetch - processPackages [modelscope]: Remove: archive file [/home/abi/fetcher/tmp/modelscope-1.8.0rc0.tar.gz]
 [2023-07-31 14:43:58] INFO root fetch - main [MainThread]: End processing [modelscope]: success
 [2023-07-31 14:43:58] INFO root fetch - main [MainThread]: Store serial: [19107422]
+[2023-07-31 14:49:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19107422]
+[2023-07-31 14:49:08] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-31 14:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spectacularAI
+[2023-07-31 14:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorcircuit-nightly
+[2023-07-31 14:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mrfix
+[2023-07-31 14:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dve-lumipy-preview
+[2023-07-31 14:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maud-metabolic-models
+[2023-07-31 14:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ul-py-tool
+[2023-07-31 14:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dinghy
+[2023-07-31 14:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: document-merge-service
+[2023-07-31 14:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyOfficeRobot
+[2023-07-31 14:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wagtail-rangefilter
+[2023-07-31 14:49:08] INFO root fetch - processPackages [ul-py-tool]: New version: [1.15.26] Old Version: [1.15.25]
+[2023-07-31 14:49:08] INFO root fetch - processPackages [maud-metabolic-models]: New version: [0.6.0.1] Old Version: [0.6.0.0]
+[2023-07-31 14:49:08] INFO root fetch - processPackages [mrfix]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-31 14:49:08] INFO root fetch - processPackages [document-merge-service]: New version: [6.3.1] Old Version: [6.3.0]
+[2023-07-31 14:49:08] INFO root fetch - processPackages [dinghy]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-31 14:49:08] INFO root fetch - processPackages [wagtail-rangefilter]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-31 14:49:08] INFO root fetch - processPackages [PyOfficeRobot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 14:49:08] INFO root fetch - processPackages [spectacularAI]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-31 14:49:08] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-31 14:49:08] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-07-31 14:49:08] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/ee/5c/a8702b007455dd35fad942b491fc897a84c6b8bf2f28a4a8dcb776547c6b/ul-py-tool-1.15.25.tar.gz
+[2023-07-31 14:49:08] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/53/1b/b95ae9f1ee0d70add76cdadfbc66a40e9a2c285b2ea88f903954b90ef30e/dve_lumipy_preview-0.1.98-py3-none-any.whl
+[2023-07-31 14:49:08] INFO root fetch - processPackages [maud-metabolic-models]: Downloading https://files.pythonhosted.org/packages/31/e2/ed831c22915c3932e3c54e564cf48e2a685596a407fae5c504d3f36646a2/maud-metabolic-models-0.6.0.0.tar.gz
+[2023-07-31 14:49:08] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/6a/01/dc2bf256ab02a7cd4b02600fc04b49d58f942a708d4fab8f002440444502/mrfix-2.0.8.tar.gz
+[2023-07-31 14:49:08] INFO root fetch - processPackages [spectacularAI]: Downloading https://files.pythonhosted.org/packages/07/34/c7075d79600a0fd2ad101fcb775ecf2d865ccddfd6ad278ca54351cc9e74/spectacularAI-1.8.0-cp39-cp39-win_amd64.whl
+[2023-07-31 14:49:08] INFO root fetch - processPackages [dinghy]: Downloading https://files.pythonhosted.org/packages/82/e7/93bff4d5e1657762e34b526c3f8fc29074c4253e184d1dc7f1fd1f5dd842/dinghy-1.2.0.tar.gz
+[2023-07-31 14:49:08] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-07-31 14:49:08] INFO root fetch - processPackages [wagtail-rangefilter]: Downloading https://files.pythonhosted.org/packages/f7/e9/e69b3d0d736e8e549f07513a687f62de615c61ea214c497fd2d2e1808aca/wagtail-rangefilter-0.1.1.tar.gz
+[2023-07-31 14:49:08] INFO root fetch - processPackages [PyOfficeRobot]: Downloading https://files.pythonhosted.org/packages/0b/13/410b2ac69578d9cf898d862d5e3198062ef71c452c1f8f3456648518b9a1/PyOfficeRobot-0.1.8.tar.gz
+[2023-07-31 14:49:08] INFO root fetch - processPackages [document-merge-service]: Downloading https://files.pythonhosted.org/packages/17/a4/3d9983dc93d31f64556b80a2c34282a7bef2651008d8d853504987a0dfa3/document_merge_service-6.3.0.tar.gz
+[2023-07-31 14:49:09] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/b7/93/c655e84564d750d5209b3b4361cb10847e21c4d2a9170bd573d0e82638fd/ul-py-tool-1.15.26.tar.gz
+[2023-07-31 14:49:09] INFO root fetch - processPackages [ul-py-tool]: executing diffoscope
+[2023-07-31 14:49:09] INFO root fetch - processPackages [ul-py-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-py-tool-1.15.25.tar.gz tmp/ul-py-tool-1.15.26.tar.gz --markdown 20230731/u/ul-py-tool/1.15.25-1.15.26/diff.md --exclude *.pyd
+[2023-07-31 14:49:09] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/3e/79/4e5e14a533ef4877c17c99900bbdc73daee3c1499e43275f026447166ab0/dve_lumipy_preview-0.1.99-py3-none-any.whl
+[2023-07-31 14:49:09] INFO root fetch - processPackages [maud-metabolic-models]: Downloading https://files.pythonhosted.org/packages/d9/a4/cb8d61ae60f475c67035c4d9629d6ab876f703e298e799311665a98f08ef/maud-metabolic-models-0.6.0.1.tar.gz
+[2023-07-31 14:49:09] INFO root fetch - processPackages [dinghy]: Downloading https://files.pythonhosted.org/packages/54/71/59e4f5cfc8bdd987fb1197963452cd93a24d6b03066de108aa5aaacbb8a4/dinghy-1.3.0.tar.gz
+[2023-07-31 14:49:09] INFO root fetch - processPackages [PyOfficeRobot]: Downloading https://files.pythonhosted.org/packages/ea/6d/48e5222c0bebc1d0046c5baff5f51cc8516155ee4b4e0da044c2fed153d9/PyOfficeRobot-0.1.9.tar.gz
+[2023-07-31 14:49:09] INFO root fetch - processPackages [wagtail-rangefilter]: Downloading https://files.pythonhosted.org/packages/1f/1c/5b5408a3af9adc78b1f1ec342a08574884410b9cf9443699a7c846bb7828/wagtail-rangefilter-0.2.0.tar.gz
+[2023-07-31 14:49:09] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-07-31 14:49:09] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/2a/70/06f3ca5535ef3bdefca25df75a107407176d4ec4d24f61edff8e85574d48/mrfix-2.0.9.tar.gz
+[2023-07-31 14:49:09] INFO root fetch - processPackages [document-merge-service]: Downloading https://files.pythonhosted.org/packages/ce/51/1ddd39bc4c93602ca448eb1d3af7462e0ef56e7b3b722440d0029110890e/document_merge_service-6.3.1.tar.gz
+[2023-07-31 14:49:09] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-07-31 14:49:09] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230731/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-31 14:49:09] INFO root fetch - processPackages [maud-metabolic-models]: executing diffoscope
+[2023-07-31 14:49:09] INFO root fetch - processPackages [maud-metabolic-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maud-metabolic-models-0.6.0.0.tar.gz tmp/maud-metabolic-models-0.6.0.1.tar.gz --markdown 20230731/m/maud-metabolic-models/0.6.0.0-0.6.0.1/diff.md --exclude *.pyd
+[2023-07-31 14:49:09] INFO root fetch - processPackages [dinghy]: executing diffoscope
+[2023-07-31 14:49:09] INFO root fetch - processPackages [dinghy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinghy-1.2.0.tar.gz tmp/dinghy-1.3.0.tar.gz --markdown 20230731/d/dinghy/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-31 14:49:09] INFO root fetch - processPackages [wagtail-rangefilter]: executing diffoscope
+[2023-07-31 14:49:09] INFO root fetch - processPackages [wagtail-rangefilter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-rangefilter-0.1.1.tar.gz tmp/wagtail-rangefilter-0.2.0.tar.gz --markdown 20230731/w/wagtail-rangefilter/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-31 14:49:09] INFO root fetch - processPackages [PyOfficeRobot]: executing diffoscope
+[2023-07-31 14:49:09] INFO root fetch - processPackages [PyOfficeRobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyOfficeRobot-0.1.8.tar.gz tmp/PyOfficeRobot-0.1.9.tar.gz --markdown 20230731/P/PyOfficeRobot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 14:49:09] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2023-07-31 14:49:09] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-2.0.8.tar.gz tmp/mrfix-2.0.9.tar.gz --markdown 20230731/m/mrfix/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-31 14:49:09] INFO root fetch - processPackages [document-merge-service]: executing diffoscope
+[2023-07-31 14:49:09] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-07-31 14:49:09] INFO root fetch - processPackages [document-merge-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/document_merge_service-6.3.0.tar.gz tmp/document_merge_service-6.3.1.tar.gz --markdown 20230731/d/document-merge-service/6.3.0-6.3.1/diff.md --exclude *.pyd
+[2023-07-31 14:49:09] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230731/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-07-31 14:49:10] INFO root fetch - processPackages [spectacularAI]: Downloading https://files.pythonhosted.org/packages/59/13/838f1080972e69faa65654d7a73522bc0b85755f60983a4088f2a8032ef4/spectacularAI-1.9.0-cp39-cp39-win_amd64.whl
+[2023-07-31 14:49:10] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.25.tar.gz]
+[2023-07-31 14:49:10] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.26.tar.gz]
+[2023-07-31 14:49:10] INFO root fetch - processPackages [ul-py-tool]: Start processing: catalystai
+[2023-07-31 14:49:10] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
+[2023-07-31 14:49:10] WARNING root fetch - processPackages [catalystai]: Skipping, unable to determine old version
+[2023-07-31 14:49:10] INFO root fetch - processPackages [catalystai]: Start processing: mrfix
+[2023-07-31 14:49:10] INFO root fetch - main [MainThread]: End processing [catalystai] error
+[2023-07-31 14:49:10] INFO root fetch - processPackages [mrfix]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-31 14:49:10] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2023-07-31 14:49:10] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-2.0.8.tar.gz tmp/mrfix-2.0.9.tar.gz --markdown 20230731/m/mrfix/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-31 14:49:11] INFO root fetch - processPackages [wagtail-rangefilter]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-rangefilter-0.1.1.tar.gz]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [wagtail-rangefilter]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-rangefilter-0.2.0.tar.gz]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [wagtail-rangefilter]: Start processing: aunly-bbot
+[2023-07-31 14:49:11] INFO root fetch - main [MainThread]: End processing [wagtail-rangefilter]: success
+[2023-07-31 14:49:11] INFO root fetch - processPackages [aunly-bbot]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.8.tar.gz]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.9.tar.gz]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [mrfix]: Start processing: vitessce
+[2023-07-31 14:49:11] INFO root fetch - main [MainThread]: End processing [mrfix]: success
+[2023-07-31 14:49:11] INFO root fetch - processPackages [dinghy]: Remove: archive file [/home/abi/fetcher/tmp/dinghy-1.2.0.tar.gz]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [dinghy]: Remove: archive file [/home/abi/fetcher/tmp/dinghy-1.3.0.tar.gz]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [dinghy]: Start processing: edc-auth
+[2023-07-31 14:49:11] INFO root fetch - main [MainThread]: End processing [dinghy]: success
+[2023-07-31 14:49:11] INFO root fetch - processPackages [maud-metabolic-models]: Remove: archive file [/home/abi/fetcher/tmp/maud-metabolic-models-0.6.0.0.tar.gz]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [maud-metabolic-models]: Remove: archive file [/home/abi/fetcher/tmp/maud-metabolic-models-0.6.0.1.tar.gz]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [maud-metabolic-models]: Start processing: dash-extensions
+[2023-07-31 14:49:11] INFO root fetch - main [MainThread]: End processing [maud-metabolic-models]: success
+[2023-07-31 14:49:11] INFO root fetch - processPackages [vitessce]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [aunly-bbot]: Downloading https://files.pythonhosted.org/packages/65/3e/498608d50b807370de604204b92540cfca0fc0984e2dbb3d2d37821c3120/aunly-bbot-1.5.1.tar.gz
+[2023-07-31 14:49:11] INFO root fetch - processPackages [edc-auth]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [document-merge-service]: Remove: archive file [/home/abi/fetcher/tmp/document_merge_service-6.3.0.tar.gz]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [PyOfficeRobot]: Remove: archive file [/home/abi/fetcher/tmp/PyOfficeRobot-0.1.8.tar.gz]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [PyOfficeRobot]: Remove: archive file [/home/abi/fetcher/tmp/PyOfficeRobot-0.1.9.tar.gz]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [document-merge-service]: Remove: archive file [/home/abi/fetcher/tmp/document_merge_service-6.3.1.tar.gz]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [PyOfficeRobot]: Start processing: shareddata
+[2023-07-31 14:49:11] INFO root fetch - main [MainThread]: End processing [PyOfficeRobot]: success
+[2023-07-31 14:49:11] INFO root fetch - processPackages [document-merge-service]: Start processing: cs2star
+[2023-07-31 14:49:11] INFO root fetch - main [MainThread]: End processing [document-merge-service]: success
+[2023-07-31 14:49:11] INFO root fetch - processPackages [dash-extensions]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-31 14:49:11] ERROR root fetch - processPackages [mrfix]: Diffoscope failed: time="2023-07-31T14:49:11+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/mrfix-2.0.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/mrfix-2.0.9.tar.gz: No such file or directory
+
+[2023-07-31 14:49:11] INFO root fetch - main [MainThread]: End processing [mrfix] error
+[2023-07-31 14:49:11] INFO root fetch - processPackages [shareddata]: New version: [2.2.3] Old Version: [2.2.0]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip]
+[2023-07-31 14:49:11] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-07-31 14:49:11] INFO root fetch - processPackages [vitessce]: Downloading https://files.pythonhosted.org/packages/dd/1a/f45a1b923f0c58c359b4f069d035070755f4ad11f12acf56a16f5819a94d/vitessce-3.0.5.tar.gz
+[2023-07-31 14:49:11] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/af/79/8bcd684f12f1ae3b0a7eb1d46004cb1d5005a69c3b164578a16dc6179424/shareddata-2.2.0.tar.gz
+[2023-07-31 14:49:11] INFO root fetch - processPackages [cs2star]: New version: [0.6.0] Old Version: [0.5.5]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [edc-auth]: Downloading https://files.pythonhosted.org/packages/c4/50/dda687f1b63b07640e69d4d9bff6d375bae86f1c4b27b5046c322ede21cf/edc_auth-0.3.8-py2.py3-none-any.whl
+[2023-07-31 14:49:11] INFO root fetch - processPackages [dash-extensions]: Downloading https://files.pythonhosted.org/packages/a5/da/7a207b3ff2edd0fcf48e8db3174461e7d7659b597f7c87539d5746de5ac0/dash_extensions-1.0.1.tar.gz
+[2023-07-31 14:49:11] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-07-31 14:49:11] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-07-31 14:49:11] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-07-31 14:49:11] INFO root fetch - processPackages [aunly-bbot]: Downloading https://files.pythonhosted.org/packages/d3/07/ccf3c2e9318ff9139163e5a3600dca628ffb90b83876ca11e57171cba8c1/aunly-bbot-1.6.0.tar.gz
+[2023-07-31 14:49:11] INFO root fetch - processPackages [cs2star]: Downloading https://files.pythonhosted.org/packages/50/21/99a00d1799cc87a89bae7934b5fdf9e0124409249fb20c1b8daf836a47b9/cs2star-0.5.5.tar.gz
+[2023-07-31 14:49:11] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/0a/f0/a523318f7cd86d90ed6249c41c3c6a0284e422705b6888ed869953db58ae/shareddata-2.2.3.tar.gz
+[2023-07-31 14:49:12] INFO root fetch - processPackages [aunly-bbot]: executing diffoscope
+[2023-07-31 14:49:12] INFO root fetch - processPackages [aunly-bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aunly-bbot-1.5.1.tar.gz tmp/aunly-bbot-1.6.0.tar.gz --markdown 20230731/a/aunly-bbot/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-07-31 14:49:12] INFO root fetch - processPackages [vitessce]: Downloading https://files.pythonhosted.org/packages/9c/6f/1fad6f5026ddab2c1aa480481e47464b92d3a619b817b034557309809d0b/vitessce-3.0.6.tar.gz
+[2023-07-31 14:49:12] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-07-31 14:49:12] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.2.0.tar.gz tmp/shareddata-2.2.3.tar.gz --markdown 20230731/s/shareddata/2.2.0-2.2.3/diff.md --exclude *.pyd
+[2023-07-31 14:49:12] INFO root fetch - processPackages [vitessce]: executing diffoscope
+[2023-07-31 14:49:12] INFO root fetch - processPackages [vitessce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vitessce-3.0.5.tar.gz tmp/vitessce-3.0.6.tar.gz --markdown 20230731/v/vitessce/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-07-31 14:49:12] INFO root fetch - processPackages [spectacularAI]: executing diffoscope
+[2023-07-31 14:49:12] INFO root fetch - processPackages [spectacularAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectacularAI-1.8.0-cp39-cp39-win_amd64.whl.zip tmp/spectacularAI-1.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20230731/s/spectacularAI/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-31 14:49:12] INFO root fetch - processPackages [edc-auth]: Downloading https://files.pythonhosted.org/packages/63/36/404b92dd95bce03bc0fafd2cf5a0f3e72bc2176ca44f89ee75c57f685864/edc_auth-0.3.9-py2.py3-none-any.whl
+[2023-07-31 14:49:12] INFO root fetch - processPackages [dash-extensions]: Downloading https://files.pythonhosted.org/packages/64/ce/664f24a4ef2ddc39a484ae53537f4f48f604a86039089092e0a739afedc7/dash_extensions-1.0.2.tar.gz
+[2023-07-31 14:49:12] INFO root fetch - processPackages [cs2star]: Downloading https://files.pythonhosted.org/packages/22/1e/31469affae519984be9e69c3183279d72930af04ec685a8daf933441f97d/cs2star-0.6.0.tar.gz
+[2023-07-31 14:49:12] INFO root fetch - processPackages [dash-extensions]: executing diffoscope
+[2023-07-31 14:49:12] INFO root fetch - processPackages [dash-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_extensions-1.0.1.tar.gz tmp/dash_extensions-1.0.2.tar.gz --markdown 20230731/d/dash-extensions/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-31 14:49:12] INFO root fetch - processPackages [cs2star]: executing diffoscope
+[2023-07-31 14:49:12] INFO root fetch - processPackages [cs2star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2star-0.5.5.tar.gz tmp/cs2star-0.6.0.tar.gz --markdown 20230731/c/cs2star/0.5.5-0.6.0/diff.md --exclude *.pyd
+[2023-07-31 14:49:12] INFO root fetch - processPackages [edc-auth]: executing diffoscope
+[2023-07-31 14:49:12] INFO root fetch - processPackages [edc-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_auth-0.3.8-py2.py3-none-any.whl.zip tmp/edc_auth-0.3.9-py2.py3-none-any.whl.zip --markdown 20230731/e/edc-auth/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-31 14:49:13] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.2.0.tar.gz]
+[2023-07-31 14:49:13] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.2.3.tar.gz]
+[2023-07-31 14:49:13] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-07-31 14:49:13] INFO root fetch - processPackages [vitessce]: Remove: archive file [/home/abi/fetcher/tmp/vitessce-3.0.5.tar.gz]
+[2023-07-31 14:49:13] INFO root fetch - processPackages [vitessce]: Remove: archive file [/home/abi/fetcher/tmp/vitessce-3.0.6.tar.gz]
+[2023-07-31 14:49:13] INFO root fetch - main [MainThread]: End processing [vitessce]: success
+[2023-07-31 14:49:13] ERROR root fetch - processPackages [spectacularAI]: Diffoscope failed: time="2023-07-31T14:49:12+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140483414203744)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140483548421632)
+
+[2023-07-31 14:49:13] INFO root fetch - main [MainThread]: End processing [spectacularAI] error
+[2023-07-31 14:49:13] INFO root fetch - processPackages [cs2star]: Remove: archive file [/home/abi/fetcher/tmp/cs2star-0.5.5.tar.gz]
+[2023-07-31 14:49:13] INFO root fetch - processPackages [cs2star]: Remove: archive file [/home/abi/fetcher/tmp/cs2star-0.6.0.tar.gz]
+[2023-07-31 14:49:13] INFO root fetch - main [MainThread]: End processing [cs2star]: success
+[2023-07-31 14:49:13] INFO root fetch - processPackages [dash-extensions]: Remove: archive file [/home/abi/fetcher/tmp/dash_extensions-1.0.1.tar.gz]
+[2023-07-31 14:49:13] INFO root fetch - processPackages [dash-extensions]: Remove: archive file [/home/abi/fetcher/tmp/dash_extensions-1.0.2.tar.gz]
+[2023-07-31 14:49:13] INFO root fetch - main [MainThread]: End processing [dash-extensions]: success
+[2023-07-31 14:49:13] INFO root fetch - processPackages [aunly-bbot]: Remove: archive file [/home/abi/fetcher/tmp/aunly-bbot-1.5.1.tar.gz]
+[2023-07-31 14:49:13] INFO root fetch - processPackages [aunly-bbot]: Remove: archive file [/home/abi/fetcher/tmp/aunly-bbot-1.6.0.tar.gz]
+[2023-07-31 14:49:13] INFO root fetch - main [MainThread]: End processing [aunly-bbot]: success
+[2023-07-31 14:49:13] INFO root fetch - processPackages [edc-auth]: Remove: archive file [/home/abi/fetcher/tmp/edc_auth-0.3.8-py2.py3-none-any.whl.zip]
+[2023-07-31 14:49:13] INFO root fetch - processPackages [edc-auth]: Remove: archive file [/home/abi/fetcher/tmp/edc_auth-0.3.9-py2.py3-none-any.whl.zip]
+[2023-07-31 14:49:13] INFO root fetch - main [MainThread]: End processing [edc-auth]: success
+[2023-07-31 14:49:13] INFO root fetch - main [MainThread]: Store serial: [19107489]
