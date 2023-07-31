@@ -12052,3 +12052,137 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 10:58:44] INFO root fetch - processPackages [pymc]: Remove: archive file [/home/abi/fetcher/tmp/pymc-5.7.0.tar.gz]
 [2023-07-31 10:58:44] INFO root fetch - main [MainThread]: End processing [pymc]: success
 [2023-07-31 10:58:44] INFO root fetch - main [MainThread]: Store serial: [19104942]
+[2023-07-31 11:03:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19104942]
+[2023-07-31 11:03:53] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-31 11:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hapm
+[2023-07-31 11:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MuPhyN
+[2023-07-31 11:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volt-client-web
+[2023-07-31 11:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fitscube
+[2023-07-31 11:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pih
+[2023-07-31 11:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyobs-sbig
+[2023-07-31 11:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sysplant
+[2023-07-31 11:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flake8-django
+[2023-07-31 11:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: v2rayp
+[2023-07-31 11:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: napiod
+[2023-07-31 11:03:53] INFO root fetch - processPackages [hapm]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-31 11:03:53] INFO root fetch - processPackages [sysplant]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-31 11:03:53] INFO root fetch - processPackages [volt-client-web]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-31 11:03:53] INFO root fetch - processPackages [v2rayp]: New version: [0.7b5] Old Version: [0.7b4]
+[2023-07-31 11:03:53] INFO root fetch - processPackages [pyobs-sbig]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-31 11:03:53] INFO root fetch - processPackages [fitscube]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-07-31 11:03:53] INFO root fetch - processPackages [napiod]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-07-31 11:03:53] INFO root fetch - processPackages [MuPhyN]: New version: [0.1.1.post1] Old Version: [0.1.0.post8]
+[2023-07-31 11:03:53] INFO root fetch - processPackages [flake8-django]: New version: [1.4] Old Version: [1.3]
+[2023-07-31 11:03:53] INFO root fetch - processPackages [pih]: New version: [1.47206] Old Version: [1.47205]
+[2023-07-31 11:03:53] INFO root fetch - processPackages [sysplant]: Downloading https://files.pythonhosted.org/packages/c5/6d/83109aabd867f559dcd5576f4a49328fcea8c832f442b531d73063b19f7a/sysplant-0.2.1.tar.gz
+[2023-07-31 11:03:53] INFO root fetch - processPackages [fitscube]: Downloading https://files.pythonhosted.org/packages/eb/11/e1429b23f4a2bf8fb348cb8407a257b778c76ed18a5fd9bc566240a5e7c7/fitscube-0.2.2.tar.gz
+[2023-07-31 11:03:53] INFO root fetch - processPackages [v2rayp]: Downloading https://files.pythonhosted.org/packages/9e/9e/225994def83ad3c70ed42c0e804e803b22e8063f75d2ccd3256cbe4b0a26/v2rayp-0.7b4.tar.gz
+[2023-07-31 11:03:53] INFO root fetch - processPackages [hapm]: Downloading https://files.pythonhosted.org/packages/96/64/2d4158cd357897b5824a5bbf1c8ea067e18e1047e40ad90e91c417e5e624/hapm-0.0.4.tar.gz
+[2023-07-31 11:03:53] INFO root fetch - processPackages [flake8-django]: Downloading https://files.pythonhosted.org/packages/04/7a/8ed46ae0095a3b0e5f3628a95a969ace7c34e30a15c2120be435e0dfbf2a/flake8_django-1.3.tar.gz
+[2023-07-31 11:03:53] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/d9/84/aa957a869cf1006c1cbcce48531ec6c7d8a7bed152763a7022ef9c449c21/pih-1.47205.tar.gz
+[2023-07-31 11:03:53] INFO root fetch - processPackages [pyobs-sbig]: Downloading https://files.pythonhosted.org/packages/77/14/b9675df388cb8665d6205eab44321bfbc2fb35750c9afeb0ccd2f2bc3d9f/pyobs_sbig-1.0.4.tar.gz
+[2023-07-31 11:03:53] WARNING root fetch - processPackages [v2rayp]: Skipping package: exceeds size limit 65578852>=10485760
+[2023-07-31 11:03:53] INFO root fetch - processPackages [v2rayp]: Start processing: axabc
+[2023-07-31 11:03:53] INFO root fetch - main [MainThread]: End processing [v2rayp] error
+[2023-07-31 11:03:53] INFO root fetch - processPackages [volt-client-web]: Downloading https://files.pythonhosted.org/packages/24/84/479a65989471cd75aa9cfc40db4e07e8dd93d0f4e4c05604be8a15ad0754/volt_client_web-0.1.7.tar.gz
+[2023-07-31 11:03:53] INFO root fetch - processPackages [MuPhyN]: Downloading https://files.pythonhosted.org/packages/63/32/f1d0a67eac0c2a48cf4582309a681f8820d892b2fc99c5c77c308ccd9991/MuPhyN-0.1.0.post8.tar.gz
+[2023-07-31 11:03:54] INFO root fetch - processPackages [napiod]: Downloading https://files.pythonhosted.org/packages/6d/b0/3e2abdce6de01baa584a3cfcdb3e292296b7b55a75e1720ba5b5a9579eb0/napiod-0.1.1.tar.gz
+[2023-07-31 11:03:54] INFO root fetch - processPackages [axabc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 11:03:54] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/41/c5/b797e58b17775ec27f68316c932448dfa73c089804cd7a559dea828dcd85/axabc-0.0.8.tar.gz
+[2023-07-31 11:03:54] INFO root fetch - processPackages [fitscube]: Downloading https://files.pythonhosted.org/packages/34/26/c72db26c2ed110910f0a652f22ccaa595308693c99fcaee4fef9e70066f9/fitscube-0.3.0.tar.gz
+[2023-07-31 11:03:54] INFO root fetch - processPackages [sysplant]: Downloading https://files.pythonhosted.org/packages/70/26/b65b6a5a12a6c36254d4ab9a1bfaf9a46cc56f7201d38cc3f32758bbd634/sysplant-0.3.0.tar.gz
+[2023-07-31 11:03:54] INFO root fetch - processPackages [hapm]: Downloading https://files.pythonhosted.org/packages/9f/1f/1c977076d9cc233993acc5d8c7d5e486e77ed600fa83ea8fc81606a82353/hapm-0.0.5.tar.gz
+[2023-07-31 11:03:54] INFO root fetch - processPackages [flake8-django]: Downloading https://files.pythonhosted.org/packages/12/ae/53732f91619ff1130e7c13eb6572e2751dbe4a31c0f30ac4a9e7352c9050/flake8_django-1.4.tar.gz
+[2023-07-31 11:03:54] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/99/2d/4b43a30edb01079649e1e5b7eb20bf98cae64df8cdbb2a1dc6cc80bed2c4/pih-1.47206.tar.gz
+[2023-07-31 11:03:54] INFO root fetch - processPackages [volt-client-web]: Downloading https://files.pythonhosted.org/packages/23/bb/94888842b264620dc65443b211e9ca55f0dd710ee870a4789cd7d8c06e70/volt_client_web-0.1.8.tar.gz
+[2023-07-31 11:03:54] INFO root fetch - processPackages [fitscube]: executing diffoscope
+[2023-07-31 11:03:54] INFO root fetch - processPackages [fitscube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitscube-0.2.2.tar.gz tmp/fitscube-0.3.0.tar.gz --markdown 20230731/f/fitscube/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-07-31 11:03:54] INFO root fetch - processPackages [MuPhyN]: Downloading https://files.pythonhosted.org/packages/e3/a0/1ce31b6f10765667ca5d0f7b3b16085a09bcdbbe9c47e1f2f9f9fbb66b18/MuPhyN-0.1.1.post1.tar.gz
+[2023-07-31 11:03:54] INFO root fetch - processPackages [pyobs-sbig]: Downloading https://files.pythonhosted.org/packages/da/49/5540f61fb350b61fc1ec37d93fb273bac56299ead7d2fbf320162e8599cf/pyobs_sbig-1.0.5.tar.gz
+[2023-07-31 11:03:54] INFO root fetch - processPackages [sysplant]: executing diffoscope
+[2023-07-31 11:03:54] INFO root fetch - processPackages [sysplant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysplant-0.2.1.tar.gz tmp/sysplant-0.3.0.tar.gz --markdown 20230731/s/sysplant/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-31 11:03:54] INFO root fetch - processPackages [napiod]: Downloading https://files.pythonhosted.org/packages/79/d2/17ef3d141b95392ea08ceb143bcae5cd4b16d1e2624dc3a51aefd4953cba/napiod-1.0.0.tar.gz
+[2023-07-31 11:03:54] INFO root fetch - processPackages [hapm]: executing diffoscope
+[2023-07-31 11:03:54] INFO root fetch - processPackages [hapm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hapm-0.0.4.tar.gz tmp/hapm-0.0.5.tar.gz --markdown 20230731/h/hapm/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-31 11:03:54] INFO root fetch - processPackages [flake8-django]: executing diffoscope
+[2023-07-31 11:03:54] INFO root fetch - processPackages [flake8-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_django-1.3.tar.gz tmp/flake8_django-1.4.tar.gz --markdown 20230731/f/flake8-django/1.3-1.4/diff.md --exclude *.pyd
+[2023-07-31 11:03:54] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/60/61/87ebd4434765200cd248acf948bf78aef84ae73165a7cb8854e4f5a4f66d/axabc-0.0.9.tar.gz
+[2023-07-31 11:03:54] INFO root fetch - processPackages [volt-client-web]: executing diffoscope
+[2023-07-31 11:03:54] INFO root fetch - processPackages [volt-client-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volt_client_web-0.1.7.tar.gz tmp/volt_client_web-0.1.8.tar.gz --markdown 20230731/v/volt-client-web/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-31 11:03:54] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-07-31 11:03:54] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.47205.tar.gz tmp/pih-1.47206.tar.gz --markdown 20230731/p/pih/1.47205-1.47206/diff.md --exclude *.pyd
+[2023-07-31 11:03:54] INFO root fetch - processPackages [MuPhyN]: executing diffoscope
+[2023-07-31 11:03:54] INFO root fetch - processPackages [MuPhyN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MuPhyN-0.1.0.post8.tar.gz tmp/MuPhyN-0.1.1.post1.tar.gz --markdown 20230731/M/MuPhyN/0.1.0.post8-0.1.1.post1/diff.md --exclude *.pyd
+[2023-07-31 11:03:54] INFO root fetch - processPackages [pyobs-sbig]: executing diffoscope
+[2023-07-31 11:03:54] INFO root fetch - processPackages [pyobs-sbig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobs_sbig-1.0.4.tar.gz tmp/pyobs_sbig-1.0.5.tar.gz --markdown 20230731/p/pyobs-sbig/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-31 11:03:54] INFO root fetch - processPackages [axabc]: executing diffoscope
+[2023-07-31 11:03:54] INFO root fetch - processPackages [axabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axabc-0.0.8.tar.gz tmp/axabc-0.0.9.tar.gz --markdown 20230731/a/axabc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 11:03:54] INFO root fetch - processPackages [napiod]: executing diffoscope
+[2023-07-31 11:03:54] INFO root fetch - processPackages [napiod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napiod-0.1.1.tar.gz tmp/napiod-1.0.0.tar.gz --markdown 20230731/n/napiod/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-31 11:03:56] INFO root fetch - processPackages [fitscube]: Remove: archive file [/home/abi/fetcher/tmp/fitscube-0.2.2.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [fitscube]: Remove: archive file [/home/abi/fetcher/tmp/fitscube-0.3.0.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [fitscube]: Start processing: mkdocs-site-urls
+[2023-07-31 11:03:56] INFO root fetch - main [MainThread]: End processing [fitscube]: success
+[2023-07-31 11:03:56] INFO root fetch - processPackages [mkdocs-site-urls]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [flake8-django]: Remove: archive file [/home/abi/fetcher/tmp/flake8_django-1.3.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [flake8-django]: Remove: archive file [/home/abi/fetcher/tmp/flake8_django-1.4.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [flake8-django]: Start processing: django-stachoutils
+[2023-07-31 11:03:56] INFO root fetch - main [MainThread]: End processing [flake8-django]: success
+[2023-07-31 11:03:56] INFO root fetch - processPackages [django-stachoutils]: New version: [4.2.1a1] Old Version: [4.2.0]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [hapm]: Remove: archive file [/home/abi/fetcher/tmp/hapm-0.0.4.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [hapm]: Remove: archive file [/home/abi/fetcher/tmp/hapm-0.0.5.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [hapm]: Start processing: craft-ai-sdk
+[2023-07-31 11:03:56] INFO root fetch - processPackages [mkdocs-site-urls]: Downloading https://files.pythonhosted.org/packages/09/2d/9eadb3d284faf03c74023c6467b032997836cb0d8e208b3c04d207530246/mkdocs-site-urls-0.1.0.tar.gz
+[2023-07-31 11:03:56] INFO root fetch - main [MainThread]: End processing [hapm]: success
+[2023-07-31 11:03:56] INFO root fetch - processPackages [volt-client-web]: Remove: archive file [/home/abi/fetcher/tmp/volt_client_web-0.1.7.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [volt-client-web]: Remove: archive file [/home/abi/fetcher/tmp/volt_client_web-0.1.8.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [volt-client-web]: Start processing: mongodb-python-manager
+[2023-07-31 11:03:56] INFO root fetch - main [MainThread]: End processing [volt-client-web]: success
+[2023-07-31 11:03:56] INFO root fetch - processPackages [mongodb-python-manager]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [sysplant]: Remove: archive file [/home/abi/fetcher/tmp/sysplant-0.2.1.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [sysplant]: Remove: archive file [/home/abi/fetcher/tmp/sysplant-0.3.0.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - main [MainThread]: End processing [sysplant]: success
+[2023-07-31 11:03:56] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.8.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.9.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - main [MainThread]: End processing [axabc]: success
+[2023-07-31 11:03:56] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.47205.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.47206.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-07-31 11:03:56] INFO root fetch - processPackages [django-stachoutils]: Downloading https://files.pythonhosted.org/packages/4c/30/ee408736e392c0fce00b1f9a63f41883d6c2175b178e23d79af05ddc45bf/django-stachoutils-4.2.0.tar.gz
+[2023-07-31 11:03:56] INFO root fetch - processPackages [pyobs-sbig]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_sbig-1.0.4.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - processPackages [pyobs-sbig]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_sbig-1.0.5.tar.gz]
+[2023-07-31 11:03:56] INFO root fetch - main [MainThread]: End processing [pyobs-sbig]: success
+[2023-07-31 11:03:56] INFO root fetch - processPackages [mongodb-python-manager]: Downloading https://files.pythonhosted.org/packages/77/a9/1b3a21fd15698c26cf99d709f28d048a2e2162a2c4114049100201b8e054/mongodb_python_manager-1.5.6.tar.gz
+[2023-07-31 11:03:56] INFO root fetch - processPackages [mkdocs-site-urls]: Downloading https://files.pythonhosted.org/packages/7a/7a/5b6eedc45546a0d015ef60e8bccdce217ac4d2b383aeb51a92f2ffdf1504/mkdocs-site-urls-0.2.0.tar.gz
+[2023-07-31 11:03:56] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2023-07-31 11:03:56] INFO root fetch - processPackages [mkdocs-site-urls]: executing diffoscope
+[2023-07-31 11:03:56] INFO root fetch - processPackages [mkdocs-site-urls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-site-urls-0.1.0.tar.gz tmp/mkdocs-site-urls-0.2.0.tar.gz --markdown 20230731/m/mkdocs-site-urls/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-31 11:03:57] INFO root fetch - processPackages [mongodb-python-manager]: Downloading https://files.pythonhosted.org/packages/22/96/8fa7b06c37a68d870f052408debce14a2b0c659d8442ead8b8eb19ae789e/mongodb_python_manager-1.5.7.tar.gz
+[2023-07-31 11:03:57] INFO root fetch - processPackages [django-stachoutils]: Downloading https://files.pythonhosted.org/packages/8f/c6/37fad847b23bc3d89f1235005b17e4ea3c5f310d5f704af26f70b0b204ba/django-stachoutils-4.2.1a1.tar.gz
+[2023-07-31 11:03:57] INFO root fetch - processPackages [mongodb-python-manager]: executing diffoscope
+[2023-07-31 11:03:57] INFO root fetch - processPackages [mongodb-python-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_python_manager-1.5.6.tar.gz tmp/mongodb_python_manager-1.5.7.tar.gz --markdown 20230731/m/mongodb-python-manager/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-07-31 11:03:57] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2023-07-31 11:03:57] INFO root fetch - processPackages [django-stachoutils]: executing diffoscope
+[2023-07-31 11:03:57] INFO root fetch - processPackages [django-stachoutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-stachoutils-4.2.0.tar.gz tmp/django-stachoutils-4.2.1a1.tar.gz --markdown 20230731/d/django-stachoutils/4.2.0-4.2.1a1/diff.md --exclude *.pyd
+[2023-07-31 11:03:57] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2023-07-31 11:03:57] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20230731/c/craft-ai-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-31 11:03:57] INFO root fetch - processPackages [mkdocs-site-urls]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-site-urls-0.1.0.tar.gz]
+[2023-07-31 11:03:57] INFO root fetch - processPackages [mkdocs-site-urls]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-site-urls-0.2.0.tar.gz]
+[2023-07-31 11:03:57] INFO root fetch - main [MainThread]: End processing [mkdocs-site-urls]: success
+[2023-07-31 11:03:57] INFO root fetch - processPackages [napiod]: Remove: archive file [/home/abi/fetcher/tmp/napiod-0.1.1.tar.gz]
+[2023-07-31 11:03:57] INFO root fetch - processPackages [napiod]: Remove: archive file [/home/abi/fetcher/tmp/napiod-1.0.0.tar.gz]
+[2023-07-31 11:03:57] INFO root fetch - main [MainThread]: End processing [napiod]: success
+[2023-07-31 11:03:58] INFO root fetch - processPackages [mongodb-python-manager]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_python_manager-1.5.6.tar.gz]
+[2023-07-31 11:03:58] INFO root fetch - processPackages [mongodb-python-manager]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_python_manager-1.5.7.tar.gz]
+[2023-07-31 11:03:58] INFO root fetch - main [MainThread]: End processing [mongodb-python-manager]: success
+[2023-07-31 11:03:58] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2023-07-31 11:03:58] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2023-07-31 11:03:58] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2023-07-31 11:03:58] INFO root fetch - processPackages [django-stachoutils]: Remove: archive file [/home/abi/fetcher/tmp/django-stachoutils-4.2.0.tar.gz]
+[2023-07-31 11:03:58] INFO root fetch - processPackages [django-stachoutils]: Remove: archive file [/home/abi/fetcher/tmp/django-stachoutils-4.2.1a1.tar.gz]
+[2023-07-31 11:03:58] INFO root fetch - main [MainThread]: End processing [django-stachoutils]: success
+[2023-07-31 11:03:58] INFO root fetch - processPackages [MuPhyN]: Remove: archive file [/home/abi/fetcher/tmp/MuPhyN-0.1.0.post8.tar.gz]
+[2023-07-31 11:03:58] INFO root fetch - processPackages [MuPhyN]: Remove: archive file [/home/abi/fetcher/tmp/MuPhyN-0.1.1.post1.tar.gz]
+[2023-07-31 11:03:58] INFO root fetch - main [MainThread]: End processing [MuPhyN]: success
+[2023-07-31 11:03:58] INFO root fetch - main [MainThread]: Store serial: [19104985]
