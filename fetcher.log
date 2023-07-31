@@ -5733,3 +5733,24 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 04:43:36] INFO root fetch - processPackages [discord-ext-voice-recv]: Remove: archive file [/home/abi/fetcher/tmp/discord-ext-voice_recv-0.2.0a108.tar.gz]
 [2023-07-31 04:43:36] INFO root fetch - main [MainThread]: End processing [discord-ext-voice-recv]: success
 [2023-07-31 04:43:36] INFO root fetch - main [MainThread]: Store serial: [19102029]
+[2023-07-31 04:48:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102029]
+[2023-07-31 04:48:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-31 04:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaserver
+[2023-07-31 04:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stdflow
+[2023-07-31 04:48:44] INFO root fetch - processPackages [stdflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 04:48:44] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-07-31 04:48:44] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/37/2b/dc718c9a789aae941c5744468c42fa99c1ca83c6fc824add3debc6df543d/stdflow-0.0.8.tar.gz
+[2023-07-31 04:48:44] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-07-31 04:48:44] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/93/a7/7a92845fb1a7092159c2fbc2b23c0b733e7c93e5cd012f6538ca900ea3b6/stdflow-0.0.9-py3-none-any.whl
+[2023-07-31 04:48:45] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-31 04:48:45] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.8.tar.gz tmp/stdflow-0.0.9-py3-none-any.whl.zip --markdown 20230731/s/stdflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 04:48:45] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-07-31 04:48:45] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-07-31 04:48:45] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230731/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-07-31 04:48:45] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.8.tar.gz]
+[2023-07-31 04:48:45] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-31 04:48:45] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-31 04:48:46] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-07-31 04:48:46] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-07-31 04:48:46] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-07-31 04:48:46] INFO root fetch - main [MainThread]: Store serial: [19102037]
