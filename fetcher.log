@@ -5673,3 +5673,63 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 04:38:25] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
 [2023-07-31 04:38:25] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2023-07-31 04:38:25] INFO root fetch - main [MainThread]: Store serial: [19102007]
+[2023-07-31 04:43:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102007]
+[2023-07-31 04:43:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-31 04:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: body-extractor-py3
+[2023-07-31 04:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liangutil
+[2023-07-31 04:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discord-ext-voice-recv
+[2023-07-31 04:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syntaxlight
+[2023-07-31 04:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-07-31 04:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pywemo
+[2023-07-31 04:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-ecosystem-flask
+[2023-07-31 04:43:34] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.4] Old Version: [202307.0.37]
+[2023-07-31 04:43:34] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 04:43:34] INFO root fetch - processPackages [discord-ext-voice-recv]: New version: [0.2.0a108] Old Version: [0.1.9a106]
+[2023-07-31 04:43:34] INFO root fetch - processPackages [body-extractor-py3]: New version: [0.0.2] Old Version: [0.0.1.5]
+[2023-07-31 04:43:34] INFO root fetch - processPackages [pywemo]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-31 04:43:34] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-31 04:43:34] WARNING root fetch - processPackages [liangutil]: Skipping, unable to determine old version
+[2023-07-31 04:43:34] INFO root fetch - main [MainThread]: End processing [liangutil] error
+[2023-07-31 04:43:34] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-07-31 04:43:34] INFO root fetch - processPackages [discord-ext-voice-recv]: Downloading https://files.pythonhosted.org/packages/a5/d9/0ff612f7bec9f8a95cffbc5c70a7ca8c3bcea622bcc08a879ab942c1deb1/discord-ext-voice_recv-0.1.9a106.tar.gz
+[2023-07-31 04:43:34] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-07-31 04:43:34] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/84/66/dca1d427fa9b702c35f9e706f2d93395071fe5e5aa1d1e52d471d02d074c/data_ecosystem_flask-202307.0.37.tar.gz
+[2023-07-31 04:43:34] INFO root fetch - processPackages [body-extractor-py3]: Downloading https://files.pythonhosted.org/packages/6a/2f/afdc91ae93832556acda0f2a11432174f30fbf7ac0926c32f49bea539c87/body-extractor-py3-0.0.1.5.zip
+[2023-07-31 04:43:34] INFO root fetch - processPackages [pywemo]: Downloading https://files.pythonhosted.org/packages/42/30/6b5ceea7b970b09af82907e748ec7f948543b7633f1b171764f25e7a6488/pywemo-1.1.0.tar.gz
+[2023-07-31 04:43:34] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-07-31 04:43:34] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/b2/63/f9972c9325aaa8f072021458434c5735720e575e3a4875f4e556734529e8/data_ecosystem_flask-202307.0.4.tar.gz
+[2023-07-31 04:43:35] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-07-31 04:43:35] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202307.0.37.tar.gz tmp/data_ecosystem_flask-202307.0.4.tar.gz --markdown 20230731/d/data-ecosystem-flask/202307.0.37-202307.0.4/diff.md --exclude *.pyd
+[2023-07-31 04:43:35] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-31 04:43:35] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230731/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 04:43:35] INFO root fetch - processPackages [discord-ext-voice-recv]: Downloading https://files.pythonhosted.org/packages/fc/59/92ad2cbfd14844dc608a317f38ceed391266fd41fbc64f31527d68f7df66/discord-ext-voice_recv-0.2.0a108.tar.gz
+[2023-07-31 04:43:35] INFO root fetch - processPackages [pywemo]: Downloading https://files.pythonhosted.org/packages/20/c7/1ce1cf0ad79043f470be988bc1d8b58e070962ce8e92d9e7de2fd603675c/pywemo-1.2.0.tar.gz
+[2023-07-31 04:43:35] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-07-31 04:43:35] INFO root fetch - processPackages [body-extractor-py3]: Downloading https://files.pythonhosted.org/packages/33/eb/180b4e3b2b28b96be6a4a518cae31193c476780d5b0572b8ac149a23926a/body-extractor-py3-0.0.2.tar.gz
+[2023-07-31 04:43:35] INFO root fetch - processPackages [pywemo]: executing diffoscope
+[2023-07-31 04:43:35] INFO root fetch - processPackages [pywemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywemo-1.1.0.tar.gz tmp/pywemo-1.2.0.tar.gz --markdown 20230731/p/pywemo/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-31 04:43:35] INFO root fetch - processPackages [body-extractor-py3]: executing diffoscope
+[2023-07-31 04:43:35] INFO root fetch - processPackages [body-extractor-py3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/body-extractor-py3-0.0.1.5.zip tmp/body-extractor-py3-0.0.2.tar.gz --markdown 20230731/b/body-extractor-py3/0.0.1.5-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 04:43:35] INFO root fetch - processPackages [discord-ext-voice-recv]: executing diffoscope
+[2023-07-31 04:43:35] INFO root fetch - processPackages [discord-ext-voice-recv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-ext-voice_recv-0.1.9a106.tar.gz tmp/discord-ext-voice_recv-0.2.0a108.tar.gz --markdown 20230731/d/discord-ext-voice-recv/0.1.9a106-0.2.0a108/diff.md --exclude *.pyd
+[2023-07-31 04:43:35] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-07-31 04:43:35] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230731/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-31 04:43:36] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.37.tar.gz]
+[2023-07-31 04:43:36] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.4.tar.gz]
+[2023-07-31 04:43:36] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-07-31 04:43:36] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-07-31 04:43:36] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-07-31 04:43:36] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-31 04:43:36] INFO root fetch - processPackages [body-extractor-py3]: Remove: archive file [/home/abi/fetcher/tmp/body-extractor-py3-0.0.1.5.zip]
+[2023-07-31 04:43:36] INFO root fetch - processPackages [body-extractor-py3]: Remove: archive file [/home/abi/fetcher/tmp/body-extractor-py3-0.0.2.tar.gz]
+[2023-07-31 04:43:36] INFO root fetch - main [MainThread]: End processing [body-extractor-py3]: success
+[2023-07-31 04:43:36] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-07-31 04:43:36] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-07-31 04:43:36] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-07-31 04:43:36] INFO root fetch - processPackages [pywemo]: Remove: archive file [/home/abi/fetcher/tmp/pywemo-1.1.0.tar.gz]
+[2023-07-31 04:43:36] INFO root fetch - processPackages [pywemo]: Remove: archive file [/home/abi/fetcher/tmp/pywemo-1.2.0.tar.gz]
+[2023-07-31 04:43:36] INFO root fetch - main [MainThread]: End processing [pywemo]: success
+[2023-07-31 04:43:36] INFO root fetch - processPackages [discord-ext-voice-recv]: Remove: archive file [/home/abi/fetcher/tmp/discord-ext-voice_recv-0.1.9a106.tar.gz]
+[2023-07-31 04:43:36] INFO root fetch - processPackages [discord-ext-voice-recv]: Remove: archive file [/home/abi/fetcher/tmp/discord-ext-voice_recv-0.2.0a108.tar.gz]
+[2023-07-31 04:43:36] INFO root fetch - main [MainThread]: End processing [discord-ext-voice-recv]: success
+[2023-07-31 04:43:36] INFO root fetch - main [MainThread]: Store serial: [19102029]
