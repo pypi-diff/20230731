@@ -19163,3 +19163,200 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-31 14:59:43] INFO root fetch - processPackages [encord-active-components]: Remove: archive file [/home/abi/fetcher/tmp/encord_active_components-0.0.9.tar.gz]
 [2023-07-31 14:59:43] INFO root fetch - main [MainThread]: End processing [encord-active-components]: success
 [2023-07-31 14:59:43] INFO root fetch - main [MainThread]: Store serial: [19107583]
+[2023-07-31 15:04:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19107583]
+[2023-07-31 15:04:53] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-31 15:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qoa4ml
+[2023-07-31 15:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logger-local
+[2023-07-31 15:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-route53-health-check
+[2023-07-31 15:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-service-client
+[2023-07-31 15:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-service-server
+[2023-07-31 15:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-ui
+[2023-07-31 15:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-v4-service
+[2023-07-31 15:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline
+[2023-07-31 15:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-core
+[2023-07-31 15:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: betfairdatabase
+[2023-07-31 15:04:53] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-31 15:04:53] INFO root fetch - processPackages [qoa4ml]: New version: [0.0.9] Old Version: [0.0.84]
+[2023-07-31 15:04:53] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-31 15:04:53] INFO root fetch - processPackages [logger-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 15:04:53] INFO root fetch - processPackages [betfairdatabase]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 15:04:53] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-31 15:04:53] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-31 15:04:53] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 15:04:53] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-31 15:04:53] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-31 15:04:53] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/f4/18/86f8ae5d3ee1eea2301d62c10edd6fc319a4cf99770fd00e40b7746d5b68/qoa4ml-0.0.84.tar.gz
+[2023-07-31 15:04:53] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-07-31 15:04:53] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-07-31 15:04:53] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-07-31 15:04:53] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-07-31 15:04:53] INFO root fetch - processPackages [betfairdatabase]: Downloading https://files.pythonhosted.org/packages/6a/53/e94ad1c86b559a95537a984d84a955481820fdba9665fedfb743f89c5a29/betfairdatabase-0.1.0.tar.gz
+[2023-07-31 15:04:53] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-07-31 15:04:53] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-07-31 15:04:53] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-07-31 15:04:53] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-07-31 15:04:54] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-07-31 15:04:54] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/2d/a9/d7815ae572e09b03370b309ad1bf127cf7c8f4c91b3ddd26fd0043a2e559/logger-local-0.0.9.tar.gz
+[2023-07-31 15:04:54] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/0c/01/118d11594cadd27f432673733bcdd3696a16233bffeac49f779a2ff835f8/qoa4ml-0.0.9.tar.gz
+[2023-07-31 15:04:54] INFO root fetch - processPackages [betfairdatabase]: Downloading https://files.pythonhosted.org/packages/c6/96/4b38ea1972f27fb573e3d6a2ce6eca63d476bdbc440c7133452b5484843e/betfairdatabase-0.1.1.tar.gz
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-07-31 15:04:54] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-07-31 15:04:54] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.8.tar.gz tmp/logger-local-0.0.9.tar.gz --markdown 20230731/l/logger-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 15:04:54] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-07-31 15:04:54] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230731/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-07-31 15:04:54] INFO root fetch - processPackages [betfairdatabase]: executing diffoscope
+[2023-07-31 15:04:54] INFO root fetch - processPackages [betfairdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betfairdatabase-0.1.0.tar.gz tmp/betfairdatabase-0.1.1.tar.gz --markdown 20230731/b/betfairdatabase/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230731/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-31 15:04:54] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-07-31 15:04:54] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.0.84.tar.gz tmp/qoa4ml-0.0.9.tar.gz --markdown 20230731/q/qoa4ml/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230731/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230731/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230731/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230731/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-07-31 15:04:54] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230731/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-31 15:04:55] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-07-31 15:04:55] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.9.tar.gz]
+[2023-07-31 15:04:55] INFO root fetch - processPackages [logger-local]: Start processing: EasyDeL
+[2023-07-31 15:04:55] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-07-31 15:04:55] INFO root fetch - processPackages [EasyDeL]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/0b/01/765632e4f48f400658c26b4a653df55e20dc326b64fd0991020f7fb5c16b/EasyDeL-0.0.8.tar.gz
+[2023-07-31 15:04:56] INFO root fetch - processPackages [betfairdatabase]: Remove: archive file [/home/abi/fetcher/tmp/betfairdatabase-0.1.0.tar.gz]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [betfairdatabase]: Remove: archive file [/home/abi/fetcher/tmp/betfairdatabase-0.1.1.tar.gz]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [betfairdatabase]: Start processing: py3seed
+[2023-07-31 15:04:56] INFO root fetch - main [MainThread]: End processing [betfairdatabase]: success
+[2023-07-31 15:04:56] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/8a/e3/914fc5ccc4d98c608c3f2bac8f8e325f940afda206011c7e1425cf00d471/EasyDeL-0.0.9.tar.gz
+[2023-07-31 15:04:56] INFO root fetch - processPackages [py3seed]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: scoda-tk
+[2023-07-31 15:04:56] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-07-31 15:04:56] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: helium
+[2023-07-31 15:04:56] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-07-31 15:04:56] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.84.tar.gz]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.9.tar.gz]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [qoa4ml]: Start processing: encab
+[2023-07-31 15:04:56] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-07-31 15:04:56] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [assemblyline-core]: Start processing: savant-rs
+[2023-07-31 15:04:56] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-07-31 15:04:56] INFO root fetch - processPackages [scoda-tk]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [helium]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/f9/8d/ed0fcdd31f16d2a8a5532833daffa7f287b34e71e6d323a5637dfc83aa91/py3seed-0.2.5.tar.gz
+[2023-07-31 15:04:56] INFO root fetch - processPackages [EasyDeL]: executing diffoscope
+[2023-07-31 15:04:56] INFO root fetch - processPackages [EasyDeL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyDeL-0.0.8.tar.gz tmp/EasyDeL-0.0.9.tar.gz --markdown 20230731/E/EasyDeL/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 15:04:56] INFO root fetch - processPackages [encab]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/57/46/b25b9d27276c45d5a52264f2d956f3856f2722863597136fe51226e6f033/scoda-tk-0.2.2.tar.gz
+[2023-07-31 15:04:56] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [assemblyline-ui]: Start processing: ardoqpy
+[2023-07-31 15:04:56] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-07-31 15:04:56] INFO root fetch - processPackages [ardoqpy]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-07-31 15:04:56] INFO root fetch - processPackages [helium]: Downloading https://files.pythonhosted.org/packages/74/0a/9b703a10310397855536941874866cc3fbec5f789752ef48ffef49002c6e/helium-3.2.2.tar.gz
+[2023-07-31 15:04:56] INFO root fetch - processPackages [encab]: Downloading https://files.pythonhosted.org/packages/d4/1d/296ba34db47b1f4946136fd71d7aac814dc1730bcc5dce6a99ab8f26fe28/encab-0.0.7.tar.gz
+[2023-07-31 15:04:56] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/c4/00/2644997dc31784c2debfbda253c475ca3463024586165f400ebc3871aaba/savant_rs-0.1.7.tar.gz
+[2023-07-31 15:04:56] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/ab/bc/92673db0a4a2e7d71ab83b0aef75ff9338dba7f88c617c3317efb13d10cd/py3seed-0.2.6.tar.gz
+[2023-07-31 15:04:57] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-07-31 15:04:57] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.2.5.tar.gz tmp/py3seed-0.2.6.tar.gz --markdown 20230731/p/py3seed/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-31 15:04:57] INFO root fetch - processPackages [ardoqpy]: Downloading https://files.pythonhosted.org/packages/06/81/4f09ad89448b367545ab637a0e00308f4bd4eec8d9e14ebdfb99733980ed/ardoqpy-0.7.7.tar.gz
+[2023-07-31 15:04:57] INFO root fetch - processPackages [encab]: Downloading https://files.pythonhosted.org/packages/10/24/dd110e509c15e4ee6ab13ad682eb824868e7e91a7c98babd47610d78da03/encab-0.0.8.tar.gz
+[2023-07-31 15:04:57] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-07-31 15:04:57] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-07-31 15:04:57] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Start processing: argparse-pydantic
+[2023-07-31 15:04:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-07-31 15:04:57] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/3b/29/c5c1e5ff2999442a56ca5784060ec72be4e7409b5e1a5adf6740eaee1472/scoda-tk-0.2.3.tar.gz
+[2023-07-31 15:04:57] INFO root fetch - processPackages [argparse-pydantic]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 15:04:57] INFO root fetch - processPackages [encab]: executing diffoscope
+[2023-07-31 15:04:57] INFO root fetch - processPackages [encab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encab-0.0.7.tar.gz tmp/encab-0.0.8.tar.gz --markdown 20230731/e/encab/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-31 15:04:57] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/14/6f/20424ad55aaad55bea7d3a27e5a0cc5fe726f0b4507b2b6f406d79e8015a/savant_rs-0.1.9.tar.gz
+[2023-07-31 15:04:57] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-07-31 15:04:57] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-07-31 15:04:57] INFO root fetch - processPackages [assemblyline]: Start processing: adapta
+[2023-07-31 15:04:57] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-07-31 15:04:57] INFO root fetch - processPackages [ardoqpy]: Downloading https://files.pythonhosted.org/packages/3f/86/13a8c9581238e58f852c3cea62579fa2239d4ba1259ac5c498cc4a9ba070/ardoqpy-0.7.8.tar.gz
+[2023-07-31 15:04:57] INFO root fetch - processPackages [helium]: Downloading https://files.pythonhosted.org/packages/1e/07/ed2b08f058c640ce419e7ded4475d396164f6c0700fc23df4d075bc597f8/helium-3.2.3.tar.gz
+[2023-07-31 15:04:57] INFO root fetch - processPackages [adapta]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-07-31 15:04:57] INFO root fetch - processPackages [argparse-pydantic]: Downloading https://files.pythonhosted.org/packages/8b/a6/f921bc754db5a76019941669a3788254dc1ffe8fd108dd8dfd91c6466f49/argparse_pydantic-0.1.1.tar.gz
+[2023-07-31 15:04:57] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-07-31 15:04:57] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.2.2.tar.gz tmp/scoda-tk-0.2.3.tar.gz --markdown 20230731/s/scoda-tk/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-31 15:04:57] INFO root fetch - processPackages [ardoqpy]: executing diffoscope
+[2023-07-31 15:04:57] INFO root fetch - processPackages [ardoqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ardoqpy-0.7.7.tar.gz tmp/ardoqpy-0.7.8.tar.gz --markdown 20230731/a/ardoqpy/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-07-31 15:04:57] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/70/80/1ee92108c80b9f76f982c78c04263618304cf3d78a6452aa5b5c94d561cb/adapta-2.3.4.tar.gz
+[2023-07-31 15:04:57] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.8.tar.gz]
+[2023-07-31 15:04:57] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.9.tar.gz]
+[2023-07-31 15:04:57] INFO root fetch - processPackages [EasyDeL]: Start processing: hibp-downloader
+[2023-07-31 15:04:57] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
+[2023-07-31 15:04:57] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-07-31 15:04:57] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230731/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 15:04:57] INFO root fetch - processPackages [hibp-downloader]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-31 15:04:57] INFO root fetch - processPackages [argparse-pydantic]: Downloading https://files.pythonhosted.org/packages/67/92/458c26b19367731738f3916a14708ac1b65521476b211271f95b0754963f/argparse_pydantic-0.1.2.tar.gz
+[2023-07-31 15:04:57] INFO root fetch - processPackages [helium]: executing diffoscope
+[2023-07-31 15:04:57] INFO root fetch - processPackages [helium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helium-3.2.2.tar.gz tmp/helium-3.2.3.tar.gz --markdown 20230731/h/helium/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2023-07-31 15:04:57] INFO root fetch - processPackages [hibp-downloader]: Downloading https://files.pythonhosted.org/packages/21/90/6cb2331dab94bf49508de3790610112e65623180a633a73259ba5c707cb8/hibp_downloader-0.1.3.tar.gz
+[2023-07-31 15:04:57] INFO root fetch - processPackages [argparse-pydantic]: executing diffoscope
+[2023-07-31 15:04:57] INFO root fetch - processPackages [argparse-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argparse_pydantic-0.1.1.tar.gz tmp/argparse_pydantic-0.1.2.tar.gz --markdown 20230731/a/argparse-pydantic/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 15:04:58] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/74/05/3d5742b48823017d0584354408f2e06188fc7a0d3e6ad7ccb86e7903156d/adapta-2.3.5.tar.gz
+[2023-07-31 15:04:58] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-31 15:04:58] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-31 15:04:58] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: anadroid
+[2023-07-31 15:04:58] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-07-31 15:04:58] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2023-07-31 15:04:58] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.3.4.tar.gz tmp/adapta-2.3.5.tar.gz --markdown 20230731/a/adapta/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-07-31 15:04:58] INFO root fetch - processPackages [anadroid]: New version: [0.5.5] Old Version: [0.5.43]
+[2023-07-31 15:04:58] INFO root fetch - processPackages [hibp-downloader]: Downloading https://files.pythonhosted.org/packages/cd/b3/2cd66f59493644bdcd410e552bc8b0c1f0005390167fa0aedc548f399420/hibp_downloader-0.1.4.tar.gz
+[2023-07-31 15:04:58] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.2.5.tar.gz]
+[2023-07-31 15:04:58] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.2.6.tar.gz]
+[2023-07-31 15:04:58] INFO root fetch - processPackages [py3seed]: Start processing: pepperize.cdk-route53-health-check
+[2023-07-31 15:04:58] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-07-31 15:04:58] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 15:04:58] INFO root fetch - processPackages [hibp-downloader]: executing diffoscope
+[2023-07-31 15:04:58] INFO root fetch - processPackages [hibp-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hibp_downloader-0.1.3.tar.gz tmp/hibp_downloader-0.1.4.tar.gz --markdown 20230731/h/hibp-downloader/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-31 15:04:58] INFO root fetch - processPackages [anadroid]: Downloading https://files.pythonhosted.org/packages/a4/a5/f1a4f58603770cc0147e6a2b8cc9ffa156ec6e9ead05e3b57f8886de1d4d/anadroid-0.5.43.tar.gz
+[2023-07-31 15:04:58] WARNING root fetch - processPackages [anadroid]: Skipping package: exceeds size limit 82169899>=10485760
+[2023-07-31 15:04:58] INFO root fetch - main [MainThread]: End processing [anadroid] error
+[2023-07-31 15:04:58] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-07-31 15:04:58] INFO root fetch - processPackages [encab]: Remove: archive file [/home/abi/fetcher/tmp/encab-0.0.7.tar.gz]
+[2023-07-31 15:04:58] INFO root fetch - processPackages [encab]: Remove: archive file [/home/abi/fetcher/tmp/encab-0.0.8.tar.gz]
+[2023-07-31 15:04:58] INFO root fetch - main [MainThread]: End processing [encab]: success
+[2023-07-31 15:04:58] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-07-31 15:04:58] INFO root fetch - processPackages [ardoqpy]: Remove: archive file [/home/abi/fetcher/tmp/ardoqpy-0.7.7.tar.gz]
+[2023-07-31 15:04:58] INFO root fetch - processPackages [ardoqpy]: Remove: archive file [/home/abi/fetcher/tmp/ardoqpy-0.7.8.tar.gz]
+[2023-07-31 15:04:58] INFO root fetch - main [MainThread]: End processing [ardoqpy]: success
+[2023-07-31 15:04:59] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-07-31 15:04:59] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230731/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 15:04:59] INFO root fetch - processPackages [argparse-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/argparse_pydantic-0.1.1.tar.gz]
+[2023-07-31 15:04:59] INFO root fetch - processPackages [argparse-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/argparse_pydantic-0.1.2.tar.gz]
+[2023-07-31 15:04:59] INFO root fetch - main [MainThread]: End processing [argparse-pydantic]: success
+[2023-07-31 15:04:59] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.7.tar.gz]
+[2023-07-31 15:04:59] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.9.tar.gz]
+[2023-07-31 15:04:59] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-07-31 15:04:59] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.3.4.tar.gz]
+[2023-07-31 15:04:59] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.3.5.tar.gz]
+[2023-07-31 15:04:59] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2023-07-31 15:04:59] INFO root fetch - processPackages [hibp-downloader]: Remove: archive file [/home/abi/fetcher/tmp/hibp_downloader-0.1.3.tar.gz]
+[2023-07-31 15:04:59] INFO root fetch - processPackages [hibp-downloader]: Remove: archive file [/home/abi/fetcher/tmp/hibp_downloader-0.1.4.tar.gz]
+[2023-07-31 15:04:59] INFO root fetch - main [MainThread]: End processing [hibp-downloader]: success
+[2023-07-31 15:05:00] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.2.2.tar.gz]
+[2023-07-31 15:05:00] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.2.3.tar.gz]
+[2023-07-31 15:05:00] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-07-31 15:05:00] INFO root fetch - processPackages [helium]: Remove: archive file [/home/abi/fetcher/tmp/helium-3.2.2.tar.gz]
+[2023-07-31 15:05:00] INFO root fetch - processPackages [helium]: Remove: archive file [/home/abi/fetcher/tmp/helium-3.2.3.tar.gz]
+[2023-07-31 15:05:00] INFO root fetch - main [MainThread]: End processing [helium]: success
+[2023-07-31 15:05:00] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-07-31 15:05:00] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-07-31 15:05:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-07-31 15:05:00] INFO root fetch - main [MainThread]: Store serial: [19107665]
