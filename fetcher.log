@@ -15875,3 +15875,150 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 12:34:11] INFO root fetch - processPackages [sentry-cli]: Remove: archive file [/home/abi/fetcher/tmp/sentry_cli-2.20.3.tar.gz]
 [2023-07-31 12:34:11] INFO root fetch - main [MainThread]: End processing [sentry-cli]: success
 [2023-07-31 12:34:11] INFO root fetch - main [MainThread]: Store serial: [19106295]
+[2023-07-31 12:39:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19106295]
+[2023-07-31 12:39:20] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-31 12:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dagshub
+[2023-07-31 12:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enquire
+[2023-07-31 12:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mongodb-python-manager
+[2023-07-31 12:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbformat
+[2023-07-31 12:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bulk-whois-api
+[2023-07-31 12:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meringue
+[2023-07-31 12:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyter-events
+[2023-07-31 12:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: boinc-client
+[2023-07-31 12:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-cicd-base
+[2023-07-31 12:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-cicd-cli
+[2023-07-31 12:39:20] INFO root fetch - processPackages [dagshub]: New version: [0.3.1.post2] Old Version: [0.3.1.post1]
+[2023-07-31 12:39:20] INFO root fetch - processPackages [enquire]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 12:39:20] INFO root fetch - processPackages [meringue]: New version: [1.2.0.dev2] Old Version: [1.2.0.dev1]
+[2023-07-31 12:39:20] INFO root fetch - processPackages [bulk-whois-api]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-31 12:39:20] INFO root fetch - processPackages [nbformat]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-07-31 12:39:20] INFO root fetch - processPackages [boinc-client]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-07-31 12:39:20] INFO root fetch - processPackages [jupyter-events]: New version: [0.7.0] Old Version: [0.6.3]
+[2023-07-31 12:39:20] INFO root fetch - processPackages [mongodb-python-manager]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-07-31 12:39:20] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2120.0] Old Version: [1.2119.0]
+[2023-07-31 12:39:20] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2120.0] Old Version: [1.2119.0]
+[2023-07-31 12:39:20] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/bf/b9/9e95baa44382dd62da1a7fcf1b36d3a31b0dcbde9185905e8541848b75a4/dagshub-0.3.1.post1.tar.gz
+[2023-07-31 12:39:20] INFO root fetch - processPackages [meringue]: Downloading https://files.pythonhosted.org/packages/76/c6/310059247d238a07cd76420e7df4fd7b1f1439e068249825dee48075e7fc/meringue-1.2.0.dev1.tar.gz
+[2023-07-31 12:39:20] INFO root fetch - processPackages [enquire]: Downloading https://files.pythonhosted.org/packages/43/a8/a00656a47ec4a7f79f9e1a81265819de44aa4584b83383b00d9a0ab8ad4e/enquire-0.0.8.tar.gz
+[2023-07-31 12:39:20] INFO root fetch - processPackages [nbformat]: Downloading https://files.pythonhosted.org/packages/80/3e/392d1ab3196574ba6818874ec50d419bced99e7fde8b58c77b803675d8bf/nbformat-5.9.1.tar.gz
+[2023-07-31 12:39:20] INFO root fetch - processPackages [jupyter-events]: Downloading https://files.pythonhosted.org/packages/d0/b0/7afcd1d66834f43d08ec47c861a5540d7ad57eab47605ccd83429c147755/jupyter_events-0.6.3.tar.gz
+[2023-07-31 12:39:20] INFO root fetch - processPackages [bulk-whois-api]: Downloading https://files.pythonhosted.org/packages/ce/ab/d829e239615b59765cefd7a7f65143c14ce72b975f9a553f9b6a06f2a833/bulk-whois-api-1.0.0.tar.gz
+[2023-07-31 12:39:20] INFO root fetch - processPackages [mongodb-python-manager]: Downloading https://files.pythonhosted.org/packages/22/96/8fa7b06c37a68d870f052408debce14a2b0c659d8442ead8b8eb19ae789e/mongodb_python_manager-1.5.7.tar.gz
+[2023-07-31 12:39:20] INFO root fetch - processPackages [boinc-client]: Downloading https://files.pythonhosted.org/packages/29/82/2ab670f4cc2409eebafea6aacb2b1cbac956f2d2f6b2ad98ad30fe0975f5/boinc_client-1.4.5.tar.gz
+[2023-07-31 12:39:20] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/c8/28/2a6afa88e2349479d6d0a8421b4153cf8f480272f268adbda7ce14284bb9/gardener-cicd-cli-1.2119.0.tar.gz
+[2023-07-31 12:39:20] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/fd/d0/6f3245f73b22f61136db7dc7e85a34c1f6f3b9f1dc79c350a1e9d80671c4/gardener-cicd-base-1.2119.0.tar.gz
+[2023-07-31 12:39:21] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/c7/13/39ebf6294b4553c86e7ac5717bb8956a147f8b9759ae0feb6741c37ce195/dagshub-0.3.1.post2.tar.gz
+[2023-07-31 12:39:21] INFO root fetch - processPackages [enquire]: Downloading https://files.pythonhosted.org/packages/6d/ca/4721a62c88ae5c47ff2a37f30c59a0c992602680aab4cbaae25f1893e3c1/enquire-0.0.9.tar.gz
+[2023-07-31 12:39:21] INFO root fetch - processPackages [jupyter-events]: Downloading https://files.pythonhosted.org/packages/3f/0a/1c839290324ab93dc79950eaf26e198578db8b27edb587082b6061f4f9f5/jupyter_events-0.7.0.tar.gz
+[2023-07-31 12:39:21] INFO root fetch - processPackages [meringue]: Downloading https://files.pythonhosted.org/packages/4c/29/06a99a893c9e6d35a8173ad044623bfb678c897ef574900c345ba62d10ca/meringue-1.2.0.dev2.tar.gz
+[2023-07-31 12:39:21] INFO root fetch - processPackages [mongodb-python-manager]: Downloading https://files.pythonhosted.org/packages/3c/2a/447d6c2924e7b6563bdab7f6d0a4b0c5a9bd0d43162778bb3cbed9b4e8a5/mongodb_python_manager-1.5.8.tar.gz
+[2023-07-31 12:39:21] INFO root fetch - processPackages [bulk-whois-api]: Downloading https://files.pythonhosted.org/packages/77/6a/82a100e9c1eef77734ea0a1d037fce36f57d38d78c7b2aec4a9ad1d9155e/bulk-whois-api-1.1.0.tar.gz
+[2023-07-31 12:39:21] INFO root fetch - processPackages [nbformat]: Downloading https://files.pythonhosted.org/packages/54/d8/31dceef56952da6ea2c43405a83c9759a22a86cb530197988cfa8599b178/nbformat-5.9.2.tar.gz
+[2023-07-31 12:39:21] INFO root fetch - processPackages [boinc-client]: Downloading https://files.pythonhosted.org/packages/2e/d3/5fa609a21df4dc7d9e3a3230453c9e4aa1c2da05aa1ac76f0f40755f54d8/boinc_client-1.4.6.tar.gz
+[2023-07-31 12:39:21] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/38/e4/29beefe305fdb10f278f9e580a00674c15d78f825ed2ce8fe4f1776e9ead/gardener-cicd-cli-1.2120.0.tar.gz
+[2023-07-31 12:39:21] INFO root fetch - processPackages [enquire]: executing diffoscope
+[2023-07-31 12:39:21] INFO root fetch - processPackages [enquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enquire-0.0.8.tar.gz tmp/enquire-0.0.9.tar.gz --markdown 20230731/e/enquire/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 12:39:21] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/b8/13/c65eb1c5b3e05f490bf4e45558ead6c90dd65ef7434c1277659e892460d9/gardener-cicd-base-1.2120.0.tar.gz
+[2023-07-31 12:39:21] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2023-07-31 12:39:21] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.3.1.post1.tar.gz tmp/dagshub-0.3.1.post2.tar.gz --markdown 20230731/d/dagshub/0.3.1.post1-0.3.1.post2/diff.md --exclude *.pyd
+[2023-07-31 12:39:21] INFO root fetch - processPackages [meringue]: executing diffoscope
+[2023-07-31 12:39:21] INFO root fetch - processPackages [meringue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meringue-1.2.0.dev1.tar.gz tmp/meringue-1.2.0.dev2.tar.gz --markdown 20230731/m/meringue/1.2.0.dev1-1.2.0.dev2/diff.md --exclude *.pyd
+[2023-07-31 12:39:21] INFO root fetch - processPackages [jupyter-events]: executing diffoscope
+[2023-07-31 12:39:21] INFO root fetch - processPackages [jupyter-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_events-0.6.3.tar.gz tmp/jupyter_events-0.7.0.tar.gz --markdown 20230731/j/jupyter-events/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2023-07-31 12:39:21] INFO root fetch - processPackages [mongodb-python-manager]: executing diffoscope
+[2023-07-31 12:39:21] INFO root fetch - processPackages [mongodb-python-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_python_manager-1.5.7.tar.gz tmp/mongodb_python_manager-1.5.8.tar.gz --markdown 20230731/m/mongodb-python-manager/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-07-31 12:39:21] INFO root fetch - processPackages [bulk-whois-api]: executing diffoscope
+[2023-07-31 12:39:21] INFO root fetch - processPackages [bulk-whois-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulk-whois-api-1.0.0.tar.gz tmp/bulk-whois-api-1.1.0.tar.gz --markdown 20230731/b/bulk-whois-api/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-31 12:39:21] INFO root fetch - processPackages [nbformat]: executing diffoscope
+[2023-07-31 12:39:21] INFO root fetch - processPackages [nbformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbformat-5.9.1.tar.gz tmp/nbformat-5.9.2.tar.gz --markdown 20230731/n/nbformat/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-07-31 12:39:21] INFO root fetch - processPackages [boinc-client]: executing diffoscope
+[2023-07-31 12:39:21] INFO root fetch - processPackages [boinc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boinc_client-1.4.5.tar.gz tmp/boinc_client-1.4.6.tar.gz --markdown 20230731/b/boinc-client/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-07-31 12:39:21] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-07-31 12:39:21] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2119.0.tar.gz tmp/gardener-cicd-cli-1.2120.0.tar.gz --markdown 20230731/g/gardener-cicd-cli/1.2119.0-1.2120.0/diff.md --exclude *.pyd
+[2023-07-31 12:39:21] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-07-31 12:39:21] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2119.0.tar.gz tmp/gardener-cicd-base-1.2120.0.tar.gz --markdown 20230731/g/gardener-cicd-base/1.2119.0-1.2120.0/diff.md --exclude *.pyd
+[2023-07-31 12:39:22] INFO root fetch - processPackages [enquire]: Remove: archive file [/home/abi/fetcher/tmp/enquire-0.0.8.tar.gz]
+[2023-07-31 12:39:22] INFO root fetch - processPackages [enquire]: Remove: archive file [/home/abi/fetcher/tmp/enquire-0.0.9.tar.gz]
+[2023-07-31 12:39:22] INFO root fetch - processPackages [enquire]: Start processing: gardener-cicd-dso
+[2023-07-31 12:39:22] INFO root fetch - main [MainThread]: End processing [enquire]: success
+[2023-07-31 12:39:22] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2120.0] Old Version: [1.2119.0]
+[2023-07-31 12:39:22] INFO root fetch - processPackages [mongodb-python-manager]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_python_manager-1.5.7.tar.gz]
+[2023-07-31 12:39:22] INFO root fetch - processPackages [mongodb-python-manager]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_python_manager-1.5.8.tar.gz]
+[2023-07-31 12:39:22] INFO root fetch - processPackages [mongodb-python-manager]: Start processing: gardener-cicd-libs
+[2023-07-31 12:39:22] INFO root fetch - main [MainThread]: End processing [mongodb-python-manager]: success
+[2023-07-31 12:39:22] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2120.0] Old Version: [1.2119.0]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/30/05/3ec8b492001398eafd461313aea0f53c7674e275a8486f433bf9c544b5a5/gardener-cicd-dso-1.2119.0.tar.gz
+[2023-07-31 12:39:23] INFO root fetch - processPackages [meringue]: Remove: archive file [/home/abi/fetcher/tmp/meringue-1.2.0.dev1.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [meringue]: Remove: archive file [/home/abi/fetcher/tmp/meringue-1.2.0.dev2.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [meringue]: Start processing: gardener-cicd-whd
+[2023-07-31 12:39:23] INFO root fetch - main [MainThread]: End processing [meringue]: success
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/be/77/80de49a941a6deaf91be25b43a2d27fa55a0fa06a26d3e4398d5ce2444f2/gardener-cicd-libs-1.2119.0.tar.gz
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2120.0] Old Version: [1.2119.0]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [bulk-whois-api]: Remove: archive file [/home/abi/fetcher/tmp/bulk-whois-api-1.0.0.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [bulk-whois-api]: Remove: archive file [/home/abi/fetcher/tmp/bulk-whois-api-1.1.0.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [boinc-client]: Remove: archive file [/home/abi/fetcher/tmp/boinc_client-1.4.5.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [bulk-whois-api]: Start processing: gardener-oci
+[2023-07-31 12:39:23] INFO root fetch - processPackages [boinc-client]: Remove: archive file [/home/abi/fetcher/tmp/boinc_client-1.4.6.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - main [MainThread]: End processing [bulk-whois-api]: success
+[2023-07-31 12:39:23] INFO root fetch - processPackages [jupyter-events]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_events-0.6.3.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [boinc-client]: Start processing: enquire
+[2023-07-31 12:39:23] INFO root fetch - main [MainThread]: End processing [boinc-client]: success
+[2023-07-31 12:39:23] INFO root fetch - processPackages [jupyter-events]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_events-0.7.0.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [jupyter-events]: Start processing: samna
+[2023-07-31 12:39:23] INFO root fetch - main [MainThread]: End processing [jupyter-events]: success
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2119.0.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2120.0.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-07-31 12:39:23] INFO root fetch - processPackages [enquire]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/46/d3/191807f4014610b2971e551c5969f2ba37d3bc22ae92833835a98468c0ea/gardener-cicd-dso-1.2120.0.tar.gz
+[2023-07-31 12:39:23] INFO root fetch - processPackages [enquire]: Downloading https://files.pythonhosted.org/packages/43/a8/a00656a47ec4a7f79f9e1a81265819de44aa4584b83383b00d9a0ab8ad4e/enquire-0.0.8.tar.gz
+[2023-07-31 12:39:23] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.1.post1.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.1.post2.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2119.0.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2120.0.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/d6/ad/c4815abf1bc62d74c7bd9c9242e915235b15e021a038bce8fe6bbf1e917e/gardener-cicd-whd-1.2119.0.tar.gz
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/64/9c/43d6cdce1c95cd50b9237d9fcdf4ee075ff13d27cdcd7f9f3cb01f6b810b/gardener-cicd-libs-1.2120.0.tar.gz
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2119.0.tar.gz tmp/gardener-cicd-dso-1.2120.0.tar.gz --markdown 20230731/g/gardener-cicd-dso/1.2119.0-1.2120.0/diff.md --exclude *.pyd
+[2023-07-31 12:39:23] INFO root fetch - processPackages [nbformat]: Remove: archive file [/home/abi/fetcher/tmp/nbformat-5.9.1.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - processPackages [nbformat]: Remove: archive file [/home/abi/fetcher/tmp/nbformat-5.9.2.tar.gz]
+[2023-07-31 12:39:23] INFO root fetch - main [MainThread]: End processing [nbformat]: success
+[2023-07-31 12:39:23] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-07-31 12:39:23] INFO root fetch - processPackages [enquire]: Downloading https://files.pythonhosted.org/packages/6d/ca/4721a62c88ae5c47ff2a37f30c59a0c992602680aab4cbaae25f1893e3c1/enquire-0.0.9.tar.gz
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2119.0.tar.gz tmp/gardener-cicd-libs-1.2120.0.tar.gz --markdown 20230731/g/gardener-cicd-libs/1.2119.0-1.2120.0/diff.md --exclude *.pyd
+[2023-07-31 12:39:23] INFO root fetch - processPackages [enquire]: executing diffoscope
+[2023-07-31 12:39:23] INFO root fetch - processPackages [enquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enquire-0.0.8.tar.gz tmp/enquire-0.0.9.tar.gz --markdown 20230731/e/enquire/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/fd/bf/8b9ffd8e6ecab21bb789440be91acc21f7a3f2c0609e1c93bab484facffa/gardener-cicd-whd-1.2120.0.tar.gz
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-07-31 12:39:23] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2119.0.tar.gz tmp/gardener-cicd-whd-1.2120.0.tar.gz --markdown 20230731/g/gardener-cicd-whd/1.2119.0-1.2120.0/diff.md --exclude *.pyd
+[2023-07-31 12:39:24] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-07-31 12:39:24] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2023-07-31 12:39:24] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-07-31 12:39:24] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230731/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-07-31 12:39:24] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-07-31 12:39:24] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230731/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-07-31 12:39:24] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2119.0.tar.gz]
+[2023-07-31 12:39:24] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2120.0.tar.gz]
+[2023-07-31 12:39:24] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-07-31 12:39:24] INFO root fetch - processPackages [enquire]: Remove: archive file [/home/abi/fetcher/tmp/enquire-0.0.8.tar.gz]
+[2023-07-31 12:39:24] INFO root fetch - processPackages [enquire]: Remove: archive file [/home/abi/fetcher/tmp/enquire-0.0.9.tar.gz]
+[2023-07-31 12:39:24] INFO root fetch - main [MainThread]: End processing [enquire]: success
+[2023-07-31 12:39:24] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2119.0.tar.gz]
+[2023-07-31 12:39:24] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2120.0.tar.gz]
+[2023-07-31 12:39:25] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-07-31 12:39:25] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-07-31 12:39:25] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-07-31 12:39:25] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-07-31 12:39:25] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.38.0-py3-none-any.whl.zip]
+[2023-07-31 12:39:25] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.39.0-py3-none-any.whl.zip]
+[2023-07-31 12:39:25] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-07-31 12:39:25] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2119.0.tar.gz]
+[2023-07-31 12:39:25] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2120.0.tar.gz]
+[2023-07-31 12:39:25] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-07-31 12:39:25] INFO root fetch - main [MainThread]: Store serial: [19106342]
