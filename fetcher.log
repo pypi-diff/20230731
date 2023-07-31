@@ -12986,3 +12986,216 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 11:26:17] INFO root fetch - processPackages [pytessng]: Remove: archive file [/home/abi/fetcher/tmp/pytessng-0.1.5.tar.gz]
 [2023-07-31 11:26:17] INFO root fetch - main [MainThread]: End processing [pytessng]: success
 [2023-07-31 11:26:17] INFO root fetch - main [MainThread]: Store serial: [19105291]
+[2023-07-31 11:31:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19105291]
+[2023-07-31 11:31:35] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-07-31 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jutool
+[2023-07-31 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jutool.ml2-util
+[2023-07-31 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jutool.sample-util
+[2023-07-31 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moleculekit
+[2023-07-31 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MySchedule.py
+[2023-07-31 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neolibrary
+[2023-07-31 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pcs-get
+[2023-07-31 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-aap
+[2023-07-31 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hzdatasdk
+[2023-07-31 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sentry-sdk
+[2023-07-31 11:31:35] INFO root fetch - processPackages [moleculekit]: New version: [1.7.6] Old Version: [1.7.4]
+[2023-07-31 11:31:35] ERROR root fetch - processPackages [neolibrary]: Unable to get metadata: No such project 'neolibrary'
+[2023-07-31 11:31:35] INFO root fetch - processPackages [neolibrary]: Start processing: grafana-django-saml2-auth
+[2023-07-31 11:31:35] INFO root fetch - main [MainThread]: End processing [neolibrary] error
+[2023-07-31 11:31:35] INFO root fetch - processPackages [jutool.sample-util]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-31 11:31:35] INFO root fetch - processPackages [pcs-get]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 11:31:35] INFO root fetch - processPackages [jutool]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-31 11:31:35] INFO root fetch - processPackages [jutool.ml2-util]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-31 11:31:35] INFO root fetch - processPackages [MySchedule.py]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-31 11:31:35] INFO root fetch - processPackages [python-aap]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-31 11:31:35] INFO root fetch - processPackages [hzdatasdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 11:31:35] INFO root fetch - processPackages [sentry-sdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-31 11:31:35] INFO root fetch - processPackages [grafana-django-saml2-auth]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-31 11:31:35] INFO root fetch - processPackages [pcs-get]: Downloading https://files.pythonhosted.org/packages/4b/4f/ccda69d95d38dc5ed153ec75d6392a1e3014d755a251f2d495c3295cedba/pcs-get-0.9.8.tar.gz
+[2023-07-31 11:31:35] INFO root fetch - processPackages [moleculekit]: Downloading https://files.pythonhosted.org/packages/6f/9e/2bce5993679a3666fd12803b93bb9a4daa59922f0ecdd26e9726df5d7f73/moleculekit-1.7.4.tar.gz
+[2023-07-31 11:31:35] INFO root fetch - processPackages [jutool.sample-util]: Downloading https://files.pythonhosted.org/packages/f5/c4/7606c70c7ad05bc5954b9be59b6e878714a303e89146875f456de7205f43/jutool.sample_util-0.2.7-py3-none-any.whl
+[2023-07-31 11:31:36] INFO root fetch - processPackages [hzdatasdk]: Downloading https://files.pythonhosted.org/packages/0c/50/701e2c981b85f91775f5f9d3f05da14e878319dffff52094c019a89b1585/hzdatasdk-0.1.1.tar.gz
+[2023-07-31 11:31:36] INFO root fetch - processPackages [jutool.ml2-util]: Downloading https://files.pythonhosted.org/packages/b2/e4/ac5f549f44e2b8e790d8a284b5d7a47c5a98a841cf4e23efd8c7d395530e/jutool.ml2_util-0.2.7-py3-none-any.whl
+[2023-07-31 11:31:36] INFO root fetch - processPackages [python-aap]: Downloading https://files.pythonhosted.org/packages/11/7f/adf103a482914d4da2bcef49fb49c71afd735afe7a92a752e66379f8abea/python-aap-0.0.6.tar.gz
+[2023-07-31 11:31:36] INFO root fetch - processPackages [MySchedule.py]: Downloading https://files.pythonhosted.org/packages/fd/65/0c97d02c3a99dbff64b9b61e9d77c90de86c2b4b140ebe58934eb330ae00/MySchedule.py-1.0.4.tar.gz
+[2023-07-31 11:31:36] INFO root fetch - processPackages [jutool]: Downloading https://files.pythonhosted.org/packages/e9/73/36828bcbadcca59731bb4e060206c0a1c7e58f157246d45365c353617aee/jutool-0.2.8-py3-none-any.whl
+[2023-07-31 11:31:36] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/61/00/dd7e41da95c59f4ccf86be60fcbb5889dc7b215ca5e71c8108cb7892c0b8/sentry-sdk-1.9.8.tar.gz
+[2023-07-31 11:31:36] INFO root fetch - processPackages [grafana-django-saml2-auth]: Downloading https://files.pythonhosted.org/packages/7a/be/d6d4d574277edd19ef6d435d6e621d0c451b39c45f63962df5520a58c4b2/grafana_django_saml2_auth-3.8.0.tar.gz
+[2023-07-31 11:31:36] INFO root fetch - processPackages [pcs-get]: Downloading https://files.pythonhosted.org/packages/bb/55/43913e2458fce33731d3daf6e75b5b5b4253d4e34ac986c90f2e7a365d18/pcs-get-0.9.9.tar.gz
+[2023-07-31 11:31:36] INFO root fetch - processPackages [jutool.ml2-util]: Downloading https://files.pythonhosted.org/packages/49/44/44386249e7d1da3850436d9ac22f183b60ac0754ec51b0076948f80ae5af/jutool.ml2_util-0.2.8-py3-none-any.whl
+[2023-07-31 11:31:36] INFO root fetch - processPackages [python-aap]: Downloading https://files.pythonhosted.org/packages/42/b5/f0818583c311e77bdf100e3cb154566166f6921d99f000416fcff55f92a4/python-aap-0.0.7.tar.gz
+[2023-07-31 11:31:36] INFO root fetch - processPackages [jutool.sample-util]: Downloading https://files.pythonhosted.org/packages/94/d5/9cce71d9632b20360e3472b151818e138ec7c0018e4fae143467cc45872c/jutool.sample_util-0.2.8-py3-none-any.whl
+[2023-07-31 11:31:36] INFO root fetch - processPackages [hzdatasdk]: Downloading https://files.pythonhosted.org/packages/d0/a7/57992d24379decfdc1bae470595f81e09998cc1a490d0145e84a8cf40dd9/hzdatasdk-0.1.2.tar.gz
+[2023-07-31 11:31:36] INFO root fetch - processPackages [MySchedule.py]: Downloading https://files.pythonhosted.org/packages/71/bd/5af76c822850facef3558116a2c845c86891ec3891e161acaa4909247313/MySchedule.py-1.0.5.tar.gz
+[2023-07-31 11:31:36] INFO root fetch - processPackages [jutool.ml2-util]: executing diffoscope
+[2023-07-31 11:31:36] INFO root fetch - processPackages [jutool.ml2-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jutool.ml2_util-0.2.7-py3-none-any.whl.zip tmp/jutool.ml2_util-0.2.8-py3-none-any.whl.zip --markdown 20230731/j/jutool.ml2-util/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-31 11:31:36] INFO root fetch - processPackages [pcs-get]: executing diffoscope
+[2023-07-31 11:31:36] INFO root fetch - processPackages [pcs-get]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcs-get-0.9.8.tar.gz tmp/pcs-get-0.9.9.tar.gz --markdown 20230731/p/pcs-get/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 11:31:36] INFO root fetch - processPackages [python-aap]: executing diffoscope
+[2023-07-31 11:31:36] INFO root fetch - processPackages [python-aap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-aap-0.0.6.tar.gz tmp/python-aap-0.0.7.tar.gz --markdown 20230731/p/python-aap/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-31 11:31:36] INFO root fetch - processPackages [grafana-django-saml2-auth]: Downloading https://files.pythonhosted.org/packages/2e/57/be25686c87e990cdcaa9bb8586492766cc8858d6a9cbea4a66881bdb7ae3/grafana_django_saml2_auth-3.9.0.tar.gz
+[2023-07-31 11:31:36] INFO root fetch - processPackages [jutool]: Downloading https://files.pythonhosted.org/packages/9f/47/a44227caec17afe754c67ba45891ee85f4ebec6c9e310b3c6fa59d5b9083/jutool-0.2.9-py3-none-any.whl
+[2023-07-31 11:31:36] INFO root fetch - processPackages [hzdatasdk]: executing diffoscope
+[2023-07-31 11:31:36] INFO root fetch - processPackages [hzdatasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hzdatasdk-0.1.1.tar.gz tmp/hzdatasdk-0.1.2.tar.gz --markdown 20230731/h/hzdatasdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 11:31:36] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/b5/bf/680dccdef2576e85b3773de1acde3d263d2c3f105187562a6653cc550a8b/sentry-sdk-1.9.9.tar.gz
+[2023-07-31 11:31:36] INFO root fetch - processPackages [MySchedule.py]: executing diffoscope
+[2023-07-31 11:31:36] INFO root fetch - processPackages [MySchedule.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MySchedule.py-1.0.4.tar.gz tmp/MySchedule.py-1.0.5.tar.gz --markdown 20230731/M/MySchedule.py/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-31 11:31:36] INFO root fetch - processPackages [jutool.sample-util]: executing diffoscope
+[2023-07-31 11:31:36] INFO root fetch - processPackages [jutool.sample-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jutool.sample_util-0.2.7-py3-none-any.whl.zip tmp/jutool.sample_util-0.2.8-py3-none-any.whl.zip --markdown 20230731/j/jutool.sample-util/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-31 11:31:36] INFO root fetch - processPackages [grafana-django-saml2-auth]: executing diffoscope
+[2023-07-31 11:31:36] INFO root fetch - processPackages [grafana-django-saml2-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_django_saml2_auth-3.8.0.tar.gz tmp/grafana_django_saml2_auth-3.9.0.tar.gz --markdown 20230731/g/grafana-django-saml2-auth/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-31 11:31:36] INFO root fetch - processPackages [jutool]: executing diffoscope
+[2023-07-31 11:31:36] INFO root fetch - processPackages [jutool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jutool-0.2.8-py3-none-any.whl.zip tmp/jutool-0.2.9-py3-none-any.whl.zip --markdown 20230731/j/jutool/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-31 11:31:36] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2023-07-31 11:31:36] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-sdk-1.9.8.tar.gz tmp/sentry-sdk-1.9.9.tar.gz --markdown 20230731/s/sentry-sdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-31 11:31:36] INFO root fetch - processPackages [moleculekit]: Downloading https://files.pythonhosted.org/packages/fa/63/993d55964a5afc9417ca31ab06a7d08f10b8fb38c63157bef0f350b4bb49/moleculekit-1.7.6.tar.gz
+[2023-07-31 11:31:37] INFO root fetch - processPackages [moleculekit]: executing diffoscope
+[2023-07-31 11:31:37] INFO root fetch - processPackages [moleculekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moleculekit-1.7.4.tar.gz tmp/moleculekit-1.7.6.tar.gz --markdown 20230731/m/moleculekit/1.7.4-1.7.6/diff.md --exclude *.pyd
+[2023-07-31 11:31:38] INFO root fetch - processPackages [pcs-get]: Remove: archive file [/home/abi/fetcher/tmp/pcs-get-0.9.8.tar.gz]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [pcs-get]: Remove: archive file [/home/abi/fetcher/tmp/pcs-get-0.9.9.tar.gz]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [pcs-get]: Start processing: python-aap
+[2023-07-31 11:31:38] INFO root fetch - main [MainThread]: End processing [pcs-get]: success
+[2023-07-31 11:31:38] INFO root fetch - processPackages [MySchedule.py]: Remove: archive file [/home/abi/fetcher/tmp/MySchedule.py-1.0.4.tar.gz]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [MySchedule.py]: Remove: archive file [/home/abi/fetcher/tmp/MySchedule.py-1.0.5.tar.gz]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [MySchedule.py]: Start processing: odoo14-addon-ssi-hr-expense-account
+[2023-07-31 11:31:38] INFO root fetch - main [MainThread]: End processing [MySchedule.py]: success
+[2023-07-31 11:31:38] INFO root fetch - processPackages [python-aap]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-31 11:31:38] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-expense-account]: Skipping, unable to determine old version
+[2023-07-31 11:31:38] INFO root fetch - processPackages [odoo14-addon-ssi-hr-expense-account]: Start processing: gooddata-fdw
+[2023-07-31 11:31:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-expense-account] error
+[2023-07-31 11:31:38] INFO root fetch - processPackages [python-aap]: Remove: archive file [/home/abi/fetcher/tmp/python-aap-0.0.6.tar.gz]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [python-aap]: Remove: archive file [/home/abi/fetcher/tmp/python-aap-0.0.7.tar.gz]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [python-aap]: Start processing: gooddata-api-client
+[2023-07-31 11:31:38] INFO root fetch - main [MainThread]: End processing [python-aap]: success
+[2023-07-31 11:31:38] INFO root fetch - processPackages [gooddata-fdw]: New version: [1.4.0] Old Version: [1.3.1.dev5]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [python-aap]: Downloading https://files.pythonhosted.org/packages/11/7f/adf103a482914d4da2bcef49fb49c71afd735afe7a92a752e66379f8abea/python-aap-0.0.6.tar.gz
+[2023-07-31 11:31:38] INFO root fetch - processPackages [gooddata-api-client]: New version: [1.4.0] Old Version: [1.3.1.dev5]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [hzdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/hzdatasdk-0.1.1.tar.gz]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [hzdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/hzdatasdk-0.1.2.tar.gz]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [hzdatasdk]: Start processing: gooddata-pandas
+[2023-07-31 11:31:38] INFO root fetch - main [MainThread]: End processing [hzdatasdk]: success
+[2023-07-31 11:31:38] INFO root fetch - processPackages [jutool.ml2-util]: Remove: archive file [/home/abi/fetcher/tmp/jutool.ml2_util-0.2.7-py3-none-any.whl.zip]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [jutool.ml2-util]: Remove: archive file [/home/abi/fetcher/tmp/jutool.ml2_util-0.2.8-py3-none-any.whl.zip]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [jutool.ml2-util]: Start processing: odoo14-addon-ssi-hr-expense-account-reimbursement
+[2023-07-31 11:31:38] INFO root fetch - main [MainThread]: End processing [jutool.ml2-util]: success
+[2023-07-31 11:31:38] INFO root fetch - processPackages [gooddata-pandas]: New version: [1.4.0] Old Version: [1.3.1.dev5]
+[2023-07-31 11:31:38] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-expense-account-reimbursement]: Skipping, unable to determine old version
+[2023-07-31 11:31:38] INFO root fetch - processPackages [odoo14-addon-ssi-hr-expense-account-reimbursement]: Start processing: gooddata-sdk
+[2023-07-31 11:31:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-expense-account-reimbursement] error
+[2023-07-31 11:31:38] INFO root fetch - processPackages [gooddata-sdk]: New version: [1.4.0] Old Version: [1.3.1.dev5]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [gooddata-fdw]: Downloading https://files.pythonhosted.org/packages/ef/b6/8908f126ba1b74bb5911e21d724cdc0233d0a79b4a40a65103f59094b22a/gooddata-fdw-1.3.1.dev5.tar.gz
+[2023-07-31 11:31:38] INFO root fetch - processPackages [python-aap]: Downloading https://files.pythonhosted.org/packages/42/b5/f0818583c311e77bdf100e3cb154566166f6921d99f000416fcff55f92a4/python-aap-0.0.7.tar.gz
+[2023-07-31 11:31:38] INFO root fetch - processPackages [jutool.sample-util]: Remove: archive file [/home/abi/fetcher/tmp/jutool.sample_util-0.2.7-py3-none-any.whl.zip]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [jutool.sample-util]: Remove: archive file [/home/abi/fetcher/tmp/jutool.sample_util-0.2.8-py3-none-any.whl.zip]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [jutool.sample-util]: Start processing: odoo14-addon-ssi-hr-expense
+[2023-07-31 11:31:38] INFO root fetch - main [MainThread]: End processing [jutool.sample-util]: success
+[2023-07-31 11:31:38] INFO root fetch - processPackages [gooddata-api-client]: Downloading https://files.pythonhosted.org/packages/5f/95/5b44a0247a4d40a6f476cb84ef1f72a05049bb728b55896192e9e7454b4c/gooddata-api-client-1.3.1.dev5.tar.gz
+[2023-07-31 11:31:38] INFO root fetch - processPackages [grafana-django-saml2-auth]: Remove: archive file [/home/abi/fetcher/tmp/grafana_django_saml2_auth-3.8.0.tar.gz]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [grafana-django-saml2-auth]: Remove: archive file [/home/abi/fetcher/tmp/grafana_django_saml2_auth-3.9.0.tar.gz]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [grafana-django-saml2-auth]: Start processing: odoo14-addon-ssi-hr-cash-advance
+[2023-07-31 11:31:38] INFO root fetch - main [MainThread]: End processing [grafana-django-saml2-auth]: success
+[2023-07-31 11:31:38] INFO root fetch - processPackages [jutool]: Remove: archive file [/home/abi/fetcher/tmp/jutool-0.2.8-py3-none-any.whl.zip]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/17/67/10378292cc109a8fe355c224d4c7e1df50202315da482c2f4e76eb1c3dc5/gooddata-pandas-1.3.1.dev5.tar.gz
+[2023-07-31 11:31:38] INFO root fetch - processPackages [jutool]: Remove: archive file [/home/abi/fetcher/tmp/jutool-0.2.9-py3-none-any.whl.zip]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [jutool]: Start processing: odoo14-addon-ssi-hr-reimbursement
+[2023-07-31 11:31:38] INFO root fetch - main [MainThread]: End processing [jutool]: success
+[2023-07-31 11:31:38] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-expense]: Skipping, unable to determine old version
+[2023-07-31 11:31:38] INFO root fetch - processPackages [odoo14-addon-ssi-hr-expense]: Start processing: lyscripts
+[2023-07-31 11:31:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-expense] error
+[2023-07-31 11:31:38] INFO root fetch - processPackages [python-aap]: executing diffoscope
+[2023-07-31 11:31:38] INFO root fetch - processPackages [python-aap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-aap-0.0.6.tar.gz tmp/python-aap-0.0.7.tar.gz --markdown 20230731/p/python-aap/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-31 11:31:38] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-cash-advance]: Skipping, unable to determine old version
+[2023-07-31 11:31:38] INFO root fetch - processPackages [odoo14-addon-ssi-hr-cash-advance]: Start processing: odoo14-addon-ssi-hr-expense-account-cash-advance
+[2023-07-31 11:31:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-cash-advance] error
+[2023-07-31 11:31:38] INFO root fetch - processPackages [gooddata-sdk]: Downloading https://files.pythonhosted.org/packages/23/c7/6191b683ce88e54eef7254bef551a75df3e70d083619e5c55d155e1137a1/gooddata-sdk-1.3.1.dev5.tar.gz
+[2023-07-31 11:31:38] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: Skipping, unable to determine old version
+[2023-07-31 11:31:38] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: Start processing: cargo2rpm
+[2023-07-31 11:31:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-reimbursement] error
+[2023-07-31 11:31:38] INFO root fetch - processPackages [lyscripts]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-31 11:31:38] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-expense-account-cash-advance]: Skipping, unable to determine old version
+[2023-07-31 11:31:38] INFO root fetch - processPackages [odoo14-addon-ssi-hr-expense-account-cash-advance]: Start processing: python-tackerclient
+[2023-07-31 11:31:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-expense-account-cash-advance] error
+[2023-07-31 11:31:38] INFO root fetch - processPackages [cargo2rpm]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [python-tackerclient]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-31 11:31:38] INFO root fetch - processPackages [lyscripts]: Downloading https://files.pythonhosted.org/packages/c6/de/65cea5b1c0f496a140ca0b60195218a7126a69956cdec3498ee62e30e249/lyscripts-0.7.1.tar.gz
+[2023-07-31 11:31:39] INFO root fetch - processPackages [gooddata-fdw]: Downloading https://files.pythonhosted.org/packages/34/a4/2e0f7ff0c4813fc108f5e221555900333b7318b4dd792663fcb93d17a1b3/gooddata-fdw-1.4.0.tar.gz
+[2023-07-31 11:31:39] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-1.9.8.tar.gz]
+[2023-07-31 11:31:39] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-1.9.9.tar.gz]
+[2023-07-31 11:31:39] INFO root fetch - processPackages [sentry-sdk]: Start processing: demeuk
+[2023-07-31 11:31:39] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2023-07-31 11:31:39] INFO root fetch - processPackages [cargo2rpm]: Downloading https://files.pythonhosted.org/packages/4f/ca/29f4ff80057f047ad310f8e9254a175d65469119760b2e6d52d8e0f1064f/cargo2rpm-0.1.5.tar.gz
+[2023-07-31 11:31:39] INFO root fetch - processPackages [demeuk]: New version: [4.0.1] Old Version: [3.9.7]
+[2023-07-31 11:31:39] INFO root fetch - processPackages [gooddata-fdw]: executing diffoscope
+[2023-07-31 11:31:39] INFO root fetch - processPackages [gooddata-fdw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-fdw-1.3.1.dev5.tar.gz tmp/gooddata-fdw-1.4.0.tar.gz --markdown 20230731/g/gooddata-fdw/1.3.1.dev5-1.4.0/diff.md --exclude *.pyd
+[2023-07-31 11:31:39] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/da/81/aba6322f8e055a2e1c16955b21e8b09db7140927846c4ce5af40369d8006/gooddata-pandas-1.4.0.tar.gz
+[2023-07-31 11:31:39] INFO root fetch - processPackages [gooddata-api-client]: Downloading https://files.pythonhosted.org/packages/39/b0/518f02dd62dbf1a3905cf7b2ea86f6cd049b13c8908c6fef0c23e6c71251/gooddata-api-client-1.4.0.tar.gz
+[2023-07-31 11:31:39] INFO root fetch - processPackages [python-tackerclient]: Downloading https://files.pythonhosted.org/packages/10/e7/43cd6e8d5fde455c781e3302627d17b627697b9245098103be44867cb3c0/python-tackerclient-1.8.0.tar.gz
+[2023-07-31 11:31:39] INFO root fetch - processPackages [gooddata-sdk]: Downloading https://files.pythonhosted.org/packages/2a/e9/c1125333194896c9d2439084ac2de7949426f8da84d9439555283155ae2e/gooddata-sdk-1.4.0.tar.gz
+[2023-07-31 11:31:39] INFO root fetch - processPackages [lyscripts]: Downloading https://files.pythonhosted.org/packages/85/0a/386cdf26f8704f6fff5e061f10ac3159935ceff6ff4a0204ed988cbf82c0/lyscripts-0.7.2.tar.gz
+[2023-07-31 11:31:39] INFO root fetch - processPackages [gooddata-pandas]: executing diffoscope
+[2023-07-31 11:31:39] INFO root fetch - processPackages [gooddata-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-pandas-1.3.1.dev5.tar.gz tmp/gooddata-pandas-1.4.0.tar.gz --markdown 20230731/g/gooddata-pandas/1.3.1.dev5-1.4.0/diff.md --exclude *.pyd
+[2023-07-31 11:31:39] INFO root fetch - processPackages [gooddata-api-client]: executing diffoscope
+[2023-07-31 11:31:39] INFO root fetch - processPackages [gooddata-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-api-client-1.3.1.dev5.tar.gz tmp/gooddata-api-client-1.4.0.tar.gz --markdown 20230731/g/gooddata-api-client/1.3.1.dev5-1.4.0/diff.md --exclude *.pyd
+[2023-07-31 11:31:39] INFO root fetch - processPackages [gooddata-sdk]: executing diffoscope
+[2023-07-31 11:31:39] INFO root fetch - processPackages [gooddata-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-sdk-1.3.1.dev5.tar.gz tmp/gooddata-sdk-1.4.0.tar.gz --markdown 20230731/g/gooddata-sdk/1.3.1.dev5-1.4.0/diff.md --exclude *.pyd
+[2023-07-31 11:31:39] INFO root fetch - processPackages [lyscripts]: executing diffoscope
+[2023-07-31 11:31:39] INFO root fetch - processPackages [lyscripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyscripts-0.7.1.tar.gz tmp/lyscripts-0.7.2.tar.gz --markdown 20230731/l/lyscripts/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-31 11:31:39] INFO root fetch - processPackages [demeuk]: Downloading https://files.pythonhosted.org/packages/e3/a6/f9f1eefcde3d62a3f0661b4e6e3082d4c215655fdb9208d21d2bf4908e1e/demeuk-3.9.7.tar.gz
+[2023-07-31 11:31:39] INFO root fetch - processPackages [cargo2rpm]: Downloading https://files.pythonhosted.org/packages/dd/75/3bd9f20c1d145f81bbc5eb65f3674ace7d5d3f313d97b94b7d47611b78c9/cargo2rpm-0.1.6.tar.gz
+[2023-07-31 11:31:39] INFO root fetch - processPackages [cargo2rpm]: executing diffoscope
+[2023-07-31 11:31:39] INFO root fetch - processPackages [cargo2rpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cargo2rpm-0.1.5.tar.gz tmp/cargo2rpm-0.1.6.tar.gz --markdown 20230731/c/cargo2rpm/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-31 11:31:39] INFO root fetch - processPackages [python-tackerclient]: Downloading https://files.pythonhosted.org/packages/08/2f/f9222b0d82fd993b745e5c1c72e1a1d8c1115e343765c959b0f28ed6b43e/python-tackerclient-1.9.0.tar.gz
+[2023-07-31 11:31:39] INFO root fetch - processPackages [demeuk]: Downloading https://files.pythonhosted.org/packages/19/b1/0c9e5c44908c80dd89038c10527140ab5d1fa2fd38409fec05c9d8520d5d/demeuk-4.0.1.tar.gz
+[2023-07-31 11:31:39] INFO root fetch - processPackages [python-aap]: Remove: archive file [/home/abi/fetcher/tmp/python-aap-0.0.6.tar.gz]
+[2023-07-31 11:31:39] INFO root fetch - processPackages [python-aap]: Remove: archive file [/home/abi/fetcher/tmp/python-aap-0.0.7.tar.gz]
+[2023-07-31 11:31:39] INFO root fetch - processPackages [python-aap]: Start processing: SocksDriver
+[2023-07-31 11:31:39] INFO root fetch - main [MainThread]: End processing [python-aap]: success
+[2023-07-31 11:31:39] INFO root fetch - processPackages [SocksDriver]: New version: [1.3] Old Version: [1.1]
+[2023-07-31 11:31:39] INFO root fetch - processPackages [demeuk]: executing diffoscope
+[2023-07-31 11:31:39] INFO root fetch - processPackages [demeuk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demeuk-3.9.7.tar.gz tmp/demeuk-4.0.1.tar.gz --markdown 20230731/d/demeuk/3.9.7-4.0.1/diff.md --exclude *.pyd
+[2023-07-31 11:31:40] INFO root fetch - processPackages [SocksDriver]: Downloading https://files.pythonhosted.org/packages/dd/e5/47cd3bc4749b770f1bc5df393104e3d287420778599db11f47d78cabd9cb/SocksDriver-1.1.tar.gz
+[2023-07-31 11:31:40] INFO root fetch - processPackages [python-tackerclient]: executing diffoscope
+[2023-07-31 11:31:40] INFO root fetch - processPackages [python-tackerclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-tackerclient-1.8.0.tar.gz tmp/python-tackerclient-1.9.0.tar.gz --markdown 20230731/p/python-tackerclient/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-31 11:31:40] INFO root fetch - processPackages [gooddata-fdw]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-fdw-1.3.1.dev5.tar.gz]
+[2023-07-31 11:31:40] INFO root fetch - processPackages [gooddata-fdw]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-fdw-1.4.0.tar.gz]
+[2023-07-31 11:31:40] INFO root fetch - processPackages [gooddata-fdw]: Start processing: lusid-notifications-sdk-preview
+[2023-07-31 11:31:40] INFO root fetch - main [MainThread]: End processing [gooddata-fdw]: success
+[2023-07-31 11:31:40] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.802] Old Version: [0.1.801]
+[2023-07-31 11:31:40] INFO root fetch - processPackages [SocksDriver]: Downloading https://files.pythonhosted.org/packages/ff/b5/cc2cbb2a323096ee81102bec231606d41d942d96de8e597093d9fdb1c0b7/SocksDriver-1.3.tar.gz
+[2023-07-31 11:31:40] INFO root fetch - processPackages [SocksDriver]: executing diffoscope
+[2023-07-31 11:31:40] INFO root fetch - processPackages [SocksDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SocksDriver-1.1.tar.gz tmp/SocksDriver-1.3.tar.gz --markdown 20230731/S/SocksDriver/1.1-1.3/diff.md --exclude *.pyd
+[2023-07-31 11:31:40] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d0/55/6ddfeda4074198967261d5bde2ecafa607e32a4da6a07bffa6df9a81195d/lusid-notifications-sdk-preview-0.1.801.tar.gz
+[2023-07-31 11:31:40] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.3.1.dev5.tar.gz]
+[2023-07-31 11:31:40] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.4.0.tar.gz]
+[2023-07-31 11:31:40] INFO root fetch - main [MainThread]: End processing [gooddata-pandas]: success
+[2023-07-31 11:31:41] INFO root fetch - processPackages [cargo2rpm]: Remove: archive file [/home/abi/fetcher/tmp/cargo2rpm-0.1.5.tar.gz]
+[2023-07-31 11:31:41] INFO root fetch - processPackages [cargo2rpm]: Remove: archive file [/home/abi/fetcher/tmp/cargo2rpm-0.1.6.tar.gz]
+[2023-07-31 11:31:41] INFO root fetch - main [MainThread]: End processing [cargo2rpm]: success
+[2023-07-31 11:31:41] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ed/bc/78a97cd49ae3ec3973652748c68bb530d70c2c0d52f8eed51942e4add7f3/lusid-notifications-sdk-preview-0.1.802.tar.gz
+[2023-07-31 11:31:41] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-07-31 11:31:41] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.801.tar.gz tmp/lusid-notifications-sdk-preview-0.1.802.tar.gz --markdown 20230731/l/lusid-notifications-sdk-preview/0.1.801-0.1.802/diff.md --exclude *.pyd
+[2023-07-31 11:31:41] INFO root fetch - processPackages [lyscripts]: Remove: archive file [/home/abi/fetcher/tmp/lyscripts-0.7.1.tar.gz]
+[2023-07-31 11:31:41] INFO root fetch - processPackages [lyscripts]: Remove: archive file [/home/abi/fetcher/tmp/lyscripts-0.7.2.tar.gz]
+[2023-07-31 11:31:41] INFO root fetch - main [MainThread]: End processing [lyscripts]: success
+[2023-07-31 11:31:41] INFO root fetch - processPackages [gooddata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-sdk-1.3.1.dev5.tar.gz]
+[2023-07-31 11:31:41] INFO root fetch - processPackages [gooddata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-sdk-1.4.0.tar.gz]
+[2023-07-31 11:31:41] INFO root fetch - main [MainThread]: End processing [gooddata-sdk]: success
+[2023-07-31 11:31:41] INFO root fetch - processPackages [demeuk]: Remove: archive file [/home/abi/fetcher/tmp/demeuk-3.9.7.tar.gz]
+[2023-07-31 11:31:41] INFO root fetch - processPackages [demeuk]: Remove: archive file [/home/abi/fetcher/tmp/demeuk-4.0.1.tar.gz]
+[2023-07-31 11:31:41] INFO root fetch - main [MainThread]: End processing [demeuk]: success
+[2023-07-31 11:31:41] INFO root fetch - processPackages [SocksDriver]: Remove: archive file [/home/abi/fetcher/tmp/SocksDriver-1.1.tar.gz]
+[2023-07-31 11:31:41] INFO root fetch - processPackages [SocksDriver]: Remove: archive file [/home/abi/fetcher/tmp/SocksDriver-1.3.tar.gz]
+[2023-07-31 11:31:41] INFO root fetch - main [MainThread]: End processing [SocksDriver]: success
+[2023-07-31 11:31:42] INFO root fetch - processPackages [python-tackerclient]: Remove: archive file [/home/abi/fetcher/tmp/python-tackerclient-1.8.0.tar.gz]
+[2023-07-31 11:31:42] INFO root fetch - processPackages [python-tackerclient]: Remove: archive file [/home/abi/fetcher/tmp/python-tackerclient-1.9.0.tar.gz]
+[2023-07-31 11:31:42] INFO root fetch - main [MainThread]: End processing [python-tackerclient]: success
+[2023-07-31 11:31:42] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.801.tar.gz]
+[2023-07-31 11:31:42] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.802.tar.gz]
+[2023-07-31 11:31:42] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-07-31 11:31:44] INFO root fetch - processPackages [moleculekit]: Remove: archive file [/home/abi/fetcher/tmp/moleculekit-1.7.4.tar.gz]
+[2023-07-31 11:31:44] INFO root fetch - processPackages [moleculekit]: Remove: archive file [/home/abi/fetcher/tmp/moleculekit-1.7.6.tar.gz]
+[2023-07-31 11:31:44] INFO root fetch - main [MainThread]: End processing [moleculekit]: success
+[2023-07-31 11:31:46] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.3.1.dev5.tar.gz]
+[2023-07-31 11:31:46] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.4.0.tar.gz]
+[2023-07-31 11:31:46] INFO root fetch - main [MainThread]: End processing [gooddata-api-client]: success
+[2023-07-31 11:31:46] INFO root fetch - main [MainThread]: Store serial: [19105385]
