@@ -18408,3 +18408,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 14:33:14] INFO root fetch - processPackages [nipraxis]: Remove: archive file [/home/abi/fetcher/tmp/nipraxis-0.4.1.tar.gz]
 [2023-07-31 14:33:14] INFO root fetch - main [MainThread]: End processing [nipraxis]: success
 [2023-07-31 14:33:14] INFO root fetch - main [MainThread]: Store serial: [19107315]
+[2023-07-31 14:38:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19107315]
+[2023-07-31 14:38:23] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-31 14:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anyforce
+[2023-07-31 14:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geodatacrawler
+[2023-07-31 14:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luminesce-sdk-preview
+[2023-07-31 14:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: projen
+[2023-07-31 14:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mms-nirs
+[2023-07-31 14:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CircuitCalculator
+[2023-07-31 14:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyPhasesML
+[2023-07-31 14:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keboola.json-to-csv
+[2023-07-31 14:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: config-server-client
+[2023-07-31 14:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eofetch
+[2023-07-31 14:38:23] WARNING root fetch - processPackages [eofetch]: Skipping, unable to determine old version
+[2023-07-31 14:38:23] INFO root fetch - processPackages [eofetch]: Start processing: ecoindex-journey-scrapper
+[2023-07-31 14:38:23] INFO root fetch - main [MainThread]: End processing [eofetch] error
+[2023-07-31 14:38:23] INFO root fetch - processPackages [CircuitCalculator]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-31 14:38:24] INFO root fetch - processPackages [mms-nirs]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-31 14:38:24] INFO root fetch - processPackages [pyPhasesML]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-07-31 14:38:24] INFO root fetch - processPackages [config-server-client]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-31 14:38:24] INFO root fetch - processPackages [keboola.json-to-csv]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-31 14:38:24] INFO root fetch - processPackages [geodatacrawler]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 14:38:24] WARNING root fetch - processPackages [ecoindex-journey-scrapper]: Skipping, unable to determine old version
+[2023-07-31 14:38:24] INFO root fetch - processPackages [ecoindex-journey-scrapper]: Start processing: langroid
+[2023-07-31 14:38:24] INFO root fetch - main [MainThread]: End processing [ecoindex-journey-scrapper] error
+[2023-07-31 14:38:24] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-31 14:38:24] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-31 14:38:24] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-31 14:38:24] INFO root fetch - processPackages [langroid]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 14:38:24] INFO root fetch - processPackages [keboola.json-to-csv]: Downloading https://files.pythonhosted.org/packages/db/a5/d3b336ec04a11682f1000bcc6697d103c06c41fb47af70d4e44afe1e685d/keboola.json-to-csv-0.0.5.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/c5/7c/2d197d2accf8907ab8e13659c2219b3e0fc4f479da34baca180e3ec09a0e/pyPhasesML-0.7.3.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [config-server-client]: Downloading https://files.pythonhosted.org/packages/7a/7c/0208c3f6741b032ad78efa727857fae60f3b1219fa6d379e277879d73186/config_server_client-0.0.3.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [mms-nirs]: Downloading https://files.pythonhosted.org/packages/5c/02/9562fbd8d3a4676ca1c5b04eff0e88c6a845756df2ffcec1598b2c0ae5bf/mms_nirs-0.1.4.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/50/7f/7a84baab944d9efa300ce573a47110938978a4d7b72cbb13d3a7cf13ee14/langroid-0.1.8.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/e9/6b/012f1855b3854bed914cfc1577b7852d1bbf3b9d8ef65de04bf67ea35775/CircuitCalculator-0.0.9.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [geodatacrawler]: Downloading https://files.pythonhosted.org/packages/bf/e8/224d961b654a378f4b2ef741137bfa8513d87dca663d261f4a59eac9c30e/geodatacrawler-0.1.1.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [config-server-client]: Downloading https://files.pythonhosted.org/packages/ef/8d/d60babe486ca8dae2dd34a4be7ab0412a2cee8e033f23747cdbba12e96d6/config_server_client-0.0.4.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [keboola.json-to-csv]: Downloading https://files.pythonhosted.org/packages/81/8f/04725c9fce2cceffcc15a6099ff5d3b4d40e1bcfb9d3e6cb7aa85e08b16d/keboola.json-to-csv-0.0.7.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [mms-nirs]: Downloading https://files.pythonhosted.org/packages/36/84/51effba41482233643e9da49bd2f8d21f1ce3949c554a4f2b52717a6eb97/mms_nirs-0.1.5.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/b2/48/00e2d6a1639042a486544d5f5f9200c7e72369b7fcde95da7bc64dd92b55/langroid-0.1.9.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/fc/a8/e71effb081edf4d153f4030ab91d62361983b7170a486009f874b126bff8/pyPhasesML-0.7.4.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/2d/ad/10a1b15f17ad675487dc1c37fc74f2d8da855b750776cb4aaeba73750380/CircuitCalculator-0.1.0.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [geodatacrawler]: Downloading https://files.pythonhosted.org/packages/88/72/6b2d64efdf33151b04b5ae84035c51789c08b68b1d0397bc5432382ab456/geodatacrawler-0.1.2.tar.gz
+[2023-07-31 14:38:24] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-07-31 14:38:24] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230731/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 14:38:25] INFO root fetch - processPackages [keboola.json-to-csv]: executing diffoscope
+[2023-07-31 14:38:25] INFO root fetch - processPackages [keboola.json-to-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keboola.json-to-csv-0.0.5.tar.gz tmp/keboola.json-to-csv-0.0.7.tar.gz --markdown 20230731/k/keboola.json-to-csv/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-31 14:38:25] INFO root fetch - processPackages [config-server-client]: executing diffoscope
+[2023-07-31 14:38:25] INFO root fetch - processPackages [config-server-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_server_client-0.0.3.tar.gz tmp/config_server_client-0.0.4.tar.gz --markdown 20230731/c/config-server-client/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-31 14:38:25] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-31 14:38:25] INFO root fetch - processPackages [mms-nirs]: executing diffoscope
+[2023-07-31 14:38:25] INFO root fetch - processPackages [mms-nirs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mms_nirs-0.1.4.tar.gz tmp/mms_nirs-0.1.5.tar.gz --markdown 20230731/m/mms-nirs/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-31 14:38:25] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2023-07-31 14:38:25] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.8.tar.gz tmp/langroid-0.1.9.tar.gz --markdown 20230731/l/langroid/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 14:38:25] INFO root fetch - processPackages [CircuitCalculator]: executing diffoscope
+[2023-07-31 14:38:25] INFO root fetch - processPackages [CircuitCalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CircuitCalculator-0.0.9.tar.gz tmp/CircuitCalculator-0.1.0.tar.gz --markdown 20230731/C/CircuitCalculator/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-31 14:38:25] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-31 14:38:25] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230731/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-31 14:38:25] INFO root fetch - processPackages [pyPhasesML]: executing diffoscope
+[2023-07-31 14:38:25] INFO root fetch - processPackages [pyPhasesML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesML-0.7.3.tar.gz tmp/pyPhasesML-0.7.4.tar.gz --markdown 20230731/p/pyPhasesML/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-07-31 14:38:25] INFO root fetch - processPackages [geodatacrawler]: executing diffoscope
+[2023-07-31 14:38:25] INFO root fetch - processPackages [geodatacrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodatacrawler-0.1.1.tar.gz tmp/geodatacrawler-0.1.2.tar.gz --markdown 20230731/g/geodatacrawler/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 14:38:25] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-31 14:38:25] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230731/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-31 14:38:26] INFO root fetch - processPackages [config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/config_server_client-0.0.3.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - processPackages [config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/config_server_client-0.0.4.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - processPackages [config-server-client]: Start processing: ul-py-tool
+[2023-07-31 14:38:26] INFO root fetch - main [MainThread]: End processing [config-server-client]: success
+[2023-07-31 14:38:26] INFO root fetch - processPackages [ul-py-tool]: New version: [1.15.23] Old Version: [1.15.22]
+[2023-07-31 14:38:26] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/fe/88/a48b33b6afe4265754e8d3d24423aa3a56cf5bf285292c7e38c9a0825864/ul-py-tool-1.15.22.tar.gz
+[2023-07-31 14:38:26] INFO root fetch - processPackages [keboola.json-to-csv]: Remove: archive file [/home/abi/fetcher/tmp/keboola.json-to-csv-0.0.5.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - processPackages [keboola.json-to-csv]: Remove: archive file [/home/abi/fetcher/tmp/keboola.json-to-csv-0.0.7.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - processPackages [keboola.json-to-csv]: Start processing: catalystai
+[2023-07-31 14:38:26] INFO root fetch - main [MainThread]: End processing [keboola.json-to-csv]: success
+[2023-07-31 14:38:26] INFO root fetch - processPackages [mms-nirs]: Remove: archive file [/home/abi/fetcher/tmp/mms_nirs-0.1.4.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - processPackages [mms-nirs]: Remove: archive file [/home/abi/fetcher/tmp/mms_nirs-0.1.5.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - main [MainThread]: End processing [mms-nirs]: success
+[2023-07-31 14:38:26] WARNING root fetch - processPackages [catalystai]: Skipping, unable to determine old version
+[2023-07-31 14:38:26] INFO root fetch - main [MainThread]: End processing [catalystai] error
+[2023-07-31 14:38:26] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-07-31 14:38:26] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.8.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.9.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2023-07-31 14:38:26] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/86/e1/16644e00e08f4dd06ac3021dde3fa573c0463d9941820786337fb61322e5/ul-py-tool-1.15.23.tar.gz
+[2023-07-31 14:38:26] INFO root fetch - processPackages [ul-py-tool]: executing diffoscope
+[2023-07-31 14:38:26] INFO root fetch - processPackages [ul-py-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-py-tool-1.15.22.tar.gz tmp/ul-py-tool-1.15.23.tar.gz --markdown 20230731/u/ul-py-tool/1.15.22-1.15.23/diff.md --exclude *.pyd
+[2023-07-31 14:38:26] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.0.9.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.1.0.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - main [MainThread]: End processing [CircuitCalculator]: success
+[2023-07-31 14:38:26] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.3.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.4.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - main [MainThread]: End processing [pyPhasesML]: success
+[2023-07-31 14:38:26] INFO root fetch - processPackages [geodatacrawler]: Remove: archive file [/home/abi/fetcher/tmp/geodatacrawler-0.1.1.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - processPackages [geodatacrawler]: Remove: archive file [/home/abi/fetcher/tmp/geodatacrawler-0.1.2.tar.gz]
+[2023-07-31 14:38:26] INFO root fetch - main [MainThread]: End processing [geodatacrawler]: success
+[2023-07-31 14:38:27] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-31 14:38:27] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-31 14:38:27] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-31 14:38:27] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-31 14:38:27] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-31 14:38:27] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-31 14:38:27] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.22.tar.gz]
+[2023-07-31 14:38:27] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.23.tar.gz]
+[2023-07-31 14:38:27] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
+[2023-07-31 14:38:27] INFO root fetch - main [MainThread]: Store serial: [19107357]
