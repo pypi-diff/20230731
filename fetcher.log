@@ -22478,3 +22478,108 @@ AssertionError: tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.z
 [2023-07-31 16:40:26] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-07-31 16:40:26] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-07-31 16:40:26] INFO root fetch - main [MainThread]: Store serial: [19108926]
+[2023-07-31 16:45:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19108926]
+[2023-07-31 16:45:35] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-31 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drb-drivers
+[2023-07-31 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastlane-bot
+[2023-07-31 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mentat-ai
+[2023-07-31 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: litellm
+[2023-07-31 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-nagabus
+[2023-07-31 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: combidata
+[2023-07-31 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybiolib
+[2023-07-31 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aespark
+[2023-07-31 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ofscraper
+[2023-07-31 16:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: numerous.sdk
+[2023-07-31 16:45:36] WARNING root fetch - processPackages [drb-drivers]: Skipping, unable to determine old version
+[2023-07-31 16:45:36] INFO root fetch - processPackages [drb-drivers]: Start processing: teneva-bm
+[2023-07-31 16:45:36] INFO root fetch - main [MainThread]: End processing [drb-drivers] error
+[2023-07-31 16:45:36] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2023-07-31 16:45:36] INFO root fetch - processPackages [combidata]: New version: [0.2.2.3] Old Version: [0.2.2.2]
+[2023-07-31 16:45:36] INFO root fetch - processPackages [nonebot-plugin-nagabus]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-31 16:45:36] INFO root fetch - processPackages [mentat-ai]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-31 16:45:36] INFO root fetch - processPackages [fastlane-bot]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-07-31 16:45:36] INFO root fetch - processPackages [litellm]: New version: [0.1.202] Old Version: [0.1.201]
+[2023-07-31 16:45:36] INFO root fetch - processPackages [aespark]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-31 16:45:36] INFO root fetch - processPackages [numerous.sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-31 16:45:36] INFO root fetch - processPackages [ofscraper]: New version: [2.7.6] Old Version: [2.7.5]
+[2023-07-31 16:45:36] INFO root fetch - processPackages [teneva-bm]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-31 16:45:36] INFO root fetch - processPackages [combidata]: Downloading https://files.pythonhosted.org/packages/9b/df/a59169c09c31b794e64644823bf5d785d12e7d13d374549dff8564d1121a/combidata-0.2.2.2.tar.gz
+[2023-07-31 16:45:36] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2023-07-31 16:45:36] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Downloading https://files.pythonhosted.org/packages/6e/1e/4a8d8e47981e61332671e52b68b2c5ded8f0daba7f3c7d46ff5aa785dcb9/nonebot_plugin_nagabus-0.2.7.tar.gz
+[2023-07-31 16:45:36] INFO root fetch - processPackages [numerous.sdk]: Downloading https://files.pythonhosted.org/packages/c5/19/eb5f9aae5084b96359e6dc09800409c59b897f0ca6465db254d85a753429/numerous.sdk-0.8.0.tar.gz
+[2023-07-31 16:45:36] INFO root fetch - processPackages [aespark]: Downloading https://files.pythonhosted.org/packages/b9/af/e4b8b06c8c28617a725a374f2c4e5125aeca7bdce31ccffa8557fa15db54/aespark-0.0.3.tar.gz
+[2023-07-31 16:45:36] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/44/d0/87cf11791b4e4270daac2a9540384202beeb006be16907218e0ba7340bcc/ofscraper-2.7.5.tar.gz
+[2023-07-31 16:45:36] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/20/b4/b6b70bfa9213f45c71b8f6348b2c03a75ebbc581cde47be53dcdff2350dd/teneva_bm-0.6.2.tar.gz
+[2023-07-31 16:45:36] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/d6/cc/0fe0c24d1008f5952610ad2b11c2b0f9ebe0d091ef99e4d76c2b256367ce/fastlane_bot-2.4.0.tar.gz
+[2023-07-31 16:45:36] INFO root fetch - processPackages [mentat-ai]: Downloading https://files.pythonhosted.org/packages/4b/98/dca6e52ddde5abe422dd0bb54d5d6043512e4b5fd9a472a147ef3ea647c5/mentat-ai-0.1.6.tar.gz
+[2023-07-31 16:45:36] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/f0/66/607f36c2a054f09509ba46dceeed44998fc2d433964a5c26176d681ca9e6/litellm-0.1.201.tar.gz
+[2023-07-31 16:45:36] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2023-07-31 16:45:36] INFO root fetch - processPackages [numerous.sdk]: Downloading https://files.pythonhosted.org/packages/89/b1/8a2eaf2d3b5e5114385f9f271a9de81af8376e58d63490ec17de7acb2de6/numerous.sdk-0.9.0.tar.gz
+[2023-07-31 16:45:36] INFO root fetch - processPackages [combidata]: Downloading https://files.pythonhosted.org/packages/d3/35/5d9bc1554ef342b732784a385cfde951139a8d237637c9d2929fcd9cee51/combidata-0.2.2.3.tar.gz
+[2023-07-31 16:45:37] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/4e/1f/c3072db3952b5d1a20cf6cf9dc5bfb2aca548e253d155471a75ddd7ec184/teneva_bm-0.6.3.tar.gz
+[2023-07-31 16:45:37] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Downloading https://files.pythonhosted.org/packages/ab/e2/806b1c2713d8b2ec86991ad3f9b4ccd7ee1828c1c8d46f645ab8c70711f5/nonebot_plugin_nagabus-0.2.8.tar.gz
+[2023-07-31 16:45:37] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/46/84/48fa4956bf63f46e27010cba2b11c5c1910d22ca12a99cf75d1890fc486d/ofscraper-2.7.6.tar.gz
+[2023-07-31 16:45:37] INFO root fetch - processPackages [mentat-ai]: Downloading https://files.pythonhosted.org/packages/2f/d1/7f8a0bb41d211f26cba42935d9f250818ea2d974e97cbce896cb8e708559/mentat-ai-0.1.7.tar.gz
+[2023-07-31 16:45:37] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-07-31 16:45:37] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20230731/p/pybiolib/1.1.997-1.1.999/diff.md --exclude *.pyd
+[2023-07-31 16:45:37] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/90/c8/701f1cb4aa8558472a410975d850488130ff811a857e0ae649145bc1e9c1/fastlane_bot-2.5.0.tar.gz
+[2023-07-31 16:45:37] INFO root fetch - processPackages [combidata]: executing diffoscope
+[2023-07-31 16:45:37] INFO root fetch - processPackages [combidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/combidata-0.2.2.2.tar.gz tmp/combidata-0.2.2.3.tar.gz --markdown 20230731/c/combidata/0.2.2.2-0.2.2.3/diff.md --exclude *.pyd
+[2023-07-31 16:45:37] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/c0/b1/038fb642bdc000c11c8d7a88de6fc8c2883c079a7eb98df93e22122c5958/litellm-0.1.202.tar.gz
+[2023-07-31 16:45:37] INFO root fetch - processPackages [nonebot-plugin-nagabus]: executing diffoscope
+[2023-07-31 16:45:37] INFO root fetch - processPackages [nonebot-plugin-nagabus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nagabus-0.2.7.tar.gz tmp/nonebot_plugin_nagabus-0.2.8.tar.gz --markdown 20230731/n/nonebot-plugin-nagabus/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-31 16:45:37] INFO root fetch - processPackages [numerous.sdk]: executing diffoscope
+[2023-07-31 16:45:37] INFO root fetch - processPackages [numerous.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerous.sdk-0.8.0.tar.gz tmp/numerous.sdk-0.9.0.tar.gz --markdown 20230731/n/numerous.sdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 16:45:37] INFO root fetch - processPackages [teneva-bm]: executing diffoscope
+[2023-07-31 16:45:37] INFO root fetch - processPackages [teneva-bm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teneva_bm-0.6.2.tar.gz tmp/teneva_bm-0.6.3.tar.gz --markdown 20230731/t/teneva-bm/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-31 16:45:37] INFO root fetch - processPackages [aespark]: Downloading https://files.pythonhosted.org/packages/42/5d/c05cadd5664a81cc04a3604e6310f88aa08289dfc50fbafefa28bf2e24a7/aespark-0.0.4.tar.gz
+[2023-07-31 16:45:37] INFO root fetch - processPackages [mentat-ai]: executing diffoscope
+[2023-07-31 16:45:37] INFO root fetch - processPackages [mentat-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentat-ai-0.1.6.tar.gz tmp/mentat-ai-0.1.7.tar.gz --markdown 20230731/m/mentat-ai/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-31 16:45:37] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-07-31 16:45:37] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-2.7.5.tar.gz tmp/ofscraper-2.7.6.tar.gz --markdown 20230731/o/ofscraper/2.7.5-2.7.6/diff.md --exclude *.pyd
+[2023-07-31 16:45:37] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-07-31 16:45:37] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.201.tar.gz tmp/litellm-0.1.202.tar.gz --markdown 20230731/l/litellm/0.1.201-0.1.202/diff.md --exclude *.pyd
+[2023-07-31 16:45:37] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-31 16:45:37] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-2.4.0.tar.gz tmp/fastlane_bot-2.5.0.tar.gz --markdown 20230731/f/fastlane-bot/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-07-31 16:45:38] INFO root fetch - processPackages [combidata]: Remove: archive file [/home/abi/fetcher/tmp/combidata-0.2.2.2.tar.gz]
+[2023-07-31 16:45:38] INFO root fetch - processPackages [combidata]: Remove: archive file [/home/abi/fetcher/tmp/combidata-0.2.2.3.tar.gz]
+[2023-07-31 16:45:38] INFO root fetch - processPackages [combidata]: Start processing: openshift-python-wrapper
+[2023-07-31 16:45:38] INFO root fetch - main [MainThread]: End processing [combidata]: success
+[2023-07-31 16:45:38] INFO root fetch - processPackages [aespark]: executing diffoscope
+[2023-07-31 16:45:38] INFO root fetch - processPackages [aespark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aespark-0.0.3.tar.gz tmp/aespark-0.0.4.tar.gz --markdown 20230731/a/aespark/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-31 16:45:38] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.201.tar.gz]
+[2023-07-31 16:45:38] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.202.tar.gz]
+[2023-07-31 16:45:38] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-07-31 16:45:38] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2023-07-31 16:45:38] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nagabus-0.2.7.tar.gz]
+[2023-07-31 16:45:38] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nagabus-0.2.8.tar.gz]
+[2023-07-31 16:45:38] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nagabus]: success
+[2023-07-31 16:45:38] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2023-07-31 16:45:39] INFO root fetch - processPackages [numerous.sdk]: Remove: archive file [/home/abi/fetcher/tmp/numerous.sdk-0.8.0.tar.gz]
+[2023-07-31 16:45:39] INFO root fetch - processPackages [numerous.sdk]: Remove: archive file [/home/abi/fetcher/tmp/numerous.sdk-0.9.0.tar.gz]
+[2023-07-31 16:45:39] INFO root fetch - main [MainThread]: End processing [numerous.sdk]: success
+[2023-07-31 16:45:39] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2023-07-31 16:45:39] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.7.5.tar.gz]
+[2023-07-31 16:45:39] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.7.6.tar.gz]
+[2023-07-31 16:45:39] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-07-31 16:45:39] INFO root fetch - processPackages [mentat-ai]: Remove: archive file [/home/abi/fetcher/tmp/mentat-ai-0.1.6.tar.gz]
+[2023-07-31 16:45:39] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.6.2.tar.gz]
+[2023-07-31 16:45:39] INFO root fetch - processPackages [mentat-ai]: Remove: archive file [/home/abi/fetcher/tmp/mentat-ai-0.1.7.tar.gz]
+[2023-07-31 16:45:39] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.6.3.tar.gz]
+[2023-07-31 16:45:39] INFO root fetch - main [MainThread]: End processing [mentat-ai]: success
+[2023-07-31 16:45:39] INFO root fetch - main [MainThread]: End processing [teneva-bm]: success
+[2023-07-31 16:45:39] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2023-07-31 16:45:39] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20230731/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2023-07-31 16:45:39] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2023-07-31 16:45:39] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2023-07-31 16:45:39] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-07-31 16:45:39] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-2.4.0.tar.gz]
+[2023-07-31 16:45:39] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-2.5.0.tar.gz]
+[2023-07-31 16:45:39] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-07-31 16:45:40] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.7.12.tar.gz]
+[2023-07-31 16:45:40] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.9.12.tar.gz]
+[2023-07-31 16:45:40] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2023-07-31 16:45:43] INFO root fetch - processPackages [aespark]: Remove: archive file [/home/abi/fetcher/tmp/aespark-0.0.3.tar.gz]
+[2023-07-31 16:45:43] INFO root fetch - processPackages [aespark]: Remove: archive file [/home/abi/fetcher/tmp/aespark-0.0.4.tar.gz]
+[2023-07-31 16:45:43] INFO root fetch - main [MainThread]: End processing [aespark]: success
+[2023-07-31 16:45:43] INFO root fetch - main [MainThread]: Store serial: [19108965]
