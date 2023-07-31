@@ -7702,3 +7702,64 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 07:19:36] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.2.2.tar.gz]
 [2023-07-31 07:19:36] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
 [2023-07-31 07:19:36] INFO root fetch - main [MainThread]: Store serial: [19102920]
+[2023-07-31 07:24:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102920]
+[2023-07-31 07:24:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-31 07:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crypto-screening
+[2023-07-31 07:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docsbot
+[2023-07-31 07:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bspy
+[2023-07-31 07:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-gui
+[2023-07-31 07:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: email-extractor-unicode
+[2023-07-31 07:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frgeostat
+[2023-07-31 07:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testApiGroup
+[2023-07-31 07:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testApiGroup
+[2023-07-31 07:24:45] WARNING root fetch - processPackages [docsbot]: Skipping, unable to determine old version
+[2023-07-31 07:24:45] INFO root fetch - main [MainThread]: End processing [docsbot] error
+[2023-07-31 07:24:45] INFO root fetch - processPackages [bspy]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-31 07:24:45] INFO root fetch - processPackages [crypto-screening]: New version: [8.4.1] Old Version: [8.4.0]
+[2023-07-31 07:24:45] INFO root fetch - processPackages [frgeostat]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 07:24:45] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.53.2] Old Version: [0.0.53.1]
+[2023-07-31 07:24:45] WARNING root fetch - processPackages [email-extractor-unicode]: Skipping, unable to determine old version
+[2023-07-31 07:24:45] INFO root fetch - main [MainThread]: End processing [email-extractor-unicode] error
+[2023-07-31 07:24:45] INFO root fetch - processPackages [testApiGroup]: New version: [1.0.0.1] Old Version: [1.0.0.0]
+[2023-07-31 07:24:45] INFO root fetch - processPackages [testApiGroup]: New version: [1.0.0.1] Old Version: [1.0.0.0]
+[2023-07-31 07:24:45] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/85/88/c1ca60abadad5e01b6296146b5251eb50480af1c38cde78f0d61aac8ec87/crypto-screening-8.4.0.tar.gz
+[2023-07-31 07:24:45] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/93/45/e5dc8e3c88f360eb2e10c9e2528dacbd2fd06c5eea2697b0d0c4b09345aa/abstract_gui-0.0.53.1.tar.gz
+[2023-07-31 07:24:45] INFO root fetch - processPackages [frgeostat]: Downloading https://files.pythonhosted.org/packages/a2/39/5f1ea1a0a62ed5e9d9adf6242be1158d7b8a0761632d135432d9f8814d89/frgeostat-0.1.0.tar.gz
+[2023-07-31 07:24:45] INFO root fetch - processPackages [bspy]: Downloading https://files.pythonhosted.org/packages/76/e9/26cc29e502a2c17a040c8225ba72a662d4af75c33689e35a2f416972407c/bspy-1.1.0.tar.gz
+[2023-07-31 07:24:45] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/68/5f/fc5163aa6ba5e6bcd1d4ff3724456e46421c34afc1e636b65ff7f4df5b8a/testApiGroup-1.0.0.0.tar.gz
+[2023-07-31 07:24:45] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/68/5f/fc5163aa6ba5e6bcd1d4ff3724456e46421c34afc1e636b65ff7f4df5b8a/testApiGroup-1.0.0.0.tar.gz
+[2023-07-31 07:24:45] INFO root fetch - processPackages [frgeostat]: Downloading https://files.pythonhosted.org/packages/5f/c1/6b400f7a478a61e331915fa39d9f8c02f8db6745b9146a33fcc225f531a4/frgeostat-0.1.1.tar.gz
+[2023-07-31 07:24:46] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/f5/46/35273799156a944b144e5da23b48c685b96059569e1b3a6e03dd84a2a28d/abstract_gui-0.0.53.2.tar.gz
+[2023-07-31 07:24:46] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/70/3c/18435bb9fb3fdbb639555e8691ad8c3342b266c4404728c01f7119b3f200/crypto-screening-8.4.1.tar.gz
+[2023-07-31 07:24:46] INFO root fetch - processPackages [frgeostat]: executing diffoscope
+[2023-07-31 07:24:46] INFO root fetch - processPackages [frgeostat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frgeostat-0.1.0.tar.gz tmp/frgeostat-0.1.1.tar.gz --markdown 20230731/f/frgeostat/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 07:24:46] INFO root fetch - processPackages [bspy]: Downloading https://files.pythonhosted.org/packages/95/d2/74e2727a7a3d85412b69922ac55bd550b23a4213d845f22924165edbf773/bspy-1.2.0.tar.gz
+[2023-07-31 07:24:46] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-31 07:24:46] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-8.4.0.tar.gz tmp/crypto-screening-8.4.1.tar.gz --markdown 20230731/c/crypto-screening/8.4.0-8.4.1/diff.md --exclude *.pyd
+[2023-07-31 07:24:46] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/9c/61/c3d1b34e101db3311acfc1abe0b054adee84b6de9c9c31d6cfa604889fa1/testApiGroup-1.0.0.1.tar.gz
+[2023-07-31 07:24:46] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/9c/61/c3d1b34e101db3311acfc1abe0b054adee84b6de9c9c31d6cfa604889fa1/testApiGroup-1.0.0.1.tar.gz
+[2023-07-31 07:24:46] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 07:24:46] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.53.1.tar.gz tmp/abstract_gui-0.0.53.2.tar.gz --markdown 20230731/a/abstract-gui/0.0.53.1-0.0.53.2/diff.md --exclude *.pyd
+[2023-07-31 07:24:46] INFO root fetch - processPackages [bspy]: executing diffoscope
+[2023-07-31 07:24:46] INFO root fetch - processPackages [bspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bspy-1.1.0.tar.gz tmp/bspy-1.2.0.tar.gz --markdown 20230731/b/bspy/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-31 07:24:46] INFO root fetch - processPackages [testApiGroup]: executing diffoscope
+[2023-07-31 07:24:46] INFO root fetch - processPackages [testApiGroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testApiGroup-1.0.0.0.tar.gz tmp/testApiGroup-1.0.0.1.tar.gz --markdown 20230731/t/testApiGroup/1.0.0.0-1.0.0.1/diff.md --exclude *.pyd
+[2023-07-31 07:24:46] INFO root fetch - processPackages [testApiGroup]: executing diffoscope
+[2023-07-31 07:24:46] INFO root fetch - processPackages [testApiGroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testApiGroup-1.0.0.0.tar.gz tmp/testApiGroup-1.0.0.1.tar.gz --markdown 20230731/t/testApiGroup/1.0.0.0-1.0.0.1/diff.md --exclude *.pyd
+[2023-07-31 07:24:47] INFO root fetch - processPackages [frgeostat]: Remove: archive file [/home/abi/fetcher/tmp/frgeostat-0.1.0.tar.gz]
+[2023-07-31 07:24:47] INFO root fetch - processPackages [frgeostat]: Remove: archive file [/home/abi/fetcher/tmp/frgeostat-0.1.1.tar.gz]
+[2023-07-31 07:24:47] INFO root fetch - main [MainThread]: End processing [frgeostat]: success
+[2023-07-31 07:24:47] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.0.tar.gz]
+[2023-07-31 07:24:47] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.1.tar.gz]
+[2023-07-31 07:24:47] INFO root fetch - main [MainThread]: End processing [testApiGroup]: success
+[2023-07-31 07:24:47] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.1.tar.gz]
+[2023-07-31 07:24:47] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.2.tar.gz]
+[2023-07-31 07:24:47] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 07:24:47] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.4.0.tar.gz]
+[2023-07-31 07:24:47] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.4.1.tar.gz]
+[2023-07-31 07:24:47] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-31 07:24:47] INFO root fetch - main [MainThread]: End processing [testApiGroup]: success
+[2023-07-31 07:24:47] INFO root fetch - processPackages [bspy]: Remove: archive file [/home/abi/fetcher/tmp/bspy-1.1.0.tar.gz]
+[2023-07-31 07:24:47] INFO root fetch - processPackages [bspy]: Remove: archive file [/home/abi/fetcher/tmp/bspy-1.2.0.tar.gz]
+[2023-07-31 07:24:47] INFO root fetch - main [MainThread]: End processing [bspy]: success
+[2023-07-31 07:24:47] INFO root fetch - main [MainThread]: Store serial: [19102949]
