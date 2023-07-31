@@ -7629,3 +7629,76 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 07:14:24] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
 [2023-07-31 07:14:24] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-07-31 07:14:24] INFO root fetch - main [MainThread]: Store serial: [19102886]
+[2023-07-31 07:19:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102886]
+[2023-07-31 07:19:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-31 07:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-gui
+[2023-07-31 07:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wi1-bot
+[2023-07-31 07:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-gui
+[2023-07-31 07:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cofi
+[2023-07-31 07:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapidpe-rift-pipe
+[2023-07-31 07:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-kis
+[2023-07-31 07:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scoda-tk
+[2023-07-31 07:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frgeostat
+[2023-07-31 07:19:32] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.53.1] Old Version: [0.0.53.0]
+[2023-07-31 07:19:32] INFO root fetch - processPackages [frgeostat]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 07:19:32] INFO root fetch - processPackages [cofi]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-31 07:19:32] INFO root fetch - processPackages [python-kis]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-31 07:19:33] INFO root fetch - processPackages [wi1-bot]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-31 07:19:33] INFO root fetch - processPackages [scoda-tk]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-31 07:19:33] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.53.1] Old Version: [0.0.53.0]
+[2023-07-31 07:19:33] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230731] Old Version: [0.5.4.dev20230730]
+[2023-07-31 07:19:33] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/51/28/d3d04ae960155c57182a254876c3845eb4695c081b6cdf9cdb9aafc5f4d2/rapidpe_rift_pipe-0.5.4.dev20230730.tar.gz
+[2023-07-31 07:19:33] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/33/1f/3cd99ca27bdbaaa4c90e4e38f8f7ab8d8c3931a1ed030529092fb0397856/abstract_gui-0.0.53.0.tar.gz
+[2023-07-31 07:19:33] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/33/1f/3cd99ca27bdbaaa4c90e4e38f8f7ab8d8c3931a1ed030529092fb0397856/abstract_gui-0.0.53.0.tar.gz
+[2023-07-31 07:19:33] INFO root fetch - processPackages [python-kis]: Downloading https://files.pythonhosted.org/packages/76/4b/319fc25b527461b078cbf3ff71bc4a4f7f1be1e1f76cbea1f6392bfa710c/python_kis-1.0.5-py3-none-any.whl
+[2023-07-31 07:19:33] INFO root fetch - processPackages [frgeostat]: Downloading https://files.pythonhosted.org/packages/a2/39/5f1ea1a0a62ed5e9d9adf6242be1158d7b8a0761632d135432d9f8814d89/frgeostat-0.1.0.tar.gz
+[2023-07-31 07:19:33] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/26/94/43da99b0cb28e06f0ddb6d1d7d1a43c7d8b939f3ce50f17e48911454677d/scoda-tk-0.2.1.tar.gz
+[2023-07-31 07:19:33] INFO root fetch - processPackages [wi1-bot]: Downloading https://files.pythonhosted.org/packages/fe/20/6ac8cb168f6dbabb364ed0b2a9434c2c9d89e51b26a5dd2b34d079ca3e96/wi1-bot-1.3.5.tar.gz
+[2023-07-31 07:19:33] INFO root fetch - processPackages [cofi]: Downloading https://files.pythonhosted.org/packages/f2/fe/4f143e61adaae1ebcc3de32e3777a1a1c4e760104517d6a2d9e8638c6c50/cofi-0.2.2.tar.gz
+[2023-07-31 07:19:33] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/f1/e4/48b2002c4586935d0481502681f5c917fa972aa8fbab6f61d19924f0913e/rapidpe_rift_pipe-0.5.4.dev20230731.tar.gz
+[2023-07-31 07:19:33] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/93/45/e5dc8e3c88f360eb2e10c9e2528dacbd2fd06c5eea2697b0d0c4b09345aa/abstract_gui-0.0.53.1.tar.gz
+[2023-07-31 07:19:33] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/93/45/e5dc8e3c88f360eb2e10c9e2528dacbd2fd06c5eea2697b0d0c4b09345aa/abstract_gui-0.0.53.1.tar.gz
+[2023-07-31 07:19:33] INFO root fetch - processPackages [frgeostat]: Downloading https://files.pythonhosted.org/packages/5f/c1/6b400f7a478a61e331915fa39d9f8c02f8db6745b9146a33fcc225f531a4/frgeostat-0.1.1.tar.gz
+[2023-07-31 07:19:33] INFO root fetch - processPackages [python-kis]: Downloading https://files.pythonhosted.org/packages/37/9b/e0e62eefe29ab12a1329e4c9089175db2b518ee3d62c52abacac5e6c2793/python_kis-1.0.6-py3-none-any.whl
+[2023-07-31 07:19:33] INFO root fetch - processPackages [wi1-bot]: Downloading https://files.pythonhosted.org/packages/17/c3/5e9e34913b93b4b718efaceb3a30ca5b695fb9f5973c1eb3cce243b79613/wi1-bot-1.3.6.tar.gz
+[2023-07-31 07:19:33] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-07-31 07:19:33] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230730.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230731.tar.gz --markdown 20230731/r/rapidpe-rift-pipe/0.5.4.dev20230730-0.5.4.dev20230731/diff.md --exclude *.pyd
+[2023-07-31 07:19:33] INFO root fetch - processPackages [cofi]: Downloading https://files.pythonhosted.org/packages/94/82/ae4f2c06e84b5668f1304ca0a291f1f6aa4fe3e49d5aecfa1c25e48b0abd/cofi-0.2.3.tar.gz
+[2023-07-31 07:19:33] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 07:19:33] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.53.0.tar.gz tmp/abstract_gui-0.0.53.1.tar.gz --markdown 20230731/a/abstract-gui/0.0.53.0-0.0.53.1/diff.md --exclude *.pyd
+[2023-07-31 07:19:33] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 07:19:33] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.53.0.tar.gz tmp/abstract_gui-0.0.53.1.tar.gz --markdown 20230731/a/abstract-gui/0.0.53.0-0.0.53.1/diff.md --exclude *.pyd
+[2023-07-31 07:19:33] INFO root fetch - processPackages [python-kis]: executing diffoscope
+[2023-07-31 07:19:33] INFO root fetch - processPackages [python-kis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_kis-1.0.5-py3-none-any.whl.zip tmp/python_kis-1.0.6-py3-none-any.whl.zip --markdown 20230731/p/python-kis/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-31 07:19:33] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/57/46/b25b9d27276c45d5a52264f2d956f3856f2722863597136fe51226e6f033/scoda-tk-0.2.2.tar.gz
+[2023-07-31 07:19:33] INFO root fetch - processPackages [frgeostat]: executing diffoscope
+[2023-07-31 07:19:33] INFO root fetch - processPackages [frgeostat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frgeostat-0.1.0.tar.gz tmp/frgeostat-0.1.1.tar.gz --markdown 20230731/f/frgeostat/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 07:19:33] INFO root fetch - processPackages [wi1-bot]: executing diffoscope
+[2023-07-31 07:19:33] INFO root fetch - processPackages [wi1-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wi1-bot-1.3.5.tar.gz tmp/wi1-bot-1.3.6.tar.gz --markdown 20230731/w/wi1-bot/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-31 07:19:34] INFO root fetch - processPackages [cofi]: executing diffoscope
+[2023-07-31 07:19:34] INFO root fetch - processPackages [cofi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cofi-0.2.2.tar.gz tmp/cofi-0.2.3.tar.gz --markdown 20230731/c/cofi/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-31 07:19:34] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-07-31 07:19:34] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.2.1.tar.gz tmp/scoda-tk-0.2.2.tar.gz --markdown 20230731/s/scoda-tk/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-31 07:19:35] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230730.tar.gz]
+[2023-07-31 07:19:35] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230731.tar.gz]
+[2023-07-31 07:19:35] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-07-31 07:19:35] INFO root fetch - processPackages [wi1-bot]: Remove: archive file [/home/abi/fetcher/tmp/wi1-bot-1.3.5.tar.gz]
+[2023-07-31 07:19:35] INFO root fetch - processPackages [wi1-bot]: Remove: archive file [/home/abi/fetcher/tmp/wi1-bot-1.3.6.tar.gz]
+[2023-07-31 07:19:35] INFO root fetch - processPackages [frgeostat]: Remove: archive file [/home/abi/fetcher/tmp/frgeostat-0.1.0.tar.gz]
+[2023-07-31 07:19:35] INFO root fetch - processPackages [frgeostat]: Remove: archive file [/home/abi/fetcher/tmp/frgeostat-0.1.1.tar.gz]
+[2023-07-31 07:19:35] INFO root fetch - main [MainThread]: End processing [wi1-bot]: success
+[2023-07-31 07:19:35] INFO root fetch - main [MainThread]: End processing [frgeostat]: success
+[2023-07-31 07:19:35] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.0.tar.gz]
+[2023-07-31 07:19:35] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.1.tar.gz]
+[2023-07-31 07:19:35] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 07:19:35] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 07:19:35] INFO root fetch - processPackages [cofi]: Remove: archive file [/home/abi/fetcher/tmp/cofi-0.2.2.tar.gz]
+[2023-07-31 07:19:35] INFO root fetch - processPackages [cofi]: Remove: archive file [/home/abi/fetcher/tmp/cofi-0.2.3.tar.gz]
+[2023-07-31 07:19:35] INFO root fetch - main [MainThread]: End processing [cofi]: success
+[2023-07-31 07:19:36] INFO root fetch - processPackages [python-kis]: Remove: archive file [/home/abi/fetcher/tmp/python_kis-1.0.5-py3-none-any.whl.zip]
+[2023-07-31 07:19:36] INFO root fetch - processPackages [python-kis]: Remove: archive file [/home/abi/fetcher/tmp/python_kis-1.0.6-py3-none-any.whl.zip]
+[2023-07-31 07:19:36] INFO root fetch - main [MainThread]: End processing [python-kis]: success
+[2023-07-31 07:19:36] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.2.1.tar.gz]
+[2023-07-31 07:19:36] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.2.2.tar.gz]
+[2023-07-31 07:19:36] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-07-31 07:19:36] INFO root fetch - main [MainThread]: Store serial: [19102920]
