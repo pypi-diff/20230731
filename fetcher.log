@@ -23273,3 +23273,224 @@ AssertionError: tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.z
 [2023-07-31 17:03:35] INFO root fetch - processPackages [large-image-source-openjpeg]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz]
 [2023-07-31 17:03:35] INFO root fetch - main [MainThread]: End processing [large-image-source-openjpeg]: success
 [2023-07-31 17:03:35] INFO root fetch - main [MainThread]: Store serial: [19109248]
+[2023-07-31 17:08:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19109248]
+[2023-07-31 17:08:44] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-07-31 17:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: large-image-source-openjpeg
+[2023-07-31 17:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: large-image-source-openslide
+[2023-07-31 17:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: large-image-source-pil
+[2023-07-31 17:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: large-image-source-rasterio
+[2023-07-31 17:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geodatacrawler
+[2023-07-31 17:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: large-image-source-test
+[2023-07-31 17:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: large-image-source-tiff
+[2023-07-31 17:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: large-image-source-tifffile
+[2023-07-31 17:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: large-image-source-vips
+[2023-07-31 17:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytimbr-sqla
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-pil]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-tifffile]: New version: [1.23.3.dev26] Old Version: [1.23.3.dev24]
+[2023-07-31 17:08:45] WARNING root fetch - processPackages [pytimbr-sqla]: Skipping, unable to determine old version
+[2023-07-31 17:08:45] INFO root fetch - processPackages [pytimbr-sqla]: Start processing: pymoog
+[2023-07-31 17:08:45] INFO root fetch - main [MainThread]: End processing [pytimbr-sqla] error
+[2023-07-31 17:08:45] INFO root fetch - processPackages [geodatacrawler]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-rasterio]: New version: [1.23.3.dev26] Old Version: [1.23.3.dev24]
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-openjpeg]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-test]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-31 17:08:45] INFO root fetch - processPackages [pymoog]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.23.3.dev26] Old Version: [1.23.3.dev24]
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-tiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-openslide]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-openjpeg]: Downloading https://files.pythonhosted.org/packages/95/ea/1df84324de3d3648afee1380dfe201cc2df04f407dc2811e7244e4f911d8/large-image-source-openjpeg-1.9.1.dev6.tar.gz
+[2023-07-31 17:08:45] INFO root fetch - processPackages [geodatacrawler]: Downloading https://files.pythonhosted.org/packages/ad/f1/f788532dcf9abb0a303985b8ef2cf6efc2d526a8bbc8e14f01e3698f4069/geodatacrawler-1.1.0.tar.gz
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/62/43/ee7dff22ed2010638ae04420c847d0eeeffd3ec95c15aef5dd78c0f9de79/large-image-source-pil-1.9.1.dev6.tar.gz
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/2a/e6/c0bff7d84e7f3c24fe964062ec326e4d302536ba3a63e40e4b6887d86e12/large-image-source-tifffile-1.23.3.dev24.tar.gz
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/be/40/e260a3619193417d0e103bc6e8ee187f6460c08d6ebc3e5f4bc25b7c5825/large-image-source-rasterio-1.23.3.dev24.tar.gz
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/8d/5f/0655a339ab1bb6dda15d0c4e174a5c2f0eae690a497018f912f490f67c26/large-image-source-test-1.9.1.dev6.tar.gz
+[2023-07-31 17:08:45] INFO root fetch - processPackages [pymoog]: Downloading https://files.pythonhosted.org/packages/20/8d/7cc2b54f93e1399e3f2b69e981048bb0582b1bd95524991d8d9a2509bf25/pymoog-0.1.1.tar.gz
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/f3/35/2043b7af9ba629caef105c10c5bd487df6665055458d98361182de1a416e/large-image-source-vips-1.23.3.dev24.tar.gz
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-openslide]: Downloading https://files.pythonhosted.org/packages/73/2c/cb5bcd12f494516af0965d8399bae2e5b62d6c0afc01da7b16b2ebef69c2/large-image-source-openslide-1.9.1.dev6.tar.gz
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/de/d8/11a04e7da12bfb1cea85e4c0ff3b470f2d1e1b4f18bdbc908482765c9bef/large-image-source-tiff-1.9.1.dev6.tar.gz
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-openjpeg]: Downloading https://files.pythonhosted.org/packages/b7/c9/95c7e2154104780b160e9968dd9863f2de88d77a5986bc280d05e4811ebd/large-image-source-openjpeg-1.9.1.dev8.tar.gz
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-openjpeg]: executing diffoscope
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-openjpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openjpeg-1.9.1.dev6.tar.gz tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz --markdown 20230731/l/large-image-source-openjpeg/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/51/73/2b201201e4bd4d42037d602dc35d468eba8131dce691debda3e43e3817f7/large-image-source-pil-1.9.1.dev8.tar.gz
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/ed/e3/6d2eb0f8d04b91c6bd4d10bdfcec68bb080616e10887d5415af3f1cfbd00/large-image-source-tifffile-1.23.3.dev26.tar.gz
+[2023-07-31 17:08:45] INFO root fetch - processPackages [geodatacrawler]: Downloading https://files.pythonhosted.org/packages/e6/76/32cc1e00743829945f041a8ee922e4a1d5d6ebc487400adb38243de3018e/geodatacrawler-1.1.1.tar.gz
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/59/8e/9645468e71571eb433bf4eef14283a686bb384f0eb6b53bf2449cfbb67e4/large-image-source-rasterio-1.23.3.dev26.tar.gz
+[2023-07-31 17:08:45] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/6c/52/b863313751b2cf1efc96557c639944027ef1db00dedd386ad79707764cfe/large-image-source-test-1.9.1.dev8.tar.gz
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-pil]: executing diffoscope
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-pil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-pil-1.9.1.dev6.tar.gz tmp/large-image-source-pil-1.9.1.dev8.tar.gz --markdown 20230731/l/large-image-source-pil/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-openslide]: Downloading https://files.pythonhosted.org/packages/f0/7e/d45a7c8f1888ff585bf418622f627fb048aaa7ed8d8e2b8d7e97a3c27f8e/large-image-source-openslide-1.9.1.dev8.tar.gz
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/1d/e4/def78005a865fada3d6d1f1d1b45d1dc76a9ba074c2b7284b81717b67cea/large-image-source-tiff-1.9.1.dev8.tar.gz
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/2b/2f/a3158045673b7a5f902a606aeae16ce429ddde514a9ac470542a0432290d/large-image-source-vips-1.23.3.dev26.tar.gz
+[2023-07-31 17:08:46] INFO root fetch - processPackages [pymoog]: Downloading https://files.pythonhosted.org/packages/47/34/38bd7c5d4b0c84e36df91dc8ae5f2ca4f155c44ff1f246d14afa618e251f/pymoog-0.1.2.tar.gz
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-tifffile]: executing diffoscope
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tifffile-1.23.3.dev24.tar.gz tmp/large-image-source-tifffile-1.23.3.dev26.tar.gz --markdown 20230731/l/large-image-source-tifffile/1.23.3.dev24-1.23.3.dev26/diff.md --exclude *.pyd
+[2023-07-31 17:08:46] INFO root fetch - processPackages [geodatacrawler]: executing diffoscope
+[2023-07-31 17:08:46] INFO root fetch - processPackages [geodatacrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodatacrawler-1.1.0.tar.gz tmp/geodatacrawler-1.1.1.tar.gz --markdown 20230731/g/geodatacrawler/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-test]: executing diffoscope
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-test-1.9.1.dev6.tar.gz tmp/large-image-source-test-1.9.1.dev8.tar.gz --markdown 20230731/l/large-image-source-test/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-rasterio]: executing diffoscope
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-rasterio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-rasterio-1.23.3.dev24.tar.gz tmp/large-image-source-rasterio-1.23.3.dev26.tar.gz --markdown 20230731/l/large-image-source-rasterio/1.23.3.dev24-1.23.3.dev26/diff.md --exclude *.pyd
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-openslide]: executing diffoscope
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-openslide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openslide-1.9.1.dev6.tar.gz tmp/large-image-source-openslide-1.9.1.dev8.tar.gz --markdown 20230731/l/large-image-source-openslide/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-tiff]: executing diffoscope
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tiff-1.9.1.dev6.tar.gz tmp/large-image-source-tiff-1.9.1.dev8.tar.gz --markdown 20230731/l/large-image-source-tiff/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-31 17:08:46] INFO root fetch - processPackages [pymoog]: executing diffoscope
+[2023-07-31 17:08:46] INFO root fetch - processPackages [pymoog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymoog-0.1.1.tar.gz tmp/pymoog-0.1.2.tar.gz --markdown 20230731/p/pymoog/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2023-07-31 17:08:46] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.23.3.dev24.tar.gz tmp/large-image-source-vips-1.23.3.dev26.tar.gz --markdown 20230731/l/large-image-source-vips/1.23.3.dev24-1.23.3.dev26/diff.md --exclude *.pyd
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-openjpeg]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openjpeg-1.9.1.dev6.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-openjpeg]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-openjpeg]: Start processing: YahooRequests
+[2023-07-31 17:08:47] INFO root fetch - main [MainThread]: End processing [large-image-source-openjpeg]: success
+[2023-07-31 17:08:47] INFO root fetch - processPackages [YahooRequests]: New version: [0.1.5.6] Old Version: [0.1.5.5]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [YahooRequests]: Downloading https://files.pythonhosted.org/packages/6c/ac/e4f069d918f491337893930bdb500374e290f3a75341db8e0b8baa9d349e/YahooRequests-0.1.5.5.tar.gz
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev6.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev8.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-pil]: Start processing: doubleblind
+[2023-07-31 17:08:47] INFO root fetch - main [MainThread]: End processing [large-image-source-pil]: success
+[2023-07-31 17:08:47] INFO root fetch - processPackages [doubleblind]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [YahooRequests]: Downloading https://files.pythonhosted.org/packages/7f/1d/bf21625a005f208176c04a7b38e1cafdefd9f0e91d298874be8fec62d1b9/YahooRequests-0.1.5.6.tar.gz
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.23.3.dev24.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.23.3.dev26.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-tifffile]: Start processing: aliyun-python-sdk-rds
+[2023-07-31 17:08:47] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
+[2023-07-31 17:08:47] INFO root fetch - processPackages [YahooRequests]: executing diffoscope
+[2023-07-31 17:08:47] INFO root fetch - processPackages [YahooRequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YahooRequests-0.1.5.5.tar.gz tmp/YahooRequests-0.1.5.6.tar.gz --markdown 20230731/Y/YahooRequests/0.1.5.5-0.1.5.6/diff.md --exclude *.pyd
+[2023-07-31 17:08:47] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev6.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev8.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-test]: Start processing: qoa4ml
+[2023-07-31 17:08:47] INFO root fetch - processPackages [geodatacrawler]: Remove: archive file [/home/abi/fetcher/tmp/geodatacrawler-1.1.0.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - main [MainThread]: End processing [large-image-source-test]: success
+[2023-07-31 17:08:47] INFO root fetch - processPackages [geodatacrawler]: Remove: archive file [/home/abi/fetcher/tmp/geodatacrawler-1.1.1.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [geodatacrawler]: Start processing: gundi-client-v2
+[2023-07-31 17:08:47] INFO root fetch - main [MainThread]: End processing [geodatacrawler]: success
+[2023-07-31 17:08:47] INFO root fetch - processPackages [qoa4ml]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [doubleblind]: Downloading https://files.pythonhosted.org/packages/25/fa/57729bea5efd68b88e0dcd2ff15f6ed22f85595069dfb0e70defafaefde0/doubleblind-1.0.1.tar.gz
+[2023-07-31 17:08:47] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-31 17:08:47] INFO root fetch - processPackages [gundi-client-v2]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/51/c7/cd1041805b655b218dfdd05e3c725b4cbfba7307b897e74347d4ad115066/qoa4ml-0.0.91.tar.gz
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.23.3.dev24.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.23.3.dev26.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-vips]: Start processing: trytond
+[2023-07-31 17:08:47] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.23.3.dev24.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-openslide]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openslide-1.9.1.dev6.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.23.3.dev26.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-openslide]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openslide-1.9.1.dev8.tar.gz]
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-rasterio]: Start processing: pulumi-confluentcloud
+[2023-07-31 17:08:47] INFO root fetch - processPackages [large-image-source-openslide]: Start processing: trytond
+[2023-07-31 17:08:47] INFO root fetch - main [MainThread]: End processing [large-image-source-rasterio]: success
+[2023-07-31 17:08:47] INFO root fetch - main [MainThread]: End processing [large-image-source-openslide]: success
+[2023-07-31 17:08:48] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev6.tar.gz]
+[2023-07-31 17:08:48] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev8.tar.gz]
+[2023-07-31 17:08:48] INFO root fetch - processPackages [large-image-source-tiff]: Start processing: AstroInstrumentAD
+[2023-07-31 17:08:48] INFO root fetch - main [MainThread]: End processing [large-image-source-tiff]: success
+[2023-07-31 17:08:48] INFO root fetch - processPackages [trytond]: New version: [6.8.3] Old Version: [6.8.2]
+[2023-07-31 17:08:48] INFO root fetch - processPackages [gundi-client-v2]: Downloading https://files.pythonhosted.org/packages/e0/fd/c889394f26a525c4391b4e159449536d792927e247c1184cc05507d4a3ee/gundi_client_v2-2.1.0.tar.gz
+[2023-07-31 17:08:48] INFO root fetch - processPackages [AstroInstrumentAD]: New version: [0.148] Old Version: [0.147]
+[2023-07-31 17:08:48] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/e7/68/2ab2c5998c978acde95155f9d8882b12a15ebe9059c29c3220d4f615d27a/qoa4ml-0.0.92.tar.gz
+[2023-07-31 17:08:48] INFO root fetch - processPackages [trytond]: New version: [6.8.3] Old Version: [6.8.2]
+[2023-07-31 17:08:48] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-07-31 17:08:48] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-31 17:08:48] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-07-31 17:08:48] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.0.91.tar.gz tmp/qoa4ml-0.0.92.tar.gz --markdown 20230731/q/qoa4ml/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-07-31 17:08:48] INFO root fetch - processPackages [doubleblind]: Downloading https://files.pythonhosted.org/packages/08/f9/c75d6ad9872909c7542d81d96e71b84a06fd360726d9d5210559542473a3/doubleblind-1.1.0.tar.gz
+[2023-07-31 17:08:48] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/7d/35/ca77df9da3a374dc40a541b616726eb470539f1ddff16ce4f55bc4e31577/AstroInstrumentAD-0.147.tar.gz
+[2023-07-31 17:08:48] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-07-31 17:08:48] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/d2/cd/11694f49cdc9560e2ab98dfa3c3f8d06567bebb22d394cfb713ad20625bb/trytond-6.8.2.tar.gz
+[2023-07-31 17:08:48] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/d2/cd/11694f49cdc9560e2ab98dfa3c3f8d06567bebb22d394cfb713ad20625bb/trytond-6.8.2.tar.gz
+[2023-07-31 17:08:48] INFO root fetch - processPackages [doubleblind]: executing diffoscope
+[2023-07-31 17:08:48] INFO root fetch - processPackages [doubleblind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doubleblind-1.0.1.tar.gz tmp/doubleblind-1.1.0.tar.gz --markdown 20230731/d/doubleblind/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-31 17:08:48] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/d6/bb/20b09ccedf5387f6e8d9115467b7e781d1801163ed8d573fbb750604e89c/AstroInstrumentAD-0.148.tar.gz
+[2023-07-31 17:08:48] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-31 17:08:48] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230731/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-31 17:08:48] INFO root fetch - processPackages [gundi-client-v2]: Downloading https://files.pythonhosted.org/packages/7d/81/2751dba76e5c97c8b9a6b6d9680e943d483625a0a4f3cd10667dce19ca0e/gundi_client_v2-2.1.1.tar.gz
+[2023-07-31 17:08:48] INFO root fetch - processPackages [AstroInstrumentAD]: executing diffoscope
+[2023-07-31 17:08:48] INFO root fetch - processPackages [AstroInstrumentAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AstroInstrumentAD-0.147.tar.gz tmp/AstroInstrumentAD-0.148.tar.gz --markdown 20230731/A/AstroInstrumentAD/0.147-0.148/diff.md --exclude *.pyd
+[2023-07-31 17:08:48] INFO root fetch - processPackages [gundi-client-v2]: executing diffoscope
+[2023-07-31 17:08:48] INFO root fetch - processPackages [gundi-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gundi_client_v2-2.1.0.tar.gz tmp/gundi_client_v2-2.1.1.tar.gz --markdown 20230731/g/gundi-client-v2/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-31 17:08:48] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-07-31 17:08:48] INFO root fetch - processPackages [YahooRequests]: Remove: archive file [/home/abi/fetcher/tmp/YahooRequests-0.1.5.5.tar.gz]
+[2023-07-31 17:08:48] INFO root fetch - processPackages [YahooRequests]: Remove: archive file [/home/abi/fetcher/tmp/YahooRequests-0.1.5.6.tar.gz]
+[2023-07-31 17:08:48] INFO root fetch - processPackages [YahooRequests]: Start processing: freva
+[2023-07-31 17:08:48] INFO root fetch - main [MainThread]: End processing [YahooRequests]: success
+[2023-07-31 17:08:48] INFO root fetch - processPackages [freva]: New version: [2307.0.2] Old Version: [2307.0.0]
+[2023-07-31 17:08:49] INFO root fetch - processPackages [freva]: Downloading https://files.pythonhosted.org/packages/ce/85/e891ab5d1c9b9296c081ea21123eaab3d91db84e6c86a83523053c60b49a/freva-2307.0.0.tar.gz
+[2023-07-31 17:08:49] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-07-31 17:08:49] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230731/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-07-31 17:08:49] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/b7/05/10f727875fa13fa2ffc36a9887884eb325765c4c9b760094598fe1608db2/trytond-6.8.3.tar.gz
+[2023-07-31 17:08:49] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/b7/05/10f727875fa13fa2ffc36a9887884eb325765c4c9b760094598fe1608db2/trytond-6.8.3.tar.gz
+[2023-07-31 17:08:49] INFO root fetch - processPackages [trytond]: executing diffoscope
+[2023-07-31 17:08:49] INFO root fetch - processPackages [trytond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-6.8.2.tar.gz tmp/trytond-6.8.3.tar.gz --markdown 20230731/t/trytond/6.8.2-6.8.3/diff.md --exclude *.pyd
+[2023-07-31 17:08:49] INFO root fetch - processPackages [trytond]: executing diffoscope
+[2023-07-31 17:08:49] INFO root fetch - processPackages [trytond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-6.8.2.tar.gz tmp/trytond-6.8.3.tar.gz --markdown 20230731/t/trytond/6.8.2-6.8.3/diff.md --exclude *.pyd
+[2023-07-31 17:08:49] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.91.tar.gz]
+[2023-07-31 17:08:49] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.92.tar.gz]
+[2023-07-31 17:08:49] INFO root fetch - processPackages [qoa4ml]: Start processing: pocketsphinx
+[2023-07-31 17:08:49] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-07-31 17:08:49] INFO root fetch - processPackages [pocketsphinx]: New version: [5.0.1] Old Version: [5.0.0rc5]
+[2023-07-31 17:08:49] INFO root fetch - processPackages [freva]: Downloading https://files.pythonhosted.org/packages/04/43/b13b656d1166708b56e014491649e697a93e8444c407e0eb73bfa61a1507/freva-2307.0.2.tar.gz
+[2023-07-31 17:08:49] INFO root fetch - processPackages [freva]: executing diffoscope
+[2023-07-31 17:08:49] INFO root fetch - processPackages [freva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freva-2307.0.0.tar.gz tmp/freva-2307.0.2.tar.gz --markdown 20230731/f/freva/2307.0.0-2307.0.2/diff.md --exclude *.pyd
+[2023-07-31 17:08:49] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.147.tar.gz]
+[2023-07-31 17:08:49] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.148.tar.gz]
+[2023-07-31 17:08:49] INFO root fetch - processPackages [AstroInstrumentAD]: Start processing: toiro
+[2023-07-31 17:08:49] INFO root fetch - main [MainThread]: End processing [AstroInstrumentAD]: success
+[2023-07-31 17:08:49] INFO root fetch - processPackages [pocketsphinx]: Downloading https://files.pythonhosted.org/packages/14/8b/e54c4eaf4ae0084d0e89de119576e4e49ad3d9767775fb63e4d33bd77af3/pocketsphinx-5.0.0rc5.tar.gz
+[2023-07-31 17:08:49] INFO root fetch - processPackages [gundi-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/gundi_client_v2-2.1.0.tar.gz]
+[2023-07-31 17:08:49] INFO root fetch - processPackages [gundi-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/gundi_client_v2-2.1.1.tar.gz]
+[2023-07-31 17:08:49] INFO root fetch - processPackages [gundi-client-v2]: Start processing: trytond
+[2023-07-31 17:08:49] INFO root fetch - main [MainThread]: End processing [gundi-client-v2]: success
+[2023-07-31 17:08:49] INFO root fetch - processPackages [trytond]: New version: [6.8.3] Old Version: [6.8.2]
+[2023-07-31 17:08:49] INFO root fetch - processPackages [toiro]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 17:08:49] INFO root fetch - processPackages [doubleblind]: Remove: archive file [/home/abi/fetcher/tmp/doubleblind-1.0.1.tar.gz]
+[2023-07-31 17:08:49] INFO root fetch - processPackages [doubleblind]: Remove: archive file [/home/abi/fetcher/tmp/doubleblind-1.1.0.tar.gz]
+[2023-07-31 17:08:49] INFO root fetch - processPackages [doubleblind]: Start processing: config-server-client
+[2023-07-31 17:08:49] INFO root fetch - main [MainThread]: End processing [doubleblind]: success
+[2023-07-31 17:08:50] INFO root fetch - processPackages [config-server-client]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-31 17:08:50] INFO root fetch - processPackages [trytond]: executing diffoscope
+[2023-07-31 17:08:50] INFO root fetch - processPackages [trytond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-6.8.2.tar.gz tmp/trytond-6.8.3.tar.gz --markdown 20230731/t/trytond/6.8.2-6.8.3/diff.md --exclude *.pyd
+[2023-07-31 17:08:50] INFO root fetch - processPackages [toiro]: Downloading https://files.pythonhosted.org/packages/36/e4/ed063955599ca52b0cae82b8c340a65d9da1d4194319ebdd8b6653a84b9d/toiro-0.0.8.tar.gz
+[2023-07-31 17:08:50] INFO root fetch - processPackages [pymoog]: Remove: archive file [/home/abi/fetcher/tmp/pymoog-0.1.1.tar.gz]
+[2023-07-31 17:08:50] INFO root fetch - processPackages [pymoog]: Remove: archive file [/home/abi/fetcher/tmp/pymoog-0.1.2.tar.gz]
+[2023-07-31 17:08:50] INFO root fetch - processPackages [pymoog]: Start processing: angmom-suite
+[2023-07-31 17:08:50] INFO root fetch - main [MainThread]: End processing [pymoog]: success
+[2023-07-31 17:08:50] INFO root fetch - processPackages [angmom-suite]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-31 17:08:50] INFO root fetch - processPackages [config-server-client]: Downloading https://files.pythonhosted.org/packages/1d/67/17e5351c3971dc958c4a34f9c109bd235fd795978c66f9454ffd320d1a23/config_server_client-0.0.6.tar.gz
+[2023-07-31 17:08:50] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/0c/61/698f9619ad7ae1dda4e582a74dae0e7910c95d6910e49af840cd217ca385/angmom_suite-1.8.2.tar.gz
+[2023-07-31 17:08:50] INFO root fetch - processPackages [config-server-client]: Downloading https://files.pythonhosted.org/packages/db/ad/8174f9985514c46ce810afec5ce9b70b5416486de9d5e1640d8dd413e176/config_server_client-0.0.7.tar.gz
+[2023-07-31 17:08:50] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/aa/f2/4b1999e91fe587a8c51098a142e94717915c29c1d2b7e5107e95bd5da4af/angmom_suite-1.9.0.tar.gz
+[2023-07-31 17:08:50] INFO root fetch - processPackages [config-server-client]: executing diffoscope
+[2023-07-31 17:08:50] INFO root fetch - processPackages [config-server-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_server_client-0.0.6.tar.gz tmp/config_server_client-0.0.7.tar.gz --markdown 20230731/c/config-server-client/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-31 17:08:50] INFO root fetch - processPackages [toiro]: Downloading https://files.pythonhosted.org/packages/58/6d/5ce9fb71d7575206457bcf7efd8a348b58568d0275c061ce595b2e8deb50/toiro-0.0.9.tar.gz
+[2023-07-31 17:08:50] WARNING root fetch - processPackages [pocketsphinx]: Skipping package: exceeds size limit 33889756>=10485760
+[2023-07-31 17:08:50] INFO root fetch - main [MainThread]: End processing [pocketsphinx] error
+[2023-07-31 17:08:50] INFO root fetch - processPackages [angmom-suite]: executing diffoscope
+[2023-07-31 17:08:50] INFO root fetch - processPackages [angmom-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angmom_suite-1.8.2.tar.gz tmp/angmom_suite-1.9.0.tar.gz --markdown 20230731/a/angmom-suite/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-31 17:08:50] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2023-07-31 17:08:50] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2023-07-31 17:08:50] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-07-31 17:08:50] INFO root fetch - processPackages [toiro]: executing diffoscope
+[2023-07-31 17:08:50] INFO root fetch - processPackages [toiro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toiro-0.0.8.tar.gz tmp/toiro-0.0.9.tar.gz --markdown 20230731/t/toiro/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 17:08:51] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-31 17:08:51] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-31 17:08:51] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-31 17:08:51] INFO root fetch - processPackages [freva]: Remove: archive file [/home/abi/fetcher/tmp/freva-2307.0.0.tar.gz]
+[2023-07-31 17:08:51] INFO root fetch - processPackages [freva]: Remove: archive file [/home/abi/fetcher/tmp/freva-2307.0.2.tar.gz]
+[2023-07-31 17:08:51] INFO root fetch - main [MainThread]: End processing [freva]: success
+[2023-07-31 17:08:51] INFO root fetch - processPackages [config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/config_server_client-0.0.6.tar.gz]
+[2023-07-31 17:08:51] INFO root fetch - processPackages [config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/config_server_client-0.0.7.tar.gz]
+[2023-07-31 17:08:51] INFO root fetch - main [MainThread]: End processing [config-server-client]: success
+[2023-07-31 17:08:51] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.8.2.tar.gz]
+[2023-07-31 17:08:51] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.9.0.tar.gz]
+[2023-07-31 17:08:51] INFO root fetch - main [MainThread]: End processing [angmom-suite]: success
+[2023-07-31 17:08:52] INFO root fetch - processPackages [toiro]: Remove: archive file [/home/abi/fetcher/tmp/toiro-0.0.8.tar.gz]
+[2023-07-31 17:08:52] INFO root fetch - processPackages [toiro]: Remove: archive file [/home/abi/fetcher/tmp/toiro-0.0.9.tar.gz]
+[2023-07-31 17:08:52] INFO root fetch - main [MainThread]: End processing [toiro]: success
+[2023-07-31 17:08:54] INFO root fetch - processPackages [trytond]: Remove: archive file [/home/abi/fetcher/tmp/trytond-6.8.2.tar.gz]
+[2023-07-31 17:08:54] INFO root fetch - processPackages [trytond]: Remove: archive file [/home/abi/fetcher/tmp/trytond-6.8.3.tar.gz]
+[2023-07-31 17:08:54] INFO root fetch - main [MainThread]: End processing [trytond]: success
+[2023-07-31 17:08:54] INFO root fetch - main [MainThread]: End processing [trytond]: success
+[2023-07-31 17:08:54] INFO root fetch - main [MainThread]: End processing [trytond]: success
+[2023-07-31 17:08:54] INFO root fetch - main [MainThread]: Store serial: [19109347]
