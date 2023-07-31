@@ -22583,3 +22583,138 @@ AssertionError: tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.z
 [2023-07-31 16:45:43] INFO root fetch - processPackages [aespark]: Remove: archive file [/home/abi/fetcher/tmp/aespark-0.0.4.tar.gz]
 [2023-07-31 16:45:43] INFO root fetch - main [MainThread]: End processing [aespark]: success
 [2023-07-31 16:45:43] INFO root fetch - main [MainThread]: Store serial: [19108965]
+[2023-07-31 16:50:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19108965]
+[2023-07-31 16:50:52] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-31 16:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faasmctl
+[2023-07-31 16:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bionty
+[2023-07-31 16:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: richie
+[2023-07-31 16:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qoa4ml
+[2023-07-31 16:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openshift-python-wrapper
+[2023-07-31 16:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: YahooRequests
+[2023-07-31 16:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: githup
+[2023-07-31 16:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openshift-python-wrapper
+[2023-07-31 16:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Musicreater
+[2023-07-31 16:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blockapi
+[2023-07-31 16:50:52] INFO root fetch - processPackages [blockapi]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-31 16:50:52] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2023-07-31 16:50:52] INFO root fetch - processPackages [faasmctl]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-31 16:50:52] INFO root fetch - processPackages [Musicreater]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-31 16:50:52] INFO root fetch - processPackages [YahooRequests]: New version: [0.1.5.5] Old Version: [0.1.5.4]
+[2023-07-31 16:50:52] WARNING root fetch - processPackages [githup]: Skipping, unable to determine old version
+[2023-07-31 16:50:52] INFO root fetch - processPackages [githup]: Start processing: dkist-service-configuration
+[2023-07-31 16:50:52] INFO root fetch - main [MainThread]: End processing [githup] error
+[2023-07-31 16:50:52] INFO root fetch - processPackages [qoa4ml]: New version: [0.0.9] Old Version: [0.0.89]
+[2023-07-31 16:50:52] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-31 16:50:52] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-31 16:50:52] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2023-07-31 16:50:52] INFO root fetch - processPackages [dkist-service-configuration]: New version: [1.0.0rc4] Old Version: [1.0.0rc3]
+[2023-07-31 16:50:52] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/31/4d/7d461a226992bb823af9a205b83532fd5cf942306b4ad4f220a2817a8ee4/blockapi-0.8.1.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/38/e4/dff09873a8761498bf090bc86a2364dfcd7753dd9bc74448aa6c71a828eb/faasmctl-0.9.0.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/09/c9/515bc4de494938eddc339edb4bfdbcb10d94e1ee358d61b82121e4ae88df/qoa4ml-0.0.89.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [Musicreater]: Downloading https://files.pythonhosted.org/packages/99/76/bbdbf699b8dbeaffe9bf2d12e35fdcbf158beb9d0939bf0833dd3e0ca8cf/Musicreater-1.2.0.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [YahooRequests]: Downloading https://files.pythonhosted.org/packages/de/99/4a9516f3da23e7b026df7bca7c1461ab16bc3095a3c54d44a816be5e68a7/YahooRequests-0.1.5.4.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [dkist-service-configuration]: Downloading https://files.pythonhosted.org/packages/fd/8c/9ceb1b438eed67b37aa8aa60f81b20adb9a9464f09c0e33e9a8925001cbd/dkist-service-configuration-1.0.0rc3.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/0c/01/118d11594cadd27f432673733bcdd3696a16233bffeac49f779a2ff835f8/qoa4ml-0.0.9.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2023-07-31 16:50:53] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20230731/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2023-07-31 16:50:53] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/12/94/9638f501b93a4d5196fdc4cc2fabae586b16cd83dfce921eca78c2dec55f/faasmctl-0.9.1.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [Musicreater]: Downloading https://files.pythonhosted.org/packages/8c/31/e135fa23be5285691a7a3b46f8d6299ced9984ad8ee12ca6ef2fdfc2be1a/Musicreater-1.2.1.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/6a/ed/17b1b9e53b4a0bb6d3d31ae17aeaa73238a3bc01d6b208f6b4fb0812d638/blockapi-0.9.0.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-07-31 16:50:53] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.0.89.tar.gz tmp/qoa4ml-0.0.9.tar.gz --markdown 20230731/q/qoa4ml/0.0.89-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 16:50:53] INFO root fetch - processPackages [dkist-service-configuration]: Downloading https://files.pythonhosted.org/packages/fd/be/fafb83b8266c1b6ac79ee3417236efe0e41e7a47956fcf3b76c35d8f79ce/dkist-service-configuration-1.0.0rc4.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [YahooRequests]: Downloading https://files.pythonhosted.org/packages/6c/ac/e4f069d918f491337893930bdb500374e290f3a75341db8e0b8baa9d349e/YahooRequests-0.1.5.5.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2023-07-31 16:50:53] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20230731/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2023-07-31 16:50:53] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-31 16:50:53] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.9.0.tar.gz tmp/faasmctl-0.9.1.tar.gz --markdown 20230731/f/faasmctl/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-31 16:50:53] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2023-07-31 16:50:53] INFO root fetch - processPackages [blockapi]: executing diffoscope
+[2023-07-31 16:50:53] INFO root fetch - processPackages [blockapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockapi-0.8.1.tar.gz tmp/blockapi-0.9.0.tar.gz --markdown 20230731/b/blockapi/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 16:50:53] INFO root fetch - processPackages [Musicreater]: executing diffoscope
+[2023-07-31 16:50:53] INFO root fetch - processPackages [Musicreater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Musicreater-1.2.0.tar.gz tmp/Musicreater-1.2.1.tar.gz --markdown 20230731/M/Musicreater/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-31 16:50:53] INFO root fetch - processPackages [dkist-service-configuration]: executing diffoscope
+[2023-07-31 16:50:53] INFO root fetch - processPackages [dkist-service-configuration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-service-configuration-1.0.0rc3.tar.gz tmp/dkist-service-configuration-1.0.0rc4.tar.gz --markdown 20230731/d/dkist-service-configuration/1.0.0rc3-1.0.0rc4/diff.md --exclude *.pyd
+[2023-07-31 16:50:53] INFO root fetch - processPackages [YahooRequests]: executing diffoscope
+[2023-07-31 16:50:53] INFO root fetch - processPackages [YahooRequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YahooRequests-0.1.5.4.tar.gz tmp/YahooRequests-0.1.5.5.tar.gz --markdown 20230731/Y/YahooRequests/0.1.5.4-0.1.5.5/diff.md --exclude *.pyd
+[2023-07-31 16:50:54] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-07-31 16:50:54] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230731/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-31 16:50:54] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2023-07-31 16:50:54] INFO root fetch - processPackages [richie]: executing diffoscope
+[2023-07-31 16:50:54] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20230731/r/richie/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-31 16:50:54] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.89.tar.gz]
+[2023-07-31 16:50:54] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.9.tar.gz]
+[2023-07-31 16:50:54] INFO root fetch - processPackages [qoa4ml]: Start processing: hypergo
+[2023-07-31 16:50:54] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-07-31 16:50:55] INFO root fetch - processPackages [hypergo]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [hypergo]: Downloading https://files.pythonhosted.org/packages/3a/f1/d1753e63db46548419f60f01b46907e7fe0c0977a5265e7ce9a279ab838b/hypergo-0.1.3.tar.gz
+[2023-07-31 16:50:55] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.9.0.tar.gz]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.9.1.tar.gz]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [faasmctl]: Start processing: graphreduce
+[2023-07-31 16:50:55] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-31 16:50:55] INFO root fetch - processPackages [graphreduce]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [Musicreater]: Remove: archive file [/home/abi/fetcher/tmp/Musicreater-1.2.0.tar.gz]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [Musicreater]: Remove: archive file [/home/abi/fetcher/tmp/Musicreater-1.2.1.tar.gz]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [Musicreater]: Start processing: lnschema_core
+[2023-07-31 16:50:55] INFO root fetch - main [MainThread]: End processing [Musicreater]: success
+[2023-07-31 16:50:55] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/44/7f/ea15e1ed6f3f06b443a52c084fb42a5c78a1dde51862c99f9e475dc8004a/graphreduce-1.5.5.tar.gz
+[2023-07-31 16:50:55] INFO root fetch - processPackages [dkist-service-configuration]: Remove: archive file [/home/abi/fetcher/tmp/dkist-service-configuration-1.0.0rc3.tar.gz]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [dkist-service-configuration]: Remove: archive file [/home/abi/fetcher/tmp/dkist-service-configuration-1.0.0rc4.tar.gz]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [dkist-service-configuration]: Start processing: luisa-python
+[2023-07-31 16:50:55] INFO root fetch - main [MainThread]: End processing [dkist-service-configuration]: success
+[2023-07-31 16:50:55] INFO root fetch - processPackages [YahooRequests]: Remove: archive file [/home/abi/fetcher/tmp/YahooRequests-0.1.5.4.tar.gz]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [YahooRequests]: Remove: archive file [/home/abi/fetcher/tmp/YahooRequests-0.1.5.5.tar.gz]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [YahooRequests]: Start processing: geodatacrawler
+[2023-07-31 16:50:55] INFO root fetch - main [MainThread]: End processing [YahooRequests]: success
+[2023-07-31 16:50:55] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.7.12.tar.gz]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.9.12.tar.gz]
+[2023-07-31 16:50:55] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2023-07-31 16:50:55] INFO root fetch - processPackages [luisa-python]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [hypergo]: Downloading https://files.pythonhosted.org/packages/b2/7a/70540480331de6fa6efe85ce4883720c922f25825c415caf8d9a8e94bbcc/hypergo-0.1.4.tar.gz
+[2023-07-31 16:50:55] INFO root fetch - processPackages [geodatacrawler]: New version: [1.1.0] Old Version: [0.1.2]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [geodatacrawler]: Downloading https://files.pythonhosted.org/packages/88/72/6b2d64efdf33151b04b5ae84035c51789c08b68b1d0397bc5432382ab456/geodatacrawler-0.1.2.tar.gz
+[2023-07-31 16:50:55] INFO root fetch - processPackages [luisa-python]: Downloading https://files.pythonhosted.org/packages/1f/a1/a7a367c909cdfbf364a954c39df8b2d7b5d851c53b99630b0af4d98b8999/luisa_python-0.2.3-cp311-cp311-win_amd64.whl
+[2023-07-31 16:50:55] INFO root fetch - processPackages [hypergo]: executing diffoscope
+[2023-07-31 16:50:55] INFO root fetch - processPackages [hypergo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypergo-0.1.3.tar.gz tmp/hypergo-0.1.4.tar.gz --markdown 20230731/h/hypergo/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-31 16:50:55] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/ae/8c/c087a6ec59145a73b59932798c4eea899dcf9666d741432025c7b25e1dc8/graphreduce-1.5.6.tar.gz
+[2023-07-31 16:50:55] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2023-07-31 16:50:55] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-07-31 16:50:55] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2023-07-31 16:50:55] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-07-31 16:50:55] WARNING root fetch - processPackages [luisa-python]: Skipping package: exceeds size limit 64265901>=10485760
+[2023-07-31 16:50:55] INFO root fetch - main [MainThread]: End processing [luisa-python] error
+[2023-07-31 16:50:55] INFO root fetch - processPackages [blockapi]: Remove: archive file [/home/abi/fetcher/tmp/blockapi-0.8.1.tar.gz]
+[2023-07-31 16:50:55] INFO root fetch - processPackages [blockapi]: Remove: archive file [/home/abi/fetcher/tmp/blockapi-0.9.0.tar.gz]
+[2023-07-31 16:50:55] INFO root fetch - main [MainThread]: End processing [blockapi]: success
+[2023-07-31 16:50:55] INFO root fetch - processPackages [graphreduce]: executing diffoscope
+[2023-07-31 16:50:55] INFO root fetch - processPackages [graphreduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphreduce-1.5.5.tar.gz tmp/graphreduce-1.5.6.tar.gz --markdown 20230731/g/graphreduce/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-07-31 16:50:56] INFO root fetch - processPackages [geodatacrawler]: Downloading https://files.pythonhosted.org/packages/ad/f1/f788532dcf9abb0a303985b8ef2cf6efc2d526a8bbc8e14f01e3698f4069/geodatacrawler-1.1.0.tar.gz
+[2023-07-31 16:50:56] INFO root fetch - processPackages [geodatacrawler]: executing diffoscope
+[2023-07-31 16:50:56] INFO root fetch - processPackages [geodatacrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodatacrawler-0.1.2.tar.gz tmp/geodatacrawler-1.1.0.tar.gz --markdown 20230731/g/geodatacrawler/0.1.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-31 16:50:56] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-07-31 16:50:56] INFO root fetch - processPackages [hypergo]: Remove: archive file [/home/abi/fetcher/tmp/hypergo-0.1.3.tar.gz]
+[2023-07-31 16:50:56] INFO root fetch - processPackages [hypergo]: Remove: archive file [/home/abi/fetcher/tmp/hypergo-0.1.4.tar.gz]
+[2023-07-31 16:50:56] INFO root fetch - main [MainThread]: End processing [hypergo]: success
+[2023-07-31 16:50:56] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-07-31 16:50:56] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230731/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 16:50:56] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-1.5.5.tar.gz]
+[2023-07-31 16:50:56] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-1.5.6.tar.gz]
+[2023-07-31 16:50:56] INFO root fetch - main [MainThread]: End processing [graphreduce]: success
+[2023-07-31 16:50:57] INFO root fetch - processPackages [geodatacrawler]: Remove: archive file [/home/abi/fetcher/tmp/geodatacrawler-0.1.2.tar.gz]
+[2023-07-31 16:50:57] INFO root fetch - processPackages [geodatacrawler]: Remove: archive file [/home/abi/fetcher/tmp/geodatacrawler-1.1.0.tar.gz]
+[2023-07-31 16:50:57] INFO root fetch - main [MainThread]: End processing [geodatacrawler]: success
+[2023-07-31 16:50:57] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-07-31 16:50:57] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-07-31 16:50:57] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-07-31 16:52:53] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2023-07-31 16:52:53] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2023-07-31 16:52:53] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2023-07-31 16:52:53] INFO root fetch - main [MainThread]: Store serial: [19109011]
