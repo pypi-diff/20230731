@@ -6507,3 +6507,72 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 05:56:13] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.3a9.tar.gz]
 [2023-07-31 05:56:13] INFO root fetch - main [MainThread]: End processing [reflex]: success
 [2023-07-31 05:56:13] INFO root fetch - main [MainThread]: Store serial: [19102384]
+[2023-07-31 06:01:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102384]
+[2023-07-31 06:01:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-31 06:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: creepypasta
+[2023-07-31 06:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentiment-analysis-tagit
+[2023-07-31 06:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: harpia
+[2023-07-31 06:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: earthformer
+[2023-07-31 06:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: e2Dpy
+[2023-07-31 06:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evals-nightly
+[2023-07-31 06:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-gui
+[2023-07-31 06:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: liangutil
+[2023-07-31 06:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cPyparsing
+[2023-07-31 06:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pinject-design
+[2023-07-31 06:01:22] WARNING root fetch - processPackages [earthformer]: Skipping, unable to determine old version
+[2023-07-31 06:01:22] INFO root fetch - main [MainThread]: End processing [earthformer] error
+[2023-07-31 06:01:22] INFO root fetch - processPackages [harpia]: New version: [1.9] Old Version: [1.8]
+[2023-07-31 06:01:22] WARNING root fetch - processPackages [creepypasta]: Skipping, unable to determine old version
+[2023-07-31 06:01:22] INFO root fetch - main [MainThread]: End processing [creepypasta] error
+[2023-07-31 06:01:22] INFO root fetch - processPackages [liangutil]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-31 06:01:22] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.51.14] Old Version: [0.0.51.13]
+[2023-07-31 06:01:22] INFO root fetch - processPackages [cPyparsing]: New version: [2.4.7.2.2.2] Old Version: [2.4.7.2.2.1]
+[2023-07-31 06:01:22] WARNING root fetch - processPackages [sentiment-analysis-tagit]: Skipping, unable to determine old version
+[2023-07-31 06:01:22] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-tagit] error
+[2023-07-31 06:01:22] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230729] Old Version: [1.0.3.dev20230728]
+[2023-07-31 06:01:22] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/b9/bd/bec9e26fa006f85aa36e080f34c2d15540cbccd6695261e0c4b5c8cffae3/harpia-1.8.tar.gz
+[2023-07-31 06:01:22] WARNING root fetch - processPackages [e2Dpy]: Skipping, unable to determine old version
+[2023-07-31 06:01:22] INFO root fetch - main [MainThread]: End processing [e2Dpy] error
+[2023-07-31 06:01:22] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/df/ea/ed7664dc393eda8975480644ed3e989f153a8f1a7181354f37dbf020b514/abstract_gui-0.0.51.13.tar.gz
+[2023-07-31 06:01:22] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/0e/df/6a6b099f5d0f10261fe53cefbb0fbf440e08b6500fbeb34ffe9b148eb058/evals-nightly-1.0.3.dev20230728.tar.gz
+[2023-07-31 06:01:22] INFO root fetch - processPackages [pinject-design]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-31 06:01:22] INFO root fetch - processPackages [liangutil]: Downloading https://files.pythonhosted.org/packages/ad/2c/76762864cbc1abc95b2e99156e188633c44652f7c7f62ec197390044d870/liangutil-0.0.3.tar.gz
+[2023-07-31 06:01:22] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/8c/51/548830735273fbc91cdd0d583136577204089ea2ecf6ea2e85d135cf5230/cPyparsing-2.4.7.2.2.1.tar.gz
+[2023-07-31 06:01:22] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a7/9f/a4979c34444f0a828e5df54e2be1ecaadcee3d75fe7d9f80a08d4c4eac3b/pinject_design-0.1.98.tar.gz
+[2023-07-31 06:01:22] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/59/83/3af90baf6ec6ec35174c71bb4f97c42e375b50ef5ee50f81fbb4f0a70952/harpia-1.9.tar.gz
+[2023-07-31 06:01:23] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/b0/f6/93dd37bc2b94d5d7e2f8e63f530f55054f1148cf88c1d5a27266686cbd78/abstract_gui-0.0.51.14.tar.gz
+[2023-07-31 06:01:23] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/36/f5/5bcbbfe1f2afcaad2f5acff7f637dfe76defbf3f29801f29f6cd24a4c2c7/evals-nightly-1.0.3.dev20230729.tar.gz
+[2023-07-31 06:01:23] INFO root fetch - processPackages [liangutil]: Downloading https://files.pythonhosted.org/packages/3d/a7/73a034e20e98c6dbe3e6a3b96034aee9873689481bdd5dff2d5cd7db2c20/liangutil-0.0.4.tar.gz
+[2023-07-31 06:01:23] INFO root fetch - processPackages [harpia]: executing diffoscope
+[2023-07-31 06:01:23] INFO root fetch - processPackages [harpia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harpia-1.8.tar.gz tmp/harpia-1.9.tar.gz --markdown 20230731/h/harpia/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-31 06:01:23] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 06:01:23] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.51.13.tar.gz tmp/abstract_gui-0.0.51.14.tar.gz --markdown 20230731/a/abstract-gui/0.0.51.13-0.0.51.14/diff.md --exclude *.pyd
+[2023-07-31 06:01:23] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-31 06:01:23] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230728.tar.gz tmp/evals-nightly-1.0.3.dev20230729.tar.gz --markdown 20230731/e/evals-nightly/1.0.3.dev20230728-1.0.3.dev20230729/diff.md --exclude *.pyd
+[2023-07-31 06:01:23] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/7e/9e/ac6f6d490cc0d5bcb67530f3375fa9fd6b90f875bdd3b6fbc71bda61838d/cPyparsing-2.4.7.2.2.2.tar.gz
+[2023-07-31 06:01:23] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a1/60/23fa127950edf1bf1131253d21bdf092cb149e44bdf95f1e99ddd8a07170/pinject_design-0.1.99.tar.gz
+[2023-07-31 06:01:23] INFO root fetch - processPackages [liangutil]: executing diffoscope
+[2023-07-31 06:01:23] INFO root fetch - processPackages [liangutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liangutil-0.0.3.tar.gz tmp/liangutil-0.0.4.tar.gz --markdown 20230731/l/liangutil/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-31 06:01:23] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-31 06:01:23] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.98.tar.gz tmp/pinject_design-0.1.99.tar.gz --markdown 20230731/p/pinject-design/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-31 06:01:23] INFO root fetch - processPackages [cPyparsing]: executing diffoscope
+[2023-07-31 06:01:23] INFO root fetch - processPackages [cPyparsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cPyparsing-2.4.7.2.2.1.tar.gz tmp/cPyparsing-2.4.7.2.2.2.tar.gz --markdown 20230731/c/cPyparsing/2.4.7.2.2.1-2.4.7.2.2.2/diff.md --exclude *.pyd
+[2023-07-31 06:01:24] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.51.13.tar.gz]
+[2023-07-31 06:01:24] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.51.14.tar.gz]
+[2023-07-31 06:01:24] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 06:01:24] INFO root fetch - processPackages [liangutil]: Remove: archive file [/home/abi/fetcher/tmp/liangutil-0.0.3.tar.gz]
+[2023-07-31 06:01:24] INFO root fetch - processPackages [liangutil]: Remove: archive file [/home/abi/fetcher/tmp/liangutil-0.0.4.tar.gz]
+[2023-07-31 06:01:24] INFO root fetch - main [MainThread]: End processing [liangutil]: success
+[2023-07-31 06:01:24] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.8.tar.gz]
+[2023-07-31 06:01:24] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.9.tar.gz]
+[2023-07-31 06:01:24] INFO root fetch - main [MainThread]: End processing [harpia]: success
+[2023-07-31 06:01:24] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.98.tar.gz]
+[2023-07-31 06:01:24] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.99.tar.gz]
+[2023-07-31 06:01:24] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-31 06:01:25] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230728.tar.gz]
+[2023-07-31 06:01:25] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230729.tar.gz]
+[2023-07-31 06:01:25] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-31 06:01:27] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.2.1.tar.gz]
+[2023-07-31 06:01:27] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.2.2.tar.gz]
+[2023-07-31 06:01:27] INFO root fetch - main [MainThread]: End processing [cPyparsing]: success
+[2023-07-31 06:01:27] INFO root fetch - main [MainThread]: Store serial: [19102424]
