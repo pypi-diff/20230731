@@ -15745,3 +15745,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 12:23:38] INFO root fetch - processPackages [widgetsnbextension]: Remove: archive file [/home/abi/fetcher/tmp/widgetsnbextension-4.0.8.tar.gz]
 [2023-07-31 12:23:38] INFO root fetch - main [MainThread]: End processing [widgetsnbextension]: success
 [2023-07-31 12:23:38] INFO root fetch - main [MainThread]: Store serial: [19106242]
+[2023-07-31 12:28:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19106242]
+[2023-07-31 12:28:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-31 12:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openshift-cluster-management-python-wrapper
+[2023-07-31 12:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkscreener
+[2023-07-31 12:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: food-project
+[2023-07-31 12:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fyers-sdk
+[2023-07-31 12:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-msgs
+[2023-07-31 12:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: systembridgebackend
+[2023-07-31 12:28:57] INFO root fetch - processPackages [pkscreener]: New version: [0.3] Old Version: [0.2]
+[2023-07-31 12:28:57] INFO root fetch - processPackages [food-project]: New version: [1.4] Old Version: [1.3]
+[2023-07-31 12:28:57] INFO root fetch - processPackages [systembridgebackend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-31 12:28:57] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-31 12:28:57] INFO root fetch - processPackages [fyers-sdk]: New version: [2.0.1] Old Version: [1.0.8]
+[2023-07-31 12:28:57] INFO root fetch - processPackages [django-msgs]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-31 12:28:58] INFO root fetch - processPackages [food-project]: Downloading https://files.pythonhosted.org/packages/41/a1/50175787032f4f0b7e56a09bc9b38a469cc3bc96644fb7e43d1dc6d4488b/food_project-1.3.tar.gz
+[2023-07-31 12:28:58] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/c7/4a/5fc463ab7a4a2ffe0ddaab3429c2862bf5b779006f76f66be6657ecbdc4b/systembridgebackend-3.8.0.dev8.tar.gz
+[2023-07-31 12:28:58] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/26/f3/b3f2072573fc7cf5f67bbd88c38e6eda4cd7043002c88220138229131e55/fyers_sdk-1.0.8.tar.gz
+[2023-07-31 12:28:58] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/b6/25/929067b4827e13b5b776b77d602b3da5499ce9a5eab097957c19811bd694/pkscreener-0.2.tar.gz
+[2023-07-31 12:28:58] INFO root fetch - processPackages [django-msgs]: Downloading https://files.pythonhosted.org/packages/78/db/ad02a80def8a1c2570f430903c87756c0d5320c00475c17d817be857752e/django_msgs-1.4.2.tar.gz
+[2023-07-31 12:28:58] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/c4/00/080ef5dd094ce238dea7428d87f981afa486ff6fb8b6087ca896071d3e9b/openshift-cluster-management-python-wrapper-1.0.8.tar.gz
+[2023-07-31 12:28:58] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/04/07/5ba22add89c69f07710d05939e00ef21530d783cffde5d9b2d37acaa2062/systembridgebackend-3.8.0.dev9.tar.gz
+[2023-07-31 12:28:58] INFO root fetch - processPackages [food-project]: Downloading https://files.pythonhosted.org/packages/16/f9/b2a600e4117dcc44d4b57ef3fbbcce06835603f4cc4a020b423710675e78/food_project-1.4.tar.gz
+[2023-07-31 12:28:58] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/c5/62/70fde3f7ec52d05b1cea716ec011e2b604e2bb9cb3ec2aa759efdd1e1f27/fyers_sdk-2.0.1.tar.gz
+[2023-07-31 12:28:58] INFO root fetch - processPackages [systembridgebackend]: executing diffoscope
+[2023-07-31 12:28:58] INFO root fetch - processPackages [systembridgebackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgebackend-3.8.0.dev8.tar.gz tmp/systembridgebackend-3.8.0.dev9.tar.gz --markdown 20230731/s/systembridgebackend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-31 12:28:58] INFO root fetch - processPackages [food-project]: executing diffoscope
+[2023-07-31 12:28:58] INFO root fetch - processPackages [food-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/food_project-1.3.tar.gz tmp/food_project-1.4.tar.gz --markdown 20230731/f/food-project/1.3-1.4/diff.md --exclude *.pyd
+[2023-07-31 12:28:58] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/e5/9d/e997c6c80b6727e09160f15d3de195408696b10210f3efbc95bbd4299096/pkscreener-0.3.tar.gz
+[2023-07-31 12:28:58] INFO root fetch - processPackages [django-msgs]: Downloading https://files.pythonhosted.org/packages/1d/a6/99ea17aff62dc8210f415cd35eb74bc61fbe7f3ad50d59484b05e9eada9e/django_msgs-1.4.3.tar.gz
+[2023-07-31 12:28:58] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-07-31 12:28:58] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-1.0.8.tar.gz tmp/fyers_sdk-2.0.1.tar.gz --markdown 20230731/f/fyers-sdk/1.0.8-2.0.1/diff.md --exclude *.pyd
+[2023-07-31 12:28:58] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2023-07-31 12:28:58] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.2.tar.gz tmp/pkscreener-0.3.tar.gz --markdown 20230731/p/pkscreener/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-31 12:28:58] INFO root fetch - processPackages [django-msgs]: executing diffoscope
+[2023-07-31 12:28:58] INFO root fetch - processPackages [django-msgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_msgs-1.4.2.tar.gz tmp/django_msgs-1.4.3.tar.gz --markdown 20230731/d/django-msgs/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-31 12:28:59] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/c5/ff/2a7dc53e940f4cf01cba78091f8503bd24ebe8b716139738212ed5473bde/openshift-cluster-management-python-wrapper-1.0.9.tar.gz
+[2023-07-31 12:28:59] INFO root fetch - processPackages [food-project]: Remove: archive file [/home/abi/fetcher/tmp/food_project-1.3.tar.gz]
+[2023-07-31 12:28:59] INFO root fetch - processPackages [food-project]: Remove: archive file [/home/abi/fetcher/tmp/food_project-1.4.tar.gz]
+[2023-07-31 12:28:59] INFO root fetch - main [MainThread]: End processing [food-project]: success
+[2023-07-31 12:28:59] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-1.0.8.tar.gz]
+[2023-07-31 12:28:59] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-2.0.1.tar.gz]
+[2023-07-31 12:28:59] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-07-31 12:28:59] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: executing diffoscope
+[2023-07-31 12:28:59] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-cluster-management-python-wrapper-1.0.8.tar.gz tmp/openshift-cluster-management-python-wrapper-1.0.9.tar.gz --markdown 20230731/o/openshift-cluster-management-python-wrapper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 12:28:59] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev8.tar.gz]
+[2023-07-31 12:28:59] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev9.tar.gz]
+[2023-07-31 12:28:59] INFO root fetch - main [MainThread]: End processing [systembridgebackend]: success
+[2023-07-31 12:28:59] INFO root fetch - processPackages [django-msgs]: Remove: archive file [/home/abi/fetcher/tmp/django_msgs-1.4.2.tar.gz]
+[2023-07-31 12:28:59] INFO root fetch - processPackages [django-msgs]: Remove: archive file [/home/abi/fetcher/tmp/django_msgs-1.4.3.tar.gz]
+[2023-07-31 12:28:59] INFO root fetch - main [MainThread]: End processing [django-msgs]: success
+[2023-07-31 12:28:59] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.2.tar.gz]
+[2023-07-31 12:28:59] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.3.tar.gz]
+[2023-07-31 12:28:59] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2023-07-31 12:29:00] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-cluster-management-python-wrapper-1.0.8.tar.gz]
+[2023-07-31 12:29:00] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-cluster-management-python-wrapper-1.0.9.tar.gz]
+[2023-07-31 12:29:00] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-wrapper]: success
+[2023-07-31 12:29:00] INFO root fetch - main [MainThread]: Store serial: [19106263]
