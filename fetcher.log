@@ -5598,3 +5598,78 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 04:32:56] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-07-31 04:32:56] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-07-31 04:32:56] INFO root fetch - main [MainThread]: Store serial: [19101979]
+[2023-07-31 04:38:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19101979]
+[2023-07-31 04:38:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-31 04:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: my-python-module
+[2023-07-31 04:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-07-31 04:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazyinit
+[2023-07-31 04:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-shopinvader-odoo-shopinvader
+[2023-07-31 04:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deep-mab
+[2023-07-31 04:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: volcengine-python-sdk
+[2023-07-31 04:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quickbar
+[2023-07-31 04:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fajrGPT
+[2023-07-31 04:38:13] INFO root fetch - processPackages [my-python-module]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-31 04:38:13] INFO root fetch - processPackages [lazyinit]: New version: [0.0.3] Old Version: [0.0.29]
+[2023-07-31 04:38:13] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-31 04:38:13] INFO root fetch - processPackages [deep-mab]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 04:38:13] INFO root fetch - processPackages [quickbar]: New version: [0.1.1.post0] Old Version: [0.1.1]
+[2023-07-31 04:38:13] INFO root fetch - processPackages [fajrGPT]: New version: [1.5] Old Version: [1.4.9]
+[2023-07-31 04:38:13] INFO root fetch - processPackages [odoo-addons-shopinvader-odoo-shopinvader]: New version: [16.0.20230730.0] Old Version: [16.0.20230629.0]
+[2023-07-31 04:38:13] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-31 04:38:13] INFO root fetch - processPackages [my-python-module]: Downloading https://files.pythonhosted.org/packages/c2/82/9ce4211fed04ef203d250fabbe4615e8a6cb5fc1e44f864559c9113e4714/my_python_module-0.5.5.tar.gz
+[2023-07-31 04:38:13] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/54/e1/66c6c4fe0d6083e9701a2524302575e13a0547d6abf78a5f936c069548de/fajrGPT-1.4.9.tar.gz
+[2023-07-31 04:38:13] INFO root fetch - processPackages [quickbar]: Downloading https://files.pythonhosted.org/packages/b9/f7/6add1ff99cffd4620dda230fc42c6483e0495a9bb7dde42012f1894ba7b4/quickbar-0.1.1.tar.gz
+[2023-07-31 04:38:13] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/51/7a/251e33095bb8fbd310f41c52f5f327299959915777061d9e2b024ee047e6/lazyinit-0.0.29.tar.gz
+[2023-07-31 04:38:13] INFO root fetch - processPackages [odoo-addons-shopinvader-odoo-shopinvader]: Downloading https://files.pythonhosted.org/packages/5a/96/39c75ff5827d6c476f24fa7cd7e8a0be249b98a5df2b972378400e8f999a/odoo_addons_shopinvader_odoo_shopinvader-16.0.20230629.0-py3-none-any.whl
+[2023-07-31 04:38:13] INFO root fetch - processPackages [deep-mab]: Downloading https://files.pythonhosted.org/packages/06/16/8ced2d9deae32f66f768fb9ccec8582e81ddd54e7c27da4a62d11086d5e0/deep_mab-0.1.0.tar.gz
+[2023-07-31 04:38:13] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2023-07-31 04:38:13] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-07-31 04:38:13] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/d6/39/b90ff5ec6901d4de821705a5e40fa2034755785e833956bc99c07c4729cd/fajrGPT-1.5.tar.gz
+[2023-07-31 04:38:14] INFO root fetch - processPackages [my-python-module]: Downloading https://files.pythonhosted.org/packages/2f/4d/de085a5e9ff3e1427e21fad3994c7ec510e3dc188f76f1e07521bc2f9882/my_python_module-0.5.6.tar.gz
+[2023-07-31 04:38:14] INFO root fetch - processPackages [quickbar]: Downloading https://files.pythonhosted.org/packages/3d/7d/cae734184e8039b9c8731bed19d2c649ca62fbc51d2cb4e66eb7b225b15f/quickbar-0.1.1.post0.tar.gz
+[2023-07-31 04:38:14] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-07-31 04:38:14] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.4.9.tar.gz tmp/fajrGPT-1.5.tar.gz --markdown 20230731/f/fajrGPT/1.4.9-1.5/diff.md --exclude *.pyd
+[2023-07-31 04:38:14] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/ac/5b/bbd54dc07f47af55c9121c2de4bfade3e74cbfc4dd53b11459307e92cb6c/lazyinit-0.0.3.tar.gz
+[2023-07-31 04:38:14] INFO root fetch - processPackages [deep-mab]: Downloading https://files.pythonhosted.org/packages/f5/6b/708399003a99f38f65c2d4bc26abd3c40a184f57faa3fe65e2f18ed33b6c/deep_mab-0.1.1.tar.gz
+[2023-07-31 04:38:14] INFO root fetch - processPackages [odoo-addons-shopinvader-odoo-shopinvader]: Downloading https://files.pythonhosted.org/packages/9c/5a/201b1708d205424bf7e0f8ebd2bb0687d282fcb9bae5e712e093a09d5663/odoo_addons_shopinvader_odoo_shopinvader-16.0.20230730.0-py3-none-any.whl
+[2023-07-31 04:38:14] INFO root fetch - processPackages [quickbar]: executing diffoscope
+[2023-07-31 04:38:14] INFO root fetch - processPackages [quickbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickbar-0.1.1.tar.gz tmp/quickbar-0.1.1.post0.tar.gz --markdown 20230731/q/quickbar/0.1.1-0.1.1.post0/diff.md --exclude *.pyd
+[2023-07-31 04:38:14] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-07-31 04:38:14] INFO root fetch - processPackages [odoo-addons-shopinvader-odoo-shopinvader]: executing diffoscope
+[2023-07-31 04:38:14] INFO root fetch - processPackages [odoo-addons-shopinvader-odoo-shopinvader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_shopinvader_odoo_shopinvader-16.0.20230629.0-py3-none-any.whl.zip tmp/odoo_addons_shopinvader_odoo_shopinvader-16.0.20230730.0-py3-none-any.whl.zip --markdown 20230731/o/odoo-addons-shopinvader-odoo-shopinvader/16.0.20230629.0-16.0.20230730.0/diff.md --exclude *.pyd
+[2023-07-31 04:38:14] INFO root fetch - processPackages [my-python-module]: executing diffoscope
+[2023-07-31 04:38:14] INFO root fetch - processPackages [my-python-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_python_module-0.5.5.tar.gz tmp/my_python_module-0.5.6.tar.gz --markdown 20230731/m/my-python-module/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-31 04:38:14] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-31 04:38:14] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.29.tar.gz tmp/lazyinit-0.0.3.tar.gz --markdown 20230731/l/lazyinit/0.0.29-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 04:38:14] INFO root fetch - processPackages [deep-mab]: executing diffoscope
+[2023-07-31 04:38:14] INFO root fetch - processPackages [deep-mab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_mab-0.1.0.tar.gz tmp/deep_mab-0.1.1.tar.gz --markdown 20230731/d/deep-mab/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 04:38:14] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2023-07-31 04:38:14] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-07-31 04:38:14] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230731/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-31 04:38:14] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2023-07-31 04:38:14] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20230731/v/volcengine-python-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 04:38:15] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.4.9.tar.gz]
+[2023-07-31 04:38:15] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.5.tar.gz]
+[2023-07-31 04:38:15] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-07-31 04:38:15] INFO root fetch - processPackages [quickbar]: Remove: archive file [/home/abi/fetcher/tmp/quickbar-0.1.1.tar.gz]
+[2023-07-31 04:38:15] INFO root fetch - processPackages [quickbar]: Remove: archive file [/home/abi/fetcher/tmp/quickbar-0.1.1.post0.tar.gz]
+[2023-07-31 04:38:15] INFO root fetch - main [MainThread]: End processing [quickbar]: success
+[2023-07-31 04:38:15] INFO root fetch - processPackages [odoo-addons-shopinvader-odoo-shopinvader]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_shopinvader_odoo_shopinvader-16.0.20230629.0-py3-none-any.whl.zip]
+[2023-07-31 04:38:15] INFO root fetch - processPackages [odoo-addons-shopinvader-odoo-shopinvader]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_shopinvader_odoo_shopinvader-16.0.20230730.0-py3-none-any.whl.zip]
+[2023-07-31 04:38:15] INFO root fetch - main [MainThread]: End processing [odoo-addons-shopinvader-odoo-shopinvader]: success
+[2023-07-31 04:38:15] INFO root fetch - processPackages [deep-mab]: Remove: archive file [/home/abi/fetcher/tmp/deep_mab-0.1.0.tar.gz]
+[2023-07-31 04:38:15] INFO root fetch - processPackages [deep-mab]: Remove: archive file [/home/abi/fetcher/tmp/deep_mab-0.1.1.tar.gz]
+[2023-07-31 04:38:15] INFO root fetch - main [MainThread]: End processing [deep-mab]: success
+[2023-07-31 04:38:15] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-07-31 04:38:15] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-07-31 04:38:15] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-07-31 04:38:15] INFO root fetch - processPackages [my-python-module]: Remove: archive file [/home/abi/fetcher/tmp/my_python_module-0.5.5.tar.gz]
+[2023-07-31 04:38:15] INFO root fetch - processPackages [my-python-module]: Remove: archive file [/home/abi/fetcher/tmp/my_python_module-0.5.6.tar.gz]
+[2023-07-31 04:38:15] INFO root fetch - main [MainThread]: End processing [my-python-module]: success
+[2023-07-31 04:38:16] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.29.tar.gz]
+[2023-07-31 04:38:16] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.3.tar.gz]
+[2023-07-31 04:38:16] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-31 04:38:25] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2023-07-31 04:38:25] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2023-07-31 04:38:25] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2023-07-31 04:38:25] INFO root fetch - main [MainThread]: Store serial: [19102007]
