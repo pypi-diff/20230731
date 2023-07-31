@@ -9002,3 +9002,118 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 08:43:40] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.8.2.tar.gz]
 [2023-07-31 08:43:40] INFO root fetch - main [MainThread]: End processing [pdm]: success
 [2023-07-31 08:43:40] INFO root fetch - main [MainThread]: Store serial: [19103625]
+[2023-07-31 08:48:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19103625]
+[2023-07-31 08:48:48] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-31 08:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fyers-sdk
+[2023-07-31 08:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testApiGroup
+[2023-07-31 08:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atms-utils
+[2023-07-31 08:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mov-cli
+[2023-07-31 08:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-31 08:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: newPassword
+[2023-07-31 08:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mylove
+[2023-07-31 08:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-gerrit-api
+[2023-07-31 08:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fyers-sdk
+[2023-07-31 08:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tungstenkit
+[2023-07-31 08:48:48] INFO root fetch - processPackages [testApiGroup]: New version: [1.0.0.6] Old Version: [1.0.0.5]
+[2023-07-31 08:48:48] INFO root fetch - processPackages [python-gerrit-api]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-07-31 08:48:48] WARNING root fetch - processPackages [mylove]: Skipping, unable to determine old version
+[2023-07-31 08:48:48] INFO root fetch - processPackages [mylove]: Start processing: cubids
+[2023-07-31 08:48:48] INFO root fetch - main [MainThread]: End processing [mylove] error
+[2023-07-31 08:48:48] INFO root fetch - processPackages [fyers-sdk]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-07-31 08:48:48] INFO root fetch - processPackages [atms-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 08:48:48] INFO root fetch - processPackages [newPassword]: New version: [2.1.1.1] Old Version: [1.1.9.9]
+[2023-07-31 08:48:48] INFO root fetch - processPackages [fyers-sdk]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-07-31 08:48:48] INFO root fetch - processPackages [tungstenkit]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-31 08:48:48] INFO root fetch - processPackages [mov-cli]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-31 08:48:48] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-31 08:48:48] INFO root fetch - processPackages [cubids]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-31 08:48:48] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/dd/b6/260ac4e8fe3b9be3be779a48b8b6f54ccb7c6660ebb5615c59f49c5c0c73/testApiGroup-1.0.0.5.tar.gz
+[2023-07-31 08:48:48] INFO root fetch - processPackages [newPassword]: Downloading https://files.pythonhosted.org/packages/bf/1c/c0f7f6fc2d119203a3098539a6fe133520a212ec88719f00f3f865ba755e/newPassword-1.1.9.9.tar.gz
+[2023-07-31 08:48:48] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/83/2d/886410911266b8dfbbe0503d385289976054f0b3c2a8e48a1de57f0ab0a6/fyers_sdk-1.0.2.tar.gz
+[2023-07-31 08:48:48] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/83/2d/886410911266b8dfbbe0503d385289976054f0b3c2a8e48a1de57f0ab0a6/fyers_sdk-1.0.2.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [python-gerrit-api]: Downloading https://files.pythonhosted.org/packages/2c/68/ee52f24a0f0200c580f81476944d638d59b93df33a12adea1c997ad05053/python-gerrit-api-3.0.1.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [cubids]: Downloading https://files.pythonhosted.org/packages/43/bd/c379bac1d7d170ce26f1294236cfaf00d3db1bf3d0258f16d827943aae35/cubids-1.0.8.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [atms-utils]: Downloading https://files.pythonhosted.org/packages/96/4a/88848dedfd58371021f1c6369095abc01b873a7d38ff88043f8fa2ca497e/atms_utils-0.1.0.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/5f/a6/8cf0c906a1e2a8c51a9a0efdabda9d9bac7243754209621a350c33c63387/tungstenkit-0.1.5.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/d4/16/a35b26f5479c29031becbb6288c83052e56675211dd2504a23fcff469074/mov_cli-1.5.0.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [newPassword]: Downloading https://files.pythonhosted.org/packages/5e/95/a2bb85d61172533500360c38f8d1ce8d1b7c41a44abcf30ec8b17992c587/newPassword-2.1.1.1.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/b2/17/1c6c83018fe32233aa65e4e82d57e6c31e4faeb78d347383815ed62c7b5c/testApiGroup-1.0.0.6.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [python-gerrit-api]: Downloading https://files.pythonhosted.org/packages/4e/1f/e8ff8c7ccaf0282a9d03ca811dd7e52ecf57d73fc5012aac9e3c153e6116/python-gerrit-api-3.0.2.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/15/13/d7966f766a14fb0dfe778e4e51f6adc2e16627e17e2c866b49605e1eef96/fyers_sdk-1.0.4.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/15/13/d7966f766a14fb0dfe778e4e51f6adc2e16627e17e2c866b49605e1eef96/fyers_sdk-1.0.4.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [atms-utils]: Downloading https://files.pythonhosted.org/packages/fd/f6/b672b356c920e0c59a0a6d9142498598031c6819f3ede915dae9a8fa9349/atms_utils-0.1.1.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [newPassword]: executing diffoscope
+[2023-07-31 08:48:49] INFO root fetch - processPackages [newPassword]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newPassword-1.1.9.9.tar.gz tmp/newPassword-2.1.1.1.tar.gz --markdown 20230731/n/newPassword/1.1.9.9-2.1.1.1/diff.md --exclude *.pyd
+[2023-07-31 08:48:49] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/80/b6/c45b5d0d41fdf8e54574275e747569eb713844fac146484afb95942e34c7/mov_cli-1.5.1.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/9e/9d/ba6adce1c5e221a88daa7b8590a6a91e439b64dfd480b4cf26ff4c485e1a/tungstenkit-0.1.6.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [testApiGroup]: executing diffoscope
+[2023-07-31 08:48:49] INFO root fetch - processPackages [testApiGroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testApiGroup-1.0.0.5.tar.gz tmp/testApiGroup-1.0.0.6.tar.gz --markdown 20230731/t/testApiGroup/1.0.0.5-1.0.0.6/diff.md --exclude *.pyd
+[2023-07-31 08:48:49] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-07-31 08:48:49] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-1.0.2.tar.gz tmp/fyers_sdk-1.0.4.tar.gz --markdown 20230731/f/fyers-sdk/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-07-31 08:48:49] INFO root fetch - processPackages [python-gerrit-api]: executing diffoscope
+[2023-07-31 08:48:49] INFO root fetch - processPackages [python-gerrit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-gerrit-api-3.0.1.tar.gz tmp/python-gerrit-api-3.0.2.tar.gz --markdown 20230731/p/python-gerrit-api/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-07-31 08:48:49] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-07-31 08:48:49] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-1.0.2.tar.gz tmp/fyers_sdk-1.0.4.tar.gz --markdown 20230731/f/fyers-sdk/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-07-31 08:48:49] INFO root fetch - processPackages [atms-utils]: executing diffoscope
+[2023-07-31 08:48:49] INFO root fetch - processPackages [atms-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atms_utils-0.1.0.tar.gz tmp/atms_utils-0.1.1.tar.gz --markdown 20230731/a/atms-utils/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 08:48:49] INFO root fetch - processPackages [mov-cli]: executing diffoscope
+[2023-07-31 08:48:49] INFO root fetch - processPackages [mov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov_cli-1.5.0.tar.gz tmp/mov_cli-1.5.1.tar.gz --markdown 20230731/m/mov-cli/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-31 08:48:49] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-31 08:48:49] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230731/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-31 08:48:49] INFO root fetch - processPackages [cubids]: Downloading https://files.pythonhosted.org/packages/61/b4/04ec278c366af249c15ba3216f017a5453fd0ca928a1e67d81bc044d6eec/cubids-1.0.9.tar.gz
+[2023-07-31 08:48:49] INFO root fetch - processPackages [tungstenkit]: executing diffoscope
+[2023-07-31 08:48:49] INFO root fetch - processPackages [tungstenkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tungstenkit-0.1.5.tar.gz tmp/tungstenkit-0.1.6.tar.gz --markdown 20230731/t/tungstenkit/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-31 08:48:50] INFO root fetch - processPackages [cubids]: executing diffoscope
+[2023-07-31 08:48:50] INFO root fetch - processPackages [cubids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubids-1.0.8.tar.gz tmp/cubids-1.0.9.tar.gz --markdown 20230731/c/cubids/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 08:48:50] INFO root fetch - processPackages [newPassword]: Remove: archive file [/home/abi/fetcher/tmp/newPassword-1.1.9.9.tar.gz]
+[2023-07-31 08:48:50] INFO root fetch - processPackages [newPassword]: Remove: archive file [/home/abi/fetcher/tmp/newPassword-2.1.1.1.tar.gz]
+[2023-07-31 08:48:50] INFO root fetch - processPackages [newPassword]: Start processing: nastranio
+[2023-07-31 08:48:50] INFO root fetch - main [MainThread]: End processing [newPassword]: success
+[2023-07-31 08:48:50] INFO root fetch - processPackages [nastranio]: New version: [0.14.3] Old Version: [0.14.2]
+[2023-07-31 08:48:51] INFO root fetch - processPackages [nastranio]: Downloading https://files.pythonhosted.org/packages/cf/59/ea8a5aeca0d08fae19cbeb54efb5e6233844a14d198f92a9b928e51ed572/nastranio-0.14.2.tar.gz
+[2023-07-31 08:48:51] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.5.tar.gz]
+[2023-07-31 08:48:51] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.6.tar.gz]
+[2023-07-31 08:48:51] INFO root fetch - processPackages [testApiGroup]: Start processing: prometrix
+[2023-07-31 08:48:51] INFO root fetch - main [MainThread]: End processing [testApiGroup]: success
+[2023-07-31 08:48:51] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-1.0.2.tar.gz]
+[2023-07-31 08:48:51] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-1.0.4.tar.gz]
+[2023-07-31 08:48:51] INFO root fetch - processPackages [fyers-sdk]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-31 08:48:51] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-07-31 08:48:51] WARNING root fetch - processPackages [prometrix]: Skipping, unable to determine old version
+[2023-07-31 08:48:51] INFO root fetch - main [MainThread]: End processing [prometrix] error
+[2023-07-31 08:48:51] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-31 08:48:51] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-07-31 08:48:51] INFO root fetch - processPackages [nastranio]: Downloading https://files.pythonhosted.org/packages/29/cf/b956ff9e4b4ce50921f2ef12ec4c7a7af1edb9746616db33adef2b69da3a/nastranio-0.14.3.tar.gz
+[2023-07-31 08:48:51] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-31 08:48:51] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-1.5.0.tar.gz]
+[2023-07-31 08:48:51] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-1.5.1.tar.gz]
+[2023-07-31 08:48:51] INFO root fetch - main [MainThread]: End processing [mov-cli]: success
+[2023-07-31 08:48:51] INFO root fetch - processPackages [atms-utils]: Remove: archive file [/home/abi/fetcher/tmp/atms_utils-0.1.0.tar.gz]
+[2023-07-31 08:48:51] INFO root fetch - processPackages [atms-utils]: Remove: archive file [/home/abi/fetcher/tmp/atms_utils-0.1.1.tar.gz]
+[2023-07-31 08:48:51] INFO root fetch - main [MainThread]: End processing [atms-utils]: success
+[2023-07-31 08:48:51] INFO root fetch - processPackages [nastranio]: executing diffoscope
+[2023-07-31 08:48:51] INFO root fetch - processPackages [nastranio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nastranio-0.14.2.tar.gz tmp/nastranio-0.14.3.tar.gz --markdown 20230731/n/nastranio/0.14.2-0.14.3/diff.md --exclude *.pyd
+[2023-07-31 08:48:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-31 08:48:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-31 08:48:51] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-31 08:48:51] INFO root fetch - processPackages [python-gerrit-api]: Remove: archive file [/home/abi/fetcher/tmp/python-gerrit-api-3.0.1.tar.gz]
+[2023-07-31 08:48:51] INFO root fetch - processPackages [python-gerrit-api]: Remove: archive file [/home/abi/fetcher/tmp/python-gerrit-api-3.0.2.tar.gz]
+[2023-07-31 08:48:51] INFO root fetch - main [MainThread]: End processing [python-gerrit-api]: success
+[2023-07-31 08:48:51] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-31 08:48:52] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.5.tar.gz]
+[2023-07-31 08:48:52] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.6.tar.gz]
+[2023-07-31 08:48:52] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
+[2023-07-31 08:48:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-31 08:48:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230731/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 08:48:52] INFO root fetch - processPackages [cubids]: Remove: archive file [/home/abi/fetcher/tmp/cubids-1.0.8.tar.gz]
+[2023-07-31 08:48:52] INFO root fetch - processPackages [cubids]: Remove: archive file [/home/abi/fetcher/tmp/cubids-1.0.9.tar.gz]
+[2023-07-31 08:48:52] INFO root fetch - main [MainThread]: End processing [cubids]: success
+[2023-07-31 08:48:53] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-31 08:48:53] INFO root fetch - processPackages [nastranio]: Remove: archive file [/home/abi/fetcher/tmp/nastranio-0.14.2.tar.gz]
+[2023-07-31 08:48:53] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-31 08:48:53] INFO root fetch - processPackages [nastranio]: Remove: archive file [/home/abi/fetcher/tmp/nastranio-0.14.3.tar.gz]
+[2023-07-31 08:48:53] INFO root fetch - main [MainThread]: End processing [nastranio]: success
+[2023-07-31 08:48:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-31 08:48:53] INFO root fetch - main [MainThread]: Store serial: [19103667]
