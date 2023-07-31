@@ -16196,3 +16196,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 12:55:31] INFO root fetch - processPackages [pyobs-core]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_core-1.4.6.tar.gz]
 [2023-07-31 12:55:31] INFO root fetch - main [MainThread]: End processing [pyobs-core]: success
 [2023-07-31 12:55:31] INFO root fetch - main [MainThread]: Store serial: [19106397]
+[2023-07-31 13:00:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19106397]
+[2023-07-31 13:00:39] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-31 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pen-writer
+[2023-07-31 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: classiq
+[2023-07-31 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal-client
+[2023-07-31 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modal
+[2023-07-31 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pip-services4-http
+[2023-07-31 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aspose-finance
+[2023-07-31 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oot
+[2023-07-31 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sekiro
+[2023-07-31 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: baarutil
+[2023-07-31 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: readmeai
+[2023-07-31 13:00:40] INFO root fetch - processPackages [aspose-finance]: New version: [23.7] Old Version: [23.6]
+[2023-07-31 13:00:40] WARNING root fetch - processPackages [pen-writer]: Skipping, unable to determine old version
+[2023-07-31 13:00:40] INFO root fetch - processPackages [pen-writer]: Start processing: mknodes
+[2023-07-31 13:00:40] INFO root fetch - main [MainThread]: End processing [pen-writer] error
+[2023-07-31 13:00:40] WARNING root fetch - processPackages [oot]: Skipping, unable to determine old version
+[2023-07-31 13:00:40] INFO root fetch - processPackages [oot]: Start processing: RiskLabAI
+[2023-07-31 13:00:40] INFO root fetch - main [MainThread]: End processing [oot] error
+[2023-07-31 13:00:40] INFO root fetch - processPackages [modal]: New version: [0.50.2788] Old Version: [0.50.2775]
+[2023-07-31 13:00:40] INFO root fetch - processPackages [baarutil]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-31 13:00:40] INFO root fetch - processPackages [readmeai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 13:00:40] WARNING root fetch - processPackages [sekiro]: Skipping, unable to determine old version
+[2023-07-31 13:00:40] INFO root fetch - processPackages [sekiro]: Start processing: matrix-sydent
+[2023-07-31 13:00:40] INFO root fetch - main [MainThread]: End processing [sekiro] error
+[2023-07-31 13:00:40] WARNING root fetch - processPackages [pip-services4-http]: Skipping, unable to determine old version
+[2023-07-31 13:00:40] INFO root fetch - main [MainThread]: End processing [pip-services4-http] error
+[2023-07-31 13:00:40] INFO root fetch - processPackages [classiq]: New version: [0.9.3] Old Version: [0.9.1]
+[2023-07-31 13:00:40] INFO root fetch - processPackages [mknodes]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-31 13:00:40] INFO root fetch - processPackages [modal-client]: New version: [0.50.2788] Old Version: [0.50.2775]
+[2023-07-31 13:00:40] INFO root fetch - processPackages [RiskLabAI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 13:00:40] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/97/b7/d7dad3ff979fd9c0e4d0b4776dc43cb9ff7061b6e8afd3cb167dbb2597c9/readmeai-0.1.0.tar.gz
+[2023-07-31 13:00:40] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/7f/f1/533fbe0917ee95b4471dbbba2b0708b664d9aa3be25f84b08d6ccebde7ab/mknodes-0.8.3.tar.gz
+[2023-07-31 13:00:40] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/cb/23/1e901697971dbc91f0b6d58c7000e887d34b73c7fb4342be06bb5aa0e054/modal-0.50.2775-py3-none-any.whl
+[2023-07-31 13:00:40] INFO root fetch - processPackages [aspose-finance]: Downloading https://files.pythonhosted.org/packages/8d/da/5e8078dcd3bd9c17e4361398f0f4d6290864ff49b86f5fe56a4020bdde6d/aspose_finance-23.6-py3-none-win_amd64.whl
+[2023-07-31 13:00:40] INFO root fetch - processPackages [matrix-sydent]: New version: [2.5.6] Old Version: [2.5.5]
+[2023-07-31 13:00:40] INFO root fetch - processPackages [classiq]: Downloading https://files.pythonhosted.org/packages/62/bd/a743e4141094b0e9dc17aeac1cedfe15efc910502e7411611d5cdf9d1878/classiq-0.9.1-py3-none-any.whl
+[2023-07-31 13:00:40] INFO root fetch - processPackages [baarutil]: Downloading https://files.pythonhosted.org/packages/a3/bc/bc9ab52711e7b53d2de588bdb0ec2877c21a2dc7dd677e381cf2605efd66/baarutil-1.9.3.tar.gz
+[2023-07-31 13:00:40] WARNING root fetch - processPackages [aspose-finance]: Skipping package: exceeds size limit 41672302>=10485760
+[2023-07-31 13:00:40] INFO root fetch - main [MainThread]: End processing [aspose-finance] error
+[2023-07-31 13:00:40] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/f2/9c/8453ab08d6a912173b0eb0c24789680454e3113e32b934642b9829de2def/modal_client-0.50.2775-py3-none-any.whl
+[2023-07-31 13:00:40] INFO root fetch - processPackages [RiskLabAI]: Downloading https://files.pythonhosted.org/packages/cc/ff/c1d0c1b80be28ca28064c9a4be9a1bb7a191606a8b08c1ccad24911f5b54/RiskLabAI-0.0.8.tar.gz
+[2023-07-31 13:00:40] INFO root fetch - processPackages [matrix-sydent]: Downloading https://files.pythonhosted.org/packages/98/c6/966856bd7b1562a506b8c3a23709ee0ae0185c7a0532ad92081259b53b61/matrix_sydent-2.5.5.tar.gz
+[2023-07-31 13:00:40] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/a9/23/d4351caa4d81e1d5dfee2da642c21895fe33271ddb4650d42f56940e3a64/mknodes-0.9.0.tar.gz
+[2023-07-31 13:00:40] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/e7/70/0fa2a3cf20110482fb3e5188291531e212c8bfc0d17f89a2206bc949625e/readmeai-0.1.1.tar.gz
+[2023-07-31 13:00:41] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/62/26/397d904bf376b412f756d21ad07f94ee82998cb6e7a0d6ecb0aed1632ae6/modal-0.50.2788-py3-none-any.whl
+[2023-07-31 13:00:41] INFO root fetch - processPackages [baarutil]: Downloading https://files.pythonhosted.org/packages/b6/9f/5e5907ae732621e9e3f28084f97358587158e168d73a8c528e8799ef555b/baarutil-1.9.4.tar.gz
+[2023-07-31 13:00:41] INFO root fetch - processPackages [mknodes]: executing diffoscope
+[2023-07-31 13:00:41] INFO root fetch - processPackages [mknodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknodes-0.8.3.tar.gz tmp/mknodes-0.9.0.tar.gz --markdown 20230731/m/mknodes/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 13:00:41] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/7d/43/4d5c89272077688481f2dfa2343b1c572d4117647e20796251c0b2c54acf/modal_client-0.50.2788-py3-none-any.whl
+[2023-07-31 13:00:41] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-31 13:00:41] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.1.0.tar.gz tmp/readmeai-0.1.1.tar.gz --markdown 20230731/r/readmeai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 13:00:41] INFO root fetch - processPackages [RiskLabAI]: Downloading https://files.pythonhosted.org/packages/bd/06/8b21467597cdd4ac5f26ccf7b426641f2283854423d655ae0f713d98b84c/RiskLabAI-0.0.9.tar.gz
+[2023-07-31 13:00:41] INFO root fetch - processPackages [baarutil]: executing diffoscope
+[2023-07-31 13:00:41] INFO root fetch - processPackages [baarutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baarutil-1.9.3.tar.gz tmp/baarutil-1.9.4.tar.gz --markdown 20230731/b/baarutil/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-31 13:00:41] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-31 13:00:41] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2775-py3-none-any.whl.zip tmp/modal-0.50.2788-py3-none-any.whl.zip --markdown 20230731/m/modal/0.50.2775-0.50.2788/diff.md --exclude *.pyd
+[2023-07-31 13:00:41] INFO root fetch - processPackages [classiq]: Downloading https://files.pythonhosted.org/packages/e5/eb/9b39365fd2d7c2027f6610a884229059149ab9a3395be331767306762c07/classiq-0.9.3-py3-none-any.whl
+[2023-07-31 13:00:41] INFO root fetch - processPackages [RiskLabAI]: executing diffoscope
+[2023-07-31 13:00:41] INFO root fetch - processPackages [RiskLabAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RiskLabAI-0.0.8.tar.gz tmp/RiskLabAI-0.0.9.tar.gz --markdown 20230731/R/RiskLabAI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 13:00:41] INFO root fetch - processPackages [matrix-sydent]: Downloading https://files.pythonhosted.org/packages/a3/bb/3b5df7154ce8f1444527160097d6f1103fc94b487b7d8f2d0ca235c8e4e6/matrix_sydent-2.5.6.tar.gz
+[2023-07-31 13:00:41] INFO root fetch - processPackages [classiq]: executing diffoscope
+[2023-07-31 13:00:41] INFO root fetch - processPackages [classiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classiq-0.9.1-py3-none-any.whl.zip tmp/classiq-0.9.3-py3-none-any.whl.zip --markdown 20230731/c/classiq/0.9.1-0.9.3/diff.md --exclude *.pyd
+[2023-07-31 13:00:41] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-31 13:00:41] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2775-py3-none-any.whl.zip tmp/modal_client-0.50.2788-py3-none-any.whl.zip --markdown 20230731/m/modal-client/0.50.2775-0.50.2788/diff.md --exclude *.pyd
+[2023-07-31 13:00:41] INFO root fetch - processPackages [matrix-sydent]: executing diffoscope
+[2023-07-31 13:00:41] INFO root fetch - processPackages [matrix-sydent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix_sydent-2.5.5.tar.gz tmp/matrix_sydent-2.5.6.tar.gz --markdown 20230731/m/matrix-sydent/2.5.5-2.5.6/diff.md --exclude *.pyd
+[2023-07-31 13:00:42] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2775-py3-none-any.whl.zip]
+[2023-07-31 13:00:42] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2788-py3-none-any.whl.zip]
+[2023-07-31 13:00:42] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-31 13:00:42] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.1.0.tar.gz]
+[2023-07-31 13:00:42] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.1.1.tar.gz]
+[2023-07-31 13:00:42] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-31 13:00:42] INFO root fetch - processPackages [baarutil]: Remove: archive file [/home/abi/fetcher/tmp/baarutil-1.9.3.tar.gz]
+[2023-07-31 13:00:42] INFO root fetch - processPackages [baarutil]: Remove: archive file [/home/abi/fetcher/tmp/baarutil-1.9.4.tar.gz]
+[2023-07-31 13:00:42] INFO root fetch - main [MainThread]: End processing [baarutil]: success
+[2023-07-31 13:00:42] INFO root fetch - processPackages [RiskLabAI]: Remove: archive file [/home/abi/fetcher/tmp/RiskLabAI-0.0.8.tar.gz]
+[2023-07-31 13:00:42] INFO root fetch - processPackages [RiskLabAI]: Remove: archive file [/home/abi/fetcher/tmp/RiskLabAI-0.0.9.tar.gz]
+[2023-07-31 13:00:42] INFO root fetch - main [MainThread]: End processing [RiskLabAI]: success
+[2023-07-31 13:00:42] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.8.3.tar.gz]
+[2023-07-31 13:00:42] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.9.0.tar.gz]
+[2023-07-31 13:00:42] INFO root fetch - main [MainThread]: End processing [mknodes]: success
+[2023-07-31 13:00:43] INFO root fetch - processPackages [matrix-sydent]: Remove: archive file [/home/abi/fetcher/tmp/matrix_sydent-2.5.5.tar.gz]
+[2023-07-31 13:00:43] INFO root fetch - processPackages [matrix-sydent]: Remove: archive file [/home/abi/fetcher/tmp/matrix_sydent-2.5.6.tar.gz]
+[2023-07-31 13:00:43] INFO root fetch - main [MainThread]: End processing [matrix-sydent]: success
+[2023-07-31 13:00:43] INFO root fetch - processPackages [classiq]: Remove: archive file [/home/abi/fetcher/tmp/classiq-0.9.1-py3-none-any.whl.zip]
+[2023-07-31 13:00:43] INFO root fetch - processPackages [classiq]: Remove: archive file [/home/abi/fetcher/tmp/classiq-0.9.3-py3-none-any.whl.zip]
+[2023-07-31 13:00:43] INFO root fetch - main [MainThread]: End processing [classiq]: success
+[2023-07-31 13:00:43] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2775-py3-none-any.whl.zip]
+[2023-07-31 13:00:43] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2788-py3-none-any.whl.zip]
+[2023-07-31 13:00:43] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-31 13:00:43] INFO root fetch - main [MainThread]: Store serial: [19106441]
