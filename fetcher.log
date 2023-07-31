@@ -16960,3 +16960,158 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 13:24:44] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.3.0.tar.gz]
 [2023-07-31 13:24:44] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-31 13:24:44] INFO root fetch - main [MainThread]: Store serial: [19106721]
+[2023-07-31 13:29:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19106721]
+[2023-07-31 13:29:53] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-31 13:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decentralizedroutines
+[2023-07-31 13:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchrl-nightly
+[2023-07-31 13:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchtnt-nightly
+[2023-07-31 13:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchserve-nightly
+[2023-07-31 13:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evrm
+[2023-07-31 13:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-model-archiver-nightly
+[2023-07-31 13:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchx-nightly
+[2023-07-31 13:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-workflow-archiver-nightly
+[2023-07-31 13:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gn-arcrest
+[2023-07-31 13:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robusta-cli
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.7.30] Old Version: [2023.7.29]
+[2023-07-31 13:29:54] INFO root fetch - processPackages [gn-arcrest]: New version: [10.5.6] Old Version: [10.5.5]
+[2023-07-31 13:29:54] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-07-31 13:29:54] INFO root fetch - processPackages [evrm]: New version: [9] Old Version: [78]
+[2023-07-31 13:29:54] INFO root fetch - processPackages [decentralizedroutines]: New version: [2.2.0] Old Version: [2.0.7]
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/79/7b/895a8c244090d21e2b4ef3ce796b531341fa165f521fdddac03e38b84686/torchx_nightly-2023.7.29-py3-none-any.whl
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fc/e9/cb5f596703c31d7f2e9bf2501c71de3a97dd6f54385926ea9d621de36d48/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d6/b2/b77948f318b41f4c30bce37021e5eaab04bf7c8abae416af053b02be3370/torchserve_nightly-2023.7.8-py3-none-any.whl
+[2023-07-31 13:29:54] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/83/5c/d64848b26d2ef0c0086f93f0679296b742a8b4249bb28b5775e41d48c7b1/decentralizedroutines-2.0.7.tar.gz
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/44/8a/225f6757d5df77a706853e7f70981e785e26693e9c5529b1725322da94ee/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-31 13:29:54] INFO root fetch - processPackages [gn-arcrest]: Downloading https://files.pythonhosted.org/packages/da/59/7702cadf51a3e2e5b8cdb35598a46716901cdf71e0aba9c7010bfd83c2fe/gn_arcrest-10.5.5-py3-none-any.whl
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/47/a5/6e0ce29c38b55188a4ab6ec32c5f4908ef7a19908d233cb0c077fcc21462/torchtnt-nightly-2023.7.8.tar.gz
+[2023-07-31 13:29:54] INFO root fetch - processPackages [evrm]: Downloading https://files.pythonhosted.org/packages/1c/fa/a03053370ef409374e602e74fe046d5ccf7f2abdf68b28e99afe88c5170e/evrm-78.tar.gz
+[2023-07-31 13:29:54] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/39/60/df780a4cd33fb6c25e7e6b0c86022d93aaa4490b1a758140e3d98a02996e/robusta-cli-0.9.7.tar.gz
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fa/aa/2acd3c1df69eef6cb2f42f54b0fd7b1c220c14c65ccebdf7f555bda0304d/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fe/e1/e410f517fa560296c172a15440f705636cb42246e81398b27edb5a7c072f/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-31 13:29:54] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/28/3e/19a1d5833a703ac7e567c6f9109c21f1a28e16d72e35d16cd6da3583d553/decentralizedroutines-2.2.0.tar.gz
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/ba/ea/bf9b355a00fa76f355499104ebc6c6a08de8bc993dd2f7e464105ca4dd7c/torchx_nightly-2023.7.30-py3-none-any.whl
+[2023-07-31 13:29:54] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/ae/7f/589eb3c0712725a4a9594bdbc4229b9087a94038117bda63c54ef6d2e7e5/torchtnt-nightly-2023.7.9.tar.gz
+[2023-07-31 13:29:54] INFO root fetch - processPackages [gn-arcrest]: Downloading https://files.pythonhosted.org/packages/58/46/d3b56e9496838b565d7717366c423360fa03a62d3c7e24aabed72e62b82f/gn_arcrest-10.5.6-py3-none-any.whl
+[2023-07-31 13:29:55] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-31 13:29:55] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230731/t/torch-model-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-31 13:29:55] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-31 13:29:55] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230731/t/torch-workflow-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-31 13:29:55] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750079>=10485760
+[2023-07-31 13:29:55] INFO root fetch - processPackages [torchserve-nightly]: Start processing: djangocms-events
+[2023-07-31 13:29:55] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-31 13:29:55] INFO root fetch - processPackages [decentralizedroutines]: executing diffoscope
+[2023-07-31 13:29:55] INFO root fetch - processPackages [decentralizedroutines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentralizedroutines-2.0.7.tar.gz tmp/decentralizedroutines-2.2.0.tar.gz --markdown 20230731/d/decentralizedroutines/2.0.7-2.2.0/diff.md --exclude *.pyd
+[2023-07-31 13:29:55] INFO root fetch - processPackages [djangocms-events]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-31 13:29:55] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-07-31 13:29:55] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.7.29-py3-none-any.whl.zip tmp/torchx_nightly-2023.7.30-py3-none-any.whl.zip --markdown 20230731/t/torchx-nightly/2023.7.29-2023.7.30/diff.md --exclude *.pyd
+[2023-07-31 13:29:55] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-31 13:29:55] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.8.tar.gz tmp/torchtnt-nightly-2023.7.9.tar.gz --markdown 20230731/t/torchtnt-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-31 13:29:55] INFO root fetch - processPackages [gn-arcrest]: executing diffoscope
+[2023-07-31 13:29:55] INFO root fetch - processPackages [gn-arcrest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gn_arcrest-10.5.5-py3-none-any.whl.zip tmp/gn_arcrest-10.5.6-py3-none-any.whl.zip --markdown 20230731/g/gn-arcrest/10.5.5-10.5.6/diff.md --exclude *.pyd
+[2023-07-31 13:29:55] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/9f/ff/a70074935ded21551e9900241be83e06dcddd697498c8fa3eeab30d0105c/robusta-cli-0.9.9.tar.gz
+[2023-07-31 13:29:55] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-31 13:29:55] INFO root fetch - processPackages [evrm]: Downloading https://files.pythonhosted.org/packages/95/af/274ca4d68dae09f1bc6796ae037e26012618b6f0b3e83da1be16dab87391/evrm-9.tar.gz
+[2023-07-31 13:29:55] INFO root fetch - processPackages [djangocms-events]: Downloading https://files.pythonhosted.org/packages/9f/00/bdf16ac80edf70e54c93ac4babdf5665a734bec40e7cd94996bfb09c6764/djangocms_events-0.1.2.tar.gz
+[2023-07-31 13:29:55] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2023-07-31 13:29:55] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20230731/r/robusta-cli/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 13:29:55] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-31 13:29:55] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230731/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-31 13:29:56] INFO root fetch - processPackages [djangocms-events]: Downloading https://files.pythonhosted.org/packages/68/cd/732cf9a162e8f8c187041fa95d538d0ff51a186b1b1646802060c0788fb8/djangocms_events-0.1.3.tar.gz
+[2023-07-31 13:29:56] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-31 13:29:56] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-31 13:29:56] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: EasyDeL
+[2023-07-31 13:29:56] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-31 13:29:56] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-31 13:29:56] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-31 13:29:56] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: kamer
+[2023-07-31 13:29:56] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-31 13:29:56] INFO root fetch - processPackages [evrm]: executing diffoscope
+[2023-07-31 13:29:56] INFO root fetch - processPackages [evrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evrm-78.tar.gz tmp/evrm-9.tar.gz --markdown 20230731/e/evrm/78-9/diff.md --exclude *.pyd
+[2023-07-31 13:29:56] INFO root fetch - processPackages [djangocms-events]: executing diffoscope
+[2023-07-31 13:29:56] INFO root fetch - processPackages [djangocms-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms_events-0.1.2.tar.gz tmp/djangocms_events-0.1.3.tar.gz --markdown 20230731/d/djangocms-events/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-31 13:29:56] INFO root fetch - processPackages [EasyDeL]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 13:29:56] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-2.0.7.tar.gz]
+[2023-07-31 13:29:56] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-2.2.0.tar.gz]
+[2023-07-31 13:29:56] INFO root fetch - processPackages [kamer]: New version: [9] Old Version: [8]
+[2023-07-31 13:29:56] INFO root fetch - processPackages [decentralizedroutines]: Start processing: fajrGPT
+[2023-07-31 13:29:56] INFO root fetch - main [MainThread]: End processing [decentralizedroutines]: success
+[2023-07-31 13:29:56] INFO root fetch - processPackages [fajrGPT]: New version: [1.5.1] Old Version: [1.5]
+[2023-07-31 13:29:56] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/0b/01/765632e4f48f400658c26b4a653df55e20dc326b64fd0991020f7fb5c16b/EasyDeL-0.0.8.tar.gz
+[2023-07-31 13:29:56] INFO root fetch - processPackages [gn-arcrest]: Remove: archive file [/home/abi/fetcher/tmp/gn_arcrest-10.5.5-py3-none-any.whl.zip]
+[2023-07-31 13:29:56] INFO root fetch - processPackages [gn-arcrest]: Remove: archive file [/home/abi/fetcher/tmp/gn_arcrest-10.5.6-py3-none-any.whl.zip]
+[2023-07-31 13:29:56] INFO root fetch - processPackages [gn-arcrest]: Start processing: dbt-copilot-tools
+[2023-07-31 13:29:56] INFO root fetch - main [MainThread]: End processing [gn-arcrest]: success
+[2023-07-31 13:29:56] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/d6/39/b90ff5ec6901d4de821705a5e40fa2034755785e833956bc99c07c4729cd/fajrGPT-1.5.tar.gz
+[2023-07-31 13:29:56] INFO root fetch - processPackages [kamer]: Downloading https://files.pythonhosted.org/packages/12/84/de354bc335a12007c0931162cb11f4aeb17c22760dd682e7f97a900f3be8/kamer-8.tar.gz
+[2023-07-31 13:29:56] INFO root fetch - processPackages [dbt-copilot-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 13:29:56] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.8.tar.gz]
+[2023-07-31 13:29:56] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.9.tar.gz]
+[2023-07-31 13:29:56] INFO root fetch - processPackages [torchtnt-nightly]: Start processing: pyspharm-intel
+[2023-07-31 13:29:56] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-31 13:29:56] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/8a/e3/914fc5ccc4d98c608c3f2bac8f8e325f940afda206011c7e1425cf00d471/EasyDeL-0.0.9.tar.gz
+[2023-07-31 13:29:56] WARNING root fetch - processPackages [pyspharm-intel]: Skipping, unable to determine old version
+[2023-07-31 13:29:56] INFO root fetch - processPackages [pyspharm-intel]: Start processing: koning
+[2023-07-31 13:29:56] INFO root fetch - main [MainThread]: End processing [pyspharm-intel] error
+[2023-07-31 13:29:57] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.7.29-py3-none-any.whl.zip]
+[2023-07-31 13:29:57] INFO root fetch - processPackages [EasyDeL]: executing diffoscope
+[2023-07-31 13:29:57] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.7.30-py3-none-any.whl.zip]
+[2023-07-31 13:29:57] INFO root fetch - processPackages [EasyDeL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyDeL-0.0.8.tar.gz tmp/EasyDeL-0.0.9.tar.gz --markdown 20230731/E/EasyDeL/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 13:29:57] INFO root fetch - processPackages [torchx-nightly]: Start processing: lusid-scheduler-sdk-preview
+[2023-07-31 13:29:57] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-07-31 13:29:57] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/58/50/738228ec875a74dd6a230fcee4cbf69f1a042358ca1c78e473aee028c183/fajrGPT-1.5.1.tar.gz
+[2023-07-31 13:29:57] INFO root fetch - processPackages [dbt-copilot-tools]: Downloading https://files.pythonhosted.org/packages/8c/23/a231ad7c725bf031c9028d10379f0909785eb554f0c7e90cb5769ae2d25b/dbt_copilot_tools-0.1.8.tar.gz
+[2023-07-31 13:29:57] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: New version: [0.0.812] Old Version: [0.0.807]
+[2023-07-31 13:29:57] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-07-31 13:29:57] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.5.tar.gz tmp/fajrGPT-1.5.1.tar.gz --markdown 20230731/f/fajrGPT/1.5-1.5.1/diff.md --exclude *.pyd
+[2023-07-31 13:29:57] INFO root fetch - processPackages [koning]: New version: [9] Old Version: [8]
+[2023-07-31 13:29:57] INFO root fetch - processPackages [kamer]: Downloading https://files.pythonhosted.org/packages/04/27/9dd42122880153989ae25b59fc8a5352df854bc2b1164dacdb81df61d4c4/kamer-9.tar.gz
+[2023-07-31 13:29:57] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/34/45/b812f11cff791dd8b55e28c7963540c0dd53e7b0d5183fa54cb11619559d/lusid-scheduler-sdk-preview-0.0.807.tar.gz
+[2023-07-31 13:29:57] INFO root fetch - processPackages [koning]: Downloading https://files.pythonhosted.org/packages/c5/14/62f56d6cf6f7b4d1b6032d80b2ce70d79c92f49a2a9ae0a480ceae61acbc/koning-8.tar.gz
+[2023-07-31 13:29:57] INFO root fetch - processPackages [kamer]: executing diffoscope
+[2023-07-31 13:29:57] INFO root fetch - processPackages [kamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kamer-8.tar.gz tmp/kamer-9.tar.gz --markdown 20230731/k/kamer/8-9/diff.md --exclude *.pyd
+[2023-07-31 13:29:57] INFO root fetch - processPackages [dbt-copilot-tools]: Downloading https://files.pythonhosted.org/packages/0a/cf/fbb078a52744dd2146345135e2ae1332fabb15b433b3483c86a4099a2c42/dbt_copilot_tools-0.1.9.tar.gz
+[2023-07-31 13:29:57] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f3/41/d955ada043cd930c3874c0a96e8735dfd90d3b2597cf9c1ec9d8e547d65d/lusid-scheduler-sdk-preview-0.0.812.tar.gz
+[2023-07-31 13:29:57] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.7.tar.gz]
+[2023-07-31 13:29:57] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.9.tar.gz]
+[2023-07-31 13:29:57] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2023-07-31 13:29:57] INFO root fetch - processPackages [dbt-copilot-tools]: executing diffoscope
+[2023-07-31 13:29:57] INFO root fetch - processPackages [dbt-copilot-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_copilot_tools-0.1.8.tar.gz tmp/dbt_copilot_tools-0.1.9.tar.gz --markdown 20230731/d/dbt-copilot-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 13:29:57] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: executing diffoscope
+[2023-07-31 13:29:57] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-scheduler-sdk-preview-0.0.807.tar.gz tmp/lusid-scheduler-sdk-preview-0.0.812.tar.gz --markdown 20230731/l/lusid-scheduler-sdk-preview/0.0.807-0.0.812/diff.md --exclude *.pyd
+[2023-07-31 13:29:57] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 13:29:57] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 13:29:57] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-31 13:29:58] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.8.tar.gz]
+[2023-07-31 13:29:58] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.9.tar.gz]
+[2023-07-31 13:29:58] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
+[2023-07-31 13:29:58] INFO root fetch - processPackages [koning]: Downloading https://files.pythonhosted.org/packages/c6/53/900b1366301aff31b8a020d4c730a87d05a1eccd0395fc73c4d4d6bc7f18/koning-9.tar.gz
+[2023-07-31 13:29:58] INFO root fetch - processPackages [evrm]: Remove: archive file [/home/abi/fetcher/tmp/evrm-78.tar.gz]
+[2023-07-31 13:29:58] INFO root fetch - processPackages [evrm]: Remove: archive file [/home/abi/fetcher/tmp/evrm-9.tar.gz]
+[2023-07-31 13:29:58] INFO root fetch - main [MainThread]: End processing [evrm]: success
+[2023-07-31 13:29:58] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.5.tar.gz]
+[2023-07-31 13:29:58] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.5.1.tar.gz]
+[2023-07-31 13:29:58] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-07-31 13:29:58] INFO root fetch - processPackages [kamer]: Remove: archive file [/home/abi/fetcher/tmp/kamer-8.tar.gz]
+[2023-07-31 13:29:58] INFO root fetch - processPackages [kamer]: Remove: archive file [/home/abi/fetcher/tmp/kamer-9.tar.gz]
+[2023-07-31 13:29:58] INFO root fetch - main [MainThread]: End processing [kamer]: success
+[2023-07-31 13:29:58] INFO root fetch - processPackages [dbt-copilot-tools]: Remove: archive file [/home/abi/fetcher/tmp/dbt_copilot_tools-0.1.8.tar.gz]
+[2023-07-31 13:29:58] INFO root fetch - processPackages [dbt-copilot-tools]: Remove: archive file [/home/abi/fetcher/tmp/dbt_copilot_tools-0.1.9.tar.gz]
+[2023-07-31 13:29:58] INFO root fetch - main [MainThread]: End processing [dbt-copilot-tools]: success
+[2023-07-31 13:29:59] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.807.tar.gz]
+[2023-07-31 13:29:59] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.812.tar.gz]
+[2023-07-31 13:29:59] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk-preview]: success
+[2023-07-31 13:29:59] INFO root fetch - processPackages [koning]: executing diffoscope
+[2023-07-31 13:29:59] INFO root fetch - processPackages [koning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koning-8.tar.gz tmp/koning-9.tar.gz --markdown 20230731/k/koning/8-9/diff.md --exclude *.pyd
+[2023-07-31 13:30:00] INFO root fetch - processPackages [koning]: Remove: archive file [/home/abi/fetcher/tmp/koning-8.tar.gz]
+[2023-07-31 13:30:00] INFO root fetch - processPackages [koning]: Remove: archive file [/home/abi/fetcher/tmp/koning-9.tar.gz]
+[2023-07-31 13:30:00] INFO root fetch - main [MainThread]: End processing [koning]: success
+[2023-07-31 13:30:02] INFO root fetch - processPackages [djangocms-events]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_events-0.1.2.tar.gz]
+[2023-07-31 13:30:02] INFO root fetch - processPackages [djangocms-events]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_events-0.1.3.tar.gz]
+[2023-07-31 13:30:02] INFO root fetch - main [MainThread]: End processing [djangocms-events]: success
+[2023-07-31 13:30:02] INFO root fetch - main [MainThread]: Store serial: [19106785]
