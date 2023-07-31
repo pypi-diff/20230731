@@ -9440,3 +9440,117 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 08:59:24] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
 [2023-07-31 08:59:24] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
 [2023-07-31 08:59:24] INFO root fetch - main [MainThread]: Store serial: [19103776]
+[2023-07-31 09:04:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19103776]
+[2023-07-31 09:04:32] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-31 09:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-seleniumbase
+[2023-07-31 09:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbase
+[2023-07-31 09:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkgAnant
+[2023-07-31 09:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aigc-zoo
+[2023-07-31 09:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2023-07-31 09:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fyers-sdk
+[2023-07-31 09:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sapientml
+[2023-07-31 09:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seqio-nightly
+[2023-07-31 09:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fluidsdk
+[2023-07-31 09:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pkgUdit
+[2023-07-31 09:04:33] INFO root fetch - processPackages [pkgAnant]: New version: [4.1.1] Old Version: [4.0.0]
+[2023-07-31 09:04:33] INFO root fetch - processPackages [pkgUdit]: New version: [1.1.6] Old Version: [1.1.5.9]
+[2023-07-31 09:04:33] INFO root fetch - processPackages [fyers-sdk]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-31 09:04:33] INFO root fetch - processPackages [aigc-zoo]: New version: [0.1.13] Old Version: [0.1.12.post1]
+[2023-07-31 09:04:33] INFO root fetch - processPackages [fluidsdk]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-31 09:04:33] INFO root fetch - processPackages [sapientml]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 09:04:33] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-31 09:04:33] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-31 09:04:33] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-31 09:04:33] INFO root fetch - processPackages [pkgAnant]: Downloading https://files.pythonhosted.org/packages/07/b7/2b133a6fbacfa63b5076150d334831da4339fcdf90e4a899abd8720f29b7/pkgAnant-4.0.0.tar.gz
+[2023-07-31 09:04:33] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/15/13/d7966f766a14fb0dfe778e4e51f6adc2e16627e17e2c866b49605e1eef96/fyers_sdk-1.0.4.tar.gz
+[2023-07-31 09:04:33] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230731070139] Old Version: [2.2.1.dev20230730160047]
+[2023-07-31 09:04:33] INFO root fetch - processPackages [fluidsdk]: Downloading https://files.pythonhosted.org/packages/10/c5/a0a846f4755c67acf805519461a6561cf1d5f771b3fee41c7d64c93a3f76/fluidsdk-0.4.3.tar.gz
+[2023-07-31 09:04:33] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-31 09:04:33] INFO root fetch - processPackages [sapientml]: Downloading https://files.pythonhosted.org/packages/a1/95/a26c42a6f4661aba08c4ba23f20d0a43e6b434fb47e9184946f8c0728f38/sapientml-0.1.0.tar.gz
+[2023-07-31 09:04:33] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/90/5d/f5ca7c71622ce0babb31b6a5446cbf07a297607aa8bdf4dffa8206fa4cdd/aigc_zoo-0.1.12.post1-py3-none-any.whl
+[2023-07-31 09:04:33] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2023-07-31 09:04:33] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/35/1d/ae0701c056f18f911f290fb448488483dd8df216023ae58a8cddfaaa972e/pkgUdit-1.1.5.9.tar.gz
+[2023-07-31 09:04:33] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e3/e6/4323bcf14091c65fe81e1ca000babcced3e4eebb294f5f8d6a274c09f226/localstack-core-2.2.1.dev20230730160047.tar.gz
+[2023-07-31 09:04:33] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2023-07-31 09:04:33] INFO root fetch - processPackages [pkgAnant]: Downloading https://files.pythonhosted.org/packages/b1/06/d56b1c3ebc9ace0814a205f840ed0b0a22c095bb518c2864dd25cdad114c/pkgAnant-4.1.1.tar.gz
+[2023-07-31 09:04:34] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/3c/2d/7f5fb45d9fbb7d8bc7ca1af48aae20f8150a2896dc2e077963423e85401d/fyers_sdk-1.0.5.tar.gz
+[2023-07-31 09:04:34] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-31 09:04:34] INFO root fetch - processPackages [pkgAnant]: executing diffoscope
+[2023-07-31 09:04:34] INFO root fetch - processPackages [pkgAnant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgAnant-4.0.0.tar.gz tmp/pkgAnant-4.1.1.tar.gz --markdown 20230731/p/pkgAnant/4.0.0-4.1.1/diff.md --exclude *.pyd
+[2023-07-31 09:04:34] INFO root fetch - processPackages [fluidsdk]: Downloading https://files.pythonhosted.org/packages/6c/f8/7304c48398d3b669907c3f86c533bede1490e94bc8ffa8bc2c4eebdb08bb/fluidsdk-0.4.4.tar.gz
+[2023-07-31 09:04:34] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-07-31 09:04:34] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-1.0.4.tar.gz tmp/fyers_sdk-1.0.5.tar.gz --markdown 20230731/f/fyers-sdk/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-31 09:04:34] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e3/e1/e27cd54bf9b89416d9f696eb9a2181236cb0355670741e53341160ef4032/localstack-core-2.2.1.dev20230731070139.tar.gz
+[2023-07-31 09:04:34] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/d9/4d/3567007b3b44d7d3efd4cf93dcf6f75ab9fd2ea2bb50169644e0fd60b114/pkgUdit-1.1.6.tar.gz
+[2023-07-31 09:04:34] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/c1/a8/bf21a0d3cf3c1f691be2072cf8bdbd25cdb360fdb1f7522f0e13add4a390/aigc_zoo-0.1.13-py3-none-any.whl
+[2023-07-31 09:04:34] INFO root fetch - processPackages [sapientml]: Downloading https://files.pythonhosted.org/packages/e0/26/7baf94c83a9723d7a12423d30fc3d893d8066aea4501d77366252322db04/sapientml-0.1.1.tar.gz
+[2023-07-31 09:04:34] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-31 09:04:34] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230731/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-31 09:04:34] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2023-07-31 09:04:34] INFO root fetch - processPackages [pkgUdit]: executing diffoscope
+[2023-07-31 09:04:34] INFO root fetch - processPackages [pkgUdit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgUdit-1.1.5.9.tar.gz tmp/pkgUdit-1.1.6.tar.gz --markdown 20230731/p/pkgUdit/1.1.5.9-1.1.6/diff.md --exclude *.pyd
+[2023-07-31 09:04:34] INFO root fetch - processPackages [sapientml]: executing diffoscope
+[2023-07-31 09:04:34] INFO root fetch - processPackages [sapientml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapientml-0.1.0.tar.gz tmp/sapientml-0.1.1.tar.gz --markdown 20230731/s/sapientml/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 09:04:34] INFO root fetch - processPackages [aigc-zoo]: executing diffoscope
+[2023-07-31 09:04:34] INFO root fetch - processPackages [aigc-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aigc_zoo-0.1.12.post1-py3-none-any.whl.zip tmp/aigc_zoo-0.1.13-py3-none-any.whl.zip --markdown 20230731/a/aigc-zoo/0.1.12.post1-0.1.13/diff.md --exclude *.pyd
+[2023-07-31 09:04:34] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-07-31 09:04:34] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230731/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-31 09:04:34] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2023-07-31 09:04:34] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-31 09:04:34] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230730160047.tar.gz tmp/localstack-core-2.2.1.dev20230731070139.tar.gz --markdown 20230731/l/localstack-core/2.2.1.dev20230730160047-2.2.1.dev20230731070139/diff.md --exclude *.pyd
+[2023-07-31 09:04:34] INFO root fetch - processPackages [fluidsdk]: executing diffoscope
+[2023-07-31 09:04:34] INFO root fetch - processPackages [fluidsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluidsdk-0.4.3.tar.gz tmp/fluidsdk-0.4.4.tar.gz --markdown 20230731/f/fluidsdk/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-31 09:04:35] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-07-31 09:04:35] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230731/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-31 09:04:35] INFO root fetch - processPackages [pkgAnant]: Remove: archive file [/home/abi/fetcher/tmp/pkgAnant-4.0.0.tar.gz]
+[2023-07-31 09:04:35] INFO root fetch - processPackages [pkgAnant]: Remove: archive file [/home/abi/fetcher/tmp/pkgAnant-4.1.1.tar.gz]
+[2023-07-31 09:04:35] INFO root fetch - processPackages [pkgAnant]: Start processing: BundesligaPredictor
+[2023-07-31 09:04:35] INFO root fetch - main [MainThread]: End processing [pkgAnant]: success
+[2023-07-31 09:04:35] WARNING root fetch - processPackages [BundesligaPredictor]: Skipping, unable to determine old version
+[2023-07-31 09:04:35] INFO root fetch - processPackages [BundesligaPredictor]: Start processing: tinybird-cli
+[2023-07-31 09:04:35] INFO root fetch - main [MainThread]: End processing [BundesligaPredictor] error
+[2023-07-31 09:04:35] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-1.0.4.tar.gz]
+[2023-07-31 09:04:35] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-1.0.5.tar.gz]
+[2023-07-31 09:04:35] INFO root fetch - processPackages [fyers-sdk]: Start processing: tondortools
+[2023-07-31 09:04:35] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-07-31 09:04:35] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-31 09:04:35] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-1.1.5.9.tar.gz]
+[2023-07-31 09:04:35] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-1.1.6.tar.gz]
+[2023-07-31 09:04:35] INFO root fetch - main [MainThread]: End processing [pkgUdit]: success
+[2023-07-31 09:04:35] INFO root fetch - processPackages [tondortools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-31 09:04:35] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-31 09:04:35] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-31 09:04:35] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-31 09:04:35] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-31 09:04:35] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/82/e1/2aa1fedb662921036c377a44557417b3457324fa888edd02a9f166b12fdd/tondortools-1.0.8.tar.gz
+[2023-07-31 09:04:36] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.12.post1-py3-none-any.whl.zip]
+[2023-07-31 09:04:36] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.13-py3-none-any.whl.zip]
+[2023-07-31 09:04:36] INFO root fetch - main [MainThread]: End processing [aigc-zoo]: success
+[2023-07-31 09:04:36] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2023-07-31 09:04:36] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2023-07-31 09:04:36] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-07-31 09:04:36] INFO root fetch - processPackages [sapientml]: Remove: archive file [/home/abi/fetcher/tmp/sapientml-0.1.0.tar.gz]
+[2023-07-31 09:04:36] INFO root fetch - processPackages [sapientml]: Remove: archive file [/home/abi/fetcher/tmp/sapientml-0.1.1.tar.gz]
+[2023-07-31 09:04:36] INFO root fetch - main [MainThread]: End processing [sapientml]: success
+[2023-07-31 09:04:36] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-31 09:04:36] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/7b/e5/c2a6c8cdb037b89a83b125d896c8496a2fb76ce7b44d0aac0f39fd3bf1ac/tondortools-1.0.9.tar.gz
+[2023-07-31 09:04:36] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-31 09:04:36] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230731/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-31 09:04:36] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2023-07-31 09:04:36] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2023-07-31 09:04:36] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-07-31 09:04:36] INFO root fetch - processPackages [tondortools]: executing diffoscope
+[2023-07-31 09:04:36] INFO root fetch - processPackages [tondortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tondortools-1.0.8.tar.gz tmp/tondortools-1.0.9.tar.gz --markdown 20230731/t/tondortools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 09:04:37] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-31 09:04:37] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-31 09:04:37] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-31 09:04:37] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.8.tar.gz]
+[2023-07-31 09:04:37] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.9.tar.gz]
+[2023-07-31 09:04:37] INFO root fetch - main [MainThread]: End processing [tondortools]: success
+[2023-07-31 09:04:39] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230730160047.tar.gz]
+[2023-07-31 09:04:39] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230731070139.tar.gz]
+[2023-07-31 09:04:39] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-31 09:04:40] INFO root fetch - processPackages [fluidsdk]: Remove: archive file [/home/abi/fetcher/tmp/fluidsdk-0.4.3.tar.gz]
+[2023-07-31 09:04:40] INFO root fetch - processPackages [fluidsdk]: Remove: archive file [/home/abi/fetcher/tmp/fluidsdk-0.4.4.tar.gz]
+[2023-07-31 09:04:40] INFO root fetch - main [MainThread]: End processing [fluidsdk]: success
+[2023-07-31 09:04:40] INFO root fetch - main [MainThread]: Store serial: [19103820]
