@@ -10408,3 +10408,130 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 09:52:48] INFO root fetch - processPackages [nest-desktop]: Remove: archive file [/home/abi/fetcher/tmp/nest-desktop-3.3.0a2.tar.gz]
 [2023-07-31 09:52:48] INFO root fetch - main [MainThread]: End processing [nest-desktop]: success
 [2023-07-31 09:52:48] INFO root fetch - main [MainThread]: Store serial: [19104192]
+[2023-07-31 09:57:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19104192]
+[2023-07-31 09:58:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-31 09:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdccli
+[2023-07-31 09:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-cpu
+[2023-07-31 09:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-gui
+[2023-07-31 09:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygenlib
+[2023-07-31 09:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: digital-multimeter
+[2023-07-31 09:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prometrix
+[2023-07-31 09:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-log-reader
+[2023-07-31 09:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pheno-utils
+[2023-07-31 09:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qwak-core
+[2023-07-31 09:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: liangutil
+[2023-07-31 09:58:01] INFO root fetch - processPackages [django-log-reader]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-31 09:58:01] INFO root fetch - processPackages [digital-multimeter]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-31 09:58:01] INFO root fetch - processPackages [prometrix]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-31 09:58:01] INFO root fetch - processPackages [liangutil]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-31 09:58:01] INFO root fetch - processPackages [pygenlib]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-07-31 09:58:01] INFO root fetch - processPackages [pheno-utils]: New version: [0.3.8] Old Version: [0.3.7.7]
+[2023-07-31 09:58:01] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 09:58:01] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.53.96] Old Version: [0.0.53.95]
+[2023-07-31 09:58:01] INFO root fetch - processPackages [sdccli]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-31 09:58:01] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230731] Old Version: [2.14.0.dev20230730]
+[2023-07-31 09:58:01] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-31 09:58:01] INFO root fetch - processPackages [django-log-reader]: Downloading https://files.pythonhosted.org/packages/fb/43/9d03a3e07a2ca665f531fdeeb5b3952bc5998620c3e66399acfc36503996/django-log-reader-1.1.5.tar.gz
+[2023-07-31 09:58:01] INFO root fetch - processPackages [prometrix]: Downloading https://files.pythonhosted.org/packages/5e/7e/1b887c6f29ea122b7d0dbcc6284717f6cc945a5e25791a323407b2ae90d9/prometrix-0.1.6.tar.gz
+[2023-07-31 09:58:01] INFO root fetch - processPackages [liangutil]: Downloading https://files.pythonhosted.org/packages/92/96/37ec6bbec35ee2899b41b4d71c7e0f60a81d4253582a28b03588854fb34d/liangutil-0.0.5.tar.gz
+[2023-07-31 09:58:01] INFO root fetch - processPackages [digital-multimeter]: Downloading https://files.pythonhosted.org/packages/aa/f4/3c80628e0b9e2641baaaed06d01a93d1a98d208322914264eaab6e8719a7/digital_multimeter-0.5.2.tar.gz
+[2023-07-31 09:58:01] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/84/0a/a680ac1ac6f6d8a06ba3b84ef2b826681d7772614df4e048c9716f0e5fff/pheno-utils-0.3.7.7.tar.gz
+[2023-07-31 09:58:01] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/f7/72/7d45c062ca11dd16b40249c9d944b686e5484e9ebe98c1ac8e7a239198a3/pygenlib-0.0.3.tar.gz
+[2023-07-31 09:58:02] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/89/68/e2c5e6196a988f833422eeb9ef28265dc5ca035d7342061944aa743354d8/abstract_gui-0.0.53.95.tar.gz
+[2023-07-31 09:58:02] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/58/d1/d0cc2257013232b373dce4d1cb01bfa7c2c91eeb270dc016d175fc15ea16/tf_nightly_cpu-2.14.0.dev20230730-cp39-cp39-win_amd64.whl
+[2023-07-31 09:58:02] INFO root fetch - processPackages [sdccli]: Downloading https://files.pythonhosted.org/packages/3d/e7/5992ca5f5952cef41d538b769cc6e584e58af57b9d33b699672d0ecf9abf/sdccli-0.8.1.tar.gz
+[2023-07-31 09:58:02] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-31 09:58:02] INFO root fetch - processPackages [digital-multimeter]: Downloading https://files.pythonhosted.org/packages/d3/7d/4b997d5d106eabae2001942d1415de242cb0afb9128e21b1aacb2bc4dc68/digital_multimeter-0.5.3.tar.gz
+[2023-07-31 09:58:02] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/73/a7/7543d43dad3499fd300648fb79d6ef4cc5782c598640319151601c9f342e/pheno-utils-0.3.8.tar.gz
+[2023-07-31 09:58:02] INFO root fetch - processPackages [prometrix]: Downloading https://files.pythonhosted.org/packages/a6/4e/ff6a5b53719b2d98ba26d5555f033ca846392c522aa0cf3b96a7e8763184/prometrix-0.1.7.tar.gz
+[2023-07-31 09:58:02] INFO root fetch - processPackages [django-log-reader]: Downloading https://files.pythonhosted.org/packages/5b/7b/b09e43dcf014af98875179384d52b428779ee56ac4ad6f57134153120327/django-log-reader-1.1.6.tar.gz
+[2023-07-31 09:58:02] INFO root fetch - processPackages [liangutil]: Downloading https://files.pythonhosted.org/packages/e8/5e/cb64a0a46d3ff0d8f9b03266d9ca81536f42d552b9c82ae08964b5e323d5/liangutil-0.0.6.tar.gz
+[2023-07-31 09:58:02] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-31 09:58:02] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230731/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 09:58:02] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/c2/a3/3b091105b88df78813fbd55d50dc11cd1d7c9dd732fc7a9fbbe441fc2646/pygenlib-0.0.5.tar.gz
+[2023-07-31 09:58:02] INFO root fetch - processPackages [digital-multimeter]: executing diffoscope
+[2023-07-31 09:58:02] INFO root fetch - processPackages [digital-multimeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digital_multimeter-0.5.2.tar.gz tmp/digital_multimeter-0.5.3.tar.gz --markdown 20230731/d/digital-multimeter/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-31 09:58:02] INFO root fetch - processPackages [sdccli]: Downloading https://files.pythonhosted.org/packages/2d/79/f73e5ee871cc01017fa173db67486ccf49f11da64b4375378cdae933ff08/sdccli-0.8.2.tar.gz
+[2023-07-31 09:58:02] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/a4/c6/b998757f0368440316aa1488340f8b37cb1c3fb96b853625bc3f25693ccb/tf_nightly_cpu-2.14.0.dev20230731-cp39-cp39-win_amd64.whl
+[2023-07-31 09:58:02] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/9f/42/5750848b4faae8fb94644032e66b97ab563f5ddd9b51b31ece2b60a02bd7/abstract_gui-0.0.53.96.tar.gz
+[2023-07-31 09:58:02] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-07-31 09:58:02] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.3.7.7.tar.gz tmp/pheno-utils-0.3.8.tar.gz --markdown 20230731/p/pheno-utils/0.3.7.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-31 09:58:02] INFO root fetch - processPackages [prometrix]: executing diffoscope
+[2023-07-31 09:58:02] INFO root fetch - processPackages [prometrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometrix-0.1.6.tar.gz tmp/prometrix-0.1.7.tar.gz --markdown 20230731/p/prometrix/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-31 09:58:02] INFO root fetch - processPackages [liangutil]: executing diffoscope
+[2023-07-31 09:58:02] INFO root fetch - processPackages [django-log-reader]: executing diffoscope
+[2023-07-31 09:58:02] INFO root fetch - processPackages [liangutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liangutil-0.0.5.tar.gz tmp/liangutil-0.0.6.tar.gz --markdown 20230731/l/liangutil/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-31 09:58:02] INFO root fetch - processPackages [django-log-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-log-reader-1.1.5.tar.gz tmp/django-log-reader-1.1.6.tar.gz --markdown 20230731/d/django-log-reader/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-31 09:58:02] INFO root fetch - processPackages [pygenlib]: executing diffoscope
+[2023-07-31 09:58:02] INFO root fetch - processPackages [pygenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenlib-0.0.3.tar.gz tmp/pygenlib-0.0.5.tar.gz --markdown 20230731/p/pygenlib/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-07-31 09:58:02] INFO root fetch - processPackages [sdccli]: executing diffoscope
+[2023-07-31 09:58:02] INFO root fetch - processPackages [sdccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdccli-0.8.1.tar.gz tmp/sdccli-0.8.2.tar.gz --markdown 20230731/s/sdccli/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-31 09:58:02] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-31 09:58:02] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230730-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230731-cp39-cp39-win_amd64.whl.zip --markdown 20230731/t/tf-nightly-cpu/2.14.0.dev20230730-2.14.0.dev20230731/diff.md --exclude *.pyd
+[2023-07-31 09:58:02] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 09:58:02] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.53.95.tar.gz tmp/abstract_gui-0.0.53.96.tar.gz --markdown 20230731/a/abstract-gui/0.0.53.95-0.0.53.96/diff.md --exclude *.pyd
+[2023-07-31 09:58:04] INFO root fetch - processPackages [digital-multimeter]: Remove: archive file [/home/abi/fetcher/tmp/digital_multimeter-0.5.2.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [digital-multimeter]: Remove: archive file [/home/abi/fetcher/tmp/digital_multimeter-0.5.3.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [digital-multimeter]: Start processing: tf-nightly
+[2023-07-31 09:58:04] INFO root fetch - main [MainThread]: End processing [digital-multimeter]: success
+[2023-07-31 09:58:04] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230731] Old Version: [2.14.0.dev20230730]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [prometrix]: Remove: archive file [/home/abi/fetcher/tmp/prometrix-0.1.6.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [prometrix]: Remove: archive file [/home/abi/fetcher/tmp/prometrix-0.1.7.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [prometrix]: Start processing: mknodes
+[2023-07-31 09:58:04] INFO root fetch - main [MainThread]: End processing [prometrix]: success
+[2023-07-31 09:58:04] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.7.7.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.8.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [pheno-utils]: Start processing: metal-python
+[2023-07-31 09:58:04] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-07-31 09:58:04] INFO root fetch - processPackages [mknodes]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.0.3.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.0.5.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [pygenlib]: Start processing: ddecoapiparser
+[2023-07-31 09:58:04] INFO root fetch - main [MainThread]: End processing [pygenlib]: success
+[2023-07-31 09:58:04] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/f3/39/8e9447dee1b1a5b8ac116e8fcfe30a90242308a76a64bb3a589d52294454/tf_nightly-2.14.0.dev20230730-cp39-cp39-win_amd64.whl
+[2023-07-31 09:58:04] INFO root fetch - processPackages [metal-python]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230730-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230731-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: v2rayp
+[2023-07-31 09:58:04] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-31 09:58:04] INFO root fetch - processPackages [ddecoapiparser]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/7f/f1/533fbe0917ee95b4471dbbba2b0708b664d9aa3be25f84b08d6ccebde7ab/mknodes-0.8.3.tar.gz
+[2023-07-31 09:58:04] INFO root fetch - processPackages [v2rayp]: New version: [0.7b4] Old Version: [0.7b3]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [liangutil]: Remove: archive file [/home/abi/fetcher/tmp/liangutil-0.0.5.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [liangutil]: Remove: archive file [/home/abi/fetcher/tmp/liangutil-0.0.6.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - main [MainThread]: End processing [liangutil]: success
+[2023-07-31 09:58:04] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.95.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.96.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 09:58:04] INFO root fetch - processPackages [django-log-reader]: Remove: archive file [/home/abi/fetcher/tmp/django-log-reader-1.1.5.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [django-log-reader]: Remove: archive file [/home/abi/fetcher/tmp/django-log-reader-1.1.6.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - main [MainThread]: End processing [django-log-reader]: success
+[2023-07-31 09:58:04] INFO root fetch - processPackages [sdccli]: Remove: archive file [/home/abi/fetcher/tmp/sdccli-0.8.1.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - processPackages [sdccli]: Remove: archive file [/home/abi/fetcher/tmp/sdccli-0.8.2.tar.gz]
+[2023-07-31 09:58:04] INFO root fetch - main [MainThread]: End processing [sdccli]: success
+[2023-07-31 09:58:04] INFO root fetch - processPackages [v2rayp]: Downloading https://files.pythonhosted.org/packages/9a/b8/8296c6e9ecb81cb596b8bf83dab2bbc24971078a9617d07aa37976664b78/v2rayp-0.7b3.tar.gz
+[2023-07-31 09:58:04] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/da/87/ea7df78e12e58839edf84e22e55f4828fa269abd4eda5b854ca1a3f2ae3c/metal_python-0.9.4.tar.gz
+[2023-07-31 09:58:04] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/a9/23/d4351caa4d81e1d5dfee2da642c21895fe33271ddb4650d42f56940e3a64/mknodes-0.9.0.tar.gz
+[2023-07-31 09:58:04] INFO root fetch - processPackages [ddecoapiparser]: Downloading https://files.pythonhosted.org/packages/a9/58/d0c6fd8994d7d8ff8c10a5ba2db3c7bdfa316b0f74401f2305be0dad7f67/ddecoapiparser-0.1.1.tar.gz
+[2023-07-31 09:58:04] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/94/b6/3344be624ee1792b22bf89b5da235ffd76ceea2341ba2938f568610cdf59/tf_nightly-2.14.0.dev20230731-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-31 09:58:04] INFO root fetch - processPackages [mknodes]: executing diffoscope
+[2023-07-31 09:58:04] INFO root fetch - processPackages [mknodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknodes-0.8.3.tar.gz tmp/mknodes-0.9.0.tar.gz --markdown 20230731/m/mknodes/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 09:58:05] WARNING root fetch - processPackages [v2rayp]: Skipping package: exceeds size limit 65579042>=10485760
+[2023-07-31 09:58:05] INFO root fetch - main [MainThread]: End processing [v2rayp] error
+[2023-07-31 09:58:05] WARNING root fetch - processPackages [ddecoapiparser]: Skipping package: exceeds size limit 30152269>=10485760
+[2023-07-31 09:58:05] INFO root fetch - main [MainThread]: End processing [ddecoapiparser] error
+[2023-07-31 09:58:05] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 489660299>=10485760
+[2023-07-31 09:58:05] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-31 09:58:05] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/d5/0e/f54a789448e772fa8f88c2a2f7da9e92cfc6a441cc42a238b2013db9901e/metal_python-0.9.5.tar.gz
+[2023-07-31 09:58:05] INFO root fetch - processPackages [metal-python]: executing diffoscope
+[2023-07-31 09:58:05] INFO root fetch - processPackages [metal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metal_python-0.9.4.tar.gz tmp/metal_python-0.9.5.tar.gz --markdown 20230731/m/metal-python/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-31 09:58:06] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.8.3.tar.gz]
+[2023-07-31 09:58:06] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.9.0.tar.gz]
+[2023-07-31 09:58:06] INFO root fetch - main [MainThread]: End processing [mknodes]: success
+[2023-07-31 09:58:06] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-31 09:58:06] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-31 09:58:06] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-31 09:58:07] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.4.tar.gz]
+[2023-07-31 09:58:07] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.5.tar.gz]
+[2023-07-31 09:58:07] INFO root fetch - main [MainThread]: End processing [metal-python]: success
+[2023-07-31 09:58:07] INFO root fetch - main [MainThread]: Store serial: [19104239]
