@@ -12490,3 +12490,136 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 11:09:16] INFO root fetch - processPackages [vermouth]: Remove: archive file [/home/abi/fetcher/tmp/vermouth-0.9.3.tar.gz]
 [2023-07-31 11:09:16] INFO root fetch - main [MainThread]: End processing [vermouth]: success
 [2023-07-31 11:09:16] INFO root fetch - main [MainThread]: Store serial: [19105068]
+[2023-07-31 11:14:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19105068]
+[2023-07-31 11:14:25] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-31 11:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moosez
+[2023-07-31 11:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ricco
+[2023-07-31 11:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eggella
+[2023-07-31 11:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: siamtds
+[2023-07-31 11:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: absbox
+[2023-07-31 11:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-base-currency-iso-4217
+[2023-07-31 11:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygenlib
+[2023-07-31 11:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: locache
+[2023-07-31 11:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mmpretrain
+[2023-07-31 11:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: LYNKPY
+[2023-07-31 11:14:25] INFO root fetch - processPackages [mmpretrain]: New version: [1.0.1] Old Version: [1.0.0rc8]
+[2023-07-31 11:14:25] INFO root fetch - processPackages [absbox]: New version: [0.9.3] Old Version: [0.8.9]
+[2023-07-31 11:14:25] INFO root fetch - processPackages [moosez]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-31 11:14:25] INFO root fetch - processPackages [ricco]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-31 11:14:25] INFO root fetch - processPackages [LYNKPY]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 11:14:25] WARNING root fetch - processPackages [odoo-addon-base-currency-iso-4217]: Skipping, unable to determine old version
+[2023-07-31 11:14:25] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: Start processing: qufit
+[2023-07-31 11:14:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-currency-iso-4217] error
+[2023-07-31 11:14:25] INFO root fetch - processPackages [locache]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-31 11:14:25] INFO root fetch - processPackages [pygenlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 11:14:25] WARNING root fetch - processPackages [siamtds]: Skipping, unable to determine old version
+[2023-07-31 11:14:25] INFO root fetch - processPackages [eggella]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-31 11:14:25] INFO root fetch - processPackages [siamtds]: Start processing: BundesligaPredictor
+[2023-07-31 11:14:25] INFO root fetch - main [MainThread]: End processing [siamtds] error
+[2023-07-31 11:14:26] INFO root fetch - processPackages [qufit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-31 11:14:26] INFO root fetch - processPackages [BundesligaPredictor]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 11:14:26] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/5d/43/b94bdeb0235f2939b112a93430b06da478dadb30ca2ff13660674b49bc25/moosez-2.2.8.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [mmpretrain]: Downloading https://files.pythonhosted.org/packages/ef/45/38d846dd6d25d1d6465e4368a07390909cc08a1001979cf78b29130f5064/mmpretrain-1.0.0rc8.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/48/c3/16ba5066c9e33f7e3b1419a0f4de7fd1da9fad34efb14575222cd4b8b163/pygenlib-0.0.8.tar.gz
+[2023-07-31 11:14:26] ERROR root fetch - processPackages [ricco]: Unable to fetch info: No such project/version 'ricco' 1.2.1
+[2023-07-31 11:14:26] INFO root fetch - processPackages [ricco]: Start processing: wedeliver-core-plus
+[2023-07-31 11:14:26] INFO root fetch - main [MainThread]: End processing [ricco] error
+[2023-07-31 11:14:26] INFO root fetch - processPackages [LYNKPY]: Downloading https://files.pythonhosted.org/packages/53/57/0adafcb6b1dfc88806c7ff0422f2634299badae66f4badaeb757369097f3/LYNKPY-0.0.1.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/48/26/3346b635a896f4a794f8bf96c76e7c1ba52eddfdbf89069c6b89f423f730/qufit-1.1.8.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [BundesligaPredictor]: Downloading https://files.pythonhosted.org/packages/73/46/706901a69235071a3b12559b3dd2d5897d8acb61697505595b69c46cc9b7/BundesligaPredictor-0.0.2.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [locache]: Downloading https://files.pythonhosted.org/packages/8c/3e/48ebd56de61d0b8758c421815e2435a3177ee4ffcefa0215cfb21b25473a/locache-3.0.0.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [wedeliver-core-plus]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 11:14:26] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/f2/f5/d913079148fbe1aebd6fc56849f3245eda346886eb6d2488747d9a978493/AbsBox-0.8.9.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [eggella]: Downloading https://files.pythonhosted.org/packages/e9/9d/8673b763ab1b3848f89ffac23d7cc88049df93edff110d3e5248ab9f3787/eggella-0.0.5.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [wedeliver-core-plus]: Downloading https://files.pythonhosted.org/packages/2d/46/75fd447f65584dbf6334730b685e8bbf5a46d37a891db9e0cee697ede46e/wedeliver_core_plus-0.1.0.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/48/5a/f2d9f4dbe36e829959d1b778e0ffea3ca4bc27de483ad58a928ff87e7599/pygenlib-0.0.9.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/87/39/3d967f4675c26fd1a70df93f23c6afec385d0e325a5ecb715849a65e084f/qufit-1.1.9.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [LYNKPY]: Downloading https://files.pythonhosted.org/packages/9b/8a/0ac8733f17b75cab7e5855270fc5f3c53260f621db232b3b00b7a04774cb/LYNKPY-0.0.2.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/94/60/32c4aed371a9e9ed0956e4d6265f1b7081c6067fbc7a2b618faf0e708524/moosez-2.2.9.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [locache]: Downloading https://files.pythonhosted.org/packages/e7/10/1c1a5a8f5f3b982f54a032f1c2e63284359286a0233577d2965deca407e0/locache-3.0.1.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [mmpretrain]: Downloading https://files.pythonhosted.org/packages/c6/55/1309dc583890a0ec4aeede5d1a470c2c4d97dce4dc62eb2fd70e5253b282/mmpretrain-1.0.1.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [BundesligaPredictor]: Downloading https://files.pythonhosted.org/packages/d7/46/7f48fc3d7fc6590cbddd459ae159c0264bef1ae339757ad15c91b1cc8fc3/BundesligaPredictor-0.0.3.tar.gz
+[2023-07-31 11:14:26] INFO root fetch - processPackages [pygenlib]: executing diffoscope
+[2023-07-31 11:14:26] INFO root fetch - processPackages [pygenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenlib-0.0.8.tar.gz tmp/pygenlib-0.0.9.tar.gz --markdown 20230731/p/pygenlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 11:14:26] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-07-31 11:14:26] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.8.tar.gz tmp/qufit-1.1.9.tar.gz --markdown 20230731/q/qufit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-31 11:14:27] INFO root fetch - processPackages [eggella]: Downloading https://files.pythonhosted.org/packages/29/d3/ce1c6cbacf00854856ba4d83dd1d71fc3611eb9841a92bf2a15c33b7f569/eggella-0.0.6.tar.gz
+[2023-07-31 11:14:27] INFO root fetch - processPackages [LYNKPY]: executing diffoscope
+[2023-07-31 11:14:27] INFO root fetch - processPackages [LYNKPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LYNKPY-0.0.1.tar.gz tmp/LYNKPY-0.0.2.tar.gz --markdown 20230731/L/LYNKPY/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 11:14:27] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/63/df/8bc5a95a40d1cc98f7aa27a8baf79a5df19fa8dc2f6836ff02171d21c08a/AbsBox-0.9.3.tar.gz
+[2023-07-31 11:14:27] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-07-31 11:14:27] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.2.8.tar.gz tmp/moosez-2.2.9.tar.gz --markdown 20230731/m/moosez/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-31 11:14:27] INFO root fetch - processPackages [locache]: executing diffoscope
+[2023-07-31 11:14:27] INFO root fetch - processPackages [locache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locache-3.0.0.tar.gz tmp/locache-3.0.1.tar.gz --markdown 20230731/l/locache/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-31 11:14:27] INFO root fetch - processPackages [eggella]: executing diffoscope
+[2023-07-31 11:14:27] INFO root fetch - processPackages [eggella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eggella-0.0.5.tar.gz tmp/eggella-0.0.6.tar.gz --markdown 20230731/e/eggella/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-31 11:14:27] INFO root fetch - processPackages [wedeliver-core-plus]: Downloading https://files.pythonhosted.org/packages/f6/24/2227c99fe6e331f76c9f50a0bac02499a9118bfc8012c6327b74d84232aa/wedeliver_core_plus-0.1.1.tar.gz
+[2023-07-31 11:14:27] INFO root fetch - processPackages [absbox]: executing diffoscope
+[2023-07-31 11:14:27] INFO root fetch - processPackages [absbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AbsBox-0.8.9.tar.gz tmp/AbsBox-0.9.3.tar.gz --markdown 20230731/a/absbox/0.8.9-0.9.3/diff.md --exclude *.pyd
+[2023-07-31 11:14:27] INFO root fetch - processPackages [BundesligaPredictor]: executing diffoscope
+[2023-07-31 11:14:27] INFO root fetch - processPackages [BundesligaPredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BundesligaPredictor-0.0.2.tar.gz tmp/BundesligaPredictor-0.0.3.tar.gz --markdown 20230731/B/BundesligaPredictor/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 11:14:27] INFO root fetch - processPackages [mmpretrain]: executing diffoscope
+[2023-07-31 11:14:27] INFO root fetch - processPackages [mmpretrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmpretrain-1.0.0rc8.tar.gz tmp/mmpretrain-1.0.1.tar.gz --markdown 20230731/m/mmpretrain/1.0.0rc8-1.0.1/diff.md --exclude *.pyd
+[2023-07-31 11:14:27] INFO root fetch - processPackages [wedeliver-core-plus]: executing diffoscope
+[2023-07-31 11:14:27] INFO root fetch - processPackages [wedeliver-core-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wedeliver_core_plus-0.1.0.tar.gz tmp/wedeliver_core_plus-0.1.1.tar.gz --markdown 20230731/w/wedeliver-core-plus/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 11:14:28] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.0.8.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.0.9.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - processPackages [pygenlib]: Start processing: Python-Physics
+[2023-07-31 11:14:28] INFO root fetch - main [MainThread]: End processing [pygenlib]: success
+[2023-07-31 11:14:28] WARNING root fetch - processPackages [Python-Physics]: Skipping, unable to determine old version
+[2023-07-31 11:14:28] INFO root fetch - processPackages [Python-Physics]: Start processing: label-sleuth
+[2023-07-31 11:14:28] INFO root fetch - main [MainThread]: End processing [Python-Physics] error
+[2023-07-31 11:14:28] INFO root fetch - processPackages [label-sleuth]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-31 11:14:28] INFO root fetch - processPackages [LYNKPY]: Remove: archive file [/home/abi/fetcher/tmp/LYNKPY-0.0.1.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - processPackages [LYNKPY]: Remove: archive file [/home/abi/fetcher/tmp/LYNKPY-0.0.2.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - processPackages [LYNKPY]: Start processing: aio-scrapy
+[2023-07-31 11:14:28] INFO root fetch - main [MainThread]: End processing [LYNKPY]: success
+[2023-07-31 11:14:28] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.8.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.9.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - processPackages [qufit]: Start processing: pygenlib
+[2023-07-31 11:14:28] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-07-31 11:14:28] INFO root fetch - processPackages [locache]: Remove: archive file [/home/abi/fetcher/tmp/locache-3.0.0.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - processPackages [locache]: Remove: archive file [/home/abi/fetcher/tmp/locache-3.0.1.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - main [MainThread]: End processing [locache]: success
+[2023-07-31 11:14:28] INFO root fetch - processPackages [pygenlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 11:14:28] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/77/e0/ee99d0650b8f1910bc9bb3c144dd4782f08b149f5a3bd4099f346117368b/label-sleuth-0.9.3.tar.gz
+[2023-07-31 11:14:28] INFO root fetch - processPackages [aio-scrapy]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-31 11:14:28] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/48/c3/16ba5066c9e33f7e3b1419a0f4de7fd1da9fad34efb14575222cd4b8b163/pygenlib-0.0.8.tar.gz
+[2023-07-31 11:14:28] INFO root fetch - processPackages [eggella]: Remove: archive file [/home/abi/fetcher/tmp/eggella-0.0.5.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - processPackages [eggella]: Remove: archive file [/home/abi/fetcher/tmp/eggella-0.0.6.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - main [MainThread]: End processing [eggella]: success
+[2023-07-31 11:14:28] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.8.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.9.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-07-31 11:14:28] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.8.9.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.9.3.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - main [MainThread]: End processing [absbox]: success
+[2023-07-31 11:14:28] INFO root fetch - processPackages [aio-scrapy]: Downloading https://files.pythonhosted.org/packages/52/bf/09f168e2362df52af67ed6289b6e8989355762bed8a86185929906352dd3/aio-scrapy-1.2.8.tar.gz
+[2023-07-31 11:14:28] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/48/5a/f2d9f4dbe36e829959d1b778e0ffea3ca4bc27de483ad58a928ff87e7599/pygenlib-0.0.9.tar.gz
+[2023-07-31 11:14:28] INFO root fetch - processPackages [BundesligaPredictor]: Remove: archive file [/home/abi/fetcher/tmp/BundesligaPredictor-0.0.2.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - processPackages [BundesligaPredictor]: Remove: archive file [/home/abi/fetcher/tmp/BundesligaPredictor-0.0.3.tar.gz]
+[2023-07-31 11:14:28] INFO root fetch - main [MainThread]: End processing [BundesligaPredictor]: success
+[2023-07-31 11:14:29] INFO root fetch - processPackages [pygenlib]: executing diffoscope
+[2023-07-31 11:14:29] INFO root fetch - processPackages [pygenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenlib-0.0.8.tar.gz tmp/pygenlib-0.0.9.tar.gz --markdown 20230731/p/pygenlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 11:14:29] INFO root fetch - processPackages [wedeliver-core-plus]: Remove: archive file [/home/abi/fetcher/tmp/wedeliver_core_plus-0.1.0.tar.gz]
+[2023-07-31 11:14:29] INFO root fetch - processPackages [wedeliver-core-plus]: Remove: archive file [/home/abi/fetcher/tmp/wedeliver_core_plus-0.1.1.tar.gz]
+[2023-07-31 11:14:29] INFO root fetch - main [MainThread]: End processing [wedeliver-core-plus]: success
+[2023-07-31 11:14:29] INFO root fetch - processPackages [aio-scrapy]: Downloading https://files.pythonhosted.org/packages/7c/81/de9911cc702a731ca15d9f410bbf6742e01072bfd3638618a2f7b070ea29/aio-scrapy-1.2.9.tar.gz
+[2023-07-31 11:14:29] INFO root fetch - processPackages [aio-scrapy]: executing diffoscope
+[2023-07-31 11:14:29] INFO root fetch - processPackages [aio-scrapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio-scrapy-1.2.8.tar.gz tmp/aio-scrapy-1.2.9.tar.gz --markdown 20230731/a/aio-scrapy/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-31 11:14:29] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.0.8.tar.gz]
+[2023-07-31 11:14:29] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.0.9.tar.gz]
+[2023-07-31 11:14:29] INFO root fetch - main [MainThread]: End processing [pygenlib]: success
+[2023-07-31 11:14:30] INFO root fetch - processPackages [aio-scrapy]: Remove: archive file [/home/abi/fetcher/tmp/aio-scrapy-1.2.8.tar.gz]
+[2023-07-31 11:14:30] INFO root fetch - processPackages [aio-scrapy]: Remove: archive file [/home/abi/fetcher/tmp/aio-scrapy-1.2.9.tar.gz]
+[2023-07-31 11:14:30] INFO root fetch - main [MainThread]: End processing [aio-scrapy]: success
+[2023-07-31 11:14:31] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/dd/ee/ffc7b366823c259f75094f7898e27c3f4ae71d66cd5fa3f5da579f3afbbd/label-sleuth-0.9.4.tar.gz
+[2023-07-31 11:14:33] INFO root fetch - processPackages [label-sleuth]: executing diffoscope
+[2023-07-31 11:14:33] INFO root fetch - processPackages [label-sleuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-sleuth-0.9.3.tar.gz tmp/label-sleuth-0.9.4.tar.gz --markdown 20230731/l/label-sleuth/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-31 11:14:36] INFO root fetch - processPackages [mmpretrain]: Remove: archive file [/home/abi/fetcher/tmp/mmpretrain-1.0.0rc8.tar.gz]
+[2023-07-31 11:14:36] INFO root fetch - processPackages [mmpretrain]: Remove: archive file [/home/abi/fetcher/tmp/mmpretrain-1.0.1.tar.gz]
+[2023-07-31 11:14:36] INFO root fetch - main [MainThread]: End processing [mmpretrain]: success
+[2023-07-31 11:15:14] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.3.tar.gz]
+[2023-07-31 11:15:14] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.4.tar.gz]
+[2023-07-31 11:15:14] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
+[2023-07-31 11:15:14] INFO root fetch - main [MainThread]: Store serial: [19105124]
