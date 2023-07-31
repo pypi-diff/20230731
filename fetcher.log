@@ -4984,3 +4984,72 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 03:45:46] INFO root fetch - processPackages [pybuc]: Remove: archive file [/home/abi/fetcher/tmp/pybuc-0.9.10.tar.gz]
 [2023-07-31 03:45:46] INFO root fetch - main [MainThread]: End processing [pybuc]: success
 [2023-07-31 03:45:46] INFO root fetch - main [MainThread]: Store serial: [19101750]
+[2023-07-31 03:50:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19101750]
+[2023-07-31 03:50:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-31 03:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbTool
+[2023-07-31 03:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: austrakka
+[2023-07-31 03:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: homeassistant-stubs
+[2023-07-31 03:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-chatbox
+[2023-07-31 03:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cyberdrop-dl
+[2023-07-31 03:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dashvector
+[2023-07-31 03:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fluxoperator
+[2023-07-31 03:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: readmeai
+[2023-07-31 03:50:54] WARNING root fetch - processPackages [lbTool]: Skipping, unable to determine old version
+[2023-07-31 03:50:54] INFO root fetch - main [MainThread]: End processing [lbTool] error
+[2023-07-31 03:50:55] INFO root fetch - processPackages [austrakka]: New version: [0.32.5] Old Version: [0.32.4]
+[2023-07-31 03:50:55] INFO root fetch - processPackages [fluxoperator]: New version: [0.1.0] Old Version: [0.0.31]
+[2023-07-31 03:50:55] INFO root fetch - processPackages [dashvector]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-07-31 03:50:55] INFO root fetch - processPackages [streamlit-chatbox]: New version: [1.0.0] Old Version: [0.2.4]
+[2023-07-31 03:50:55] INFO root fetch - processPackages [readmeai]: New version: [0.0.73] Old Version: [0.0.72]
+[2023-07-31 03:50:55] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-31 03:50:55] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.8.0b2] Old Version: [2023.8.0b1]
+[2023-07-31 03:50:55] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-31 03:50:55] INFO root fetch - processPackages [fluxoperator]: Downloading https://files.pythonhosted.org/packages/5c/7e/15f3260af47b02435cb0b0b34995fe53d979fd5375536360ecb3d703c448/fluxoperator-0.0.31.tar.gz
+[2023-07-31 03:50:55] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/82/63/618c2c5f09235d0341c01d162d96dea2760cc3e7eb7073218099c3746786/austrakka-0.32.4-py3-none-any.whl
+[2023-07-31 03:50:55] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/0b/94/9439f3f7ffbee8753f99379f86cc2baf18eb586f699f771c3e10c70b06d1/readmeai-0.0.72.tar.gz
+[2023-07-31 03:50:55] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/ce/ba/d40e91cdc992225edc069f328f2c2a6c6aa104eda516f643c5fb90a5680b/homeassistant_stubs-2023.8.0b1.tar.gz
+[2023-07-31 03:50:55] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/de/76/1da089c91db39e15ab116ff0a0a724bc2909cb1e65e90b7c2228567725d9/streamlit_chatbox-0.2.4-py3-none-any.whl
+[2023-07-31 03:50:55] INFO root fetch - processPackages [dashvector]: Downloading https://files.pythonhosted.org/packages/23/04/838905808fea6c1dc20cc7f5125b458e724ca24738a100cc3803303a866c/dashvector-0.0.16-py3-none-any.whl
+[2023-07-31 03:50:55] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-31 03:50:55] INFO root fetch - processPackages [fluxoperator]: Downloading https://files.pythonhosted.org/packages/c3/66/0cf7a1e9793e2288b3cfb7bb972a7a07180a49723e1461392eb1a19c89fe/fluxoperator-0.1.0.tar.gz
+[2023-07-31 03:50:55] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-31 03:50:55] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230731/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-31 03:50:55] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/c3/7a/2b20cb36f92a401c643bcb198ac3bdff227bfb35019db373c1e0c71173c9/austrakka-0.32.5-py3-none-any.whl
+[2023-07-31 03:50:55] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/da/1d/4f9764acdaf94eb105a7e51d161c3a885e04d1c98dd571bc185c6db748be/readmeai-0.0.73.tar.gz
+[2023-07-31 03:50:55] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/59/ac/6b59f72723bbb22dfcb93d77b09cc25d600a7719bc4b632261d75aa23c55/streamlit_chatbox-1.0.0-py3-none-any.whl
+[2023-07-31 03:50:55] INFO root fetch - processPackages [dashvector]: Downloading https://files.pythonhosted.org/packages/fb/2e/f735ebdeb39a7148eba4c4be866fcdde9cd52aab04f286fac562bcb78e37/dashvector-0.0.17-py3-none-any.whl
+[2023-07-31 03:50:55] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/c0/83/43696d20f0489e2ab2522124cf18cdf0446156e080e5e681e53b5e2c6c12/homeassistant_stubs-2023.8.0b2.tar.gz
+[2023-07-31 03:50:55] INFO root fetch - processPackages [fluxoperator]: executing diffoscope
+[2023-07-31 03:50:55] INFO root fetch - processPackages [fluxoperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxoperator-0.0.31.tar.gz tmp/fluxoperator-0.1.0.tar.gz --markdown 20230731/f/fluxoperator/0.0.31-0.1.0/diff.md --exclude *.pyd
+[2023-07-31 03:50:55] INFO root fetch - processPackages [austrakka]: executing diffoscope
+[2023-07-31 03:50:55] INFO root fetch - processPackages [austrakka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/austrakka-0.32.4-py3-none-any.whl.zip tmp/austrakka-0.32.5-py3-none-any.whl.zip --markdown 20230731/a/austrakka/0.32.4-0.32.5/diff.md --exclude *.pyd
+[2023-07-31 03:50:55] INFO root fetch - processPackages [streamlit-chatbox]: executing diffoscope
+[2023-07-31 03:50:55] INFO root fetch - processPackages [streamlit-chatbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chatbox-0.2.4-py3-none-any.whl.zip tmp/streamlit_chatbox-1.0.0-py3-none-any.whl.zip --markdown 20230731/s/streamlit-chatbox/0.2.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-31 03:50:55] INFO root fetch - processPackages [dashvector]: executing diffoscope
+[2023-07-31 03:50:55] INFO root fetch - processPackages [dashvector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashvector-0.0.16-py3-none-any.whl.zip tmp/dashvector-0.0.17-py3-none-any.whl.zip --markdown 20230731/d/dashvector/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-07-31 03:50:55] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-31 03:50:55] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.72.tar.gz tmp/readmeai-0.0.73.tar.gz --markdown 20230731/r/readmeai/0.0.72-0.0.73/diff.md --exclude *.pyd
+[2023-07-31 03:50:56] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-07-31 03:50:56] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.8.0b1.tar.gz tmp/homeassistant_stubs-2023.8.0b2.tar.gz --markdown 20230731/h/homeassistant-stubs/2023.8.0b1-2023.8.0b2/diff.md --exclude *.pyd
+[2023-07-31 03:50:57] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.72.tar.gz]
+[2023-07-31 03:50:57] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.73.tar.gz]
+[2023-07-31 03:50:57] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-31 03:50:57] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-31 03:50:57] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-31 03:50:57] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-31 03:50:57] INFO root fetch - processPackages [fluxoperator]: Remove: archive file [/home/abi/fetcher/tmp/fluxoperator-0.0.31.tar.gz]
+[2023-07-31 03:50:57] INFO root fetch - processPackages [fluxoperator]: Remove: archive file [/home/abi/fetcher/tmp/fluxoperator-0.1.0.tar.gz]
+[2023-07-31 03:50:57] INFO root fetch - main [MainThread]: End processing [fluxoperator]: success
+[2023-07-31 03:50:57] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-0.2.4-py3-none-any.whl.zip]
+[2023-07-31 03:50:57] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-1.0.0-py3-none-any.whl.zip]
+[2023-07-31 03:50:57] INFO root fetch - main [MainThread]: End processing [streamlit-chatbox]: success
+[2023-07-31 03:50:57] INFO root fetch - processPackages [dashvector]: Remove: archive file [/home/abi/fetcher/tmp/dashvector-0.0.16-py3-none-any.whl.zip]
+[2023-07-31 03:50:57] INFO root fetch - processPackages [dashvector]: Remove: archive file [/home/abi/fetcher/tmp/dashvector-0.0.17-py3-none-any.whl.zip]
+[2023-07-31 03:50:57] INFO root fetch - main [MainThread]: End processing [dashvector]: success
+[2023-07-31 03:50:57] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.32.4-py3-none-any.whl.zip]
+[2023-07-31 03:50:57] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.32.5-py3-none-any.whl.zip]
+[2023-07-31 03:50:57] INFO root fetch - main [MainThread]: End processing [austrakka]: success
+[2023-07-31 03:51:12] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.8.0b1.tar.gz]
+[2023-07-31 03:51:12] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.8.0b2.tar.gz]
+[2023-07-31 03:51:12] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-07-31 03:51:12] INFO root fetch - main [MainThread]: Store serial: [19101772]
