@@ -9304,3 +9304,139 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 08:54:10] INFO root fetch - main [MainThread]: End processing [fluidsdk]: success
 [2023-07-31 08:54:10] INFO root fetch - main [MainThread]: End processing [fluidsdk]: success
 [2023-07-31 08:54:10] INFO root fetch - main [MainThread]: Store serial: [19103728]
+[2023-07-31 08:59:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19103728]
+[2023-07-31 08:59:18] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-31 08:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytreeclass
+[2023-07-31 08:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfeyn2
+[2023-07-31 08:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: passw
+[2023-07-31 08:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: passw
+[2023-07-31 08:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-31 08:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inpython-package
+[2023-07-31 08:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eggella
+[2023-07-31 08:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seleniumbase
+[2023-07-31 08:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CosmoTech-Acceleration-Library
+[2023-07-31 08:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lucupy
+[2023-07-31 08:59:19] INFO root fetch - processPackages [passw]: New version: [1.0.0.9] Old Version: [1.0.0.4]
+[2023-07-31 08:59:19] INFO root fetch - processPackages [pyfeyn2]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-07-31 08:59:19] INFO root fetch - processPackages [pytreeclass]: New version: [0.6.0] Old Version: [0.5.0.post0]
+[2023-07-31 08:59:19] INFO root fetch - processPackages [eggella]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-31 08:59:19] INFO root fetch - processPackages [passw]: New version: [1.0.0.9] Old Version: [1.0.0.4]
+[2023-07-31 08:59:19] INFO root fetch - processPackages [lucupy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 08:59:19] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-31 08:59:19] INFO root fetch - processPackages [inpython-package]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-31 08:59:19] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-31 08:59:19] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-31 08:59:19] INFO root fetch - processPackages [passw]: Downloading https://files.pythonhosted.org/packages/3f/af/c5664bf7f118f8436f19fbe2e7225e2b013c6879ef0e5c11bac3405201fb/passw-1.0.0.4.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [passw]: Downloading https://files.pythonhosted.org/packages/3f/af/c5664bf7f118f8436f19fbe2e7225e2b013c6879ef0e5c11bac3405201fb/passw-1.0.0.4.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [pytreeclass]: Downloading https://files.pythonhosted.org/packages/60/2c/365e6dc576c14c43d8bfadfa57478010a5436b384ecdad89d9db3ebe1b4d/pytreeclass-0.5.0.post0.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [pyfeyn2]: Downloading https://files.pythonhosted.org/packages/ed/ae/acb22900598756be2c66553ca159ae48e1db94373772c5442f087df71cd4/pyfeyn2-2.3.5.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [inpython-package]: Downloading https://files.pythonhosted.org/packages/0c/9b/70bbf344bbd7a1be65bc1964c51017eb48fe170a19202270e9b582d583da/inpython-package-1.0.3.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [eggella]: Downloading https://files.pythonhosted.org/packages/71/9a/b5ebe18d73daecf1c045633dc7af1493b4b58a02d6535dd1977ffeb1d6b2/eggella-0.0.4.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/48/24/564fb7fc12915db3e559e4a44c2c2ea56620d4da2174d3da93586a4d9af4/lucupy-0.1.8.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: Downloading https://files.pythonhosted.org/packages/9f/d5/a982785b4379072488fcd0064fe809a8cfad4af0493eb540681602322981/CosmoTech_Acceleration_Library-0.2.9.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [passw]: Downloading https://files.pythonhosted.org/packages/92/10/a48fd55b75fce4362d289e68ca2ab1c8e564a4f5fd47f4f9d863bb38fefc/passw-1.0.0.9.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [passw]: Downloading https://files.pythonhosted.org/packages/92/10/a48fd55b75fce4362d289e68ca2ab1c8e564a4f5fd47f4f9d863bb38fefc/passw-1.0.0.9.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [pytreeclass]: Downloading https://files.pythonhosted.org/packages/f9/30/5cba8759b6cf1f8d7ad1c8286de847e40f243ec339617afd5bb1e11d87ae/pytreeclass-0.6.0.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [inpython-package]: Downloading https://files.pythonhosted.org/packages/24/fc/3a07abd5f3b8d7033ae210920453cf6e043a70782ae634a78eca3f15ad8f/inpython-package-1.0.4.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [pyfeyn2]: Downloading https://files.pythonhosted.org/packages/8f/ef/75884c1460069fda6744f3279e9f445b2ee95d2649458d7beb1ce94d20ce/pyfeyn2-2.3.6.tar.gz
+[2023-07-31 08:59:19] INFO root fetch - processPackages [eggella]: Downloading https://files.pythonhosted.org/packages/e9/9d/8673b763ab1b3848f89ffac23d7cc88049df93edff110d3e5248ab9f3787/eggella-0.0.5.tar.gz
+[2023-07-31 08:59:20] INFO root fetch - processPackages [passw]: executing diffoscope
+[2023-07-31 08:59:20] INFO root fetch - processPackages [passw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passw-1.0.0.4.tar.gz tmp/passw-1.0.0.9.tar.gz --markdown 20230731/p/passw/1.0.0.4-1.0.0.9/diff.md --exclude *.pyd
+[2023-07-31 08:59:20] INFO root fetch - processPackages [passw]: executing diffoscope
+[2023-07-31 08:59:20] INFO root fetch - processPackages [passw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passw-1.0.0.4.tar.gz tmp/passw-1.0.0.9.tar.gz --markdown 20230731/p/passw/1.0.0.4-1.0.0.9/diff.md --exclude *.pyd
+[2023-07-31 08:59:20] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: Downloading https://files.pythonhosted.org/packages/0b/1f/44b04369f274e8cb7a867e0f0c3ee800349e0d561b1c36f45f45c44557fb/CosmoTech_Acceleration_Library-0.3.0.tar.gz
+[2023-07-31 08:59:20] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/8e/71/90824741abbd5f41e02cef3f27573135ac7ee3e561efa91dfd0394c03374/lucupy-0.1.9.tar.gz
+[2023-07-31 08:59:20] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2023-07-31 08:59:20] INFO root fetch - processPackages [pytreeclass]: executing diffoscope
+[2023-07-31 08:59:20] INFO root fetch - processPackages [pytreeclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytreeclass-0.5.0.post0.tar.gz tmp/pytreeclass-0.6.0.tar.gz --markdown 20230731/p/pytreeclass/0.5.0.post0-0.6.0/diff.md --exclude *.pyd
+[2023-07-31 08:59:20] INFO root fetch - processPackages [inpython-package]: executing diffoscope
+[2023-07-31 08:59:20] INFO root fetch - processPackages [inpython-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inpython-package-1.0.3.tar.gz tmp/inpython-package-1.0.4.tar.gz --markdown 20230731/i/inpython-package/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-31 08:59:20] INFO root fetch - processPackages [eggella]: executing diffoscope
+[2023-07-31 08:59:20] INFO root fetch - processPackages [eggella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eggella-0.0.4.tar.gz tmp/eggella-0.0.5.tar.gz --markdown 20230731/e/eggella/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-31 08:59:20] INFO root fetch - processPackages [pyfeyn2]: executing diffoscope
+[2023-07-31 08:59:20] INFO root fetch - processPackages [pyfeyn2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfeyn2-2.3.5.tar.gz tmp/pyfeyn2-2.3.6.tar.gz --markdown 20230731/p/pyfeyn2/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-07-31 08:59:20] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: executing diffoscope
+[2023-07-31 08:59:20] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CosmoTech_Acceleration_Library-0.2.9.tar.gz tmp/CosmoTech_Acceleration_Library-0.3.0.tar.gz --markdown 20230731/C/CosmoTech-Acceleration-Library/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-31 08:59:20] INFO root fetch - processPackages [lucupy]: executing diffoscope
+[2023-07-31 08:59:20] INFO root fetch - processPackages [lucupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucupy-0.1.8.tar.gz tmp/lucupy-0.1.9.tar.gz --markdown 20230731/l/lucupy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 08:59:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-31 08:59:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230731/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 08:59:20] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-07-31 08:59:20] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230731/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-31 08:59:21] INFO root fetch - processPackages [passw]: Remove: archive file [/home/abi/fetcher/tmp/passw-1.0.0.4.tar.gz]
+[2023-07-31 08:59:21] INFO root fetch - processPackages [passw]: Remove: archive file [/home/abi/fetcher/tmp/passw-1.0.0.9.tar.gz]
+[2023-07-31 08:59:21] INFO root fetch - processPackages [passw]: Start processing: testApiGroup
+[2023-07-31 08:59:21] INFO root fetch - main [MainThread]: End processing [passw]: success
+[2023-07-31 08:59:21] INFO root fetch - processPackages [testApiGroup]: New version: [1.0.0.8] Old Version: [1.0.0.7]
+[2023-07-31 08:59:21] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/22/75/6767ee89f9fa5c8d8f3fa3ae01390cbbc6c4085d8f5cb4501697bd0cc738/testApiGroup-1.0.0.7.tar.gz
+[2023-07-31 08:59:21] INFO root fetch - processPackages [passw]: Start processing: material-zui
+[2023-07-31 08:59:21] INFO root fetch - main [MainThread]: End processing [passw]: success
+[2023-07-31 08:59:21] INFO root fetch - processPackages [material-zui]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-31 08:59:21] INFO root fetch - processPackages [material-zui]: Downloading https://files.pythonhosted.org/packages/ad/6d/eb611c219baffb54bb4fde54cb23f6e8000ec4e7329ab5c99972e37e1c72/material_zui-0.1.4.tar.gz
+[2023-07-31 08:59:22] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/63/49/2738d88bdd11c80091228a29e7db90dbb0328d0652f5744bc4838f21d8c9/testApiGroup-1.0.0.8.tar.gz
+[2023-07-31 08:59:22] INFO root fetch - processPackages [eggella]: Remove: archive file [/home/abi/fetcher/tmp/eggella-0.0.4.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - processPackages [eggella]: Remove: archive file [/home/abi/fetcher/tmp/eggella-0.0.5.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - processPackages [eggella]: Start processing: selenium-base
+[2023-07-31 08:59:22] INFO root fetch - main [MainThread]: End processing [eggella]: success
+[2023-07-31 08:59:22] INFO root fetch - processPackages [testApiGroup]: executing diffoscope
+[2023-07-31 08:59:22] INFO root fetch - processPackages [testApiGroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testApiGroup-1.0.0.7.tar.gz tmp/testApiGroup-1.0.0.8.tar.gz --markdown 20230731/t/testApiGroup/1.0.0.7-1.0.0.8/diff.md --exclude *.pyd
+[2023-07-31 08:59:22] INFO root fetch - processPackages [inpython-package]: Remove: archive file [/home/abi/fetcher/tmp/inpython-package-1.0.3.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - processPackages [inpython-package]: Remove: archive file [/home/abi/fetcher/tmp/inpython-package-1.0.4.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - processPackages [inpython-package]: Start processing: tejapi
+[2023-07-31 08:59:22] INFO root fetch - main [MainThread]: End processing [inpython-package]: success
+[2023-07-31 08:59:22] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-31 08:59:22] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: Remove: archive file [/home/abi/fetcher/tmp/CosmoTech_Acceleration_Library-0.2.9.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: Remove: archive file [/home/abi/fetcher/tmp/CosmoTech_Acceleration_Library-0.3.0.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: Start processing: pytest-sbase
+[2023-07-31 08:59:22] INFO root fetch - main [MainThread]: End processing [CosmoTech-Acceleration-Library]: success
+[2023-07-31 08:59:22] INFO root fetch - processPackages [pytreeclass]: Remove: archive file [/home/abi/fetcher/tmp/pytreeclass-0.5.0.post0.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - processPackages [pytreeclass]: Remove: archive file [/home/abi/fetcher/tmp/pytreeclass-0.6.0.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - main [MainThread]: End processing [pytreeclass]: success
+[2023-07-31 08:59:22] INFO root fetch - processPackages [pyfeyn2]: Remove: archive file [/home/abi/fetcher/tmp/pyfeyn2-2.3.5.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - processPackages [pyfeyn2]: Remove: archive file [/home/abi/fetcher/tmp/pyfeyn2-2.3.6.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - main [MainThread]: End processing [pyfeyn2]: success
+[2023-07-31 08:59:22] INFO root fetch - processPackages [material-zui]: Downloading https://files.pythonhosted.org/packages/c8/ae/6b483d5124665b04a2972f59ecdbe173c326aea8c6df490383caa9d79b47/material_zui-0.1.5.tar.gz
+[2023-07-31 08:59:22] INFO root fetch - processPackages [tejapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 08:59:22] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.8.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.9.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - main [MainThread]: End processing [lucupy]: success
+[2023-07-31 08:59:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-31 08:59:22] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-31 08:59:22] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-07-31 08:59:22] INFO root fetch - processPackages [material-zui]: executing diffoscope
+[2023-07-31 08:59:22] INFO root fetch - processPackages [material-zui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/material_zui-0.1.4.tar.gz tmp/material_zui-0.1.5.tar.gz --markdown 20230731/m/material-zui/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-31 08:59:22] INFO root fetch - processPackages [tejapi]: Downloading https://files.pythonhosted.org/packages/a2/f8/ecd3a6c88cbf49e61b643ce730730348501a9d699375594af1758f1f18c0/tejapi-0.1.8.tar.gz
+[2023-07-31 08:59:22] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2023-07-31 08:59:22] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2023-07-31 08:59:22] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-07-31 08:59:22] INFO root fetch - processPackages [tejapi]: Downloading https://files.pythonhosted.org/packages/9c/50/d570accf7223270797303b2ec9e43d8aa46e8e47d9ea923122cc1f9d06d6/tejapi-0.1.9.tar.gz
+[2023-07-31 08:59:22] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-07-31 08:59:22] INFO root fetch - processPackages [tejapi]: executing diffoscope
+[2023-07-31 08:59:22] INFO root fetch - processPackages [tejapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tejapi-0.1.8.tar.gz tmp/tejapi-0.1.9.tar.gz --markdown 20230731/t/tejapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 08:59:23] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-07-31 08:59:23] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230731/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-31 08:59:23] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.7.tar.gz]
+[2023-07-31 08:59:23] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.8.tar.gz]
+[2023-07-31 08:59:23] INFO root fetch - main [MainThread]: End processing [testApiGroup]: success
+[2023-07-31 08:59:23] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2023-07-31 08:59:23] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-07-31 08:59:23] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230731/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-31 08:59:23] INFO root fetch - processPackages [material-zui]: Remove: archive file [/home/abi/fetcher/tmp/material_zui-0.1.4.tar.gz]
+[2023-07-31 08:59:23] INFO root fetch - processPackages [material-zui]: Remove: archive file [/home/abi/fetcher/tmp/material_zui-0.1.5.tar.gz]
+[2023-07-31 08:59:23] INFO root fetch - main [MainThread]: End processing [material-zui]: success
+[2023-07-31 08:59:23] INFO root fetch - processPackages [tejapi]: Remove: archive file [/home/abi/fetcher/tmp/tejapi-0.1.8.tar.gz]
+[2023-07-31 08:59:23] INFO root fetch - processPackages [tejapi]: Remove: archive file [/home/abi/fetcher/tmp/tejapi-0.1.9.tar.gz]
+[2023-07-31 08:59:23] INFO root fetch - main [MainThread]: End processing [tejapi]: success
+[2023-07-31 08:59:23] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2023-07-31 08:59:23] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2023-07-31 08:59:23] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-07-31 08:59:24] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2023-07-31 08:59:24] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2023-07-31 08:59:24] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-07-31 08:59:24] INFO root fetch - main [MainThread]: Store serial: [19103776]
