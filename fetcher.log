@@ -11802,3 +11802,81 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 10:47:45] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-31 10:47:45] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-31 10:47:45] INFO root fetch - main [MainThread]: Store serial: [19104852]
+[2023-07-31 10:52:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19104852]
+[2023-07-31 10:52:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-31 10:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.projen-awscdk-construct
+[2023-07-31 10:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-behavior
+[2023-07-31 10:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dialogy
+[2023-07-31 10:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsonrpc-py
+[2023-07-31 10:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lyscripts
+[2023-07-31 10:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: castor-extractor
+[2023-07-31 10:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tablate
+[2023-07-31 10:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: voila
+[2023-07-31 10:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-ssi-hr-dicipline
+[2023-07-31 10:52:55] INFO root fetch - processPackages [xj-behavior]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-31 10:52:55] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 10:52:55] INFO root fetch - processPackages [lyscripts]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-31 10:52:55] INFO root fetch - processPackages [jsonrpc-py]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-31 10:52:55] INFO root fetch - processPackages [castor-extractor]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-31 10:52:55] INFO root fetch - processPackages [voila]: New version: [0.5.0a5] Old Version: [0.5.0a4]
+[2023-07-31 10:52:55] INFO root fetch - processPackages [dialogy]: New version: [2.1.0] Old Version: [2.0.9]
+[2023-07-31 10:52:55] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 10:52:55] INFO root fetch - processPackages [xj-behavior]: Downloading https://files.pythonhosted.org/packages/6c/d4/14f727761dfce6bb11d42d6c33b134bd9df4100e22f993bfda53836a0c77/xj_behavior-1.0.5.tar.gz
+[2023-07-31 10:52:55] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-dicipline]: Skipping, unable to determine old version
+[2023-07-31 10:52:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-dicipline] error
+[2023-07-31 10:52:55] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-07-31 10:52:55] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-07-31 10:52:55] INFO root fetch - processPackages [jsonrpc-py]: Downloading https://files.pythonhosted.org/packages/42/13/76754b48a05e70abc3dab4adeb6a88f36c60f5cb6ef0ebe35cce9bb489b3/jsonrpc-py-3.0.8.tar.gz
+[2023-07-31 10:52:55] INFO root fetch - processPackages [lyscripts]: Downloading https://files.pythonhosted.org/packages/7a/ac/608604f5c6122b99b21422eb170e9a071fc38fa73a4baae2f3715b9d66c2/lyscripts-0.7.0.tar.gz
+[2023-07-31 10:52:55] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/68/3e/ec25c43c30692edfbb34c3ae142aee2e0e62584ff34adc8c0d91776b83b2/castor_extractor-0.5.2.tar.gz
+[2023-07-31 10:52:55] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/ca/d9/dca00478422152d39f4cd3351f106029580ab4f7401eaf41b4329643ddbe/dialogy-2.0.9.tar.gz
+[2023-07-31 10:52:55] INFO root fetch - processPackages [voila]: Downloading https://files.pythonhosted.org/packages/0f/d7/4ceab544ec7887c78319a76e526e60c986c5d4f1f55a699eb2822bca20de/voila-0.5.0a4.tar.gz
+[2023-07-31 10:52:55] INFO root fetch - processPackages [xj-behavior]: Downloading https://files.pythonhosted.org/packages/86/8a/4e2dc1e0a92fa28e3ab50af77742c24ea39a3001100c29a83c67724b8b0e/xj_behavior-1.0.6.tar.gz
+[2023-07-31 10:52:55] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-07-31 10:52:55] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-07-31 10:52:55] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-07-31 10:52:55] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230731/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 10:52:55] INFO root fetch - processPackages [xj-behavior]: executing diffoscope
+[2023-07-31 10:52:55] INFO root fetch - processPackages [xj-behavior]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_behavior-1.0.5.tar.gz tmp/xj_behavior-1.0.6.tar.gz --markdown 20230731/x/xj-behavior/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-31 10:52:55] INFO root fetch - processPackages [lyscripts]: Downloading https://files.pythonhosted.org/packages/c6/de/65cea5b1c0f496a140ca0b60195218a7126a69956cdec3498ee62e30e249/lyscripts-0.7.1.tar.gz
+[2023-07-31 10:52:55] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/68/7a/8e007971f12abce794faf558a0c30b2953048ef784ec196dfd7fe3da67df/castor_extractor-0.5.3.tar.gz
+[2023-07-31 10:52:56] INFO root fetch - processPackages [jsonrpc-py]: Downloading https://files.pythonhosted.org/packages/57/e3/86ea8748b5cb245f5185e02399bd64ca33b75971318aca8f2c0b2d34a442/jsonrpc-py-3.0.9.tar.gz
+[2023-07-31 10:52:56] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/b9/01/6914767e6ac332bafc20cc175d97bea1f6a557b675fb535b928649f289ed/dialogy-2.1.0.tar.gz
+[2023-07-31 10:52:56] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-07-31 10:52:56] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230731/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 10:52:56] INFO root fetch - processPackages [castor-extractor]: executing diffoscope
+[2023-07-31 10:52:56] INFO root fetch - processPackages [castor-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castor_extractor-0.5.2.tar.gz tmp/castor_extractor-0.5.3.tar.gz --markdown 20230731/c/castor-extractor/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-31 10:52:56] INFO root fetch - processPackages [lyscripts]: executing diffoscope
+[2023-07-31 10:52:56] INFO root fetch - processPackages [lyscripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyscripts-0.7.0.tar.gz tmp/lyscripts-0.7.1.tar.gz --markdown 20230731/l/lyscripts/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-31 10:52:56] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2023-07-31 10:52:56] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-2.0.9.tar.gz tmp/dialogy-2.1.0.tar.gz --markdown 20230731/d/dialogy/2.0.9-2.1.0/diff.md --exclude *.pyd
+[2023-07-31 10:52:56] INFO root fetch - processPackages [voila]: Downloading https://files.pythonhosted.org/packages/32/be/e1a288693e19a2c994e22592269b81f76fef0ee37cf3de6309ab8767dbdc/voila-0.5.0a5.tar.gz
+[2023-07-31 10:52:56] INFO root fetch - processPackages [jsonrpc-py]: executing diffoscope
+[2023-07-31 10:52:56] INFO root fetch - processPackages [jsonrpc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonrpc-py-3.0.8.tar.gz tmp/jsonrpc-py-3.0.9.tar.gz --markdown 20230731/j/jsonrpc-py/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-31 10:52:56] INFO root fetch - processPackages [voila]: executing diffoscope
+[2023-07-31 10:52:56] INFO root fetch - processPackages [voila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voila-0.5.0a4.tar.gz tmp/voila-0.5.0a5.tar.gz --markdown 20230731/v/voila/0.5.0a4-0.5.0a5/diff.md --exclude *.pyd
+[2023-07-31 10:52:57] INFO root fetch - processPackages [xj-behavior]: Remove: archive file [/home/abi/fetcher/tmp/xj_behavior-1.0.5.tar.gz]
+[2023-07-31 10:52:57] INFO root fetch - processPackages [xj-behavior]: Remove: archive file [/home/abi/fetcher/tmp/xj_behavior-1.0.6.tar.gz]
+[2023-07-31 10:52:57] INFO root fetch - main [MainThread]: End processing [xj-behavior]: success
+[2023-07-31 10:52:57] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-07-31 10:52:57] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-07-31 10:52:57] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-07-31 10:52:57] INFO root fetch - processPackages [jsonrpc-py]: Remove: archive file [/home/abi/fetcher/tmp/jsonrpc-py-3.0.8.tar.gz]
+[2023-07-31 10:52:57] INFO root fetch - processPackages [jsonrpc-py]: Remove: archive file [/home/abi/fetcher/tmp/jsonrpc-py-3.0.9.tar.gz]
+[2023-07-31 10:52:57] INFO root fetch - main [MainThread]: End processing [jsonrpc-py]: success
+[2023-07-31 10:52:57] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.9.tar.gz]
+[2023-07-31 10:52:57] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.1.0.tar.gz]
+[2023-07-31 10:52:57] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2023-07-31 10:52:57] INFO root fetch - processPackages [lyscripts]: Remove: archive file [/home/abi/fetcher/tmp/lyscripts-0.7.0.tar.gz]
+[2023-07-31 10:52:57] INFO root fetch - processPackages [lyscripts]: Remove: archive file [/home/abi/fetcher/tmp/lyscripts-0.7.1.tar.gz]
+[2023-07-31 10:52:57] INFO root fetch - main [MainThread]: End processing [lyscripts]: success
+[2023-07-31 10:52:57] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-07-31 10:52:57] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-07-31 10:52:57] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-07-31 10:52:58] INFO root fetch - processPackages [castor-extractor]: Remove: archive file [/home/abi/fetcher/tmp/castor_extractor-0.5.2.tar.gz]
+[2023-07-31 10:52:58] INFO root fetch - processPackages [castor-extractor]: Remove: archive file [/home/abi/fetcher/tmp/castor_extractor-0.5.3.tar.gz]
+[2023-07-31 10:52:58] INFO root fetch - main [MainThread]: End processing [castor-extractor]: success
+[2023-07-31 10:53:28] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.0a4.tar.gz]
+[2023-07-31 10:53:28] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.0a5.tar.gz]
+[2023-07-31 10:53:28] INFO root fetch - main [MainThread]: End processing [voila]: success
+[2023-07-31 10:53:28] INFO root fetch - main [MainThread]: Store serial: [19104876]
