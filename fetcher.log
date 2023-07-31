@@ -20906,3 +20906,159 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-31 15:49:37] INFO root fetch - processPackages [py-auth-micro]: Remove: archive file [/home/abi/fetcher/tmp/py_auth_micro-0.1.7.tar.gz]
 [2023-07-31 15:49:37] INFO root fetch - main [MainThread]: End processing [py-auth-micro]: success
 [2023-07-31 15:49:37] INFO root fetch - main [MainThread]: Store serial: [19108321]
+[2023-07-31 15:54:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19108321]
+[2023-07-31 15:54:46] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-31 15:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finesse-ligo
+[2023-07-31 15:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: circt
+[2023-07-31 15:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: catalystai
+[2023-07-31 15:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miso2
+[2023-07-31 15:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cs2star
+[2023-07-31 15:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: migedit
+[2023-07-31 15:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edgeimpulse-api
+[2023-07-31 15:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pdpilot
+[2023-07-31 15:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cutlet
+[2023-07-31 15:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datarails
+[2023-07-31 15:54:46] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.27.2] Old Version: [1.27.0]
+[2023-07-31 15:54:46] INFO root fetch - processPackages [circt]: New version: [1.48.1.dev91] Old Version: [1.48.1.dev80]
+[2023-07-31 15:54:46] INFO root fetch - processPackages [datarails]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-31 15:54:46] INFO root fetch - processPackages [cs2star]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-31 15:54:46] INFO root fetch - processPackages [pdpilot]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-31 15:54:46] INFO root fetch - processPackages [migedit]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-31 15:54:46] INFO root fetch - processPackages [catalystai]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-31 15:54:46] INFO root fetch - processPackages [miso2]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-07-31 15:54:46] INFO root fetch - processPackages [finesse-ligo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-31 15:54:46] INFO root fetch - processPackages [cutlet]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-31 15:54:47] INFO root fetch - processPackages [cs2star]: Downloading https://files.pythonhosted.org/packages/22/1e/31469affae519984be9e69c3183279d72930af04ec685a8daf933441f97d/cs2star-0.6.0.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [migedit]: Downloading https://files.pythonhosted.org/packages/47/82/e1798079b743b4d56989cd2edc181de56d8af456877df11ab385cbdbee94/migedit-0.3.0.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [catalystai]: Downloading https://files.pythonhosted.org/packages/05/9d/6d612eab6de6fb44937f1f40f73c97f371ff509f21b75e390edced6a22c7/catalystai-1.0.2.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [datarails]: Downloading https://files.pythonhosted.org/packages/d0/3a/5c25153627573ddc414d488e12bc87de7b4f87ea0fcdd59dba14ac9fb3bb/datarails-0.3.1.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/4e/f9/00c34d25e468afe7ee1be9cf55e755c864e0b5283df5496bdce95052325d/edgeimpulse_api-1.27.0.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [miso2]: Downloading https://files.pythonhosted.org/packages/86/c2/6f38af3c1d4212a5f204a6c8842ee0e387286f3e247e99c0e66cf249828e/miso2-3.0.5.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [cutlet]: Downloading https://files.pythonhosted.org/packages/7e/17/66759cfefa07a60e7f167711cfce5c3ba43f05c3699f76dc5fe7357fc49d/cutlet-0.2.0.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [pdpilot]: Downloading https://files.pythonhosted.org/packages/1a/af/01674b11f0253d0ad1858223b9c31b4667a6ded580022b1f9b5baaf0cc50/pdpilot-0.5.1.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [finesse-ligo]: Downloading https://files.pythonhosted.org/packages/e8/d1/5d4173823128778e7b831a8e3cc0f7de1bba930ad59d346d5bd05f2904ee/finesse-ligo-1.0.8.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [circt]: executing diffoscope
+[2023-07-31 15:54:47] INFO root fetch - processPackages [circt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circt-1.48.1.dev80-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/circt-1.48.1.dev91-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230731/c/circt/1.48.1.dev80-1.48.1.dev91/diff.md --exclude *.pyd
+[2023-07-31 15:54:47] INFO root fetch - processPackages [cs2star]: Downloading https://files.pythonhosted.org/packages/57/74/5dffc1f62aad2e3095c2402acfefc23cda2866859a5bd543488f8f5f16a5/cs2star-0.6.1.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [migedit]: Downloading https://files.pythonhosted.org/packages/6a/61/8b9933dd144fb307e6365eb34ed35b5914021bdf9e00968f113f545f3ae1/migedit-0.3.1.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [catalystai]: Downloading https://files.pythonhosted.org/packages/12/3b/6d81ed331223f7c13cd705bea7c90cee378548d6ddf56301527b2721c904/catalystai-1.0.3.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [datarails]: Downloading https://files.pythonhosted.org/packages/eb/e8/35fc5d605f0d2a51e7c01bff28d9b2824c1dee343fc6be18e3137f66ddd6/datarails-0.3.2.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [cs2star]: executing diffoscope
+[2023-07-31 15:54:47] INFO root fetch - processPackages [cs2star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2star-0.6.0.tar.gz tmp/cs2star-0.6.1.tar.gz --markdown 20230731/c/cs2star/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-31 15:54:47] INFO root fetch - processPackages [miso2]: Downloading https://files.pythonhosted.org/packages/bf/a5/d5f6e3ce75988e2303a235698f98627cee9b53e4e317436aab6c64ae251f/miso2-3.0.6.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [catalystai]: executing diffoscope
+[2023-07-31 15:54:47] INFO root fetch - processPackages [catalystai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalystai-1.0.2.tar.gz tmp/catalystai-1.0.3.tar.gz --markdown 20230731/c/catalystai/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-31 15:54:47] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/5c/ff/4acab276c106b2d36093f05d123ab98f07684f3e27dbb67604e328732d31/edgeimpulse_api-1.27.2.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [migedit]: executing diffoscope
+[2023-07-31 15:54:47] INFO root fetch - processPackages [migedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migedit-0.3.0.tar.gz tmp/migedit-0.3.1.tar.gz --markdown 20230731/m/migedit/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-31 15:54:47] INFO root fetch - processPackages [datarails]: executing diffoscope
+[2023-07-31 15:54:47] INFO root fetch - processPackages [datarails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarails-0.3.1.tar.gz tmp/datarails-0.3.2.tar.gz --markdown 20230731/d/datarails/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-31 15:54:47] INFO root fetch - processPackages [finesse-ligo]: Downloading https://files.pythonhosted.org/packages/25/6d/e95e8b468b91c07610eb118b4ff75a0b1a48827a070bd66f45c7cc8d0b45/finesse-ligo-1.0.9.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [miso2]: executing diffoscope
+[2023-07-31 15:54:47] INFO root fetch - processPackages [miso2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miso2-3.0.5.tar.gz tmp/miso2-3.0.6.tar.gz --markdown 20230731/m/miso2/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-07-31 15:54:47] INFO root fetch - processPackages [cutlet]: Downloading https://files.pythonhosted.org/packages/2f/42/2e4205434e6ba8f4471119b75eafa85af40678097d3ae300fb1a45c0fc4e/cutlet-0.2.1.tar.gz
+[2023-07-31 15:54:47] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2023-07-31 15:54:47] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.27.0.tar.gz tmp/edgeimpulse_api-1.27.2.tar.gz --markdown 20230731/e/edgeimpulse-api/1.27.0-1.27.2/diff.md --exclude *.pyd
+[2023-07-31 15:54:48] INFO root fetch - processPackages [pdpilot]: Downloading https://files.pythonhosted.org/packages/b4/91/d52c04e9420497509ae53fe7be3916b58943da52186e7ef64ebe1343a8fb/pdpilot-0.5.2.tar.gz
+[2023-07-31 15:54:48] INFO root fetch - processPackages [cutlet]: executing diffoscope
+[2023-07-31 15:54:48] INFO root fetch - processPackages [cutlet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutlet-0.2.0.tar.gz tmp/cutlet-0.2.1.tar.gz --markdown 20230731/c/cutlet/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-31 15:54:48] INFO root fetch - processPackages [finesse-ligo]: executing diffoscope
+[2023-07-31 15:54:48] INFO root fetch - processPackages [finesse-ligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finesse-ligo-1.0.8.tar.gz tmp/finesse-ligo-1.0.9.tar.gz --markdown 20230731/f/finesse-ligo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 15:54:48] INFO root fetch - processPackages [pdpilot]: executing diffoscope
+[2023-07-31 15:54:48] INFO root fetch - processPackages [pdpilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdpilot-0.5.1.tar.gz tmp/pdpilot-0.5.2.tar.gz --markdown 20230731/p/pdpilot/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-31 15:54:49] INFO root fetch - processPackages [cs2star]: Remove: archive file [/home/abi/fetcher/tmp/cs2star-0.6.0.tar.gz]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [cs2star]: Remove: archive file [/home/abi/fetcher/tmp/cs2star-0.6.1.tar.gz]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [cs2star]: Start processing: django-permission2
+[2023-07-31 15:54:49] INFO root fetch - main [MainThread]: End processing [cs2star]: success
+[2023-07-31 15:54:49] INFO root fetch - processPackages [catalystai]: Remove: archive file [/home/abi/fetcher/tmp/catalystai-1.0.2.tar.gz]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [catalystai]: Remove: archive file [/home/abi/fetcher/tmp/catalystai-1.0.3.tar.gz]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [catalystai]: Start processing: useq-schema
+[2023-07-31 15:54:49] INFO root fetch - main [MainThread]: End processing [catalystai]: success
+[2023-07-31 15:54:49] INFO root fetch - processPackages [django-permission2]: New version: [2.1.0] Old Version: [2.0.0b4]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [useq-schema]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [migedit]: Remove: archive file [/home/abi/fetcher/tmp/migedit-0.3.0.tar.gz]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [migedit]: Remove: archive file [/home/abi/fetcher/tmp/migedit-0.3.1.tar.gz]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [migedit]: Start processing: hypersquirrel
+[2023-07-31 15:54:49] INFO root fetch - main [MainThread]: End processing [migedit]: success
+[2023-07-31 15:54:49] INFO root fetch - processPackages [hypersquirrel]: New version: [1.0.32] Old Version: [1.0.31]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [datarails]: Remove: archive file [/home/abi/fetcher/tmp/datarails-0.3.1.tar.gz]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [datarails]: Remove: archive file [/home/abi/fetcher/tmp/datarails-0.3.2.tar.gz]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [datarails]: Start processing: tensordict-nightly
+[2023-07-31 15:54:49] INFO root fetch - main [MainThread]: End processing [datarails]: success
+[2023-07-31 15:54:49] INFO root fetch - processPackages [django-permission2]: Downloading https://files.pythonhosted.org/packages/d4/3e/021ae790a02b163469d87b3c8910a76ae900827ae054f54a3fcc21e0bc0b/django-permission2-2.0.0b4.tar.gz
+[2023-07-31 15:54:49] INFO root fetch - processPackages [useq-schema]: Downloading https://files.pythonhosted.org/packages/cd/50/a1556e832b59e814a475be97774eb73366589bde40749715beb74717210f/useq_schema-0.3.2.tar.gz
+[2023-07-31 15:54:49] INFO root fetch - processPackages [miso2]: Remove: archive file [/home/abi/fetcher/tmp/miso2-3.0.5.tar.gz]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [miso2]: Remove: archive file [/home/abi/fetcher/tmp/miso2-3.0.6.tar.gz]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [miso2]: Start processing: directdb
+[2023-07-31 15:54:49] INFO root fetch - main [MainThread]: End processing [miso2]: success
+[2023-07-31 15:54:49] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-31 15:54:49] WARNING root fetch - processPackages [directdb]: Skipping, unable to determine old version
+[2023-07-31 15:54:49] INFO root fetch - processPackages [directdb]: Start processing: pathway
+[2023-07-31 15:54:49] INFO root fetch - main [MainThread]: End processing [directdb] error
+[2023-07-31 15:54:49] INFO root fetch - processPackages [hypersquirrel]: Downloading https://files.pythonhosted.org/packages/98/1c/e16770443717391bbac915c4359d121d19715c4630faef2b8f49a8f18d03/hypersquirrel-1.0.31.tar.gz
+[2023-07-31 15:54:49] INFO root fetch - processPackages [cutlet]: Remove: archive file [/home/abi/fetcher/tmp/cutlet-0.2.0.tar.gz]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [cutlet]: Remove: archive file [/home/abi/fetcher/tmp/cutlet-0.2.1.tar.gz]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [cutlet]: Start processing: YahooRequests
+[2023-07-31 15:54:49] INFO root fetch - main [MainThread]: End processing [cutlet]: success
+[2023-07-31 15:54:49] INFO root fetch - processPackages [finesse-ligo]: Remove: archive file [/home/abi/fetcher/tmp/finesse-ligo-1.0.8.tar.gz]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [finesse-ligo]: Remove: archive file [/home/abi/fetcher/tmp/finesse-ligo-1.0.9.tar.gz]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [finesse-ligo]: Start processing: zigpy-zboss
+[2023-07-31 15:54:49] INFO root fetch - main [MainThread]: End processing [finesse-ligo]: success
+[2023-07-31 15:54:49] INFO root fetch - processPackages [YahooRequests]: New version: [0.1.5.3] Old Version: [0.1.5.2]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [pathway]: New version: [1.3.1] Old Version: [1.3]
+[2023-07-31 15:54:49] INFO root fetch - processPackages [useq-schema]: Downloading https://files.pythonhosted.org/packages/2d/37/680bcedeb777ffb981f450be9fad05365d32a8834311321feccd1bac8492/useq_schema-0.4.0.tar.gz
+[2023-07-31 15:54:49] INFO root fetch - processPackages [django-permission2]: Downloading https://files.pythonhosted.org/packages/e0/f0/6aa68f3c9c2639ab14191d6e7130bb5b0632c4cdddafa317700e6d159a4e/django_permission2-2.1.0.tar.gz
+[2023-07-31 15:54:49] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/e7/5f/a8e12c8c9db4733b807edf690c79f8ee7fb4897c1bec72f6bfafdf1cf1c6/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-31 15:54:50] INFO root fetch - processPackages [zigpy-zboss]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-31 15:54:50] INFO root fetch - processPackages [useq-schema]: executing diffoscope
+[2023-07-31 15:54:50] INFO root fetch - processPackages [useq-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/useq_schema-0.3.2.tar.gz tmp/useq_schema-0.4.0.tar.gz --markdown 20230731/u/useq-schema/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-31 15:54:50] INFO root fetch - processPackages [django-permission2]: executing diffoscope
+[2023-07-31 15:54:50] INFO root fetch - processPackages [django-permission2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-permission2-2.0.0b4.tar.gz tmp/django_permission2-2.1.0.tar.gz --markdown 20230731/d/django-permission2/2.0.0b4-2.1.0/diff.md --exclude *.pyd
+[2023-07-31 15:54:50] INFO root fetch - processPackages [YahooRequests]: Downloading https://files.pythonhosted.org/packages/e5/bf/6fa540a34289551205ff1a248efe679635e0d2e0d46ba00515b738b231de/YahooRequests-0.1.5.2.tar.gz
+[2023-07-31 15:54:50] INFO root fetch - processPackages [hypersquirrel]: Downloading https://files.pythonhosted.org/packages/c9/c0/253f6c087061a2d52cc4f0fd8043de996ac79a91c13fecf1c2fbec577b03/hypersquirrel-1.0.32.tar.gz
+[2023-07-31 15:54:50] INFO root fetch - processPackages [pathway]: Downloading https://files.pythonhosted.org/packages/7a/20/df8d1fe9f685ffd49a143a04d4d63f486802473904b7ed7e7b6576cb61ee/Pathway-1.3.tar.gz
+[2023-07-31 15:54:50] INFO root fetch - processPackages [hypersquirrel]: executing diffoscope
+[2023-07-31 15:54:50] INFO root fetch - processPackages [hypersquirrel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypersquirrel-1.0.31.tar.gz tmp/hypersquirrel-1.0.32.tar.gz --markdown 20230731/h/hypersquirrel/1.0.31-1.0.32/diff.md --exclude *.pyd
+[2023-07-31 15:54:50] INFO root fetch - processPackages [YahooRequests]: Downloading https://files.pythonhosted.org/packages/59/b9/0465929ac910e325a3cd6908cb4a4b55de9224095a7f4edb56a1268f8751/YahooRequests-0.1.5.3.tar.gz
+[2023-07-31 15:54:50] INFO root fetch - processPackages [zigpy-zboss]: Downloading https://files.pythonhosted.org/packages/0e/5e/a9c275bcad0ac95103132ec210ceb4263f8b98d76994751dbf8221f293b3/zigpy-zboss-1.0.2.tar.gz
+[2023-07-31 15:54:50] INFO root fetch - processPackages [YahooRequests]: executing diffoscope
+[2023-07-31 15:54:50] INFO root fetch - processPackages [YahooRequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YahooRequests-0.1.5.2.tar.gz tmp/YahooRequests-0.1.5.3.tar.gz --markdown 20230731/Y/YahooRequests/0.1.5.2-0.1.5.3/diff.md --exclude *.pyd
+[2023-07-31 15:54:50] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/20/92/5489eefecb62a3da531fb19097d65b32ec71c60f929be10b1407a03894e5/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-31 15:54:50] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-07-31 15:54:50] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230731/t/tensordict-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-31 15:54:50] INFO root fetch - processPackages [pathway]: Downloading https://files.pythonhosted.org/packages/b0/84/a89c5a49c318c90c1a41f82539ee82ed3c921c3a2f7df886ee32e4217b4b/Pathway-1.3.1.tar.gz
+[2023-07-31 15:54:50] INFO root fetch - processPackages [zigpy-zboss]: Downloading https://files.pythonhosted.org/packages/0c/c2/d50e0f6fc90ca13428c9bf82e61592e912e6dda7592837794ec755e93325/zigpy-zboss-1.1.0.tar.gz
+[2023-07-31 15:54:50] INFO root fetch - processPackages [pathway]: executing diffoscope
+[2023-07-31 15:54:50] INFO root fetch - processPackages [pathway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pathway-1.3.tar.gz tmp/Pathway-1.3.1.tar.gz --markdown 20230731/p/pathway/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-07-31 15:54:50] INFO root fetch - processPackages [zigpy-zboss]: executing diffoscope
+[2023-07-31 15:54:50] INFO root fetch - processPackages [zigpy-zboss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zigpy-zboss-1.0.2.tar.gz tmp/zigpy-zboss-1.1.0.tar.gz --markdown 20230731/z/zigpy-zboss/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-31 15:54:51] INFO root fetch - processPackages [hypersquirrel]: Remove: archive file [/home/abi/fetcher/tmp/hypersquirrel-1.0.31.tar.gz]
+[2023-07-31 15:54:51] INFO root fetch - processPackages [hypersquirrel]: Remove: archive file [/home/abi/fetcher/tmp/hypersquirrel-1.0.32.tar.gz]
+[2023-07-31 15:54:51] INFO root fetch - main [MainThread]: End processing [hypersquirrel]: success
+[2023-07-31 15:54:51] INFO root fetch - processPackages [useq-schema]: Remove: archive file [/home/abi/fetcher/tmp/useq_schema-0.3.2.tar.gz]
+[2023-07-31 15:54:51] INFO root fetch - processPackages [useq-schema]: Remove: archive file [/home/abi/fetcher/tmp/useq_schema-0.4.0.tar.gz]
+[2023-07-31 15:54:51] INFO root fetch - main [MainThread]: End processing [useq-schema]: success
+[2023-07-31 15:54:51] INFO root fetch - processPackages [YahooRequests]: Remove: archive file [/home/abi/fetcher/tmp/YahooRequests-0.1.5.2.tar.gz]
+[2023-07-31 15:54:51] INFO root fetch - processPackages [YahooRequests]: Remove: archive file [/home/abi/fetcher/tmp/YahooRequests-0.1.5.3.tar.gz]
+[2023-07-31 15:54:51] INFO root fetch - main [MainThread]: End processing [YahooRequests]: success
+[2023-07-31 15:54:52] INFO root fetch - processPackages [django-permission2]: Remove: archive file [/home/abi/fetcher/tmp/django-permission2-2.0.0b4.tar.gz]
+[2023-07-31 15:54:52] INFO root fetch - processPackages [django-permission2]: Remove: archive file [/home/abi/fetcher/tmp/django_permission2-2.1.0.tar.gz]
+[2023-07-31 15:54:52] INFO root fetch - main [MainThread]: End processing [django-permission2]: success
+[2023-07-31 15:54:52] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 15:54:52] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 15:54:52] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-07-31 15:54:52] INFO root fetch - processPackages [pathway]: Remove: archive file [/home/abi/fetcher/tmp/Pathway-1.3.tar.gz]
+[2023-07-31 15:54:52] INFO root fetch - processPackages [pathway]: Remove: archive file [/home/abi/fetcher/tmp/Pathway-1.3.1.tar.gz]
+[2023-07-31 15:54:52] INFO root fetch - main [MainThread]: End processing [pathway]: success
+[2023-07-31 15:54:52] INFO root fetch - processPackages [zigpy-zboss]: Remove: archive file [/home/abi/fetcher/tmp/zigpy-zboss-1.0.2.tar.gz]
+[2023-07-31 15:54:52] INFO root fetch - processPackages [zigpy-zboss]: Remove: archive file [/home/abi/fetcher/tmp/zigpy-zboss-1.1.0.tar.gz]
+[2023-07-31 15:54:52] INFO root fetch - main [MainThread]: End processing [zigpy-zboss]: success
+[2023-07-31 15:54:54] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.27.0.tar.gz]
+[2023-07-31 15:54:54] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.27.2.tar.gz]
+[2023-07-31 15:54:54] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2023-07-31 15:54:59] INFO root fetch - processPackages [pdpilot]: Remove: archive file [/home/abi/fetcher/tmp/pdpilot-0.5.1.tar.gz]
+[2023-07-31 15:54:59] INFO root fetch - processPackages [pdpilot]: Remove: archive file [/home/abi/fetcher/tmp/pdpilot-0.5.2.tar.gz]
+[2023-07-31 15:54:59] INFO root fetch - main [MainThread]: End processing [pdpilot]: success
+[2023-07-31 15:57:47] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
+[2023-07-31 15:57:47] INFO root fetch - main [MainThread]: End processing [circt] error
+[2023-07-31 15:57:47] INFO root fetch - main [MainThread]: Store serial: [19108399]
