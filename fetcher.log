@@ -15396,3 +15396,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 12:06:48] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-31 12:06:48] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-07-31 12:06:48] INFO root fetch - main [MainThread]: Store serial: [19106085]
+[2023-07-31 12:11:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19106085]
+[2023-07-31 12:11:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-31 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bionty
+[2023-07-31 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rich
+[2023-07-31 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swmm-api
+[2023-07-31 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whois-api
+[2023-07-31 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytessng
+[2023-07-31 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AaioAsync
+[2023-07-31 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OpenGeodeWeb-Back
+[2023-07-31 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: food-project
+[2023-07-31 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: enquire
+[2023-07-31 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-message-app
+[2023-07-31 12:11:57] INFO root fetch - processPackages [whois-api]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-31 12:11:57] INFO root fetch - processPackages [swmm-api]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-31 12:11:57] WARNING root fetch - processPackages [django-message-app]: Skipping, unable to determine old version
+[2023-07-31 12:11:57] INFO root fetch - processPackages [django-message-app]: Start processing: git-co-evg-base
+[2023-07-31 12:11:57] INFO root fetch - main [MainThread]: End processing [django-message-app] error
+[2023-07-31 12:11:57] INFO root fetch - processPackages [AaioAsync]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-31 12:11:57] INFO root fetch - processPackages [pytessng]: New version: [0.1.6] Old Version: [0.1.3]
+[2023-07-31 12:11:57] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-31 12:11:57] INFO root fetch - processPackages [OpenGeodeWeb-Back]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 12:11:57] INFO root fetch - processPackages [enquire]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 12:11:57] INFO root fetch - processPackages [food-project]: New version: [1.3] Old Version: [1.2]
+[2023-07-31 12:11:57] INFO root fetch - processPackages [rich]: New version: [9.9.0] Old Version: [9.8.2]
+[2023-07-31 12:11:57] INFO root fetch - processPackages [whois-api]: Downloading https://files.pythonhosted.org/packages/c5/97/59f471647eb0cb1531326925bc0ca57d8d0da52b7d55ce718389d35d1764/whois-api-1.1.3.tar.gz
+[2023-07-31 12:11:57] INFO root fetch - processPackages [git-co-evg-base]: New version: [4.0.0] Old Version: [3.0.6]
+[2023-07-31 12:11:58] INFO root fetch - processPackages [enquire]: Downloading https://files.pythonhosted.org/packages/43/a8/a00656a47ec4a7f79f9e1a81265819de44aa4584b83383b00d9a0ab8ad4e/enquire-0.0.8.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [AaioAsync]: Downloading https://files.pythonhosted.org/packages/f6/c0/c9f444d39dd829ca6e76d71f9f81aa4456ad5c127639a68b4c2dc97723cd/AaioAsync-0.1.3.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [food-project]: Downloading https://files.pythonhosted.org/packages/e8/10/62b044e89219f6f27988202b572a803d76977db1d8ab43c99145b6f9480a/food_project-1.2.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [rich]: Downloading https://files.pythonhosted.org/packages/fb/96/b268c7ac622597f8660e14e01d8b66b84a34fbbaed3b920bfca440f742fe/rich-9.8.2.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [pytessng]: Downloading https://files.pythonhosted.org/packages/17/14/7d91b683d0ecd36021328deb1698515bbf071f4dde9282efe27a8250d26f/pytessng-0.1.3.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/de/03/666f5056d5c419e29e0d7e0acaf1d925b5e4320d1ea7ae326afb3583890e/opengeodeweb_back-0.0.1.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [swmm-api]: Downloading https://files.pythonhosted.org/packages/82/bc/e3ebd15e10d699ed9b5642a235c414ce84f5f13ee52612c5684521148a71/swmm-api-0.4.8.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [git-co-evg-base]: Downloading https://files.pythonhosted.org/packages/20/d7/dcc4de10a61611dfa1f8af620f4ed64b44c6c942db8d50cae266d2dfe90c/git_co_evg_base-3.0.6.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [whois-api]: Downloading https://files.pythonhosted.org/packages/79/1f/b09d5c274df85d77ce2ec8365f3b00c7cff7afb92eaab598b57da352684b/whois-api-1.1.4.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [enquire]: Downloading https://files.pythonhosted.org/packages/6d/ca/4721a62c88ae5c47ff2a37f30c59a0c992602680aab4cbaae25f1893e3c1/enquire-0.0.9.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [AaioAsync]: Downloading https://files.pythonhosted.org/packages/e9/5f/13d93aa8ef9c1d8412372826fbd4a762b3af1b635e9531aa7ba9ff1cb33c/AaioAsync-0.1.4.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [enquire]: executing diffoscope
+[2023-07-31 12:11:58] INFO root fetch - processPackages [enquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enquire-0.0.8.tar.gz tmp/enquire-0.0.9.tar.gz --markdown 20230731/e/enquire/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 12:11:58] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/f2/a4/cd39f15c990f84f115127222f98062959003692e58d9066b6e37210383eb/OpenGeodeWeb-Back-0.0.2.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [git-co-evg-base]: Downloading https://files.pythonhosted.org/packages/db/39/61fa0aa59d6453a28a95437c255a6e9b4f2ee5ef9e74919db6afbd57c1a8/git_co_evg_base-4.0.0.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [AaioAsync]: executing diffoscope
+[2023-07-31 12:11:58] INFO root fetch - processPackages [AaioAsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AaioAsync-0.1.3.tar.gz tmp/AaioAsync-0.1.4.tar.gz --markdown 20230731/A/AaioAsync/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-31 12:11:58] INFO root fetch - processPackages [food-project]: Downloading https://files.pythonhosted.org/packages/41/a1/50175787032f4f0b7e56a09bc9b38a469cc3bc96644fb7e43d1dc6d4488b/food_project-1.3.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [whois-api]: executing diffoscope
+[2023-07-31 12:11:58] INFO root fetch - processPackages [whois-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whois-api-1.1.3.tar.gz tmp/whois-api-1.1.4.tar.gz --markdown 20230731/w/whois-api/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-31 12:11:58] INFO root fetch - processPackages [rich]: Downloading https://files.pythonhosted.org/packages/5a/2d/5e92c69f971cb2a373a5203fe2ff0a06751b3eea918c709318e19f7caf62/rich-9.9.0.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [pytessng]: Downloading https://files.pythonhosted.org/packages/30/0b/c13821391e765eac4fd96d2c8e62c88f7fd8099f83653dbf20a4283b0812/pytessng-0.1.6.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [swmm-api]: Downloading https://files.pythonhosted.org/packages/82/5d/df302736e1229719ba97cec4392d0731c337345cca86d512f1f60ffc309c/swmm-api-0.4.9.tar.gz
+[2023-07-31 12:11:58] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-07-31 12:11:58] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230731/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-31 12:11:59] INFO root fetch - processPackages [OpenGeodeWeb-Back]: executing diffoscope
+[2023-07-31 12:11:59] INFO root fetch - processPackages [OpenGeodeWeb-Back]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengeodeweb_back-0.0.1.tar.gz tmp/OpenGeodeWeb-Back-0.0.2.tar.gz --markdown 20230731/O/OpenGeodeWeb-Back/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 12:11:59] INFO root fetch - processPackages [git-co-evg-base]: executing diffoscope
+[2023-07-31 12:11:59] INFO root fetch - processPackages [git-co-evg-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_co_evg_base-3.0.6.tar.gz tmp/git_co_evg_base-4.0.0.tar.gz --markdown 20230731/g/git-co-evg-base/3.0.6-4.0.0/diff.md --exclude *.pyd
+[2023-07-31 12:11:59] INFO root fetch - processPackages [rich]: executing diffoscope
+[2023-07-31 12:11:59] INFO root fetch - processPackages [rich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich-9.8.2.tar.gz tmp/rich-9.9.0.tar.gz --markdown 20230731/r/rich/9.8.2-9.9.0/diff.md --exclude *.pyd
+[2023-07-31 12:11:59] INFO root fetch - processPackages [swmm-api]: executing diffoscope
+[2023-07-31 12:11:59] INFO root fetch - processPackages [swmm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swmm-api-0.4.8.tar.gz tmp/swmm-api-0.4.9.tar.gz --markdown 20230731/s/swmm-api/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-31 12:11:59] INFO root fetch - processPackages [food-project]: executing diffoscope
+[2023-07-31 12:11:59] INFO root fetch - processPackages [food-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/food_project-1.2.tar.gz tmp/food_project-1.3.tar.gz --markdown 20230731/f/food-project/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-31 12:11:59] INFO root fetch - processPackages [enquire]: Remove: archive file [/home/abi/fetcher/tmp/enquire-0.0.8.tar.gz]
+[2023-07-31 12:11:59] INFO root fetch - processPackages [enquire]: Remove: archive file [/home/abi/fetcher/tmp/enquire-0.0.9.tar.gz]
+[2023-07-31 12:11:59] INFO root fetch - processPackages [enquire]: Start processing: bt-data
+[2023-07-31 12:11:59] INFO root fetch - main [MainThread]: End processing [enquire]: success
+[2023-07-31 12:12:00] INFO root fetch - processPackages [bt-data]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-31 12:12:00] INFO root fetch - processPackages [AaioAsync]: Remove: archive file [/home/abi/fetcher/tmp/AaioAsync-0.1.3.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - processPackages [AaioAsync]: Remove: archive file [/home/abi/fetcher/tmp/AaioAsync-0.1.4.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - main [MainThread]: End processing [AaioAsync]: success
+[2023-07-31 12:12:00] INFO root fetch - processPackages [whois-api]: Remove: archive file [/home/abi/fetcher/tmp/whois-api-1.1.3.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - processPackages [whois-api]: Remove: archive file [/home/abi/fetcher/tmp/whois-api-1.1.4.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - main [MainThread]: End processing [whois-api]: success
+[2023-07-31 12:12:00] INFO root fetch - processPackages [bt-data]: Downloading https://files.pythonhosted.org/packages/92/70/cffee6b219f1f3352de689b7434e143b33bea7c98577fd1e8c58a4d7b3f2/bt_data-0.0.7-py3-none-any.whl
+[2023-07-31 12:12:00] INFO root fetch - processPackages [food-project]: Remove: archive file [/home/abi/fetcher/tmp/food_project-1.2.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - processPackages [food-project]: Remove: archive file [/home/abi/fetcher/tmp/food_project-1.3.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - main [MainThread]: End processing [food-project]: success
+[2023-07-31 12:12:00] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_back-0.0.1.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeodeWeb-Back-0.0.2.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - main [MainThread]: End processing [OpenGeodeWeb-Back]: success
+[2023-07-31 12:12:00] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-07-31 12:12:00] INFO root fetch - processPackages [git-co-evg-base]: Remove: archive file [/home/abi/fetcher/tmp/git_co_evg_base-3.0.6.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - processPackages [git-co-evg-base]: Remove: archive file [/home/abi/fetcher/tmp/git_co_evg_base-4.0.0.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - main [MainThread]: End processing [git-co-evg-base]: success
+[2023-07-31 12:12:00] INFO root fetch - processPackages [bt-data]: Downloading https://files.pythonhosted.org/packages/a2/09/43805a80a108b40fea1ab5a25c749a1b7cd756e5cd0bf7997f9d9da127cd/bt_data-0.0.9-py3-none-any.whl
+[2023-07-31 12:12:00] INFO root fetch - processPackages [bt-data]: executing diffoscope
+[2023-07-31 12:12:00] INFO root fetch - processPackages [bt-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bt_data-0.0.7-py3-none-any.whl.zip tmp/bt_data-0.0.9-py3-none-any.whl.zip --markdown 20230731/b/bt-data/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 12:12:00] INFO root fetch - processPackages [rich]: Remove: archive file [/home/abi/fetcher/tmp/rich-9.8.2.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - processPackages [rich]: Remove: archive file [/home/abi/fetcher/tmp/rich-9.9.0.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - main [MainThread]: End processing [rich]: success
+[2023-07-31 12:12:00] INFO root fetch - processPackages [swmm-api]: Remove: archive file [/home/abi/fetcher/tmp/swmm-api-0.4.8.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - processPackages [swmm-api]: Remove: archive file [/home/abi/fetcher/tmp/swmm-api-0.4.9.tar.gz]
+[2023-07-31 12:12:00] INFO root fetch - main [MainThread]: End processing [swmm-api]: success
+[2023-07-31 12:12:00] INFO root fetch - processPackages [pytessng]: executing diffoscope
+[2023-07-31 12:12:00] INFO root fetch - processPackages [pytessng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytessng-0.1.3.tar.gz tmp/pytessng-0.1.6.tar.gz --markdown 20230731/p/pytessng/0.1.3-0.1.6/diff.md --exclude *.pyd
+[2023-07-31 12:12:01] INFO root fetch - processPackages [bt-data]: Remove: archive file [/home/abi/fetcher/tmp/bt_data-0.0.7-py3-none-any.whl.zip]
+[2023-07-31 12:12:01] INFO root fetch - processPackages [bt-data]: Remove: archive file [/home/abi/fetcher/tmp/bt_data-0.0.9-py3-none-any.whl.zip]
+[2023-07-31 12:12:01] INFO root fetch - main [MainThread]: End processing [bt-data]: success
+[2023-07-31 12:12:24] INFO root fetch - processPackages [pytessng]: Remove: archive file [/home/abi/fetcher/tmp/pytessng-0.1.3.tar.gz]
+[2023-07-31 12:12:24] INFO root fetch - processPackages [pytessng]: Remove: archive file [/home/abi/fetcher/tmp/pytessng-0.1.6.tar.gz]
+[2023-07-31 12:12:24] INFO root fetch - main [MainThread]: End processing [pytessng]: success
+[2023-07-31 12:12:24] INFO root fetch - main [MainThread]: Store serial: [19106124]
