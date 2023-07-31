@@ -7375,3 +7375,93 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 07:03:55] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.4.0.tar.gz]
 [2023-07-31 07:03:55] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
 [2023-07-31 07:03:55] INFO root fetch - main [MainThread]: Store serial: [19102753]
+[2023-07-31 07:08:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102753]
+[2023-07-31 07:09:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-31 07:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-pe
+[2023-07-31 07:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dokuwikidumper
+[2023-07-31 07:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightning-toolbox
+[2023-07-31 07:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: promptify
+[2023-07-31 07:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bilibili-download-icexmoon
+[2023-07-31 07:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dask-cuda
+[2023-07-31 07:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ulid-rs-py
+[2023-07-31 07:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dask-cuda
+[2023-07-31 07:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstract-gui
+[2023-07-31 07:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blender-stubs
+[2023-07-31 07:09:03] INFO root fetch - processPackages [lightning-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 07:09:03] INFO root fetch - processPackages [promptify]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-31 07:09:03] INFO root fetch - processPackages [bilibili-download-icexmoon]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 07:09:03] INFO root fetch - processPackages [ulid-rs-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 07:09:03] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.52.25] Old Version: [0.0.52.24]
+[2023-07-31 07:09:03] INFO root fetch - processPackages [dokuwikidumper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 07:09:03] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230731] Old Version: [23.8.0a230730]
+[2023-07-31 07:09:03] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230731] Old Version: [0.1.1.dev20230730]
+[2023-07-31 07:09:03] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230731] Old Version: [23.8.0a230730]
+[2023-07-31 07:09:03] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/0e/a2/e33a2f505b9b8fa696b16975fe34a55c42dc96902865f16c6627044aa9b8/lightning_toolbox-0.0.8.tar.gz
+[2023-07-31 07:09:03] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/64/3a/6efbc8e4427e0a3b4be87c7b402374d5ab2008946a8e8eb67b916b85a98e/abstract_gui-0.0.52.24.tar.gz
+[2023-07-31 07:09:03] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/e8/a5/231a4bc9fc03d6e21de801cc30dac44b0b1bd479eaa7ecf214105d2238f9/dask-cuda-23.8.0a230730.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [promptify]: Downloading https://files.pythonhosted.org/packages/8f/5b/23df0bd52b694a65d170cfe069add615048fc02646e88bfca48706c0c828/promptify-2.0.2.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [dokuwikidumper]: Downloading https://files.pythonhosted.org/packages/8a/77/6dec3b11bf518fac347215309f743f5b619907f701930657ce67b1a56294/dokuwikidumper-0.1.8.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [bilibili-download-icexmoon]: Downloading https://files.pythonhosted.org/packages/76/f3/9b5745669dabdba743a1e6c04b458276e242cf5e1c747cf1f5dc60f9611b/bilibili-download-icexmoon-0.0.1.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [ulid-rs-py]: Downloading https://files.pythonhosted.org/packages/39/64/3bbad94d2f5a535894ae110276a1780aa2db5cda50b634512f6a479a6c9a/ulid_rs_py-0.1.0.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [blender-stubs]: New version: [3.2.0.27.dev5710410943] Old Version: [3.2.0.27.dev4673483520]
+[2023-07-31 07:09:04] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/61/4c/261684d6142349e4c618d10769ec0d007dbae9f317d841f12a87f61198f0/rapid_pe-0.1.1.dev20230730.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/c9/f1/39547b268254026a2f0a4856694ac92d2cb143183580588cfd3696575465/lightning_toolbox-0.0.9.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [blender-stubs]: Downloading https://files.pythonhosted.org/packages/21/03/90a1ad7b756962f9069dcfcb11c208af1d4297f0f84801efb2338e7ce500/blender-stubs-3.2.0.27.dev4673483520.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/3c/b7/8188c0bc655207eb8c290c74241a5caba2b01da144c525fef7d0ddef63c1/abstract_gui-0.0.52.25.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/1a/51/ee336cb684ebcedae6c2a6f3d4914a1c2e0b1e31ca90c05d85a9270b83f2/dask-cuda-23.8.0a230731.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/1a/51/ee336cb684ebcedae6c2a6f3d4914a1c2e0b1e31ca90c05d85a9270b83f2/dask-cuda-23.8.0a230731.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [dokuwikidumper]: Downloading https://files.pythonhosted.org/packages/8e/0b/c59e9f31ad583ecbb464b66cbce93ebe16efa5f9597f9aea718ec09587fb/dokuwikidumper-0.1.9.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [promptify]: Downloading https://files.pythonhosted.org/packages/3e/34/a78c1a192cb0c293410bceb9053ca1f3d90defe23e21d895af7b71546a46/promptify-2.0.3.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [bilibili-download-icexmoon]: Downloading https://files.pythonhosted.org/packages/80/50/185ce51fef85f0a13d547c57583b9fc8fab953d76e5fea8733e85afb73da/bilibili-download-icexmoon-0.0.2.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [lightning-toolbox]: executing diffoscope
+[2023-07-31 07:09:04] INFO root fetch - processPackages [lightning-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_toolbox-0.0.8.tar.gz tmp/lightning_toolbox-0.0.9.tar.gz --markdown 20230731/l/lightning-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 07:09:04] INFO root fetch - processPackages [ulid-rs-py]: Downloading https://files.pythonhosted.org/packages/03/2d/0eddf8624a7987a66c8fa65ddaaea683f31304a292ac4a55f4b6a0da54cc/ulid_rs_py-0.1.1.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/88/e5/3902604447d368eee0bb77cbb6c3a70b5c055fff0e1ebc31123f89eca521/rapid_pe-0.1.1.dev20230731.tar.gz
+[2023-07-31 07:09:04] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 07:09:04] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.52.24.tar.gz tmp/abstract_gui-0.0.52.25.tar.gz --markdown 20230731/a/abstract-gui/0.0.52.24-0.0.52.25/diff.md --exclude *.pyd
+[2023-07-31 07:09:04] INFO root fetch - processPackages [dokuwikidumper]: executing diffoscope
+[2023-07-31 07:09:04] INFO root fetch - processPackages [dokuwikidumper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dokuwikidumper-0.1.8.tar.gz tmp/dokuwikidumper-0.1.9.tar.gz --markdown 20230731/d/dokuwikidumper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 07:09:04] INFO root fetch - processPackages [ulid-rs-py]: executing diffoscope
+[2023-07-31 07:09:04] INFO root fetch - processPackages [ulid-rs-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ulid_rs_py-0.1.0.tar.gz tmp/ulid_rs_py-0.1.1.tar.gz --markdown 20230731/u/ulid-rs-py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 07:09:04] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-31 07:09:04] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230730.tar.gz tmp/dask-cuda-23.8.0a230731.tar.gz --markdown 20230731/d/dask-cuda/23.8.0a230730-23.8.0a230731/diff.md --exclude *.pyd
+[2023-07-31 07:09:04] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-31 07:09:04] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230730.tar.gz tmp/dask-cuda-23.8.0a230731.tar.gz --markdown 20230731/d/dask-cuda/23.8.0a230730-23.8.0a230731/diff.md --exclude *.pyd
+[2023-07-31 07:09:04] INFO root fetch - processPackages [promptify]: executing diffoscope
+[2023-07-31 07:09:04] INFO root fetch - processPackages [promptify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptify-2.0.2.tar.gz tmp/promptify-2.0.3.tar.gz --markdown 20230731/p/promptify/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-31 07:09:04] INFO root fetch - processPackages [bilibili-download-icexmoon]: executing diffoscope
+[2023-07-31 07:09:04] INFO root fetch - processPackages [bilibili-download-icexmoon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilibili-download-icexmoon-0.0.1.tar.gz tmp/bilibili-download-icexmoon-0.0.2.tar.gz --markdown 20230731/b/bilibili-download-icexmoon/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 07:09:05] INFO root fetch - processPackages [blender-stubs]: Downloading https://files.pythonhosted.org/packages/2f/a5/d115aa4c5dcf3b71fd16a8ada7b68a038e8198e3479876d5c2d4aec3ab84/blender-stubs-3.2.0.27.dev5710410943.tar.gz
+[2023-07-31 07:09:05] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-31 07:09:05] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230730.tar.gz tmp/rapid_pe-0.1.1.dev20230731.tar.gz --markdown 20230731/r/rapid-pe/0.1.1.dev20230730-0.1.1.dev20230731/diff.md --exclude *.pyd
+[2023-07-31 07:09:05] INFO root fetch - processPackages [blender-stubs]: executing diffoscope
+[2023-07-31 07:09:05] INFO root fetch - processPackages [blender-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blender-stubs-3.2.0.27.dev4673483520.tar.gz tmp/blender-stubs-3.2.0.27.dev5710410943.tar.gz --markdown 20230731/b/blender-stubs/3.2.0.27.dev4673483520-3.2.0.27.dev5710410943/diff.md --exclude *.pyd
+[2023-07-31 07:09:06] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.52.24.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.52.25.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 07:09:06] INFO root fetch - processPackages [lightning-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/lightning_toolbox-0.0.8.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - processPackages [lightning-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/lightning_toolbox-0.0.9.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - main [MainThread]: End processing [lightning-toolbox]: success
+[2023-07-31 07:09:06] INFO root fetch - processPackages [dokuwikidumper]: Remove: archive file [/home/abi/fetcher/tmp/dokuwikidumper-0.1.8.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - processPackages [ulid-rs-py]: Remove: archive file [/home/abi/fetcher/tmp/ulid_rs_py-0.1.0.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - processPackages [dokuwikidumper]: Remove: archive file [/home/abi/fetcher/tmp/dokuwikidumper-0.1.9.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - processPackages [ulid-rs-py]: Remove: archive file [/home/abi/fetcher/tmp/ulid_rs_py-0.1.1.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - main [MainThread]: End processing [dokuwikidumper]: success
+[2023-07-31 07:09:06] INFO root fetch - main [MainThread]: End processing [ulid-rs-py]: success
+[2023-07-31 07:09:06] INFO root fetch - processPackages [bilibili-download-icexmoon]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-download-icexmoon-0.0.1.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - processPackages [bilibili-download-icexmoon]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-download-icexmoon-0.0.2.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - main [MainThread]: End processing [bilibili-download-icexmoon]: success
+[2023-07-31 07:09:06] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230730.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230731.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-31 07:09:06] INFO root fetch - processPackages [promptify]: Remove: archive file [/home/abi/fetcher/tmp/promptify-2.0.2.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - processPackages [promptify]: Remove: archive file [/home/abi/fetcher/tmp/promptify-2.0.3.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - main [MainThread]: End processing [promptify]: success
+[2023-07-31 07:09:06] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230730.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230731.tar.gz]
+[2023-07-31 07:09:06] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-31 07:09:06] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-31 07:09:09] INFO root fetch - processPackages [blender-stubs]: Remove: archive file [/home/abi/fetcher/tmp/blender-stubs-3.2.0.27.dev4673483520.tar.gz]
+[2023-07-31 07:09:09] INFO root fetch - processPackages [blender-stubs]: Remove: archive file [/home/abi/fetcher/tmp/blender-stubs-3.2.0.27.dev5710410943.tar.gz]
+[2023-07-31 07:09:09] INFO root fetch - main [MainThread]: End processing [blender-stubs]: success
+[2023-07-31 07:09:09] INFO root fetch - main [MainThread]: Store serial: [19102821]
