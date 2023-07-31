@@ -10169,3 +10169,123 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 09:36:15] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.32.tar.gz]
 [2023-07-31 09:36:15] INFO root fetch - main [MainThread]: End processing [byquant]: success
 [2023-07-31 09:36:15] INFO root fetch - main [MainThread]: Store serial: [19104079]
+[2023-07-31 09:41:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19104079]
+[2023-07-31 09:41:23] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-31 09:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dicergirl
+[2023-07-31 09:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TPE-Bot
+[2023-07-31 09:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: katalytic-images
+[2023-07-31 09:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stringzilla
+[2023-07-31 09:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: repository-cli
+[2023-07-31 09:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: schemantic
+[2023-07-31 09:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agoraiot
+[2023-07-31 09:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agora-busclient
+[2023-07-31 09:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agora-config
+[2023-07-31 09:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agora-logging
+[2023-07-31 09:41:24] INFO root fetch - processPackages [agora-busclient]: New version: [1.1.39] Old Version: [1.1.38]
+[2023-07-31 09:41:24] INFO root fetch - processPackages [agoraiot]: New version: [1.1.39] Old Version: [1.1.38]
+[2023-07-31 09:41:24] INFO root fetch - processPackages [dicergirl]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-07-31 09:41:24] INFO root fetch - processPackages [katalytic-images]: New version: [0.9.4] Old Version: [0.9.1]
+[2023-07-31 09:41:24] INFO root fetch - processPackages [TPE-Bot]: New version: [4.5.0] Old Version: [0.5.25]
+[2023-07-31 09:41:24] INFO root fetch - processPackages [repository-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-31 09:41:24] INFO root fetch - processPackages [agora-logging]: New version: [1.1.39] Old Version: [1.1.38]
+[2023-07-31 09:41:24] INFO root fetch - processPackages [schemantic]: New version: [0.3.0] Old Version: [0.1.1]
+[2023-07-31 09:41:24] INFO root fetch - processPackages [agora-config]: New version: [1.1.39] Old Version: [1.1.38]
+[2023-07-31 09:41:24] INFO root fetch - processPackages [stringzilla]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-31 09:41:24] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/5a/e3/c33fbd342fd3f3b7dc4b2bf5b15e692493a63ccfa31c4f2d0152b4c5a995/agora_config-1.1.38-py2.py3-none-any.whl
+[2023-07-31 09:41:24] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/89/9a/5a584ee13b7f5d46fefcd42b0cd622751e293fd1927c8b729ef002672a8c/agora_logging-1.1.38-py2.py3-none-any.whl
+[2023-07-31 09:41:24] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/57/8c/e066239bab85d1dd3dc5a757fd80e5ddd94030254d0ae04e7091d46f9e6e/agoraiot-1.1.38-py2.py3-none-any.whl
+[2023-07-31 09:41:24] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/60/c3/f519144c277a6c7775369b2753dc7e395114e851067ec4b81b8320b5e937/agora_busclient-1.1.38-py2.py3-none-any.whl
+[2023-07-31 09:41:24] INFO root fetch - processPackages [stringzilla]: Downloading https://files.pythonhosted.org/packages/d8/96/2c18501505e102e6811dfcf84c9d1fd0fadaaee0a40e5ab828e8f72f0d04/stringzilla-1.0.2-cp39-cp39-win_amd64.whl
+[2023-07-31 09:41:24] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/4d/25/94efd60da6c1bfacf6ee6e49cd050a51febe28be225044a6b076a83f8515/TPE_Bot-0.5.25.tar.gz
+[2023-07-31 09:41:24] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/2a/d4/0610f246fa9835fd006cc4fe54a7512131e1d426a2dbc447e844b97fa145/dicergirl-3.0.6.tar.gz
+[2023-07-31 09:41:24] INFO root fetch - processPackages [repository-cli]: Downloading https://files.pythonhosted.org/packages/88/e1/ca9aa20e10be21f82a73dbcfe026662bdc3aa9221876cc2ca47700eb5071/repository-cli-0.8.1.tar.gz
+[2023-07-31 09:41:24] INFO root fetch - processPackages [katalytic-images]: Downloading https://files.pythonhosted.org/packages/2a/12/c3c0fff7181520ddaaaf5246bb551c0a5df9075a5a39de1a26d4a4bb5560/katalytic_images-0.9.1.tar.gz
+[2023-07-31 09:41:24] INFO root fetch - processPackages [schemantic]: Downloading https://files.pythonhosted.org/packages/59/5b/954f059d8be902fa0531523f27b98b5588100ea72ebea5465a85c3feca3b/schemantic-0.1.1.tar.gz
+[2023-07-31 09:41:25] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/6a/14/ddfa8e76632d329d8c388ed04d655e1966488b8ae559b33668450afe35a4/agora_config-1.1.39-py2.py3-none-any.whl
+[2023-07-31 09:41:25] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/ef/ae/f38e45f2c0047dfbc8f9306ba453d62b275947387f65c57c6f801822c437/agora_logging-1.1.39-py2.py3-none-any.whl
+[2023-07-31 09:41:25] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/9d/fd/54d83c58f76fac6d19c97a6c20126e9a584c73265eed7717d110eba6cac4/agoraiot-1.1.39-py2.py3-none-any.whl
+[2023-07-31 09:41:25] INFO root fetch - processPackages [stringzilla]: Downloading https://files.pythonhosted.org/packages/d6/9f/b8b85f98fead3149a55ed5e36310e05661529101265a9f389002744ec425/stringzilla-1.0.3-cp39-cp39-win_amd64.whl
+[2023-07-31 09:41:25] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/90/b7/245da3cd5fa9fa7be003117e30ee0d07fa3d6dfc18120f0a6224ca090ae9/agora_busclient-1.1.39-py2.py3-none-any.whl
+[2023-07-31 09:41:25] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/5a/b1/1770e244994c49d2e319c3957d7e9872e6126744cef52332ccae6dd9c3a4/TPE_Bot-4.5.0.tar.gz
+[2023-07-31 09:41:25] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/c0/95/9f4720de7d7930befde2fd617ed99af64db6d5b8c1d9727c6096713b658b/dicergirl-3.0.7.tar.gz
+[2023-07-31 09:41:25] INFO root fetch - processPackages [katalytic-images]: Downloading https://files.pythonhosted.org/packages/94/b9/e16bcca42413ace8b1c4b0856ad8adb41b801fca132921e6efba497ceffd/katalytic_images-0.9.4.tar.gz
+[2023-07-31 09:41:25] INFO root fetch - processPackages [agora-config]: executing diffoscope
+[2023-07-31 09:41:25] INFO root fetch - processPackages [agora-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_config-1.1.38-py2.py3-none-any.whl.zip tmp/agora_config-1.1.39-py2.py3-none-any.whl.zip --markdown 20230731/a/agora-config/1.1.38-1.1.39/diff.md --exclude *.pyd
+[2023-07-31 09:41:25] INFO root fetch - processPackages [agora-logging]: executing diffoscope
+[2023-07-31 09:41:25] INFO root fetch - processPackages [agora-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_logging-1.1.38-py2.py3-none-any.whl.zip tmp/agora_logging-1.1.39-py2.py3-none-any.whl.zip --markdown 20230731/a/agora-logging/1.1.38-1.1.39/diff.md --exclude *.pyd
+[2023-07-31 09:41:25] INFO root fetch - processPackages [agoraiot]: executing diffoscope
+[2023-07-31 09:41:25] INFO root fetch - processPackages [agoraiot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agoraiot-1.1.38-py2.py3-none-any.whl.zip tmp/agoraiot-1.1.39-py2.py3-none-any.whl.zip --markdown 20230731/a/agoraiot/1.1.38-1.1.39/diff.md --exclude *.pyd
+[2023-07-31 09:41:25] INFO root fetch - processPackages [schemantic]: Downloading https://files.pythonhosted.org/packages/27/ba/ea2bdc9920076c20d5856c1edb45c6298691dc65adc4b4a770e80d4806ed/schemantic-0.3.0.tar.gz
+[2023-07-31 09:41:25] INFO root fetch - processPackages [repository-cli]: Downloading https://files.pythonhosted.org/packages/3e/b1/87aeb3e8565f99f8ea844103133695c2e2bbb79c391b955abdf0e1343a79/repository-cli-0.9.0.tar.gz
+[2023-07-31 09:41:25] INFO root fetch - processPackages [agora-busclient]: executing diffoscope
+[2023-07-31 09:41:25] INFO root fetch - processPackages [agora-busclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_busclient-1.1.38-py2.py3-none-any.whl.zip tmp/agora_busclient-1.1.39-py2.py3-none-any.whl.zip --markdown 20230731/a/agora-busclient/1.1.38-1.1.39/diff.md --exclude *.pyd
+[2023-07-31 09:41:25] INFO root fetch - processPackages [stringzilla]: executing diffoscope
+[2023-07-31 09:41:25] INFO root fetch - processPackages [stringzilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringzilla-1.0.2-cp39-cp39-win_amd64.whl.zip tmp/stringzilla-1.0.3-cp39-cp39-win_amd64.whl.zip --markdown 20230731/s/stringzilla/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-31 09:41:25] INFO root fetch - processPackages [dicergirl]: executing diffoscope
+[2023-07-31 09:41:25] INFO root fetch - processPackages [dicergirl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicergirl-3.0.6.tar.gz tmp/dicergirl-3.0.7.tar.gz --markdown 20230731/d/dicergirl/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2023-07-31 09:41:25] INFO root fetch - processPackages [TPE-Bot]: executing diffoscope
+[2023-07-31 09:41:25] INFO root fetch - processPackages [TPE-Bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPE_Bot-0.5.25.tar.gz tmp/TPE_Bot-4.5.0.tar.gz --markdown 20230731/T/TPE-Bot/0.5.25-4.5.0/diff.md --exclude *.pyd
+[2023-07-31 09:41:25] INFO root fetch - processPackages [katalytic-images]: executing diffoscope
+[2023-07-31 09:41:25] INFO root fetch - processPackages [katalytic-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic_images-0.9.1.tar.gz tmp/katalytic_images-0.9.4.tar.gz --markdown 20230731/k/katalytic-images/0.9.1-0.9.4/diff.md --exclude *.pyd
+[2023-07-31 09:41:25] INFO root fetch - processPackages [schemantic]: executing diffoscope
+[2023-07-31 09:41:25] INFO root fetch - processPackages [schemantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemantic-0.1.1.tar.gz tmp/schemantic-0.3.0.tar.gz --markdown 20230731/s/schemantic/0.1.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-31 09:41:25] INFO root fetch - processPackages [repository-cli]: executing diffoscope
+[2023-07-31 09:41:25] INFO root fetch - processPackages [repository-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repository-cli-0.8.1.tar.gz tmp/repository-cli-0.9.0.tar.gz --markdown 20230731/r/repository-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 09:41:26] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.1.38-py2.py3-none-any.whl.zip]
+[2023-07-31 09:41:26] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.1.39-py2.py3-none-any.whl.zip]
+[2023-07-31 09:41:26] INFO root fetch - processPackages [agoraiot]: Start processing: agora-redis-client
+[2023-07-31 09:41:26] INFO root fetch - main [MainThread]: End processing [agoraiot]: success
+[2023-07-31 09:41:26] INFO root fetch - processPackages [agora-redis-client]: New version: [1.1.39] Old Version: [1.1.38]
+[2023-07-31 09:41:26] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.1.38-py2.py3-none-any.whl.zip]
+[2023-07-31 09:41:26] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.1.39-py2.py3-none-any.whl.zip]
+[2023-07-31 09:41:26] INFO root fetch - processPackages [agora-config]: Start processing: agora-utils
+[2023-07-31 09:41:26] INFO root fetch - main [MainThread]: End processing [agora-config]: success
+[2023-07-31 09:41:26] INFO root fetch - processPackages [stringzilla]: Remove: archive file [/home/abi/fetcher/tmp/stringzilla-1.0.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 09:41:26] INFO root fetch - processPackages [stringzilla]: Remove: archive file [/home/abi/fetcher/tmp/stringzilla-1.0.3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 09:41:26] INFO root fetch - processPackages [stringzilla]: Start processing: anyforce
+[2023-07-31 09:41:26] INFO root fetch - main [MainThread]: End processing [stringzilla]: success
+[2023-07-31 09:41:26] INFO root fetch - processPackages [agora-utils]: New version: [1.1.39] Old Version: [1.1.38]
+[2023-07-31 09:41:26] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/f6/7d/fd097f82d49a7ae53fee91f559449aea530fd55245594cb0942e32e7c1a0/agora_redis_client-1.1.38-py2.py3-none-any.whl
+[2023-07-31 09:41:26] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.1.38-py2.py3-none-any.whl.zip]
+[2023-07-31 09:41:26] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.1.39-py2.py3-none-any.whl.zip]
+[2023-07-31 09:41:26] INFO root fetch - main [MainThread]: End processing [agora-logging]: success
+[2023-07-31 09:41:26] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.1.38-py2.py3-none-any.whl.zip]
+[2023-07-31 09:41:26] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.1.39-py2.py3-none-any.whl.zip]
+[2023-07-31 09:41:26] INFO root fetch - main [MainThread]: End processing [agora-busclient]: success
+[2023-07-31 09:41:27] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/6b/ca/a042ae5b569b937e37b6f51ab70f66454af432b595983696166df50536ef/agora_utils-1.1.38-py2.py3-none-any.whl
+[2023-07-31 09:41:27] INFO root fetch - processPackages [schemantic]: Remove: archive file [/home/abi/fetcher/tmp/schemantic-0.1.1.tar.gz]
+[2023-07-31 09:41:27] INFO root fetch - processPackages [schemantic]: Remove: archive file [/home/abi/fetcher/tmp/schemantic-0.3.0.tar.gz]
+[2023-07-31 09:41:27] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-31 09:41:27] INFO root fetch - main [MainThread]: End processing [schemantic]: success
+[2023-07-31 09:41:27] INFO root fetch - processPackages [repository-cli]: Remove: archive file [/home/abi/fetcher/tmp/repository-cli-0.8.1.tar.gz]
+[2023-07-31 09:41:27] INFO root fetch - processPackages [repository-cli]: Remove: archive file [/home/abi/fetcher/tmp/repository-cli-0.9.0.tar.gz]
+[2023-07-31 09:41:27] INFO root fetch - main [MainThread]: End processing [repository-cli]: success
+[2023-07-31 09:41:27] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.6.tar.gz]
+[2023-07-31 09:41:27] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.7.tar.gz]
+[2023-07-31 09:41:27] INFO root fetch - main [MainThread]: End processing [dicergirl]: success
+[2023-07-31 09:41:27] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/ef/d2/d45dc5473268fbd87605e163c8e8a4ac5f22fa0c95cad0e3dc5850d00083/agora_redis_client-1.1.39-py2.py3-none-any.whl
+[2023-07-31 09:41:27] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-07-31 09:41:27] INFO root fetch - processPackages [katalytic-images]: Remove: archive file [/home/abi/fetcher/tmp/katalytic_images-0.9.1.tar.gz]
+[2023-07-31 09:41:27] INFO root fetch - processPackages [katalytic-images]: Remove: archive file [/home/abi/fetcher/tmp/katalytic_images-0.9.4.tar.gz]
+[2023-07-31 09:41:27] INFO root fetch - main [MainThread]: End processing [katalytic-images]: success
+[2023-07-31 09:41:27] INFO root fetch - processPackages [agora-redis-client]: executing diffoscope
+[2023-07-31 09:41:27] INFO root fetch - processPackages [agora-redis-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_redis_client-1.1.38-py2.py3-none-any.whl.zip tmp/agora_redis_client-1.1.39-py2.py3-none-any.whl.zip --markdown 20230731/a/agora-redis-client/1.1.38-1.1.39/diff.md --exclude *.pyd
+[2023-07-31 09:41:27] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/3d/05/9e4960ebb7be779802f2d1be413bb3ac74d21e04e75c88b4ea160c874883/agora_utils-1.1.39-py2.py3-none-any.whl
+[2023-07-31 09:41:27] INFO root fetch - processPackages [agora-utils]: executing diffoscope
+[2023-07-31 09:41:27] INFO root fetch - processPackages [agora-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_utils-1.1.38-py2.py3-none-any.whl.zip tmp/agora_utils-1.1.39-py2.py3-none-any.whl.zip --markdown 20230731/a/agora-utils/1.1.38-1.1.39/diff.md --exclude *.pyd
+[2023-07-31 09:41:27] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE_Bot-0.5.25.tar.gz]
+[2023-07-31 09:41:27] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE_Bot-4.5.0.tar.gz]
+[2023-07-31 09:41:27] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
+[2023-07-31 09:41:27] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-07-31 09:41:28] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.1.38-py2.py3-none-any.whl.zip]
+[2023-07-31 09:41:28] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.1.39-py2.py3-none-any.whl.zip]
+[2023-07-31 09:41:28] INFO root fetch - main [MainThread]: End processing [agora-redis-client]: success
+[2023-07-31 09:41:28] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-07-31 09:41:28] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230731/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 09:41:28] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.1.38-py2.py3-none-any.whl.zip]
+[2023-07-31 09:41:28] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.1.39-py2.py3-none-any.whl.zip]
+[2023-07-31 09:41:28] INFO root fetch - main [MainThread]: End processing [agora-utils]: success
+[2023-07-31 09:41:28] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-07-31 09:41:28] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-07-31 09:41:28] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-07-31 09:41:28] INFO root fetch - main [MainThread]: Store serial: [19104150]
