@@ -10770,3 +10770,159 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 10:09:03] INFO root fetch - processPackages [ej2-streamlit-grids]: Remove: archive file [/home/abi/fetcher/tmp/ej2_streamlit_grids-22.2.5.tar.gz]
 [2023-07-31 10:09:03] INFO root fetch - main [MainThread]: End processing [ej2-streamlit-grids]: success
 [2023-07-31 10:09:03] INFO root fetch - main [MainThread]: Store serial: [19104373]
+[2023-07-31 10:14:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19104373]
+[2023-07-31 10:14:25] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-31 10:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mse-lib-sgx
+[2023-07-31 10:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyforce
+[2023-07-31 10:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swagd
+[2023-07-31 10:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e2eqavn
+[2023-07-31 10:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prismstudio-dev
+[2023-07-31 10:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xw-utils
+[2023-07-31 10:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Geode-Background
+[2023-07-31 10:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: junoplatform
+[2023-07-31 10:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: axabc
+[2023-07-31 10:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: molgenis-emx2-pyclient
+[2023-07-31 10:14:26] INFO root fetch - processPackages [Geode-Background]: New version: [7.3.2rc1] Old Version: [7.3.1rc1]
+[2023-07-31 10:14:26] INFO root fetch - processPackages [e2eqavn]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-07-31 10:14:26] INFO root fetch - processPackages [axabc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 10:14:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.209.4] Old Version: [8.209.3]
+[2023-07-31 10:14:26] INFO root fetch - processPackages [prismstudio-dev]: New version: [1.1.7b0] Old Version: [1.1.7a0]
+[2023-07-31 10:14:26] INFO root fetch - processPackages [junoplatform]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 10:14:26] INFO root fetch - processPackages [mse-lib-sgx]: New version: [2.1.1] Old Version: [2.1]
+[2023-07-31 10:14:26] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-31 10:14:26] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-31 10:14:26] WARNING root fetch - processPackages [swagd]: Skipping, unable to determine old version
+[2023-07-31 10:14:26] INFO root fetch - processPackages [swagd]: Start processing: nucliadb-contributor-assets
+[2023-07-31 10:14:26] INFO root fetch - main [MainThread]: End processing [swagd] error
+[2023-07-31 10:14:26] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post924] Old Version: [1.0.0.post921]
+[2023-07-31 10:14:26] INFO root fetch - processPackages [prismstudio-dev]: Downloading https://files.pythonhosted.org/packages/ae/5e/141004f793ee94644f3d4eb419893f50ed6f3083949cfc426090350c020c/prismstudio-dev-1.1.7a0.tar.gz
+[2023-07-31 10:14:26] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/87/60/8f34652fd105ecc1e8b526cffb90afc0892e5d572ea54b0f1b291a96a01c/Geode_Background-7.3.1rc1-cp39-cp39-win_amd64.whl
+[2023-07-31 10:14:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/9d/e1/3cc828fe0c213badb6d839ca0d221f572362a15da2df8734f0f750adf717/molgenis_emx2_pyclient-8.209.3.tar.gz
+[2023-07-31 10:14:26] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/e0/3e/80e2e47adc0c730416f788f08c874e8e4e64861ff05777820677227fe8d2/junoplatform-0.0.8.tar.gz
+[2023-07-31 10:14:26] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/41/c5/b797e58b17775ec27f68316c932448dfa73c089804cd7a559dea828dcd85/axabc-0.0.8.tar.gz
+[2023-07-31 10:14:26] INFO root fetch - processPackages [e2eqavn]: Downloading https://files.pythonhosted.org/packages/22/fb/00d264b313250ef6e148e3906ee3971936e203d69b937d3b9a05918c17a2/e2eqavn-0.1.7-py2.py3-none-any.whl
+[2023-07-31 10:14:26] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-07-31 10:14:26] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-07-31 10:14:26] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/30/bb/87b2675ae9ca9c5a96a3d45b7d5a964c7b7bbdd9f6b5d8710ea22cd47400/nucliadb_contributor_assets-1.0.0.post921-py3-none-any.whl
+[2023-07-31 10:14:26] INFO root fetch - processPackages [mse-lib-sgx]: Downloading https://files.pythonhosted.org/packages/2e/fd/01ff9eb409ce8f1124a24d5e739803c12b0cd26da59c5c8df10e535cbcf8/mse_lib_sgx-2.1.tar.gz
+[2023-07-31 10:14:26] INFO root fetch - processPackages [prismstudio-dev]: Downloading https://files.pythonhosted.org/packages/27/7d/25ce849dddc431dc2f2691f9ed9131b611b26dd09e467e1d5d5dc977f271/prismstudio-dev-1.1.7b0.tar.gz
+[2023-07-31 10:14:26] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/ae/f3/fc4f81112dc6f9732e5ed85dc9ba9325ab6829e5ce6f1b3204f60b432423/junoplatform-0.0.9.tar.gz
+[2023-07-31 10:14:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/cb/e3/f5988eb5ac8f245f533661e30aa916bc87269a1400e79ce6b494856368d4/molgenis_emx2_pyclient-8.209.4.tar.gz
+[2023-07-31 10:14:27] INFO root fetch - processPackages [e2eqavn]: Downloading https://files.pythonhosted.org/packages/7f/10/18537915a9fe29a8c66d0591a75e4dc776ad27b7f90ce06a2bb738e3318b/e2eqavn-0.1.9-py2.py3-none-any.whl
+[2023-07-31 10:14:27] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/60/61/87ebd4434765200cd248acf948bf78aef84ae73165a7cb8854e4f5a4f66d/axabc-0.0.9.tar.gz
+[2023-07-31 10:14:27] INFO root fetch - processPackages [mse-lib-sgx]: Downloading https://files.pythonhosted.org/packages/ec/7b/af007e53525d5fcd0f28a638c6b7c3266344ba7a4b2015512fd601f4d8eb/mse-lib-sgx-2.1.1.tar.gz
+[2023-07-31 10:14:27] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-07-31 10:14:27] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/87/21/d65b2f24a616de554d3af2b5471eead331f5886e6f9e5abe0421b28cc514/nucliadb_contributor_assets-1.0.0.post924-py3-none-any.whl
+[2023-07-31 10:14:27] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-07-31 10:14:27] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.8.tar.gz tmp/junoplatform-0.0.9.tar.gz --markdown 20230731/j/junoplatform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 10:14:27] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-31 10:14:27] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.209.3.tar.gz tmp/molgenis_emx2_pyclient-8.209.4.tar.gz --markdown 20230731/m/molgenis-emx2-pyclient/8.209.3-8.209.4/diff.md --exclude *.pyd
+[2023-07-31 10:14:27] INFO root fetch - processPackages [prismstudio-dev]: executing diffoscope
+[2023-07-31 10:14:27] INFO root fetch - processPackages [prismstudio-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismstudio-dev-1.1.7a0.tar.gz tmp/prismstudio-dev-1.1.7b0.tar.gz --markdown 20230731/p/prismstudio-dev/1.1.7a0-1.1.7b0/diff.md --exclude *.pyd
+[2023-07-31 10:14:27] INFO root fetch - processPackages [axabc]: executing diffoscope
+[2023-07-31 10:14:27] INFO root fetch - processPackages [axabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axabc-0.0.8.tar.gz tmp/axabc-0.0.9.tar.gz --markdown 20230731/a/axabc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 10:14:27] INFO root fetch - processPackages [mse-lib-sgx]: executing diffoscope
+[2023-07-31 10:14:27] INFO root fetch - processPackages [mse-lib-sgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_lib_sgx-2.1.tar.gz tmp/mse-lib-sgx-2.1.1.tar.gz --markdown 20230731/m/mse-lib-sgx/2.1-2.1.1/diff.md --exclude *.pyd
+[2023-07-31 10:14:27] INFO root fetch - processPackages [e2eqavn]: executing diffoscope
+[2023-07-31 10:14:27] INFO root fetch - processPackages [e2eqavn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eqavn-0.1.7-py2.py3-none-any.whl.zip tmp/e2eqavn-0.1.9-py2.py3-none-any.whl.zip --markdown 20230731/e/e2eqavn/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 10:14:27] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-07-31 10:14:27] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230731/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 10:14:27] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-07-31 10:14:27] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post921-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post924-py3-none-any.whl.zip --markdown 20230731/n/nucliadb-contributor-assets/1.0.0.post921-1.0.0.post924/diff.md --exclude *.pyd
+[2023-07-31 10:14:27] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-07-31 10:14:27] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/8a/be/bfd45d66ca51feb330c8c9698546096f50323ac132b743281b4d0fac394e/Geode_Background-7.3.2rc1-cp39-cp39-win_amd64.whl
+[2023-07-31 10:14:28] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-07-31 10:14:28] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230731/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 10:14:28] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2023-07-31 10:14:28] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.3.1rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.3.2rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230731/G/Geode-Background/7.3.1rc1-7.3.2rc1/diff.md --exclude *.pyd
+[2023-07-31 10:14:28] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.8.tar.gz]
+[2023-07-31 10:14:28] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.9.tar.gz]
+[2023-07-31 10:14:28] INFO root fetch - processPackages [junoplatform]: Start processing: pygenlib
+[2023-07-31 10:14:28] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-07-31 10:14:28] INFO root fetch - processPackages [pygenlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 10:14:28] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.8.tar.gz]
+[2023-07-31 10:14:28] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.9.tar.gz]
+[2023-07-31 10:14:28] INFO root fetch - processPackages [axabc]: Start processing: easyecs
+[2023-07-31 10:14:28] INFO root fetch - main [MainThread]: End processing [axabc]: success
+[2023-07-31 10:14:28] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.209.3.tar.gz]
+[2023-07-31 10:14:28] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.209.4.tar.gz]
+[2023-07-31 10:14:28] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Start processing: anyforce
+[2023-07-31 10:14:28] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-31 10:14:28] WARNING root fetch - processPackages [easyecs]: Skipping, unable to determine old version
+[2023-07-31 10:14:28] INFO root fetch - processPackages [easyecs]: Start processing: iqrfpy
+[2023-07-31 10:14:28] INFO root fetch - main [MainThread]: End processing [easyecs] error
+[2023-07-31 10:14:28] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/48/c3/16ba5066c9e33f7e3b1419a0f4de7fd1da9fad34efb14575222cd4b8b163/pygenlib-0.0.8.tar.gz
+[2023-07-31 10:14:28] INFO root fetch - processPackages [mse-lib-sgx]: Remove: archive file [/home/abi/fetcher/tmp/mse_lib_sgx-2.1.tar.gz]
+[2023-07-31 10:14:28] INFO root fetch - processPackages [mse-lib-sgx]: Remove: archive file [/home/abi/fetcher/tmp/mse-lib-sgx-2.1.1.tar.gz]
+[2023-07-31 10:14:28] INFO root fetch - processPackages [mse-lib-sgx]: Start processing: pygetsource
+[2023-07-31 10:14:28] INFO root fetch - main [MainThread]: End processing [mse-lib-sgx]: success
+[2023-07-31 10:14:28] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 10:14:28] INFO root fetch - processPackages [e2eqavn]: Remove: archive file [/home/abi/fetcher/tmp/e2eqavn-0.1.7-py2.py3-none-any.whl.zip]
+[2023-07-31 10:14:28] INFO root fetch - processPackages [e2eqavn]: Remove: archive file [/home/abi/fetcher/tmp/e2eqavn-0.1.9-py2.py3-none-any.whl.zip]
+[2023-07-31 10:14:28] INFO root fetch - processPackages [e2eqavn]: Start processing: reytool
+[2023-07-31 10:14:28] INFO root fetch - main [MainThread]: End processing [e2eqavn]: success
+[2023-07-31 10:14:28] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-31 10:14:28] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-31 10:14:28] INFO root fetch - processPackages [pygetsource]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-31 10:14:29] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-07-31 10:14:29] INFO root fetch - processPackages [prismstudio-dev]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-dev-1.1.7a0.tar.gz]
+[2023-07-31 10:14:29] INFO root fetch - processPackages [prismstudio-dev]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-dev-1.1.7b0.tar.gz]
+[2023-07-31 10:14:29] INFO root fetch - processPackages [prismstudio-dev]: Start processing: fastapi-sa-manager
+[2023-07-31 10:14:29] INFO root fetch - main [MainThread]: End processing [prismstudio-dev]: success
+[2023-07-31 10:14:29] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-31 10:14:29] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-07-31 10:14:29] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-07-31 10:14:29] INFO root fetch - processPackages [anyforce]: Start processing: TTS
+[2023-07-31 10:14:29] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-07-31 10:14:29] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-07-31 10:14:29] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/48/5a/f2d9f4dbe36e829959d1b778e0ffea3ca4bc27de483ad58a928ff87e7599/pygenlib-0.0.9.tar.gz
+[2023-07-31 10:14:29] WARNING root fetch - processPackages [fastapi-sa-manager]: Skipping, unable to determine old version
+[2023-07-31 10:14:29] INFO root fetch - main [MainThread]: End processing [fastapi-sa-manager] error
+[2023-07-31 10:14:29] INFO root fetch - processPackages [TTS]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-31 10:14:29] INFO root fetch - processPackages [pygetsource]: Downloading https://files.pythonhosted.org/packages/26/ca/69f7828c9a2fe37c6f58b680c0c7d43cd0411a81e9bc6f8b55edd3656568/pygetsource-0.1.1.tar.gz
+[2023-07-31 10:14:29] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-31 10:14:29] INFO root fetch - processPackages [pygenlib]: executing diffoscope
+[2023-07-31 10:14:29] INFO root fetch - processPackages [pygenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenlib-0.0.8.tar.gz tmp/pygenlib-0.0.9.tar.gz --markdown 20230731/p/pygenlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 10:14:29] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 10:14:29] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 10:14:29] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-07-31 10:14:29] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-07-31 10:14:29] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-07-31 10:14:29] INFO root fetch - processPackages [TTS]: Downloading https://files.pythonhosted.org/packages/67/99/6c20d7d05ba1b790ecf630c966339575f1e1ba1de99180cfb6cd0cdef613/TTS-0.8.0.tar.gz
+[2023-07-31 10:14:29] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-07-31 10:14:29] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230731/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 10:14:29] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-31 10:14:29] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230731/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-31 10:14:29] INFO root fetch - processPackages [pygetsource]: Downloading https://files.pythonhosted.org/packages/7a/68/44f26a1483d373c7a3e2eaf862d643f78b4a8e463711787562e283bf7c34/pygetsource-0.2.0.tar.gz
+[2023-07-31 10:14:29] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-07-31 10:14:29] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230731/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 10:14:29] INFO root fetch - processPackages [pygetsource]: executing diffoscope
+[2023-07-31 10:14:29] INFO root fetch - processPackages [pygetsource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygetsource-0.1.1.tar.gz tmp/pygetsource-0.2.0.tar.gz --markdown 20230731/p/pygetsource/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-31 10:14:30] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.0.8.tar.gz]
+[2023-07-31 10:14:30] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.0.9.tar.gz]
+[2023-07-31 10:14:30] INFO root fetch - main [MainThread]: End processing [pygenlib]: success
+[2023-07-31 10:14:30] INFO root fetch - processPackages [TTS]: Downloading https://files.pythonhosted.org/packages/e6/68/26dd07a1742aa1c80702fe0bf57fbe9379806b1dda277c705a37a46dd744/TTS-0.9.0.tar.gz
+[2023-07-31 10:14:30] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-07-31 10:14:30] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-07-31 10:14:30] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-07-31 10:14:30] INFO root fetch - processPackages [TTS]: executing diffoscope
+[2023-07-31 10:14:30] INFO root fetch - processPackages [TTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TTS-0.8.0.tar.gz tmp/TTS-0.9.0.tar.gz --markdown 20230731/T/TTS/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 10:14:30] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-31 10:14:30] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-31 10:14:30] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-31 10:14:30] INFO root fetch - processPackages [pygetsource]: Remove: archive file [/home/abi/fetcher/tmp/pygetsource-0.1.1.tar.gz]
+[2023-07-31 10:14:30] INFO root fetch - processPackages [pygetsource]: Remove: archive file [/home/abi/fetcher/tmp/pygetsource-0.2.0.tar.gz]
+[2023-07-31 10:14:30] INFO root fetch - main [MainThread]: End processing [pygetsource]: success
+[2023-07-31 10:14:31] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.8.tar.gz]
+[2023-07-31 10:14:31] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
+[2023-07-31 10:14:31] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-07-31 10:14:32] INFO root fetch - processPackages [TTS]: Remove: archive file [/home/abi/fetcher/tmp/TTS-0.8.0.tar.gz]
+[2023-07-31 10:14:32] INFO root fetch - processPackages [TTS]: Remove: archive file [/home/abi/fetcher/tmp/TTS-0.9.0.tar.gz]
+[2023-07-31 10:14:32] INFO root fetch - main [MainThread]: End processing [TTS]: success
+[2023-07-31 10:14:41] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post921-py3-none-any.whl.zip]
+[2023-07-31 10:14:41] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post924-py3-none-any.whl.zip]
+[2023-07-31 10:14:41] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-07-31 10:14:49] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.3.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 10:14:49] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.3.2rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 10:14:49] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2023-07-31 10:14:49] INFO root fetch - main [MainThread]: Store serial: [19104449]
