@@ -6830,3 +6830,49 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 06:17:07] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.9.tar.gz]
 [2023-07-31 06:17:07] INFO root fetch - main [MainThread]: End processing [harpia]: success
 [2023-07-31 06:17:07] INFO root fetch - main [MainThread]: Store serial: [19102542]
+[2023-07-31 06:22:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102542]
+[2023-07-31 06:22:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-31 06:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentiment-analyser-tagit
+[2023-07-31 06:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-gui
+[2023-07-31 06:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentiment-analyser-tagit
+[2023-07-31 06:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gap-stat
+[2023-07-31 06:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m-abac
+[2023-07-31 06:22:15] INFO root fetch - processPackages [sentiment-analyser-tagit]: New version: [0.7] Old Version: [0.6]
+[2023-07-31 06:22:15] INFO root fetch - processPackages [gap-stat]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-31 06:22:15] INFO root fetch - processPackages [sentiment-analyser-tagit]: New version: [0.7] Old Version: [0.6]
+[2023-07-31 06:22:15] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.52.1] Old Version: [0.0.52.0]
+[2023-07-31 06:22:15] INFO root fetch - processPackages [m-abac]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-31 06:22:15] INFO root fetch - processPackages [sentiment-analyser-tagit]: Downloading https://files.pythonhosted.org/packages/d5/12/9138064ab5bdb975f2a21f5bba31ea907535fc60717cd06e6c37ba28f36b/sentiment_analyser_tagit-0.6.tar.gz
+[2023-07-31 06:22:15] INFO root fetch - processPackages [sentiment-analyser-tagit]: Downloading https://files.pythonhosted.org/packages/d5/12/9138064ab5bdb975f2a21f5bba31ea907535fc60717cd06e6c37ba28f36b/sentiment_analyser_tagit-0.6.tar.gz
+[2023-07-31 06:22:15] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/ac/7b/7008ad47e1fdfa5a687e997063f0e499b97e76a3843b0c32ff9dcc99506a/abstract_gui-0.0.52.0.tar.gz
+[2023-07-31 06:22:15] INFO root fetch - processPackages [gap-stat]: Downloading https://files.pythonhosted.org/packages/a5/51/f08bd2edbfd8d16ca0f052357e7013b28e29f55c2a403fd7de2911413431/gap-stat-2.0.2.tar.gz
+[2023-07-31 06:22:15] INFO root fetch - processPackages [m-abac]: Downloading https://files.pythonhosted.org/packages/34/e6/27f8b1bfe9c894a1407164a2791eaa9a9fa5f7431a654cb398217564b945/m-abac-1.0.4.tar.gz
+[2023-07-31 06:22:16] INFO root fetch - processPackages [sentiment-analyser-tagit]: Downloading https://files.pythonhosted.org/packages/c8/27/a393bdd30cd2a5106671f636201aa86b8983333fccf60a4be8fa65df405d/sentiment_analyser_tagit-0.7.tar.gz
+[2023-07-31 06:22:16] INFO root fetch - processPackages [sentiment-analyser-tagit]: Downloading https://files.pythonhosted.org/packages/c8/27/a393bdd30cd2a5106671f636201aa86b8983333fccf60a4be8fa65df405d/sentiment_analyser_tagit-0.7.tar.gz
+[2023-07-31 06:22:16] INFO root fetch - processPackages [gap-stat]: Downloading https://files.pythonhosted.org/packages/02/3e/7c06c76de654fe2ab11030b3d691995c45023c84d6899f47ea5fe08b9503/gap-stat-2.0.3.tar.gz
+[2023-07-31 06:22:16] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/14/94/f72edaf3c5a705a72ec7de9ac1eeb6e0f2aca0bb7c58008a9e2c1ab1f377/abstract_gui-0.0.52.1.tar.gz
+[2023-07-31 06:22:16] INFO root fetch - processPackages [m-abac]: Downloading https://files.pythonhosted.org/packages/87/f7/ceed7ce43e6a73338f2728a9909956c83d030656d60dcd9065604e0d3bfd/m-abac-1.0.5.tar.gz
+[2023-07-31 06:22:16] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 06:22:16] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.52.0.tar.gz tmp/abstract_gui-0.0.52.1.tar.gz --markdown 20230731/a/abstract-gui/0.0.52.0-0.0.52.1/diff.md --exclude *.pyd
+[2023-07-31 06:22:16] INFO root fetch - processPackages [gap-stat]: executing diffoscope
+[2023-07-31 06:22:16] INFO root fetch - processPackages [gap-stat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gap-stat-2.0.2.tar.gz tmp/gap-stat-2.0.3.tar.gz --markdown 20230731/g/gap-stat/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-31 06:22:16] INFO root fetch - processPackages [sentiment-analyser-tagit]: executing diffoscope
+[2023-07-31 06:22:16] INFO root fetch - processPackages [sentiment-analyser-tagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analyser_tagit-0.6.tar.gz tmp/sentiment_analyser_tagit-0.7.tar.gz --markdown 20230731/s/sentiment-analyser-tagit/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-31 06:22:16] INFO root fetch - processPackages [sentiment-analyser-tagit]: executing diffoscope
+[2023-07-31 06:22:16] INFO root fetch - processPackages [sentiment-analyser-tagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analyser_tagit-0.6.tar.gz tmp/sentiment_analyser_tagit-0.7.tar.gz --markdown 20230731/s/sentiment-analyser-tagit/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-31 06:22:16] INFO root fetch - processPackages [m-abac]: executing diffoscope
+[2023-07-31 06:22:16] INFO root fetch - processPackages [m-abac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-1.0.4.tar.gz tmp/m-abac-1.0.5.tar.gz --markdown 20230731/m/m-abac/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-31 06:22:17] INFO root fetch - processPackages [sentiment-analyser-tagit]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analyser_tagit-0.6.tar.gz]
+[2023-07-31 06:22:17] INFO root fetch - processPackages [sentiment-analyser-tagit]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analyser_tagit-0.7.tar.gz]
+[2023-07-31 06:22:17] INFO root fetch - main [MainThread]: End processing [sentiment-analyser-tagit]: success
+[2023-07-31 06:22:17] INFO root fetch - main [MainThread]: End processing [sentiment-analyser-tagit]: success
+[2023-07-31 06:22:17] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.52.0.tar.gz]
+[2023-07-31 06:22:17] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.52.1.tar.gz]
+[2023-07-31 06:22:17] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 06:22:17] INFO root fetch - processPackages [gap-stat]: Remove: archive file [/home/abi/fetcher/tmp/gap-stat-2.0.2.tar.gz]
+[2023-07-31 06:22:17] INFO root fetch - processPackages [gap-stat]: Remove: archive file [/home/abi/fetcher/tmp/gap-stat-2.0.3.tar.gz]
+[2023-07-31 06:22:17] INFO root fetch - main [MainThread]: End processing [gap-stat]: success
+[2023-07-31 06:22:17] INFO root fetch - processPackages [m-abac]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-1.0.4.tar.gz]
+[2023-07-31 06:22:17] INFO root fetch - processPackages [m-abac]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-1.0.5.tar.gz]
+[2023-07-31 06:22:17] INFO root fetch - main [MainThread]: End processing [m-abac]: success
+[2023-07-31 06:22:17] INFO root fetch - main [MainThread]: Store serial: [19102557]
