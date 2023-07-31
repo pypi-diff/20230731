@@ -17718,3 +17718,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 14:01:30] INFO root fetch - processPackages [pandapipes]: Remove: archive file [/home/abi/fetcher/tmp/pandapipes-0.8.5.zip]
 [2023-07-31 14:01:30] INFO root fetch - main [MainThread]: End processing [pandapipes]: success
 [2023-07-31 14:01:30] INFO root fetch - main [MainThread]: Store serial: [19107044]
+[2023-07-31 14:06:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19107044]
+[2023-07-31 14:06:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-31 14:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: empack
+[2023-07-31 14:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boxmot
+[2023-07-31 14:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drb-topics
+[2023-07-31 14:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-log-reader
+[2023-07-31 14:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly-cpu-aws
+[2023-07-31 14:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nipraxis
+[2023-07-31 14:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-07-31 14:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpforecaster
+[2023-07-31 14:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: auto_rxn
+[2023-07-31 14:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oneat
+[2023-07-31 14:06:39] INFO root fetch - processPackages [empack]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-07-31 14:06:39] INFO root fetch - processPackages [nipraxis]: New version: [0.4] Old Version: [0.3.6]
+[2023-07-31 14:06:39] INFO root fetch - processPackages [boxmot]: New version: [10.0.9] Old Version: [10.0.8]
+[2023-07-31 14:06:39] INFO root fetch - processPackages [django-log-reader]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-31 14:06:39] INFO root fetch - processPackages [auto_rxn]: New version: [2023.7.0] Old Version: [2023.6.1]
+[2023-07-31 14:06:39] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.14.0.dev20230730] Old Version: [2.14.0.dev20230729]
+[2023-07-31 14:06:39] WARNING root fetch - processPackages [drb-topics]: Skipping, unable to determine old version
+[2023-07-31 14:06:39] INFO root fetch - main [MainThread]: End processing [drb-topics] error
+[2023-07-31 14:06:39] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.99] Old Version: [0.3.98]
+[2023-07-31 14:06:39] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 14:06:39] INFO root fetch - processPackages [oneat]: New version: [6.3.4] Old Version: [6.3.3]
+[2023-07-31 14:06:39] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/4a/42/355de3aefbe8ba6299d47574d77c7c0f57922f87f5556f328198f9685742/tf_nightly_cpu_aws-2.14.0.dev20230729-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-07-31 14:06:39] INFO root fetch - processPackages [django-log-reader]: Downloading https://files.pythonhosted.org/packages/03/d5/70527adace1ed1358365fae5a292c0210979735743d8318412814429fca9/django-log-reader-1.1.7.tar.gz
+[2023-07-31 14:06:39] INFO root fetch - processPackages [boxmot]: Downloading https://files.pythonhosted.org/packages/dc/ac/76303db770d03a3713ab4d08bd38dac0c0208b589d081f3e6a9818f39c59/boxmot-10.0.8.tar.gz
+[2023-07-31 14:06:39] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 262725662>=10485760
+[2023-07-31 14:06:39] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-07-31 14:06:39] INFO root fetch - processPackages [empack]: Downloading https://files.pythonhosted.org/packages/50/13/899d81332969bc7c87a5bb5579bf6741a962e244c777cb46fa04372d1648/empack-3.1.0.tar.gz
+[2023-07-31 14:06:39] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/f3/0d/a7a33e74dd3bb2128017096c63953c670161ef263744092cda752342f4d9/oneat-6.3.3.tar.gz
+[2023-07-31 14:06:39] INFO root fetch - processPackages [nipraxis]: Downloading https://files.pythonhosted.org/packages/45/1f/8dcb29e80462acc2c6747fc0824f9fe5b174467db662fe66502238c732b1/nipraxis-0.3.6.tar.gz
+[2023-07-31 14:06:39] INFO root fetch - processPackages [auto_rxn]: Downloading https://files.pythonhosted.org/packages/b5/58/709069e49ac4ef61f9190fc3dde3c0fc82b79e2eec4d24f69115e4395a99/auto_rxn-2023.6.1.tar.gz
+[2023-07-31 14:06:39] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/f9/50/6523c659861818aaf52b42a9c19099c28e8894d37e89b2e6ee08016173a1/gpforecaster-0.3.98.tar.gz
+[2023-07-31 14:06:39] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-07-31 14:06:39] INFO root fetch - processPackages [boxmot]: Downloading https://files.pythonhosted.org/packages/8a/f5/03723049ad0e1bb7544e74ca77c734bc6cd4f4244b98def429efd2b73d9e/boxmot-10.0.9.tar.gz
+[2023-07-31 14:06:40] INFO root fetch - processPackages [django-log-reader]: Downloading https://files.pythonhosted.org/packages/3b/4a/086fd53df2d9f6d3d6fa9b9818bc970e5ca218715390d8d6986ab6910cb4/django-log-reader-1.1.8.tar.gz
+[2023-07-31 14:06:40] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/55/4a/abb8d729cce08753e894bde77a798a8d511f146cc78964011fdcf2c4c76c/gpforecaster-0.3.99.tar.gz
+[2023-07-31 14:06:40] INFO root fetch - processPackages [empack]: Downloading https://files.pythonhosted.org/packages/ed/4b/92ae1527186580c687a91b862dd0d1ccc2459744edc10ea41b7f789974a2/empack-3.1.1.tar.gz
+[2023-07-31 14:06:40] INFO root fetch - processPackages [nipraxis]: Downloading https://files.pythonhosted.org/packages/bf/ca/cafcc77781335cbf3f379c711a945294fb04c8d0d6763acb7c35fa5cac9b/nipraxis-0.4.tar.gz
+[2023-07-31 14:06:40] INFO root fetch - processPackages [auto_rxn]: Downloading https://files.pythonhosted.org/packages/19/fc/132199335f9133a23e6dea8cf2d4937f166530cdf48b8624db64386d0665/auto_rxn-2023.7.0.tar.gz
+[2023-07-31 14:06:40] INFO root fetch - processPackages [boxmot]: executing diffoscope
+[2023-07-31 14:06:40] INFO root fetch - processPackages [boxmot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxmot-10.0.8.tar.gz tmp/boxmot-10.0.9.tar.gz --markdown 20230731/b/boxmot/10.0.8-10.0.9/diff.md --exclude *.pyd
+[2023-07-31 14:06:40] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-07-31 14:06:40] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.98.tar.gz tmp/gpforecaster-0.3.99.tar.gz --markdown 20230731/g/gpforecaster/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2023-07-31 14:06:40] INFO root fetch - processPackages [empack]: executing diffoscope
+[2023-07-31 14:06:40] INFO root fetch - processPackages [empack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empack-3.1.0.tar.gz tmp/empack-3.1.1.tar.gz --markdown 20230731/e/empack/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-07-31 14:06:40] INFO root fetch - processPackages [django-log-reader]: executing diffoscope
+[2023-07-31 14:06:40] INFO root fetch - processPackages [django-log-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-log-reader-1.1.7.tar.gz tmp/django-log-reader-1.1.8.tar.gz --markdown 20230731/d/django-log-reader/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-31 14:06:40] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/77/0d/3108b10c7a572abe77caecc0909b875d2e01847647a39e5cc5aafb76c881/oneat-6.3.4.tar.gz
+[2023-07-31 14:06:40] INFO root fetch - processPackages [nipraxis]: executing diffoscope
+[2023-07-31 14:06:40] INFO root fetch - processPackages [nipraxis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nipraxis-0.3.6.tar.gz tmp/nipraxis-0.4.tar.gz --markdown 20230731/n/nipraxis/0.3.6-0.4/diff.md --exclude *.pyd
+[2023-07-31 14:06:40] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-07-31 14:06:40] INFO root fetch - processPackages [auto_rxn]: executing diffoscope
+[2023-07-31 14:06:40] INFO root fetch - processPackages [auto_rxn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_rxn-2023.6.1.tar.gz tmp/auto_rxn-2023.7.0.tar.gz --markdown 20230731/a/auto_rxn/2023.6.1-2023.7.0/diff.md --exclude *.pyd
+[2023-07-31 14:06:40] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-07-31 14:06:40] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230731/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 14:06:40] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-31 14:06:40] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-6.3.3.tar.gz tmp/oneat-6.3.4.tar.gz --markdown 20230731/o/oneat/6.3.3-6.3.4/diff.md --exclude *.pyd
+[2023-07-31 14:06:41] INFO root fetch - processPackages [nipraxis]: Remove: archive file [/home/abi/fetcher/tmp/nipraxis-0.3.6.tar.gz]
+[2023-07-31 14:06:41] INFO root fetch - processPackages [nipraxis]: Remove: archive file [/home/abi/fetcher/tmp/nipraxis-0.4.tar.gz]
+[2023-07-31 14:06:41] INFO root fetch - main [MainThread]: End processing [nipraxis]: success
+[2023-07-31 14:06:41] INFO root fetch - processPackages [auto_rxn]: Remove: archive file [/home/abi/fetcher/tmp/auto_rxn-2023.6.1.tar.gz]
+[2023-07-31 14:06:41] INFO root fetch - processPackages [auto_rxn]: Remove: archive file [/home/abi/fetcher/tmp/auto_rxn-2023.7.0.tar.gz]
+[2023-07-31 14:06:41] INFO root fetch - main [MainThread]: End processing [auto_rxn]: success
+[2023-07-31 14:06:41] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.98.tar.gz]
+[2023-07-31 14:06:41] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.99.tar.gz]
+[2023-07-31 14:06:41] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-07-31 14:06:41] INFO root fetch - processPackages [django-log-reader]: Remove: archive file [/home/abi/fetcher/tmp/django-log-reader-1.1.7.tar.gz]
+[2023-07-31 14:06:41] INFO root fetch - processPackages [django-log-reader]: Remove: archive file [/home/abi/fetcher/tmp/django-log-reader-1.1.8.tar.gz]
+[2023-07-31 14:06:41] INFO root fetch - main [MainThread]: End processing [django-log-reader]: success
+[2023-07-31 14:06:41] INFO root fetch - processPackages [empack]: Remove: archive file [/home/abi/fetcher/tmp/empack-3.1.0.tar.gz]
+[2023-07-31 14:06:41] INFO root fetch - processPackages [empack]: Remove: archive file [/home/abi/fetcher/tmp/empack-3.1.1.tar.gz]
+[2023-07-31 14:06:41] INFO root fetch - main [MainThread]: End processing [empack]: success
+[2023-07-31 14:06:41] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-07-31 14:06:41] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-07-31 14:06:41] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-07-31 14:06:41] INFO root fetch - processPackages [boxmot]: Remove: archive file [/home/abi/fetcher/tmp/boxmot-10.0.8.tar.gz]
+[2023-07-31 14:06:41] INFO root fetch - processPackages [boxmot]: Remove: archive file [/home/abi/fetcher/tmp/boxmot-10.0.9.tar.gz]
+[2023-07-31 14:06:41] INFO root fetch - main [MainThread]: End processing [boxmot]: success
+[2023-07-31 14:06:42] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.3.3.tar.gz]
+[2023-07-31 14:06:42] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.3.4.tar.gz]
+[2023-07-31 14:06:42] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-31 14:06:42] INFO root fetch - main [MainThread]: Store serial: [19107084]
