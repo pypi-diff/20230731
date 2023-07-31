@@ -6378,3 +6378,54 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 05:40:41] INFO root fetch - processPackages [dronecan]: Remove: archive file [/home/abi/fetcher/tmp/dronecan-1.0.9.tar.gz]
 [2023-07-31 05:40:41] INFO root fetch - main [MainThread]: End processing [dronecan]: success
 [2023-07-31 05:40:41] INFO root fetch - main [MainThread]: Store serial: [19102315]
+[2023-07-31 05:45:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102315]
+[2023-07-31 05:45:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-31 05:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codebot
+[2023-07-31 05:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver-folders-aws-s3
+[2023-07-31 05:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dronecan-gui-tool
+[2023-07-31 05:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reflex
+[2023-07-31 05:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: actions-security-analyzer
+[2023-07-31 05:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: glm-met
+[2023-07-31 05:45:49] INFO root fetch - processPackages [reflex]: New version: [0.2.3a9] Old Version: [0.2.3a8]
+[2023-07-31 05:45:49] INFO root fetch - processPackages [dronecan-gui-tool]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-31 05:45:49] WARNING root fetch - processPackages [glm-met]: Skipping, unable to determine old version
+[2023-07-31 05:45:49] INFO root fetch - main [MainThread]: End processing [glm-met] error
+[2023-07-31 05:45:49] INFO root fetch - processPackages [actions-security-analyzer]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-31 05:45:49] INFO root fetch - processPackages [codebot]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-31 05:45:49] INFO root fetch - processPackages [heaserver-folders-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-31 05:45:50] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/64/f9/eed291371f1f83962e2389114a664daa828ebe3cc2c7437b14d5067dd34e/reflex-0.2.3a8.tar.gz
+[2023-07-31 05:45:50] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f8/10/3a86463ed5a3cada680e1678f42cfdf2a07f27f8cdb90c8d0c3f57f9ab82/heaserver-folders-aws-s3-1.0.0a8.tar.gz
+[2023-07-31 05:45:50] INFO root fetch - processPackages [actions-security-analyzer]: Downloading https://files.pythonhosted.org/packages/3a/58/47be4fb032ae8fbb3a7a7a276c1f6531af594e57b2406e360140ce7274fa/actions_security_analyzer-1.2.3.tar.gz
+[2023-07-31 05:45:50] INFO root fetch - processPackages [codebot]: Downloading https://files.pythonhosted.org/packages/f3/db/acbb9e8659eb2a7ce09fd7114a1db6fcdb493a967ab28646862204f67b59/codebot-0.0.4.tar.gz
+[2023-07-31 05:45:50] INFO root fetch - processPackages [dronecan-gui-tool]: Downloading https://files.pythonhosted.org/packages/39/bd/be845733ee143d721d902392777220c11c4d776f137eaa6bbe9f99f51d1d/dronecan_gui_tool-1.2.7.tar.gz
+[2023-07-31 05:45:50] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f0/b0/dda81eace819afe1df5d783a040e576f769b7f6834886d20e39ca1737454/heaserver-folders-aws-s3-1.0.0a9.tar.gz
+[2023-07-31 05:45:50] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/38/d2/0b6288ac028b0fbbc547f8eceab27fd5e8e6f31b8922c92a739099af840c/reflex-0.2.3a9.tar.gz
+[2023-07-31 05:45:50] INFO root fetch - processPackages [heaserver-folders-aws-s3]: executing diffoscope
+[2023-07-31 05:45:50] INFO root fetch - processPackages [heaserver-folders-aws-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz --markdown 20230731/h/heaserver-folders-aws-s3/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-31 05:45:50] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2023-07-31 05:45:50] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.2.3a8.tar.gz tmp/reflex-0.2.3a9.tar.gz --markdown 20230731/r/reflex/0.2.3a8-0.2.3a9/diff.md --exclude *.pyd
+[2023-07-31 05:45:50] INFO root fetch - processPackages [codebot]: Downloading https://files.pythonhosted.org/packages/9f/4b/8cb11dd9babaa63c79d266d47c2871abcfd421b525d25586a67b5680cdf7/codebot-0.0.5.tar.gz
+[2023-07-31 05:45:50] INFO root fetch - processPackages [dronecan-gui-tool]: Downloading https://files.pythonhosted.org/packages/76/95/575838ff4802232d228ab222765c6d97e957610b9b451616d619d2b461d3/dronecan_gui_tool-1.2.8.tar.gz
+[2023-07-31 05:45:50] INFO root fetch - processPackages [actions-security-analyzer]: Downloading https://files.pythonhosted.org/packages/d2/33/471497959a995142764295cbf5d53d1dd38a21c313b7a84eb810013a75e5/actions_security_analyzer-1.2.4.tar.gz
+[2023-07-31 05:45:50] INFO root fetch - processPackages [dronecan-gui-tool]: executing diffoscope
+[2023-07-31 05:45:50] INFO root fetch - processPackages [dronecan-gui-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronecan_gui_tool-1.2.7.tar.gz tmp/dronecan_gui_tool-1.2.8.tar.gz --markdown 20230731/d/dronecan-gui-tool/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-31 05:45:50] INFO root fetch - processPackages [codebot]: executing diffoscope
+[2023-07-31 05:45:50] INFO root fetch - processPackages [codebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codebot-0.0.4.tar.gz tmp/codebot-0.0.5.tar.gz --markdown 20230731/c/codebot/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-31 05:45:50] INFO root fetch - processPackages [actions-security-analyzer]: executing diffoscope
+[2023-07-31 05:45:50] INFO root fetch - processPackages [actions-security-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actions_security_analyzer-1.2.3.tar.gz tmp/actions_security_analyzer-1.2.4.tar.gz --markdown 20230731/a/actions-security-analyzer/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-31 05:45:51] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz]
+[2023-07-31 05:45:51] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz]
+[2023-07-31 05:45:51] INFO root fetch - main [MainThread]: End processing [heaserver-folders-aws-s3]: success
+[2023-07-31 05:45:51] INFO root fetch - processPackages [dronecan-gui-tool]: Remove: archive file [/home/abi/fetcher/tmp/dronecan_gui_tool-1.2.7.tar.gz]
+[2023-07-31 05:45:51] INFO root fetch - processPackages [dronecan-gui-tool]: Remove: archive file [/home/abi/fetcher/tmp/dronecan_gui_tool-1.2.8.tar.gz]
+[2023-07-31 05:45:51] INFO root fetch - main [MainThread]: End processing [dronecan-gui-tool]: success
+[2023-07-31 05:45:51] INFO root fetch - processPackages [codebot]: Remove: archive file [/home/abi/fetcher/tmp/codebot-0.0.4.tar.gz]
+[2023-07-31 05:45:51] INFO root fetch - processPackages [codebot]: Remove: archive file [/home/abi/fetcher/tmp/codebot-0.0.5.tar.gz]
+[2023-07-31 05:45:51] INFO root fetch - main [MainThread]: End processing [codebot]: success
+[2023-07-31 05:45:51] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.3a8.tar.gz]
+[2023-07-31 05:45:51] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.3a9.tar.gz]
+[2023-07-31 05:45:51] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2023-07-31 05:45:52] INFO root fetch - processPackages [actions-security-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/actions_security_analyzer-1.2.3.tar.gz]
+[2023-07-31 05:45:52] INFO root fetch - processPackages [actions-security-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/actions_security_analyzer-1.2.4.tar.gz]
+[2023-07-31 05:45:52] INFO root fetch - main [MainThread]: End processing [actions-security-analyzer]: success
+[2023-07-31 05:45:52] INFO root fetch - main [MainThread]: Store serial: [19102337]
