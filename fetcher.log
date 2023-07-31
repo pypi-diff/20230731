@@ -6315,3 +6315,66 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 05:35:30] INFO root fetch - processPackages [idev-pycolor]: Remove: archive file [/home/abi/fetcher/tmp/idev-pycolor-1.0.2.tar.gz]
 [2023-07-31 05:35:30] INFO root fetch - main [MainThread]: End processing [idev-pycolor]: success
 [2023-07-31 05:35:30] INFO root fetch - main [MainThread]: Store serial: [19102284]
+[2023-07-31 05:40:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102284]
+[2023-07-31 05:40:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-31 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weekfivepackage
+[2023-07-31 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py3simplesoap
+[2023-07-31 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sql-constructor
+[2023-07-31 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tairhaystack
+[2023-07-31 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codebot
+[2023-07-31 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tincheck
+[2023-07-31 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dronecan
+[2023-07-31 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: harpia
+[2023-07-31 05:40:38] WARNING root fetch - processPackages [weekfivepackage]: Skipping, unable to determine old version
+[2023-07-31 05:40:38] INFO root fetch - main [MainThread]: End processing [weekfivepackage] error
+[2023-07-31 05:40:38] INFO root fetch - processPackages [tincheck]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-31 05:40:38] INFO root fetch - processPackages [dronecan]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-31 05:40:38] INFO root fetch - processPackages [tairhaystack]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 05:40:38] INFO root fetch - processPackages [py3simplesoap]: New version: [0.2] Old Version: [0.10.18]
+[2023-07-31 05:40:38] INFO root fetch - processPackages [harpia]: New version: [1.9] Old Version: [1.8]
+[2023-07-31 05:40:38] INFO root fetch - processPackages [sql-constructor]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-31 05:40:38] WARNING root fetch - processPackages [codebot]: Skipping, unable to determine old version
+[2023-07-31 05:40:38] INFO root fetch - main [MainThread]: End processing [codebot] error
+[2023-07-31 05:40:38] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/b9/bd/bec9e26fa006f85aa36e080f34c2d15540cbccd6695261e0c4b5c8cffae3/harpia-1.8.tar.gz
+[2023-07-31 05:40:39] INFO root fetch - processPackages [tincheck]: Downloading https://files.pythonhosted.org/packages/af/b8/fbf8495429d12e471ec40b881373c78e8b8b380e6f6366b10602a11e6b77/tincheck-0.2.0.tar.gz
+[2023-07-31 05:40:39] INFO root fetch - processPackages [dronecan]: Downloading https://files.pythonhosted.org/packages/92/85/be287416afa29b1a92951d2cd0fd23debf48e587800c1d5e55477fe19917/dronecan-1.0.8.tar.gz
+[2023-07-31 05:40:39] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/cd/5b/2656e2e18fb7fb5059b0cfb98d4d52feab159c549dd27c4ddb0271885dc6/sql_constructor-1.0.8.tar.gz
+[2023-07-31 05:40:39] INFO root fetch - processPackages [py3simplesoap]: Downloading https://files.pythonhosted.org/packages/56/b2/7bc4246808ff152659b347abdd7cfecfe5e4600b968f370bba7506631e16/py3simplesoap-0.10.18.tar.gz
+[2023-07-31 05:40:39] INFO root fetch - processPackages [tairhaystack]: Downloading https://files.pythonhosted.org/packages/eb/34/de04379eae75635dc16cce6db8fcc61600a7009442a93f53eb13c67bd9ae/tairhaystack-0.0.1.tar.gz
+[2023-07-31 05:40:39] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/59/83/3af90baf6ec6ec35174c71bb4f97c42e375b50ef5ee50f81fbb4f0a70952/harpia-1.9.tar.gz
+[2023-07-31 05:40:39] INFO root fetch - processPackages [tincheck]: Downloading https://files.pythonhosted.org/packages/51/5b/2128b885adaa6ba480ab9216d05a4278fa1b470ebc9cb95fe60af004142b/tincheck-0.3.0.tar.gz
+[2023-07-31 05:40:39] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/f7/79/bfeea056a49359e2c9d0f8be14168f7842a6c3f5c963e7e246e1809403b4/sql_constructor-1.0.9.tar.gz
+[2023-07-31 05:40:39] INFO root fetch - processPackages [dronecan]: Downloading https://files.pythonhosted.org/packages/96/09/6b038bd9e4dcad3f704ba680abb36e853e9de53060d94d50e6ab7aef9f59/dronecan-1.0.9.tar.gz
+[2023-07-31 05:40:39] INFO root fetch - processPackages [py3simplesoap]: Downloading https://files.pythonhosted.org/packages/31/6c/4b393dc37023f43ccdb3af8fd585e354c740f2433bdee4d7504b14003e4b/py3simplesoap-0.2.tar.gz
+[2023-07-31 05:40:39] INFO root fetch - processPackages [tairhaystack]: Downloading https://files.pythonhosted.org/packages/ac/d2/0354ddad2b40aa934d00418e95c2acec4d8efa9371cd7d3a840634a5f146/tairhaystack-0.0.2.tar.gz
+[2023-07-31 05:40:39] INFO root fetch - processPackages [harpia]: executing diffoscope
+[2023-07-31 05:40:39] INFO root fetch - processPackages [harpia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harpia-1.8.tar.gz tmp/harpia-1.9.tar.gz --markdown 20230731/h/harpia/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-31 05:40:39] INFO root fetch - processPackages [tincheck]: executing diffoscope
+[2023-07-31 05:40:39] INFO root fetch - processPackages [sql-constructor]: executing diffoscope
+[2023-07-31 05:40:39] INFO root fetch - processPackages [tincheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tincheck-0.2.0.tar.gz tmp/tincheck-0.3.0.tar.gz --markdown 20230731/t/tincheck/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-31 05:40:39] INFO root fetch - processPackages [sql-constructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_constructor-1.0.8.tar.gz tmp/sql_constructor-1.0.9.tar.gz --markdown 20230731/s/sql-constructor/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 05:40:39] INFO root fetch - processPackages [dronecan]: executing diffoscope
+[2023-07-31 05:40:39] INFO root fetch - processPackages [dronecan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronecan-1.0.8.tar.gz tmp/dronecan-1.0.9.tar.gz --markdown 20230731/d/dronecan/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 05:40:39] INFO root fetch - processPackages [py3simplesoap]: executing diffoscope
+[2023-07-31 05:40:39] INFO root fetch - processPackages [py3simplesoap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3simplesoap-0.10.18.tar.gz tmp/py3simplesoap-0.2.tar.gz --markdown 20230731/p/py3simplesoap/0.10.18-0.2/diff.md --exclude *.pyd
+[2023-07-31 05:40:39] INFO root fetch - processPackages [tairhaystack]: executing diffoscope
+[2023-07-31 05:40:39] INFO root fetch - processPackages [tairhaystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tairhaystack-0.0.1.tar.gz tmp/tairhaystack-0.0.2.tar.gz --markdown 20230731/t/tairhaystack/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 05:40:40] INFO root fetch - processPackages [tairhaystack]: Remove: archive file [/home/abi/fetcher/tmp/tairhaystack-0.0.1.tar.gz]
+[2023-07-31 05:40:40] INFO root fetch - processPackages [tairhaystack]: Remove: archive file [/home/abi/fetcher/tmp/tairhaystack-0.0.2.tar.gz]
+[2023-07-31 05:40:40] INFO root fetch - main [MainThread]: End processing [tairhaystack]: success
+[2023-07-31 05:40:40] INFO root fetch - processPackages [tincheck]: Remove: archive file [/home/abi/fetcher/tmp/tincheck-0.2.0.tar.gz]
+[2023-07-31 05:40:40] INFO root fetch - processPackages [tincheck]: Remove: archive file [/home/abi/fetcher/tmp/tincheck-0.3.0.tar.gz]
+[2023-07-31 05:40:40] INFO root fetch - main [MainThread]: End processing [tincheck]: success
+[2023-07-31 05:40:40] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.8.tar.gz]
+[2023-07-31 05:40:40] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.9.tar.gz]
+[2023-07-31 05:40:40] INFO root fetch - main [MainThread]: End processing [sql-constructor]: success
+[2023-07-31 05:40:40] INFO root fetch - processPackages [py3simplesoap]: Remove: archive file [/home/abi/fetcher/tmp/py3simplesoap-0.10.18.tar.gz]
+[2023-07-31 05:40:40] INFO root fetch - processPackages [py3simplesoap]: Remove: archive file [/home/abi/fetcher/tmp/py3simplesoap-0.2.tar.gz]
+[2023-07-31 05:40:40] INFO root fetch - main [MainThread]: End processing [py3simplesoap]: success
+[2023-07-31 05:40:41] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.8.tar.gz]
+[2023-07-31 05:40:41] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.9.tar.gz]
+[2023-07-31 05:40:41] INFO root fetch - main [MainThread]: End processing [harpia]: success
+[2023-07-31 05:40:41] INFO root fetch - processPackages [dronecan]: Remove: archive file [/home/abi/fetcher/tmp/dronecan-1.0.8.tar.gz]
+[2023-07-31 05:40:41] INFO root fetch - processPackages [dronecan]: Remove: archive file [/home/abi/fetcher/tmp/dronecan-1.0.9.tar.gz]
+[2023-07-31 05:40:41] INFO root fetch - main [MainThread]: End processing [dronecan]: success
+[2023-07-31 05:40:41] INFO root fetch - main [MainThread]: Store serial: [19102315]
