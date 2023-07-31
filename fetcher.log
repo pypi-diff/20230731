@@ -18519,3 +18519,175 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 14:38:27] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.23.tar.gz]
 [2023-07-31 14:38:27] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
 [2023-07-31 14:38:27] INFO root fetch - main [MainThread]: Store serial: [19107357]
+[2023-07-31 14:43:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19107357]
+[2023-07-31 14:43:36] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-31 14:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catalystai
+[2023-07-31 14:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-confluentcloud
+[2023-07-31 14:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: config-server-client
+[2023-07-31 14:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keboola.json-to-csv
+[2023-07-31 14:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyesmda
+[2023-07-31 14:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ul-py-tool
+[2023-07-31 14:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: frigobar
+[2023-07-31 14:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wandb-core-alpha
+[2023-07-31 14:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pykebab
+[2023-07-31 14:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scorepyo
+[2023-07-31 14:43:36] INFO root fetch - processPackages [wandb-core-alpha]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-07-31 14:43:36] INFO root fetch - processPackages [pyesmda]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-31 14:43:36] INFO root fetch - processPackages [frigobar]: New version: [2] Old Version: [1]
+[2023-07-31 14:43:36] INFO root fetch - processPackages [keboola.json-to-csv]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-31 14:43:36] INFO root fetch - processPackages [pykebab]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-31 14:43:36] INFO root fetch - processPackages [catalystai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 14:43:36] INFO root fetch - processPackages [ul-py-tool]: New version: [1.15.25] Old Version: [1.15.24]
+[2023-07-31 14:43:36] INFO root fetch - processPackages [scorepyo]: New version: [0.2.3] Old Version: [0.2.2.dev2]
+[2023-07-31 14:43:36] INFO root fetch - processPackages [config-server-client]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-31 14:43:36] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-07-31 14:43:37] ERROR root fetch - processPackages [catalystai]: Unable to fetch info: No such project/version 'catalystai' 0.0.1
+[2023-07-31 14:43:37] INFO root fetch - processPackages [catalystai]: Start processing: lusid-scheduler-sdk-preview
+[2023-07-31 14:43:37] INFO root fetch - main [MainThread]: End processing [catalystai] error
+[2023-07-31 14:43:37] INFO root fetch - processPackages [keboola.json-to-csv]: Downloading https://files.pythonhosted.org/packages/81/8f/04725c9fce2cceffcc15a6099ff5d3b4d40e1bcfb9d3e6cb7aa85e08b16d/keboola.json-to-csv-0.0.7.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [config-server-client]: Downloading https://files.pythonhosted.org/packages/ef/8d/d60babe486ca8dae2dd34a4be7ab0412a2cee8e033f23747cdbba12e96d6/config_server_client-0.0.4.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [wandb-core-alpha]: Downloading https://files.pythonhosted.org/packages/17/13/7f1eb2d83960a5102b9a9277dea2b309253b89944383c0efbe289b908c10/wandb-core-alpha-0.0.1a1.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/bd/bd/b23d96ffb5b833633b915eb0949f248b690fee4865ac949356eb7e86a54c/pykebab-0.8.2.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [frigobar]: Downloading https://files.pythonhosted.org/packages/ee/1f/f03ee6e48499c55a3476078581672ced810a9745db767c68c26b2930a478/frigobar-1.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: New version: [0.0.815] Old Version: [0.0.814]
+[2023-07-31 14:43:37] INFO root fetch - processPackages [pyesmda]: Downloading https://files.pythonhosted.org/packages/a9/71/2fe1d730056bd3ecb6c0a487e24c5361255bbb057387eced4e55283f6094/pyesmda-0.4.0.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [scorepyo]: Downloading https://files.pythonhosted.org/packages/b3/b0/7fb6f97f688bdcb5bbe1e55c5c5d80ae9fdac538f9e6c6b7b2a6ce9faf34/scorepyo-0.2.2.dev2.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/31/98/e0f07f75a415d9dcd05f7bfee78826163b2a5b8dccdb3f6646c7ab42d480/ul-py-tool-1.15.24.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/26/2c/1aecf04452a9fc9ccdedc0c440fbfee717cb555e80e0d4604e39dd573608/lusid-scheduler-sdk-preview-0.0.814.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [keboola.json-to-csv]: Downloading https://files.pythonhosted.org/packages/34/15/cce80bee2ef80b9a4e7873a8a08f06c95fe1a671b13b7fcd3ff753e5a064/keboola.json-to-csv-0.0.8.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [wandb-core-alpha]: Downloading https://files.pythonhosted.org/packages/10/2f/a0d197655a714919c02ca98541ba7368710ce4b7c34c9046cfe6d9f2bd2f/wandb-core-alpha-0.0.1a2.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [frigobar]: Downloading https://files.pythonhosted.org/packages/fd/d9/652806428bf682a3c8634f447c691d0dd5d16c0428cc20e628fe498388e5/frigobar-2.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [config-server-client]: Downloading https://files.pythonhosted.org/packages/f8/12/c8782e2948b729fcbf4be6f45554c8bae58c2c7af9a9a329b8ce2000f244/config_server_client-0.0.5.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [keboola.json-to-csv]: executing diffoscope
+[2023-07-31 14:43:37] INFO root fetch - processPackages [keboola.json-to-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keboola.json-to-csv-0.0.7.tar.gz tmp/keboola.json-to-csv-0.0.8.tar.gz --markdown 20230731/k/keboola.json-to-csv/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-31 14:43:37] INFO root fetch - processPackages [pyesmda]: Downloading https://files.pythonhosted.org/packages/cf/33/674e51d471cfb887b335b4b34a183b91f07c607c646c8413d63fa6fa0fc7/pyesmda-0.4.1.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/8e/2b/9d915060b8fdbbd2c8d16aa314b0119879f8567c365ff0069ab18f9650b6/pykebab-0.8.3.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-07-31 14:43:37] INFO root fetch - processPackages [wandb-core-alpha]: executing diffoscope
+[2023-07-31 14:43:37] INFO root fetch - processPackages [wandb-core-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wandb-core-alpha-0.0.1a1.tar.gz tmp/wandb-core-alpha-0.0.1a2.tar.gz --markdown 20230731/w/wandb-core-alpha/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-07-31 14:43:37] INFO root fetch - processPackages [frigobar]: executing diffoscope
+[2023-07-31 14:43:37] INFO root fetch - processPackages [frigobar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frigobar-1.tar.gz tmp/frigobar-2.tar.gz --markdown 20230731/f/frigobar/1-2/diff.md --exclude *.pyd
+[2023-07-31 14:43:37] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b0/07/12570560f782c7c0a05a712b04c7eb38827a0d9d458c1ca708c4b8cd1e70/lusid-scheduler-sdk-preview-0.0.815.tar.gz
+[2023-07-31 14:43:38] INFO root fetch - processPackages [pykebab]: executing diffoscope
+[2023-07-31 14:43:38] INFO root fetch - processPackages [pykebab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykebab-0.8.2.tar.gz tmp/pykebab-0.8.3.tar.gz --markdown 20230731/p/pykebab/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-31 14:43:38] INFO root fetch - processPackages [config-server-client]: executing diffoscope
+[2023-07-31 14:43:38] INFO root fetch - processPackages [config-server-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_server_client-0.0.4.tar.gz tmp/config_server_client-0.0.5.tar.gz --markdown 20230731/c/config-server-client/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-31 14:43:38] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-07-31 14:43:38] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230731/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-07-31 14:43:38] INFO root fetch - processPackages [pyesmda]: executing diffoscope
+[2023-07-31 14:43:38] INFO root fetch - processPackages [pyesmda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyesmda-0.4.0.tar.gz tmp/pyesmda-0.4.1.tar.gz --markdown 20230731/p/pyesmda/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-31 14:43:38] INFO root fetch - processPackages [scorepyo]: Downloading https://files.pythonhosted.org/packages/8f/cf/b6f59304fec9c57446a238375532ab77d56e38d2d843d4babbe8a79c8a44/scorepyo-0.2.3.tar.gz
+[2023-07-31 14:43:38] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: executing diffoscope
+[2023-07-31 14:43:38] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-scheduler-sdk-preview-0.0.814.tar.gz tmp/lusid-scheduler-sdk-preview-0.0.815.tar.gz --markdown 20230731/l/lusid-scheduler-sdk-preview/0.0.814-0.0.815/diff.md --exclude *.pyd
+[2023-07-31 14:43:38] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/ee/5c/a8702b007455dd35fad942b491fc897a84c6b8bf2f28a4a8dcb776547c6b/ul-py-tool-1.15.25.tar.gz
+[2023-07-31 14:43:38] INFO root fetch - processPackages [scorepyo]: executing diffoscope
+[2023-07-31 14:43:38] INFO root fetch - processPackages [scorepyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scorepyo-0.2.2.dev2.tar.gz tmp/scorepyo-0.2.3.tar.gz --markdown 20230731/s/scorepyo/0.2.2.dev2-0.2.3/diff.md --exclude *.pyd
+[2023-07-31 14:43:38] INFO root fetch - processPackages [ul-py-tool]: executing diffoscope
+[2023-07-31 14:43:38] INFO root fetch - processPackages [ul-py-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-py-tool-1.15.24.tar.gz tmp/ul-py-tool-1.15.25.tar.gz --markdown 20230731/u/ul-py-tool/1.15.24-1.15.25/diff.md --exclude *.pyd
+[2023-07-31 14:43:39] INFO root fetch - processPackages [keboola.json-to-csv]: Remove: archive file [/home/abi/fetcher/tmp/keboola.json-to-csv-0.0.7.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [keboola.json-to-csv]: Remove: archive file [/home/abi/fetcher/tmp/keboola.json-to-csv-0.0.8.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [keboola.json-to-csv]: Start processing: modelscope
+[2023-07-31 14:43:39] INFO root fetch - main [MainThread]: End processing [keboola.json-to-csv]: success
+[2023-07-31 14:43:39] INFO root fetch - processPackages [modelscope]: New version: [1.8.0rc0] Old Version: [1.7.1]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [wandb-core-alpha]: Remove: archive file [/home/abi/fetcher/tmp/wandb-core-alpha-0.0.1a1.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [wandb-core-alpha]: Remove: archive file [/home/abi/fetcher/tmp/wandb-core-alpha-0.0.1a2.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [wandb-core-alpha]: Start processing: volt-client-web
+[2023-07-31 14:43:39] INFO root fetch - main [MainThread]: End processing [wandb-core-alpha]: success
+[2023-07-31 14:43:39] INFO root fetch - processPackages [volt-client-web]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/config_server_client-0.0.4.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/config_server_client-0.0.5.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [config-server-client]: Start processing: nonebot-plugin-alconna
+[2023-07-31 14:43:39] INFO root fetch - main [MainThread]: End processing [config-server-client]: success
+[2023-07-31 14:43:39] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.9.3] Old Version: [0.9.0]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [volt-client-web]: Downloading https://files.pythonhosted.org/packages/23/bb/94888842b264620dc65443b211e9ca55f0dd710ee870a4789cd7d8c06e70/volt_client_web-0.1.8.tar.gz
+[2023-07-31 14:43:39] INFO root fetch - processPackages [modelscope]: Downloading https://files.pythonhosted.org/packages/23/ac/1a135b04e58d1ccfdb1689b96655600b79184f55cd31d77c1907620d92a1/modelscope-1.7.1.tar.gz
+[2023-07-31 14:43:39] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.8.2.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.8.3.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [pykebab]: Start processing: yyxx-game-pkg
+[2023-07-31 14:43:39] INFO root fetch - main [MainThread]: End processing [pykebab]: success
+[2023-07-31 14:43:39] INFO root fetch - processPackages [frigobar]: Remove: archive file [/home/abi/fetcher/tmp/frigobar-1.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [frigobar]: Remove: archive file [/home/abi/fetcher/tmp/frigobar-2.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [frigobar]: Start processing: bugout
+[2023-07-31 14:43:39] INFO root fetch - main [MainThread]: End processing [frigobar]: success
+[2023-07-31 14:43:39] INFO root fetch - processPackages [bugout]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.7.6.2] Old Version: [2023.7.6.1]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/c8/67/1065373af14f845f6112a3d2cb8d6187d838b4c0d90d89282ccef9f5133d/nonebot-plugin-alconna-0.9.0.tar.gz
+[2023-07-31 14:43:39] INFO root fetch - processPackages [scorepyo]: Remove: archive file [/home/abi/fetcher/tmp/scorepyo-0.2.2.dev2.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [scorepyo]: Remove: archive file [/home/abi/fetcher/tmp/scorepyo-0.2.3.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [scorepyo]: Start processing: onbrdng
+[2023-07-31 14:43:39] INFO root fetch - main [MainThread]: End processing [scorepyo]: success
+[2023-07-31 14:43:39] INFO root fetch - processPackages [volt-client-web]: Downloading https://files.pythonhosted.org/packages/b4/c6/7aa94adeb9a5093db0dc4d3c709d10873f82697ad52914015f1fdbdf0735/volt_client_web-0.1.9.tar.gz
+[2023-07-31 14:43:39] INFO root fetch - processPackages [bugout]: Downloading https://files.pythonhosted.org/packages/5c/ef/fbe271674b752145f16ca48787d7b125306ab5e23ce95d156dcd9bec424e/bugout-0.2.8.tar.gz
+[2023-07-31 14:43:39] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/9b/b7/cc822920f7bf0f7fafdb31e00496522c7ca28ce20584aab633789ebd0d11/yyxx_game_pkg-2023.7.6.1.tar.gz
+[2023-07-31 14:43:39] WARNING root fetch - processPackages [onbrdng]: Skipping, unable to determine old version
+[2023-07-31 14:43:39] INFO root fetch - processPackages [onbrdng]: Start processing: riscv-config
+[2023-07-31 14:43:39] INFO root fetch - main [MainThread]: End processing [onbrdng] error
+[2023-07-31 14:43:39] INFO root fetch - processPackages [pyesmda]: Remove: archive file [/home/abi/fetcher/tmp/pyesmda-0.4.0.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [pyesmda]: Remove: archive file [/home/abi/fetcher/tmp/pyesmda-0.4.1.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [pyesmda]: Start processing: BundesligaPredictor
+[2023-07-31 14:43:39] INFO root fetch - main [MainThread]: End processing [pyesmda]: success
+[2023-07-31 14:43:39] INFO root fetch - processPackages [volt-client-web]: executing diffoscope
+[2023-07-31 14:43:39] INFO root fetch - processPackages [volt-client-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volt_client_web-0.1.8.tar.gz tmp/volt_client_web-0.1.9.tar.gz --markdown 20230731/v/volt-client-web/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 14:43:39] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2023-07-31 14:43:39] INFO root fetch - processPackages [pulumi-confluentcloud]: Start processing: numba-inspector
+[2023-07-31 14:43:39] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-07-31 14:43:39] INFO root fetch - processPackages [BundesligaPredictor]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-31 14:43:40] INFO root fetch - processPackages [numba-inspector]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 14:43:40] INFO root fetch - processPackages [riscv-config]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-07-31 14:43:40] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.24.tar.gz]
+[2023-07-31 14:43:40] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.25.tar.gz]
+[2023-07-31 14:43:40] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
+[2023-07-31 14:43:40] INFO root fetch - processPackages [BundesligaPredictor]: Downloading https://files.pythonhosted.org/packages/d7/46/7f48fc3d7fc6590cbddd459ae159c0264bef1ae339757ad15c91b1cc8fc3/BundesligaPredictor-0.0.3.tar.gz
+[2023-07-31 14:43:40] INFO root fetch - processPackages [modelscope]: Downloading https://files.pythonhosted.org/packages/52/2b/8d5e6a2d9642395d446ec1b25ae04412394657bf0993cf920c6adf2c5503/modelscope-1.8.0rc0.tar.gz
+[2023-07-31 14:43:40] INFO root fetch - processPackages [numba-inspector]: Downloading https://files.pythonhosted.org/packages/af/bd/97f804f58a0daca8126ee4d99c74f79a6191e9049acd1ca7d1afe16fc78b/numba_inspector-0.0.1.tar.gz
+[2023-07-31 14:43:40] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/f4/fd/830dd6604cd5dc44a467d959ff595e8da0a087d9b75368acaecfc83c3417/nonebot_plugin_alconna-0.9.3.tar.gz
+[2023-07-31 14:43:40] INFO root fetch - processPackages [bugout]: Downloading https://files.pythonhosted.org/packages/31/66/98f11fdbfd1344bc3e864cca1cd3be5dfb84c8eb3b611fa56b1f05cc3edb/bugout-0.2.9.tar.gz
+[2023-07-31 14:43:40] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2023-07-31 14:43:40] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.9.0.tar.gz tmp/nonebot_plugin_alconna-0.9.3.tar.gz --markdown 20230731/n/nonebot-plugin-alconna/0.9.0-0.9.3/diff.md --exclude *.pyd
+[2023-07-31 14:43:40] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.814.tar.gz]
+[2023-07-31 14:43:40] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.815.tar.gz]
+[2023-07-31 14:43:40] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk-preview]: success
+[2023-07-31 14:43:40] INFO root fetch - processPackages [riscv-config]: Downloading https://files.pythonhosted.org/packages/e1/6c/39d5d244e2bd72c43c490f9dcd8ea7b85babfb92d79c8769e49cd24e11a1/riscv_config-3.9.1.tar.gz
+[2023-07-31 14:43:40] INFO root fetch - processPackages [BundesligaPredictor]: Downloading https://files.pythonhosted.org/packages/23/3a/65c91e21719c996be40b8d8a634bc3c18545a8a1a7ab80eb937858af5c97/BundesligaPredictor-0.0.4.tar.gz
+[2023-07-31 14:43:40] INFO root fetch - processPackages [numba-inspector]: Downloading https://files.pythonhosted.org/packages/0b/42/9313168af0645cdedddf93301de09781510d0c0a20386f5bda27db7f0fd6/numba_inspector-0.0.2.tar.gz
+[2023-07-31 14:43:40] INFO root fetch - processPackages [bugout]: executing diffoscope
+[2023-07-31 14:43:40] INFO root fetch - processPackages [bugout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugout-0.2.8.tar.gz tmp/bugout-0.2.9.tar.gz --markdown 20230731/b/bugout/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-31 14:43:40] INFO root fetch - processPackages [modelscope]: executing diffoscope
+[2023-07-31 14:43:40] INFO root fetch - processPackages [modelscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelscope-1.7.1.tar.gz tmp/modelscope-1.8.0rc0.tar.gz --markdown 20230731/m/modelscope/1.7.1-1.8.0rc0/diff.md --exclude *.pyd
+[2023-07-31 14:43:40] INFO root fetch - processPackages [BundesligaPredictor]: executing diffoscope
+[2023-07-31 14:43:40] INFO root fetch - processPackages [BundesligaPredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BundesligaPredictor-0.0.3.tar.gz tmp/BundesligaPredictor-0.0.4.tar.gz --markdown 20230731/B/BundesligaPredictor/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-31 14:43:40] INFO root fetch - processPackages [numba-inspector]: executing diffoscope
+[2023-07-31 14:43:40] INFO root fetch - processPackages [numba-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numba_inspector-0.0.1.tar.gz tmp/numba_inspector-0.0.2.tar.gz --markdown 20230731/n/numba-inspector/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 14:43:40] INFO root fetch - processPackages [riscv-config]: Downloading https://files.pythonhosted.org/packages/4e/21/69dfa0800dec15ca58e95135f0d2095bc55088d27d24d5399b4d31a37246/riscv_config-3.9.2.tar.gz
+[2023-07-31 14:43:40] INFO root fetch - processPackages [riscv-config]: executing diffoscope
+[2023-07-31 14:43:40] INFO root fetch - processPackages [riscv-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riscv_config-3.9.1.tar.gz tmp/riscv_config-3.9.2.tar.gz --markdown 20230731/r/riscv-config/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-07-31 14:43:41] INFO root fetch - processPackages [volt-client-web]: Remove: archive file [/home/abi/fetcher/tmp/volt_client_web-0.1.8.tar.gz]
+[2023-07-31 14:43:41] INFO root fetch - processPackages [volt-client-web]: Remove: archive file [/home/abi/fetcher/tmp/volt_client_web-0.1.9.tar.gz]
+[2023-07-31 14:43:41] INFO root fetch - main [MainThread]: End processing [volt-client-web]: success
+[2023-07-31 14:43:41] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/33/8e/06c4b18d6a407263a41cf7dbfca9809cb73955a9680aa4110d2f3bd5f0f6/yyxx_game_pkg-2023.7.6.2.tar.gz
+[2023-07-31 14:43:41] INFO root fetch - processPackages [bugout]: Remove: archive file [/home/abi/fetcher/tmp/bugout-0.2.8.tar.gz]
+[2023-07-31 14:43:41] INFO root fetch - processPackages [bugout]: Remove: archive file [/home/abi/fetcher/tmp/bugout-0.2.9.tar.gz]
+[2023-07-31 14:43:41] INFO root fetch - main [MainThread]: End processing [bugout]: success
+[2023-07-31 14:43:41] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.9.0.tar.gz]
+[2023-07-31 14:43:41] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_alconna-0.9.3.tar.gz]
+[2023-07-31 14:43:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2023-07-31 14:43:41] INFO root fetch - processPackages [numba-inspector]: Remove: archive file [/home/abi/fetcher/tmp/numba_inspector-0.0.1.tar.gz]
+[2023-07-31 14:43:41] INFO root fetch - processPackages [numba-inspector]: Remove: archive file [/home/abi/fetcher/tmp/numba_inspector-0.0.2.tar.gz]
+[2023-07-31 14:43:41] INFO root fetch - main [MainThread]: End processing [numba-inspector]: success
+[2023-07-31 14:43:41] INFO root fetch - processPackages [BundesligaPredictor]: Remove: archive file [/home/abi/fetcher/tmp/BundesligaPredictor-0.0.3.tar.gz]
+[2023-07-31 14:43:41] INFO root fetch - processPackages [BundesligaPredictor]: Remove: archive file [/home/abi/fetcher/tmp/BundesligaPredictor-0.0.4.tar.gz]
+[2023-07-31 14:43:41] INFO root fetch - main [MainThread]: End processing [BundesligaPredictor]: success
+[2023-07-31 14:43:42] INFO root fetch - processPackages [riscv-config]: Remove: archive file [/home/abi/fetcher/tmp/riscv_config-3.9.1.tar.gz]
+[2023-07-31 14:43:42] INFO root fetch - processPackages [riscv-config]: Remove: archive file [/home/abi/fetcher/tmp/riscv_config-3.9.2.tar.gz]
+[2023-07-31 14:43:42] INFO root fetch - main [MainThread]: End processing [riscv-config]: success
+[2023-07-31 14:43:42] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-07-31 14:43:42] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.7.6.1.tar.gz tmp/yyxx_game_pkg-2023.7.6.2.tar.gz --markdown 20230731/y/yyxx-game-pkg/2023.7.6.1-2023.7.6.2/diff.md --exclude *.pyd
+[2023-07-31 14:43:44] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.6.1.tar.gz]
+[2023-07-31 14:43:44] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.6.2.tar.gz]
+[2023-07-31 14:43:44] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-07-31 14:43:58] INFO root fetch - processPackages [modelscope]: Remove: archive file [/home/abi/fetcher/tmp/modelscope-1.7.1.tar.gz]
+[2023-07-31 14:43:58] INFO root fetch - processPackages [modelscope]: Remove: archive file [/home/abi/fetcher/tmp/modelscope-1.8.0rc0.tar.gz]
+[2023-07-31 14:43:58] INFO root fetch - main [MainThread]: End processing [modelscope]: success
+[2023-07-31 14:43:58] INFO root fetch - main [MainThread]: Store serial: [19107422]
