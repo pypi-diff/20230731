@@ -21721,3 +21721,239 @@ AssertionError: tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.z
 [2023-07-31 16:18:50] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.9.tar.gz]
 [2023-07-31 16:18:50] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
 [2023-07-31 16:18:50] INFO root fetch - main [MainThread]: Store serial: [19108654]
+[2023-07-31 16:23:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19108654]
+[2023-07-31 16:23:59] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-07-31 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systembridgecli
+[2023-07-31 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: systembridgebackend
+[2023-07-31 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carburetor
+[2023-07-31 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systembridgegui
+[2023-07-31 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybiolib
+[2023-07-31 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magma-suite
+[2023-07-31 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easycap
+[2023-07-31 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aespark
+[2023-07-31 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fleck
+[2023-07-31 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: catalystai
+[2023-07-31 16:23:59] INFO root fetch - processPackages [carburetor]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-07-31 16:23:59] INFO root fetch - processPackages [aespark]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 16:23:59] INFO root fetch - processPackages [magma-suite]: New version: [1.5.0.2b7] Old Version: [1.5.0.2b6]
+[2023-07-31 16:23:59] INFO root fetch - processPackages [catalystai]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-31 16:23:59] WARNING root fetch - processPackages [easycap]: Skipping, unable to determine old version
+[2023-07-31 16:23:59] INFO root fetch - processPackages [easycap]: Start processing: coiled
+[2023-07-31 16:23:59] INFO root fetch - main [MainThread]: End processing [easycap] error
+[2023-07-31 16:23:59] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2023-07-31 16:23:59] INFO root fetch - processPackages [fleck]: New version: [1.1] Old Version: [0.0.dev72]
+[2023-07-31 16:23:59] INFO root fetch - processPackages [coiled]: New version: [0.9.2.dev7] Old Version: [0.9.2.dev6]
+[2023-07-31 16:23:59] INFO root fetch - processPackages [systembridgecli]: New version: [3.8.1] Old Version: [3.8.0.dev9]
+[2023-07-31 16:23:59] INFO root fetch - processPackages [systembridgegui]: New version: [3.8.1] Old Version: [3.8.0.dev9]
+[2023-07-31 16:23:59] INFO root fetch - processPackages [systembridgebackend]: New version: [3.8.1] Old Version: [3.8.0.dev9]
+[2023-07-31 16:24:00] INFO root fetch - processPackages [catalystai]: Downloading https://files.pythonhosted.org/packages/bf/c8/e34879107532f53e56cc2922ae34a907acbacdcd02e997c46d9e8f0b694c/catalystai-1.0.5.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/77/9e/7413f8261e1e37693d33c38c229467f3fe1471e9e903dbbf1f2f9679d596/coiled-0.9.2.dev6.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [aespark]: Downloading https://files.pythonhosted.org/packages/11/cf/d1f020caa6cb21723fc95dbe4dcc9db57145be0ac8fddd3c4b77c4902227/aespark-0.0.2.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/36/f3/19c7098062820644426fb1b76f2b93a355ff1eb1c6741e392087ab4ee35f/systembridgegui-3.8.0.dev9.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [carburetor]: Downloading https://files.pythonhosted.org/packages/44/79/e6c2c2672a323be0be03967742000054ca0fc071befc7df062342aee80f3/carburetor-4.1.1.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [magma-suite]: Downloading https://files.pythonhosted.org/packages/a6/6b/dc9f07f66e1c59e5b350cf279cec1bcabd9d4c8f0069f9d8b8d1caa216c2/magma_suite-1.5.0.2b6.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [fleck]: Downloading https://files.pythonhosted.org/packages/ec/2d/178a086f4c0e5a4879894dae5c3ea004e9da1d551f2df04b2c16e5d6a6b4/fleck-0.0.dev72.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/89/ae/89eef727af1dd3d408211f030a2e83b52d14162a07d9406e0234668c5ca8/systembridgecli-3.8.0.dev9.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/04/07/5ba22add89c69f07710d05939e00ef21530d783cffde5d9b2d37acaa2062/systembridgebackend-3.8.0.dev9.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/5d/70/25afbf844d046d7b398f4247243d9602a422cd9f1a841c20115edd31fee4/systembridgegui-3.8.1.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [catalystai]: Downloading https://files.pythonhosted.org/packages/74/3c/339fd196fa34c92b578b138b46a8676e2c5e62bc0589660390cd58edce21/catalystai-1.0.6.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [carburetor]: Downloading https://files.pythonhosted.org/packages/1e/91/e0042cea856ee67d9aa32273b52eef971bcf74481538014c5502382e138e/carburetor-4.1.2.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/5a/f8/e1e1661dbec78852b6d81d2f4a7a809df75b4a23fff24cc67032e300ec42/coiled-0.9.2.dev7.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/0f/8e/40479963477198b793581208bda7430345da6075b654555b30cbacba4d04/systembridgecli-3.8.1.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [magma-suite]: Downloading https://files.pythonhosted.org/packages/b2/e4/b690a2d7e04da9aaea0713e2504987a1bb0b2f01bfb9720345aeda4c12f5/magma_suite-1.5.0.2b7.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [systembridgegui]: executing diffoscope
+[2023-07-31 16:24:00] INFO root fetch - processPackages [systembridgegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgegui-3.8.0.dev9.tar.gz tmp/systembridgegui-3.8.1.tar.gz --markdown 20230731/s/systembridgegui/3.8.0.dev9-3.8.1/diff.md --exclude *.pyd
+[2023-07-31 16:24:00] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-07-31 16:24:00] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20230731/p/pybiolib/1.1.997-1.1.999/diff.md --exclude *.pyd
+[2023-07-31 16:24:00] INFO root fetch - processPackages [fleck]: Downloading https://files.pythonhosted.org/packages/43/6e/ef3ce9496603e25b5aa261c4dc8bb61d136f7f6c7c7b7c2e384661f1c04a/fleck-1.1.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [catalystai]: executing diffoscope
+[2023-07-31 16:24:00] INFO root fetch - processPackages [catalystai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalystai-1.0.5.tar.gz tmp/catalystai-1.0.6.tar.gz --markdown 20230731/c/catalystai/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-31 16:24:00] INFO root fetch - processPackages [systembridgecli]: executing diffoscope
+[2023-07-31 16:24:00] INFO root fetch - processPackages [systembridgecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgecli-3.8.0.dev9.tar.gz tmp/systembridgecli-3.8.1.tar.gz --markdown 20230731/s/systembridgecli/3.8.0.dev9-3.8.1/diff.md --exclude *.pyd
+[2023-07-31 16:24:00] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/1b/8a/09d18f4be0023a03ba8b5945bdd48e4cd4a4d4e14364b7da35cc34066658/systembridgebackend-3.8.1.tar.gz
+[2023-07-31 16:24:00] INFO root fetch - processPackages [carburetor]: executing diffoscope
+[2023-07-31 16:24:00] INFO root fetch - processPackages [carburetor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carburetor-4.1.1.tar.gz tmp/carburetor-4.1.2.tar.gz --markdown 20230731/c/carburetor/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2023-07-31 16:24:00] INFO root fetch - processPackages [magma-suite]: executing diffoscope
+[2023-07-31 16:24:00] INFO root fetch - processPackages [magma-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magma_suite-1.5.0.2b6.tar.gz tmp/magma_suite-1.5.0.2b7.tar.gz --markdown 20230731/m/magma-suite/1.5.0.2b6-1.5.0.2b7/diff.md --exclude *.pyd
+[2023-07-31 16:24:00] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-31 16:24:00] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.2.dev6.tar.gz tmp/coiled-0.9.2.dev7.tar.gz --markdown 20230731/c/coiled/0.9.2.dev6-0.9.2.dev7/diff.md --exclude *.pyd
+[2023-07-31 16:24:01] INFO root fetch - processPackages [aespark]: Downloading https://files.pythonhosted.org/packages/b9/af/e4b8b06c8c28617a725a374f2c4e5125aeca7bdce31ccffa8557fa15db54/aespark-0.0.3.tar.gz
+[2023-07-31 16:24:01] INFO root fetch - processPackages [systembridgebackend]: executing diffoscope
+[2023-07-31 16:24:01] INFO root fetch - processPackages [systembridgebackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgebackend-3.8.0.dev9.tar.gz tmp/systembridgebackend-3.8.1.tar.gz --markdown 20230731/s/systembridgebackend/3.8.0.dev9-3.8.1/diff.md --exclude *.pyd
+[2023-07-31 16:24:01] INFO root fetch - processPackages [fleck]: executing diffoscope
+[2023-07-31 16:24:01] INFO root fetch - processPackages [fleck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fleck-0.0.dev72.tar.gz tmp/fleck-1.1.tar.gz --markdown 20230731/f/fleck/0.0.dev72-1.1/diff.md --exclude *.pyd
+[2023-07-31 16:24:02] INFO root fetch - processPackages [catalystai]: Remove: archive file [/home/abi/fetcher/tmp/catalystai-1.0.5.tar.gz]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [catalystai]: Remove: archive file [/home/abi/fetcher/tmp/catalystai-1.0.6.tar.gz]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [catalystai]: Start processing: apidriver
+[2023-07-31 16:24:02] INFO root fetch - main [MainThread]: End processing [catalystai]: success
+[2023-07-31 16:24:02] INFO root fetch - processPackages [apidriver]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev9.tar.gz]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.1.tar.gz]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [systembridgegui]: Start processing: systembridgefrontend
+[2023-07-31 16:24:02] INFO root fetch - main [MainThread]: End processing [systembridgegui]: success
+[2023-07-31 16:24:02] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev9.tar.gz]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.1.tar.gz]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [systembridgecli]: Start processing: cocoa-vanilla
+[2023-07-31 16:24:02] INFO root fetch - main [MainThread]: End processing [systembridgecli]: success
+[2023-07-31 16:24:02] INFO root fetch - processPackages [cocoa-vanilla]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.8.1] Old Version: [3.8.0.dev9]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [magma-suite]: Remove: archive file [/home/abi/fetcher/tmp/magma_suite-1.5.0.2b6.tar.gz]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [magma-suite]: Remove: archive file [/home/abi/fetcher/tmp/magma_suite-1.5.0.2b7.tar.gz]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [magma-suite]: Start processing: taegis-sdk-python
+[2023-07-31 16:24:02] INFO root fetch - main [MainThread]: End processing [magma-suite]: success
+[2023-07-31 16:24:02] INFO root fetch - processPackages [apidriver]: Downloading https://files.pythonhosted.org/packages/9f/08/1b2aa9eaade3073512a40caa0da2f22b5a69f28688a3a04c5e74dc37b185/apidriver-0.9.0.tar.gz
+[2023-07-31 16:24:02] INFO root fetch - processPackages [aespark]: executing diffoscope
+[2023-07-31 16:24:02] INFO root fetch - processPackages [aespark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aespark-0.0.2.tar.gz tmp/aespark-0.0.3.tar.gz --markdown 20230731/a/aespark/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 16:24:02] INFO root fetch - processPackages [taegis-sdk-python]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/a7/bd/51ec0da5bcd5903b111736968abaaa3d5a5d6f77e9ccb9ece74f6bb92670/systembridgefrontend-3.8.0.dev9.tar.gz
+[2023-07-31 16:24:02] INFO root fetch - processPackages [cocoa-vanilla]: Downloading https://files.pythonhosted.org/packages/60/42/6f217262d302c26a232c9e527a917e183c528c8801c8ed58609c76935f5a/cocoa-vanilla-0.3.0.tar.gz
+[2023-07-31 16:24:02] INFO root fetch - processPackages [taegis-sdk-python]: Downloading https://files.pythonhosted.org/packages/56/8d/0a7a9504af4a4fdf8b72a52e7d5e0dcff288893c42551770a68eb24b6aaf/taegis-sdk-python-1.0.2.tar.gz
+[2023-07-31 16:24:02] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [pybiolib]: Start processing: geopic-tag-reader
+[2023-07-31 16:24:02] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-07-31 16:24:02] INFO root fetch - processPackages [apidriver]: Downloading https://files.pythonhosted.org/packages/1b/1b/45cd36392fb5f109e3785774019fbc9a1db7f95d05ff70a89577610cd0ec/apidriver-0.9.1.tar.gz
+[2023-07-31 16:24:02] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.2.dev6.tar.gz]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.2.dev7.tar.gz]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [coiled]: Start processing: AstroInstrumentAD
+[2023-07-31 16:24:02] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-31 16:24:02] INFO root fetch - processPackages [geopic-tag-reader]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [AstroInstrumentAD]: New version: [0.147] Old Version: [0.146]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [fleck]: Remove: archive file [/home/abi/fetcher/tmp/fleck-0.0.dev72.tar.gz]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [fleck]: Remove: archive file [/home/abi/fetcher/tmp/fleck-1.1.tar.gz]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [fleck]: Start processing: redb-odm
+[2023-07-31 16:24:02] INFO root fetch - main [MainThread]: End processing [fleck]: success
+[2023-07-31 16:24:02] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/36/8b/e0e669552a100ff8bd7eb19ce13bd5f35dd11faa0f6671919827e97877c3/systembridgefrontend-3.8.1.tar.gz
+[2023-07-31 16:24:02] INFO root fetch - processPackages [carburetor]: Remove: archive file [/home/abi/fetcher/tmp/carburetor-4.1.1.tar.gz]
+[2023-07-31 16:24:02] INFO root fetch - processPackages [carburetor]: Remove: archive file [/home/abi/fetcher/tmp/carburetor-4.1.2.tar.gz]
+[2023-07-31 16:24:03] INFO root fetch - processPackages [carburetor]: Start processing: datajunction-server
+[2023-07-31 16:24:03] INFO root fetch - main [MainThread]: End processing [carburetor]: success
+[2023-07-31 16:24:03] INFO root fetch - processPackages [redb-odm]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-31 16:24:03] INFO root fetch - processPackages [datajunction-server]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2023-07-31 16:24:03] INFO root fetch - processPackages [cocoa-vanilla]: Downloading https://files.pythonhosted.org/packages/8c/d6/434c5728d5b9c27301f53cb24a679dc788b209ce2f37ec4bad558b916afe/cocoa-vanilla-0.4.0.tar.gz
+[2023-07-31 16:24:03] INFO root fetch - processPackages [apidriver]: executing diffoscope
+[2023-07-31 16:24:03] INFO root fetch - processPackages [apidriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidriver-0.9.0.tar.gz tmp/apidriver-0.9.1.tar.gz --markdown 20230731/a/apidriver/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-31 16:24:03] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev9.tar.gz]
+[2023-07-31 16:24:03] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.1.tar.gz]
+[2023-07-31 16:24:03] INFO root fetch - processPackages [systembridgebackend]: Start processing: pytelibs
+[2023-07-31 16:24:03] INFO root fetch - main [MainThread]: End processing [systembridgebackend]: success
+[2023-07-31 16:24:03] INFO root fetch - processPackages [taegis-sdk-python]: Downloading https://files.pythonhosted.org/packages/3a/4d/9e05aaf7f6ced37ee59d7965448f1744d6f7d5270648f032f34f52535461/taegis-sdk-python-1.0.3.tar.gz
+[2023-07-31 16:24:03] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/24/48/bc97e579f4e28a04ca5724b5ba95206a78da4b29c8fb09bb8108a0f53d52/AstroInstrumentAD-0.146.tar.gz
+[2023-07-31 16:24:03] INFO root fetch - processPackages [geopic-tag-reader]: Downloading https://files.pythonhosted.org/packages/8c/2d/6b967b82f203782106cb529dc927cc0537983b83ca6738213af0c13f90bd/geopic_tag_reader-0.2.0.tar.gz
+[2023-07-31 16:24:03] INFO root fetch - processPackages [pytelibs]: New version: [1.2.209] Old Version: [1.2.208]
+[2023-07-31 16:24:03] WARNING root fetch - processPackages [geopic-tag-reader]: Skipping package: exceeds size limit 21255260>=10485760
+[2023-07-31 16:24:03] INFO root fetch - processPackages [geopic-tag-reader]: Start processing: remotion-lambda
+[2023-07-31 16:24:03] INFO root fetch - main [MainThread]: End processing [geopic-tag-reader] error
+[2023-07-31 16:24:03] INFO root fetch - processPackages [redb-odm]: Downloading https://files.pythonhosted.org/packages/03/8f/981e91d4878bb830f350cebc9acf42c75e53a423ae4cf76e848db12f73ca/redb-odm-1.3.2.tar.gz
+[2023-07-31 16:24:03] INFO root fetch - processPackages [taegis-sdk-python]: executing diffoscope
+[2023-07-31 16:24:03] INFO root fetch - processPackages [taegis-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taegis-sdk-python-1.0.2.tar.gz tmp/taegis-sdk-python-1.0.3.tar.gz --markdown 20230731/t/taegis-sdk-python/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-31 16:24:03] INFO root fetch - processPackages [remotion-lambda]: New version: [4.0.14] Old Version: [4.0.10]
+[2023-07-31 16:24:03] INFO root fetch - processPackages [datajunction-server]: Downloading https://files.pythonhosted.org/packages/23/64/636d8239242161fff864e9b70e849d2f42d00a50db0dc61780bca7bfa366/datajunction_server-0.0.1a7.tar.gz
+[2023-07-31 16:24:03] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-31 16:24:03] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.8.0.dev9.tar.gz tmp/systembridgefrontend-3.8.1.tar.gz --markdown 20230731/s/systembridgefrontend/3.8.0.dev9-3.8.1/diff.md --exclude *.pyd
+[2023-07-31 16:24:03] INFO root fetch - processPackages [cocoa-vanilla]: executing diffoscope
+[2023-07-31 16:24:03] INFO root fetch - processPackages [cocoa-vanilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocoa-vanilla-0.3.0.tar.gz tmp/cocoa-vanilla-0.4.0.tar.gz --markdown 20230731/c/cocoa-vanilla/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-31 16:24:03] INFO root fetch - processPackages [pytelibs]: Downloading https://files.pythonhosted.org/packages/34/1e/c94833da4efea1231b35884d08145cfde2100fd9193e9cf3ada721a8e984/pytelibs-1.2.208.tar.gz
+[2023-07-31 16:24:03] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/7d/35/ca77df9da3a374dc40a541b616726eb470539f1ddff16ce4f55bc4e31577/AstroInstrumentAD-0.147.tar.gz
+[2023-07-31 16:24:03] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/97/78/0aa772be2f9b7205f1b4584f304b618d71eb81b41480a1ebdd3e714bdfe6/remotion_lambda-4.0.10.tar.gz
+[2023-07-31 16:24:03] INFO root fetch - processPackages [redb-odm]: Downloading https://files.pythonhosted.org/packages/6b/01/ecebfad49b65630c86e79c177e96209a9fded67e702e18197a9b00d7dc6b/redb-odm-1.3.3.tar.gz
+[2023-07-31 16:24:03] INFO root fetch - processPackages [datajunction-server]: Downloading https://files.pythonhosted.org/packages/5e/74/837b55d32da7e6b69cec7b2da69fbb3dcc2a71dc1ee1e0d3dd407363f091/datajunction_server-0.0.1a8.tar.gz
+[2023-07-31 16:24:03] INFO root fetch - processPackages [pytelibs]: Downloading https://files.pythonhosted.org/packages/ea/17/43f96006db5468394084cb10531fa8eaa4fd89c9bddb4b67d6eed1be157c/pytelibs-1.2.209.tar.gz
+[2023-07-31 16:24:03] INFO root fetch - processPackages [AstroInstrumentAD]: executing diffoscope
+[2023-07-31 16:24:03] INFO root fetch - processPackages [AstroInstrumentAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AstroInstrumentAD-0.146.tar.gz tmp/AstroInstrumentAD-0.147.tar.gz --markdown 20230731/A/AstroInstrumentAD/0.146-0.147/diff.md --exclude *.pyd
+[2023-07-31 16:24:03] INFO root fetch - processPackages [redb-odm]: executing diffoscope
+[2023-07-31 16:24:03] INFO root fetch - processPackages [redb-odm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redb-odm-1.3.2.tar.gz tmp/redb-odm-1.3.3.tar.gz --markdown 20230731/r/redb-odm/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-31 16:24:03] WARNING root fetch - processPackages [datajunction-server]: Skipping package: exceeds size limit 25698763>=10485760
+[2023-07-31 16:24:03] INFO root fetch - processPackages [datajunction-server]: Start processing: systembridgewindowssensors
+[2023-07-31 16:24:03] INFO root fetch - main [MainThread]: End processing [datajunction-server] error
+[2023-07-31 16:24:03] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/b1/04/3497d7cd4bffe0cbb127937577be080ac4f648739c3f680494ee6d649ca6/remotion_lambda-4.0.14.tar.gz
+[2023-07-31 16:24:03] INFO root fetch - processPackages [systembridgewindowssensors]: New version: [3.8.1] Old Version: [3.8.0.dev9]
+[2023-07-31 16:24:03] INFO root fetch - processPackages [pytelibs]: executing diffoscope
+[2023-07-31 16:24:03] INFO root fetch - processPackages [pytelibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytelibs-1.2.208.tar.gz tmp/pytelibs-1.2.209.tar.gz --markdown 20230731/p/pytelibs/1.2.208-1.2.209/diff.md --exclude *.pyd
+[2023-07-31 16:24:04] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/f8/3d/48f6ce73d6a6180d0f6f923ce1229918e40d9911473401454d592f621804/systembridgewindowssensors-3.8.0.dev9.tar.gz
+[2023-07-31 16:24:04] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2023-07-31 16:24:04] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.10.tar.gz tmp/remotion_lambda-4.0.14.tar.gz --markdown 20230731/r/remotion-lambda/4.0.10-4.0.14/diff.md --exclude *.pyd
+[2023-07-31 16:24:04] INFO root fetch - processPackages [apidriver]: Remove: archive file [/home/abi/fetcher/tmp/apidriver-0.9.0.tar.gz]
+[2023-07-31 16:24:04] INFO root fetch - processPackages [apidriver]: Remove: archive file [/home/abi/fetcher/tmp/apidriver-0.9.1.tar.gz]
+[2023-07-31 16:24:04] INFO root fetch - processPackages [apidriver]: Start processing: abinitostudio
+[2023-07-31 16:24:04] INFO root fetch - main [MainThread]: End processing [apidriver]: success
+[2023-07-31 16:24:04] WARNING root fetch - processPackages [abinitostudio]: Skipping, unable to determine old version
+[2023-07-31 16:24:04] INFO root fetch - processPackages [abinitostudio]: Start processing: cache-decorator
+[2023-07-31 16:24:04] INFO root fetch - main [MainThread]: End processing [abinitostudio] error
+[2023-07-31 16:24:04] INFO root fetch - processPackages [cache-decorator]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-31 16:24:04] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/c5/e4/f0c9eb3435c71ebee0518af4cd1101840219d0a31ce45460b85496dc3809/systembridgewindowssensors-3.8.1.tar.gz
+[2023-07-31 16:24:04] INFO root fetch - processPackages [cache-decorator]: Downloading https://files.pythonhosted.org/packages/c5/37/951ef9834187ec8aa17975d888ad7c34b90e68cef94778a7d595c39b964d/cache_decorator-2.1.8.tar.gz
+[2023-07-31 16:24:04] INFO root fetch - processPackages [systembridgewindowssensors]: executing diffoscope
+[2023-07-31 16:24:04] INFO root fetch - processPackages [systembridgewindowssensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz tmp/systembridgewindowssensors-3.8.1.tar.gz --markdown 20230731/s/systembridgewindowssensors/3.8.0.dev9-3.8.1/diff.md --exclude *.pyd
+[2023-07-31 16:24:05] INFO root fetch - processPackages [cache-decorator]: Downloading https://files.pythonhosted.org/packages/53/bd/8eb6fe9c9065839077d57044de7b60c3f28968f71eeca837d80de66d9650/cache_decorator-2.1.9.tar.gz
+[2023-07-31 16:24:05] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.146.tar.gz]
+[2023-07-31 16:24:05] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.147.tar.gz]
+[2023-07-31 16:24:05] INFO root fetch - processPackages [AstroInstrumentAD]: Start processing: datajunction
+[2023-07-31 16:24:05] INFO root fetch - main [MainThread]: End processing [AstroInstrumentAD]: success
+[2023-07-31 16:24:05] INFO root fetch - processPackages [pytelibs]: Remove: archive file [/home/abi/fetcher/tmp/pytelibs-1.2.208.tar.gz]
+[2023-07-31 16:24:05] INFO root fetch - processPackages [pytelibs]: Remove: archive file [/home/abi/fetcher/tmp/pytelibs-1.2.209.tar.gz]
+[2023-07-31 16:24:05] INFO root fetch - processPackages [pytelibs]: Start processing: varvamp
+[2023-07-31 16:24:05] INFO root fetch - main [MainThread]: End processing [pytelibs]: success
+[2023-07-31 16:24:05] INFO root fetch - processPackages [cache-decorator]: executing diffoscope
+[2023-07-31 16:24:05] INFO root fetch - processPackages [cache-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cache_decorator-2.1.8.tar.gz tmp/cache_decorator-2.1.9.tar.gz --markdown 20230731/c/cache-decorator/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-31 16:24:05] INFO root fetch - processPackages [datajunction]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-31 16:24:05] INFO root fetch - processPackages [redb-odm]: Remove: archive file [/home/abi/fetcher/tmp/redb-odm-1.3.2.tar.gz]
+[2023-07-31 16:24:05] INFO root fetch - processPackages [redb-odm]: Remove: archive file [/home/abi/fetcher/tmp/redb-odm-1.3.3.tar.gz]
+[2023-07-31 16:24:05] INFO root fetch - processPackages [redb-odm]: Start processing: gfatpy
+[2023-07-31 16:24:05] INFO root fetch - main [MainThread]: End processing [redb-odm]: success
+[2023-07-31 16:24:05] INFO root fetch - processPackages [varvamp]: New version: [0.9.1] Old Version: [0.9]
+[2023-07-31 16:24:05] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.10.tar.gz]
+[2023-07-31 16:24:05] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.14.tar.gz]
+[2023-07-31 16:24:05] INFO root fetch - processPackages [remotion-lambda]: Start processing: AstroInstrumentAD
+[2023-07-31 16:24:05] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2023-07-31 16:24:05] INFO root fetch - processPackages [AstroInstrumentAD]: New version: [0.148] Old Version: [0.147]
+[2023-07-31 16:24:05] INFO root fetch - processPackages [gfatpy]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-31 16:24:05] INFO root fetch - processPackages [datajunction]: Downloading https://files.pythonhosted.org/packages/1c/dd/d011039dbc015ee0cadf6a3a31cdaef350b9b1ee49373c7b04f51d601564/datajunction-0.0.1a8.tar.gz
+[2023-07-31 16:24:05] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/7d/35/ca77df9da3a374dc40a541b616726eb470539f1ddff16ce4f55bc4e31577/AstroInstrumentAD-0.147.tar.gz
+[2023-07-31 16:24:05] INFO root fetch - processPackages [varvamp]: Downloading https://files.pythonhosted.org/packages/c8/94/8458da0770bda5f6cb49ce6082a3c5f1c0f94e05a4f167a7e3a95fbfc0e5/varvamp-0.9.tar.gz
+[2023-07-31 16:24:05] INFO root fetch - processPackages [gfatpy]: Downloading https://files.pythonhosted.org/packages/5b/9a/85c5c30a0ab17ffaa3a8ea9f51caca9c3ad4c5ac8632d6a0a97f22dcd4eb/gfatpy-0.7.0.tar.gz
+[2023-07-31 16:24:05] INFO root fetch - processPackages [taegis-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/taegis-sdk-python-1.0.2.tar.gz]
+[2023-07-31 16:24:05] INFO root fetch - processPackages [taegis-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/taegis-sdk-python-1.0.3.tar.gz]
+[2023-07-31 16:24:05] INFO root fetch - main [MainThread]: End processing [taegis-sdk-python]: success
+[2023-07-31 16:24:05] INFO root fetch - processPackages [cocoa-vanilla]: Remove: archive file [/home/abi/fetcher/tmp/cocoa-vanilla-0.3.0.tar.gz]
+[2023-07-31 16:24:05] INFO root fetch - processPackages [cocoa-vanilla]: Remove: archive file [/home/abi/fetcher/tmp/cocoa-vanilla-0.4.0.tar.gz]
+[2023-07-31 16:24:05] INFO root fetch - main [MainThread]: End processing [cocoa-vanilla]: success
+[2023-07-31 16:24:06] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/d6/bb/20b09ccedf5387f6e8d9115467b7e781d1801163ed8d573fbb750604e89c/AstroInstrumentAD-0.148.tar.gz
+[2023-07-31 16:24:06] INFO root fetch - processPackages [datajunction]: Downloading https://files.pythonhosted.org/packages/a3/56/726ef8b88da5d7d28a93212e0247effc166d3a97fbe5bb9c64412e7e2c66/datajunction-0.0.1a9.tar.gz
+[2023-07-31 16:24:06] INFO root fetch - processPackages [varvamp]: Downloading https://files.pythonhosted.org/packages/7d/b7/86412a2090ea6ac0d37387c40d57485fe726d5c7eee1a97c06cdfe0c9d3a/varvamp-0.9.1.tar.gz
+[2023-07-31 16:24:06] INFO root fetch - processPackages [datajunction]: executing diffoscope
+[2023-07-31 16:24:06] INFO root fetch - processPackages [datajunction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajunction-0.0.1a8.tar.gz tmp/datajunction-0.0.1a9.tar.gz --markdown 20230731/d/datajunction/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-31 16:24:06] INFO root fetch - processPackages [AstroInstrumentAD]: executing diffoscope
+[2023-07-31 16:24:06] INFO root fetch - processPackages [AstroInstrumentAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AstroInstrumentAD-0.147.tar.gz tmp/AstroInstrumentAD-0.148.tar.gz --markdown 20230731/A/AstroInstrumentAD/0.147-0.148/diff.md --exclude *.pyd
+[2023-07-31 16:24:06] INFO root fetch - processPackages [varvamp]: executing diffoscope
+[2023-07-31 16:24:06] INFO root fetch - processPackages [varvamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varvamp-0.9.tar.gz tmp/varvamp-0.9.1.tar.gz --markdown 20230731/v/varvamp/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-07-31 16:24:06] INFO root fetch - processPackages [cache-decorator]: Remove: archive file [/home/abi/fetcher/tmp/cache_decorator-2.1.8.tar.gz]
+[2023-07-31 16:24:06] INFO root fetch - processPackages [cache-decorator]: Remove: archive file [/home/abi/fetcher/tmp/cache_decorator-2.1.9.tar.gz]
+[2023-07-31 16:24:06] INFO root fetch - main [MainThread]: End processing [cache-decorator]: success
+[2023-07-31 16:24:06] INFO root fetch - processPackages [gfatpy]: Downloading https://files.pythonhosted.org/packages/45/c0/e439b8d55eac98c0e89291538e33f5ee34a4ed7ec2fe6df5e9b321e5a9b1/gfatpy-0.8.0.tar.gz
+[2023-07-31 16:24:06] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz]
+[2023-07-31 16:24:06] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.1.tar.gz]
+[2023-07-31 16:24:06] INFO root fetch - main [MainThread]: End processing [systembridgewindowssensors]: success
+[2023-07-31 16:24:07] INFO root fetch - processPackages [gfatpy]: executing diffoscope
+[2023-07-31 16:24:07] INFO root fetch - processPackages [gfatpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfatpy-0.7.0.tar.gz tmp/gfatpy-0.8.0.tar.gz --markdown 20230731/g/gfatpy/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-31 16:24:07] INFO root fetch - processPackages [datajunction]: Remove: archive file [/home/abi/fetcher/tmp/datajunction-0.0.1a8.tar.gz]
+[2023-07-31 16:24:07] INFO root fetch - processPackages [datajunction]: Remove: archive file [/home/abi/fetcher/tmp/datajunction-0.0.1a9.tar.gz]
+[2023-07-31 16:24:07] INFO root fetch - main [MainThread]: End processing [datajunction]: success
+[2023-07-31 16:24:07] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.147.tar.gz]
+[2023-07-31 16:24:07] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.148.tar.gz]
+[2023-07-31 16:24:07] INFO root fetch - main [MainThread]: End processing [AstroInstrumentAD]: success
+[2023-07-31 16:24:07] INFO root fetch - processPackages [varvamp]: Remove: archive file [/home/abi/fetcher/tmp/varvamp-0.9.tar.gz]
+[2023-07-31 16:24:07] INFO root fetch - processPackages [varvamp]: Remove: archive file [/home/abi/fetcher/tmp/varvamp-0.9.1.tar.gz]
+[2023-07-31 16:24:07] INFO root fetch - main [MainThread]: End processing [varvamp]: success
+[2023-07-31 16:24:07] INFO root fetch - processPackages [aespark]: Remove: archive file [/home/abi/fetcher/tmp/aespark-0.0.2.tar.gz]
+[2023-07-31 16:24:07] INFO root fetch - processPackages [aespark]: Remove: archive file [/home/abi/fetcher/tmp/aespark-0.0.3.tar.gz]
+[2023-07-31 16:24:07] INFO root fetch - main [MainThread]: End processing [aespark]: success
+[2023-07-31 16:24:08] INFO root fetch - processPackages [gfatpy]: Remove: archive file [/home/abi/fetcher/tmp/gfatpy-0.7.0.tar.gz]
+[2023-07-31 16:24:08] INFO root fetch - processPackages [gfatpy]: Remove: archive file [/home/abi/fetcher/tmp/gfatpy-0.8.0.tar.gz]
+[2023-07-31 16:24:08] INFO root fetch - main [MainThread]: End processing [gfatpy]: success
+[2023-07-31 16:24:10] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev9.tar.gz]
+[2023-07-31 16:24:10] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.1.tar.gz]
+[2023-07-31 16:24:10] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-31 16:24:10] INFO root fetch - main [MainThread]: Store serial: [19108748]
