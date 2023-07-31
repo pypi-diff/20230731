@@ -5053,3 +5053,60 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 03:51:12] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.8.0b2.tar.gz]
 [2023-07-31 03:51:12] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2023-07-31 03:51:12] INFO root fetch - main [MainThread]: Store serial: [19101772]
+[2023-07-31 03:56:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19101772]
+[2023-07-31 03:56:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-31 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wizlib
+[2023-07-31 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: our1314
+[2023-07-31 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py3afipws
+[2023-07-31 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py3seed
+[2023-07-31 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentagenda
+[2023-07-31 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pretext
+[2023-07-31 03:56:21] INFO root fetch - processPackages [py3afipws]: New version: [0.9] Old Version: [0.8]
+[2023-07-31 03:56:21] INFO root fetch - processPackages [wizlib]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-31 03:56:21] INFO root fetch - processPackages [agentagenda]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 03:56:21] INFO root fetch - processPackages [our1314]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 03:56:21] INFO root fetch - processPackages [py3afipws]: Downloading https://files.pythonhosted.org/packages/26/9c/55a2db724d4f00c20c52d30ce41b9ef31bbaf3a430be474ccd4abc5ca35b/py3afipws-0.8.tar.gz
+[2023-07-31 03:56:21] INFO root fetch - processPackages [agentagenda]: Downloading https://files.pythonhosted.org/packages/60/cb/d7aa7ada31736c89c11b5617793d997899f022b7ea082b6ed1b6cde1dfd6/agentagenda-0.0.8.tar.gz
+[2023-07-31 03:56:21] INFO root fetch - processPackages [pretext]: New version: [1.7.4.dev20230729] Old Version: [1.7.4]
+[2023-07-31 03:56:21] INFO root fetch - processPackages [py3seed]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-31 03:56:21] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/dd/4b/fb5c04b974e954182b3b8adc3e38e4ac4deefd1c4e9afd25ee21a6fd4dd7/our1314-0.1.8.tar.gz
+[2023-07-31 03:56:21] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/91/18/9e501d53b177aeb8b9f05e51e716457aa006f580a088afb22732d817087e/wizlib-0.9.0.tar.gz
+[2023-07-31 03:56:21] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/0d/f4/75bbc228d7b9b838befcb5224b6527bd1f19a022b42ae7e9d56f7fb96bd1/pretext-1.7.4.tar.gz
+[2023-07-31 03:56:21] INFO root fetch - processPackages [agentagenda]: Downloading https://files.pythonhosted.org/packages/60/7c/9db6ff6e0a5a0520219aca56f8cb0c903c1cc8268dc95797861ad6973d3a/agentagenda-0.0.9.tar.gz
+[2023-07-31 03:56:21] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/55/f6/4b784b789fd73e802a4e9ffd94ee078e6c5bfe10f1af9eef09ebf88f86fb/py3seed-0.2.4.tar.gz
+[2023-07-31 03:56:21] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/a5/2d/20df8e686de75225e2e8d244304dff78378aaf46c98f0a3357d326fe7000/our1314-0.1.9.tar.gz
+[2023-07-31 03:56:21] INFO root fetch - processPackages [py3afipws]: Downloading https://files.pythonhosted.org/packages/bf/0a/77d5139345fe1a5dffb19796581eabaa35788265e72d813b59856e733a9f/py3afipws-0.9.tar.gz
+[2023-07-31 03:56:21] INFO root fetch - processPackages [agentagenda]: executing diffoscope
+[2023-07-31 03:56:21] INFO root fetch - processPackages [agentagenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentagenda-0.0.8.tar.gz tmp/agentagenda-0.0.9.tar.gz --markdown 20230731/a/agentagenda/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 03:56:21] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-07-31 03:56:21] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.1.8.tar.gz tmp/our1314-0.1.9.tar.gz --markdown 20230731/o/our1314/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 03:56:21] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/96/fb/2437f6c34adda278cc36fc1668b92770104843b7ef05e138e6e7e1d98053/wizlib-0.9.1.tar.gz
+[2023-07-31 03:56:21] INFO root fetch - processPackages [wizlib]: executing diffoscope
+[2023-07-31 03:56:21] INFO root fetch - processPackages [wizlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizlib-0.9.0.tar.gz tmp/wizlib-0.9.1.tar.gz --markdown 20230731/w/wizlib/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-31 03:56:21] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/f9/8d/ed0fcdd31f16d2a8a5532833daffa7f287b34e71e6d323a5637dfc83aa91/py3seed-0.2.5.tar.gz
+[2023-07-31 03:56:21] INFO root fetch - processPackages [py3afipws]: executing diffoscope
+[2023-07-31 03:56:21] INFO root fetch - processPackages [py3afipws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3afipws-0.8.tar.gz tmp/py3afipws-0.9.tar.gz --markdown 20230731/p/py3afipws/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-31 03:56:21] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-07-31 03:56:21] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.2.4.tar.gz tmp/py3seed-0.2.5.tar.gz --markdown 20230731/p/py3seed/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-31 03:56:22] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/d2/20/1fbdb1873bb5b59829d439a0f21c8c797a22ca650fbe8e507943c3eee231/pretext-1.7.4.dev20230729.tar.gz
+[2023-07-31 03:56:22] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-07-31 03:56:22] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.4.tar.gz tmp/pretext-1.7.4.dev20230729.tar.gz --markdown 20230731/p/pretext/1.7.4-1.7.4.dev20230729/diff.md --exclude *.pyd
+[2023-07-31 03:56:22] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.9.0.tar.gz]
+[2023-07-31 03:56:22] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.9.1.tar.gz]
+[2023-07-31 03:56:22] INFO root fetch - main [MainThread]: End processing [wizlib]: success
+[2023-07-31 03:56:22] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.8.tar.gz]
+[2023-07-31 03:56:22] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.9.tar.gz]
+[2023-07-31 03:56:22] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-07-31 03:56:22] INFO root fetch - processPackages [agentagenda]: Remove: archive file [/home/abi/fetcher/tmp/agentagenda-0.0.8.tar.gz]
+[2023-07-31 03:56:22] INFO root fetch - processPackages [agentagenda]: Remove: archive file [/home/abi/fetcher/tmp/agentagenda-0.0.9.tar.gz]
+[2023-07-31 03:56:22] INFO root fetch - main [MainThread]: End processing [agentagenda]: success
+[2023-07-31 03:56:22] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.2.4.tar.gz]
+[2023-07-31 03:56:22] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.2.5.tar.gz]
+[2023-07-31 03:56:22] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-07-31 03:56:23] INFO root fetch - processPackages [py3afipws]: Remove: archive file [/home/abi/fetcher/tmp/py3afipws-0.8.tar.gz]
+[2023-07-31 03:56:23] INFO root fetch - processPackages [py3afipws]: Remove: archive file [/home/abi/fetcher/tmp/py3afipws-0.9.tar.gz]
+[2023-07-31 03:56:23] INFO root fetch - main [MainThread]: End processing [py3afipws]: success
+[2023-07-31 03:56:25] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.4.tar.gz]
+[2023-07-31 03:56:25] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.4.dev20230729.tar.gz]
+[2023-07-31 03:56:25] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-07-31 03:56:25] INFO root fetch - main [MainThread]: Store serial: [19101791]
