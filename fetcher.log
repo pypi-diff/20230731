@@ -13521,3 +13521,211 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 11:44:28] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.5.9.tar.gz]
 [2023-07-31 11:44:28] INFO root fetch - main [MainThread]: End processing [starwhale]: success
 [2023-07-31 11:44:28] INFO root fetch - main [MainThread]: Store serial: [19105495]
+[2023-07-31 11:49:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19105495]
+[2023-07-31 11:49:37] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-31 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antibp3
+[2023-07-31 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exotic-miri
+[2023-07-31 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thyroid-model-damir
+[2023-07-31 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deker-tools
+[2023-07-31 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: byquant
+[2023-07-31 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liangutil
+[2023-07-31 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: melvant
+[2023-07-31 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gcodeparser
+[2023-07-31 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oneat
+[2023-07-31 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyko-sdk
+[2023-07-31 11:49:38] INFO root fetch - processPackages [deker-tools]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-07-31 11:49:38] WARNING root fetch - processPackages [melvant]: Skipping, unable to determine old version
+[2023-07-31 11:49:38] INFO root fetch - processPackages [melvant]: Start processing: run-one
+[2023-07-31 11:49:38] INFO root fetch - main [MainThread]: End processing [melvant] error
+[2023-07-31 11:49:38] INFO root fetch - processPackages [hyko-sdk]: New version: [0.3.0b2] Old Version: [0.3.0b1]
+[2023-07-31 11:49:38] INFO root fetch - processPackages [antibp3]: New version: [1.3] Old Version: [1.2]
+[2023-07-31 11:49:38] INFO root fetch - processPackages [exotic-miri]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-07-31 11:49:38] WARNING root fetch - processPackages [liangutil]: Skipping, unable to determine old version
+[2023-07-31 11:49:38] INFO root fetch - processPackages [liangutil]: Start processing: antibp3
+[2023-07-31 11:49:38] INFO root fetch - main [MainThread]: End processing [liangutil] error
+[2023-07-31 11:49:38] INFO root fetch - processPackages [gcodeparser]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-31 11:49:38] INFO root fetch - processPackages [byquant]: New version: [1.7.33] Old Version: [1.6.29]
+[2023-07-31 11:49:38] INFO root fetch - processPackages [thyroid-model-damir]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 11:49:38] INFO root fetch - processPackages [run-one]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-31 11:49:38] INFO root fetch - processPackages [oneat]: New version: [6.3.0] Old Version: [6.2.4]
+[2023-07-31 11:49:38] INFO root fetch - processPackages [antibp3]: New version: [1.3] Old Version: [1.2]
+[2023-07-31 11:49:38] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/24/b9/91d67f4f72c4fd3a8dc0664f26c87d9b4981d8752e843c953ad9947a7c37/hyko_sdk-0.3.0b1.tar.gz
+[2023-07-31 11:49:38] INFO root fetch - processPackages [deker-tools]: Downloading https://files.pythonhosted.org/packages/ee/e2/f97f6a9dd9a022b75deb00f32a9edbddc294fbb6ce7f7829ee9d557c53c5/deker_tools-1.0.0b1.tar.gz
+[2023-07-31 11:49:38] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/2f/81/16be70a0cd3c0b64b8eb8ede6b689146a47c0ef19e1c9460f9a8e835a272/oneat-6.2.4.tar.gz
+[2023-07-31 11:49:38] INFO root fetch - processPackages [antibp3]: Downloading https://files.pythonhosted.org/packages/1f/06/c08b8a914274b1ff14f407685a520ed0571b5899268a52026c1596ed534b/antibp3-1.2.tar.gz
+[2023-07-31 11:49:38] INFO root fetch - processPackages [antibp3]: Downloading https://files.pythonhosted.org/packages/1f/06/c08b8a914274b1ff14f407685a520ed0571b5899268a52026c1596ed534b/antibp3-1.2.tar.gz
+[2023-07-31 11:49:38] INFO root fetch - processPackages [thyroid-model-damir]: Downloading https://files.pythonhosted.org/packages/8a/74/e82ecb8393122cb7f90679def049fcb969c0812d24808b98e0ef643d23ed/thyroid_model_damir-0.1.1.tar.gz
+[2023-07-31 11:49:38] INFO root fetch - processPackages [gcodeparser]: Downloading https://files.pythonhosted.org/packages/3f/9f/59639bd09a7e92f4732c082359b2c684d52e0446dd9132d298a40671dac1/gcodeparser-0.0.9.tar.gz
+[2023-07-31 11:49:38] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/46/54/6ea8b670633107265c52999ea7fd00f142925ce7eb69add33686a788db35/byquant-1.6.29.tar.gz
+[2023-07-31 11:49:38] WARNING root fetch - processPackages [antibp3]: Skipping package: exceeds size limit 38221524>=10485760
+[2023-07-31 11:49:38] INFO root fetch - processPackages [antibp3]: Start processing: edxval
+[2023-07-31 11:49:38] INFO root fetch - main [MainThread]: End processing [antibp3] error
+[2023-07-31 11:49:38] INFO root fetch - processPackages [run-one]: Downloading https://files.pythonhosted.org/packages/dd/c7/18dd6f2329edfd302c1f5585106fcd5ae68753ad6afe0140752c241cd2cd/run_one-1.0.8.tar.gz
+[2023-07-31 11:49:38] WARNING root fetch - processPackages [antibp3]: Skipping package: exceeds size limit 38221524>=10485760
+[2023-07-31 11:49:38] INFO root fetch - processPackages [antibp3]: Start processing: daktari
+[2023-07-31 11:49:38] INFO root fetch - main [MainThread]: End processing [antibp3] error
+[2023-07-31 11:49:38] INFO root fetch - processPackages [exotic-miri]: Downloading https://files.pythonhosted.org/packages/8a/9a/0442045ec819e1471056fc10c49cfa0169027492fd7adfc15ca87c550d2b/exotic-miri-0.0.1.tar.gz
+[2023-07-31 11:49:38] INFO root fetch - processPackages [edxval]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-31 11:49:38] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 11:49:38] INFO root fetch - processPackages [deker-tools]: Downloading https://files.pythonhosted.org/packages/e7/e1/e93d64e396ba6bd254615840aba449efad3558f26a605ed526650bf8f991/deker_tools-1.0.0b2.tar.gz
+[2023-07-31 11:49:38] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/e6/18/27cdec937f5cd4b6d9eed6ba22fee46d97bf9fad664b44ee0c5d061f2b72/hyko_sdk-0.3.0b2.tar.gz
+[2023-07-31 11:49:38] INFO root fetch - processPackages [edxval]: Downloading https://files.pythonhosted.org/packages/e5/b1/a1552a09d070d4a45fbead57d11db43922246d6f7232d2897095f2953b52/edxval-2.3.0.tar.gz
+[2023-07-31 11:49:38] INFO root fetch - processPackages [gcodeparser]: Downloading https://files.pythonhosted.org/packages/89/3f/23bf6848a66d5c269b91203129f2c1f6d70615deac4269378d4ca89a679e/gcodeparser-0.1.0.tar.gz
+[2023-07-31 11:49:38] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/3a/6f/57cedd11d2ecac8caa71bb7df7102cd3b88e9742e65d3e962e93844fbc30/oneat-6.3.0.tar.gz
+[2023-07-31 11:49:38] INFO root fetch - processPackages [thyroid-model-damir]: Downloading https://files.pythonhosted.org/packages/02/48/56bc6d69c46d007ea92361d0b1ac33e0ecc344ca843c22478d23115f8b3a/thyroid_model_damir-0.1.2.tar.gz
+[2023-07-31 11:49:39] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2023-07-31 11:49:39] INFO root fetch - processPackages [run-one]: Downloading https://files.pythonhosted.org/packages/c1/26/bbda3d9d6d651d65052273ca0c0105354d890b838f1d84115820ce2af8b8/run_one-1.0.9.tar.gz
+[2023-07-31 11:49:39] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/66/7c/d4590373c43a2e9c260130e745f31db672f5308da5369d5548aeeabcee5a/byquant-1.7.33-py3-none-any.whl
+[2023-07-31 11:49:39] INFO root fetch - processPackages [deker-tools]: executing diffoscope
+[2023-07-31 11:49:39] INFO root fetch - processPackages [deker-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deker_tools-1.0.0b1.tar.gz tmp/deker_tools-1.0.0b2.tar.gz --markdown 20230731/d/deker-tools/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-07-31 11:49:39] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-07-31 11:49:39] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.3.0b1.tar.gz tmp/hyko_sdk-0.3.0b2.tar.gz --markdown 20230731/h/hyko-sdk/0.3.0b1-0.3.0b2/diff.md --exclude *.pyd
+[2023-07-31 11:49:39] INFO root fetch - processPackages [exotic-miri]: Downloading https://files.pythonhosted.org/packages/55/26/2f5ff3dfa6b4cd92ae6e68d7c47f19e80531e5e38fa3ce0bd616f7734e12/exotic-miri-1.0.0.tar.gz
+[2023-07-31 11:49:39] INFO root fetch - processPackages [gcodeparser]: executing diffoscope
+[2023-07-31 11:49:39] INFO root fetch - processPackages [gcodeparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcodeparser-0.0.9.tar.gz tmp/gcodeparser-0.1.0.tar.gz --markdown 20230731/g/gcodeparser/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-31 11:49:39] INFO root fetch - processPackages [run-one]: executing diffoscope
+[2023-07-31 11:49:39] INFO root fetch - processPackages [run-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/run_one-1.0.8.tar.gz tmp/run_one-1.0.9.tar.gz --markdown 20230731/r/run-one/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 11:49:39] INFO root fetch - processPackages [thyroid-model-damir]: executing diffoscope
+[2023-07-31 11:49:39] INFO root fetch - processPackages [thyroid-model-damir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thyroid_model_damir-0.1.1.tar.gz tmp/thyroid_model_damir-0.1.2.tar.gz --markdown 20230731/t/thyroid-model-damir/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 11:49:39] INFO root fetch - processPackages [exotic-miri]: executing diffoscope
+[2023-07-31 11:49:39] INFO root fetch - processPackages [exotic-miri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exotic-miri-0.0.1.tar.gz tmp/exotic-miri-1.0.0.tar.gz --markdown 20230731/e/exotic-miri/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-31 11:49:39] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-31 11:49:39] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-6.2.4.tar.gz tmp/oneat-6.3.0.tar.gz --markdown 20230731/o/oneat/6.2.4-6.3.0/diff.md --exclude *.pyd
+[2023-07-31 11:49:39] INFO root fetch - processPackages [byquant]: executing diffoscope
+[2023-07-31 11:49:39] INFO root fetch - processPackages [byquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byquant-1.6.29.tar.gz tmp/byquant-1.7.33-py3-none-any.whl.zip --markdown 20230731/b/byquant/1.6.29-1.7.33/diff.md --exclude *.pyd
+[2023-07-31 11:49:39] INFO root fetch - processPackages [edxval]: Downloading https://files.pythonhosted.org/packages/ae/83/99319843ee3f212cb8b948afa3249b868792e9ca4281c5757230efac7368/edxval-2.4.0.tar.gz
+[2023-07-31 11:49:39] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2023-07-31 11:49:39] INFO root fetch - processPackages [edxval]: executing diffoscope
+[2023-07-31 11:49:39] INFO root fetch - processPackages [edxval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edxval-2.3.0.tar.gz tmp/edxval-2.4.0.tar.gz --markdown 20230731/e/edxval/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-31 11:49:39] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-07-31 11:49:39] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20230731/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 11:49:40] INFO root fetch - processPackages [run-one]: Remove: archive file [/home/abi/fetcher/tmp/run_one-1.0.8.tar.gz]
+[2023-07-31 11:49:40] INFO root fetch - processPackages [run-one]: Remove: archive file [/home/abi/fetcher/tmp/run_one-1.0.9.tar.gz]
+[2023-07-31 11:49:40] INFO root fetch - processPackages [run-one]: Start processing: FJUtils
+[2023-07-31 11:49:40] INFO root fetch - main [MainThread]: End processing [run-one]: success
+[2023-07-31 11:49:40] INFO root fetch - processPackages [FJUtils]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-31 11:49:40] INFO root fetch - processPackages [deker-tools]: Remove: archive file [/home/abi/fetcher/tmp/deker_tools-1.0.0b1.tar.gz]
+[2023-07-31 11:49:40] INFO root fetch - processPackages [deker-tools]: Remove: archive file [/home/abi/fetcher/tmp/deker_tools-1.0.0b2.tar.gz]
+[2023-07-31 11:49:40] INFO root fetch - processPackages [deker-tools]: Start processing: rqdatac
+[2023-07-31 11:49:40] INFO root fetch - main [MainThread]: End processing [deker-tools]: success
+[2023-07-31 11:49:40] INFO root fetch - processPackages [thyroid-model-damir]: Remove: archive file [/home/abi/fetcher/tmp/thyroid_model_damir-0.1.1.tar.gz]
+[2023-07-31 11:49:40] INFO root fetch - processPackages [thyroid-model-damir]: Remove: archive file [/home/abi/fetcher/tmp/thyroid_model_damir-0.1.2.tar.gz]
+[2023-07-31 11:49:40] INFO root fetch - processPackages [thyroid-model-damir]: Start processing: iseqcbioportal
+[2023-07-31 11:49:40] INFO root fetch - main [MainThread]: End processing [thyroid-model-damir]: success
+[2023-07-31 11:49:40] INFO root fetch - processPackages [gcodeparser]: Remove: archive file [/home/abi/fetcher/tmp/gcodeparser-0.0.9.tar.gz]
+[2023-07-31 11:49:40] INFO root fetch - processPackages [gcodeparser]: Remove: archive file [/home/abi/fetcher/tmp/gcodeparser-0.1.0.tar.gz]
+[2023-07-31 11:49:40] INFO root fetch - processPackages [rqdatac]: New version: [2.9.8] Old Version: [2.9.7]
+[2023-07-31 11:49:40] INFO root fetch - processPackages [gcodeparser]: Start processing: elody
+[2023-07-31 11:49:40] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.3.0b1.tar.gz]
+[2023-07-31 11:49:40] INFO root fetch - main [MainThread]: End processing [gcodeparser]: success
+[2023-07-31 11:49:40] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.3.0b2.tar.gz]
+[2023-07-31 11:49:40] INFO root fetch - processPackages [hyko-sdk]: Start processing: libsql-experimental
+[2023-07-31 11:49:40] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-07-31 11:49:41] INFO root fetch - processPackages [iseqcbioportal]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [elody]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [FJUtils]: Downloading https://files.pythonhosted.org/packages/ea/4d/c18665a71c03bdeb02036824947d3c6a1ada9993e4765b7d44350b8ebc33/FJUtils-0.0.6.tar.gz
+[2023-07-31 11:49:41] INFO root fetch - processPackages [edxval]: Remove: archive file [/home/abi/fetcher/tmp/edxval-2.3.0.tar.gz]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [edxval]: Remove: archive file [/home/abi/fetcher/tmp/edxval-2.4.0.tar.gz]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [edxval]: Start processing: casavo-log-formatter
+[2023-07-31 11:49:41] INFO root fetch - main [MainThread]: End processing [edxval]: success
+[2023-07-31 11:49:41] INFO root fetch - processPackages [exotic-miri]: Remove: archive file [/home/abi/fetcher/tmp/exotic-miri-0.0.1.tar.gz]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [exotic-miri]: Remove: archive file [/home/abi/fetcher/tmp/exotic-miri-1.0.0.tar.gz]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [exotic-miri]: Start processing: pbs-builder
+[2023-07-31 11:49:41] INFO root fetch - main [MainThread]: End processing [exotic-miri]: success
+[2023-07-31 11:49:41] INFO root fetch - processPackages [libsql-experimental]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [casavo-log-formatter]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [pbs-builder]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [libsql-experimental]: Downloading https://files.pythonhosted.org/packages/74/f0/765ad90b5caccc4498c34c0ab8ffe03274c6d0543c2d5c1b3a14d868dc51/libsql_experimental-0.0.2.tar.gz
+[2023-07-31 11:49:41] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/90/b6/591b01b456b98874d6e034b98d6ec3812de60b8dc0e73b29d834f8b185ba/rqdatac-2.9.7-cp38-cp38-win_amd64.whl
+[2023-07-31 11:49:41] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [daktari]: Start processing: unit-python-sdk
+[2023-07-31 11:49:41] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-07-31 11:49:41] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/14/85/dcf8ab018bbc225f911ce5f407f5d2b730dcf1cbe3c337d8c462c8444d4e/elody-0.0.8.tar.gz
+[2023-07-31 11:49:41] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.6.29.tar.gz]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.33-py3-none-any.whl.zip]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [byquant]: Start processing: aiocomfoconnect
+[2023-07-31 11:49:41] INFO root fetch - main [MainThread]: End processing [byquant]: success
+[2023-07-31 11:49:41] INFO root fetch - processPackages [iseqcbioportal]: Downloading https://files.pythonhosted.org/packages/b3/90/6647dd4ef3b26d8bfc7e0a303f0496001a746ecd99ab3c477a3749f6b3d4/iseqcbioportal-0.0.2.tar.gz
+[2023-07-31 11:49:41] INFO root fetch - processPackages [unit-python-sdk]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [pbs-builder]: Downloading https://files.pythonhosted.org/packages/99/88/98f6afbb226fa8a82995e6e0bfb46e6a93e8f2150b8f7a72e80106d43a46/pbs_builder-0.2.0.tar.gz
+[2023-07-31 11:49:41] INFO root fetch - processPackages [casavo-log-formatter]: Downloading https://files.pythonhosted.org/packages/3b/e1/dfd6b4add749083349700ae2dc46ad8091335416942d92adf33c08121cd1/casavo-log-formatter-1.0.2.tar.gz
+[2023-07-31 11:49:41] INFO root fetch - processPackages [FJUtils]: Downloading https://files.pythonhosted.org/packages/35/cb/35fe924dc412fc27fe260dd94c3c4590872a4598c8641e78681223ce7e9f/FJUtils-0.0.7.tar.gz
+[2023-07-31 11:49:41] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.2.4.tar.gz]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.3.0.tar.gz]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [oneat]: Start processing: hzdatasdk
+[2023-07-31 11:49:41] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-31 11:49:41] INFO root fetch - processPackages [aiocomfoconnect]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [hzdatasdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 11:49:41] INFO root fetch - processPackages [unit-python-sdk]: Downloading https://files.pythonhosted.org/packages/d6/29/65a1b06a6d3e1b295cf1788aee3b354863c1759f28c940d634f1648530a8/unit-python-sdk-0.9.2.tar.gz
+[2023-07-31 11:49:41] INFO root fetch - processPackages [FJUtils]: executing diffoscope
+[2023-07-31 11:49:41] INFO root fetch - processPackages [FJUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FJUtils-0.0.6.tar.gz tmp/FJUtils-0.0.7.tar.gz --markdown 20230731/F/FJUtils/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-31 11:49:41] INFO root fetch - processPackages [libsql-experimental]: Downloading https://files.pythonhosted.org/packages/8d/54/812479ac14ec28ba0d60d3b95e3c8f4d7fe13dc71b94cdde9d81fc1e9240/libsql_experimental-0.0.3.tar.gz
+[2023-07-31 11:49:41] INFO root fetch - processPackages [hzdatasdk]: Downloading https://files.pythonhosted.org/packages/0c/50/701e2c981b85f91775f5f9d3f05da14e878319dffff52094c019a89b1585/hzdatasdk-0.1.1.tar.gz
+[2023-07-31 11:49:41] INFO root fetch - processPackages [iseqcbioportal]: Downloading https://files.pythonhosted.org/packages/29/01/2ce893f387c319f1fd0250d2fa097354d38a712c7ad701dfd3ca70d97487/iseqcbioportal-0.0.3.tar.gz
+[2023-07-31 11:49:41] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/d6/cf/51051b52cdbade7aa3c185f1d7fb144e327ff1c676a67ba8d842f933df4b/rqdatac-2.9.8-cp38-cp38-win_amd64.whl
+[2023-07-31 11:49:41] INFO root fetch - processPackages [aiocomfoconnect]: Downloading https://files.pythonhosted.org/packages/1c/76/03011151c398a26079e927a1573a7f68e2b6e5a764b17b08b1c7c8a27da3/aiocomfoconnect-0.1.5.tar.gz
+[2023-07-31 11:49:41] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/99/6f/f71f54ed05b6deb367f13a4a8fb4bbcc9f25633144ffc11127b732f02e92/elody-0.0.9.tar.gz
+[2023-07-31 11:49:41] INFO root fetch - processPackages [libsql-experimental]: executing diffoscope
+[2023-07-31 11:49:41] INFO root fetch - processPackages [libsql-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsql_experimental-0.0.2.tar.gz tmp/libsql_experimental-0.0.3.tar.gz --markdown 20230731/l/libsql-experimental/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 11:49:41] INFO root fetch - processPackages [iseqcbioportal]: executing diffoscope
+[2023-07-31 11:49:41] INFO root fetch - processPackages [iseqcbioportal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iseqcbioportal-0.0.2.tar.gz tmp/iseqcbioportal-0.0.3.tar.gz --markdown 20230731/i/iseqcbioportal/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 11:49:42] INFO root fetch - processPackages [casavo-log-formatter]: Downloading https://files.pythonhosted.org/packages/59/8e/3ee2aeeaf030cc1b296bc1460491a6f2507a126e0eeb9b1fcedef213f807/casavo-log-formatter-1.0.3.tar.gz
+[2023-07-31 11:49:42] INFO root fetch - processPackages [pbs-builder]: Downloading https://files.pythonhosted.org/packages/00/c6/94cd566c1902d8ab72d0282c0a1629a85ae44b761c2cc1baaf71d4c06157/pbs_builder-0.3.0.tar.gz
+[2023-07-31 11:49:42] INFO root fetch - processPackages [casavo-log-formatter]: executing diffoscope
+[2023-07-31 11:49:42] INFO root fetch - processPackages [casavo-log-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casavo-log-formatter-1.0.2.tar.gz tmp/casavo-log-formatter-1.0.3.tar.gz --markdown 20230731/c/casavo-log-formatter/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-31 11:49:42] INFO root fetch - processPackages [rqdatac]: executing diffoscope
+[2023-07-31 11:49:42] INFO root fetch - processPackages [rqdatac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqdatac-2.9.7-cp38-cp38-win_amd64.whl.zip tmp/rqdatac-2.9.8-cp38-cp38-win_amd64.whl.zip --markdown 20230731/r/rqdatac/2.9.7-2.9.8/diff.md --exclude *.pyd
+[2023-07-31 11:49:42] INFO root fetch - processPackages [hzdatasdk]: Downloading https://files.pythonhosted.org/packages/d0/a7/57992d24379decfdc1bae470595f81e09998cc1a490d0145e84a8cf40dd9/hzdatasdk-0.1.2.tar.gz
+[2023-07-31 11:49:42] INFO root fetch - processPackages [pbs-builder]: executing diffoscope
+[2023-07-31 11:49:42] INFO root fetch - processPackages [pbs-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbs_builder-0.2.0.tar.gz tmp/pbs_builder-0.3.0.tar.gz --markdown 20230731/p/pbs-builder/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-31 11:49:42] INFO root fetch - processPackages [elody]: executing diffoscope
+[2023-07-31 11:49:42] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.8.tar.gz tmp/elody-0.0.9.tar.gz --markdown 20230731/e/elody/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 11:49:42] INFO root fetch - processPackages [unit-python-sdk]: Downloading https://files.pythonhosted.org/packages/59/11/edd1becb5a2350e8f84e58b77c96c0c1a77d29431195b2ac123f24f25981/unit-python-sdk-0.9.3.tar.gz
+[2023-07-31 11:49:42] INFO root fetch - processPackages [hzdatasdk]: executing diffoscope
+[2023-07-31 11:49:42] INFO root fetch - processPackages [hzdatasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hzdatasdk-0.1.1.tar.gz tmp/hzdatasdk-0.1.2.tar.gz --markdown 20230731/h/hzdatasdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 11:49:42] INFO root fetch - processPackages [aiocomfoconnect]: Downloading https://files.pythonhosted.org/packages/32/b0/7ea8b1c58f4515cac2a0b4c652150a822189d956f560a7b552273264e562/aiocomfoconnect-0.1.6.tar.gz
+[2023-07-31 11:49:42] INFO root fetch - processPackages [unit-python-sdk]: executing diffoscope
+[2023-07-31 11:49:42] INFO root fetch - processPackages [unit-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unit-python-sdk-0.9.2.tar.gz tmp/unit-python-sdk-0.9.3.tar.gz --markdown 20230731/u/unit-python-sdk/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-31 11:49:42] INFO root fetch - processPackages [aiocomfoconnect]: executing diffoscope
+[2023-07-31 11:49:42] INFO root fetch - processPackages [aiocomfoconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocomfoconnect-0.1.5.tar.gz tmp/aiocomfoconnect-0.1.6.tar.gz --markdown 20230731/a/aiocomfoconnect/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-31 11:49:42] INFO root fetch - processPackages [FJUtils]: Remove: archive file [/home/abi/fetcher/tmp/FJUtils-0.0.6.tar.gz]
+[2023-07-31 11:49:42] INFO root fetch - processPackages [FJUtils]: Remove: archive file [/home/abi/fetcher/tmp/FJUtils-0.0.7.tar.gz]
+[2023-07-31 11:49:42] INFO root fetch - processPackages [FJUtils]: Start processing: phylo-treetime
+[2023-07-31 11:49:42] INFO root fetch - main [MainThread]: End processing [FJUtils]: success
+[2023-07-31 11:49:43] INFO root fetch - processPackages [phylo-treetime]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-31 11:49:43] INFO root fetch - processPackages [libsql-experimental]: Remove: archive file [/home/abi/fetcher/tmp/libsql_experimental-0.0.2.tar.gz]
+[2023-07-31 11:49:43] INFO root fetch - processPackages [libsql-experimental]: Remove: archive file [/home/abi/fetcher/tmp/libsql_experimental-0.0.3.tar.gz]
+[2023-07-31 11:49:43] INFO root fetch - main [MainThread]: End processing [libsql-experimental]: success
+[2023-07-31 11:49:43] INFO root fetch - processPackages [phylo-treetime]: Downloading https://files.pythonhosted.org/packages/ea/bd/acefc9304c312e1b3ad9d6015d104ce7d683c6090ba01111ce67dd739ddf/phylo-treetime-0.9.5.tar.gz
+[2023-07-31 11:49:43] INFO root fetch - processPackages [pbs-builder]: Remove: archive file [/home/abi/fetcher/tmp/pbs_builder-0.2.0.tar.gz]
+[2023-07-31 11:49:43] INFO root fetch - processPackages [pbs-builder]: Remove: archive file [/home/abi/fetcher/tmp/pbs_builder-0.3.0.tar.gz]
+[2023-07-31 11:49:43] INFO root fetch - main [MainThread]: End processing [pbs-builder]: success
+[2023-07-31 11:49:43] INFO root fetch - processPackages [iseqcbioportal]: Remove: archive file [/home/abi/fetcher/tmp/iseqcbioportal-0.0.2.tar.gz]
+[2023-07-31 11:49:43] INFO root fetch - processPackages [iseqcbioportal]: Remove: archive file [/home/abi/fetcher/tmp/iseqcbioportal-0.0.3.tar.gz]
+[2023-07-31 11:49:43] INFO root fetch - main [MainThread]: End processing [iseqcbioportal]: success
+[2023-07-31 11:49:43] INFO root fetch - processPackages [casavo-log-formatter]: Remove: archive file [/home/abi/fetcher/tmp/casavo-log-formatter-1.0.2.tar.gz]
+[2023-07-31 11:49:43] INFO root fetch - processPackages [casavo-log-formatter]: Remove: archive file [/home/abi/fetcher/tmp/casavo-log-formatter-1.0.3.tar.gz]
+[2023-07-31 11:49:43] INFO root fetch - main [MainThread]: End processing [casavo-log-formatter]: success
+[2023-07-31 11:49:43] INFO root fetch - processPackages [phylo-treetime]: Downloading https://files.pythonhosted.org/packages/d1/8b/db9a33464169598797ef1027f1c13be489da62bd4d9040902af47644e300/phylo-treetime-0.9.6.tar.gz
+[2023-07-31 11:49:43] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.8.tar.gz]
+[2023-07-31 11:49:43] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.9.tar.gz]
+[2023-07-31 11:49:43] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2023-07-31 11:49:43] INFO root fetch - processPackages [hzdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/hzdatasdk-0.1.1.tar.gz]
+[2023-07-31 11:49:43] INFO root fetch - processPackages [hzdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/hzdatasdk-0.1.2.tar.gz]
+[2023-07-31 11:49:43] INFO root fetch - main [MainThread]: End processing [hzdatasdk]: success
+[2023-07-31 11:49:43] INFO root fetch - processPackages [phylo-treetime]: executing diffoscope
+[2023-07-31 11:49:43] INFO root fetch - processPackages [phylo-treetime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylo-treetime-0.9.5.tar.gz tmp/phylo-treetime-0.9.6.tar.gz --markdown 20230731/p/phylo-treetime/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-31 11:49:43] INFO root fetch - processPackages [aiocomfoconnect]: Remove: archive file [/home/abi/fetcher/tmp/aiocomfoconnect-0.1.5.tar.gz]
+[2023-07-31 11:49:43] INFO root fetch - processPackages [aiocomfoconnect]: Remove: archive file [/home/abi/fetcher/tmp/aiocomfoconnect-0.1.6.tar.gz]
+[2023-07-31 11:49:43] INFO root fetch - main [MainThread]: End processing [aiocomfoconnect]: success
+[2023-07-31 11:49:44] INFO root fetch - processPackages [unit-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unit-python-sdk-0.9.2.tar.gz]
+[2023-07-31 11:49:44] INFO root fetch - processPackages [unit-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unit-python-sdk-0.9.3.tar.gz]
+[2023-07-31 11:49:44] INFO root fetch - main [MainThread]: End processing [unit-python-sdk]: success
+[2023-07-31 11:49:44] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-2.9.7-cp38-cp38-win_amd64.whl.zip]
+[2023-07-31 11:49:44] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-2.9.8-cp38-cp38-win_amd64.whl.zip]
+[2023-07-31 11:49:44] INFO root fetch - main [MainThread]: End processing [rqdatac]: success
+[2023-07-31 11:49:44] INFO root fetch - processPackages [phylo-treetime]: Remove: archive file [/home/abi/fetcher/tmp/phylo-treetime-0.9.5.tar.gz]
+[2023-07-31 11:49:44] INFO root fetch - processPackages [phylo-treetime]: Remove: archive file [/home/abi/fetcher/tmp/phylo-treetime-0.9.6.tar.gz]
+[2023-07-31 11:49:44] INFO root fetch - main [MainThread]: End processing [phylo-treetime]: success
+[2023-07-31 11:49:44] INFO root fetch - main [MainThread]: Store serial: [19105612]
