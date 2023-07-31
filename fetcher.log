@@ -10081,3 +10081,91 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 09:31:02] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-07-31 09:31:02] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-07-31 09:31:02] INFO root fetch - main [MainThread]: Store serial: [19104038]
+[2023-07-31 09:36:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19104038]
+[2023-07-31 09:36:11] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-31 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: v2rayp
+[2023-07-31 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sapientml
+[2023-07-31 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygenlib
+[2023-07-31 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: byquant
+[2023-07-31 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyhyypapihawkmod
+[2023-07-31 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sapientml
+[2023-07-31 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raga-testing-platform
+[2023-07-31 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pygenlib
+[2023-07-31 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shaku-database
+[2023-07-31 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyansys
+[2023-07-31 09:36:11] INFO root fetch - processPackages [sapientml]: New version: [0.1.2.post0] Old Version: [0.1.2]
+[2023-07-31 09:36:11] INFO root fetch - processPackages [pyhyypapihawkmod]: New version: [1.3.0b4] Old Version: [1.3.0b3]
+[2023-07-31 09:36:11] INFO root fetch - processPackages [byquant]: New version: [1.7.32] Old Version: [1.7.31]
+[2023-07-31 09:36:11] INFO root fetch - processPackages [sapientml]: New version: [0.1.2.post0] Old Version: [0.1.2]
+[2023-07-31 09:36:11] WARNING root fetch - processPackages [v2rayp]: Skipping, unable to determine old version
+[2023-07-31 09:36:11] INFO root fetch - processPackages [v2rayp]: Start processing: lalsuite
+[2023-07-31 09:36:11] INFO root fetch - main [MainThread]: End processing [v2rayp] error
+[2023-07-31 09:36:11] INFO root fetch - processPackages [pygenlib]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-31 09:36:11] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-31 09:36:11] INFO root fetch - processPackages [pygenlib]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-31 09:36:11] INFO root fetch - processPackages [shaku-database]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-07-31 09:36:11] INFO root fetch - processPackages [pyansys]: New version: [2023.2rc2] Old Version: [2023.2rc1]
+[2023-07-31 09:36:11] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-07-31 09:36:11] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/17/e2/09fa06292418228bd24a51fc68cd10e01d077fd0e3707c8c7ca5a0d056ab/byquant-1.7.31.tar.gz
+[2023-07-31 09:36:11] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/e1/43/cbdf672ebd9b3ca7e5099661d14867ececfff13d4ae32612241ff0203b6d/pyhyypapihawkmod-1.3.0b3.tar.gz
+[2023-07-31 09:36:11] INFO root fetch - processPackages [sapientml]: Downloading https://files.pythonhosted.org/packages/df/5e/ba24618fc0ed14a29787dc02e98410396d2301033e254a1379275a657014/sapientml-0.1.2.tar.gz
+[2023-07-31 09:36:11] INFO root fetch - processPackages [sapientml]: Downloading https://files.pythonhosted.org/packages/df/5e/ba24618fc0ed14a29787dc02e98410396d2301033e254a1379275a657014/sapientml-0.1.2.tar.gz
+[2023-07-31 09:36:11] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-31 09:36:12] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/43/b9/084e00e6ab3288ab01bdc8c965295f6cf92dbcc46f9d3246b62d1e3fc526/pygenlib-0.0.2.tar.gz
+[2023-07-31 09:36:12] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/43/b9/084e00e6ab3288ab01bdc8c965295f6cf92dbcc46f9d3246b62d1e3fc526/pygenlib-0.0.2.tar.gz
+[2023-07-31 09:36:12] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-07-31 09:36:12] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-07-31 09:36:12] INFO root fetch - processPackages [pyansys]: Downloading https://files.pythonhosted.org/packages/e4/1c/baa52dd3dde1a1be58a378c78ee45e529c742142fecaeb6adf8034a311b4/pyansys-2023.2rc1.tar.gz
+[2023-07-31 09:36:12] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-07-31 09:36:12] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/36/5a/d6f22376a6c4f5c47051a5753f0e8c0710396fac6c5c014e9b4b7f35dda7/shaku-database-1.1.6.tar.gz
+[2023-07-31 09:36:12] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/86/dc/4c9f8b5412ffd12c985e2930f03b4671c0fda56a1767aa2110d209cb9859/pyhyypapihawkmod-1.3.0b4.tar.gz
+[2023-07-31 09:36:12] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/e9/c7/d3f971b5199c07dd702052055f20b377b39689d1fa17bfa8e5dcfa177bff/byquant-1.7.32.tar.gz
+[2023-07-31 09:36:12] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/cb/ad/92e95e52c18d910fddd3dc253ba76d73ac34185cb789705215ab35bbf935/pygenlib-0.1.0.tar.gz
+[2023-07-31 09:36:12] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/cb/ad/92e95e52c18d910fddd3dc253ba76d73ac34185cb789705215ab35bbf935/pygenlib-0.1.0.tar.gz
+[2023-07-31 09:36:12] INFO root fetch - processPackages [sapientml]: Downloading https://files.pythonhosted.org/packages/1a/1a/9ba52ba7514a9e756f9f5ae4130efb7ed54fbf909aa2a8bdb09694ae72b3/sapientml-0.1.2.post0.tar.gz
+[2023-07-31 09:36:12] INFO root fetch - processPackages [sapientml]: Downloading https://files.pythonhosted.org/packages/1a/1a/9ba52ba7514a9e756f9f5ae4130efb7ed54fbf909aa2a8bdb09694ae72b3/sapientml-0.1.2.post0.tar.gz
+[2023-07-31 09:36:12] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/f3/4e/13f3a50ec1c354ea76bcdb08638da577d6b260d1ca08384129e587b8f578/shaku-database-1.1.7.tar.gz
+[2023-07-31 09:36:12] INFO root fetch - processPackages [pyhyypapihawkmod]: executing diffoscope
+[2023-07-31 09:36:12] INFO root fetch - processPackages [pyhyypapihawkmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhyypapihawkmod-1.3.0b3.tar.gz tmp/pyhyypapihawkmod-1.3.0b4.tar.gz --markdown 20230731/p/pyhyypapihawkmod/1.3.0b3-1.3.0b4/diff.md --exclude *.pyd
+[2023-07-31 09:36:12] INFO root fetch - processPackages [pyansys]: Downloading https://files.pythonhosted.org/packages/09/02/b2298bb78469ed8bf6853548529bbc47ef3f9f9b5637160d5838e276f030/pyansys-2023.2rc2.tar.gz
+[2023-07-31 09:36:12] INFO root fetch - processPackages [pygenlib]: executing diffoscope
+[2023-07-31 09:36:12] INFO root fetch - processPackages [pygenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenlib-0.0.2.tar.gz tmp/pygenlib-0.1.0.tar.gz --markdown 20230731/p/pygenlib/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-31 09:36:12] INFO root fetch - processPackages [pygenlib]: executing diffoscope
+[2023-07-31 09:36:12] INFO root fetch - processPackages [pygenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenlib-0.0.2.tar.gz tmp/pygenlib-0.1.0.tar.gz --markdown 20230731/p/pygenlib/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-31 09:36:12] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-07-31 09:36:12] INFO root fetch - processPackages [sapientml]: executing diffoscope
+[2023-07-31 09:36:12] INFO root fetch - processPackages [sapientml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapientml-0.1.2.tar.gz tmp/sapientml-0.1.2.post0.tar.gz --markdown 20230731/s/sapientml/0.1.2-0.1.2.post0/diff.md --exclude *.pyd
+[2023-07-31 09:36:12] INFO root fetch - processPackages [sapientml]: executing diffoscope
+[2023-07-31 09:36:12] INFO root fetch - processPackages [sapientml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapientml-0.1.2.tar.gz tmp/sapientml-0.1.2.post0.tar.gz --markdown 20230731/s/sapientml/0.1.2-0.1.2.post0/diff.md --exclude *.pyd
+[2023-07-31 09:36:12] INFO root fetch - processPackages [shaku-database]: executing diffoscope
+[2023-07-31 09:36:12] INFO root fetch - processPackages [shaku-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaku-database-1.1.6.tar.gz tmp/shaku-database-1.1.7.tar.gz --markdown 20230731/s/shaku-database/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-07-31 09:36:12] INFO root fetch - processPackages [byquant]: executing diffoscope
+[2023-07-31 09:36:12] INFO root fetch - processPackages [byquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byquant-1.7.31.tar.gz tmp/byquant-1.7.32.tar.gz --markdown 20230731/b/byquant/1.7.31-1.7.32/diff.md --exclude *.pyd
+[2023-07-31 09:36:12] INFO root fetch - processPackages [pyansys]: executing diffoscope
+[2023-07-31 09:36:12] INFO root fetch - processPackages [pyansys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyansys-2023.2rc1.tar.gz tmp/pyansys-2023.2rc2.tar.gz --markdown 20230731/p/pyansys/2023.2rc1-2023.2rc2/diff.md --exclude *.pyd
+[2023-07-31 09:36:12] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-07-31 09:36:12] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230731/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 09:36:14] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.0.2.tar.gz]
+[2023-07-31 09:36:14] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.1.0.tar.gz]
+[2023-07-31 09:36:14] INFO root fetch - main [MainThread]: End processing [pygenlib]: success
+[2023-07-31 09:36:14] INFO root fetch - processPackages [pyhyypapihawkmod]: Remove: archive file [/home/abi/fetcher/tmp/pyhyypapihawkmod-1.3.0b3.tar.gz]
+[2023-07-31 09:36:14] INFO root fetch - processPackages [pyhyypapihawkmod]: Remove: archive file [/home/abi/fetcher/tmp/pyhyypapihawkmod-1.3.0b4.tar.gz]
+[2023-07-31 09:36:14] INFO root fetch - main [MainThread]: End processing [pyhyypapihawkmod]: success
+[2023-07-31 09:36:14] INFO root fetch - main [MainThread]: End processing [pygenlib]: success
+[2023-07-31 09:36:14] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.1.6.tar.gz]
+[2023-07-31 09:36:14] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.1.7.tar.gz]
+[2023-07-31 09:36:14] INFO root fetch - main [MainThread]: End processing [shaku-database]: success
+[2023-07-31 09:36:14] INFO root fetch - processPackages [sapientml]: Remove: archive file [/home/abi/fetcher/tmp/sapientml-0.1.2.tar.gz]
+[2023-07-31 09:36:14] INFO root fetch - processPackages [sapientml]: Remove: archive file [/home/abi/fetcher/tmp/sapientml-0.1.2.post0.tar.gz]
+[2023-07-31 09:36:14] INFO root fetch - main [MainThread]: End processing [sapientml]: success
+[2023-07-31 09:36:14] INFO root fetch - main [MainThread]: End processing [sapientml]: success
+[2023-07-31 09:36:14] INFO root fetch - processPackages [pyansys]: Remove: archive file [/home/abi/fetcher/tmp/pyansys-2023.2rc1.tar.gz]
+[2023-07-31 09:36:14] INFO root fetch - processPackages [pyansys]: Remove: archive file [/home/abi/fetcher/tmp/pyansys-2023.2rc2.tar.gz]
+[2023-07-31 09:36:14] INFO root fetch - main [MainThread]: End processing [pyansys]: success
+[2023-07-31 09:36:14] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-07-31 09:36:14] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-07-31 09:36:14] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-07-31 09:36:15] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.31.tar.gz]
+[2023-07-31 09:36:15] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.32.tar.gz]
+[2023-07-31 09:36:15] INFO root fetch - main [MainThread]: End processing [byquant]: success
+[2023-07-31 09:36:15] INFO root fetch - main [MainThread]: Store serial: [19104079]
