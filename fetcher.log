@@ -21280,3 +21280,155 @@ AssertionError: tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.z
 [2023-07-31 16:03:04] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202307301357.tar.gz]
 [2023-07-31 16:03:04] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
 [2023-07-31 16:03:04] INFO root fetch - main [MainThread]: Store serial: [19108484]
+[2023-07-31 16:08:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19108484]
+[2023-07-31 16:08:14] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-31 16:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: directdb
+[2023-07-31 16:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spirit-extras
+[2023-07-31 16:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Aspose.Email-for-Python-via-NET
+[2023-07-31 16:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: merge-files
+[2023-07-31 16:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aespark
+[2023-07-31 16:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: volt-client-web
+[2023-07-31 16:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easycap
+[2023-07-31 16:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eodc-faas-force
+[2023-07-31 16:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pierskarsenbarg-pulumi-ngrok
+[2023-07-31 16:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-azure-auth
+[2023-07-31 16:08:14] INFO root fetch - processPackages [fastapi-azure-auth]: New version: [4.2.0] Old Version: [4.1.3]
+[2023-07-31 16:08:14] INFO root fetch - processPackages [easycap]: New version: [1.1] Old Version: [1.0]
+[2023-07-31 16:08:14] INFO root fetch - processPackages [spirit-extras]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 16:08:14] INFO root fetch - processPackages [directdb]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-07-31 16:08:14] INFO root fetch - processPackages [volt-client-web]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 16:08:14] INFO root fetch - processPackages [merge-files]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-31 16:08:14] INFO root fetch - processPackages [eodc-faas-force]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-31 16:08:14] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-07-31 16:08:14] INFO root fetch - processPackages [aespark]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 16:08:14] INFO root fetch - processPackages [Aspose.Email-for-Python-via-NET]: New version: [23.6] Old Version: [23.5]
+[2023-07-31 16:08:14] INFO root fetch - processPackages [merge-files]: Downloading https://files.pythonhosted.org/packages/95/f5/fc2e3c420f48b8f125a609f9611b47d2f4720cf52bea2be8fa9840557ac4/merge_files-0.1.4.tar.gz
+[2023-07-31 16:08:14] INFO root fetch - processPackages [spirit-extras]: Downloading https://files.pythonhosted.org/packages/8d/0b/f1a26ca3d27d71ddd0ce94d5cde4675bec4edcb4133e990956b97af282f9/spirit-extras-0.0.8.tar.gz
+[2023-07-31 16:08:14] INFO root fetch - processPackages [volt-client-web]: Downloading https://files.pythonhosted.org/packages/23/bb/94888842b264620dc65443b211e9ca55f0dd710ee870a4789cd7d8c06e70/volt_client_web-0.1.8.tar.gz
+[2023-07-31 16:08:14] INFO root fetch - processPackages [fastapi-azure-auth]: Downloading https://files.pythonhosted.org/packages/3b/4d/805b5ed46f12ab20f8125ea3d1e7fb7cae122f8096b3f88129a5ec230b7f/fastapi_azure_auth-4.1.3.tar.gz
+[2023-07-31 16:08:14] INFO root fetch - processPackages [easycap]: Downloading https://files.pythonhosted.org/packages/aa/3e/fb7f1f82e96eb6ce4d2d599d8a5769c625f8978d5e336acfbd18536cd784/easycap-1.0-py3-none-any.whl
+[2023-07-31 16:08:14] INFO root fetch - processPackages [directdb]: Downloading https://files.pythonhosted.org/packages/a1/b6/2f900754f7724f8594fa7b3bc3643017b25e1d806be3053eb42fc954d2b9/directdb-0.0.2.tar.gz
+[2023-07-31 16:08:14] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: Downloading https://files.pythonhosted.org/packages/4b/2a/6614c5e3a2d76066fb7047d87b15df9bf8eb6a06d15bc4f5201e5f408333/pierskarsenbarg_pulumi_ngrok-0.0.21.tar.gz
+[2023-07-31 16:08:14] INFO root fetch - processPackages [Aspose.Email-for-Python-via-NET]: Downloading https://files.pythonhosted.org/packages/de/6e/82dd4d095e798e66c68dee99a703c47e6a2403301a845884213276b5c5e2/Aspose.Email_for_Python_via_NET-23.5-py3-none-win_amd64.whl
+[2023-07-31 16:08:14] INFO root fetch - processPackages [aespark]: Downloading https://files.pythonhosted.org/packages/72/5b/a326d71937b22922688b5f678ea6004d3f53faa04c0d127c90a4344cabd8/aespark-0.0.1.tar.gz
+[2023-07-31 16:08:14] INFO root fetch - processPackages [eodc-faas-force]: Downloading https://files.pythonhosted.org/packages/5e/5c/a3f33c7a317a540496e30f30e44801b9da7ee182b5a307cd664f119b5fb6/eodc_faas_force-2023.7.1.tar.gz
+[2023-07-31 16:08:14] INFO root fetch - processPackages [merge-files]: Downloading https://files.pythonhosted.org/packages/11/31/6d422b8f032705b20a2a2c0a40544132a825c0d2d9b3796d4390a5d215f4/merge_files-0.1.5.tar.gz
+[2023-07-31 16:08:14] WARNING root fetch - processPackages [Aspose.Email-for-Python-via-NET]: Skipping package: exceeds size limit 52457501>=10485760
+[2023-07-31 16:08:14] INFO root fetch - processPackages [Aspose.Email-for-Python-via-NET]: Start processing: arfs
+[2023-07-31 16:08:14] INFO root fetch - main [MainThread]: End processing [Aspose.Email-for-Python-via-NET] error
+[2023-07-31 16:08:15] INFO root fetch - processPackages [fastapi-azure-auth]: Downloading https://files.pythonhosted.org/packages/6c/0f/616c198aad174611e9dc80e55ee21c0ebe6867f501388eca91ad1bcdda77/fastapi_azure_auth-4.2.0.tar.gz
+[2023-07-31 16:08:15] INFO root fetch - processPackages [easycap]: Downloading https://files.pythonhosted.org/packages/1e/9b/024353236001747dc891140009bd9428101059a3f674116628a1b6c0e3b5/easycap-1.1-py3-none-any.whl
+[2023-07-31 16:08:15] INFO root fetch - processPackages [arfs]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-31 16:08:15] INFO root fetch - processPackages [volt-client-web]: Downloading https://files.pythonhosted.org/packages/b4/c6/7aa94adeb9a5093db0dc4d3c709d10873f82697ad52914015f1fdbdf0735/volt_client_web-0.1.9.tar.gz
+[2023-07-31 16:08:15] INFO root fetch - processPackages [directdb]: Downloading https://files.pythonhosted.org/packages/d6/a2/6c4350d5d527fb6fbc31f9ad13315c9ad0bcf1fa601a93b3c0196ec18b0b/directdb-1.0.0.tar.gz
+[2023-07-31 16:08:15] INFO root fetch - processPackages [merge-files]: executing diffoscope
+[2023-07-31 16:08:15] INFO root fetch - processPackages [merge-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merge_files-0.1.4.tar.gz tmp/merge_files-0.1.5.tar.gz --markdown 20230731/m/merge-files/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-31 16:08:15] INFO root fetch - processPackages [spirit-extras]: Downloading https://files.pythonhosted.org/packages/73/d7/a8a543d83392b78606898fb7b2b2cd5200b137d3348437ce5890c0c4b8a9/spirit-extras-0.0.9.tar.gz
+[2023-07-31 16:08:15] INFO root fetch - processPackages [fastapi-azure-auth]: executing diffoscope
+[2023-07-31 16:08:15] INFO root fetch - processPackages [fastapi-azure-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_azure_auth-4.1.3.tar.gz tmp/fastapi_azure_auth-4.2.0.tar.gz --markdown 20230731/f/fastapi-azure-auth/4.1.3-4.2.0/diff.md --exclude *.pyd
+[2023-07-31 16:08:15] INFO root fetch - processPackages [easycap]: executing diffoscope
+[2023-07-31 16:08:15] INFO root fetch - processPackages [easycap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easycap-1.0-py3-none-any.whl.zip tmp/easycap-1.1-py3-none-any.whl.zip --markdown 20230731/e/easycap/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-31 16:08:15] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/bd/cc/1f8a565ec04be9536714cc30ef85a4c452281433d89b3ef0ce729abb68f8/arfs-2.0.2.tar.gz
+[2023-07-31 16:08:15] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: Downloading https://files.pythonhosted.org/packages/73/d0/eb611d842e75b87df8d61bfadefb3cd37e695dffb70469e832ed170b9f59/pierskarsenbarg_pulumi_ngrok-0.0.22.tar.gz
+[2023-07-31 16:08:15] INFO root fetch - processPackages [volt-client-web]: executing diffoscope
+[2023-07-31 16:08:15] INFO root fetch - processPackages [volt-client-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volt_client_web-0.1.8.tar.gz tmp/volt_client_web-0.1.9.tar.gz --markdown 20230731/v/volt-client-web/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 16:08:15] INFO root fetch - processPackages [directdb]: executing diffoscope
+[2023-07-31 16:08:15] INFO root fetch - processPackages [directdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directdb-0.0.2.tar.gz tmp/directdb-1.0.0.tar.gz --markdown 20230731/d/directdb/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-31 16:08:15] INFO root fetch - processPackages [spirit-extras]: executing diffoscope
+[2023-07-31 16:08:15] INFO root fetch - processPackages [spirit-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spirit-extras-0.0.8.tar.gz tmp/spirit-extras-0.0.9.tar.gz --markdown 20230731/s/spirit-extras/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 16:08:15] INFO root fetch - processPackages [eodc-faas-force]: Downloading https://files.pythonhosted.org/packages/90/a9/cd905dde2edc873a41e3ae67913190fa8f2ff8ed6dbd2d878a312fc5d684/eodc_faas_force-2023.7.2.tar.gz
+[2023-07-31 16:08:15] INFO root fetch - processPackages [aespark]: Downloading https://files.pythonhosted.org/packages/11/cf/d1f020caa6cb21723fc95dbe4dcc9db57145be0ac8fddd3c4b77c4902227/aespark-0.0.2.tar.gz
+[2023-07-31 16:08:15] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: executing diffoscope
+[2023-07-31 16:08:15] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pierskarsenbarg_pulumi_ngrok-0.0.21.tar.gz tmp/pierskarsenbarg_pulumi_ngrok-0.0.22.tar.gz --markdown 20230731/p/pierskarsenbarg-pulumi-ngrok/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-07-31 16:08:15] INFO root fetch - processPackages [eodc-faas-force]: executing diffoscope
+[2023-07-31 16:08:15] INFO root fetch - processPackages [eodc-faas-force]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_force-2023.7.1.tar.gz tmp/eodc_faas_force-2023.7.2.tar.gz --markdown 20230731/e/eodc-faas-force/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-31 16:08:15] INFO root fetch - processPackages [aespark]: executing diffoscope
+[2023-07-31 16:08:15] INFO root fetch - processPackages [aespark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aespark-0.0.1.tar.gz tmp/aespark-0.0.2.tar.gz --markdown 20230731/a/aespark/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 16:08:15] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/e5/c4/15870a99555c063d71e20277ac7492084e03f4414c6bd72fecf05d8f95ec/arfs-2.0.3.tar.gz
+[2023-07-31 16:08:15] INFO root fetch - processPackages [arfs]: executing diffoscope
+[2023-07-31 16:08:15] INFO root fetch - processPackages [arfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arfs-2.0.2.tar.gz tmp/arfs-2.0.3.tar.gz --markdown 20230731/a/arfs/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-31 16:08:16] INFO root fetch - processPackages [merge-files]: Remove: archive file [/home/abi/fetcher/tmp/merge_files-0.1.4.tar.gz]
+[2023-07-31 16:08:16] INFO root fetch - processPackages [merge-files]: Remove: archive file [/home/abi/fetcher/tmp/merge_files-0.1.5.tar.gz]
+[2023-07-31 16:08:16] INFO root fetch - processPackages [merge-files]: Start processing: pytest-skip-markers
+[2023-07-31 16:08:16] INFO root fetch - main [MainThread]: End processing [merge-files]: success
+[2023-07-31 16:08:16] INFO root fetch - processPackages [pytest-skip-markers]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-31 16:08:16] INFO root fetch - processPackages [easycap]: Remove: archive file [/home/abi/fetcher/tmp/easycap-1.0-py3-none-any.whl.zip]
+[2023-07-31 16:08:16] INFO root fetch - processPackages [easycap]: Remove: archive file [/home/abi/fetcher/tmp/easycap-1.1-py3-none-any.whl.zip]
+[2023-07-31 16:08:16] INFO root fetch - processPackages [easycap]: Start processing: catalystai
+[2023-07-31 16:08:16] INFO root fetch - main [MainThread]: End processing [easycap]: success
+[2023-07-31 16:08:16] INFO root fetch - processPackages [directdb]: Remove: archive file [/home/abi/fetcher/tmp/directdb-0.0.2.tar.gz]
+[2023-07-31 16:08:16] INFO root fetch - processPackages [directdb]: Remove: archive file [/home/abi/fetcher/tmp/directdb-1.0.0.tar.gz]
+[2023-07-31 16:08:16] INFO root fetch - processPackages [directdb]: Start processing: pybiolib
+[2023-07-31 16:08:16] INFO root fetch - main [MainThread]: End processing [directdb]: success
+[2023-07-31 16:08:16] INFO root fetch - processPackages [catalystai]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-07-31 16:08:16] INFO root fetch - processPackages [pytest-skip-markers]: Downloading https://files.pythonhosted.org/packages/58/51/ac162717b07aed3be86fb71ce8f47c783d15442e7709089b4a078cf5d48e/pytest-skip-markers-1.4.0.tar.gz
+[2023-07-31 16:08:16] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2023-07-31 16:08:16] INFO root fetch - processPackages [fastapi-azure-auth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_azure_auth-4.1.3.tar.gz]
+[2023-07-31 16:08:16] INFO root fetch - processPackages [volt-client-web]: Remove: archive file [/home/abi/fetcher/tmp/volt_client_web-0.1.8.tar.gz]
+[2023-07-31 16:08:16] INFO root fetch - processPackages [fastapi-azure-auth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_azure_auth-4.2.0.tar.gz]
+[2023-07-31 16:08:16] INFO root fetch - processPackages [volt-client-web]: Remove: archive file [/home/abi/fetcher/tmp/volt_client_web-0.1.9.tar.gz]
+[2023-07-31 16:08:16] INFO root fetch - processPackages [fastapi-azure-auth]: Start processing: qmenta-anon
+[2023-07-31 16:08:16] INFO root fetch - processPackages [volt-client-web]: Start processing: assemblyline-service-utilities
+[2023-07-31 16:08:16] INFO root fetch - main [MainThread]: End processing [fastapi-azure-auth]: success
+[2023-07-31 16:08:16] INFO root fetch - main [MainThread]: End processing [volt-client-web]: success
+[2023-07-31 16:08:16] INFO root fetch - processPackages [assemblyline-service-utilities]: New version: [4.4.1.dev8] Old Version: [4.4.1.dev7]
+[2023-07-31 16:08:17] INFO root fetch - processPackages [qmenta-anon]: New version: [1.1.dev357] Old Version: [1.1.dev330]
+[2023-07-31 16:08:17] INFO root fetch - processPackages [catalystai]: Downloading https://files.pythonhosted.org/packages/12/3b/6d81ed331223f7c13cd705bea7c90cee378548d6ddf56301527b2721c904/catalystai-1.0.3.tar.gz
+[2023-07-31 16:08:17] INFO root fetch - processPackages [eodc-faas-force]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_force-2023.7.1.tar.gz]
+[2023-07-31 16:08:17] INFO root fetch - processPackages [eodc-faas-force]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_force-2023.7.2.tar.gz]
+[2023-07-31 16:08:17] INFO root fetch - processPackages [eodc-faas-force]: Start processing: sotrans-fastapi-keycloak
+[2023-07-31 16:08:17] INFO root fetch - main [MainThread]: End processing [eodc-faas-force]: success
+[2023-07-31 16:08:17] INFO root fetch - processPackages [spirit-extras]: Remove: archive file [/home/abi/fetcher/tmp/spirit-extras-0.0.8.tar.gz]
+[2023-07-31 16:08:17] INFO root fetch - processPackages [spirit-extras]: Remove: archive file [/home/abi/fetcher/tmp/spirit-extras-0.0.9.tar.gz]
+[2023-07-31 16:08:17] INFO root fetch - main [MainThread]: End processing [spirit-extras]: success
+[2023-07-31 16:08:17] INFO root fetch - processPackages [assemblyline-service-utilities]: Downloading https://files.pythonhosted.org/packages/0c/08/8248dd417f3037b1bc5c07da14492e253d674df44575dec6d3ae0df38b78/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl
+[2023-07-31 16:08:17] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 16:08:17] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2023-07-31 16:08:17] INFO root fetch - processPackages [pytest-skip-markers]: Downloading https://files.pythonhosted.org/packages/75/58/1c5de2ff3599457df03f41e58533ea89937a2d905c45df2829ba033e492c/pytest-skip-markers-1.4.1.tar.gz
+[2023-07-31 16:08:17] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: Remove: archive file [/home/abi/fetcher/tmp/pierskarsenbarg_pulumi_ngrok-0.0.21.tar.gz]
+[2023-07-31 16:08:17] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: Remove: archive file [/home/abi/fetcher/tmp/pierskarsenbarg_pulumi_ngrok-0.0.22.tar.gz]
+[2023-07-31 16:08:17] INFO root fetch - main [MainThread]: End processing [pierskarsenbarg-pulumi-ngrok]: success
+[2023-07-31 16:08:17] INFO root fetch - processPackages [qmenta-anon]: Downloading https://files.pythonhosted.org/packages/8f/41/1160b4017cb04b5a8b66c5a2091a61e7b8ed360fbdb532bbefbda4ce4a78/qmenta_anon-1.1.dev330-py3-none-any.whl
+[2023-07-31 16:08:17] INFO root fetch - processPackages [catalystai]: Downloading https://files.pythonhosted.org/packages/bf/c8/e34879107532f53e56cc2922ae34a907acbacdcd02e997c46d9e8f0b694c/catalystai-1.0.5.tar.gz
+[2023-07-31 16:08:17] INFO root fetch - processPackages [pytest-skip-markers]: executing diffoscope
+[2023-07-31 16:08:17] INFO root fetch - processPackages [pytest-skip-markers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-skip-markers-1.4.0.tar.gz tmp/pytest-skip-markers-1.4.1.tar.gz --markdown 20230731/p/pytest-skip-markers/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-31 16:08:17] INFO root fetch - processPackages [assemblyline-service-utilities]: Downloading https://files.pythonhosted.org/packages/fb/4c/e44dbd2c80a049d04d0ac7b7cc88d5c46a23a7dad278339b22a6dff2bfce/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl
+[2023-07-31 16:08:17] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Downloading https://files.pythonhosted.org/packages/6c/be/10d809200c97100c7c482061f73512da9371bde2df5eae43bf7ce32ca554/sotrans_fastapi_keycloak-0.0.1.tar.gz
+[2023-07-31 16:08:17] INFO root fetch - processPackages [catalystai]: executing diffoscope
+[2023-07-31 16:08:17] INFO root fetch - processPackages [catalystai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalystai-1.0.3.tar.gz tmp/catalystai-1.0.5.tar.gz --markdown 20230731/c/catalystai/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-07-31 16:08:17] INFO root fetch - processPackages [assemblyline-service-utilities]: executing diffoscope
+[2023-07-31 16:08:17] INFO root fetch - processPackages [assemblyline-service-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.zip tmp/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl.zip --markdown 20230731/a/assemblyline-service-utilities/4.4.1.dev7-4.4.1.dev8/diff.md --exclude *.pyd
+[2023-07-31 16:08:17] INFO root fetch - processPackages [arfs]: Remove: archive file [/home/abi/fetcher/tmp/arfs-2.0.2.tar.gz]
+[2023-07-31 16:08:17] INFO root fetch - processPackages [arfs]: Remove: archive file [/home/abi/fetcher/tmp/arfs-2.0.3.tar.gz]
+[2023-07-31 16:08:17] INFO root fetch - main [MainThread]: End processing [arfs]: success
+[2023-07-31 16:08:17] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2023-07-31 16:08:17] INFO root fetch - processPackages [qmenta-anon]: Downloading https://files.pythonhosted.org/packages/17/aa/13b455a294b9e54c3a4936e58ed30cf9e9634fc855a3268d4eeb6c753522/qmenta_anon-1.1.dev357-py3-none-any.whl
+[2023-07-31 16:08:17] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-07-31 16:08:17] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20230731/p/pybiolib/1.1.997-1.1.999/diff.md --exclude *.pyd
+[2023-07-31 16:08:17] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Downloading https://files.pythonhosted.org/packages/51/c8/aae36f42f01767245f577c90955d88fa363364b9ab26b146f477cd6f924d/sotrans_fastapi_keycloak-0.0.2.tar.gz
+[2023-07-31 16:08:17] INFO root fetch - processPackages [qmenta-anon]: executing diffoscope
+[2023-07-31 16:08:17] INFO root fetch - processPackages [qmenta-anon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qmenta_anon-1.1.dev330-py3-none-any.whl.zip tmp/qmenta_anon-1.1.dev357-py3-none-any.whl.zip --markdown 20230731/q/qmenta-anon/1.1.dev330-1.1.dev357/diff.md --exclude *.pyd
+[2023-07-31 16:08:17] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: executing diffoscope
+[2023-07-31 16:08:17] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sotrans_fastapi_keycloak-0.0.1.tar.gz tmp/sotrans_fastapi_keycloak-0.0.2.tar.gz --markdown 20230731/s/sotrans-fastapi-keycloak/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 16:08:18] INFO root fetch - processPackages [catalystai]: Remove: archive file [/home/abi/fetcher/tmp/catalystai-1.0.3.tar.gz]
+[2023-07-31 16:08:18] INFO root fetch - processPackages [catalystai]: Remove: archive file [/home/abi/fetcher/tmp/catalystai-1.0.5.tar.gz]
+[2023-07-31 16:08:18] INFO root fetch - main [MainThread]: End processing [catalystai]: success
+[2023-07-31 16:08:18] INFO root fetch - processPackages [qmenta-anon]: Remove: archive file [/home/abi/fetcher/tmp/qmenta_anon-1.1.dev330-py3-none-any.whl.zip]
+[2023-07-31 16:08:18] INFO root fetch - processPackages [qmenta-anon]: Remove: archive file [/home/abi/fetcher/tmp/qmenta_anon-1.1.dev357-py3-none-any.whl.zip]
+[2023-07-31 16:08:18] INFO root fetch - main [MainThread]: End processing [qmenta-anon]: success
+[2023-07-31 16:08:19] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/sotrans_fastapi_keycloak-0.0.1.tar.gz]
+[2023-07-31 16:08:19] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/sotrans_fastapi_keycloak-0.0.2.tar.gz]
+[2023-07-31 16:08:19] INFO root fetch - main [MainThread]: End processing [sotrans-fastapi-keycloak]: success
+[2023-07-31 16:08:19] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2023-07-31 16:08:19] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2023-07-31 16:08:19] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-07-31 16:08:19] INFO root fetch - processPackages [pytest-skip-markers]: Remove: archive file [/home/abi/fetcher/tmp/pytest-skip-markers-1.4.0.tar.gz]
+[2023-07-31 16:08:19] INFO root fetch - processPackages [pytest-skip-markers]: Remove: archive file [/home/abi/fetcher/tmp/pytest-skip-markers-1.4.1.tar.gz]
+[2023-07-31 16:08:19] INFO root fetch - main [MainThread]: End processing [pytest-skip-markers]: success
+[2023-07-31 16:08:19] INFO root fetch - processPackages [assemblyline-service-utilities]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.zip]
+[2023-07-31 16:08:19] INFO root fetch - processPackages [assemblyline-service-utilities]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl.zip]
+[2023-07-31 16:08:19] INFO root fetch - main [MainThread]: End processing [assemblyline-service-utilities]: success
+[2023-07-31 16:08:21] INFO root fetch - processPackages [aespark]: Remove: archive file [/home/abi/fetcher/tmp/aespark-0.0.1.tar.gz]
+[2023-07-31 16:08:21] INFO root fetch - processPackages [aespark]: Remove: archive file [/home/abi/fetcher/tmp/aespark-0.0.2.tar.gz]
+[2023-07-31 16:08:21] INFO root fetch - main [MainThread]: End processing [aespark]: success
+[2023-07-31 16:08:21] INFO root fetch - main [MainThread]: Store serial: [19108532]
