@@ -19360,3 +19360,272 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-31 15:05:00] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
 [2023-07-31 15:05:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
 [2023-07-31 15:05:00] INFO root fetch - main [MainThread]: Store serial: [19107665]
+[2023-07-31 15:10:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19107665]
+[2023-07-31 15:10:10] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-07-31 15:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiofauna
+[2023-07-31 15:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qoa4ml
+[2023-07-31 15:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rxn-chem-utils
+[2023-07-31 15:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bmw-lobster-core
+[2023-07-31 15:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bmw-lobster
+[2023-07-31 15:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bmw-lobster-tool-codebeamer
+[2023-07-31 15:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bmw-lobster-tool-cpp
+[2023-07-31 15:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bmw-lobster-tool-gtest
+[2023-07-31 15:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bmw-lobster-tool-json
+[2023-07-31 15:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bmw-lobster-tool-python
+[2023-07-31 15:10:10] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 15:10:10] INFO root fetch - processPackages [rxn-chem-utils]: New version: [1.2.0] Old Version: [1.1.5]
+[2023-07-31 15:10:10] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 15:10:10] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 15:10:10] INFO root fetch - processPackages [bmw-lobster-tool-json]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 15:10:10] INFO root fetch - processPackages [bmw-lobster-tool-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 15:10:10] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 15:10:10] INFO root fetch - processPackages [bmw-lobster]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 15:10:10] INFO root fetch - processPackages [qoa4ml]: New version: [0.0.9] Old Version: [0.0.85]
+[2023-07-31 15:10:10] INFO root fetch - processPackages [bmw-lobster-core]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 15:10:10] INFO root fetch - processPackages [bmw-lobster-tool-python]: Downloading https://files.pythonhosted.org/packages/7c/f5/c7a66d84f38ba64fc544cd74507800f22d6cd6bfcd94a3bfc06787926679/bmw-lobster-tool-python-0.9.8.tar.gz
+[2023-07-31 15:10:10] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Downloading https://files.pythonhosted.org/packages/7f/8f/583e623fa8c344459aa54e1c093e6e461694f79fa13bca8cb62011bd6600/bmw-lobster-tool-cpp-0.9.8.tar.gz
+[2023-07-31 15:10:10] INFO root fetch - processPackages [bmw-lobster-tool-json]: Downloading https://files.pythonhosted.org/packages/05/45/4882e7702707c38a14ffee12dfd1e58f96c7a25305e03377c038ea0519d9/bmw-lobster-tool-json-0.9.8.tar.gz
+[2023-07-31 15:10:10] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Downloading https://files.pythonhosted.org/packages/e9/20/95922881543b39744f5e93a5683718bc46490879274f0fee9af9c45f5130/bmw-lobster-tool-codebeamer-0.9.8.tar.gz
+[2023-07-31 15:10:10] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Downloading https://files.pythonhosted.org/packages/0f/7e/66725fa301e36e6c27de5776e9069ab78db150a5efc2879cdaacb93ddbfc/bmw-lobster-tool-gtest-0.9.8.tar.gz
+[2023-07-31 15:10:10] INFO root fetch - processPackages [bmw-lobster]: Downloading https://files.pythonhosted.org/packages/e3/0f/938a4999a754b1687272b3dc78a83485d90666572b6b62be7434bb766622/bmw-lobster-0.9.8.tar.gz
+[2023-07-31 15:10:10] INFO root fetch - processPackages [rxn-chem-utils]: Downloading https://files.pythonhosted.org/packages/ae/fe/f61d435a908f9d03f40fddee0cd5c2b2fc0de7f48d8613fd184402a82f98/rxn-chem-utils-1.1.5.tar.gz
+[2023-07-31 15:10:10] INFO root fetch - processPackages [bmw-lobster-core]: Downloading https://files.pythonhosted.org/packages/70/b8/a4235658f71e54481da8b59a0e17b44ad185175cb3b8219a59edf46c3542/bmw-lobster-core-0.9.8.tar.gz
+[2023-07-31 15:10:10] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/3e/34/45e4d8e4dc572a71d3667cb471907d117cbe30ff4ab274142fdfc9aff5bb/aiofauna-0.1.8.tar.gz
+[2023-07-31 15:10:10] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/b6/e4/fbd0c145c5539221ee9a10f55532be32f70d310b9f11000ee47a2b3d4097/qoa4ml-0.0.85.tar.gz
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-tool-python]: Downloading https://files.pythonhosted.org/packages/13/ba/0f726a4c76c280fe09eb2bb632b935e8824ae1c682e9f0c1e40dcec7205d/bmw-lobster-tool-python-0.9.9.tar.gz
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Downloading https://files.pythonhosted.org/packages/aa/6e/91dcea1889a684c13cf868f389601f14242d76085ced786a96f4f7eeec4e/bmw-lobster-tool-cpp-0.9.9.tar.gz
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Downloading https://files.pythonhosted.org/packages/cd/14/6bfaf65e775599b434e86ac7e542f9c09046efc32ba67f90c1c9f64ac704/bmw-lobster-tool-gtest-0.9.9.tar.gz
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Downloading https://files.pythonhosted.org/packages/76/8b/9d9fca6061984dc71c1a29bf70e33c8fe812790e20ac506bcc48ce77dc54/bmw-lobster-tool-codebeamer-0.9.9.tar.gz
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster]: Downloading https://files.pythonhosted.org/packages/48/d6/256e5b22d6d0df395968bca66053af1e8e0074b805d092a8dae091b72498/bmw-lobster-0.9.9.tar.gz
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-core]: Downloading https://files.pythonhosted.org/packages/bc/63/3bad0685981f69e10acfb89c0a71935ddcba9d844330d40d78942971914b/bmw-lobster-core-0.9.9.tar.gz
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-tool-json]: Downloading https://files.pythonhosted.org/packages/9c/2e/e8d7f3888e4e1c828e34a7f3bf6622283d9aa40093c28c3e0001257a9631/bmw-lobster-tool-json-0.9.9.tar.gz
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-tool-python]: executing diffoscope
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-tool-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-python-0.9.8.tar.gz tmp/bmw-lobster-tool-python-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-tool-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: executing diffoscope
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-cpp-0.9.8.tar.gz tmp/bmw-lobster-tool-cpp-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-tool-cpp/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 15:10:11] INFO root fetch - processPackages [rxn-chem-utils]: Downloading https://files.pythonhosted.org/packages/67/d7/7222d3453f29cd34c92822eac18fae6f38cf1ac72c4b0f95c622161556d1/rxn-chem-utils-1.2.0.tar.gz
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: executing diffoscope
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-gtest-0.9.8.tar.gz tmp/bmw-lobster-tool-gtest-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-tool-gtest/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: executing diffoscope
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-codebeamer-0.9.8.tar.gz tmp/bmw-lobster-tool-codebeamer-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-tool-codebeamer/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 15:10:11] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/d7/d5/ea2895300374337f982c6e19ce7049fb1c99fa3489038d2ff524d477a522/aiofauna-0.1.9.tar.gz
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster]: executing diffoscope
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-0.9.8.tar.gz tmp/bmw-lobster-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 15:10:11] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/0c/01/118d11594cadd27f432673733bcdd3696a16233bffeac49f779a2ff835f8/qoa4ml-0.0.9.tar.gz
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-tool-json]: executing diffoscope
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-tool-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-json-0.9.8.tar.gz tmp/bmw-lobster-tool-json-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-tool-json/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-core]: executing diffoscope
+[2023-07-31 15:10:11] INFO root fetch - processPackages [bmw-lobster-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-core-0.9.8.tar.gz tmp/bmw-lobster-core-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-core/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 15:10:11] INFO root fetch - processPackages [rxn-chem-utils]: executing diffoscope
+[2023-07-31 15:10:11] INFO root fetch - processPackages [rxn-chem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxn-chem-utils-1.1.5.tar.gz tmp/rxn-chem-utils-1.2.0.tar.gz --markdown 20230731/r/rxn-chem-utils/1.1.5-1.2.0/diff.md --exclude *.pyd
+[2023-07-31 15:10:11] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-07-31 15:10:11] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.0.85.tar.gz tmp/qoa4ml-0.0.9.tar.gz --markdown 20230731/q/qoa4ml/0.0.85-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 15:10:11] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-07-31 15:10:11] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230731/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 15:10:12] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-cpp-0.9.8.tar.gz]
+[2023-07-31 15:10:12] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-cpp-0.9.9.tar.gz]
+[2023-07-31 15:10:12] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Start processing: bmw-lobster-tool-trlc
+[2023-07-31 15:10:12] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-cpp]: success
+[2023-07-31 15:10:12] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Downloading https://files.pythonhosted.org/packages/f0/60/881e40a849d92bf797daabfd53af5d6451e054c4a6ffa0f10e459b6f4f35/bmw-lobster-tool-trlc-0.9.8.tar.gz
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-gtest-0.9.8.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-gtest-0.9.9.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Start processing: foxes
+[2023-07-31 15:10:13] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-gtest]: success
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-python]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-python-0.9.8.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-python]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-python-0.9.9.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-python]: Start processing: bmw-lobster-monolithic
+[2023-07-31 15:10:13] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-python]: success
+[2023-07-31 15:10:13] INFO root fetch - processPackages [foxes]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-codebeamer-0.9.8.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-codebeamer-0.9.9.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Start processing: savant-rs-etcd-dynamic-state
+[2023-07-31 15:10:13] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-codebeamer]: success
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-json]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-json-0.9.8.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-json]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-json-0.9.9.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-json]: Start processing: delphix-dct-api
+[2023-07-31 15:10:13] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-json]: success
+[2023-07-31 15:10:13] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: New version: [0.1.39] Old Version: [0.1.38]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-monolithic]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [delphix-dct-api]: New version: [9.0.0rc3] Old Version: [9.0.0rc2]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.85.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.9.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [qoa4ml]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-31 15:10:13] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Downloading https://files.pythonhosted.org/packages/6c/af/03b09790074308287893148728fc9d158e70a34aa4f9de9a5961dffe665a/bmw-lobster-tool-trlc-0.9.9.tar.gz
+[2023-07-31 15:10:13] INFO root fetch - processPackages [rxn-chem-utils]: Remove: archive file [/home/abi/fetcher/tmp/rxn-chem-utils-1.1.5.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [rxn-chem-utils]: Remove: archive file [/home/abi/fetcher/tmp/rxn-chem-utils-1.2.0.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [rxn-chem-utils]: Start processing: ipfabric
+[2023-07-31 15:10:13] INFO root fetch - main [MainThread]: End processing [rxn-chem-utils]: success
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-core]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-core-0.9.8.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-monolithic]: Downloading https://files.pythonhosted.org/packages/a7/83/f17b3ab37b5da2fc27192529bab2bbd0acc99e7dc2b1b1855991a266267f/bmw-lobster-monolithic-0.9.8.tar.gz
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-core]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-core-0.9.9.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-core]: Start processing: psl
+[2023-07-31 15:10:13] INFO root fetch - main [MainThread]: End processing [bmw-lobster-core]: success
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-0.9.8.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-0.9.9.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster]: Start processing: onbrdng
+[2023-07-31 15:10:13] INFO root fetch - main [MainThread]: End processing [bmw-lobster]: success
+[2023-07-31 15:10:13] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.7.31] Old Version: [2023.7.30]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [foxes]: Downloading https://files.pythonhosted.org/packages/78/72/be722d04f1f4bc038ddead6e01860c1f528068374bf4c619ddfb44d82d58/foxes-0.4.1.tar.gz
+[2023-07-31 15:10:13] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.8.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [aiofauna]: Start processing: napalm-nokia-olt
+[2023-07-31 15:10:13] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-07-31 15:10:13] INFO root fetch - processPackages [onbrdng]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [psl]: New version: [2023.7.31] Old Version: [2023.7.3]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [ipfabric]: New version: [6.3.1b2] Old Version: [6.3.1b1]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/bb/87/21d8d43cd1d47753f43b488346b68bb02e276ba99e71258f60d3c6f504e8/delphix-dct-api-9.0.0rc2.tar.gz
+[2023-07-31 15:10:13] INFO root fetch - processPackages [napalm-nokia-olt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 15:10:13] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/5f/60/113620cbbe7e5fc9a30539abdb1fb438ba63c2e8b296fae8e194b30bde2f/savant_rs_etcd_dynamic_state-0.1.38-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: executing diffoscope
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-trlc-0.9.8.tar.gz tmp/bmw-lobster-tool-trlc-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-tool-trlc/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 15:10:13] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/93/dc/3f92fb5831bcc48309f1c34a255a92cc4594e61e060e37ca4008c04efa2a/fbgemm_gpu_nightly_cpu-2023.7.30-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-monolithic]: Downloading https://files.pythonhosted.org/packages/55/c0/dcc7952dcb7a6308603adcafcc63a92a6513da47775cba851506d1c9674c/bmw-lobster-monolithic-0.9.9.tar.gz
+[2023-07-31 15:10:13] INFO root fetch - processPackages [onbrdng]: Downloading https://files.pythonhosted.org/packages/9e/4f/2947f01c4265c4580baa235816b7dd0d3e58fca5e4ba029a8ea45ff3a161/onbrdng-0.0.1.tar.gz
+[2023-07-31 15:10:13] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/51/25/4969819520476eaac80ecdfcedab7ed2ab5c8abad627ea1309cb9fce3753/psl-2023.7.3.tar.gz
+[2023-07-31 15:10:13] INFO root fetch - processPackages [ipfabric]: Downloading https://files.pythonhosted.org/packages/dc/bb/e4936ac3d2707b969a50e2a539fa126a9461dcfa2aa37f4363dc96f99a2e/ipfabric-6.3.1b1.tar.gz
+[2023-07-31 15:10:13] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/f2/e7/76fe771f9b583c90c353da77e70894eb04e3f78092ccf4c2a426168d91a8/napalm_nokia_olt-0.0.8.tar.gz
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-monolithic]: executing diffoscope
+[2023-07-31 15:10:13] INFO root fetch - processPackages [bmw-lobster-monolithic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-monolithic-0.9.8.tar.gz tmp/bmw-lobster-monolithic-0.9.9.tar.gz --markdown 20230731/b/bmw-lobster-monolithic/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 15:10:13] INFO root fetch - processPackages [foxes]: Downloading https://files.pythonhosted.org/packages/6e/f5/c6e3eead81c292a904bb6e5d484048f32b7037e4ec481ddd9efc575e1b32/foxes-0.4.2.tar.gz
+[2023-07-31 15:10:13] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/cf/59/1ebda927c866f75511f4dfd6d6e4005c7178413d53de4fcf7a4c0bbc8f1b/delphix-dct-api-9.0.0rc3.tar.gz
+[2023-07-31 15:10:14] INFO root fetch - processPackages [onbrdng]: Downloading https://files.pythonhosted.org/packages/72/ae/eb3a0f1d26cc655cc2e64bb921db8369ae0e53196d26120f40369c45788f/onbrdng-0.0.2.tar.gz
+[2023-07-31 15:10:14] INFO root fetch - processPackages [delphix-dct-api]: executing diffoscope
+[2023-07-31 15:10:14] INFO root fetch - processPackages [delphix-dct-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphix-dct-api-9.0.0rc2.tar.gz tmp/delphix-dct-api-9.0.0rc3.tar.gz --markdown 20230731/d/delphix-dct-api/9.0.0rc2-9.0.0rc3/diff.md --exclude *.pyd
+[2023-07-31 15:10:14] INFO root fetch - processPackages [foxes]: executing diffoscope
+[2023-07-31 15:10:14] INFO root fetch - processPackages [foxes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxes-0.4.1.tar.gz tmp/foxes-0.4.2.tar.gz --markdown 20230731/f/foxes/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-31 15:10:14] INFO root fetch - processPackages [ipfabric]: Downloading https://files.pythonhosted.org/packages/82/85/afe9254fcef7cbb809e404d8c98d87c1f0ec0f7539abbe6193be67a72b31/ipfabric-6.3.1b2.tar.gz
+[2023-07-31 15:10:14] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/67/b4/52616ba117d3b7d08f3981f13d382e829c2432c69bcf869c99cb21e03648/psl-2023.7.31.tar.gz
+[2023-07-31 15:10:14] INFO root fetch - processPackages [onbrdng]: executing diffoscope
+[2023-07-31 15:10:14] INFO root fetch - processPackages [onbrdng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onbrdng-0.0.1.tar.gz tmp/onbrdng-0.0.2.tar.gz --markdown 20230731/o/onbrdng/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 15:10:14] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/81/64/095ab8de625095bf94fb6c4c41e0e5429d10b1960e2fc8787a9d04795ad1/savant_rs_etcd_dynamic_state-0.1.39-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-31 15:10:14] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/01/95/7c2d7c688afd297b11ea4cef189c9262aac3b8fef25d6aaa67fc03884efa/fbgemm_gpu_nightly_cpu-2023.7.31-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-31 15:10:14] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/26/2c/2d428aaa0eada11aa4a6c98d7b6ac6a03d899bdc8f46115a074d73a878fe/napalm_nokia_olt-0.0.9.tar.gz
+[2023-07-31 15:10:14] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-trlc-0.9.8.tar.gz]
+[2023-07-31 15:10:14] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-trlc-0.9.9.tar.gz]
+[2023-07-31 15:10:14] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Start processing: helium
+[2023-07-31 15:10:14] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-trlc]: success
+[2023-07-31 15:10:14] INFO root fetch - processPackages [ipfabric]: executing diffoscope
+[2023-07-31 15:10:14] INFO root fetch - processPackages [ipfabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfabric-6.3.1b1.tar.gz tmp/ipfabric-6.3.1b2.tar.gz --markdown 20230731/i/ipfabric/6.3.1b1-6.3.1b2/diff.md --exclude *.pyd
+[2023-07-31 15:10:14] INFO root fetch - processPackages [helium]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-07-31 15:10:14] INFO root fetch - processPackages [psl]: executing diffoscope
+[2023-07-31 15:10:14] INFO root fetch - processPackages [psl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psl-2023.7.3.tar.gz tmp/psl-2023.7.31.tar.gz --markdown 20230731/p/psl/2023.7.3-2023.7.31/diff.md --exclude *.pyd
+[2023-07-31 15:10:14] INFO root fetch - processPackages [helium]: Downloading https://files.pythonhosted.org/packages/1e/07/ed2b08f058c640ce419e7ded4475d396164f6c0700fc23df4d075bc597f8/helium-3.2.3.tar.gz
+[2023-07-31 15:10:14] INFO root fetch - processPackages [napalm-nokia-olt]: executing diffoscope
+[2023-07-31 15:10:14] INFO root fetch - processPackages [napalm-nokia-olt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_nokia_olt-0.0.8.tar.gz tmp/napalm_nokia_olt-0.0.9.tar.gz --markdown 20230731/n/napalm-nokia-olt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 15:10:15] INFO root fetch - processPackages [bmw-lobster-monolithic]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-monolithic-0.9.8.tar.gz]
+[2023-07-31 15:10:15] INFO root fetch - processPackages [bmw-lobster-monolithic]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-monolithic-0.9.9.tar.gz]
+[2023-07-31 15:10:15] INFO root fetch - processPackages [bmw-lobster-monolithic]: Start processing: BundesligaPredictor
+[2023-07-31 15:10:15] INFO root fetch - main [MainThread]: End processing [bmw-lobster-monolithic]: success
+[2023-07-31 15:10:15] INFO root fetch - processPackages [BundesligaPredictor]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-31 15:10:15] INFO root fetch - processPackages [helium]: Downloading https://files.pythonhosted.org/packages/dc/86/4123f14ebf968a3799de4875302e47d9b51f88815e6be29965041f13f8e6/helium-3.2.4.tar.gz
+[2023-07-31 15:10:15] INFO root fetch - processPackages [BundesligaPredictor]: Downloading https://files.pythonhosted.org/packages/17/07/ef7a664d54f045d3e214dc914417523df585ac8cae06bcebc991e3a5d356/BundesligaPredictor-0.0.5.tar.gz
+[2023-07-31 15:10:15] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-31 15:10:15] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.7.30-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.7.31-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230731/f/fbgemm-gpu-nightly-cpu/2023.7.30-2023.7.31/diff.md --exclude *.pyd
+[2023-07-31 15:10:15] INFO root fetch - processPackages [onbrdng]: Remove: archive file [/home/abi/fetcher/tmp/onbrdng-0.0.1.tar.gz]
+[2023-07-31 15:10:15] INFO root fetch - processPackages [onbrdng]: Remove: archive file [/home/abi/fetcher/tmp/onbrdng-0.0.2.tar.gz]
+[2023-07-31 15:10:15] INFO root fetch - processPackages [onbrdng]: Start processing: autotrain-advanced
+[2023-07-31 15:10:15] INFO root fetch - main [MainThread]: End processing [onbrdng]: success
+[2023-07-31 15:10:15] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-31 15:10:15] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.8.tar.gz]
+[2023-07-31 15:10:15] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.9.tar.gz]
+[2023-07-31 15:10:15] INFO root fetch - processPackages [napalm-nokia-olt]: Start processing: nginx-set-conf-equitania
+[2023-07-31 15:10:15] INFO root fetch - main [MainThread]: End processing [napalm-nokia-olt]: success
+[2023-07-31 15:10:15] INFO root fetch - processPackages [nginx-set-conf-equitania]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-31 15:10:15] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2023.7.3.tar.gz]
+[2023-07-31 15:10:15] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2023.7.31.tar.gz]
+[2023-07-31 15:10:15] INFO root fetch - processPackages [psl]: Start processing: KorDigits
+[2023-07-31 15:10:15] INFO root fetch - main [MainThread]: End processing [psl]: success
+[2023-07-31 15:10:15] INFO root fetch - processPackages [BundesligaPredictor]: Downloading https://files.pythonhosted.org/packages/ad/58/03f35a613b0da1b12e9edac0d8e6659ce10862a6925ab2577e1f83396770/BundesligaPredictor-0.0.6.tar.gz
+[2023-07-31 15:10:15] INFO root fetch - processPackages [helium]: executing diffoscope
+[2023-07-31 15:10:15] INFO root fetch - processPackages [helium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helium-3.2.3.tar.gz tmp/helium-3.2.4.tar.gz --markdown 20230731/h/helium/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-07-31 15:10:15] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/75/7c/6b0cd90ad86802c991fea1f78d18440f49659e585adf8b446047cbb24189/autotrain-advanced-0.6.8.tar.gz
+[2023-07-31 15:10:15] INFO root fetch - processPackages [KorDigits]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-31 15:10:15] INFO root fetch - processPackages [nginx-set-conf-equitania]: Downloading https://files.pythonhosted.org/packages/5e/4f/1389ed08102ded8f444ffaeb442a5a131db522b346871632ce397b85c0bf/nginx-set-conf-equitania-0.9.3.tar.gz
+[2023-07-31 15:10:15] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: executing diffoscope
+[2023-07-31 15:10:15] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs_etcd_dynamic_state-0.1.38-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/savant_rs_etcd_dynamic_state-0.1.39-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230731/s/savant-rs-etcd-dynamic-state/0.1.38-0.1.39/diff.md --exclude *.pyd
+[2023-07-31 15:10:15] INFO root fetch - processPackages [BundesligaPredictor]: executing diffoscope
+[2023-07-31 15:10:15] INFO root fetch - processPackages [BundesligaPredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BundesligaPredictor-0.0.5.tar.gz tmp/BundesligaPredictor-0.0.6.tar.gz --markdown 20230731/B/BundesligaPredictor/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-31 15:10:15] INFO root fetch - processPackages [KorDigits]: Downloading https://files.pythonhosted.org/packages/d2/95/9acd0604cef96b15fd209185a4c64b3aea6f651a3828caac50d7d60cd3db/KorDigits-1.1.7-py3-none-any.whl
+[2023-07-31 15:10:16] INFO root fetch - processPackages [ipfabric]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric-6.3.1b1.tar.gz]
+[2023-07-31 15:10:16] INFO root fetch - processPackages [ipfabric]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric-6.3.1b2.tar.gz]
+[2023-07-31 15:10:16] INFO root fetch - processPackages [ipfabric]: Start processing: nbdev-stdlib
+[2023-07-31 15:10:16] INFO root fetch - main [MainThread]: End processing [ipfabric]: success
+[2023-07-31 15:10:16] WARNING root fetch - processPackages [KorDigits]: Skipping package: exceeds size limit 61312448>=10485760
+[2023-07-31 15:10:16] INFO root fetch - processPackages [KorDigits]: Start processing: django-log-reader
+[2023-07-31 15:10:16] INFO root fetch - main [MainThread]: End processing [KorDigits] error
+[2023-07-31 15:10:16] INFO root fetch - processPackages [django-log-reader]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-31 15:10:16] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 15:10:16] INFO root fetch - processPackages [nginx-set-conf-equitania]: Downloading https://files.pythonhosted.org/packages/ff/48/54f0a92a1a188cb10c68fd29db5b1a4b40f5405bceee34fa297145626555/nginx-set-conf-equitania-0.9.4.tar.gz
+[2023-07-31 15:10:16] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/87/79/c6f84b3427bfa3ae6a282317e936b560d1d714838ec7fbab4cf4295a8cc3/autotrain-advanced-0.6.9.tar.gz
+[2023-07-31 15:10:16] INFO root fetch - processPackages [django-log-reader]: Downloading https://files.pythonhosted.org/packages/3b/4a/086fd53df2d9f6d3d6fa9b9818bc970e5ca218715390d8d6986ab6910cb4/django-log-reader-1.1.8.tar.gz
+[2023-07-31 15:10:16] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-31 15:10:16] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2023-07-31 15:10:16] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.6.8.tar.gz tmp/autotrain-advanced-0.6.9.tar.gz --markdown 20230731/a/autotrain-advanced/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-31 15:10:16] INFO root fetch - processPackages [nginx-set-conf-equitania]: executing diffoscope
+[2023-07-31 15:10:16] INFO root fetch - processPackages [nginx-set-conf-equitania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nginx-set-conf-equitania-0.9.3.tar.gz tmp/nginx-set-conf-equitania-0.9.4.tar.gz --markdown 20230731/n/nginx-set-conf-equitania/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-31 15:10:16] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-31 15:10:16] INFO root fetch - processPackages [django-log-reader]: Downloading https://files.pythonhosted.org/packages/58/8d/a5c76f76d9139603f1001fac855a5ce37f386e61f745039b2925a4abd9fb/django-log-reader-1.1.9.tar.gz
+[2023-07-31 15:10:16] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-31 15:10:16] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230731/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 15:10:16] INFO root fetch - processPackages [django-log-reader]: executing diffoscope
+[2023-07-31 15:10:16] INFO root fetch - processPackages [django-log-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-log-reader-1.1.8.tar.gz tmp/django-log-reader-1.1.9.tar.gz --markdown 20230731/d/django-log-reader/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-31 15:10:17] INFO root fetch - processPackages [foxes]: Remove: archive file [/home/abi/fetcher/tmp/foxes-0.4.1.tar.gz]
+[2023-07-31 15:10:17] INFO root fetch - processPackages [foxes]: Remove: archive file [/home/abi/fetcher/tmp/foxes-0.4.2.tar.gz]
+[2023-07-31 15:10:17] INFO root fetch - processPackages [foxes]: Start processing: anyforce
+[2023-07-31 15:10:17] INFO root fetch - main [MainThread]: End processing [foxes]: success
+[2023-07-31 15:10:17] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-31 15:10:17] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-07-31 15:10:17] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.30-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-31 15:10:17] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.31-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-31 15:10:17] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Start processing: shareddata
+[2023-07-31 15:10:17] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-31 15:10:17] INFO root fetch - processPackages [shareddata]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-07-31 15:10:17] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-07-31 15:10:17] INFO root fetch - processPackages [BundesligaPredictor]: Remove: archive file [/home/abi/fetcher/tmp/BundesligaPredictor-0.0.5.tar.gz]
+[2023-07-31 15:10:17] INFO root fetch - processPackages [BundesligaPredictor]: Remove: archive file [/home/abi/fetcher/tmp/BundesligaPredictor-0.0.6.tar.gz]
+[2023-07-31 15:10:17] INFO root fetch - processPackages [BundesligaPredictor]: Start processing: decentralizedroutines
+[2023-07-31 15:10:17] INFO root fetch - main [MainThread]: End processing [BundesligaPredictor]: success
+[2023-07-31 15:10:17] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/0a/f0/a523318f7cd86d90ed6249c41c3c6a0284e422705b6888ed869953db58ae/shareddata-2.2.3.tar.gz
+[2023-07-31 15:10:17] INFO root fetch - processPackages [decentralizedroutines]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-31 15:10:17] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-07-31 15:10:17] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230731/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 15:10:17] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/c7/6a/22fd0ea5a97eda4218171fe5cc84d9c1657cb685e5fb8120ef27ec059ef2/decentralizedroutines-2.2.2.tar.gz
+[2023-07-31 15:10:17] INFO root fetch - processPackages [nginx-set-conf-equitania]: Remove: archive file [/home/abi/fetcher/tmp/nginx-set-conf-equitania-0.9.3.tar.gz]
+[2023-07-31 15:10:17] INFO root fetch - processPackages [nginx-set-conf-equitania]: Remove: archive file [/home/abi/fetcher/tmp/nginx-set-conf-equitania-0.9.4.tar.gz]
+[2023-07-31 15:10:17] INFO root fetch - main [MainThread]: End processing [nginx-set-conf-equitania]: success
+[2023-07-31 15:10:17] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/05/f5/085b27868e14f3f2b6e9a5537779a6b660a1a0cb091a4f1ae8d04868e6d2/shareddata-2.2.4.tar.gz
+[2023-07-31 15:10:18] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/a8/8c/7e5ec9bcd8699508d28770e14b3f0847e152d852150669f4ba3ab6d26cfa/decentralizedroutines-2.2.3.tar.gz
+[2023-07-31 15:10:18] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-07-31 15:10:18] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.2.3.tar.gz tmp/shareddata-2.2.4.tar.gz --markdown 20230731/s/shareddata/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-07-31 15:10:18] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.6.8.tar.gz]
+[2023-07-31 15:10:18] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.6.9.tar.gz]
+[2023-07-31 15:10:18] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2023-07-31 15:10:18] INFO root fetch - processPackages [decentralizedroutines]: executing diffoscope
+[2023-07-31 15:10:18] INFO root fetch - processPackages [decentralizedroutines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentralizedroutines-2.2.2.tar.gz tmp/decentralizedroutines-2.2.3.tar.gz --markdown 20230731/d/decentralizedroutines/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-31 15:10:18] INFO root fetch - processPackages [helium]: Remove: archive file [/home/abi/fetcher/tmp/helium-3.2.3.tar.gz]
+[2023-07-31 15:10:18] INFO root fetch - processPackages [helium]: Remove: archive file [/home/abi/fetcher/tmp/helium-3.2.4.tar.gz]
+[2023-07-31 15:10:18] INFO root fetch - main [MainThread]: End processing [helium]: success
+[2023-07-31 15:10:18] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-31 15:10:18] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-31 15:10:18] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-31 15:10:18] INFO root fetch - processPackages [django-log-reader]: Remove: archive file [/home/abi/fetcher/tmp/django-log-reader-1.1.8.tar.gz]
+[2023-07-31 15:10:18] INFO root fetch - processPackages [django-log-reader]: Remove: archive file [/home/abi/fetcher/tmp/django-log-reader-1.1.9.tar.gz]
+[2023-07-31 15:10:18] INFO root fetch - main [MainThread]: End processing [django-log-reader]: success
+[2023-07-31 15:10:18] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-07-31 15:10:18] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-07-31 15:10:18] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-07-31 15:10:19] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.2.3.tar.gz]
+[2023-07-31 15:10:19] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.2.4.tar.gz]
+[2023-07-31 15:10:19] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-07-31 15:10:19] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-2.2.2.tar.gz]
+[2023-07-31 15:10:19] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-2.2.3.tar.gz]
+[2023-07-31 15:10:19] INFO root fetch - main [MainThread]: End processing [decentralizedroutines]: success
+[2023-07-31 15:10:20] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-9.0.0rc2.tar.gz]
+[2023-07-31 15:10:20] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-9.0.0rc3.tar.gz]
+[2023-07-31 15:10:20] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
+[2023-07-31 15:11:24] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.38-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-31 15:11:24] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.39-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-31 15:11:24] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
+[2023-07-31 15:11:24] INFO root fetch - main [MainThread]: Store serial: [19107774]
