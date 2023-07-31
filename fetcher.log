@@ -5293,3 +5293,45 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 04:11:59] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
 [2023-07-31 04:11:59] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
 [2023-07-31 04:11:59] INFO root fetch - main [MainThread]: Store serial: [19101858]
+[2023-07-31 04:17:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19101858]
+[2023-07-31 04:17:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-31 04:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oneutil
+[2023-07-31 04:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hibp-downloader
+[2023-07-31 04:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tairhaystack
+[2023-07-31 04:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: khoj-assistant
+[2023-07-31 04:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zerocap-api-new-test
+[2023-07-31 04:17:08] WARNING root fetch - processPackages [tairhaystack]: Skipping, unable to determine old version
+[2023-07-31 04:17:08] INFO root fetch - main [MainThread]: End processing [tairhaystack] error
+[2023-07-31 04:17:08] INFO root fetch - processPackages [oneutil]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-31 04:17:08] INFO root fetch - processPackages [hibp-downloader]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-31 04:17:08] INFO root fetch - processPackages [zerocap-api-new-test]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-31 04:17:08] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev8] Old Version: [0.9.1.dev7]
+[2023-07-31 04:17:08] INFO root fetch - processPackages [hibp-downloader]: Downloading https://files.pythonhosted.org/packages/57/b3/257e5b7eebfe5766afb0724c6b7a3507c4a6e412dd0fd0061f693e6c6a40/hibp_downloader-0.1.2.tar.gz
+[2023-07-31 04:17:08] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/80/c2/afc116f8f70318334052f67223fb93a5ce1d898f2d901991e87dad33b030/khoj_assistant-0.9.1.dev7.tar.gz
+[2023-07-31 04:17:08] INFO root fetch - processPackages [zerocap-api-new-test]: Downloading https://files.pythonhosted.org/packages/9e/e4/f4f588eab66c913623dd0934bcbb89c8d659df78f53d421cea727ae0692e/zerocap_api_new_test-0.1.2.tar.gz
+[2023-07-31 04:17:08] INFO root fetch - processPackages [oneutil]: Downloading https://files.pythonhosted.org/packages/a5/fc/097127811b1e3441583b45514feea832a00106a049bf1dee8ed5e1871948/oneutil-0.0.3.tar.gz
+[2023-07-31 04:17:08] INFO root fetch - processPackages [hibp-downloader]: Downloading https://files.pythonhosted.org/packages/21/90/6cb2331dab94bf49508de3790610112e65623180a633a73259ba5c707cb8/hibp_downloader-0.1.3.tar.gz
+[2023-07-31 04:17:08] INFO root fetch - processPackages [zerocap-api-new-test]: Downloading https://files.pythonhosted.org/packages/d5/55/aab805a333903aec00a928cdaa2e2c7f6171f2e0536d91441881994e2fb5/zerocap_api_new_test-0.1.3.tar.gz
+[2023-07-31 04:17:08] INFO root fetch - processPackages [oneutil]: Downloading https://files.pythonhosted.org/packages/c0/f5/dd2efe333f63f840a231055fcdf1d58fa98a099b5d7d55dd2d3d05ac456b/oneutil-0.0.4.tar.gz
+[2023-07-31 04:17:08] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/87/c3/a6da041c3dee772521fabc9586096b6809ee0e9289735b249898c5a282a2/khoj_assistant-0.9.1.dev8.tar.gz
+[2023-07-31 04:17:08] INFO root fetch - processPackages [hibp-downloader]: executing diffoscope
+[2023-07-31 04:17:08] INFO root fetch - processPackages [hibp-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hibp_downloader-0.1.2.tar.gz tmp/hibp_downloader-0.1.3.tar.gz --markdown 20230731/h/hibp-downloader/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-31 04:17:08] INFO root fetch - processPackages [zerocap-api-new-test]: executing diffoscope
+[2023-07-31 04:17:08] INFO root fetch - processPackages [zerocap-api-new-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerocap_api_new_test-0.1.2.tar.gz tmp/zerocap_api_new_test-0.1.3.tar.gz --markdown 20230731/z/zerocap-api-new-test/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-31 04:17:08] INFO root fetch - processPackages [oneutil]: executing diffoscope
+[2023-07-31 04:17:08] INFO root fetch - processPackages [oneutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneutil-0.0.3.tar.gz tmp/oneutil-0.0.4.tar.gz --markdown 20230731/o/oneutil/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-31 04:17:09] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-31 04:17:09] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.1.dev7.tar.gz tmp/khoj_assistant-0.9.1.dev8.tar.gz --markdown 20230731/k/khoj-assistant/0.9.1.dev7-0.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-31 04:17:09] INFO root fetch - processPackages [oneutil]: Remove: archive file [/home/abi/fetcher/tmp/oneutil-0.0.3.tar.gz]
+[2023-07-31 04:17:09] INFO root fetch - processPackages [oneutil]: Remove: archive file [/home/abi/fetcher/tmp/oneutil-0.0.4.tar.gz]
+[2023-07-31 04:17:09] INFO root fetch - main [MainThread]: End processing [oneutil]: success
+[2023-07-31 04:17:09] INFO root fetch - processPackages [hibp-downloader]: Remove: archive file [/home/abi/fetcher/tmp/hibp_downloader-0.1.2.tar.gz]
+[2023-07-31 04:17:09] INFO root fetch - processPackages [hibp-downloader]: Remove: archive file [/home/abi/fetcher/tmp/hibp_downloader-0.1.3.tar.gz]
+[2023-07-31 04:17:09] INFO root fetch - main [MainThread]: End processing [hibp-downloader]: success
+[2023-07-31 04:17:09] INFO root fetch - processPackages [zerocap-api-new-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_new_test-0.1.2.tar.gz]
+[2023-07-31 04:17:09] INFO root fetch - processPackages [zerocap-api-new-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_new_test-0.1.3.tar.gz]
+[2023-07-31 04:17:09] INFO root fetch - main [MainThread]: End processing [zerocap-api-new-test]: success
+[2023-07-31 04:17:10] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev7.tar.gz]
+[2023-07-31 04:17:10] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
+[2023-07-31 04:17:10] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-31 04:17:10] INFO root fetch - main [MainThread]: Store serial: [19101872]
