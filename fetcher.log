@@ -20180,3 +20180,100 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-31 15:27:36] INFO root fetch - processPackages [open-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-autonomy-0.9.1.tar.gz]
 [2023-07-31 15:27:36] INFO root fetch - main [MainThread]: End processing [open-autonomy]: success
 [2023-07-31 15:27:36] INFO root fetch - main [MainThread]: Store serial: [19108008]
+[2023-07-31 15:32:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19108008]
+[2023-07-31 15:32:45] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-31 15:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: readfish-tools
+[2023-07-31 15:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ivneuro
+[2023-07-31 15:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyxk
+[2023-07-31 15:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmem-plugin-pyshacl
+[2023-07-31 15:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eumetsat2ani
+[2023-07-31 15:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-dllib-spark3
+[2023-07-31 15:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-orca-spark3
+[2023-07-31 15:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-friesian-spark3
+[2023-07-31 15:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-chronos-spark3
+[2023-07-31 15:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-spark3
+[2023-07-31 15:32:46] INFO root fetch - processPackages [cmem-plugin-pyshacl]: New version: [4.2.0rc4] Old Version: [4.2.0rc3]
+[2023-07-31 15:32:46] INFO root fetch - processPackages [pyxk]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-07-31 15:32:46] WARNING root fetch - processPackages [readfish-tools]: Skipping, unable to determine old version
+[2023-07-31 15:32:46] INFO root fetch - processPackages [readfish-tools]: Start processing: lc-checkpoint
+[2023-07-31 15:32:46] INFO root fetch - main [MainThread]: End processing [readfish-tools] error
+[2023-07-31 15:32:46] WARNING root fetch - processPackages [eumetsat2ani]: Skipping, unable to determine old version
+[2023-07-31 15:32:46] INFO root fetch - processPackages [eumetsat2ani]: Start processing: aespark
+[2023-07-31 15:32:46] INFO root fetch - main [MainThread]: End processing [eumetsat2ani] error
+[2023-07-31 15:32:46] WARNING root fetch - processPackages [ivneuro]: Skipping, unable to determine old version
+[2023-07-31 15:32:46] INFO root fetch - processPackages [ivneuro]: Start processing: dojo-toolkit
+[2023-07-31 15:32:46] INFO root fetch - main [MainThread]: End processing [ivneuro] error
+[2023-07-31 15:32:46] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230731] Old Version: [2.4.0b20230730]
+[2023-07-31 15:32:46] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230731] Old Version: [2.4.0b20230730]
+[2023-07-31 15:32:46] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230731] Old Version: [2.4.0b20230730]
+[2023-07-31 15:32:46] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230731] Old Version: [2.4.0b20230730]
+[2023-07-31 15:32:46] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230731] Old Version: [2.4.0b20230730]
+[2023-07-31 15:32:46] INFO root fetch - processPackages [lc-checkpoint]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-31 15:32:46] INFO root fetch - processPackages [pyxk]: Downloading https://files.pythonhosted.org/packages/fc/97/b3b99d56ed53fe497c2a81b8baa34cdbf26decdb54343d4dceeef060f5dd/pyxk-0.6.5.tar.gz
+[2023-07-31 15:32:46] INFO root fetch - processPackages [dojo-toolkit]: New version: [0.8.1] Old Version: [0.7.0]
+[2023-07-31 15:32:46] WARNING root fetch - processPackages [aespark]: Skipping, unable to determine old version
+[2023-07-31 15:32:46] INFO root fetch - processPackages [aespark]: Start processing: notebook
+[2023-07-31 15:32:46] INFO root fetch - main [MainThread]: End processing [aespark] error
+[2023-07-31 15:32:46] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/0a/05/151015bf6974c69ccfb36eedce2c7a5c62e3d77ebb5a3bdc563b3a7dcf5a/bigdl_chronos_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl
+[2023-07-31 15:32:46] INFO root fetch - processPackages [cmem-plugin-pyshacl]: Downloading https://files.pythonhosted.org/packages/70/d4/064f53f2cf47c0d7b5b4ece3fdc34bd943a9c7938c3ff16beee2c5da8ca7/cmem_plugin_pyshacl-4.2.0rc3.tar.gz
+[2023-07-31 15:32:46] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/f4/80/6c7aedc014889130d395ea378ed2b4f1fbdc108ce3ac3ed150e18e13663d/bigdl_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl
+[2023-07-31 15:32:46] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/36/bf/ce13513d7fc60d286a24cd652c92155265ffc4ad83d3a9aa2d07e5999ca1/bigdl_friesian_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl
+[2023-07-31 15:32:46] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/da/1f/f60a6146f24f79488f3c608ebd59ad21582c54b3189e69b57a77824cb003/bigdl-dllib-spark3-2.4.0b20230730.tar.gz
+[2023-07-31 15:32:46] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/8d/cf/3c852de50ff65b406652ff05c855b642f71960221540567346f8f0727bb6/bigdl_orca_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl
+[2023-07-31 15:32:46] INFO root fetch - processPackages [lc-checkpoint]: Downloading https://files.pythonhosted.org/packages/04/b7/6c08fbfb5ec064dd393a9476ceebefe03b6c958dec725a7598c3830b6328/lc-checkpoint-0.5.0.tar.gz
+[2023-07-31 15:32:46] INFO root fetch - processPackages [notebook]: New version: [7.0.1] Old Version: [7.0.0rc2]
+[2023-07-31 15:32:46] INFO root fetch - processPackages [dojo-toolkit]: Downloading https://files.pythonhosted.org/packages/86/4f/93bce991b48debdc6a47f73d3604f17d81e48e6f302693a23e18a9b8b920/dojo-toolkit-0.7.0.tar.gz
+[2023-07-31 15:32:46] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 63745173>=10485760
+[2023-07-31 15:32:46] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-07-31 15:32:46] INFO root fetch - processPackages [pyxk]: Downloading https://files.pythonhosted.org/packages/24/67/3483ae3ee83e161aa7b732e61836e787d12c056550cbc327e0bf7610058e/pyxk-0.6.6.tar.gz
+[2023-07-31 15:32:46] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20212162>=10485760
+[2023-07-31 15:32:46] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-07-31 15:32:46] INFO root fetch - processPackages [pyxk]: executing diffoscope
+[2023-07-31 15:32:46] INFO root fetch - processPackages [pyxk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxk-0.6.5.tar.gz tmp/pyxk-0.6.6.tar.gz --markdown 20230731/p/pyxk/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-07-31 15:32:46] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/7d/21/7cefcb324b975624e6637c83fef765dff09c89128dd668a592a531032257/notebook-7.0.0rc2.tar.gz
+[2023-07-31 15:32:46] INFO root fetch - processPackages [lc-checkpoint]: Downloading https://files.pythonhosted.org/packages/2d/b1/bbb1e1708df1c8366fe69fab1a511129ace85fd2e0725becd791b29b873c/lc-checkpoint-0.5.1.tar.gz
+[2023-07-31 15:32:47] INFO root fetch - processPackages [cmem-plugin-pyshacl]: Downloading https://files.pythonhosted.org/packages/09/a9/93d1fc5723bace7901d34d1787c36d16bac0f96a87f1b9e27b73eaab8654/cmem_plugin_pyshacl-4.2.0rc4.tar.gz
+[2023-07-31 15:32:47] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/a1/2f/921f630a8d607d8f0a245e462b3049321333b0fc10eb5d5a231caa145298/bigdl_spark3-2.4.0b20230731-py3-none-manylinux1_x86_64.whl
+[2023-07-31 15:32:47] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/10/5d/4633da2ccc17e3167553d1f05d812f7cc816aef2baf367635b811186bcd4/bigdl_chronos_spark3-2.4.0b20230731-py3-none-manylinux1_x86_64.whl
+[2023-07-31 15:32:47] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/d3/13/c12e3601777f1f467ec83d7f1bb5f51e1d966d9f360024f2e8c0cc0d07f8/bigdl_friesian_spark3-2.4.0b20230731-py3-none-manylinux1_x86_64.whl
+[2023-07-31 15:32:47] INFO root fetch - processPackages [lc-checkpoint]: executing diffoscope
+[2023-07-31 15:32:47] INFO root fetch - processPackages [lc-checkpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lc-checkpoint-0.5.0.tar.gz tmp/lc-checkpoint-0.5.1.tar.gz --markdown 20230731/l/lc-checkpoint/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-31 15:32:47] INFO root fetch - processPackages [cmem-plugin-pyshacl]: executing diffoscope
+[2023-07-31 15:32:47] INFO root fetch - processPackages [cmem-plugin-pyshacl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_pyshacl-4.2.0rc3.tar.gz tmp/cmem_plugin_pyshacl-4.2.0rc4.tar.gz --markdown 20230731/c/cmem-plugin-pyshacl/4.2.0rc3-4.2.0rc4/diff.md --exclude *.pyd
+[2023-07-31 15:32:47] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-07-31 15:32:47] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230731-py3-none-manylinux1_x86_64.whl.zip --markdown 20230731/b/bigdl-spark3/2.4.0b20230730-2.4.0b20230731/diff.md --exclude *.pyd
+[2023-07-31 15:32:47] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-07-31 15:32:47] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230731-py3-none-manylinux1_x86_64.whl.zip --markdown 20230731/b/bigdl-chronos-spark3/2.4.0b20230730-2.4.0b20230731/diff.md --exclude *.pyd
+[2023-07-31 15:32:47] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-07-31 15:32:47] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230731-py3-none-manylinux1_x86_64.whl.zip --markdown 20230731/b/bigdl-friesian-spark3/2.4.0b20230730-2.4.0b20230731/diff.md --exclude *.pyd
+[2023-07-31 15:32:47] INFO root fetch - processPackages [dojo-toolkit]: Downloading https://files.pythonhosted.org/packages/32/d3/084e12997ec40dd2b6e7a50009b26c3c89fc2d1321c123c6dceb63f547f7/dojo_toolkit-0.8.1.tar.gz
+[2023-07-31 15:32:47] INFO root fetch - processPackages [dojo-toolkit]: executing diffoscope
+[2023-07-31 15:32:47] INFO root fetch - processPackages [dojo-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dojo-toolkit-0.7.0.tar.gz tmp/dojo_toolkit-0.8.1.tar.gz --markdown 20230731/d/dojo-toolkit/0.7.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-31 15:32:48] INFO root fetch - processPackages [pyxk]: Remove: archive file [/home/abi/fetcher/tmp/pyxk-0.6.5.tar.gz]
+[2023-07-31 15:32:48] INFO root fetch - processPackages [pyxk]: Remove: archive file [/home/abi/fetcher/tmp/pyxk-0.6.6.tar.gz]
+[2023-07-31 15:32:48] INFO root fetch - main [MainThread]: End processing [pyxk]: success
+[2023-07-31 15:32:48] INFO root fetch - processPackages [lc-checkpoint]: Remove: archive file [/home/abi/fetcher/tmp/lc-checkpoint-0.5.0.tar.gz]
+[2023-07-31 15:32:48] INFO root fetch - processPackages [lc-checkpoint]: Remove: archive file [/home/abi/fetcher/tmp/lc-checkpoint-0.5.1.tar.gz]
+[2023-07-31 15:32:48] INFO root fetch - main [MainThread]: End processing [lc-checkpoint]: success
+[2023-07-31 15:32:48] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-31 15:32:48] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230731-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-31 15:32:48] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-07-31 15:32:48] INFO root fetch - processPackages [cmem-plugin-pyshacl]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_pyshacl-4.2.0rc3.tar.gz]
+[2023-07-31 15:32:48] INFO root fetch - processPackages [cmem-plugin-pyshacl]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_pyshacl-4.2.0rc4.tar.gz]
+[2023-07-31 15:32:48] INFO root fetch - main [MainThread]: End processing [cmem-plugin-pyshacl]: success
+[2023-07-31 15:32:48] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/3e/eb/94b6b7aafda367d69f30af2adaa0e9680e5ae3b5f5f7ad5edd2012135f55/notebook-7.0.1.tar.gz
+[2023-07-31 15:32:48] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-31 15:32:48] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230731-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-31 15:32:48] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-07-31 15:32:48] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-31 15:32:48] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230731-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-31 15:32:48] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-07-31 15:32:49] INFO root fetch - processPackages [dojo-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/dojo-toolkit-0.7.0.tar.gz]
+[2023-07-31 15:32:49] INFO root fetch - processPackages [dojo-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/dojo_toolkit-0.8.1.tar.gz]
+[2023-07-31 15:32:49] INFO root fetch - main [MainThread]: End processing [dojo-toolkit]: success
+[2023-07-31 15:32:49] INFO root fetch - processPackages [notebook]: executing diffoscope
+[2023-07-31 15:32:49] INFO root fetch - processPackages [notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook-7.0.0rc2.tar.gz tmp/notebook-7.0.1.tar.gz --markdown 20230731/n/notebook/7.0.0rc2-7.0.1/diff.md --exclude *.pyd
+[2023-07-31 15:33:49] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.0rc2.tar.gz]
+[2023-07-31 15:33:49] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.1.tar.gz]
+[2023-07-31 15:33:49] INFO root fetch - main [MainThread]: End processing [notebook]: success
+[2023-07-31 15:33:49] INFO root fetch - main [MainThread]: Store serial: [19108089]
