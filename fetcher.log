@@ -9793,3 +9793,48 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 09:15:20] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-31 09:15:20] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-31 09:15:20] INFO root fetch - main [MainThread]: Store serial: [19103911]
+[2023-07-31 09:20:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19103911]
+[2023-07-31 09:20:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-31 09:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: email-extractor-unicode
+[2023-07-31 09:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imjoy-rpc
+[2023-07-31 09:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easycompletion
+[2023-07-31 09:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrunch
+[2023-07-31 09:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: renus
+[2023-07-31 09:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-financial-accounting
+[2023-07-31 09:20:29] WARNING root fetch - processPackages [email-extractor-unicode]: Skipping, unable to determine old version
+[2023-07-31 09:20:29] INFO root fetch - main [MainThread]: End processing [email-extractor-unicode] error
+[2023-07-31 09:20:29] INFO root fetch - processPackages [easycompletion]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-31 09:20:29] INFO root fetch - processPackages [scrunch]: New version: [6.5.2019.post1690570998] Old Version: [6.5.2018.post1690565515]
+[2023-07-31 09:20:29] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-31 09:20:29] INFO root fetch - processPackages [renus]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-31 09:20:29] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/34/4d/11c6b2e751d34ef098112527ff5c37e3bf3e3c79357f81c5017e5d15f91d/scrunch-6.5.2018.post1690565515.tar.gz
+[2023-07-31 09:20:29] WARNING root fetch - processPackages [odoo14-addon-ssi-financial-accounting]: Skipping, unable to determine old version
+[2023-07-31 09:20:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-financial-accounting] error
+[2023-07-31 09:20:29] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/e5/a2/4f903cace6cbd735c6e82077f61bb1401582f8264908f03da8e9c7b72442/easycompletion-0.3.2.tar.gz
+[2023-07-31 09:20:29] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-07-31 09:20:29] INFO root fetch - processPackages [renus]: Downloading https://files.pythonhosted.org/packages/ce/23/df94fa05ece4b430fd3fb2ec76f80f1682e3aec0f5ec01ff6d658172d784/renus-1.1.5.tar.gz
+[2023-07-31 09:20:29] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/db/5c/3b49249954066d98fcb3619ff2ec05dfc6031a235801bb7624b55586f9a4/scrunch-6.5.2019.post1690570998.tar.gz
+[2023-07-31 09:20:29] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-31 09:20:29] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2018.post1690565515.tar.gz tmp/scrunch-6.5.2019.post1690570998.tar.gz --markdown 20230731/s/scrunch/6.5.2018.post1690565515-6.5.2019.post1690570998/diff.md --exclude *.pyd
+[2023-07-31 09:20:29] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/c3/27/f14180f87eb9aec8be56fe005cd930b4ec0b3047ff10a8872e5ede13adf9/easycompletion-0.3.3.tar.gz
+[2023-07-31 09:20:29] INFO root fetch - processPackages [easycompletion]: executing diffoscope
+[2023-07-31 09:20:29] INFO root fetch - processPackages [easycompletion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easycompletion-0.3.2.tar.gz tmp/easycompletion-0.3.3.tar.gz --markdown 20230731/e/easycompletion/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-31 09:20:29] INFO root fetch - processPackages [renus]: Downloading https://files.pythonhosted.org/packages/00/70/2abf117f06ec217bdec8dfed76e81cbf6d119a579e3a5b6d92f874149055/renus-1.1.6.tar.gz
+[2023-07-31 09:20:29] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-07-31 09:20:29] INFO root fetch - processPackages [renus]: executing diffoscope
+[2023-07-31 09:20:29] INFO root fetch - processPackages [renus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renus-1.1.5.tar.gz tmp/renus-1.1.6.tar.gz --markdown 20230731/r/renus/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-31 09:20:30] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-07-31 09:20:30] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230731/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-31 09:20:30] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2018.post1690565515.tar.gz]
+[2023-07-31 09:20:30] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2019.post1690570998.tar.gz]
+[2023-07-31 09:20:30] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-31 09:20:30] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.3.2.tar.gz]
+[2023-07-31 09:20:30] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.3.3.tar.gz]
+[2023-07-31 09:20:30] INFO root fetch - main [MainThread]: End processing [easycompletion]: success
+[2023-07-31 09:20:30] INFO root fetch - processPackages [renus]: Remove: archive file [/home/abi/fetcher/tmp/renus-1.1.5.tar.gz]
+[2023-07-31 09:20:30] INFO root fetch - processPackages [renus]: Remove: archive file [/home/abi/fetcher/tmp/renus-1.1.6.tar.gz]
+[2023-07-31 09:20:30] INFO root fetch - main [MainThread]: End processing [renus]: success
+[2023-07-31 09:20:31] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-07-31 09:20:31] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-07-31 09:20:31] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-07-31 09:20:31] INFO root fetch - main [MainThread]: Store serial: [19103936]
