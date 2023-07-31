@@ -5499,3 +5499,102 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 04:27:40] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.29.tar.gz]
 [2023-07-31 04:27:40] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
 [2023-07-31 04:27:40] INFO root fetch - main [MainThread]: Store serial: [19101936]
+[2023-07-31 04:32:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19101936]
+[2023-07-31 04:32:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-31 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2023-07-31 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafri
+[2023-07-31 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syntaxlight
+[2023-07-31 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-cloudapi20160714-py2
+[2023-07-31 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zerocap-api-new-test
+[2023-07-31 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: naif-eop-high-prec
+[2023-07-31 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccxt
+[2023-07-31 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-cloudapi20160714
+[2023-07-31 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pronouns
+[2023-07-31 04:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: liangutil
+[2023-07-31 04:32:49] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230731] Old Version: [1.2.20230730]
+[2023-07-31 04:32:49] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 04:32:49] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: New version: [3.0.0] Old Version: [2.2.9]
+[2023-07-31 04:32:49] INFO root fetch - processPackages [zerocap-api-new-test]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-31 04:32:49] WARNING root fetch - processPackages [pronouns]: Skipping, unable to determine old version
+[2023-07-31 04:32:49] INFO root fetch - processPackages [pronouns]: Start processing: pyvidplayer2
+[2023-07-31 04:32:49] WARNING root fetch - processPackages [liangutil]: Skipping, unable to determine old version
+[2023-07-31 04:32:49] INFO root fetch - main [MainThread]: End processing [pronouns] error
+[2023-07-31 04:32:49] INFO root fetch - processPackages [liangutil]: Start processing: khoj-assistant
+[2023-07-31 04:32:49] INFO root fetch - main [MainThread]: End processing [liangutil] error
+[2023-07-31 04:32:49] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: New version: [3.0.0] Old Version: [2.2.9]
+[2023-07-31 04:32:49] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-31 04:32:49] INFO root fetch - processPackages [adafri]: New version: [0.0.71] Old Version: [0.0.70]
+[2023-07-31 04:32:49] INFO root fetch - processPackages [pyvidplayer2]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-31 04:32:49] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev8] Old Version: [0.9.1.dev7]
+[2023-07-31 04:32:49] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-31 04:32:49] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/02/6b/3cf849996299918f78fa33f8992e772f38280d66d910c7014fe55ed3cf07/iam_actions-1.2.20230730.tar.gz
+[2023-07-31 04:32:49] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-07-31 04:32:49] INFO root fetch - processPackages [zerocap-api-new-test]: Downloading https://files.pythonhosted.org/packages/4f/19/157217fe4c1c1d28890aa6c8cdb1b7ecb2ed66b8f738ba11b0907f6c2dba/zerocap_api_new_test-0.1.5.tar.gz
+[2023-07-31 04:32:49] INFO root fetch - processPackages [pyvidplayer2]: Downloading https://files.pythonhosted.org/packages/7e/47/3f4f415d616db1037b6444dc853128b1f553821d43f5a790c7189ace0b6b/pyvidplayer2-0.9.1.tar.gz
+[2023-07-31 04:32:49] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/80/c2/afc116f8f70318334052f67223fb93a5ce1d898f2d901991e87dad33b030/khoj_assistant-0.9.1.dev7.tar.gz
+[2023-07-31 04:32:50] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/0d/50/4940be2bbb1aad9e6ac7d388f99a149b86d73a8f84eac13b28f5cf5292da/adafri-0.0.70.tar.gz
+[2023-07-31 04:32:50] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-31 04:32:50] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/7e/f4/72d4aa78c2eafed3b97cb3e8771ff32caef4c97ccda291b6c03af9e3be4f/alibabacloud_cloudapi20160714-2.2.9.tar.gz
+[2023-07-31 04:32:50] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Downloading https://files.pythonhosted.org/packages/6c/01/9e15281f8c8ce41ba2c4b056f5647f40adc70f2672aa530585533a56b66f/alibabacloud_cloudapi20160714_py2-2.2.9.tar.gz
+[2023-07-31 04:32:50] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-31 04:32:50] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-07-31 04:32:50] INFO root fetch - processPackages [zerocap-api-new-test]: Downloading https://files.pythonhosted.org/packages/c4/df/483f41dbca6d43bf372e091882383fa0c6870dbf239cfc0fb574f7cce548/zerocap_api_new_test-0.1.6.tar.gz
+[2023-07-31 04:32:50] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/87/c3/a6da041c3dee772521fabc9586096b6809ee0e9289735b249898c5a282a2/khoj_assistant-0.9.1.dev8.tar.gz
+[2023-07-31 04:32:50] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/97/1f/824d0d6c32ddbd02d60dd7920d62492e7dfbe662f6fed593d3d321af1ab3/iam_actions-1.2.20230731.tar.gz
+[2023-07-31 04:32:50] INFO root fetch - processPackages [pyvidplayer2]: Downloading https://files.pythonhosted.org/packages/19/41/7904744ec0f2966b072c3758419326c431b4f2ede2de22f0c5fb34ecb264/pyvidplayer2-0.9.2.tar.gz
+[2023-07-31 04:32:50] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-31 04:32:50] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230731/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 04:32:50] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/39/25/95b9e526cc0471416cb01df8bd5bb1cec6ad1132dca43b17550f3ec2d202/adafri-0.0.71.tar.gz
+[2023-07-31 04:32:50] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/bf/1f/0a71ab439e84fb2e8daa558cb9b546520d64d58fa85701a94be56bad58b1/alibabacloud_cloudapi20160714-3.0.0.tar.gz
+[2023-07-31 04:32:50] INFO root fetch - processPackages [pyvidplayer2]: executing diffoscope
+[2023-07-31 04:32:50] INFO root fetch - processPackages [pyvidplayer2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvidplayer2-0.9.1.tar.gz tmp/pyvidplayer2-0.9.2.tar.gz --markdown 20230731/p/pyvidplayer2/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-31 04:32:50] INFO root fetch - processPackages [zerocap-api-new-test]: executing diffoscope
+[2023-07-31 04:32:50] INFO root fetch - processPackages [zerocap-api-new-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerocap_api_new_test-0.1.5.tar.gz tmp/zerocap_api_new_test-0.1.6.tar.gz --markdown 20230731/z/zerocap-api-new-test/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-31 04:32:50] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-31 04:32:50] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230730.tar.gz tmp/iam_actions-1.2.20230731.tar.gz --markdown 20230731/i/iam-actions/1.2.20230730-1.2.20230731/diff.md --exclude *.pyd
+[2023-07-31 04:32:50] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-31 04:32:50] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.70.tar.gz tmp/adafri-0.0.71.tar.gz --markdown 20230731/a/adafri/0.0.70-0.0.71/diff.md --exclude *.pyd
+[2023-07-31 04:32:50] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Downloading https://files.pythonhosted.org/packages/f1/47/73bba71b72fcf9f33e703042c125765396f7f1977240be9549fe16dd1425/alibabacloud_cloudapi20160714_py2-3.0.0.tar.gz
+[2023-07-31 04:32:50] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-31 04:32:50] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.1.dev7.tar.gz tmp/khoj_assistant-0.9.1.dev8.tar.gz --markdown 20230731/k/khoj-assistant/0.9.1.dev7-0.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-31 04:32:50] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-31 04:32:50] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: executing diffoscope
+[2023-07-31 04:32:50] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudapi20160714-2.2.9.tar.gz tmp/alibabacloud_cloudapi20160714-3.0.0.tar.gz --markdown 20230731/a/alibabacloud-cloudapi20160714/2.2.9-3.0.0/diff.md --exclude *.pyd
+[2023-07-31 04:32:50] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: executing diffoscope
+[2023-07-31 04:32:50] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudapi20160714_py2-2.2.9.tar.gz tmp/alibabacloud_cloudapi20160714_py2-3.0.0.tar.gz --markdown 20230731/a/alibabacloud-cloudapi20160714-py2/2.2.9-3.0.0/diff.md --exclude *.pyd
+[2023-07-31 04:32:51] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-31 04:32:51] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230731/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-31 04:32:51] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-31 04:32:52] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-07-31 04:32:52] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-07-31 04:32:52] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-31 04:32:52] INFO root fetch - processPackages [zerocap-api-new-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_new_test-0.1.5.tar.gz]
+[2023-07-31 04:32:52] INFO root fetch - processPackages [zerocap-api-new-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_new_test-0.1.6.tar.gz]
+[2023-07-31 04:32:52] INFO root fetch - main [MainThread]: End processing [zerocap-api-new-test]: success
+[2023-07-31 04:32:52] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-31 04:32:52] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230731/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-31 04:32:52] INFO root fetch - processPackages [pyvidplayer2]: Remove: archive file [/home/abi/fetcher/tmp/pyvidplayer2-0.9.1.tar.gz]
+[2023-07-31 04:32:52] INFO root fetch - processPackages [pyvidplayer2]: Remove: archive file [/home/abi/fetcher/tmp/pyvidplayer2-0.9.2.tar.gz]
+[2023-07-31 04:32:52] INFO root fetch - main [MainThread]: End processing [pyvidplayer2]: success
+[2023-07-31 04:32:52] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.70.tar.gz]
+[2023-07-31 04:32:52] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.71.tar.gz]
+[2023-07-31 04:32:52] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-31 04:32:52] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev7.tar.gz]
+[2023-07-31 04:32:52] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
+[2023-07-31 04:32:52] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-31 04:32:52] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714_py2-2.2.9.tar.gz]
+[2023-07-31 04:32:52] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714_py2-3.0.0.tar.gz]
+[2023-07-31 04:32:52] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714-py2]: success
+[2023-07-31 04:32:52] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-2.2.9.tar.gz]
+[2023-07-31 04:32:52] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-3.0.0.tar.gz]
+[2023-07-31 04:32:52] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714]: success
+[2023-07-31 04:32:53] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230730.tar.gz]
+[2023-07-31 04:32:53] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230731.tar.gz]
+[2023-07-31 04:32:53] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-31 04:32:54] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-31 04:32:54] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-31 04:32:54] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-31 04:32:56] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-31 04:32:56] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-31 04:32:56] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-31 04:32:56] INFO root fetch - main [MainThread]: Store serial: [19101979]
