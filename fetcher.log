@@ -21541,3 +21541,183 @@ AssertionError: tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.z
 [2023-07-31 16:13:34] INFO root fetch - processPackages [fortnitepy]: Remove: archive file [/home/abi/fetcher/tmp/fortnitepy-3.6.9.tar.gz]
 [2023-07-31 16:13:34] INFO root fetch - main [MainThread]: End processing [fortnitepy]: success
 [2023-07-31 16:13:34] INFO root fetch - main [MainThread]: Store serial: [19108569]
+[2023-07-31 16:18:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19108569]
+[2023-07-31 16:18:43] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-31 16:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdxg
+[2023-07-31 16:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: googleapis-common-protos
+[2023-07-31 16:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aitest-cli
+[2023-07-31 16:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aequitas-core
+[2023-07-31 16:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ivneuro
+[2023-07-31 16:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-analytics-admin
+[2023-07-31 16:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MyNameBas
+[2023-07-31 16:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datadog-lambda
+[2023-07-31 16:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easycap
+[2023-07-31 16:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dlt
+[2023-07-31 16:18:43] WARNING root fetch - processPackages [easycap]: Skipping, unable to determine old version
+[2023-07-31 16:18:43] INFO root fetch - processPackages [easycap]: Start processing: langchain
+[2023-07-31 16:18:43] INFO root fetch - main [MainThread]: End processing [easycap] error
+[2023-07-31 16:18:43] INFO root fetch - processPackages [googleapis-common-protos]: New version: [1.60.0] Old Version: [1.6.0b9]
+[2023-07-31 16:18:43] INFO root fetch - processPackages [cdxg]: New version: [1.2] Old Version: [1.1]
+[2023-07-31 16:18:43] WARNING root fetch - processPackages [MyNameBas]: Skipping, unable to determine old version
+[2023-07-31 16:18:43] INFO root fetch - processPackages [MyNameBas]: Start processing: rgpvApi
+[2023-07-31 16:18:43] INFO root fetch - main [MainThread]: End processing [MyNameBas] error
+[2023-07-31 16:18:43] INFO root fetch - processPackages [ivneuro]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 16:18:43] INFO root fetch - processPackages [aequitas-core]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-31 16:18:43] INFO root fetch - processPackages [dlt]: New version: [0.3.7] Old Version: [0.3.6a0]
+[2023-07-31 16:18:43] INFO root fetch - processPackages [google-analytics-admin]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-31 16:18:43] INFO root fetch - processPackages [aitest-cli]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-31 16:18:43] INFO root fetch - processPackages [datadog-lambda]: New version: [4.77.0] Old Version: [4.75.0]
+[2023-07-31 16:18:43] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-07-31 16:18:43] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/40/fd/7691cc671769d2747e970f29831f44251359fe2503b3495b41a89be702f5/dlt-0.3.6a0.tar.gz
+[2023-07-31 16:18:43] INFO root fetch - processPackages [rgpvApi]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-07-31 16:18:43] INFO root fetch - processPackages [ivneuro]: Downloading https://files.pythonhosted.org/packages/a4/1f/73c2b8b25fbb143a6d85ddfd283270dcfaf4a0565d9a183684c5d38732fb/ivneuro-0.1.1.tar.gz
+[2023-07-31 16:18:43] INFO root fetch - processPackages [cdxg]: Downloading https://files.pythonhosted.org/packages/66/1b/7be1d3d6f9f85ffbc02ec6ad186df0c333ab3f74b86eab97a1d5152579b5/cdxg-1.1-py3-none-any.whl
+[2023-07-31 16:18:43] INFO root fetch - processPackages [googleapis-common-protos]: Downloading https://files.pythonhosted.org/packages/cb/7e/c672db07dd1edb6ea6240231ed002676ef492b9745d0e77e944011100f32/googleapis-common-protos-1.6.0b9.tar.gz
+[2023-07-31 16:18:43] INFO root fetch - processPackages [google-analytics-admin]: Downloading https://files.pythonhosted.org/packages/dd/43/85530ef153e2930f20e4632b6035b6fbbfff138b4a4d2787e3769dd7037e/google-analytics-admin-0.8.2.tar.gz
+[2023-07-31 16:18:43] INFO root fetch - processPackages [datadog-lambda]: Downloading https://files.pythonhosted.org/packages/ff/c7/21fdf3d66144c8bbc1410896b9d22584949cc610041e6187758c738d377a/datadog_lambda-4.75.0.tar.gz
+[2023-07-31 16:18:43] INFO root fetch - processPackages [aequitas-core]: Downloading https://files.pythonhosted.org/packages/ed/10/bb971849111ff614e8eddf6e949a77bf5b6a2b1e97dcd29570dbadd62fc0/aequitas-core-1.0.0.tar.gz
+[2023-07-31 16:18:44] INFO root fetch - processPackages [rgpvApi]: Downloading https://files.pythonhosted.org/packages/48/f3/3f37feed817111bcdab903c424da167a43474a9fc18b46998c36675d9ac4/rgpvApi-0.0.1.tar.gz
+[2023-07-31 16:18:44] INFO root fetch - processPackages [aitest-cli]: Downloading https://files.pythonhosted.org/packages/41/22/596e225d45e3c57b0ade9382a2443643d417ec8f260bf44df2a82fafb2d6/aitest-cli-0.2.8.tar.gz
+[2023-07-31 16:18:44] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-07-31 16:18:44] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/dc/12/09d65173d21c309de9ed3b071271d8b1212167f561fdd8027118f79ad9e5/dlt-0.3.7.tar.gz
+[2023-07-31 16:18:44] INFO root fetch - processPackages [ivneuro]: Downloading https://files.pythonhosted.org/packages/8c/ab/70f6f80f0ac8978e50ab3a8cbdb68421a816f593e24e17f79040217365eb/ivneuro-0.1.2.tar.gz
+[2023-07-31 16:18:44] INFO root fetch - processPackages [googleapis-common-protos]: Downloading https://files.pythonhosted.org/packages/08/78/aedf7f323cc6d4f2116556bd42c9ffab6021cf3f2fd9925ed4e71213dd1b/googleapis-common-protos-1.60.0.tar.gz
+[2023-07-31 16:18:44] INFO root fetch - processPackages [cdxg]: Downloading https://files.pythonhosted.org/packages/b2/e0/44a3719284533126b9ba5d7c4d560b4e7416e703c96d0c91c4da445e0ec0/cdxg-1.2-py3-none-any.whl
+[2023-07-31 16:18:44] INFO root fetch - processPackages [aequitas-core]: Downloading https://files.pythonhosted.org/packages/e7/4a/be9431decbcd236aef6767979e6737a21683352a185ca22627b71aeb829f/aequitas-core-1.1.0.tar.gz
+[2023-07-31 16:18:44] INFO root fetch - processPackages [datadog-lambda]: Downloading https://files.pythonhosted.org/packages/6f/81/300a2ec1c96233a157eed7d773a1bbe7680065b7784d468923f3ac3db362/datadog_lambda-4.77.0.tar.gz
+[2023-07-31 16:18:44] INFO root fetch - processPackages [google-analytics-admin]: Downloading https://files.pythonhosted.org/packages/88/39/76afd134891902e3f106ac34dfc823125e77ae677c29e97d7336b8d55f25/google-analytics-admin-0.9.0.tar.gz
+[2023-07-31 16:18:44] INFO root fetch - processPackages [aitest-cli]: Downloading https://files.pythonhosted.org/packages/3f/2e/56cf51265cd212f99b429877d549df1f97df33771a1ebb37adf173339e0a/aitest-cli-0.2.9.tar.gz
+[2023-07-31 16:18:44] INFO root fetch - processPackages [rgpvApi]: Downloading https://files.pythonhosted.org/packages/12/49/b6514c0f4dede7c967084880260c0a49cf669e451d24d1eb04f943b72ee4/rgpvApi-1.0.0.tar.gz
+[2023-07-31 16:18:44] INFO root fetch - processPackages [googleapis-common-protos]: executing diffoscope
+[2023-07-31 16:18:44] INFO root fetch - processPackages [googleapis-common-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleapis-common-protos-1.6.0b9.tar.gz tmp/googleapis-common-protos-1.60.0.tar.gz --markdown 20230731/g/googleapis-common-protos/1.6.0b9-1.60.0/diff.md --exclude *.pyd
+[2023-07-31 16:18:44] INFO root fetch - processPackages [ivneuro]: executing diffoscope
+[2023-07-31 16:18:44] INFO root fetch - processPackages [ivneuro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivneuro-0.1.1.tar.gz tmp/ivneuro-0.1.2.tar.gz --markdown 20230731/i/ivneuro/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 16:18:44] INFO root fetch - processPackages [cdxg]: executing diffoscope
+[2023-07-31 16:18:44] INFO root fetch - processPackages [cdxg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxg-1.1-py3-none-any.whl.zip tmp/cdxg-1.2-py3-none-any.whl.zip --markdown 20230731/c/cdxg/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-31 16:18:44] INFO root fetch - processPackages [aequitas-core]: executing diffoscope
+[2023-07-31 16:18:44] INFO root fetch - processPackages [aequitas-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aequitas-core-1.0.0.tar.gz tmp/aequitas-core-1.1.0.tar.gz --markdown 20230731/a/aequitas-core/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-31 16:18:44] INFO root fetch - processPackages [datadog-lambda]: executing diffoscope
+[2023-07-31 16:18:44] INFO root fetch - processPackages [datadog-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_lambda-4.75.0.tar.gz tmp/datadog_lambda-4.77.0.tar.gz --markdown 20230731/d/datadog-lambda/4.75.0-4.77.0/diff.md --exclude *.pyd
+[2023-07-31 16:18:44] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2023-07-31 16:18:44] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.3.6a0.tar.gz tmp/dlt-0.3.7.tar.gz --markdown 20230731/d/dlt/0.3.6a0-0.3.7/diff.md --exclude *.pyd
+[2023-07-31 16:18:44] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-07-31 16:18:44] INFO root fetch - processPackages [google-analytics-admin]: executing diffoscope
+[2023-07-31 16:18:44] INFO root fetch - processPackages [google-analytics-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-analytics-admin-0.8.2.tar.gz tmp/google-analytics-admin-0.9.0.tar.gz --markdown 20230731/g/google-analytics-admin/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 16:18:44] INFO root fetch - processPackages [aitest-cli]: executing diffoscope
+[2023-07-31 16:18:44] INFO root fetch - processPackages [aitest-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitest-cli-0.2.8.tar.gz tmp/aitest-cli-0.2.9.tar.gz --markdown 20230731/a/aitest-cli/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-31 16:18:44] INFO root fetch - processPackages [rgpvApi]: executing diffoscope
+[2023-07-31 16:18:44] INFO root fetch - processPackages [rgpvApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rgpvApi-0.0.1.tar.gz tmp/rgpvApi-1.0.0.tar.gz --markdown 20230731/r/rgpvApi/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-31 16:18:44] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-07-31 16:18:44] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230731/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-07-31 16:18:46] INFO root fetch - processPackages [aequitas-core]: Remove: archive file [/home/abi/fetcher/tmp/aequitas-core-1.0.0.tar.gz]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [aequitas-core]: Remove: archive file [/home/abi/fetcher/tmp/aequitas-core-1.1.0.tar.gz]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [aequitas-core]: Start processing: ckanext-envidat_validators
+[2023-07-31 16:18:46] INFO root fetch - main [MainThread]: End processing [aequitas-core]: success
+[2023-07-31 16:18:46] INFO root fetch - processPackages [ckanext-envidat_validators]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [aitest-cli]: Remove: archive file [/home/abi/fetcher/tmp/aitest-cli-0.2.8.tar.gz]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [aitest-cli]: Remove: archive file [/home/abi/fetcher/tmp/aitest-cli-0.2.9.tar.gz]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [aitest-cli]: Start processing: python-hole
+[2023-07-31 16:18:46] INFO root fetch - main [MainThread]: End processing [aitest-cli]: success
+[2023-07-31 16:18:46] INFO root fetch - processPackages [datadog-lambda]: Remove: archive file [/home/abi/fetcher/tmp/datadog_lambda-4.75.0.tar.gz]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [datadog-lambda]: Remove: archive file [/home/abi/fetcher/tmp/datadog_lambda-4.77.0.tar.gz]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [datadog-lambda]: Start processing: pybiolib
+[2023-07-31 16:18:46] INFO root fetch - main [MainThread]: End processing [datadog-lambda]: success
+[2023-07-31 16:18:46] INFO root fetch - processPackages [python-hole]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [ckanext-envidat_validators]: Downloading https://files.pythonhosted.org/packages/3d/16/d6601c7a019d99acffd46bf5cbbcb7d832139fff5f6256d62c885d043e9a/ckanext-envidat-validators-0.0.1.tar.gz
+[2023-07-31 16:18:46] INFO root fetch - processPackages [ivneuro]: Remove: archive file [/home/abi/fetcher/tmp/ivneuro-0.1.1.tar.gz]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [ivneuro]: Remove: archive file [/home/abi/fetcher/tmp/ivneuro-0.1.2.tar.gz]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [ivneuro]: Start processing: ivneuro
+[2023-07-31 16:18:46] INFO root fetch - main [MainThread]: End processing [ivneuro]: success
+[2023-07-31 16:18:46] INFO root fetch - processPackages [rgpvApi]: Remove: archive file [/home/abi/fetcher/tmp/rgpvApi-0.0.1.tar.gz]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [rgpvApi]: Remove: archive file [/home/abi/fetcher/tmp/rgpvApi-1.0.0.tar.gz]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [rgpvApi]: Start processing: systembridgeconnector
+[2023-07-31 16:18:46] INFO root fetch - main [MainThread]: End processing [rgpvApi]: success
+[2023-07-31 16:18:46] INFO root fetch - processPackages [ivneuro]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.1] Old Version: [3.8.0.dev9]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [python-hole]: Downloading https://files.pythonhosted.org/packages/40/01/614030ecb326f09c93811999048e8d30921099524e26fc4258c1c16dea11/python-hole-0.0.4.tar.gz
+[2023-07-31 16:18:46] INFO root fetch - processPackages [cdxg]: Remove: archive file [/home/abi/fetcher/tmp/cdxg-1.1-py3-none-any.whl.zip]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [cdxg]: Remove: archive file [/home/abi/fetcher/tmp/cdxg-1.2-py3-none-any.whl.zip]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [cdxg]: Start processing: systembridgeshared
+[2023-07-31 16:18:46] INFO root fetch - main [MainThread]: End processing [cdxg]: success
+[2023-07-31 16:18:46] INFO root fetch - processPackages [ivneuro]: Downloading https://files.pythonhosted.org/packages/a4/1f/73c2b8b25fbb143a6d85ddfd283270dcfaf4a0565d9a183684c5d38732fb/ivneuro-0.1.1.tar.gz
+[2023-07-31 16:18:46] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2023-07-31 16:18:46] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/0c/2f/e4269881b1efc361a16100c5e3f8460ebf231ca289cb095b5ba7d0befbf5/systembridgeconnector-3.8.0.dev9.tar.gz
+[2023-07-31 16:18:46] INFO root fetch - processPackages [googleapis-common-protos]: Remove: archive file [/home/abi/fetcher/tmp/googleapis-common-protos-1.6.0b9.tar.gz]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [googleapis-common-protos]: Remove: archive file [/home/abi/fetcher/tmp/googleapis-common-protos-1.60.0.tar.gz]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [googleapis-common-protos]: Start processing: AstroInstrumentAD
+[2023-07-31 16:18:46] INFO root fetch - main [MainThread]: End processing [googleapis-common-protos]: success
+[2023-07-31 16:18:46] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.1] Old Version: [3.8.0.dev9]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [AstroInstrumentAD]: New version: [0.145] Old Version: [0.144]
+[2023-07-31 16:18:46] INFO root fetch - processPackages [ckanext-envidat_validators]: Downloading https://files.pythonhosted.org/packages/04/7f/98d0670206e3fe4069ab086e5754951c77781fdc5e554ac944c0ce0963d4/ckanext-envidat-validators-0.1.0.tar.gz
+[2023-07-31 16:18:47] INFO root fetch - processPackages [google-analytics-admin]: Remove: archive file [/home/abi/fetcher/tmp/google-analytics-admin-0.8.2.tar.gz]
+[2023-07-31 16:18:47] INFO root fetch - processPackages [google-analytics-admin]: Remove: archive file [/home/abi/fetcher/tmp/google-analytics-admin-0.9.0.tar.gz]
+[2023-07-31 16:18:47] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/55/0d/1c0d33a158dd646ad14f1d236802d2ba6135326aec0ffd25e3f9c4de156a/AstroInstrumentAD-0.144.tar.gz
+[2023-07-31 16:18:47] INFO root fetch - processPackages [google-analytics-admin]: Start processing: piel
+[2023-07-31 16:18:47] INFO root fetch - main [MainThread]: End processing [google-analytics-admin]: success
+[2023-07-31 16:18:47] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/34/db/8603b6ca893ab5a882e5d84c4459612589f1060c0b9b33af43467d87ef69/systembridgeshared-3.8.0.dev9.tar.gz
+[2023-07-31 16:18:47] INFO root fetch - processPackages [ivneuro]: Downloading https://files.pythonhosted.org/packages/8c/ab/70f6f80f0ac8978e50ab3a8cbdb68421a816f593e24e17f79040217365eb/ivneuro-0.1.2.tar.gz
+[2023-07-31 16:18:47] INFO root fetch - processPackages [python-hole]: Downloading https://files.pythonhosted.org/packages/f5/b5/71aed7b4e8b22cefe0b61cdf8727018c6e3d9dca6080936bc2fddab9c3cd/python-hole-0.0.5.tar.gz
+[2023-07-31 16:18:47] INFO root fetch - processPackages [piel]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-07-31 16:18:47] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2023-07-31 16:18:47] INFO root fetch - processPackages [ivneuro]: executing diffoscope
+[2023-07-31 16:18:47] INFO root fetch - processPackages [ivneuro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivneuro-0.1.1.tar.gz tmp/ivneuro-0.1.2.tar.gz --markdown 20230731/i/ivneuro/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 16:18:47] INFO root fetch - processPackages [ckanext-envidat_validators]: executing diffoscope
+[2023-07-31 16:18:47] INFO root fetch - processPackages [ckanext-envidat_validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-envidat-validators-0.0.1.tar.gz tmp/ckanext-envidat-validators-0.1.0.tar.gz --markdown 20230731/c/ckanext-envidat_validators/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-31 16:18:47] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/12/f0/488772e7ae8b3ad73a3ba82ebfd2367fa23c323515dd9186918038eeb17e/systembridgeconnector-3.8.1.tar.gz
+[2023-07-31 16:18:47] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/0a/79/27032cfa6e242bf1dcfc123baae837b9033c9a53e23faac3b082424a13aa/AstroInstrumentAD-0.145.tar.gz
+[2023-07-31 16:18:47] INFO root fetch - processPackages [python-hole]: executing diffoscope
+[2023-07-31 16:18:47] INFO root fetch - processPackages [python-hole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-hole-0.0.4.tar.gz tmp/python-hole-0.0.5.tar.gz --markdown 20230731/p/python-hole/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-31 16:18:47] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-07-31 16:18:47] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20230731/p/pybiolib/1.1.997-1.1.999/diff.md --exclude *.pyd
+[2023-07-31 16:18:47] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/9b/59/29956fce05ed15c906e3e5349442beb953aa298e0c3b568f5a5d10307f05/systembridgeshared-3.8.1.tar.gz
+[2023-07-31 16:18:47] INFO root fetch - processPackages [AstroInstrumentAD]: executing diffoscope
+[2023-07-31 16:18:47] INFO root fetch - processPackages [AstroInstrumentAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AstroInstrumentAD-0.144.tar.gz tmp/AstroInstrumentAD-0.145.tar.gz --markdown 20230731/A/AstroInstrumentAD/0.144-0.145/diff.md --exclude *.pyd
+[2023-07-31 16:18:47] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/e5/94/f7c3ba113d53b1e2e5aa489ba54e42248d8b05e12e7bdc8a8c1a5b698a13/piel-0.0.44.tar.gz
+[2023-07-31 16:18:47] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-31 16:18:47] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.8.0.dev9.tar.gz tmp/systembridgeconnector-3.8.1.tar.gz --markdown 20230731/s/systembridgeconnector/3.8.0.dev9-3.8.1/diff.md --exclude *.pyd
+[2023-07-31 16:18:47] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-31 16:18:47] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.8.0.dev9.tar.gz tmp/systembridgeshared-3.8.1.tar.gz --markdown 20230731/s/systembridgeshared/3.8.0.dev9-3.8.1/diff.md --exclude *.pyd
+[2023-07-31 16:18:47] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.6a0.tar.gz]
+[2023-07-31 16:18:47] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.7.tar.gz]
+[2023-07-31 16:18:47] INFO root fetch - processPackages [dlt]: Start processing: web3-ethereum-defi
+[2023-07-31 16:18:47] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2023-07-31 16:18:47] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/4f/74/ebb3b5019e0b7f8cf1a5701a933cd4467d948f2e6613bd1a488104ec2fa4/piel-0.0.45.tar.gz
+[2023-07-31 16:18:47] INFO root fetch - processPackages [web3-ethereum-defi]: New version: [0.9] Old Version: [0.8]
+[2023-07-31 16:18:48] INFO root fetch - processPackages [piel]: executing diffoscope
+[2023-07-31 16:18:48] INFO root fetch - processPackages [piel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piel-0.0.44.tar.gz tmp/piel-0.0.45.tar.gz --markdown 20230731/p/piel/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-07-31 16:18:48] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/f7/34/bc567b2d884ed84729cca7ee7fa158347e0f72fc19d964b3721fd4ad740b/web3-ethereum-defi-0.8.tar.gz
+[2023-07-31 16:18:48] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-07-31 16:18:48] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-07-31 16:18:48] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-07-31 16:18:48] INFO root fetch - processPackages [ckanext-envidat_validators]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-envidat-validators-0.0.1.tar.gz]
+[2023-07-31 16:18:48] INFO root fetch - processPackages [ckanext-envidat_validators]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-envidat-validators-0.1.0.tar.gz]
+[2023-07-31 16:18:48] INFO root fetch - main [MainThread]: End processing [ckanext-envidat_validators]: success
+[2023-07-31 16:18:48] INFO root fetch - processPackages [python-hole]: Remove: archive file [/home/abi/fetcher/tmp/python-hole-0.0.4.tar.gz]
+[2023-07-31 16:18:48] INFO root fetch - processPackages [python-hole]: Remove: archive file [/home/abi/fetcher/tmp/python-hole-0.0.5.tar.gz]
+[2023-07-31 16:18:48] INFO root fetch - main [MainThread]: End processing [python-hole]: success
+[2023-07-31 16:18:48] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/02/9e/0b69309d6f37b54cc726ee3588483bd2d6bd07282539b30d2a04e48b82cd/web3-ethereum-defi-0.9.tar.gz
+[2023-07-31 16:18:48] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.144.tar.gz]
+[2023-07-31 16:18:48] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.145.tar.gz]
+[2023-07-31 16:18:48] INFO root fetch - main [MainThread]: End processing [AstroInstrumentAD]: success
+[2023-07-31 16:18:48] INFO root fetch - processPackages [ivneuro]: Remove: archive file [/home/abi/fetcher/tmp/ivneuro-0.1.1.tar.gz]
+[2023-07-31 16:18:48] INFO root fetch - processPackages [ivneuro]: Remove: archive file [/home/abi/fetcher/tmp/ivneuro-0.1.2.tar.gz]
+[2023-07-31 16:18:48] INFO root fetch - main [MainThread]: End processing [ivneuro]: success
+[2023-07-31 16:18:48] INFO root fetch - processPackages [web3-ethereum-defi]: executing diffoscope
+[2023-07-31 16:18:48] INFO root fetch - processPackages [web3-ethereum-defi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3-ethereum-defi-0.8.tar.gz tmp/web3-ethereum-defi-0.9.tar.gz --markdown 20230731/w/web3-ethereum-defi/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-31 16:18:48] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev9.tar.gz]
+[2023-07-31 16:18:48] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.1.tar.gz]
+[2023-07-31 16:18:48] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-31 16:18:49] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev9.tar.gz]
+[2023-07-31 16:18:49] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.1.tar.gz]
+[2023-07-31 16:18:49] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-31 16:18:49] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2023-07-31 16:18:49] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2023-07-31 16:18:49] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-07-31 16:18:50] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.44.tar.gz]
+[2023-07-31 16:18:50] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.45.tar.gz]
+[2023-07-31 16:18:50] INFO root fetch - main [MainThread]: End processing [piel]: success
+[2023-07-31 16:18:50] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.8.tar.gz]
+[2023-07-31 16:18:50] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.9.tar.gz]
+[2023-07-31 16:18:50] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
+[2023-07-31 16:18:50] INFO root fetch - main [MainThread]: Store serial: [19108654]
