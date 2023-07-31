@@ -21062,3 +21062,221 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-31 15:57:47] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
 [2023-07-31 15:57:47] INFO root fetch - main [MainThread]: End processing [circt] error
 [2023-07-31 15:57:47] INFO root fetch - main [MainThread]: Store serial: [19108399]
+[2023-07-31 16:02:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19108399]
+[2023-07-31 16:02:56] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-31 16:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anyforce
+[2023-07-31 16:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gwent
+[2023-07-31 16:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loggerutility
+[2023-07-31 16:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-banking-sepa-direct-debit
+[2023-07-31 16:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-service-utilities
+[2023-07-31 16:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streams-py
+[2023-07-31 16:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastestimator-nightly
+[2023-07-31 16:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jakt
+[2023-07-31 16:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hubmap-commons
+[2023-07-31 16:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TTS
+[2023-07-31 16:02:56] INFO root fetch - processPackages [loggerutility]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-31 16:02:56] INFO root fetch - processPackages [gwent]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-31 16:02:56] INFO root fetch - processPackages [hubmap-commons]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-31 16:02:56] INFO root fetch - processPackages [assemblyline-service-utilities]: New version: [4.4.1.dev8] Old Version: [4.4.1.dev7]
+[2023-07-31 16:02:56] INFO root fetch - processPackages [TTS]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-31 16:02:56] INFO root fetch - processPackages [jakt]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-31 16:02:57] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.4]
+[2023-07-31 16:02:57] INFO root fetch - processPackages [streams-py]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-31 16:02:57] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-31 16:02:57] INFO root fetch - processPackages [fastestimator-nightly]: New version: [1.6.0.dev202307301357] Old Version: [1.6.0.dev202307291401]
+[2023-07-31 16:02:57] INFO root fetch - processPackages [TTS]: Downloading https://files.pythonhosted.org/packages/67/99/6c20d7d05ba1b790ecf630c966339575f1e1ba1de99180cfb6cd0cdef613/TTS-0.8.0.tar.gz
+[2023-07-31 16:02:57] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/ab/ec/7c4601022bc902e19b50934736a2ba8e329d633a605301895077dd13fcf0/fastestimator-nightly-1.6.0.dev202307291401.tar.gz
+[2023-07-31 16:02:57] INFO root fetch - processPackages [jakt]: Downloading https://files.pythonhosted.org/packages/a9/1d/1b2fbfdaf508721e1c704f7c8dcfba326278641e4ebf10bded82c819c864/jakt-0.0.4.tar.gz
+[2023-07-31 16:02:57] INFO root fetch - processPackages [gwent]: Downloading https://files.pythonhosted.org/packages/8e/de/d40aed60aa384dca71abfa276b3179d41d5a7bf7ddbd94adff4c95b429c5/gwent-0.4.0.tar.gz
+[2023-07-31 16:02:57] INFO root fetch - processPackages [loggerutility]: Downloading https://files.pythonhosted.org/packages/9c/c9/0434a4696f8daa43c2b5ee95916b7f5267cbbb0bcedc030447345a942be2/loggerutility-0.0.7-py3-none-any.whl
+[2023-07-31 16:02:57] INFO root fetch - processPackages [hubmap-commons]: Downloading https://files.pythonhosted.org/packages/3c/63/60419f3502fb9c39fd8eb42b9cb881ce8dd5883bd1e9a164255abcf581a5/hubmap-commons-2.1.8.tar.gz
+[2023-07-31 16:02:57] INFO root fetch - processPackages [assemblyline-service-utilities]: Downloading https://files.pythonhosted.org/packages/0c/08/8248dd417f3037b1bc5c07da14492e253d674df44575dec6d3ae0df38b78/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl
+[2023-07-31 16:02:57] INFO root fetch - processPackages [streams-py]: Downloading https://files.pythonhosted.org/packages/26/a3/acaf0a6c5459b251f8f495bbf9b5d49d22e3bc11d661fda754ebf9641745/streams_py-1.0.0.tar.gz
+[2023-07-31 16:02:57] WARNING root fetch - processPackages [gwent]: Skipping package: exceeds size limit 11865717>=10485760
+[2023-07-31 16:02:57] INFO root fetch - processPackages [gwent]: Start processing: trddt
+[2023-07-31 16:02:57] INFO root fetch - main [MainThread]: End processing [gwent] error
+[2023-07-31 16:02:57] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/c4/67/87fd9b51bdd554263d32edfefab3ec0b23602673b0783de9f1c53d72aca9/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-31 16:02:57] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-07-31 16:02:57] INFO root fetch - processPackages [trddt]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-07-31 16:02:57] INFO root fetch - processPackages [TTS]: Downloading https://files.pythonhosted.org/packages/e6/68/26dd07a1742aa1c80702fe0bf57fbe9379806b1dda277c705a37a46dd744/TTS-0.9.0.tar.gz
+[2023-07-31 16:02:57] INFO root fetch - processPackages [trddt]: Downloading https://files.pythonhosted.org/packages/8c/ae/5fac47aa622e18933724fe9cb18cc4ae2f152f6c15f448e88a07b31e9790/trddt-0.2.0.tar.gz
+[2023-07-31 16:02:57] INFO root fetch - processPackages [jakt]: Downloading https://files.pythonhosted.org/packages/25/8d/182710092753797bebbad6565eb82f68f3dd34d44bc292c30b6536757b1c/jakt-0.0.5.tar.gz
+[2023-07-31 16:02:57] INFO root fetch - processPackages [loggerutility]: Downloading https://files.pythonhosted.org/packages/7a/15/e1afc4b81865f2cbddd17f12bf3b9e667165e521bbe95e137e60caa65386/loggerutility-0.0.8-py3-none-any.whl
+[2023-07-31 16:02:57] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/11/fa/611989831fcdc7b23bb72cc041f1edc4bd84025e6ba06f828a1abca76a66/fastestimator-nightly-1.6.0.dev202307301357.tar.gz
+[2023-07-31 16:02:57] INFO root fetch - processPackages [hubmap-commons]: Downloading https://files.pythonhosted.org/packages/69/05/28add53fff65add59bc2fddf2d8bfc97d646beeaa32991d3300a7aebbe8c/hubmap-commons-2.1.9.tar.gz
+[2023-07-31 16:02:57] INFO root fetch - processPackages [streams-py]: Downloading https://files.pythonhosted.org/packages/8e/1e/3fc545102c21faca4b7e91d0eb9367ecb082a0be576726767ff4a5996266/streams_py-1.0.1.tar.gz
+[2023-07-31 16:02:58] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-07-31 16:02:58] INFO root fetch - processPackages [loggerutility]: executing diffoscope
+[2023-07-31 16:02:58] INFO root fetch - processPackages [loggerutility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggerutility-0.0.7-py3-none-any.whl.zip tmp/loggerutility-0.0.8-py3-none-any.whl.zip --markdown 20230731/l/loggerutility/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-31 16:02:58] INFO root fetch - processPackages [assemblyline-service-utilities]: Downloading https://files.pythonhosted.org/packages/fb/4c/e44dbd2c80a049d04d0ac7b7cc88d5c46a23a7dad278339b22a6dff2bfce/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl
+[2023-07-31 16:02:58] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/f6/f7/c5cbd2ed899f3b11bc6beec58c90e38b5d470d9da47b4896c5fceaa51637/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.1-py3-none-any.whl
+[2023-07-31 16:02:58] INFO root fetch - processPackages [jakt]: executing diffoscope
+[2023-07-31 16:02:58] INFO root fetch - processPackages [jakt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jakt-0.0.4.tar.gz tmp/jakt-0.0.5.tar.gz --markdown 20230731/j/jakt/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-31 16:02:58] INFO root fetch - processPackages [hubmap-commons]: executing diffoscope
+[2023-07-31 16:02:58] INFO root fetch - processPackages [hubmap-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubmap-commons-2.1.8.tar.gz tmp/hubmap-commons-2.1.9.tar.gz --markdown 20230731/h/hubmap-commons/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-31 16:02:58] INFO root fetch - processPackages [streams-py]: executing diffoscope
+[2023-07-31 16:02:58] INFO root fetch - processPackages [streams-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streams_py-1.0.0.tar.gz tmp/streams_py-1.0.1.tar.gz --markdown 20230731/s/streams-py/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-31 16:02:58] INFO root fetch - processPackages [fastestimator-nightly]: executing diffoscope
+[2023-07-31 16:02:58] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-07-31 16:02:58] INFO root fetch - processPackages [fastestimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastestimator-nightly-1.6.0.dev202307291401.tar.gz tmp/fastestimator-nightly-1.6.0.dev202307301357.tar.gz --markdown 20230731/f/fastestimator-nightly/1.6.0.dev202307291401-1.6.0.dev202307301357/diff.md --exclude *.pyd
+[2023-07-31 16:02:58] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230731/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 16:02:58] INFO root fetch - processPackages [trddt]: Downloading https://files.pythonhosted.org/packages/e1/52/308d6687df7f4272b3a84378097adbbe95141db9a20e0bc4fadc9a0add27/trddt-0.2.2.tar.gz
+[2023-07-31 16:02:58] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: executing diffoscope
+[2023-07-31 16:02:58] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230731/o/odoo-addon-account-banking-sepa-direct-debit/16.0.1.0.0.4-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-31 16:02:58] INFO root fetch - processPackages [assemblyline-service-utilities]: executing diffoscope
+[2023-07-31 16:02:58] INFO root fetch - processPackages [assemblyline-service-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.zip tmp/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl.zip --markdown 20230731/a/assemblyline-service-utilities/4.4.1.dev7-4.4.1.dev8/diff.md --exclude *.pyd
+[2023-07-31 16:02:58] INFO root fetch - processPackages [TTS]: executing diffoscope
+[2023-07-31 16:02:58] INFO root fetch - processPackages [TTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TTS-0.8.0.tar.gz tmp/TTS-0.9.0.tar.gz --markdown 20230731/T/TTS/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 16:02:58] INFO root fetch - processPackages [trddt]: executing diffoscope
+[2023-07-31 16:02:58] INFO root fetch - processPackages [trddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trddt-0.2.0.tar.gz tmp/trddt-0.2.2.tar.gz --markdown 20230731/t/trddt/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-07-31 16:02:59] INFO root fetch - processPackages [loggerutility]: Remove: archive file [/home/abi/fetcher/tmp/loggerutility-0.0.7-py3-none-any.whl.zip]
+[2023-07-31 16:02:59] INFO root fetch - processPackages [loggerutility]: Remove: archive file [/home/abi/fetcher/tmp/loggerutility-0.0.8-py3-none-any.whl.zip]
+[2023-07-31 16:02:59] INFO root fetch - processPackages [loggerutility]: Start processing: coiled
+[2023-07-31 16:02:59] INFO root fetch - main [MainThread]: End processing [loggerutility]: success
+[2023-07-31 16:02:59] INFO root fetch - processPackages [jakt]: Remove: archive file [/home/abi/fetcher/tmp/jakt-0.0.4.tar.gz]
+[2023-07-31 16:02:59] INFO root fetch - processPackages [jakt]: Remove: archive file [/home/abi/fetcher/tmp/jakt-0.0.5.tar.gz]
+[2023-07-31 16:02:59] INFO root fetch - processPackages [jakt]: Start processing: btgsolutions-dataservices-python-client
+[2023-07-31 16:02:59] INFO root fetch - main [MainThread]: End processing [jakt]: success
+[2023-07-31 16:02:59] INFO root fetch - processPackages [coiled]: New version: [0.9.2.dev6] Old Version: [0.9.2.dev4]
+[2023-07-31 16:02:59] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: New version: [0.4.1] Old Version: [0.4]
+[2023-07-31 16:02:59] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-07-31 16:02:59] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-07-31 16:02:59] INFO root fetch - processPackages [anyforce]: Start processing: clarifai
+[2023-07-31 16:02:59] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-07-31 16:02:59] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/7b/45/1653d696861ea92b567a9b6c985043e69b95d19fbe8f9320a5e6cce971ea/coiled-0.9.2.dev4.tar.gz
+[2023-07-31 16:02:59] INFO root fetch - processPackages [clarifai]: New version: [9.6.3] Old Version: [9.6.2]
+[2023-07-31 16:02:59] INFO root fetch - processPackages [hubmap-commons]: Remove: archive file [/home/abi/fetcher/tmp/hubmap-commons-2.1.8.tar.gz]
+[2023-07-31 16:02:59] INFO root fetch - processPackages [hubmap-commons]: Remove: archive file [/home/abi/fetcher/tmp/hubmap-commons-2.1.9.tar.gz]
+[2023-07-31 16:02:59] INFO root fetch - processPackages [hubmap-commons]: Start processing: v2rayp
+[2023-07-31 16:02:59] INFO root fetch - main [MainThread]: End processing [hubmap-commons]: success
+[2023-07-31 16:03:00] INFO root fetch - processPackages [streams-py]: Remove: archive file [/home/abi/fetcher/tmp/streams_py-1.0.0.tar.gz]
+[2023-07-31 16:03:00] INFO root fetch - processPackages [streams-py]: Remove: archive file [/home/abi/fetcher/tmp/streams_py-1.0.1.tar.gz]
+[2023-07-31 16:03:00] INFO root fetch - processPackages [streams-py]: Start processing: scanpro
+[2023-07-31 16:03:00] INFO root fetch - main [MainThread]: End processing [streams-py]: success
+[2023-07-31 16:03:00] INFO root fetch - processPackages [v2rayp]: New version: [0.7b8] Old Version: [0.7b5]
+[2023-07-31 16:03:00] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Downloading https://files.pythonhosted.org/packages/d0/c0/44e701ad0277f7c9912be1c7dc136bd950c1dfaf519ed34d06dcf49ffc36/btgsolutions-dataservices-python-client-0.4.tar.gz
+[2023-07-31 16:03:00] INFO root fetch - processPackages [trddt]: Remove: archive file [/home/abi/fetcher/tmp/trddt-0.2.0.tar.gz]
+[2023-07-31 16:03:00] INFO root fetch - processPackages [trddt]: Remove: archive file [/home/abi/fetcher/tmp/trddt-0.2.2.tar.gz]
+[2023-07-31 16:03:00] INFO root fetch - processPackages [trddt]: Start processing: pynxtools
+[2023-07-31 16:03:00] INFO root fetch - main [MainThread]: End processing [trddt]: success
+[2023-07-31 16:03:00] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/8e/5f/be136d96864460630c943706a3000196881c734a17ce16b9f42f246a6dc8/clarifai-9.6.2.tar.gz
+[2023-07-31 16:03:00] WARNING root fetch - processPackages [scanpro]: Skipping, unable to determine old version
+[2023-07-31 16:03:00] INFO root fetch - processPackages [scanpro]: Start processing: ipfabric-diagrams
+[2023-07-31 16:03:00] INFO root fetch - main [MainThread]: End processing [scanpro] error
+[2023-07-31 16:03:00] INFO root fetch - processPackages [pynxtools]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-31 16:03:00] INFO root fetch - processPackages [v2rayp]: Downloading https://files.pythonhosted.org/packages/3b/80/26842350d0dee9273e1298bf36b00bece26ef271643fc6ce8b279674380c/v2rayp-0.7b5.tar.gz
+[2023-07-31 16:03:00] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-31 16:03:00] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-31 16:03:00] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Start processing: titan-iris
+[2023-07-31 16:03:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-sepa-direct-debit]: success
+[2023-07-31 16:03:00] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/77/9e/7413f8261e1e37693d33c38c229467f3fe1471e9e903dbbf1f2f9679d596/coiled-0.9.2.dev6.tar.gz
+[2023-07-31 16:03:00] WARNING root fetch - processPackages [v2rayp]: Skipping package: exceeds size limit 65578883>=10485760
+[2023-07-31 16:03:00] INFO root fetch - processPackages [v2rayp]: Start processing: assemblyline-service-utilities
+[2023-07-31 16:03:00] INFO root fetch - main [MainThread]: End processing [v2rayp] error
+[2023-07-31 16:03:00] INFO root fetch - processPackages [assemblyline-service-utilities]: New version: [4.4.1.dev8] Old Version: [4.4.1.dev7]
+[2023-07-31 16:03:00] INFO root fetch - processPackages [ipfabric-diagrams]: New version: [6.3.1b0] Old Version: [6.3.0b2]
+[2023-07-31 16:03:00] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Downloading https://files.pythonhosted.org/packages/24/9f/17424e48547665e730c70858b978bc1950b2370f22e70150a3eec7fa2304/btgsolutions-dataservices-python-client-0.4.1.tar.gz
+[2023-07-31 16:03:00] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-07-31 16:03:00] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/be/66/d4497201e051762fdfb4bb1519e055ef47042d63a6619ed1f02ee8b6561a/clarifai-9.6.3.tar.gz
+[2023-07-31 16:03:00] INFO root fetch - processPackages [pynxtools]: Downloading https://files.pythonhosted.org/packages/41/4b/2472f9c5705b8ea536e00da128334e6f6fe13bcc36a1472da234e78ca9ce/pynxtools-0.0.3.tar.gz
+[2023-07-31 16:03:00] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-31 16:03:00] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.2.dev4.tar.gz tmp/coiled-0.9.2.dev6.tar.gz --markdown 20230731/c/coiled/0.9.2.dev4-0.9.2.dev6/diff.md --exclude *.pyd
+[2023-07-31 16:03:00] INFO root fetch - processPackages [assemblyline-service-utilities]: executing diffoscope
+[2023-07-31 16:03:00] INFO root fetch - processPackages [assemblyline-service-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.zip tmp/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl.zip --markdown 20230731/a/assemblyline-service-utilities/4.4.1.dev7-4.4.1.dev8/diff.md --exclude *.pyd
+[2023-07-31 16:03:00] WARNING root fetch - processPackages [pynxtools]: Skipping package: exceeds size limit 10707155>=10485760
+[2023-07-31 16:03:00] INFO root fetch - processPackages [pynxtools]: Start processing: kerberos-auth-proxy
+[2023-07-31 16:03:00] INFO root fetch - main [MainThread]: End processing [pynxtools] error
+[2023-07-31 16:03:00] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: executing diffoscope
+[2023-07-31 16:03:00] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btgsolutions-dataservices-python-client-0.4.tar.gz tmp/btgsolutions-dataservices-python-client-0.4.1.tar.gz --markdown 20230731/b/btgsolutions-dataservices-python-client/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-07-31 16:03:00] INFO root fetch - processPackages [ipfabric-diagrams]: Downloading https://files.pythonhosted.org/packages/5d/98/eb6fc7dad4a2faeb04db6c998db98bc7800ac441efde918005a9dd9be2a5/ipfabric_diagrams-6.3.0b2.tar.gz
+[2023-07-31 16:03:00] INFO root fetch - processPackages [clarifai]: executing diffoscope
+[2023-07-31 16:03:00] INFO root fetch - processPackages [clarifai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clarifai-9.6.2.tar.gz tmp/clarifai-9.6.3.tar.gz --markdown 20230731/c/clarifai/9.6.2-9.6.3/diff.md --exclude *.pyd
+[2023-07-31 16:03:00] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-07-31 16:03:00] INFO root fetch - processPackages [kerberos-auth-proxy]: New version: [0.1.0a1] Old Version: [0.1.0a0]
+[2023-07-31 16:03:01] INFO root fetch - processPackages [ipfabric-diagrams]: Downloading https://files.pythonhosted.org/packages/2b/4b/3782cbbd1824542a7d6e6a628707c0cb377cff5a012fdb444b39cea742c0/ipfabric_diagrams-6.3.1b0.tar.gz
+[2023-07-31 16:03:01] INFO root fetch - processPackages [kerberos-auth-proxy]: Downloading https://files.pythonhosted.org/packages/be/f5/f4433478dfaa314c76d95138f03b4ba409fb151e1b831e757885dcd0a615/kerberos_auth_proxy-0.1.0a0.tar.gz
+[2023-07-31 16:03:01] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-07-31 16:03:01] INFO root fetch - processPackages [ipfabric-diagrams]: executing diffoscope
+[2023-07-31 16:03:01] INFO root fetch - processPackages [ipfabric-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfabric_diagrams-6.3.0b2.tar.gz tmp/ipfabric_diagrams-6.3.1b0.tar.gz --markdown 20230731/i/ipfabric-diagrams/6.3.0b2-6.3.1b0/diff.md --exclude *.pyd
+[2023-07-31 16:03:01] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-07-31 16:03:01] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230731/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-07-31 16:03:01] INFO root fetch - processPackages [kerberos-auth-proxy]: Downloading https://files.pythonhosted.org/packages/ba/64/3f7ff5699440cec4862be5818793fe4c25a46426ccc81212688b110d2944/kerberos_auth_proxy-0.1.0a1.tar.gz
+[2023-07-31 16:03:01] INFO root fetch - processPackages [assemblyline-service-utilities]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.zip]
+[2023-07-31 16:03:01] INFO root fetch - processPackages [assemblyline-service-utilities]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl.zip]
+[2023-07-31 16:03:01] INFO root fetch - processPackages [assemblyline-service-utilities]: Start processing: pygmtools
+[2023-07-31 16:03:01] INFO root fetch - main [MainThread]: End processing [assemblyline-service-utilities]: success
+[2023-07-31 16:03:01] INFO root fetch - processPackages [kerberos-auth-proxy]: executing diffoscope
+[2023-07-31 16:03:01] INFO root fetch - processPackages [kerberos-auth-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kerberos_auth_proxy-0.1.0a0.tar.gz tmp/kerberos_auth_proxy-0.1.0a1.tar.gz --markdown 20230731/k/kerberos-auth-proxy/0.1.0a0-0.1.0a1/diff.md --exclude *.pyd
+[2023-07-31 16:03:01] INFO root fetch - processPackages [pygmtools]: New version: [0.3.8a9] Old Version: [0.3.8a8]
+[2023-07-31 16:03:01] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/f8/8c/1f0e828d7314764991a815dbe13cdb3a9b03dc10a0d897980af025b4904b/pygmtools-0.3.8a8.tar.gz
+[2023-07-31 16:03:01] INFO root fetch - processPackages [TTS]: Remove: archive file [/home/abi/fetcher/tmp/TTS-0.8.0.tar.gz]
+[2023-07-31 16:03:01] INFO root fetch - processPackages [TTS]: Remove: archive file [/home/abi/fetcher/tmp/TTS-0.9.0.tar.gz]
+[2023-07-31 16:03:01] INFO root fetch - processPackages [TTS]: Start processing: ww3py
+[2023-07-31 16:03:01] INFO root fetch - main [MainThread]: End processing [TTS]: success
+[2023-07-31 16:03:02] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Remove: archive file [/home/abi/fetcher/tmp/btgsolutions-dataservices-python-client-0.4.tar.gz]
+[2023-07-31 16:03:02] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Remove: archive file [/home/abi/fetcher/tmp/btgsolutions-dataservices-python-client-0.4.1.tar.gz]
+[2023-07-31 16:03:02] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Start processing: google-cloud-translate
+[2023-07-31 16:03:02] INFO root fetch - main [MainThread]: End processing [btgsolutions-dataservices-python-client]: success
+[2023-07-31 16:03:02] ERROR root fetch - processPackages [assemblyline-service-utilities]: Diffoscope failed: time="2023-07-31T16:03:00+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.zip does not exist
+
+[2023-07-31 16:03:02] INFO root fetch - main [MainThread]: End processing [assemblyline-service-utilities] error
+[2023-07-31 16:03:02] INFO root fetch - processPackages [ww3py]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-31 16:03:02] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.2.dev4.tar.gz]
+[2023-07-31 16:03:02] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.2.dev6.tar.gz]
+[2023-07-31 16:03:02] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-31 16:03:02] INFO root fetch - processPackages [google-cloud-translate]: New version: [3.9.0] Old Version: [3.8.4]
+[2023-07-31 16:03:02] INFO root fetch - processPackages [ww3py]: Downloading https://files.pythonhosted.org/packages/62/91/b1d7f4d9ed7adb29fa3bfb0e9959bd5c4ceff221031520fde99779a81a6c/ww3py-0.0.1.tar.gz
+[2023-07-31 16:03:02] INFO root fetch - processPackages [google-cloud-translate]: Downloading https://files.pythonhosted.org/packages/25/f1/b55c7ef9e64c07b6295158e25f983e08903855b5fb1bd62e44872dfdb6b2/google-cloud-translate-3.8.4.tar.gz
+[2023-07-31 16:03:02] INFO root fetch - processPackages [ipfabric-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric_diagrams-6.3.0b2.tar.gz]
+[2023-07-31 16:03:02] INFO root fetch - processPackages [ipfabric-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric_diagrams-6.3.1b0.tar.gz]
+[2023-07-31 16:03:02] INFO root fetch - main [MainThread]: End processing [ipfabric-diagrams]: success
+[2023-07-31 16:03:02] INFO root fetch - processPackages [kerberos-auth-proxy]: Remove: archive file [/home/abi/fetcher/tmp/kerberos_auth_proxy-0.1.0a0.tar.gz]
+[2023-07-31 16:03:02] INFO root fetch - processPackages [kerberos-auth-proxy]: Remove: archive file [/home/abi/fetcher/tmp/kerberos_auth_proxy-0.1.0a1.tar.gz]
+[2023-07-31 16:03:02] INFO root fetch - main [MainThread]: End processing [kerberos-auth-proxy]: success
+[2023-07-31 16:03:02] INFO root fetch - processPackages [ww3py]: Downloading https://files.pythonhosted.org/packages/41/57/b0f27d99b726f449821d3c6807a53a36aa1ef37e1650ac84f24b309a3df6/ww3py-0.0.3.tar.gz
+[2023-07-31 16:03:02] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-07-31 16:03:02] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-07-31 16:03:02] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-07-31 16:03:02] INFO root fetch - processPackages [google-cloud-translate]: Downloading https://files.pythonhosted.org/packages/fc/ce/148e1926148614e41f7f3e07927692fb60abbbc710fdd8508ebddf0c893b/google-cloud-translate-3.9.0.tar.gz
+[2023-07-31 16:03:02] INFO root fetch - processPackages [clarifai]: Remove: archive file [/home/abi/fetcher/tmp/clarifai-9.6.2.tar.gz]
+[2023-07-31 16:03:02] INFO root fetch - processPackages [clarifai]: Remove: archive file [/home/abi/fetcher/tmp/clarifai-9.6.3.tar.gz]
+[2023-07-31 16:03:02] INFO root fetch - main [MainThread]: End processing [clarifai]: success
+[2023-07-31 16:03:02] INFO root fetch - processPackages [ww3py]: executing diffoscope
+[2023-07-31 16:03:02] INFO root fetch - processPackages [ww3py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ww3py-0.0.1.tar.gz tmp/ww3py-0.0.3.tar.gz --markdown 20230731/w/ww3py/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 16:03:03] INFO root fetch - processPackages [google-cloud-translate]: executing diffoscope
+[2023-07-31 16:03:03] INFO root fetch - processPackages [google-cloud-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-translate-3.8.4.tar.gz tmp/google-cloud-translate-3.9.0.tar.gz --markdown 20230731/g/google-cloud-translate/3.8.4-3.9.0/diff.md --exclude *.pyd
+[2023-07-31 16:03:03] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/18/09/d9f8c479401206e79acfd70dcc8e5c470fb93666058fba5469022d832019/pygmtools-0.3.8a9.tar.gz
+[2023-07-31 16:03:03] INFO root fetch - processPackages [pygmtools]: executing diffoscope
+[2023-07-31 16:03:03] INFO root fetch - processPackages [pygmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtools-0.3.8a8.tar.gz tmp/pygmtools-0.3.8a9.tar.gz --markdown 20230731/p/pygmtools/0.3.8a8-0.3.8a9/diff.md --exclude *.pyd
+[2023-07-31 16:03:03] INFO root fetch - processPackages [ww3py]: Remove: archive file [/home/abi/fetcher/tmp/ww3py-0.0.1.tar.gz]
+[2023-07-31 16:03:03] INFO root fetch - processPackages [ww3py]: Remove: archive file [/home/abi/fetcher/tmp/ww3py-0.0.3.tar.gz]
+[2023-07-31 16:03:03] INFO root fetch - main [MainThread]: End processing [ww3py]: success
+[2023-07-31 16:03:04] INFO root fetch - processPackages [google-cloud-translate]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-translate-3.8.4.tar.gz]
+[2023-07-31 16:03:04] INFO root fetch - processPackages [google-cloud-translate]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-translate-3.9.0.tar.gz]
+[2023-07-31 16:03:04] INFO root fetch - main [MainThread]: End processing [google-cloud-translate]: success
+[2023-07-31 16:03:04] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a8.tar.gz]
+[2023-07-31 16:03:04] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a9.tar.gz]
+[2023-07-31 16:03:04] INFO root fetch - main [MainThread]: End processing [pygmtools]: success
+[2023-07-31 16:03:04] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202307291401.tar.gz]
+[2023-07-31 16:03:04] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202307301357.tar.gz]
+[2023-07-31 16:03:04] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
+[2023-07-31 16:03:04] INFO root fetch - main [MainThread]: Store serial: [19108484]
