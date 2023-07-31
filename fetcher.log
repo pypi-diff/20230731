@@ -4718,3 +4718,90 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 03:30:06] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.9.tar.gz]
 [2023-07-31 03:30:06] INFO root fetch - main [MainThread]: End processing [our1314]: success
 [2023-07-31 03:30:06] INFO root fetch - main [MainThread]: Store serial: [19101649]
+[2023-07-31 03:35:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19101649]
+[2023-07-31 03:35:15] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-31 03:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-ecosystem-flask
+[2023-07-31 03:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snitch-protos
+[2023-07-31 03:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-organizations
+[2023-07-31 03:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-stdlib
+[2023-07-31 03:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py3afipws
+[2023-07-31 03:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: runningz
+[2023-07-31 03:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shady-island
+[2023-07-31 03:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-numpy
+[2023-07-31 03:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: browserist
+[2023-07-31 03:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lego-image-converter
+[2023-07-31 03:35:15] INFO root fetch - processPackages [snitch-protos]: New version: [0.0.55] Old Version: [0.0.54]
+[2023-07-31 03:35:15] INFO root fetch - processPackages [py3afipws]: New version: [0.9] Old Version: [0.8]
+[2023-07-31 03:35:15] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.4] Old Version: [202307.0.35]
+[2023-07-31 03:35:15] INFO root fetch - processPackages [runningz]: New version: [0.11.7.6] Old Version: [0.11.7.5]
+[2023-07-31 03:35:15] WARNING root fetch - processPackages [lego-image-converter]: Skipping, unable to determine old version
+[2023-07-31 03:35:15] INFO root fetch - main [MainThread]: End processing [lego-image-converter] error
+[2023-07-31 03:35:15] INFO root fetch - processPackages [browserist]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-31 03:35:15] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 03:35:15] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 03:35:15] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-31 03:35:15] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 03:35:15] INFO root fetch - processPackages [snitch-protos]: Downloading https://files.pythonhosted.org/packages/d4/69/ad8a3a535a9433453fd28c78cba90839028683594faad71a0dd66fdbcf4d/snitch-protos-0.0.54.tar.gz
+[2023-07-31 03:35:15] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-31 03:35:15] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-31 03:35:15] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-31 03:35:15] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/fa/ef/a16543d080ef5639c8dcc835897986de1e3ec1c24b3e5dca82d1ee70f1db/data_ecosystem_flask-202307.0.35.tar.gz
+[2023-07-31 03:35:15] INFO root fetch - processPackages [py3afipws]: Downloading https://files.pythonhosted.org/packages/26/9c/55a2db724d4f00c20c52d30ce41b9ef31bbaf3a430be474ccd4abc5ca35b/py3afipws-0.8.tar.gz
+[2023-07-31 03:35:15] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/4d/4b/9e49b1199b9d06c65c60d3420271d2b211c8353dc98a04e828265b7e51f9/runningz-0.11.7.5-py39-none-any.whl
+[2023-07-31 03:35:15] INFO root fetch - processPackages [browserist]: Downloading https://files.pythonhosted.org/packages/25/a5/8c3cce48b0c8f21c0232e096996b8d93c37124c8b36df7cde8034fcdfc24/browserist-1.5.0.tar.gz
+[2023-07-31 03:35:15] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/ed/ae/a7a990a5b643750cce1402cad9e15fd73a9c16dc25acb3c8a49f79eb7a7d/shady-island-0.0.8.tar.gz
+[2023-07-31 03:35:16] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-31 03:35:16] INFO root fetch - processPackages [snitch-protos]: Downloading https://files.pythonhosted.org/packages/f1/8d/b546eb4af8683c5d329cfc9c0f1bb55b7f615480864e490ddb72a49da0f7/snitch-protos-0.0.55.tar.gz
+[2023-07-31 03:35:16] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-31 03:35:16] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-31 03:35:16] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/b2/63/f9972c9325aaa8f072021458434c5735720e575e3a4875f4e556734529e8/data_ecosystem_flask-202307.0.4.tar.gz
+[2023-07-31 03:35:16] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-31 03:35:16] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230731/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 03:35:16] INFO root fetch - processPackages [snitch-protos]: executing diffoscope
+[2023-07-31 03:35:16] INFO root fetch - processPackages [snitch-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snitch-protos-0.0.54.tar.gz tmp/snitch-protos-0.0.55.tar.gz --markdown 20230731/s/snitch-protos/0.0.54-0.0.55/diff.md --exclude *.pyd
+[2023-07-31 03:35:16] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/0e/46/37c6646b48368729877be2c2c199efc751d1bba324e99333a7a8943859cc/runningz-0.11.7.6-py39-none-any.whl
+[2023-07-31 03:35:16] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-31 03:35:16] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230731/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 03:35:16] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-31 03:35:16] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230731/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-31 03:35:16] INFO root fetch - processPackages [browserist]: Downloading https://files.pythonhosted.org/packages/73/3e/67df359357f6280ca77dda24e4063b0b2902b10ecb480139546bdebdb5b1/browserist-1.5.1.tar.gz
+[2023-07-31 03:35:16] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-07-31 03:35:16] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202307.0.35.tar.gz tmp/data_ecosystem_flask-202307.0.4.tar.gz --markdown 20230731/d/data-ecosystem-flask/202307.0.35-202307.0.4/diff.md --exclude *.pyd
+[2023-07-31 03:35:16] INFO root fetch - processPackages [py3afipws]: Downloading https://files.pythonhosted.org/packages/bf/0a/77d5139345fe1a5dffb19796581eabaa35788265e72d813b59856e733a9f/py3afipws-0.9.tar.gz
+[2023-07-31 03:35:16] INFO root fetch - processPackages [browserist]: executing diffoscope
+[2023-07-31 03:35:16] INFO root fetch - processPackages [browserist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserist-1.5.0.tar.gz tmp/browserist-1.5.1.tar.gz --markdown 20230731/b/browserist/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-31 03:35:16] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/69/14/ae3dbf243e4cb1db1d1a6d89c5b0ab88ad11f64d1873591474d5e78d2c24/shady-island-0.0.9.tar.gz
+[2023-07-31 03:35:16] INFO root fetch - processPackages [runningz]: executing diffoscope
+[2023-07-31 03:35:16] INFO root fetch - processPackages [runningz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runningz-0.11.7.5-py39-none-any.whl.zip tmp/runningz-0.11.7.6-py39-none-any.whl.zip --markdown 20230731/r/runningz/0.11.7.5-0.11.7.6/diff.md --exclude *.pyd
+[2023-07-31 03:35:16] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-07-31 03:35:16] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230731/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 03:35:16] INFO root fetch - processPackages [py3afipws]: executing diffoscope
+[2023-07-31 03:35:16] INFO root fetch - processPackages [py3afipws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3afipws-0.8.tar.gz tmp/py3afipws-0.9.tar.gz --markdown 20230731/p/py3afipws/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-31 03:35:17] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-31 03:35:17] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-31 03:35:17] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-31 03:35:17] INFO root fetch - processPackages [snitch-protos]: Remove: archive file [/home/abi/fetcher/tmp/snitch-protos-0.0.54.tar.gz]
+[2023-07-31 03:35:17] INFO root fetch - processPackages [snitch-protos]: Remove: archive file [/home/abi/fetcher/tmp/snitch-protos-0.0.55.tar.gz]
+[2023-07-31 03:35:17] INFO root fetch - main [MainThread]: End processing [snitch-protos]: success
+[2023-07-31 03:35:17] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-31 03:35:17] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-31 03:35:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-31 03:35:17] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.35.tar.gz]
+[2023-07-31 03:35:17] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.4.tar.gz]
+[2023-07-31 03:35:17] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-07-31 03:35:17] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-31 03:35:17] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-31 03:35:17] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-31 03:35:18] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.8.tar.gz]
+[2023-07-31 03:35:18] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.9.tar.gz]
+[2023-07-31 03:35:18] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-07-31 03:35:18] INFO root fetch - processPackages [browserist]: Remove: archive file [/home/abi/fetcher/tmp/browserist-1.5.0.tar.gz]
+[2023-07-31 03:35:18] INFO root fetch - processPackages [browserist]: Remove: archive file [/home/abi/fetcher/tmp/browserist-1.5.1.tar.gz]
+[2023-07-31 03:35:18] INFO root fetch - main [MainThread]: End processing [browserist]: success
+[2023-07-31 03:35:18] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.11.7.5-py39-none-any.whl.zip]
+[2023-07-31 03:35:18] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.11.7.6-py39-none-any.whl.zip]
+[2023-07-31 03:35:18] INFO root fetch - main [MainThread]: End processing [runningz]: success
+[2023-07-31 03:35:18] INFO root fetch - processPackages [py3afipws]: Remove: archive file [/home/abi/fetcher/tmp/py3afipws-0.8.tar.gz]
+[2023-07-31 03:35:18] INFO root fetch - processPackages [py3afipws]: Remove: archive file [/home/abi/fetcher/tmp/py3afipws-0.9.tar.gz]
+[2023-07-31 03:35:18] INFO root fetch - main [MainThread]: End processing [py3afipws]: success
+[2023-07-31 03:35:18] INFO root fetch - main [MainThread]: Store serial: [19101680]
