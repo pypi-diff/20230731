@@ -6051,3 +6051,94 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 05:14:44] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230731.tar.gz]
 [2023-07-31 05:14:44] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-07-31 05:14:44] INFO root fetch - main [MainThread]: Store serial: [19102141]
+[2023-07-31 05:19:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102141]
+[2023-07-31 05:19:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-31 05:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osw
+[2023-07-31 05:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tuiview
+[2023-07-31 05:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flojoy
+[2023-07-31 05:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfduck-bsd
+[2023-07-31 05:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skypatrol
+[2023-07-31 05:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codebot
+[2023-07-31 05:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seven-framework
+[2023-07-31 05:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codebot
+[2023-07-31 05:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reata
+[2023-07-31 05:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vcrpy
+[2023-07-31 05:19:52] INFO root fetch - processPackages [codebot]: New version: [0.1] Old Version: [0.0.1]
+[2023-07-31 05:19:52] INFO root fetch - processPackages [osw]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-31 05:19:52] INFO root fetch - processPackages [skypatrol]: New version: [0.6.8] Old Version: [0.6.5]
+[2023-07-31 05:19:52] INFO root fetch - processPackages [reata]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-31 05:19:52] INFO root fetch - processPackages [codebot]: New version: [0.1] Old Version: [0.0.1]
+[2023-07-31 05:19:52] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-07-31 05:19:52] INFO root fetch - processPackages [tuiview]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-07-31 05:19:52] INFO root fetch - processPackages [vcrpy]: New version: [5.1.0] Old Version: [5.0.0]
+[2023-07-31 05:19:52] INFO root fetch - processPackages [tfduck-bsd]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-07-31 05:19:52] INFO root fetch - processPackages [seven-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-31 05:19:52] INFO root fetch - processPackages [reata]: Downloading https://files.pythonhosted.org/packages/3c/8d/988d3db335b4196368f12f389c2d62f29120c4c5fab4653bb1551f970a44/reata-1.1.4.tar.gz
+[2023-07-31 05:19:52] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/26/a8/326700e2a6461b1445964baa8f725eaa49b86e7d01b90acfe28e9cd8dd9c/osw-0.8.1.tar.gz
+[2023-07-31 05:19:52] INFO root fetch - processPackages [codebot]: Downloading https://files.pythonhosted.org/packages/66/56/a2706686b37f36b0bc389af4f508ce94cc20cc8acfebabda2c99565e7168/codebot-0.0.1.tar.gz
+[2023-07-31 05:19:52] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/58/4a/411ed49c4c426bcb70e5ad46561890a01ad521164c31dc1a485ce164a90b/flojoy-0.2.2.dev8.tar.gz
+[2023-07-31 05:19:52] INFO root fetch - processPackages [codebot]: Downloading https://files.pythonhosted.org/packages/66/56/a2706686b37f36b0bc389af4f508ce94cc20cc8acfebabda2c99565e7168/codebot-0.0.1.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [tfduck-bsd]: Downloading https://files.pythonhosted.org/packages/92/b6/43fd2783b6cf9b6b9e12be9f0ca8f862fd5385566435bb80afaf84497a37/tfduck-bsd-0.8.5.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [skypatrol]: Downloading https://files.pythonhosted.org/packages/50/d9/0fdd56e2628389a2388e1a1fe88e97746d098ad894457b269c260dc807b2/skypatrol-0.6.5.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [seven-framework]: Downloading https://files.pythonhosted.org/packages/7f/6a/8dd7364d2a60d0b5147d14dcf9083999ee4ad4942275a8800135cac11a2c/seven_framework-1.1.8.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [tuiview]: Downloading https://files.pythonhosted.org/packages/13/ca/f132dfb214b5bdddb9f6e55d95de3888f66cf18e37bd471be728fa6f0788/tuiview-0.1.0a1.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [vcrpy]: Downloading https://files.pythonhosted.org/packages/83/c7/67fdd6879130deab4b673f8f61b58d1d67ea553f8ce136299f3cdcd38563/vcrpy-5.0.0.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/bc/c3/8f34f775e6b17119e5ed320a7df64187257c3d699a70476e77c210160e7f/flojoy-0.2.2.dev9.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [reata]: Downloading https://files.pythonhosted.org/packages/00/cf/451609aa818cc85362f0dd004e2b17ee26f035ed4c7ed5ed2c4e3c7aff37/reata-1.1.5.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [codebot]: Downloading https://files.pythonhosted.org/packages/ab/ba/1cea7d05c09fbbf8efc6b4ed37448b1af891b43f3d82de46b6f152f76394/codebot-0.1.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [codebot]: Downloading https://files.pythonhosted.org/packages/ab/ba/1cea7d05c09fbbf8efc6b4ed37448b1af891b43f3d82de46b6f152f76394/codebot-0.1.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/13/cc/74dd2c87432fecad0abe454330808f96c0eb0589faea2daeb46dd621947a/osw-0.9.0.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-07-31 05:19:53] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230731/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-07-31 05:19:53] INFO root fetch - processPackages [tfduck-bsd]: Downloading https://files.pythonhosted.org/packages/50/36/3334feb3f281c67dd42ca79188d66d0cb4fa71dac481ceff207d3c61fa11/tfduck-bsd-0.8.6.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [tuiview]: Downloading https://files.pythonhosted.org/packages/17/69/93ee343bab3a8b3d10e31090fa70a3702eee82e3230c68f42addffbb6e31/tuiview-0.1.0a2.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [codebot]: executing diffoscope
+[2023-07-31 05:19:53] INFO root fetch - processPackages [codebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codebot-0.0.1.tar.gz tmp/codebot-0.1.tar.gz --markdown 20230731/c/codebot/0.0.1-0.1/diff.md --exclude *.pyd
+[2023-07-31 05:19:53] INFO root fetch - processPackages [codebot]: executing diffoscope
+[2023-07-31 05:19:53] INFO root fetch - processPackages [codebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codebot-0.0.1.tar.gz tmp/codebot-0.1.tar.gz --markdown 20230731/c/codebot/0.0.1-0.1/diff.md --exclude *.pyd
+[2023-07-31 05:19:53] INFO root fetch - processPackages [skypatrol]: Downloading https://files.pythonhosted.org/packages/98/a4/399111d1f22562cf4a3205364ea3172ceb9f4fe59f5cf5f1634961ac9aa6/skypatrol-0.6.8.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [reata]: executing diffoscope
+[2023-07-31 05:19:53] INFO root fetch - processPackages [reata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reata-1.1.4.tar.gz tmp/reata-1.1.5.tar.gz --markdown 20230731/r/reata/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-31 05:19:53] INFO root fetch - processPackages [seven-framework]: Downloading https://files.pythonhosted.org/packages/28/c0/458db664a69b4b4618ad287bbb4ab4422019f23d75759d591959d27422be/seven_framework-1.1.9.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [vcrpy]: Downloading https://files.pythonhosted.org/packages/a5/ea/a166a3cce4ac5958ba9bbd9768acdb1ba38ae17ff7986da09fa5b9dbc633/vcrpy-5.1.0.tar.gz
+[2023-07-31 05:19:53] INFO root fetch - processPackages [tuiview]: executing diffoscope
+[2023-07-31 05:19:53] INFO root fetch - processPackages [tuiview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuiview-0.1.0a1.tar.gz tmp/tuiview-0.1.0a2.tar.gz --markdown 20230731/t/tuiview/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-31 05:19:53] INFO root fetch - processPackages [osw]: executing diffoscope
+[2023-07-31 05:19:53] INFO root fetch - processPackages [osw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osw-0.8.1.tar.gz tmp/osw-0.9.0.tar.gz --markdown 20230731/o/osw/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 05:19:53] INFO root fetch - processPackages [skypatrol]: executing diffoscope
+[2023-07-31 05:19:53] INFO root fetch - processPackages [skypatrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypatrol-0.6.5.tar.gz tmp/skypatrol-0.6.8.tar.gz --markdown 20230731/s/skypatrol/0.6.5-0.6.8/diff.md --exclude *.pyd
+[2023-07-31 05:19:53] INFO root fetch - processPackages [tfduck-bsd]: executing diffoscope
+[2023-07-31 05:19:53] INFO root fetch - processPackages [tfduck-bsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfduck-bsd-0.8.5.tar.gz tmp/tfduck-bsd-0.8.6.tar.gz --markdown 20230731/t/tfduck-bsd/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-07-31 05:19:54] INFO root fetch - processPackages [seven-framework]: executing diffoscope
+[2023-07-31 05:19:54] INFO root fetch - processPackages [seven-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_framework-1.1.8.tar.gz tmp/seven_framework-1.1.9.tar.gz --markdown 20230731/s/seven-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-31 05:19:54] INFO root fetch - processPackages [vcrpy]: executing diffoscope
+[2023-07-31 05:19:54] INFO root fetch - processPackages [vcrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcrpy-5.0.0.tar.gz tmp/vcrpy-5.1.0.tar.gz --markdown 20230731/v/vcrpy/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2023-07-31 05:19:55] INFO root fetch - processPackages [codebot]: Remove: archive file [/home/abi/fetcher/tmp/codebot-0.0.1.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - processPackages [codebot]: Remove: archive file [/home/abi/fetcher/tmp/codebot-0.1.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - main [MainThread]: End processing [codebot]: success
+[2023-07-31 05:19:55] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev8.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev9.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-07-31 05:19:55] INFO root fetch - main [MainThread]: End processing [codebot]: success
+[2023-07-31 05:19:55] INFO root fetch - processPackages [reata]: Remove: archive file [/home/abi/fetcher/tmp/reata-1.1.4.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - processPackages [reata]: Remove: archive file [/home/abi/fetcher/tmp/reata-1.1.5.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - processPackages [skypatrol]: Remove: archive file [/home/abi/fetcher/tmp/skypatrol-0.6.5.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - main [MainThread]: End processing [reata]: success
+[2023-07-31 05:19:55] INFO root fetch - processPackages [skypatrol]: Remove: archive file [/home/abi/fetcher/tmp/skypatrol-0.6.8.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - main [MainThread]: End processing [skypatrol]: success
+[2023-07-31 05:19:55] INFO root fetch - processPackages [tfduck-bsd]: Remove: archive file [/home/abi/fetcher/tmp/tfduck-bsd-0.8.5.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - processPackages [tfduck-bsd]: Remove: archive file [/home/abi/fetcher/tmp/tfduck-bsd-0.8.6.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - main [MainThread]: End processing [tfduck-bsd]: success
+[2023-07-31 05:19:55] INFO root fetch - processPackages [tuiview]: Remove: archive file [/home/abi/fetcher/tmp/tuiview-0.1.0a1.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - processPackages [tuiview]: Remove: archive file [/home/abi/fetcher/tmp/tuiview-0.1.0a2.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - main [MainThread]: End processing [tuiview]: success
+[2023-07-31 05:19:55] INFO root fetch - processPackages [seven-framework]: Remove: archive file [/home/abi/fetcher/tmp/seven_framework-1.1.8.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - processPackages [seven-framework]: Remove: archive file [/home/abi/fetcher/tmp/seven_framework-1.1.9.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - main [MainThread]: End processing [seven-framework]: success
+[2023-07-31 05:19:55] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.8.1.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.9.0.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - main [MainThread]: End processing [osw]: success
+[2023-07-31 05:19:55] INFO root fetch - processPackages [vcrpy]: Remove: archive file [/home/abi/fetcher/tmp/vcrpy-5.0.0.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - processPackages [vcrpy]: Remove: archive file [/home/abi/fetcher/tmp/vcrpy-5.1.0.tar.gz]
+[2023-07-31 05:19:55] INFO root fetch - main [MainThread]: End processing [vcrpy]: success
+[2023-07-31 05:19:55] INFO root fetch - main [MainThread]: Store serial: [19102181]
