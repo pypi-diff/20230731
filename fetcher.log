@@ -7242,3 +7242,61 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 06:53:32] INFO root fetch - processPackages [cobo-custody]: Remove: archive file [/home/abi/fetcher/tmp/cobo_custody-0.27.tar.gz]
 [2023-07-31 06:53:32] INFO root fetch - main [MainThread]: End processing [cobo-custody]: success
 [2023-07-31 06:53:32] INFO root fetch - main [MainThread]: Store serial: [19102705]
+[2023-07-31 06:58:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102705]
+[2023-07-31 06:58:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-31 06:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bilibili-download-icexmoon
+[2023-07-31 06:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pinject-design
+[2023-07-31 06:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: progfiguration
+[2023-07-31 06:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-gui
+[2023-07-31 06:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: peitho-data
+[2023-07-31 06:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: model-connect
+[2023-07-31 06:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-gui
+[2023-07-31 06:58:41] INFO root fetch - processPackages [pinject-design]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-31 06:58:41] WARNING root fetch - processPackages [bilibili-download-icexmoon]: Skipping, unable to determine old version
+[2023-07-31 06:58:41] INFO root fetch - main [MainThread]: End processing [bilibili-download-icexmoon] error
+[2023-07-31 06:58:41] INFO root fetch - processPackages [model-connect]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-31 06:58:41] INFO root fetch - processPackages [progfiguration]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-07-31 06:58:41] INFO root fetch - processPackages [peitho-data]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-31 06:58:41] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.52.24] Old Version: [0.0.52.23]
+[2023-07-31 06:58:41] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.52.24] Old Version: [0.0.52.23]
+[2023-07-31 06:58:41] INFO root fetch - processPackages [progfiguration]: Downloading https://files.pythonhosted.org/packages/ea/bc/682f58f9ec8a9dff24e246a6cf1714e75abce1777370b94977c692e36f06/progfiguration-0.0.2a8.tar.gz
+[2023-07-31 06:58:41] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a7/9f/a4979c34444f0a828e5df54e2be1ecaadcee3d75fe7d9f80a08d4c4eac3b/pinject_design-0.1.98.tar.gz
+[2023-07-31 06:58:42] INFO root fetch - processPackages [model-connect]: Downloading https://files.pythonhosted.org/packages/7b/cf/e94b31bce1173986594982589b9a41ff8e528ad3bc6eb9911011d996a800/model-connect-0.0.4.tar.gz
+[2023-07-31 06:58:42] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/5d/9e/7e28c3f210227161153ee0b72147ad51bbf199d2330277d44bee8248c4dc/abstract_gui-0.0.52.23.tar.gz
+[2023-07-31 06:58:42] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/5d/9e/7e28c3f210227161153ee0b72147ad51bbf199d2330277d44bee8248c4dc/abstract_gui-0.0.52.23.tar.gz
+[2023-07-31 06:58:42] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/5d/98/16a113f6e96729c49330d6bee3332006b2d33941e97fb24a02f17bc2c7c8/peitho_data-2.3.8.tar.gz
+[2023-07-31 06:58:42] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a1/60/23fa127950edf1bf1131253d21bdf092cb149e44bdf95f1e99ddd8a07170/pinject_design-0.1.99.tar.gz
+[2023-07-31 06:58:42] INFO root fetch - processPackages [progfiguration]: Downloading https://files.pythonhosted.org/packages/b6/41/1530087d2c8b2c6bc47f445455798de9232679026a7edd1c9382aebd8cdc/progfiguration-0.0.2a9.tar.gz
+[2023-07-31 06:58:42] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-31 06:58:42] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.98.tar.gz tmp/pinject_design-0.1.99.tar.gz --markdown 20230731/p/pinject-design/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-31 06:58:42] INFO root fetch - processPackages [progfiguration]: executing diffoscope
+[2023-07-31 06:58:42] INFO root fetch - processPackages [progfiguration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/progfiguration-0.0.2a8.tar.gz tmp/progfiguration-0.0.2a9.tar.gz --markdown 20230731/p/progfiguration/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-07-31 06:58:42] INFO root fetch - processPackages [model-connect]: Downloading https://files.pythonhosted.org/packages/16/af/e6bacbfa12af19abf7991002b3cbfa9e9756ec97194e14366abcbb7e3d4e/model-connect-0.0.5.tar.gz
+[2023-07-31 06:58:42] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/64/3a/6efbc8e4427e0a3b4be87c7b402374d5ab2008946a8e8eb67b916b85a98e/abstract_gui-0.0.52.24.tar.gz
+[2023-07-31 06:58:42] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/64/3a/6efbc8e4427e0a3b4be87c7b402374d5ab2008946a8e8eb67b916b85a98e/abstract_gui-0.0.52.24.tar.gz
+[2023-07-31 06:58:42] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/3a/97/1b1d1cc3bcd90cb86919cf7ea0204d2b19564231ebcd35eb217cb1ce3837/peitho_data-2.3.9.tar.gz
+[2023-07-31 06:58:42] INFO root fetch - processPackages [model-connect]: executing diffoscope
+[2023-07-31 06:58:42] INFO root fetch - processPackages [model-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-connect-0.0.4.tar.gz tmp/model-connect-0.0.5.tar.gz --markdown 20230731/m/model-connect/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-31 06:58:42] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 06:58:42] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.52.23.tar.gz tmp/abstract_gui-0.0.52.24.tar.gz --markdown 20230731/a/abstract-gui/0.0.52.23-0.0.52.24/diff.md --exclude *.pyd
+[2023-07-31 06:58:42] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 06:58:42] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.52.23.tar.gz tmp/abstract_gui-0.0.52.24.tar.gz --markdown 20230731/a/abstract-gui/0.0.52.23-0.0.52.24/diff.md --exclude *.pyd
+[2023-07-31 06:58:42] INFO root fetch - processPackages [peitho-data]: executing diffoscope
+[2023-07-31 06:58:42] INFO root fetch - processPackages [peitho-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peitho_data-2.3.8.tar.gz tmp/peitho_data-2.3.9.tar.gz --markdown 20230731/p/peitho-data/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-31 06:58:43] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.98.tar.gz]
+[2023-07-31 06:58:43] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.99.tar.gz]
+[2023-07-31 06:58:43] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-31 06:58:43] INFO root fetch - processPackages [progfiguration]: Remove: archive file [/home/abi/fetcher/tmp/progfiguration-0.0.2a8.tar.gz]
+[2023-07-31 06:58:43] INFO root fetch - processPackages [progfiguration]: Remove: archive file [/home/abi/fetcher/tmp/progfiguration-0.0.2a9.tar.gz]
+[2023-07-31 06:58:43] INFO root fetch - main [MainThread]: End processing [progfiguration]: success
+[2023-07-31 06:58:43] INFO root fetch - processPackages [model-connect]: Remove: archive file [/home/abi/fetcher/tmp/model-connect-0.0.4.tar.gz]
+[2023-07-31 06:58:43] INFO root fetch - processPackages [model-connect]: Remove: archive file [/home/abi/fetcher/tmp/model-connect-0.0.5.tar.gz]
+[2023-07-31 06:58:43] INFO root fetch - main [MainThread]: End processing [model-connect]: success
+[2023-07-31 06:58:43] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.52.23.tar.gz]
+[2023-07-31 06:58:43] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.52.24.tar.gz]
+[2023-07-31 06:58:43] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 06:58:43] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.8.tar.gz]
+[2023-07-31 06:58:43] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.9.tar.gz]
+[2023-07-31 06:58:43] INFO root fetch - main [MainThread]: End processing [peitho-data]: success
+[2023-07-31 06:58:43] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 06:58:43] INFO root fetch - main [MainThread]: Store serial: [19102729]
