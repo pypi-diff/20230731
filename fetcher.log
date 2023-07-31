@@ -17115,3 +17115,117 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 13:30:02] INFO root fetch - processPackages [djangocms-events]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_events-0.1.3.tar.gz]
 [2023-07-31 13:30:02] INFO root fetch - main [MainThread]: End processing [djangocms-events]: success
 [2023-07-31 13:30:02] INFO root fetch - main [MainThread]: Store serial: [19106785]
+[2023-07-31 13:35:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19106785]
+[2023-07-31 13:35:11] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-31 13:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nexxT
+[2023-07-31 13:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: president
+[2023-07-31 13:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: surrealdb-beta
+[2023-07-31 13:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: statscend
+[2023-07-31 13:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-track-viewer
+[2023-07-31 13:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RiskLabAI
+[2023-07-31 13:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MAZAlib
+[2023-07-31 13:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: genocide
+[2023-07-31 13:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: orbit-component-base
+[2023-07-31 13:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boxmot
+[2023-07-31 13:35:11] WARNING root fetch - processPackages [st-track-viewer]: Skipping, unable to determine old version
+[2023-07-31 13:35:11] INFO root fetch - processPackages [st-track-viewer]: Start processing: philander
+[2023-07-31 13:35:11] INFO root fetch - main [MainThread]: End processing [st-track-viewer] error
+[2023-07-31 13:35:11] INFO root fetch - processPackages [nexxT]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-31 13:35:11] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 13:35:11] INFO root fetch - processPackages [president]: New version: [110] Old Version: [101]
+[2023-07-31 13:35:11] INFO root fetch - processPackages [statscend]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-31 13:35:11] INFO root fetch - processPackages [boxmot]: New version: [10.0.9] Old Version: [10.0.8]
+[2023-07-31 13:35:11] INFO root fetch - processPackages [genocide]: New version: [91] Old Version: [90]
+[2023-07-31 13:35:11] INFO root fetch - processPackages [orbit-component-base]: New version: [1.0.9] Old Version: [1.0.30]
+[2023-07-31 13:35:11] INFO root fetch - processPackages [RiskLabAI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 13:35:11] INFO root fetch - processPackages [surrealdb-beta]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 13:35:11] INFO root fetch - processPackages [philander]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-31 13:35:12] INFO root fetch - processPackages [surrealdb-beta]: Downloading https://files.pythonhosted.org/packages/56/82/82a6ab952b40ac8dc3b7ccd9917fef629a5e4121f1eaf089770c8991d26c/surrealdb-beta-0.0.2.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/2a/ca/2a8f5185e8595c21615f335b163fb52cc0092719a61f6f46bdf76aaba69c/genocide-90.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/65/d1/b784f4c3effea36fec4f39c15216845b1af0ade5806bc3d29cae0313f1e8/philander-0.1.5.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [RiskLabAI]: Downloading https://files.pythonhosted.org/packages/cc/ff/c1d0c1b80be28ca28064c9a4be9a1bb7a191606a8b08c1ccad24911f5b54/RiskLabAI-0.0.8.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [nexxT]: Downloading https://files.pythonhosted.org/packages/36/bb/cc75fb81aca5b109169d8f52c002dad1601bc91eb8b14874398aa7619e2a/nexxT-1.0.4.zip
+[2023-07-31 13:35:12] INFO root fetch - processPackages [president]: Downloading https://files.pythonhosted.org/packages/a2/fd/8361a130dcb1e83895b0cddd3b00df8bd2a95b457c2717a52c046c7b28f1/president-101.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/ba/99/761a6af44336699d214d85b1f30b63af6bcdcaa01ce541d7e92a65487e4d/orbit_component_base-1.0.30.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [statscend]: Downloading https://files.pythonhosted.org/packages/24/f9/a289381a7b231bd3eea808145cefa8c084118a35679b72db164de86a6e31/statscend-0.1.9.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [boxmot]: Downloading https://files.pythonhosted.org/packages/dc/ac/76303db770d03a3713ab4d08bd38dac0c0208b589d081f3e6a9818f39c59/boxmot-10.0.8.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/50/f4/08487d2e9ffaf4c2459a82bdb215d7a1e77e96862254778678316ddb1a94/MAZAlib-0.0.8.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [surrealdb-beta]: Downloading https://files.pythonhosted.org/packages/30/c9/0aba74b82e89276cb7fea1ce565a3db1b9ecf57c6a1e8398d3f4c7f56f2d/surrealdb-beta-0.0.3.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/ff/29/5e57f702d36c8a269380d2bc1640739dfd0a929087a0abfe8ff6946e41ae/philander-0.1.6.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [RiskLabAI]: Downloading https://files.pythonhosted.org/packages/bd/06/8b21467597cdd4ac5f26ccf7b426641f2283854423d655ae0f713d98b84c/RiskLabAI-0.0.9.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/d2/67/10fc0971fd85e0d95f32c6146a0e2bd1c6ac0e19c2823b8712f3d6c6e918/orbit_component_base-1.0.9.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [statscend]: Downloading https://files.pythonhosted.org/packages/6a/b0/60571b5baa2ef9495199bba41cd9aaa2b6b1025216ed03c8441d813d7bb7/statscend-0.2.0.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [nexxT]: Downloading https://files.pythonhosted.org/packages/3c/c2/1d252a70210f5c057ee3f0ca323ef7c8bf4ee70c59a8a86d6868471dab17/nexxT-1.0.5.zip
+[2023-07-31 13:35:12] INFO root fetch - processPackages [RiskLabAI]: executing diffoscope
+[2023-07-31 13:35:12] INFO root fetch - processPackages [RiskLabAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RiskLabAI-0.0.8.tar.gz tmp/RiskLabAI-0.0.9.tar.gz --markdown 20230731/R/RiskLabAI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 13:35:12] INFO root fetch - processPackages [orbit-component-base]: executing diffoscope
+[2023-07-31 13:35:12] INFO root fetch - processPackages [orbit-component-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_base-1.0.30.tar.gz tmp/orbit_component_base-1.0.9.tar.gz --markdown 20230731/o/orbit-component-base/1.0.30-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 13:35:12] INFO root fetch - processPackages [surrealdb-beta]: executing diffoscope
+[2023-07-31 13:35:12] INFO root fetch - processPackages [surrealdb-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surrealdb-beta-0.0.2.tar.gz tmp/surrealdb-beta-0.0.3.tar.gz --markdown 20230731/s/surrealdb-beta/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 13:35:12] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/ee/bf/644071a273d92a917989a5acc834c89301fde3a6a32435ce6290de2d5504/MAZAlib-0.0.9.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [boxmot]: Downloading https://files.pythonhosted.org/packages/8a/f5/03723049ad0e1bb7544e74ca77c734bc6cd4f4244b98def429efd2b73d9e/boxmot-10.0.9.tar.gz
+[2023-07-31 13:35:12] INFO root fetch - processPackages [nexxT]: executing diffoscope
+[2023-07-31 13:35:12] INFO root fetch - processPackages [nexxT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexxT-1.0.4.zip tmp/nexxT-1.0.5.zip --markdown 20230731/n/nexxT/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-31 13:35:12] INFO root fetch - processPackages [statscend]: executing diffoscope
+[2023-07-31 13:35:12] INFO root fetch - processPackages [statscend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statscend-0.1.9.tar.gz tmp/statscend-0.2.0.tar.gz --markdown 20230731/s/statscend/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-31 13:35:13] INFO root fetch - processPackages [philander]: executing diffoscope
+[2023-07-31 13:35:13] INFO root fetch - processPackages [philander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philander-0.1.5.tar.gz tmp/philander-0.1.6.tar.gz --markdown 20230731/p/philander/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-31 13:35:13] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-07-31 13:35:13] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.8.tar.gz tmp/MAZAlib-0.0.9.tar.gz --markdown 20230731/M/MAZAlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 13:35:13] INFO root fetch - processPackages [boxmot]: executing diffoscope
+[2023-07-31 13:35:13] INFO root fetch - processPackages [boxmot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxmot-10.0.8.tar.gz tmp/boxmot-10.0.9.tar.gz --markdown 20230731/b/boxmot/10.0.8-10.0.9/diff.md --exclude *.pyd
+[2023-07-31 13:35:13] INFO root fetch - processPackages [president]: Downloading https://files.pythonhosted.org/packages/11/14/ffa2fab9537f6803982ba1043e9c61ed99cf098b0652490e8b772499fe46/president-110.tar.gz
+[2023-07-31 13:35:13] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/71/6d/f0e393ca7d1bfa65c6ccf1bbb0a3297ad94d25c42b130526ca74d11ddcc4/genocide-91.tar.gz
+[2023-07-31 13:35:14] INFO root fetch - processPackages [RiskLabAI]: Remove: archive file [/home/abi/fetcher/tmp/RiskLabAI-0.0.8.tar.gz]
+[2023-07-31 13:35:14] INFO root fetch - processPackages [RiskLabAI]: Remove: archive file [/home/abi/fetcher/tmp/RiskLabAI-0.0.9.tar.gz]
+[2023-07-31 13:35:14] INFO root fetch - processPackages [RiskLabAI]: Start processing: fastapi-template
+[2023-07-31 13:35:14] INFO root fetch - main [MainThread]: End processing [RiskLabAI]: success
+[2023-07-31 13:35:14] INFO root fetch - processPackages [orbit-component-base]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_base-1.0.30.tar.gz]
+[2023-07-31 13:35:14] INFO root fetch - processPackages [orbit-component-base]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_base-1.0.9.tar.gz]
+[2023-07-31 13:35:14] INFO root fetch - processPackages [orbit-component-base]: Start processing: sqlx-exec
+[2023-07-31 13:35:14] INFO root fetch - main [MainThread]: End processing [orbit-component-base]: success
+[2023-07-31 13:35:14] INFO root fetch - processPackages [president]: executing diffoscope
+[2023-07-31 13:35:14] INFO root fetch - processPackages [president]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/president-101.tar.gz tmp/president-110.tar.gz --markdown 20230731/p/president/101-110/diff.md --exclude *.pyd
+[2023-07-31 13:35:14] INFO root fetch - processPackages [fastapi-template]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-07-31 13:35:14] INFO root fetch - processPackages [sqlx-exec]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-31 13:35:14] INFO root fetch - processPackages [surrealdb-beta]: Remove: archive file [/home/abi/fetcher/tmp/surrealdb-beta-0.0.2.tar.gz]
+[2023-07-31 13:35:14] INFO root fetch - processPackages [surrealdb-beta]: Remove: archive file [/home/abi/fetcher/tmp/surrealdb-beta-0.0.3.tar.gz]
+[2023-07-31 13:35:14] INFO root fetch - main [MainThread]: End processing [surrealdb-beta]: success
+[2023-07-31 13:35:14] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/82/fb/c595cc39b1f7711a752340a8f58b7f3dbf370359ad9c89e6c40eed1bf9fd/sqlx-exec-1.4.1.tar.gz
+[2023-07-31 13:35:14] INFO root fetch - processPackages [statscend]: Remove: archive file [/home/abi/fetcher/tmp/statscend-0.1.9.tar.gz]
+[2023-07-31 13:35:14] INFO root fetch - processPackages [statscend]: Remove: archive file [/home/abi/fetcher/tmp/statscend-0.2.0.tar.gz]
+[2023-07-31 13:35:14] INFO root fetch - main [MainThread]: End processing [statscend]: success
+[2023-07-31 13:35:14] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.8.tar.gz]
+[2023-07-31 13:35:14] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.9.tar.gz]
+[2023-07-31 13:35:14] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-07-31 13:35:14] INFO root fetch - processPackages [fastapi-template]: Downloading https://files.pythonhosted.org/packages/1f/d3/7d09fb1bc65087d1a919a69c708a3e2b625ebf072429e171853745d19cec/fastapi_template-5.0.2.tar.gz
+[2023-07-31 13:35:14] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/fb/0e/b11ee7b89601d65f5e08721740bddfdcf8f836c46061aa1250084b259d1f/sqlx-exec-1.4.2.tar.gz
+[2023-07-31 13:35:14] INFO root fetch - processPackages [fastapi-template]: Downloading https://files.pythonhosted.org/packages/f7/ee/d3d6691a1771c4eb9fd8f2b89c105c4cf9ae2db25d5b60f25bae3392703e/fastapi_template-5.0.3.tar.gz
+[2023-07-31 13:35:14] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-31 13:35:14] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.4.1.tar.gz tmp/sqlx-exec-1.4.2.tar.gz --markdown 20230731/s/sqlx-exec/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-31 13:35:14] INFO root fetch - processPackages [boxmot]: Remove: archive file [/home/abi/fetcher/tmp/boxmot-10.0.8.tar.gz]
+[2023-07-31 13:35:14] INFO root fetch - processPackages [boxmot]: Remove: archive file [/home/abi/fetcher/tmp/boxmot-10.0.9.tar.gz]
+[2023-07-31 13:35:14] INFO root fetch - main [MainThread]: End processing [boxmot]: success
+[2023-07-31 13:35:14] INFO root fetch - processPackages [fastapi-template]: executing diffoscope
+[2023-07-31 13:35:14] INFO root fetch - processPackages [fastapi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_template-5.0.2.tar.gz tmp/fastapi_template-5.0.3.tar.gz --markdown 20230731/f/fastapi-template/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-07-31 13:35:15] INFO root fetch - processPackages [nexxT]: Remove: archive file [/home/abi/fetcher/tmp/nexxT-1.0.4.zip]
+[2023-07-31 13:35:15] INFO root fetch - processPackages [nexxT]: Remove: archive file [/home/abi/fetcher/tmp/nexxT-1.0.5.zip]
+[2023-07-31 13:35:15] INFO root fetch - main [MainThread]: End processing [nexxT]: success
+[2023-07-31 13:35:15] INFO root fetch - processPackages [genocide]: executing diffoscope
+[2023-07-31 13:35:15] INFO root fetch - processPackages [genocide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genocide-90.tar.gz tmp/genocide-91.tar.gz --markdown 20230731/g/genocide/90-91/diff.md --exclude *.pyd
+[2023-07-31 13:35:15] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.4.1.tar.gz]
+[2023-07-31 13:35:15] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.4.2.tar.gz]
+[2023-07-31 13:35:15] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-31 13:35:16] INFO root fetch - processPackages [president]: Remove: archive file [/home/abi/fetcher/tmp/president-101.tar.gz]
+[2023-07-31 13:35:16] INFO root fetch - processPackages [president]: Remove: archive file [/home/abi/fetcher/tmp/president-110.tar.gz]
+[2023-07-31 13:35:16] INFO root fetch - main [MainThread]: End processing [president]: success
+[2023-07-31 13:35:16] INFO root fetch - processPackages [fastapi-template]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_template-5.0.2.tar.gz]
+[2023-07-31 13:35:16] INFO root fetch - processPackages [fastapi-template]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_template-5.0.3.tar.gz]
+[2023-07-31 13:35:16] INFO root fetch - main [MainThread]: End processing [fastapi-template]: success
+[2023-07-31 13:35:16] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.5.tar.gz]
+[2023-07-31 13:35:16] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.6.tar.gz]
+[2023-07-31 13:35:16] INFO root fetch - main [MainThread]: End processing [philander]: success
+[2023-07-31 13:35:16] INFO root fetch - processPackages [genocide]: Remove: archive file [/home/abi/fetcher/tmp/genocide-90.tar.gz]
+[2023-07-31 13:35:16] INFO root fetch - processPackages [genocide]: Remove: archive file [/home/abi/fetcher/tmp/genocide-91.tar.gz]
+[2023-07-31 13:35:16] INFO root fetch - main [MainThread]: End processing [genocide]: success
+[2023-07-31 13:35:16] INFO root fetch - main [MainThread]: Store serial: [19106846]
