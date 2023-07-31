@@ -5110,3 +5110,57 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 03:56:25] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.4.dev20230729.tar.gz]
 [2023-07-31 03:56:25] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-07-31 03:56:25] INFO root fetch - main [MainThread]: Store serial: [19101791]
+[2023-07-31 04:01:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19101791]
+[2023-07-31 04:01:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-31 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dronevis
+[2023-07-31 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2023-07-31 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proboscis-util
+[2023-07-31 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proboscis-image-util
+[2023-07-31 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bkapi-plugins-py
+[2023-07-31 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mmpy-packagefiles
+[2023-07-31 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: our1314
+[2023-07-31 04:01:34] WARNING root fetch - processPackages [proboscis-image-util]: Skipping, unable to determine old version
+[2023-07-31 04:01:34] INFO root fetch - main [MainThread]: End processing [proboscis-image-util] error
+[2023-07-31 04:01:34] INFO root fetch - processPackages [mmpy-packagefiles]: New version: [0.0.10] Old Version: [0.0.0]
+[2023-07-31 04:01:34] WARNING root fetch - processPackages [proboscis-util]: Skipping, unable to determine old version
+[2023-07-31 04:01:34] INFO root fetch - main [MainThread]: End processing [proboscis-util] error
+[2023-07-31 04:01:34] INFO root fetch - processPackages [our1314]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 04:01:34] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.731] Old Version: [0.7273]
+[2023-07-31 04:01:34] INFO root fetch - processPackages [dronevis]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-31 04:01:34] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev8] Old Version: [0.9.1.dev7]
+[2023-07-31 04:01:34] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/dd/4b/fb5c04b974e954182b3b8adc3e38e4ac4deefd1c4e9afd25ee21a6fd4dd7/our1314-0.1.8.tar.gz
+[2023-07-31 04:01:34] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/fd/e6/bc74839fb63caca3bc310e1a4def6ac3914df7512b5cdd703929fc5b80f8/bkapi-plugins-py-0.7273.tar.gz
+[2023-07-31 04:01:34] INFO root fetch - processPackages [mmpy-packagefiles]: Downloading https://files.pythonhosted.org/packages/5a/15/f4e98aa94a7707cbef72bd0b06cebe8be5b6cf60b0513a188416dea08cf7/mmpy_packagefiles-0.0.0.tar.gz
+[2023-07-31 04:01:34] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/80/c2/afc116f8f70318334052f67223fb93a5ce1d898f2d901991e87dad33b030/khoj_assistant-0.9.1.dev7.tar.gz
+[2023-07-31 04:01:34] INFO root fetch - processPackages [dronevis]: Downloading https://files.pythonhosted.org/packages/d3/d0/dd7c176b4ed8db9a8441a685fac70c6ff44c319cc2669f1105287775639d/dronevis-1.0.0.tar.gz
+[2023-07-31 04:01:34] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/a5/2d/20df8e686de75225e2e8d244304dff78378aaf46c98f0a3357d326fe7000/our1314-0.1.9.tar.gz
+[2023-07-31 04:01:34] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/eb/c5/8fd94589d033bc5a27e2339b86081dd624833451153cff8d66cf8a1cacab/bkapi-plugins-py-0.731.tar.gz
+[2023-07-31 04:01:34] INFO root fetch - processPackages [mmpy-packagefiles]: Downloading https://files.pythonhosted.org/packages/6d/03/adc8b6cf87a53b970dcc0698218854ff7d8ee06ba829013e3041466b13fa/mmpy_packagefiles-0.0.10.tar.gz
+[2023-07-31 04:01:34] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/87/c3/a6da041c3dee772521fabc9586096b6809ee0e9289735b249898c5a282a2/khoj_assistant-0.9.1.dev8.tar.gz
+[2023-07-31 04:01:34] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-07-31 04:01:34] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.1.8.tar.gz tmp/our1314-0.1.9.tar.gz --markdown 20230731/o/our1314/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 04:01:34] INFO root fetch - processPackages [mmpy-packagefiles]: executing diffoscope
+[2023-07-31 04:01:34] INFO root fetch - processPackages [dronevis]: Downloading https://files.pythonhosted.org/packages/08/e1/4ae88f61f5fe1a7b0fcd51aad6918a03b29c16633e0c0c7fcccd6d42b5f5/dronevis-1.1.0.tar.gz
+[2023-07-31 04:01:34] INFO root fetch - processPackages [mmpy-packagefiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmpy_packagefiles-0.0.0.tar.gz tmp/mmpy_packagefiles-0.0.10.tar.gz --markdown 20230731/m/mmpy-packagefiles/0.0.0-0.0.10/diff.md --exclude *.pyd
+[2023-07-31 04:01:34] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-31 04:01:34] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.1.dev7.tar.gz tmp/khoj_assistant-0.9.1.dev8.tar.gz --markdown 20230731/k/khoj-assistant/0.9.1.dev7-0.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-31 04:01:35] INFO root fetch - processPackages [bkapi-plugins-py]: executing diffoscope
+[2023-07-31 04:01:35] INFO root fetch - processPackages [bkapi-plugins-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkapi-plugins-py-0.7273.tar.gz tmp/bkapi-plugins-py-0.731.tar.gz --markdown 20230731/b/bkapi-plugins-py/0.7273-0.731/diff.md --exclude *.pyd
+[2023-07-31 04:01:35] INFO root fetch - processPackages [dronevis]: executing diffoscope
+[2023-07-31 04:01:35] INFO root fetch - processPackages [dronevis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronevis-1.0.0.tar.gz tmp/dronevis-1.1.0.tar.gz --markdown 20230731/d/dronevis/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-31 04:01:35] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.8.tar.gz]
+[2023-07-31 04:01:35] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.9.tar.gz]
+[2023-07-31 04:01:35] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-07-31 04:01:35] INFO root fetch - processPackages [mmpy-packagefiles]: Remove: archive file [/home/abi/fetcher/tmp/mmpy_packagefiles-0.0.0.tar.gz]
+[2023-07-31 04:01:35] INFO root fetch - processPackages [mmpy-packagefiles]: Remove: archive file [/home/abi/fetcher/tmp/mmpy_packagefiles-0.0.10.tar.gz]
+[2023-07-31 04:01:35] INFO root fetch - main [MainThread]: End processing [mmpy-packagefiles]: success
+[2023-07-31 04:01:35] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.7273.tar.gz]
+[2023-07-31 04:01:35] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.731.tar.gz]
+[2023-07-31 04:01:35] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py]: success
+[2023-07-31 04:01:36] INFO root fetch - processPackages [dronevis]: Remove: archive file [/home/abi/fetcher/tmp/dronevis-1.0.0.tar.gz]
+[2023-07-31 04:01:36] INFO root fetch - processPackages [dronevis]: Remove: archive file [/home/abi/fetcher/tmp/dronevis-1.1.0.tar.gz]
+[2023-07-31 04:01:36] INFO root fetch - main [MainThread]: End processing [dronevis]: success
+[2023-07-31 04:01:36] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev7.tar.gz]
+[2023-07-31 04:01:36] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
+[2023-07-31 04:01:36] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-31 04:01:36] INFO root fetch - main [MainThread]: Store serial: [19101815]
