@@ -11640,3 +11640,165 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 10:42:27] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230731083906.tar.gz]
 [2023-07-31 10:42:27] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-31 10:42:27] INFO root fetch - main [MainThread]: Store serial: [19104797]
+[2023-07-31 10:47:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19104797]
+[2023-07-31 10:47:36] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-31 10:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seagoat
+[2023-07-31 10:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codeformer-basicsr312
+[2023-07-31 10:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pcs-get
+[2023-07-31 10:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: philander
+[2023-07-31 10:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tortoise-api-model
+[2023-07-31 10:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: strawberry-graphql
+[2023-07-31 10:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: httpx-s3-client
+[2023-07-31 10:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fund-alchemy
+[2023-07-31 10:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tablate
+[2023-07-31 10:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mdata
+[2023-07-31 10:47:36] INFO root fetch - processPackages [mdata]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 10:47:36] WARNING root fetch - processPackages [codeformer-basicsr312]: Skipping, unable to determine old version
+[2023-07-31 10:47:36] INFO root fetch - processPackages [codeformer-basicsr312]: Start processing: femto-admin
+[2023-07-31 10:47:36] INFO root fetch - main [MainThread]: End processing [codeformer-basicsr312] error
+[2023-07-31 10:47:36] INFO root fetch - processPackages [httpx-s3-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 10:47:36] INFO root fetch - processPackages [seagoat]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-31 10:47:36] INFO root fetch - processPackages [tablate]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-31 10:47:36] INFO root fetch - processPackages [fund-alchemy]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-31 10:47:36] INFO root fetch - processPackages [tortoise-api-model]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-31 10:47:36] INFO root fetch - processPackages [pcs-get]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 10:47:36] INFO root fetch - processPackages [philander]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-31 10:47:36] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-07-31 10:47:36] INFO root fetch - processPackages [femto-admin]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-31 10:47:36] INFO root fetch - processPackages [httpx-s3-client]: Downloading https://files.pythonhosted.org/packages/0a/b1/c008b26e164bb5ac02cc3c7e4d7695077493891d466fd0b31904e5a53ee5/httpx_s3_client-0.0.1.tar.gz
+[2023-07-31 10:47:36] INFO root fetch - processPackages [fund-alchemy]: Downloading https://files.pythonhosted.org/packages/ac/98/a811c03c028ff5597a32cf70036605af40e9cee4ac274aa01a988b80ffa7/fund_alchemy-1.0.8.tar.gz
+[2023-07-31 10:47:36] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/f5/a9/9acfe537f49f6f6fef2ba8dfc976909834daddbe9ff7db468e8cfb8c5505/philander-0.1.4.tar.gz
+[2023-07-31 10:47:36] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-07-31 10:47:36] INFO root fetch - processPackages [mdata]: Downloading https://files.pythonhosted.org/packages/08/60/dce9ddb9276552ca81100c7279d11dfbf3fe96ba39da67f7d1d20b735887/mdata-0.1.1.tar.gz
+[2023-07-31 10:47:36] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/5e/74/a0afa45e15ea95dc77b4633d5d337a2688e351277860ec06afa60d6e39d6/seagoat-0.8.8.tar.gz
+[2023-07-31 10:47:36] INFO root fetch - processPackages [tortoise-api-model]: Downloading https://files.pythonhosted.org/packages/8a/0d/ce3f0b9c4f190b5e0bc96a996d49b456983ad5e4e53ac47fc7af1c0d1858/tortoise_api_model-0.0.6.tar.gz
+[2023-07-31 10:47:36] INFO root fetch - processPackages [femto-admin]: Downloading https://files.pythonhosted.org/packages/57/05/e39b88f231db59d13991423232fdad4c6a777dfa798cd6088b721ab69a5d/femto-admin-0.1.2.tar.gz
+[2023-07-31 10:47:36] INFO root fetch - processPackages [pcs-get]: Downloading https://files.pythonhosted.org/packages/4b/4f/ccda69d95d38dc5ed153ec75d6392a1e3014d755a251f2d495c3295cedba/pcs-get-0.9.8.tar.gz
+[2023-07-31 10:47:36] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/7d/1d/ad908adae35b8d7ffd7e154ce3aa84aeb8e2ddd929168b1705127a32369e/tablate-0.0.7.tar.gz
+[2023-07-31 10:47:37] INFO root fetch - processPackages [fund-alchemy]: Downloading https://files.pythonhosted.org/packages/c2/ff/f325db4e27f4d4ab88704ce41f27c044add15034c1029abaf5dff697dc20/fund_alchemy-1.0.9.tar.gz
+[2023-07-31 10:47:37] INFO root fetch - processPackages [httpx-s3-client]: Downloading https://files.pythonhosted.org/packages/11/0e/14407260ef36686e1eff8f732902d1eaa2623803776847e17b7129c807ca/httpx_s3_client-0.0.2.tar.gz
+[2023-07-31 10:47:37] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-07-31 10:47:37] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/73/52/672a6f5911c7272dde51ca6fdd88c0eb51e79494be1f02f56916d469500d/seagoat-0.8.9.tar.gz
+[2023-07-31 10:47:37] INFO root fetch - processPackages [mdata]: Downloading https://files.pythonhosted.org/packages/34/38/1740265fd80e0e6a9b6ab561481f14742d788ed57cfac5fce7c0c58df4a5/mdata-0.1.2.tar.gz
+[2023-07-31 10:47:37] INFO root fetch - processPackages [fund-alchemy]: executing diffoscope
+[2023-07-31 10:47:37] INFO root fetch - processPackages [fund-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fund_alchemy-1.0.8.tar.gz tmp/fund_alchemy-1.0.9.tar.gz --markdown 20230731/f/fund-alchemy/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 10:47:37] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/65/d1/b784f4c3effea36fec4f39c15216845b1af0ade5806bc3d29cae0313f1e8/philander-0.1.5.tar.gz
+[2023-07-31 10:47:37] INFO root fetch - processPackages [httpx-s3-client]: executing diffoscope
+[2023-07-31 10:47:37] INFO root fetch - processPackages [httpx-s3-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpx_s3_client-0.0.1.tar.gz tmp/httpx_s3_client-0.0.2.tar.gz --markdown 20230731/h/httpx-s3-client/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 10:47:37] INFO root fetch - processPackages [tortoise-api-model]: Downloading https://files.pythonhosted.org/packages/c2/7c/bf29cf483f0120ad7090fa07d53d62840159dfc7be22caf56ba656e06d3f/tortoise_api_model-0.0.7.tar.gz
+[2023-07-31 10:47:37] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-07-31 10:47:37] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-07-31 10:47:37] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230731/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-07-31 10:47:37] INFO root fetch - processPackages [femto-admin]: Downloading https://files.pythonhosted.org/packages/16/21/49a66d0116ba8091c61cfd85ff06a1c3c9a2d4a2072f6f65a7dc7bb46d05/femto-admin-0.2.0.tar.gz
+[2023-07-31 10:47:37] INFO root fetch - processPackages [mdata]: executing diffoscope
+[2023-07-31 10:47:37] INFO root fetch - processPackages [mdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdata-0.1.1.tar.gz tmp/mdata-0.1.2.tar.gz --markdown 20230731/m/mdata/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 10:47:37] INFO root fetch - processPackages [seagoat]: executing diffoscope
+[2023-07-31 10:47:37] INFO root fetch - processPackages [seagoat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seagoat-0.8.8.tar.gz tmp/seagoat-0.8.9.tar.gz --markdown 20230731/s/seagoat/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-31 10:47:37] INFO root fetch - processPackages [tortoise-api-model]: executing diffoscope
+[2023-07-31 10:47:37] INFO root fetch - processPackages [tortoise-api-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise_api_model-0.0.6.tar.gz tmp/tortoise_api_model-0.0.7.tar.gz --markdown 20230731/t/tortoise-api-model/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-31 10:47:37] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-07-31 10:47:37] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.7.tar.gz tmp/tablate-0.0.8.tar.gz --markdown 20230731/t/tablate/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-31 10:47:37] INFO root fetch - processPackages [philander]: executing diffoscope
+[2023-07-31 10:47:37] INFO root fetch - processPackages [philander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philander-0.1.4.tar.gz tmp/philander-0.1.5.tar.gz --markdown 20230731/p/philander/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-31 10:47:37] INFO root fetch - processPackages [femto-admin]: executing diffoscope
+[2023-07-31 10:47:37] INFO root fetch - processPackages [femto-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femto-admin-0.1.2.tar.gz tmp/femto-admin-0.2.0.tar.gz --markdown 20230731/f/femto-admin/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-31 10:47:37] INFO root fetch - processPackages [pcs-get]: Downloading https://files.pythonhosted.org/packages/bb/55/43913e2458fce33731d3daf6e75b5b5b4253d4e34ac986c90f2e7a365d18/pcs-get-0.9.9.tar.gz
+[2023-07-31 10:47:38] INFO root fetch - processPackages [pcs-get]: executing diffoscope
+[2023-07-31 10:47:38] INFO root fetch - processPackages [pcs-get]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcs-get-0.9.8.tar.gz tmp/pcs-get-0.9.9.tar.gz --markdown 20230731/p/pcs-get/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 10:47:38] INFO root fetch - processPackages [httpx-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/httpx_s3_client-0.0.1.tar.gz]
+[2023-07-31 10:47:38] INFO root fetch - processPackages [httpx-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/httpx_s3_client-0.0.2.tar.gz]
+[2023-07-31 10:47:38] INFO root fetch - processPackages [httpx-s3-client]: Start processing: matplotlib-tufte
+[2023-07-31 10:47:38] INFO root fetch - main [MainThread]: End processing [httpx-s3-client]: success
+[2023-07-31 10:47:38] INFO root fetch - processPackages [fund-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/fund_alchemy-1.0.8.tar.gz]
+[2023-07-31 10:47:38] INFO root fetch - processPackages [fund-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/fund_alchemy-1.0.9.tar.gz]
+[2023-07-31 10:47:38] INFO root fetch - processPackages [fund-alchemy]: Start processing: tfp-nightly
+[2023-07-31 10:47:38] INFO root fetch - main [MainThread]: End processing [fund-alchemy]: success
+[2023-07-31 10:47:38] INFO root fetch - processPackages [tortoise-api-model]: Remove: archive file [/home/abi/fetcher/tmp/tortoise_api_model-0.0.6.tar.gz]
+[2023-07-31 10:47:38] INFO root fetch - processPackages [tortoise-api-model]: Remove: archive file [/home/abi/fetcher/tmp/tortoise_api_model-0.0.7.tar.gz]
+[2023-07-31 10:47:38] INFO root fetch - processPackages [tortoise-api-model]: Start processing: pih-mio
+[2023-07-31 10:47:38] INFO root fetch - main [MainThread]: End processing [tortoise-api-model]: success
+[2023-07-31 10:47:38] INFO root fetch - processPackages [matplotlib-tufte]: New version: [1.1.dev0] Old Version: [1.1.1]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.8.8.tar.gz]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.8.9.tar.gz]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [seagoat]: Start processing: invenio-oauth2server
+[2023-07-31 10:47:39] INFO root fetch - main [MainThread]: End processing [seagoat]: success
+[2023-07-31 10:47:39] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-31 10:47:39] INFO root fetch - processPackages [pih-mio]: New version: [1.48016] Old Version: [1.48014]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [matplotlib-tufte]: Downloading https://files.pythonhosted.org/packages/67/82/4f3e3192da688c86b540aef89fcee3d434d300f90b4d70d9e3e7ab3c7a2e/matplotlib_tufte-1.1.1.tar.gz
+[2023-07-31 10:47:39] INFO root fetch - processPackages [invenio-oauth2server]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [mdata]: Remove: archive file [/home/abi/fetcher/tmp/mdata-0.1.1.tar.gz]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [mdata]: Remove: archive file [/home/abi/fetcher/tmp/mdata-0.1.2.tar.gz]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [mdata]: Start processing: yz-core2
+[2023-07-31 10:47:39] INFO root fetch - main [MainThread]: End processing [mdata]: success
+[2023-07-31 10:47:39] INFO root fetch - processPackages [yz-core2]: New version: [1.0.61b6] Old Version: [1.0.61b5]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/31/dc/23cbf79e7fe4917d8b2d19ac79231ff9466c859d7a5a7342ab8e41747107/pih-mio-1.48014.tar.gz
+[2023-07-31 10:47:39] INFO root fetch - processPackages [invenio-oauth2server]: Downloading https://files.pythonhosted.org/packages/e8/dc/1fbdd62c100d9bd627d3d41b61f33d3d713ea187f1dc2dbe38760577b00b/invenio-oauth2server-2.0.0.tar.gz
+[2023-07-31 10:47:39] INFO root fetch - processPackages [matplotlib-tufte]: Downloading https://files.pythonhosted.org/packages/06/5e/3193908225c21b01e0fb01395399cc7143a95c1032703f93f17872b7f643/matplotlib_tufte-1.1.dev0.tar.gz
+[2023-07-31 10:47:39] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-31 10:47:39] INFO root fetch - processPackages [femto-admin]: Remove: archive file [/home/abi/fetcher/tmp/femto-admin-0.1.2.tar.gz]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [femto-admin]: Remove: archive file [/home/abi/fetcher/tmp/femto-admin-0.2.0.tar.gz]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [femto-admin]: Start processing: sumt
+[2023-07-31 10:47:39] INFO root fetch - main [MainThread]: End processing [femto-admin]: success
+[2023-07-31 10:47:39] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [strawberry-graphql]: Start processing: hydroutils
+[2023-07-31 10:47:39] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-07-31 10:47:39] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.7.tar.gz]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [tablate]: Start processing: pepperize.projen-awscdk-construct
+[2023-07-31 10:47:39] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-07-31 10:47:39] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/61/7d/66fc14293487a0582ef371aac23ebbd1c053efcc7714e101f09536dc2ca6/yz-core2-1.0.61b5.tar.gz
+[2023-07-31 10:47:39] INFO root fetch - processPackages [sumt]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [invenio-oauth2server]: Downloading https://files.pythonhosted.org/packages/ce/19/26e45d04454ee2a8b60bb9c30001d056d7296ca2e45553e2f6f2f91b4459/invenio-oauth2server-2.1.0.tar.gz
+[2023-07-31 10:47:39] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/90/08/a71f7e1dc0b110d39b42d6e20d52a875d86174a1835787a15959cba1c982/pih-mio-1.48016.tar.gz
+[2023-07-31 10:47:39] INFO root fetch - processPackages [pcs-get]: Remove: archive file [/home/abi/fetcher/tmp/pcs-get-0.9.8.tar.gz]
+[2023-07-31 10:47:39] INFO root fetch - processPackages [pcs-get]: Remove: archive file [/home/abi/fetcher/tmp/pcs-get-0.9.9.tar.gz]
+[2023-07-31 10:47:39] INFO root fetch - main [MainThread]: End processing [pcs-get]: success
+[2023-07-31 10:47:39] INFO root fetch - processPackages [matplotlib-tufte]: executing diffoscope
+[2023-07-31 10:47:39] INFO root fetch - processPackages [matplotlib-tufte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlib_tufte-1.1.1.tar.gz tmp/matplotlib_tufte-1.1.dev0.tar.gz --markdown 20230731/m/matplotlib-tufte/1.1.1-1.1.dev0/diff.md --exclude *.pyd
+[2023-07-31 10:47:39] WARNING root fetch - processPackages [hydroutils]: Skipping, unable to determine old version
+[2023-07-31 10:47:39] INFO root fetch - main [MainThread]: End processing [hydroutils] error
+[2023-07-31 10:47:39] INFO root fetch - processPackages [invenio-oauth2server]: executing diffoscope
+[2023-07-31 10:47:39] INFO root fetch - processPackages [invenio-oauth2server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-oauth2server-2.0.0.tar.gz tmp/invenio-oauth2server-2.1.0.tar.gz --markdown 20230731/i/invenio-oauth2server/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-31 10:47:39] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2023-07-31 10:47:39] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-1.48014.tar.gz tmp/pih-mio-1.48016.tar.gz --markdown 20230731/p/pih-mio/1.48014-1.48016/diff.md --exclude *.pyd
+[2023-07-31 10:47:39] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-31 10:47:39] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230731/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-31 10:47:39] INFO root fetch - processPackages [sumt]: Downloading https://files.pythonhosted.org/packages/2d/6d/0056926095b26cd4e1c6fde5be9ef0ebb449f8c33c147956cd9b58bd1860/sumt-3.2.3.tar.gz
+[2023-07-31 10:47:40] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 10:47:40] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/1f/37/4b2370c0bfc3aa3a62122bc0d17148f4dd82f8b83d1edb67fd65ab581d5d/yz-core2-1.0.61b6.tar.gz
+[2023-07-31 10:47:40] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-07-31 10:47:40] INFO root fetch - processPackages [yz-core2]: executing diffoscope
+[2023-07-31 10:47:40] INFO root fetch - processPackages [yz-core2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yz-core2-1.0.61b5.tar.gz tmp/yz-core2-1.0.61b6.tar.gz --markdown 20230731/y/yz-core2/1.0.61b5-1.0.61b6/diff.md --exclude *.pyd
+[2023-07-31 10:47:40] INFO root fetch - processPackages [sumt]: Downloading https://files.pythonhosted.org/packages/3e/be/e550f60dee0f700c51043dae986597eca8e60648636a82839224d857c20a/sumt-3.2.4.tar.gz
+[2023-07-31 10:47:40] INFO root fetch - processPackages [sumt]: executing diffoscope
+[2023-07-31 10:47:40] INFO root fetch - processPackages [sumt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumt-3.2.3.tar.gz tmp/sumt-3.2.4.tar.gz --markdown 20230731/s/sumt/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-07-31 10:47:40] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-07-31 10:47:40] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-07-31 10:47:40] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230731/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 10:47:41] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.4.tar.gz]
+[2023-07-31 10:47:41] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.5.tar.gz]
+[2023-07-31 10:47:41] INFO root fetch - main [MainThread]: End processing [philander]: success
+[2023-07-31 10:47:41] INFO root fetch - processPackages [matplotlib-tufte]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib_tufte-1.1.1.tar.gz]
+[2023-07-31 10:47:41] INFO root fetch - processPackages [matplotlib-tufte]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib_tufte-1.1.dev0.tar.gz]
+[2023-07-31 10:47:41] INFO root fetch - main [MainThread]: End processing [matplotlib-tufte]: success
+[2023-07-31 10:47:41] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48014.tar.gz]
+[2023-07-31 10:47:41] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48016.tar.gz]
+[2023-07-31 10:47:41] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2023-07-31 10:47:41] INFO root fetch - processPackages [sumt]: Remove: archive file [/home/abi/fetcher/tmp/sumt-3.2.3.tar.gz]
+[2023-07-31 10:47:41] INFO root fetch - processPackages [sumt]: Remove: archive file [/home/abi/fetcher/tmp/sumt-3.2.4.tar.gz]
+[2023-07-31 10:47:41] INFO root fetch - main [MainThread]: End processing [sumt]: success
+[2023-07-31 10:47:41] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.61b5.tar.gz]
+[2023-07-31 10:47:41] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.61b6.tar.gz]
+[2023-07-31 10:47:41] INFO root fetch - main [MainThread]: End processing [yz-core2]: success
+[2023-07-31 10:47:41] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-07-31 10:47:41] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-07-31 10:47:41] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-07-31 10:47:42] INFO root fetch - processPackages [invenio-oauth2server]: Remove: archive file [/home/abi/fetcher/tmp/invenio-oauth2server-2.0.0.tar.gz]
+[2023-07-31 10:47:42] INFO root fetch - processPackages [invenio-oauth2server]: Remove: archive file [/home/abi/fetcher/tmp/invenio-oauth2server-2.1.0.tar.gz]
+[2023-07-31 10:47:42] INFO root fetch - main [MainThread]: End processing [invenio-oauth2server]: success
+[2023-07-31 10:47:45] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-31 10:47:45] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-31 10:47:45] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-31 10:47:45] INFO root fetch - main [MainThread]: Store serial: [19104852]
