@@ -8294,3 +8294,68 @@ AssertionError: tmp/llamac2py-0.1.3.tar.gz does not exist
 [2023-07-31 08:06:47] INFO root fetch - processPackages [lightdash-client-python]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_client_python-0.692.1.tar.gz]
 [2023-07-31 08:06:47] INFO root fetch - main [MainThread]: End processing [lightdash-client-python]: success
 [2023-07-31 08:06:47] INFO root fetch - main [MainThread]: Store serial: [19103229]
+[2023-07-31 08:11:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19103229]
+[2023-07-31 08:11:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-31 08:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llamac2py
+[2023-07-31 08:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: barcodes-uc
+[2023-07-31 08:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: email-extractor-unicode
+[2023-07-31 08:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thresh
+[2023-07-31 08:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Midpay
+[2023-07-31 08:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyg-nightly
+[2023-07-31 08:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: typechatpy
+[2023-07-31 08:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ocrmypdf-papermerge
+[2023-07-31 08:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstract-gui
+[2023-07-31 08:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ArticutAPI
+[2023-07-31 08:11:56] WARNING root fetch - processPackages [barcodes-uc]: Skipping, unable to determine old version
+[2023-07-31 08:11:56] INFO root fetch - processPackages [barcodes-uc]: Start processing: promptcreatives
+[2023-07-31 08:11:56] INFO root fetch - main [MainThread]: End processing [barcodes-uc] error
+[2023-07-31 08:11:56] ERROR root fetch - processPackages [Midpay]: Unable to get metadata: No such project 'Midpay'
+[2023-07-31 08:11:56] INFO root fetch - main [MainThread]: End processing [Midpay] error
+[2023-07-31 08:11:56] INFO root fetch - processPackages [ocrmypdf-papermerge]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-31 08:11:56] WARNING root fetch - processPackages [thresh]: Skipping, unable to determine old version
+[2023-07-31 08:11:56] WARNING root fetch - processPackages [email-extractor-unicode]: Skipping, unable to determine old version
+[2023-07-31 08:11:56] INFO root fetch - main [MainThread]: End processing [thresh] error
+[2023-07-31 08:11:56] INFO root fetch - main [MainThread]: End processing [email-extractor-unicode] error
+[2023-07-31 08:11:56] INFO root fetch - processPackages [llamac2py]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-31 08:11:56] WARNING root fetch - processPackages [typechatpy]: Skipping, unable to determine old version
+[2023-07-31 08:11:56] INFO root fetch - main [MainThread]: End processing [typechatpy] error
+[2023-07-31 08:11:56] INFO root fetch - processPackages [ArticutAPI]: New version: [1.3.3] Old Version: [1.3.0]
+[2023-07-31 08:11:56] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.53.6] Old Version: [0.0.53.5]
+[2023-07-31 08:11:56] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230730] Old Version: [2.4.0.dev20230729]
+[2023-07-31 08:11:56] WARNING root fetch - processPackages [promptcreatives]: Skipping, unable to determine old version
+[2023-07-31 08:11:56] INFO root fetch - main [MainThread]: End processing [promptcreatives] error
+[2023-07-31 08:11:56] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/94/be/a7514ad72d71b5cefe5b00f15881dfa6923ff0953805cc64d4b52784fbf6/pyg_nightly-2.4.0.dev20230729.tar.gz
+[2023-07-31 08:11:56] INFO root fetch - processPackages [llamac2py]: Downloading https://files.pythonhosted.org/packages/5e/b1/62b66ccfc90f1c69c534c7d2bd1d1307322193ee204e3080d2cbbc605ee6/llamac2py-0.1.3.tar.gz
+[2023-07-31 08:11:56] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/e9/ab/4c6ae0c0e10c457913ee1b0d0532efd876bc22b0c252e8473984b232fb19/abstract_gui-0.0.53.5.tar.gz
+[2023-07-31 08:11:56] INFO root fetch - processPackages [ocrmypdf-papermerge]: Downloading https://files.pythonhosted.org/packages/b2/99/24665674a943ad3a30f4a07b7dd7f41e0774c497368a8dadc8dba8bd2277/ocrmypdf_papermerge-0.4.7.tar.gz
+[2023-07-31 08:11:56] INFO root fetch - processPackages [ArticutAPI]: Downloading https://files.pythonhosted.org/packages/aa/e7/118ab68c228c9f95cdaf4d63bf25eea4c065d9ce4295a8510eba0895aac4/ArticutAPI-1.3.0.tar.gz
+[2023-07-31 08:11:56] INFO root fetch - processPackages [llamac2py]: executing diffoscope
+[2023-07-31 08:11:56] INFO root fetch - processPackages [llamac2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamac2py-0.1.3.tar.gz tmp/llamac2py-0.1.4.tar.gz --markdown 20230731/l/llamac2py/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-31 08:11:56] INFO root fetch - processPackages [ocrmypdf-papermerge]: Downloading https://files.pythonhosted.org/packages/25/0f/25fa00a945e39cd2e2e07af0ae9b527816320d3f285df3f981732941edd2/ocrmypdf_papermerge-0.4.8.tar.gz
+[2023-07-31 08:11:56] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/44/d7/a7fbbb8a9b5c88db39c515727580e258146789ceecc9750936fd1869d377/abstract_gui-0.0.53.6.tar.gz
+[2023-07-31 08:11:56] INFO root fetch - processPackages [ArticutAPI]: Downloading https://files.pythonhosted.org/packages/89/94/d63fcf902baaca32cf8fd4bde65f356c5255be3573e00a9422fa04657f59/ArticutAPI-1.3.3.tar.gz
+[2023-07-31 08:11:56] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/2f/41/142591e22f3b9c469cd335d9dd27fcc96654da0721e3e263da990a0fe07b/pyg_nightly-2.4.0.dev20230730.tar.gz
+[2023-07-31 08:11:56] INFO root fetch - processPackages [ocrmypdf-papermerge]: executing diffoscope
+[2023-07-31 08:11:56] INFO root fetch - processPackages [ocrmypdf-papermerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrmypdf_papermerge-0.4.7.tar.gz tmp/ocrmypdf_papermerge-0.4.8.tar.gz --markdown 20230731/o/ocrmypdf-papermerge/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-31 08:11:56] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 08:11:56] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.53.5.tar.gz tmp/abstract_gui-0.0.53.6.tar.gz --markdown 20230731/a/abstract-gui/0.0.53.5-0.0.53.6/diff.md --exclude *.pyd
+[2023-07-31 08:11:57] INFO root fetch - processPackages [ArticutAPI]: executing diffoscope
+[2023-07-31 08:11:57] INFO root fetch - processPackages [ArticutAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ArticutAPI-1.3.0.tar.gz tmp/ArticutAPI-1.3.3.tar.gz --markdown 20230731/A/ArticutAPI/1.3.0-1.3.3/diff.md --exclude *.pyd
+[2023-07-31 08:11:57] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-31 08:11:57] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230729.tar.gz tmp/pyg_nightly-2.4.0.dev20230730.tar.gz --markdown 20230731/p/pyg-nightly/2.4.0.dev20230729-2.4.0.dev20230730/diff.md --exclude *.pyd
+[2023-07-31 08:11:57] INFO root fetch - processPackages [llamac2py]: Remove: archive file [/home/abi/fetcher/tmp/llamac2py-0.1.3.tar.gz]
+[2023-07-31 08:11:57] INFO root fetch - processPackages [llamac2py]: Remove: archive file [/home/abi/fetcher/tmp/llamac2py-0.1.4.tar.gz]
+[2023-07-31 08:11:57] INFO root fetch - main [MainThread]: End processing [llamac2py]: success
+[2023-07-31 08:11:57] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.5.tar.gz]
+[2023-07-31 08:11:57] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.6.tar.gz]
+[2023-07-31 08:11:57] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 08:11:57] INFO root fetch - processPackages [ocrmypdf-papermerge]: Remove: archive file [/home/abi/fetcher/tmp/ocrmypdf_papermerge-0.4.7.tar.gz]
+[2023-07-31 08:11:57] INFO root fetch - processPackages [ocrmypdf-papermerge]: Remove: archive file [/home/abi/fetcher/tmp/ocrmypdf_papermerge-0.4.8.tar.gz]
+[2023-07-31 08:11:57] INFO root fetch - main [MainThread]: End processing [ocrmypdf-papermerge]: success
+[2023-07-31 08:11:58] INFO root fetch - processPackages [ArticutAPI]: Remove: archive file [/home/abi/fetcher/tmp/ArticutAPI-1.3.0.tar.gz]
+[2023-07-31 08:11:58] INFO root fetch - processPackages [ArticutAPI]: Remove: archive file [/home/abi/fetcher/tmp/ArticutAPI-1.3.3.tar.gz]
+[2023-07-31 08:11:58] INFO root fetch - main [MainThread]: End processing [ArticutAPI]: success
+[2023-07-31 08:12:00] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230729.tar.gz]
+[2023-07-31 08:12:00] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230730.tar.gz]
+[2023-07-31 08:12:00] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-31 08:12:00] INFO root fetch - main [MainThread]: Store serial: [19103282]
