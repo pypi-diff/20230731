@@ -10289,3 +10289,42 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 09:41:28] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
 [2023-07-31 09:41:28] INFO root fetch - main [MainThread]: End processing [anyforce]: success
 [2023-07-31 09:41:28] INFO root fetch - main [MainThread]: Store serial: [19104150]
+[2023-07-31 09:46:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19104150]
+[2023-07-31 09:46:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-31 09:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyPPG
+[2023-07-31 09:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xblock-submit-and-compare
+[2023-07-31 09:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyaspeller
+[2023-07-31 09:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygenlib
+[2023-07-31 09:46:38] INFO root fetch - processPackages [pyPPG]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-31 09:46:38] INFO root fetch - processPackages [pyaspeller]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-31 09:46:38] INFO root fetch - processPackages [pygenlib]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-31 09:46:38] INFO root fetch - processPackages [xblock-submit-and-compare]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-07-31 09:46:38] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/f7/72/7d45c062ca11dd16b40249c9d944b686e5484e9ebe98c1ac8e7a239198a3/pygenlib-0.0.3.tar.gz
+[2023-07-31 09:46:38] INFO root fetch - processPackages [pyPPG]: Downloading https://files.pythonhosted.org/packages/f9/da/e0157d4601caa6fb7a66ddf6751b82b613d5c84fa1c3fde8ab6d64821d6f/pyPPG-1.0.2.tar.gz
+[2023-07-31 09:46:38] INFO root fetch - processPackages [xblock-submit-and-compare]: Downloading https://files.pythonhosted.org/packages/dd/6c/b96b9fc9584c5e684141903bd5835be95241fe3f126d44e42b1add5f1818/xblock-submit-and-compare-1.1.3.tar.gz
+[2023-07-31 09:46:38] INFO root fetch - processPackages [pyaspeller]: Downloading https://files.pythonhosted.org/packages/67/7e/40dde6af4f361803f750c300fa3d8ad83e4b0cc00161c16d217da235f3c6/pyaspeller-1.1.0.tar.gz
+[2023-07-31 09:46:38] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/cb/ad/92e95e52c18d910fddd3dc253ba76d73ac34185cb789705215ab35bbf935/pygenlib-0.1.0.tar.gz
+[2023-07-31 09:46:38] INFO root fetch - processPackages [pyaspeller]: Downloading https://files.pythonhosted.org/packages/86/32/cf369dd2f241d664f6c7b50cc493682e7da4c4e0ee93464009e8202d08f4/pyaspeller-1.2.0.tar.gz
+[2023-07-31 09:46:38] INFO root fetch - processPackages [xblock-submit-and-compare]: Downloading https://files.pythonhosted.org/packages/d1/15/5851ee7e86dc10549f12b4edfb05a0801822c22af05374fc528220fa1335/xblock-submit-and-compare-1.2.0.tar.gz
+[2023-07-31 09:46:38] INFO root fetch - processPackages [pyPPG]: Downloading https://files.pythonhosted.org/packages/76/14/94815a0e788c96e2fe3919abeb2c5820b466991619f098f735958877ce03/pyPPG-1.0.3.tar.gz
+[2023-07-31 09:46:38] INFO root fetch - processPackages [pygenlib]: executing diffoscope
+[2023-07-31 09:46:38] INFO root fetch - processPackages [pygenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenlib-0.0.3.tar.gz tmp/pygenlib-0.1.0.tar.gz --markdown 20230731/p/pygenlib/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-31 09:46:39] INFO root fetch - processPackages [pyaspeller]: executing diffoscope
+[2023-07-31 09:46:39] INFO root fetch - processPackages [pyaspeller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaspeller-1.1.0.tar.gz tmp/pyaspeller-1.2.0.tar.gz --markdown 20230731/p/pyaspeller/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-31 09:46:39] INFO root fetch - processPackages [xblock-submit-and-compare]: executing diffoscope
+[2023-07-31 09:46:39] INFO root fetch - processPackages [xblock-submit-and-compare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xblock-submit-and-compare-1.1.3.tar.gz tmp/xblock-submit-and-compare-1.2.0.tar.gz --markdown 20230731/x/xblock-submit-and-compare/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-07-31 09:46:39] INFO root fetch - processPackages [pyPPG]: executing diffoscope
+[2023-07-31 09:46:39] INFO root fetch - processPackages [pyPPG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPPG-1.0.2.tar.gz tmp/pyPPG-1.0.3.tar.gz --markdown 20230731/p/pyPPG/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-31 09:46:39] INFO root fetch - processPackages [pyaspeller]: Remove: archive file [/home/abi/fetcher/tmp/pyaspeller-1.1.0.tar.gz]
+[2023-07-31 09:46:39] INFO root fetch - processPackages [pyaspeller]: Remove: archive file [/home/abi/fetcher/tmp/pyaspeller-1.2.0.tar.gz]
+[2023-07-31 09:46:39] INFO root fetch - main [MainThread]: End processing [pyaspeller]: success
+[2023-07-31 09:46:39] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.0.3.tar.gz]
+[2023-07-31 09:46:39] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.1.0.tar.gz]
+[2023-07-31 09:46:39] INFO root fetch - main [MainThread]: End processing [pygenlib]: success
+[2023-07-31 09:46:39] INFO root fetch - processPackages [xblock-submit-and-compare]: Remove: archive file [/home/abi/fetcher/tmp/xblock-submit-and-compare-1.1.3.tar.gz]
+[2023-07-31 09:46:39] INFO root fetch - processPackages [xblock-submit-and-compare]: Remove: archive file [/home/abi/fetcher/tmp/xblock-submit-and-compare-1.2.0.tar.gz]
+[2023-07-31 09:46:39] INFO root fetch - main [MainThread]: End processing [xblock-submit-and-compare]: success
+[2023-07-31 09:46:40] INFO root fetch - processPackages [pyPPG]: Remove: archive file [/home/abi/fetcher/tmp/pyPPG-1.0.2.tar.gz]
+[2023-07-31 09:46:40] INFO root fetch - processPackages [pyPPG]: Remove: archive file [/home/abi/fetcher/tmp/pyPPG-1.0.3.tar.gz]
+[2023-07-31 09:46:40] INFO root fetch - main [MainThread]: End processing [pyPPG]: success
+[2023-07-31 09:46:40] INFO root fetch - main [MainThread]: Store serial: [19104164]
