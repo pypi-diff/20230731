@@ -10575,3 +10575,198 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 10:03:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230731075809.tar.gz]
 [2023-07-31 10:03:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-31 10:03:21] INFO root fetch - main [MainThread]: Store serial: [19104255]
+[2023-07-31 10:08:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19104255]
+[2023-07-31 10:08:29] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2023-07-31 10:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdf2md
+[2023-07-31 10:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-cloudauth20190307
+[2023-07-31 10:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audinterface
+[2023-07-31 10:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygenlib
+[2023-07-31 10:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sam-ml-py
+[2023-07-31 10:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-gui
+[2023-07-31 10:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: invenio-theme
+[2023-07-31 10:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysnyk
+[2023-07-31 10:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: natchecker
+[2023-07-31 10:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: imjoy-rpc
+[2023-07-31 10:08:30] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-31 10:08:30] WARNING root fetch - processPackages [pdf2md]: Skipping, unable to determine old version
+[2023-07-31 10:08:30] INFO root fetch - processPackages [pdf2md]: Start processing: philander
+[2023-07-31 10:08:30] INFO root fetch - main [MainThread]: End processing [pdf2md] error
+[2023-07-31 10:08:30] INFO root fetch - processPackages [pygenlib]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-31 10:08:30] INFO root fetch - processPackages [sam-ml-py]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-31 10:08:30] INFO root fetch - processPackages [invenio-theme]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-31 10:08:30] INFO root fetch - processPackages [natchecker]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-31 10:08:30] INFO root fetch - processPackages [pysnyk]: New version: [0.9.7] Old Version: [0.9.5]
+[2023-07-31 10:08:30] INFO root fetch - processPackages [audinterface]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-07-31 10:08:30] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.53.97] Old Version: [0.0.53.96]
+[2023-07-31 10:08:30] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-31 10:08:30] INFO root fetch - processPackages [philander]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-31 10:08:30] INFO root fetch - processPackages [invenio-theme]: Downloading https://files.pythonhosted.org/packages/95/38/8fca5df202c36f8b158b30a9619afe721928d02a783c9fad645baa3c0f63/invenio-theme-2.2.0.tar.gz
+[2023-07-31 10:08:30] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-07-31 10:08:30] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/e0/60/d78b50a58a9e25ec6442a299f61504c96f64a4e46f3a12a01949f6f0a18b/philander-0.1.2.tar.gz
+[2023-07-31 10:08:30] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/9f/42/5750848b4faae8fb94644032e66b97ab563f5ddd9b51b31ece2b60a02bd7/abstract_gui-0.0.53.96.tar.gz
+[2023-07-31 10:08:30] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: Downloading https://files.pythonhosted.org/packages/37/56/6b4dae10df41c8804d60a671bcb5036e6bc1173f3925866be90d6e277310/alibabacloud_cloudauth20190307-2.0.7.tar.gz
+[2023-07-31 10:08:30] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/14/1e/e8d975c1901102498585d2a34dd365922fcae68f3d260c53c7f023d719b4/pygenlib-0.0.7.tar.gz
+[2023-07-31 10:08:30] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/fc/7c/6908c6a3ae727e076167d08073461c9a30f2e4c01b6d1f3db78759dfc9ed/sam_ml-py-0.9.0.tar.gz
+[2023-07-31 10:08:30] INFO root fetch - processPackages [audinterface]: Downloading https://files.pythonhosted.org/packages/61/e6/d1696edddf8102a9355cf1626d2549e62f7ca83e522da87376da73d75622/audinterface-1.0.4.tar.gz
+[2023-07-31 10:08:30] INFO root fetch - processPackages [natchecker]: Downloading https://files.pythonhosted.org/packages/37/43/03f21bc30f4e782f583bef23cda844a3c1bcc06bf2f91b00a1392750756b/natchecker-0.1.3.tar.gz
+[2023-07-31 10:08:30] INFO root fetch - processPackages [pysnyk]: Downloading https://files.pythonhosted.org/packages/b5/97/14e80cdbbe6c76c2713e2c0080fe1492a81a28269051c3472dc15477d67e/pysnyk-0.9.5.tar.gz
+[2023-07-31 10:08:30] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-07-31 10:08:30] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: Downloading https://files.pythonhosted.org/packages/5c/56/4663624de19484962bbd5e457123183dfec74a73e0db3a7da7e523ee5169/alibabacloud_cloudauth20190307-2.0.8.tar.gz
+[2023-07-31 10:08:30] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/86/e5/781b8e072a8997b5488252370292599dd668e154c9a1090f8fedb512910c/abstract_gui-0.0.53.97.tar.gz
+[2023-07-31 10:08:30] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/f4/f8/0aac2de659e4c5c99aad68feefdcc828e72f5c03ad8479b05f47c0ca01ad/sam_ml-py-0.9.0rc1.tar.gz
+[2023-07-31 10:08:30] INFO root fetch - processPackages [natchecker]: Downloading https://files.pythonhosted.org/packages/29/a4/934940316d5cb8e995d5f03d925be69e639e20e8ec9eb781b5ea4e6c6aea/natchecker-0.2.0.tar.gz
+[2023-07-31 10:08:31] INFO root fetch - processPackages [audinterface]: Downloading https://files.pythonhosted.org/packages/6a/24/ad117b75e91683d82d308833201dfad8fae638626785a757c29fec7d9a29/audinterface-1.1.0.tar.gz
+[2023-07-31 10:08:31] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/a4/33/11fed4558dce67173f4969bbd1ea251702bbc069a787f5778ccdbec893a7/philander-0.1.3.tar.gz
+[2023-07-31 10:08:31] INFO root fetch - processPackages [pysnyk]: Downloading https://files.pythonhosted.org/packages/8c/a2/01dbf7194aa96f708cde27facb758b7fd369e195984effa6c8ab66479d2d/pysnyk-0.9.7.tar.gz
+[2023-07-31 10:08:31] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/48/c3/16ba5066c9e33f7e3b1419a0f4de7fd1da9fad34efb14575222cd4b8b163/pygenlib-0.0.8.tar.gz
+[2023-07-31 10:08:31] INFO root fetch - processPackages [invenio-theme]: Downloading https://files.pythonhosted.org/packages/cd/6f/a1a69031398ac6e27e87b1a211ad96b323ec627f510763eb900705d043ab/invenio-theme-2.3.0.tar.gz
+[2023-07-31 10:08:31] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-07-31 10:08:31] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230731/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-31 10:08:31] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: executing diffoscope
+[2023-07-31 10:08:31] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudauth20190307-2.0.7.tar.gz tmp/alibabacloud_cloudauth20190307-2.0.8.tar.gz --markdown 20230731/a/alibabacloud-cloudauth20190307/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-31 10:08:31] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 10:08:31] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.53.96.tar.gz tmp/abstract_gui-0.0.53.97.tar.gz --markdown 20230731/a/abstract-gui/0.0.53.96-0.0.53.97/diff.md --exclude *.pyd
+[2023-07-31 10:08:31] INFO root fetch - processPackages [natchecker]: executing diffoscope
+[2023-07-31 10:08:31] INFO root fetch - processPackages [natchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natchecker-0.1.3.tar.gz tmp/natchecker-0.2.0.tar.gz --markdown 20230731/n/natchecker/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-31 10:08:31] INFO root fetch - processPackages [audinterface]: executing diffoscope
+[2023-07-31 10:08:31] INFO root fetch - processPackages [audinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audinterface-1.0.4.tar.gz tmp/audinterface-1.1.0.tar.gz --markdown 20230731/a/audinterface/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-07-31 10:08:31] INFO root fetch - processPackages [sam-ml-py]: executing diffoscope
+[2023-07-31 10:08:31] INFO root fetch - processPackages [sam-ml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sam_ml-py-0.9.0.tar.gz tmp/sam_ml-py-0.9.0rc1.tar.gz --markdown 20230731/s/sam-ml-py/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-31 10:08:31] INFO root fetch - processPackages [pysnyk]: executing diffoscope
+[2023-07-31 10:08:31] INFO root fetch - processPackages [pysnyk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysnyk-0.9.5.tar.gz tmp/pysnyk-0.9.7.tar.gz --markdown 20230731/p/pysnyk/0.9.5-0.9.7/diff.md --exclude *.pyd
+[2023-07-31 10:08:31] INFO root fetch - processPackages [pygenlib]: executing diffoscope
+[2023-07-31 10:08:31] INFO root fetch - processPackages [pygenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenlib-0.0.7.tar.gz tmp/pygenlib-0.0.8.tar.gz --markdown 20230731/p/pygenlib/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-31 10:08:31] INFO root fetch - processPackages [philander]: executing diffoscope
+[2023-07-31 10:08:31] INFO root fetch - processPackages [philander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philander-0.1.2.tar.gz tmp/philander-0.1.3.tar.gz --markdown 20230731/p/philander/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-31 10:08:31] INFO root fetch - processPackages [invenio-theme]: executing diffoscope
+[2023-07-31 10:08:31] INFO root fetch - processPackages [invenio-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-theme-2.2.0.tar.gz tmp/invenio-theme-2.3.0.tar.gz --markdown 20230731/i/invenio-theme/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-31 10:08:32] INFO root fetch - processPackages [natchecker]: Remove: archive file [/home/abi/fetcher/tmp/natchecker-0.1.3.tar.gz]
+[2023-07-31 10:08:32] INFO root fetch - processPackages [natchecker]: Remove: archive file [/home/abi/fetcher/tmp/natchecker-0.2.0.tar.gz]
+[2023-07-31 10:08:32] INFO root fetch - processPackages [natchecker]: Start processing: odoo14-addon-ssi-hr-leave-request-batch
+[2023-07-31 10:08:32] INFO root fetch - main [MainThread]: End processing [natchecker]: success
+[2023-07-31 10:08:32] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-leave-request-batch]: Skipping, unable to determine old version
+[2023-07-31 10:08:32] INFO root fetch - processPackages [odoo14-addon-ssi-hr-leave-request-batch]: Start processing: pulumi-volcengine
+[2023-07-31 10:08:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-leave-request-batch] error
+[2023-07-31 10:08:32] WARNING root fetch - processPackages [pulumi-volcengine]: Skipping, unable to determine old version
+[2023-07-31 10:08:32] INFO root fetch - processPackages [pulumi-volcengine]: Start processing: odoo14-addon-ssi-work-log-cost
+[2023-07-31 10:08:32] INFO root fetch - main [MainThread]: End processing [pulumi-volcengine] error
+[2023-07-31 10:08:32] WARNING root fetch - processPackages [odoo14-addon-ssi-work-log-cost]: Skipping, unable to determine old version
+[2023-07-31 10:08:32] INFO root fetch - processPackages [odoo14-addon-ssi-work-log-cost]: Start processing: ej2-streamlit-grids
+[2023-07-31 10:08:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-work-log-cost] error
+[2023-07-31 10:08:32] INFO root fetch - processPackages [ej2-streamlit-grids]: New version: [22.2.5] Old Version: [22.1.34]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [imjoy-rpc]: Start processing: odoo14-addon-ssi-work-log-state-change-constrain
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-07-31 10:08:33] WARNING root fetch - processPackages [odoo14-addon-ssi-work-log-state-change-constrain]: Skipping, unable to determine old version
+[2023-07-31 10:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-work-log-state-change-constrain]: Start processing: odoo14-addon-ssi-holiday-state-change-constrain
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-work-log-state-change-constrain] error
+[2023-07-31 10:08:33] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth20190307-2.0.7.tar.gz]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth20190307-2.0.8.tar.gz]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: Start processing: odoo14-addon-ssi-timesheet-state-change-constrain
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudauth20190307]: success
+[2023-07-31 10:08:33] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.0.7.tar.gz]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.0.8.tar.gz]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [pygenlib]: Start processing: pyglove
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [pygenlib]: success
+[2023-07-31 10:08:33] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.96.tar.gz]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.97.tar.gz]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [abstract-gui]: Start processing: odoo14-addon-ssi-hr-overtime-state-change-constrain
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 10:08:33] WARNING root fetch - processPackages [odoo14-addon-ssi-holiday-state-change-constrain]: Skipping, unable to determine old version
+[2023-07-31 10:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-holiday-state-change-constrain]: Start processing: odoo14-addon-ssi-timesheet
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-holiday-state-change-constrain] error
+[2023-07-31 10:08:33] WARNING root fetch - processPackages [odoo14-addon-ssi-timesheet-state-change-constrain]: Skipping, unable to determine old version
+[2023-07-31 10:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-timesheet-state-change-constrain]: Start processing: audiobook-dl
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-timesheet-state-change-constrain] error
+[2023-07-31 10:08:33] INFO root fetch - processPackages [pyglove]: New version: [0.4.3.dev20230731] Old Version: [0.4.3.dev20230730]
+[2023-07-31 10:08:33] WARNING root fetch - processPackages [odoo14-addon-ssi-timesheet]: Skipping, unable to determine old version
+[2023-07-31 10:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-timesheet]: Start processing: odoo14-addon-ssi-hr-overtime
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-timesheet] error
+[2023-07-31 10:08:33] INFO root fetch - processPackages [pysnyk]: Remove: archive file [/home/abi/fetcher/tmp/pysnyk-0.9.5.tar.gz]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [pysnyk]: Remove: archive file [/home/abi/fetcher/tmp/pysnyk-0.9.7.tar.gz]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [pysnyk]: Start processing: pygenlib
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [pysnyk]: success
+[2023-07-31 10:08:33] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.9.0.tar.gz]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.9.0rc1.tar.gz]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [sam-ml-py]: Start processing: hishel
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [sam-ml-py]: success
+[2023-07-31 10:08:33] INFO root fetch - processPackages [ej2-streamlit-grids]: Downloading https://files.pythonhosted.org/packages/89/f5/a4c4db6862bc366ae46b07d5c54f717a38edfe771caa8bdcb7ea289c5a1c/ej2_streamlit_grids-22.1.34.tar.gz
+[2023-07-31 10:08:33] INFO root fetch - processPackages [audiobook-dl]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-31 10:08:33] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-overtime-state-change-constrain]: Skipping, unable to determine old version
+[2023-07-31 10:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-hr-overtime-state-change-constrain]: Start processing: odoo14-addon-ssi-hr-overtime-batch
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-overtime-state-change-constrain] error
+[2023-07-31 10:08:33] INFO root fetch - processPackages [audinterface]: Remove: archive file [/home/abi/fetcher/tmp/audinterface-1.0.4.tar.gz]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [audinterface]: Remove: archive file [/home/abi/fetcher/tmp/audinterface-1.1.0.tar.gz]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [audinterface]: Start processing: odoo14-addon-ssi-timesheet-attendance
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [audinterface]: success
+[2023-07-31 10:08:33] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-overtime]: Skipping, unable to determine old version
+[2023-07-31 10:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-hr-overtime]: Start processing: odoo14-addon-ssi-hr-holiday
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-overtime] error
+[2023-07-31 10:08:33] INFO root fetch - processPackages [pygenlib]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-31 10:08:33] INFO root fetch - processPackages [hishel]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-31 10:08:33] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-overtime-batch]: Skipping, unable to determine old version
+[2023-07-31 10:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-hr-overtime-batch]: Start processing: odoo14-addon-ssi-work-log-mixin
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-overtime-batch] error
+[2023-07-31 10:08:33] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/3e/0d/8a2e07d6ec56ba12e606430bd562aca987123cd88969c014346446c647f4/pyglove-0.4.3.dev20230730.tar.gz
+[2023-07-31 10:08:33] WARNING root fetch - processPackages [odoo14-addon-ssi-timesheet-attendance]: Skipping, unable to determine old version
+[2023-07-31 10:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-timesheet-attendance]: Start processing: bforce
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-timesheet-attendance] error
+[2023-07-31 10:08:33] WARNING root fetch - processPackages [bforce]: Skipping, unable to determine old version
+[2023-07-31 10:08:33] INFO root fetch - processPackages [bforce]: Start processing: lightning-toolbox
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [bforce] error
+[2023-07-31 10:08:33] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/14/1e/e8d975c1901102498585d2a34dd365922fcae68f3d260c53c7f023d719b4/pygenlib-0.0.7.tar.gz
+[2023-07-31 10:08:33] INFO root fetch - processPackages [lightning-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 10:08:33] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-holiday]: Skipping, unable to determine old version
+[2023-07-31 10:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-hr-holiday]: Start processing: odoo14-addon-ssi-hr-leave-allocation-request-batch
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-holiday] error
+[2023-07-31 10:08:33] INFO root fetch - processPackages [audiobook-dl]: Downloading https://files.pythonhosted.org/packages/bf/08/cc171e5ce595f4a486d14fc6aa036b684de3b2743680e9e18b59344d02c4/audiobook-dl-0.6.1.tar.gz
+[2023-07-31 10:08:33] WARNING root fetch - processPackages [odoo14-addon-ssi-work-log-mixin]: Skipping, unable to determine old version
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-work-log-mixin] error
+[2023-07-31 10:08:33] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/0e/a2/e33a2f505b9b8fa696b16975fe34a55c42dc96902865f16c6627044aa9b8/lightning_toolbox-0.0.8.tar.gz
+[2023-07-31 10:08:33] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/1d/55/b24ec2aee5815b7e78e49cb6b54a331e3e7c9cf1948b952421127854c077/hishel-0.0.7.tar.gz
+[2023-07-31 10:08:33] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-leave-allocation-request-batch]: Skipping, unable to determine old version
+[2023-07-31 10:08:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-leave-allocation-request-batch] error
+[2023-07-31 10:08:33] INFO root fetch - processPackages [pygenlib]: Downloading https://files.pythonhosted.org/packages/48/c3/16ba5066c9e33f7e3b1419a0f4de7fd1da9fad34efb14575222cd4b8b163/pygenlib-0.0.8.tar.gz
+[2023-07-31 10:08:33] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/c9/f1/39547b268254026a2f0a4856694ac92d2cb143183580588cfd3696575465/lightning_toolbox-0.0.9.tar.gz
+[2023-07-31 10:08:33] INFO root fetch - processPackages [pygenlib]: executing diffoscope
+[2023-07-31 10:08:33] INFO root fetch - processPackages [pygenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenlib-0.0.7.tar.gz tmp/pygenlib-0.0.8.tar.gz --markdown 20230731/p/pygenlib/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-31 10:08:33] INFO root fetch - processPackages [audiobook-dl]: Downloading https://files.pythonhosted.org/packages/d2/dd/f528a58c7ebf583c5d5ca64421e86b4de9aad8e8f27a94a354b809fc0c57/audiobook-dl-0.6.2.tar.gz
+[2023-07-31 10:08:33] INFO root fetch - processPackages [ej2-streamlit-grids]: Downloading https://files.pythonhosted.org/packages/7c/85/12a518d69470531f58d97ecc27187e5ab083423c3ee6b551b4ddb70d9b55/ej2_streamlit_grids-22.2.5.tar.gz
+[2023-07-31 10:08:33] INFO root fetch - processPackages [lightning-toolbox]: executing diffoscope
+[2023-07-31 10:08:33] INFO root fetch - processPackages [lightning-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_toolbox-0.0.8.tar.gz tmp/lightning_toolbox-0.0.9.tar.gz --markdown 20230731/l/lightning-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 10:08:33] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/ad/c0/66462b04bf7c40061a1c7a23580d96d5864375d197d78bbd2321beab2004/pyglove-0.4.3.dev20230731.tar.gz
+[2023-07-31 10:08:33] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/70/30/746a1d5db3025b3b69995d907fe840d0c840e298f657e36039fdd6d6b553/hishel-0.0.8.tar.gz
+[2023-07-31 10:08:34] INFO root fetch - processPackages [audiobook-dl]: executing diffoscope
+[2023-07-31 10:08:34] INFO root fetch - processPackages [audiobook-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiobook-dl-0.6.1.tar.gz tmp/audiobook-dl-0.6.2.tar.gz --markdown 20230731/a/audiobook-dl/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-31 10:08:34] INFO root fetch - processPackages [hishel]: executing diffoscope
+[2023-07-31 10:08:34] INFO root fetch - processPackages [hishel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hishel-0.0.7.tar.gz tmp/hishel-0.0.8.tar.gz --markdown 20230731/h/hishel/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-31 10:08:34] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-31 10:08:34] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.3.dev20230730.tar.gz tmp/pyglove-0.4.3.dev20230731.tar.gz --markdown 20230731/p/pyglove/0.4.3.dev20230730-0.4.3.dev20230731/diff.md --exclude *.pyd
+[2023-07-31 10:08:34] INFO root fetch - processPackages [ej2-streamlit-grids]: executing diffoscope
+[2023-07-31 10:08:34] INFO root fetch - processPackages [ej2-streamlit-grids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ej2_streamlit_grids-22.1.34.tar.gz tmp/ej2_streamlit_grids-22.2.5.tar.gz --markdown 20230731/e/ej2-streamlit-grids/22.1.34-22.2.5/diff.md --exclude *.pyd
+[2023-07-31 10:08:35] INFO root fetch - processPackages [lightning-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/lightning_toolbox-0.0.8.tar.gz]
+[2023-07-31 10:08:35] INFO root fetch - processPackages [lightning-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/lightning_toolbox-0.0.9.tar.gz]
+[2023-07-31 10:08:35] INFO root fetch - main [MainThread]: End processing [lightning-toolbox]: success
+[2023-07-31 10:08:35] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.0.7.tar.gz]
+[2023-07-31 10:08:35] INFO root fetch - processPackages [pygenlib]: Remove: archive file [/home/abi/fetcher/tmp/pygenlib-0.0.8.tar.gz]
+[2023-07-31 10:08:35] INFO root fetch - main [MainThread]: End processing [pygenlib]: success
+[2023-07-31 10:08:35] INFO root fetch - processPackages [invenio-theme]: Remove: archive file [/home/abi/fetcher/tmp/invenio-theme-2.2.0.tar.gz]
+[2023-07-31 10:08:35] INFO root fetch - processPackages [invenio-theme]: Remove: archive file [/home/abi/fetcher/tmp/invenio-theme-2.3.0.tar.gz]
+[2023-07-31 10:08:35] INFO root fetch - main [MainThread]: End processing [invenio-theme]: success
+[2023-07-31 10:08:35] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.7.tar.gz]
+[2023-07-31 10:08:35] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.8.tar.gz]
+[2023-07-31 10:08:35] INFO root fetch - main [MainThread]: End processing [hishel]: success
+[2023-07-31 10:08:35] INFO root fetch - processPackages [audiobook-dl]: Remove: archive file [/home/abi/fetcher/tmp/audiobook-dl-0.6.1.tar.gz]
+[2023-07-31 10:08:35] INFO root fetch - processPackages [audiobook-dl]: Remove: archive file [/home/abi/fetcher/tmp/audiobook-dl-0.6.2.tar.gz]
+[2023-07-31 10:08:35] INFO root fetch - main [MainThread]: End processing [audiobook-dl]: success
+[2023-07-31 10:08:36] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230730.tar.gz]
+[2023-07-31 10:08:36] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230731.tar.gz]
+[2023-07-31 10:08:36] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-31 10:08:39] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.2.tar.gz]
+[2023-07-31 10:08:39] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.3.tar.gz]
+[2023-07-31 10:08:39] INFO root fetch - main [MainThread]: End processing [philander]: success
+[2023-07-31 10:09:03] INFO root fetch - processPackages [ej2-streamlit-grids]: Remove: archive file [/home/abi/fetcher/tmp/ej2_streamlit_grids-22.1.34.tar.gz]
+[2023-07-31 10:09:03] INFO root fetch - processPackages [ej2-streamlit-grids]: Remove: archive file [/home/abi/fetcher/tmp/ej2_streamlit_grids-22.2.5.tar.gz]
+[2023-07-31 10:09:03] INFO root fetch - main [MainThread]: End processing [ej2-streamlit-grids]: success
+[2023-07-31 10:09:03] INFO root fetch - main [MainThread]: Store serial: [19104373]
