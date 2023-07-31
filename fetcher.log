@@ -4623,3 +4623,98 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 03:24:54] INFO root fetch - processPackages [flask-script-observable]: Remove: archive file [/home/abi/fetcher/tmp/flask_script_observable-0.0.6.tar.gz]
 [2023-07-31 03:24:54] INFO root fetch - main [MainThread]: End processing [flask-script-observable]: success
 [2023-07-31 03:24:54] INFO root fetch - main [MainThread]: Store serial: [19101602]
+[2023-07-31 03:29:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19101602]
+[2023-07-31 03:30:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-31 03:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-organizations
+[2023-07-31 03:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: migrate-to-systemd-networkd
+[2023-07-31 03:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: readmeai
+[2023-07-31 03:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygamd
+[2023-07-31 03:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lego-image-converter
+[2023-07-31 03:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatlab
+[2023-07-31 03:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: our1314
+[2023-07-31 03:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llm-code
+[2023-07-31 03:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyagrum-nightly
+[2023-07-31 03:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-wordpress
+[2023-07-31 03:30:03] INFO root fetch - processPackages [migrate-to-systemd-networkd]: New version: [2.1] Old Version: [2.0]
+[2023-07-31 03:30:03] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.9.0.9.dev202307301690302491] Old Version: [1.9.0.9.dev202307291690302491]
+[2023-07-31 03:30:03] INFO root fetch - processPackages [pygamd]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-31 03:30:03] WARNING root fetch - processPackages [lego-image-converter]: Skipping, unable to determine old version
+[2023-07-31 03:30:03] INFO root fetch - processPackages [llm-code]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-07-31 03:30:03] INFO root fetch - processPackages [lego-image-converter]: Start processing: deep-mab
+[2023-07-31 03:30:03] INFO root fetch - main [MainThread]: End processing [lego-image-converter] error
+[2023-07-31 03:30:03] INFO root fetch - processPackages [readmeai]: New version: [0.0.72] Old Version: [0.0.71]
+[2023-07-31 03:30:03] INFO root fetch - processPackages [our1314]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 03:30:03] INFO root fetch - processPackages [chatlab]: New version: [1.0.0a9] Old Version: [1.0.0a7]
+[2023-07-31 03:30:03] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 03:30:03] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-31 03:30:03] WARNING root fetch - processPackages [deep-mab]: Skipping, unable to determine old version
+[2023-07-31 03:30:03] INFO root fetch - processPackages [deep-mab]: Start processing: aorta-sirius
+[2023-07-31 03:30:03] INFO root fetch - main [MainThread]: End processing [deep-mab] error
+[2023-07-31 03:30:03] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/d5/9f/c68f08b4dc2b994f37fe6db2a42200916baae675f93c66b82fd14f30298a/readmeai-0.0.71.tar.gz
+[2023-07-31 03:30:03] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/80/92/e195c8c38b8df23fcaef945b62c89a4c70a46873ff81eca94077385cd393/pyAgrum_nightly-1.9.0.9.dev202307291690302491-cp39-cp39-win_amd64.whl
+[2023-07-31 03:30:04] INFO root fetch - processPackages [migrate-to-systemd-networkd]: Downloading https://files.pythonhosted.org/packages/70/46/d3cfa92c5e1cad124c31ce739c8369b321965715a14de343b13e40d62778/migrate_to_systemd_networkd-2.0.tar.gz
+[2023-07-31 03:30:04] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-31 03:30:04] INFO root fetch - processPackages [pygamd]: Downloading https://files.pythonhosted.org/packages/9e/0d/9fd03dc5b1c31c7365cebdc63a49df2ced01405db8532669895d1f2b9547/pygamd-1.3.5.tar.gz
+[2023-07-31 03:30:04] INFO root fetch - processPackages [aorta-sirius]: New version: [0.9] Old Version: [0.8]
+[2023-07-31 03:30:04] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/dd/4b/fb5c04b974e954182b3b8adc3e38e4ac4deefd1c4e9afd25ee21a6fd4dd7/our1314-0.1.8.tar.gz
+[2023-07-31 03:30:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-31 03:30:04] INFO root fetch - processPackages [llm-code]: Downloading https://files.pythonhosted.org/packages/60/25/3fe629434783afff6bc0e7be2b5f2690d78318c547346ac6d1a6f66d1aa9/llm_code-0.4.2.tar.gz
+[2023-07-31 03:30:04] WARNING root fetch - processPackages [pygamd]: Skipping package: exceeds size limit 25144093>=10485760
+[2023-07-31 03:30:04] INFO root fetch - main [MainThread]: End processing [pygamd] error
+[2023-07-31 03:30:04] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/9c/2c/76242c5ad0339db6943f4b5d88de7420393a617d4d3b3464b3fdb4a8937c/chatlab-1.0.0a7.tar.gz
+[2023-07-31 03:30:04] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-31 03:30:04] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/0b/94/9439f3f7ffbee8753f99379f86cc2baf18eb586f699f771c3e10c70b06d1/readmeai-0.0.72.tar.gz
+[2023-07-31 03:30:04] INFO root fetch - processPackages [migrate-to-systemd-networkd]: Downloading https://files.pythonhosted.org/packages/e6/6e/0edcec00d5ccbf3d88da6c94944e4400c4f32533fcac5ae162565a7eb007/migrate_to_systemd_networkd-2.1.tar.gz
+[2023-07-31 03:30:04] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/b6/ee/1c422ddfa238f3fc4430ac709c757c9e907639380c24ad36a0753f153a6f/aorta_sirius-0.8.tar.gz
+[2023-07-31 03:30:04] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-31 03:30:04] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230731/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 03:30:04] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/a5/2d/20df8e686de75225e2e8d244304dff78378aaf46c98f0a3357d326fe7000/our1314-0.1.9.tar.gz
+[2023-07-31 03:30:04] INFO root fetch - processPackages [llm-code]: Downloading https://files.pythonhosted.org/packages/54/cf/d135ee6b758b1b9531c2d4582a2c6f6ba2c8757d99570dcf321ff1d73ea4/llm_code-0.5.0.tar.gz
+[2023-07-31 03:30:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-31 03:30:04] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-31 03:30:04] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.71.tar.gz tmp/readmeai-0.0.72.tar.gz --markdown 20230731/r/readmeai/0.0.71-0.0.72/diff.md --exclude *.pyd
+[2023-07-31 03:30:04] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/9e/64/cd7bef9a71080dc8f8efafff7e54fa539fd6f57f71e98d32eb464fca020d/chatlab-1.0.0a9.tar.gz
+[2023-07-31 03:30:04] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/94/b4/edc99fdbf9a25f3a088c74de7027708cdcb091b819ab2fbd4cd14cf17399/pyAgrum_nightly-1.9.0.9.dev202307301690302491-cp39-cp39-win_amd64.whl
+[2023-07-31 03:30:04] INFO root fetch - processPackages [migrate-to-systemd-networkd]: executing diffoscope
+[2023-07-31 03:30:04] INFO root fetch - processPackages [migrate-to-systemd-networkd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migrate_to_systemd_networkd-2.0.tar.gz tmp/migrate_to_systemd_networkd-2.1.tar.gz --markdown 20230731/m/migrate-to-systemd-networkd/2.0-2.1/diff.md --exclude *.pyd
+[2023-07-31 03:30:04] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-07-31 03:30:04] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.1.8.tar.gz tmp/our1314-0.1.9.tar.gz --markdown 20230731/o/our1314/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 03:30:04] INFO root fetch - processPackages [llm-code]: executing diffoscope
+[2023-07-31 03:30:04] INFO root fetch - processPackages [llm-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_code-0.4.2.tar.gz tmp/llm_code-0.5.0.tar.gz --markdown 20230731/l/llm-code/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-07-31 03:30:04] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/f7/a9/1b1baa080588e189aafc95d9d8998b4232984f880217dba83e3f863c1286/aorta_sirius-0.9.tar.gz
+[2023-07-31 03:30:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-31 03:30:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230731/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-31 03:30:04] INFO root fetch - processPackages [chatlab]: executing diffoscope
+[2023-07-31 03:30:04] INFO root fetch - processPackages [chatlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatlab-1.0.0a7.tar.gz tmp/chatlab-1.0.0a9.tar.gz --markdown 20230731/c/chatlab/1.0.0a7-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-31 03:30:04] INFO root fetch - processPackages [aorta-sirius]: executing diffoscope
+[2023-07-31 03:30:04] INFO root fetch - processPackages [aorta-sirius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius-0.8.tar.gz tmp/aorta_sirius-0.9.tar.gz --markdown 20230731/a/aorta-sirius/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-31 03:30:05] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-07-31 03:30:05] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202307291690302491-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202307301690302491-cp39-cp39-win_amd64.whl.zip --markdown 20230731/p/pyagrum-nightly/1.9.0.9.dev202307291690302491-1.9.0.9.dev202307301690302491/diff.md --exclude *.pyd
+[2023-07-31 03:30:05] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-31 03:30:05] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-31 03:30:05] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-31 03:30:06] INFO root fetch - processPackages [migrate-to-systemd-networkd]: Remove: archive file [/home/abi/fetcher/tmp/migrate_to_systemd_networkd-2.0.tar.gz]
+[2023-07-31 03:30:06] INFO root fetch - processPackages [migrate-to-systemd-networkd]: Remove: archive file [/home/abi/fetcher/tmp/migrate_to_systemd_networkd-2.1.tar.gz]
+[2023-07-31 03:30:06] INFO root fetch - main [MainThread]: End processing [migrate-to-systemd-networkd]: success
+[2023-07-31 03:30:06] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.71.tar.gz]
+[2023-07-31 03:30:06] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.72.tar.gz]
+[2023-07-31 03:30:06] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-31 03:30:06] INFO root fetch - processPackages [llm-code]: Remove: archive file [/home/abi/fetcher/tmp/llm_code-0.4.2.tar.gz]
+[2023-07-31 03:30:06] INFO root fetch - processPackages [llm-code]: Remove: archive file [/home/abi/fetcher/tmp/llm_code-0.5.0.tar.gz]
+[2023-07-31 03:30:06] INFO root fetch - main [MainThread]: End processing [llm-code]: success
+[2023-07-31 03:30:06] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-1.0.0a7.tar.gz]
+[2023-07-31 03:30:06] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-1.0.0a9.tar.gz]
+[2023-07-31 03:30:06] INFO root fetch - main [MainThread]: End processing [chatlab]: success
+[2023-07-31 03:30:06] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.8.tar.gz]
+[2023-07-31 03:30:06] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.9.tar.gz]
+[2023-07-31 03:30:06] INFO root fetch - main [MainThread]: End processing [aorta-sirius]: success
+[2023-07-31 03:30:06] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-31 03:30:06] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-31 03:30:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-31 03:30:06] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202307291690302491-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 03:30:06] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202307301690302491-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 03:30:06] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-07-31 03:30:06] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.8.tar.gz]
+[2023-07-31 03:30:06] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.9.tar.gz]
+[2023-07-31 03:30:06] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-07-31 03:30:06] INFO root fetch - main [MainThread]: Store serial: [19101649]
