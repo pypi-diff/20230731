@@ -5799,3 +5799,90 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 04:53:58] INFO root fetch - processPackages [pandasmemuc]: Remove: archive file [/home/abi/fetcher/tmp/pandasmemuc-0.11.tar.gz]
 [2023-07-31 04:53:58] INFO root fetch - main [MainThread]: End processing [pandasmemuc]: success
 [2023-07-31 04:53:58] INFO root fetch - main [MainThread]: Store serial: [19102060]
+[2023-07-31 04:59:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102060]
+[2023-07-31 04:59:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-31 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contrastive-xai
+[2023-07-31 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: byquant
+[2023-07-31 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-behavior
+[2023-07-31 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ydl-podcast
+[2023-07-31 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stdflow
+[2023-07-31 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyautomail
+[2023-07-31 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xj-user
+[2023-07-31 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lego-image-converter
+[2023-07-31 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openai-parallel-toolkit
+[2023-07-31 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lazyinit
+[2023-07-31 04:59:07] INFO root fetch - processPackages [lego-image-converter]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-07-31 04:59:07] INFO root fetch - processPackages [byquant]: New version: [1.7.31] Old Version: [1.7.30]
+[2023-07-31 04:59:07] INFO root fetch - processPackages [contrastive-xai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-31 04:59:07] INFO root fetch - processPackages [ydl-podcast]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-31 04:59:07] INFO root fetch - processPackages [xj-behavior]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-31 04:59:07] INFO root fetch - processPackages [stdflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 04:59:07] INFO root fetch - processPackages [openai-parallel-toolkit]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-31 04:59:07] INFO root fetch - processPackages [lazyinit]: New version: [0.0.31] Old Version: [0.0.3]
+[2023-07-31 04:59:07] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-31 04:59:07] WARNING root fetch - processPackages [pyautomail]: Skipping, unable to determine old version
+[2023-07-31 04:59:07] INFO root fetch - main [MainThread]: End processing [pyautomail] error
+[2023-07-31 04:59:07] INFO root fetch - processPackages [lego-image-converter]: Downloading https://files.pythonhosted.org/packages/2b/5a/22adff3c5c8a069f29b3b55bc63ca7fde0e68cc68ad75d75bea3a0547722/lego_image_converter-0.0.5.tar.gz
+[2023-07-31 04:59:07] INFO root fetch - processPackages [ydl-podcast]: Downloading https://files.pythonhosted.org/packages/16/ca/09798c26859bd7dac11b8bfbff3eaaadb498cb8fe2ce8fe043b7f0d8d415/ydl_podcast-1.2.1.tar.gz
+[2023-07-31 04:59:07] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/e4/1e/be036808c979d657fafa54b28e336278c8265ef5c893a2c2bda0327a6f96/byquant-1.7.30.tar.gz
+[2023-07-31 04:59:07] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/37/2b/dc718c9a789aae941c5744468c42fa99c1ca83c6fc824add3debc6df543d/stdflow-0.0.8.tar.gz
+[2023-07-31 04:59:07] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/ac/5b/bbd54dc07f47af55c9121c2de4bfade3e74cbfc4dd53b11459307e92cb6c/lazyinit-0.0.3.tar.gz
+[2023-07-31 04:59:07] INFO root fetch - processPackages [contrastive-xai]: Downloading https://files.pythonhosted.org/packages/aa/73/d0efc8aa48fd65e760df36c59a84f584d291095d0148726fcbe0b62f0d7d/contrastive_xai-0.1.0.tar.gz
+[2023-07-31 04:59:07] INFO root fetch - processPackages [xj-behavior]: Downloading https://files.pythonhosted.org/packages/3c/df/a0329b3ac0134d9749319b525290bc6dcc063d72f06838ec3f47da9288ae/xj_behavior-1.0.4.tar.gz
+[2023-07-31 04:59:07] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-07-31 04:59:07] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/c6/16/925ba97aab77ff338a4dafa13f0c16b70b4449da45222eea03aceb61e2af/openai_parallel_toolkit-1.0.0-py3-none-any.whl
+[2023-07-31 04:59:08] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/93/a7/7a92845fb1a7092159c2fbc2b23c0b733e7c93e5cd012f6538ca900ea3b6/stdflow-0.0.9-py3-none-any.whl
+[2023-07-31 04:59:08] INFO root fetch - processPackages [ydl-podcast]: Downloading https://files.pythonhosted.org/packages/4a/df/9c866c5e377a3b91122512d65a39f454ad54c0c8939aa3e2f7e15da952c2/ydl_podcast-1.2.2.tar.gz
+[2023-07-31 04:59:08] INFO root fetch - processPackages [lego-image-converter]: Downloading https://files.pythonhosted.org/packages/5d/8a/2fde73c90c3818d5420fd7d0b8bf3b8df570bfd016fe623d38e356b46010/lego_image_converter-0.1.0.tar.gz
+[2023-07-31 04:59:08] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/f7/34/453e4cd7e7d896d26db808bf72cc7793396567277851f9d0846e77b95099/lazyinit-0.0.31.tar.gz
+[2023-07-31 04:59:08] INFO root fetch - processPackages [contrastive-xai]: Downloading https://files.pythonhosted.org/packages/1f/10/44e3126831281065c39a2db51ac2a39ae8560a98dbcd871934c0b65567f2/contrastive_xai-0.1.1.tar.gz
+[2023-07-31 04:59:08] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-31 04:59:08] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.8.tar.gz tmp/stdflow-0.0.9-py3-none-any.whl.zip --markdown 20230731/s/stdflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 04:59:08] INFO root fetch - processPackages [xj-behavior]: Downloading https://files.pythonhosted.org/packages/6c/d4/14f727761dfce6bb11d42d6c33b134bd9df4100e22f993bfda53836a0c77/xj_behavior-1.0.5.tar.gz
+[2023-07-31 04:59:08] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/17/e2/09fa06292418228bd24a51fc68cd10e01d077fd0e3707c8c7ca5a0d056ab/byquant-1.7.31.tar.gz
+[2023-07-31 04:59:08] INFO root fetch - processPackages [ydl-podcast]: executing diffoscope
+[2023-07-31 04:59:08] INFO root fetch - processPackages [ydl-podcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydl_podcast-1.2.1.tar.gz tmp/ydl_podcast-1.2.2.tar.gz --markdown 20230731/y/ydl-podcast/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-31 04:59:08] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/ca/ef/e595b9aac42032bbc6638bb74024f71be559e4f1dd9c8a5395812d40ef24/openai_parallel_toolkit-1.1.0-py3-none-any.whl
+[2023-07-31 04:59:08] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-07-31 04:59:08] INFO root fetch - processPackages [xj-behavior]: executing diffoscope
+[2023-07-31 04:59:08] INFO root fetch - processPackages [xj-behavior]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_behavior-1.0.4.tar.gz tmp/xj_behavior-1.0.5.tar.gz --markdown 20230731/x/xj-behavior/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-31 04:59:08] INFO root fetch - processPackages [lego-image-converter]: executing diffoscope
+[2023-07-31 04:59:08] INFO root fetch - processPackages [lego-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lego_image_converter-0.0.5.tar.gz tmp/lego_image_converter-0.1.0.tar.gz --markdown 20230731/l/lego-image-converter/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-07-31 04:59:08] INFO root fetch - processPackages [contrastive-xai]: executing diffoscope
+[2023-07-31 04:59:08] INFO root fetch - processPackages [contrastive-xai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contrastive_xai-0.1.0.tar.gz tmp/contrastive_xai-0.1.1.tar.gz --markdown 20230731/c/contrastive-xai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 04:59:08] INFO root fetch - processPackages [openai-parallel-toolkit]: executing diffoscope
+[2023-07-31 04:59:08] INFO root fetch - processPackages [openai-parallel-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_parallel_toolkit-1.0.0-py3-none-any.whl.zip tmp/openai_parallel_toolkit-1.1.0-py3-none-any.whl.zip --markdown 20230731/o/openai-parallel-toolkit/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-31 04:59:08] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-31 04:59:08] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.3.tar.gz tmp/lazyinit-0.0.31.tar.gz --markdown 20230731/l/lazyinit/0.0.3-0.0.31/diff.md --exclude *.pyd
+[2023-07-31 04:59:08] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-07-31 04:59:08] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230731/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-31 04:59:08] INFO root fetch - processPackages [byquant]: executing diffoscope
+[2023-07-31 04:59:08] INFO root fetch - processPackages [byquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byquant-1.7.30.tar.gz tmp/byquant-1.7.31.tar.gz --markdown 20230731/b/byquant/1.7.30-1.7.31/diff.md --exclude *.pyd
+[2023-07-31 04:59:09] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.8.tar.gz]
+[2023-07-31 04:59:09] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-31 04:59:09] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-31 04:59:09] INFO root fetch - processPackages [ydl-podcast]: Remove: archive file [/home/abi/fetcher/tmp/ydl_podcast-1.2.1.tar.gz]
+[2023-07-31 04:59:09] INFO root fetch - processPackages [ydl-podcast]: Remove: archive file [/home/abi/fetcher/tmp/ydl_podcast-1.2.2.tar.gz]
+[2023-07-31 04:59:09] INFO root fetch - main [MainThread]: End processing [ydl-podcast]: success
+[2023-07-31 04:59:09] INFO root fetch - processPackages [xj-behavior]: Remove: archive file [/home/abi/fetcher/tmp/xj_behavior-1.0.4.tar.gz]
+[2023-07-31 04:59:09] INFO root fetch - processPackages [xj-behavior]: Remove: archive file [/home/abi/fetcher/tmp/xj_behavior-1.0.5.tar.gz]
+[2023-07-31 04:59:09] INFO root fetch - main [MainThread]: End processing [xj-behavior]: success
+[2023-07-31 04:59:09] INFO root fetch - processPackages [lego-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/lego_image_converter-0.0.5.tar.gz]
+[2023-07-31 04:59:09] INFO root fetch - processPackages [lego-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/lego_image_converter-0.1.0.tar.gz]
+[2023-07-31 04:59:09] INFO root fetch - main [MainThread]: End processing [lego-image-converter]: success
+[2023-07-31 04:59:09] INFO root fetch - processPackages [openai-parallel-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/openai_parallel_toolkit-1.0.0-py3-none-any.whl.zip]
+[2023-07-31 04:59:09] INFO root fetch - processPackages [openai-parallel-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/openai_parallel_toolkit-1.1.0-py3-none-any.whl.zip]
+[2023-07-31 04:59:09] INFO root fetch - main [MainThread]: End processing [openai-parallel-toolkit]: success
+[2023-07-31 04:59:09] INFO root fetch - processPackages [contrastive-xai]: Remove: archive file [/home/abi/fetcher/tmp/contrastive_xai-0.1.0.tar.gz]
+[2023-07-31 04:59:09] INFO root fetch - processPackages [contrastive-xai]: Remove: archive file [/home/abi/fetcher/tmp/contrastive_xai-0.1.1.tar.gz]
+[2023-07-31 04:59:09] INFO root fetch - main [MainThread]: End processing [contrastive-xai]: success
+[2023-07-31 04:59:10] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-07-31 04:59:10] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-07-31 04:59:10] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-07-31 04:59:10] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.3.tar.gz]
+[2023-07-31 04:59:10] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.31.tar.gz]
+[2023-07-31 04:59:10] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-31 04:59:11] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.30.tar.gz]
+[2023-07-31 04:59:11] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.31.tar.gz]
+[2023-07-31 04:59:11] INFO root fetch - main [MainThread]: End processing [byquant]: success
+[2023-07-31 04:59:11] INFO root fetch - main [MainThread]: Store serial: [19102087]
