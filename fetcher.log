@@ -9554,3 +9554,143 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 09:04:40] INFO root fetch - processPackages [fluidsdk]: Remove: archive file [/home/abi/fetcher/tmp/fluidsdk-0.4.4.tar.gz]
 [2023-07-31 09:04:40] INFO root fetch - main [MainThread]: End processing [fluidsdk]: success
 [2023-07-31 09:04:40] INFO root fetch - main [MainThread]: Store serial: [19103820]
+[2023-07-31 09:09:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19103820]
+[2023-07-31 09:09:48] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-31 09:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fyers-sdk
+[2023-07-31 09:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: payme-pkg
+[2023-07-31 09:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bilibili-download-icexmoon
+[2023-07-31 09:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liangutil
+[2023-07-31 09:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: klaviyo-api
+[2023-07-31 09:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testApiGroup
+[2023-07-31 09:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mylove
+[2023-07-31 09:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xhac
+[2023-07-31 09:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstract-gui
+[2023-07-31 09:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-hub-nightly
+[2023-07-31 09:09:49] INFO root fetch - processPackages [payme-pkg]: New version: [2.3] Old Version: [2.2]
+[2023-07-31 09:09:49] ERROR root fetch - processPackages [mylove]: Unable to get metadata: No such project 'mylove'
+[2023-07-31 09:09:49] INFO root fetch - processPackages [mylove]: Start processing: pinject-design
+[2023-07-31 09:09:49] INFO root fetch - main [MainThread]: End processing [mylove] error
+[2023-07-31 09:09:49] INFO root fetch - processPackages [klaviyo-api]: New version: [5.0.0] Old Version: [4.0.0]
+[2023-07-31 09:09:49] INFO root fetch - processPackages [fyers-sdk]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-31 09:09:49] INFO root fetch - processPackages [bilibili-download-icexmoon]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-31 09:09:49] INFO root fetch - processPackages [liangutil]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-31 09:09:49] INFO root fetch - processPackages [testApiGroup]: New version: [1.0.0.8] Old Version: [1.0.0.7]
+[2023-07-31 09:09:49] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-31 09:09:49] INFO root fetch - processPackages [xhac]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-31 09:09:49] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.53.93] Old Version: [0.0.53.924]
+[2023-07-31 09:09:49] INFO root fetch - processPackages [pinject-design]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-31 09:09:49] INFO root fetch - processPackages [bilibili-download-icexmoon]: Downloading https://files.pythonhosted.org/packages/05/7c/2c51a45964f97be6ba73f8d60baf867c8674566c354e4a8b05f8fc2bb458/bilibili-download-icexmoon-0.0.3.tar.gz
+[2023-07-31 09:09:49] INFO root fetch - processPackages [liangutil]: Downloading https://files.pythonhosted.org/packages/3d/a7/73a034e20e98c6dbe3e6a3b96034aee9873689481bdd5dff2d5cd7db2c20/liangutil-0.0.4.tar.gz
+[2023-07-31 09:09:49] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/22/75/6767ee89f9fa5c8d8f3fa3ae01390cbbc6c4085d8f5cb4501697bd0cc738/testApiGroup-1.0.0.7.tar.gz
+[2023-07-31 09:09:49] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-31 09:09:49] INFO root fetch - processPackages [payme-pkg]: Downloading https://files.pythonhosted.org/packages/d6/f6/ce4fefa05279e1e83fe82ca2c53935cca5465bf7d866f606e7f8e15ad931/payme-pkg-2.2.tar.gz
+[2023-07-31 09:09:49] INFO root fetch - processPackages [klaviyo-api]: Downloading https://files.pythonhosted.org/packages/16/70/66d7ba8be98fe9d9cbee43a2e397a95f0033a0488a3e0b1441ea63b4d551/klaviyo-api-4.0.0.tar.gz
+[2023-07-31 09:09:49] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/3c/2d/7f5fb45d9fbb7d8bc7ca1af48aae20f8150a2896dc2e077963423e85401d/fyers_sdk-1.0.5.tar.gz
+[2023-07-31 09:09:49] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a7/9f/a4979c34444f0a828e5df54e2be1ecaadcee3d75fe7d9f80a08d4c4eac3b/pinject_design-0.1.98.tar.gz
+[2023-07-31 09:09:49] INFO root fetch - processPackages [xhac]: Downloading https://files.pythonhosted.org/packages/60/16/8aed921c89ae45d2238b7b05684f70c10fedc1f2afbcec01e9176ab217e4/xhac-0.1.2-py3-none-any.whl
+[2023-07-31 09:09:49] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/17/0b/2a8d67be026a740f1863fe2cdf7e1739fbf658d07806a8c41b821e37018a/abstract_gui-0.0.53.93.tar.gz
+[2023-07-31 09:09:49] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/63/49/2738d88bdd11c80091228a29e7db90dbb0328d0652f5744bc4838f21d8c9/testApiGroup-1.0.0.8.tar.gz
+[2023-07-31 09:09:49] INFO root fetch - processPackages [bilibili-download-icexmoon]: Downloading https://files.pythonhosted.org/packages/e5/03/f2bc2e3102ef9f1afdac278fd5193be59ff6ad936f19e1a830382d4a0dfe/bilibili-download-icexmoon-0.0.4.tar.gz
+[2023-07-31 09:09:49] INFO root fetch - processPackages [liangutil]: Downloading https://files.pythonhosted.org/packages/92/96/37ec6bbec35ee2899b41b4d71c7e0f60a81d4253582a28b03588854fb34d/liangutil-0.0.5.tar.gz
+[2023-07-31 09:09:49] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-31 09:09:50] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a1/60/23fa127950edf1bf1131253d21bdf092cb149e44bdf95f1e99ddd8a07170/pinject_design-0.1.99.tar.gz
+[2023-07-31 09:09:50] INFO root fetch - processPackages [payme-pkg]: Downloading https://files.pythonhosted.org/packages/b4/34/f98845ae12bcd87292d1e031c4990048dd8f0f5217cea862aff61a5d879e/payme-pkg-2.3.tar.gz
+[2023-07-31 09:09:50] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 09:09:50] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.53.924.tar.gz tmp/abstract_gui-0.0.53.93.tar.gz --markdown 20230731/a/abstract-gui/0.0.53.924-0.0.53.93/diff.md --exclude *.pyd
+[2023-07-31 09:09:50] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/37/97/244ed9845bb009bdc85d37d799fd104ee10e4b64153a4f886664f6a982ad/fyers_sdk-1.0.6.tar.gz
+[2023-07-31 09:09:50] INFO root fetch - processPackages [klaviyo-api]: Downloading https://files.pythonhosted.org/packages/76/83/f66b0e88f7b46f27048ec161328ea5fb8587a0cdf3608d629552d31b2ac4/klaviyo-api-5.0.0.tar.gz
+[2023-07-31 09:09:50] INFO root fetch - processPackages [bilibili-download-icexmoon]: executing diffoscope
+[2023-07-31 09:09:50] INFO root fetch - processPackages [bilibili-download-icexmoon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilibili-download-icexmoon-0.0.3.tar.gz tmp/bilibili-download-icexmoon-0.0.4.tar.gz --markdown 20230731/b/bilibili-download-icexmoon/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-31 09:09:50] INFO root fetch - processPackages [xhac]: Downloading https://files.pythonhosted.org/packages/8e/04/12103ed471a77f31a54da7298425ad06b76deee66190692f1e92e8164490/xhac-0.1.3-py3-none-any.whl
+[2023-07-31 09:09:50] INFO root fetch - processPackages [testApiGroup]: executing diffoscope
+[2023-07-31 09:09:50] INFO root fetch - processPackages [testApiGroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testApiGroup-1.0.0.7.tar.gz tmp/testApiGroup-1.0.0.8.tar.gz --markdown 20230731/t/testApiGroup/1.0.0.7-1.0.0.8/diff.md --exclude *.pyd
+[2023-07-31 09:09:50] INFO root fetch - processPackages [liangutil]: executing diffoscope
+[2023-07-31 09:09:50] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-31 09:09:50] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.98.tar.gz tmp/pinject_design-0.1.99.tar.gz --markdown 20230731/p/pinject-design/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-31 09:09:50] INFO root fetch - processPackages [liangutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liangutil-0.0.4.tar.gz tmp/liangutil-0.0.5.tar.gz --markdown 20230731/l/liangutil/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-31 09:09:50] INFO root fetch - processPackages [payme-pkg]: executing diffoscope
+[2023-07-31 09:09:50] INFO root fetch - processPackages [payme-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payme-pkg-2.2.tar.gz tmp/payme-pkg-2.3.tar.gz --markdown 20230731/p/payme-pkg/2.2-2.3/diff.md --exclude *.pyd
+[2023-07-31 09:09:50] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-31 09:09:50] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230731/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-31 09:09:50] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-07-31 09:09:50] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-1.0.5.tar.gz tmp/fyers_sdk-1.0.6.tar.gz --markdown 20230731/f/fyers-sdk/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-31 09:09:50] INFO root fetch - processPackages [xhac]: executing diffoscope
+[2023-07-31 09:09:50] INFO root fetch - processPackages [xhac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhac-0.1.2-py3-none-any.whl.zip tmp/xhac-0.1.3-py3-none-any.whl.zip --markdown 20230731/x/xhac/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-31 09:09:50] INFO root fetch - processPackages [klaviyo-api]: executing diffoscope
+[2023-07-31 09:09:50] INFO root fetch - processPackages [klaviyo-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klaviyo-api-4.0.0.tar.gz tmp/klaviyo-api-5.0.0.tar.gz --markdown 20230731/k/klaviyo-api/4.0.0-5.0.0/diff.md --exclude *.pyd
+[2023-07-31 09:09:51] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.924.tar.gz]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.53.93.tar.gz]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [abstract-gui]: Start processing: maxware-tsp-cli
+[2023-07-31 09:09:51] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 09:09:51] INFO root fetch - processPackages [maxware-tsp-cli]: New version: [0.2.0.dev0] Old Version: [0.2.0]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.7.tar.gz]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.8.tar.gz]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [testApiGroup]: Start processing: image2layout-computer-vision
+[2023-07-31 09:09:51] INFO root fetch - main [MainThread]: End processing [testApiGroup]: success
+[2023-07-31 09:09:51] INFO root fetch - processPackages [image2layout-computer-vision]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [bilibili-download-icexmoon]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-download-icexmoon-0.0.3.tar.gz]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [bilibili-download-icexmoon]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-download-icexmoon-0.0.4.tar.gz]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [bilibili-download-icexmoon]: Start processing: BundesligaPredictor
+[2023-07-31 09:09:51] INFO root fetch - main [MainThread]: End processing [bilibili-download-icexmoon]: success
+[2023-07-31 09:09:51] INFO root fetch - processPackages [maxware-tsp-cli]: Downloading https://files.pythonhosted.org/packages/8e/53/b5dc81ececd34c201bda63d12f9a6bb414e8249397453ff57315431ea0a5/maxware_tsp_cli-0.2.0.tar.gz
+[2023-07-31 09:09:51] INFO root fetch - processPackages [BundesligaPredictor]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [liangutil]: Remove: archive file [/home/abi/fetcher/tmp/liangutil-0.0.4.tar.gz]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [liangutil]: Remove: archive file [/home/abi/fetcher/tmp/liangutil-0.0.5.tar.gz]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [liangutil]: Start processing: wagtail-analytics
+[2023-07-31 09:09:51] INFO root fetch - main [MainThread]: End processing [liangutil]: success
+[2023-07-31 09:09:51] INFO root fetch - processPackages [wagtail-analytics]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [xhac]: Remove: archive file [/home/abi/fetcher/tmp/xhac-0.1.2-py3-none-any.whl.zip]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [xhac]: Remove: archive file [/home/abi/fetcher/tmp/xhac-0.1.3-py3-none-any.whl.zip]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [xhac]: Start processing: django-safedelete-e2e
+[2023-07-31 09:09:51] INFO root fetch - main [MainThread]: End processing [xhac]: success
+[2023-07-31 09:09:51] INFO root fetch - processPackages [BundesligaPredictor]: Downloading https://files.pythonhosted.org/packages/34/68/da75934fa7c266fbb111650d8a0b6be79e8db4db79bf7fa48c153b0a10a3/BundesligaPredictor-0.0.1-py3-none-any.whl
+[2023-07-31 09:09:51] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/7e/cc/ed540655913ca2ef30701d3f3325abb71db0b407d707f9af21c88a5c9b89/image2layout_computer_vision-0.0.8.tar.gz
+[2023-07-31 09:09:51] INFO root fetch - processPackages [django-safedelete-e2e]: New version: [3.0.0] Old Version: [0.3.2]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-31 09:09:51] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-31 09:09:51] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-31 09:09:52] INFO root fetch - processPackages [maxware-tsp-cli]: Downloading https://files.pythonhosted.org/packages/83/39/336c2edaf30de3aaf4a93ad1331c065803e6d56db669d775b69cc658ebcf/maxware_tsp_cli-0.2.0.dev0.tar.gz
+[2023-07-31 09:09:52] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.98.tar.gz]
+[2023-07-31 09:09:52] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.99.tar.gz]
+[2023-07-31 09:09:52] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-31 09:09:52] INFO root fetch - processPackages [wagtail-analytics]: Downloading https://files.pythonhosted.org/packages/0d/50/387417eed7b8add3bef3b51829f05ccec190bd8911f62584e491b6a91629/wagtail-analytics-0.5.0.tar.gz
+[2023-07-31 09:09:52] INFO root fetch - processPackages [payme-pkg]: Remove: archive file [/home/abi/fetcher/tmp/payme-pkg-2.2.tar.gz]
+[2023-07-31 09:09:52] INFO root fetch - processPackages [payme-pkg]: Remove: archive file [/home/abi/fetcher/tmp/payme-pkg-2.3.tar.gz]
+[2023-07-31 09:09:52] INFO root fetch - main [MainThread]: End processing [payme-pkg]: success
+[2023-07-31 09:09:52] INFO root fetch - processPackages [maxware-tsp-cli]: executing diffoscope
+[2023-07-31 09:09:52] INFO root fetch - processPackages [maxware-tsp-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxware_tsp_cli-0.2.0.tar.gz tmp/maxware_tsp_cli-0.2.0.dev0.tar.gz --markdown 20230731/m/maxware-tsp-cli/0.2.0-0.2.0.dev0/diff.md --exclude *.pyd
+[2023-07-31 09:09:52] INFO root fetch - processPackages [django-safedelete-e2e]: Downloading https://files.pythonhosted.org/packages/46/10/c1948815cef90845f2b47c34de611dee665b8ec465c8c829fca88b7a00fb/django-safedelete-e2e-0.3.2.tar.gz
+[2023-07-31 09:09:52] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-1.0.5.tar.gz]
+[2023-07-31 09:09:52] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-1.0.6.tar.gz]
+[2023-07-31 09:09:52] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-07-31 09:09:52] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/b9/4f/fc1b1db4bb6a9f511d91debf7491a2e7804f52693e716c1de4937a9221e7/image2layout_computer_vision-0.0.9.tar.gz
+[2023-07-31 09:09:52] INFO root fetch - processPackages [BundesligaPredictor]: Downloading https://files.pythonhosted.org/packages/73/46/706901a69235071a3b12559b3dd2d5897d8acb61697505595b69c46cc9b7/BundesligaPredictor-0.0.2.tar.gz
+[2023-07-31 09:09:52] INFO root fetch - processPackages [image2layout-computer-vision]: executing diffoscope
+[2023-07-31 09:09:52] INFO root fetch - processPackages [image2layout-computer-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image2layout_computer_vision-0.0.8.tar.gz tmp/image2layout_computer_vision-0.0.9.tar.gz --markdown 20230731/i/image2layout-computer-vision/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 09:09:52] INFO root fetch - processPackages [wagtail-analytics]: Downloading https://files.pythonhosted.org/packages/e0/9f/e212a2d816a2ec349c038a5a8667ac4d30dddbd60ec0f2c84722ea1f07a9/wagtail-analytics-0.5.1.tar.gz
+[2023-07-31 09:09:52] INFO root fetch - processPackages [BundesligaPredictor]: executing diffoscope
+[2023-07-31 09:09:52] INFO root fetch - processPackages [BundesligaPredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BundesligaPredictor-0.0.1-py3-none-any.whl.zip tmp/BundesligaPredictor-0.0.2.tar.gz --markdown 20230731/B/BundesligaPredictor/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-31 09:09:52] INFO root fetch - processPackages [django-safedelete-e2e]: Downloading https://files.pythonhosted.org/packages/ca/3a/ea935d2bb4fcea96be5ce2b5b17aea304c0454876014bdacfd6eab83a949/django-safedelete-e2e-3.0.0.tar.gz
+[2023-07-31 09:09:52] INFO root fetch - processPackages [wagtail-analytics]: executing diffoscope
+[2023-07-31 09:09:52] INFO root fetch - processPackages [wagtail-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-analytics-0.5.0.tar.gz tmp/wagtail-analytics-0.5.1.tar.gz --markdown 20230731/w/wagtail-analytics/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-31 09:09:52] INFO root fetch - processPackages [django-safedelete-e2e]: executing diffoscope
+[2023-07-31 09:09:52] INFO root fetch - processPackages [django-safedelete-e2e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-safedelete-e2e-0.3.2.tar.gz tmp/django-safedelete-e2e-3.0.0.tar.gz --markdown 20230731/d/django-safedelete-e2e/0.3.2-3.0.0/diff.md --exclude *.pyd
+[2023-07-31 09:09:53] INFO root fetch - processPackages [klaviyo-api]: Remove: archive file [/home/abi/fetcher/tmp/klaviyo-api-4.0.0.tar.gz]
+[2023-07-31 09:09:53] INFO root fetch - processPackages [klaviyo-api]: Remove: archive file [/home/abi/fetcher/tmp/klaviyo-api-5.0.0.tar.gz]
+[2023-07-31 09:09:53] INFO root fetch - main [MainThread]: End processing [klaviyo-api]: success
+[2023-07-31 09:09:53] INFO root fetch - processPackages [maxware-tsp-cli]: Remove: archive file [/home/abi/fetcher/tmp/maxware_tsp_cli-0.2.0.tar.gz]
+[2023-07-31 09:09:53] INFO root fetch - processPackages [maxware-tsp-cli]: Remove: archive file [/home/abi/fetcher/tmp/maxware_tsp_cli-0.2.0.dev0.tar.gz]
+[2023-07-31 09:09:53] INFO root fetch - main [MainThread]: End processing [maxware-tsp-cli]: success
+[2023-07-31 09:09:53] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.0.8.tar.gz]
+[2023-07-31 09:09:53] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.0.9.tar.gz]
+[2023-07-31 09:09:53] INFO root fetch - main [MainThread]: End processing [image2layout-computer-vision]: success
+[2023-07-31 09:09:53] INFO root fetch - processPackages [django-safedelete-e2e]: Remove: archive file [/home/abi/fetcher/tmp/django-safedelete-e2e-0.3.2.tar.gz]
+[2023-07-31 09:09:53] INFO root fetch - processPackages [django-safedelete-e2e]: Remove: archive file [/home/abi/fetcher/tmp/django-safedelete-e2e-3.0.0.tar.gz]
+[2023-07-31 09:09:53] INFO root fetch - main [MainThread]: End processing [django-safedelete-e2e]: success
+[2023-07-31 09:09:53] INFO root fetch - processPackages [wagtail-analytics]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-analytics-0.5.0.tar.gz]
+[2023-07-31 09:09:53] INFO root fetch - processPackages [wagtail-analytics]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-analytics-0.5.1.tar.gz]
+[2023-07-31 09:09:53] INFO root fetch - main [MainThread]: End processing [wagtail-analytics]: success
+[2023-07-31 09:09:53] INFO root fetch - processPackages [BundesligaPredictor]: Remove: archive file [/home/abi/fetcher/tmp/BundesligaPredictor-0.0.1-py3-none-any.whl.zip]
+[2023-07-31 09:09:53] INFO root fetch - processPackages [BundesligaPredictor]: Remove: archive file [/home/abi/fetcher/tmp/BundesligaPredictor-0.0.2.tar.gz]
+[2023-07-31 09:09:53] INFO root fetch - main [MainThread]: End processing [BundesligaPredictor]: success
+[2023-07-31 09:09:53] INFO root fetch - main [MainThread]: Store serial: [19103873]
