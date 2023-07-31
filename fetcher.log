@@ -23602,3 +23602,123 @@ AssertionError: tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.z
 [2023-07-31 17:14:08] INFO root fetch - processPackages [trytond]: Remove: archive file [/home/abi/fetcher/tmp/trytond-6.8.3.tar.gz]
 [2023-07-31 17:14:08] INFO root fetch - main [MainThread]: End processing [trytond]: success
 [2023-07-31 17:14:08] INFO root fetch - main [MainThread]: Store serial: [19109397]
+[2023-07-31 17:19:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19109397]
+[2023-07-31 17:19:17] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-31 17:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moderne-visualizations-misc
+[2023-07-31 17:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-eff-tao-encryption
+[2023-07-31 17:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AhmedTools
+[2023-07-31 17:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: predeployed-generator
+[2023-07-31 17:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: marionette-predeployed
+[2023-07-31 17:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: soagen
+[2023-07-31 17:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: capellambse
+[2023-07-31 17:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robot-log-visualizer
+[2023-07-31 17:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cohpy
+[2023-07-31 17:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: es_client
+[2023-07-31 17:19:17] INFO root fetch - processPackages [soagen]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-31 17:19:17] WARNING root fetch - processPackages [moderne-visualizations-misc]: Skipping, unable to determine old version
+[2023-07-31 17:19:17] INFO root fetch - processPackages [moderne-visualizations-misc]: Start processing: qoa4ml
+[2023-07-31 17:19:17] INFO root fetch - main [MainThread]: End processing [moderne-visualizations-misc] error
+[2023-07-31 17:19:17] INFO root fetch - processPackages [nvidia-eff-tao-encryption]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-31 17:19:17] WARNING root fetch - processPackages [AhmedTools]: Skipping, unable to determine old version
+[2023-07-31 17:19:17] INFO root fetch - processPackages [AhmedTools]: Start processing: xmco-cert-commons
+[2023-07-31 17:19:17] INFO root fetch - main [MainThread]: End processing [AhmedTools] error
+[2023-07-31 17:19:17] INFO root fetch - processPackages [robot-log-visualizer]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-31 17:19:17] INFO root fetch - processPackages [cohpy]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-31 17:19:17] INFO root fetch - processPackages [es_client]: New version: [8.9.0] Old Version: [8.8.2.post1]
+[2023-07-31 17:19:17] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-07-31 17:19:17] INFO root fetch - processPackages [predeployed-generator]: New version: [1.2.0b0] Old Version: [1.2.0a8]
+[2023-07-31 17:19:17] INFO root fetch - processPackages [marionette-predeployed]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-07-31 17:19:17] INFO root fetch - processPackages [qoa4ml]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-07-31 17:19:17] INFO root fetch - processPackages [cohpy]: Downloading https://files.pythonhosted.org/packages/98/92/7c39621fb4049f2597a92d464bdd10906a3dd4b66d40052a4837ded262ec/cohpy-1.1.3.tar.gz
+[2023-07-31 17:19:17] INFO root fetch - processPackages [nvidia-eff-tao-encryption]: Downloading https://files.pythonhosted.org/packages/d1/c2/c14dd8884a5bc05ca07331b3d78a92812eb19e25a625a0b59af8b609a93f/nvidia_eff_tao_encryption-0.1.7-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-31 17:19:17] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/ac/8b/5f1d422f328bbf017d57685efb7b2a069996d7bf21a09cff25df64b7c4d4/qoa4ml-0.0.93.tar.gz
+[2023-07-31 17:19:17] WARNING root fetch - processPackages [xmco-cert-commons]: Skipping, unable to determine old version
+[2023-07-31 17:19:17] INFO root fetch - processPackages [xmco-cert-commons]: Start processing: berryworld
+[2023-07-31 17:19:17] INFO root fetch - main [MainThread]: End processing [xmco-cert-commons] error
+[2023-07-31 17:19:17] INFO root fetch - processPackages [soagen]: Downloading https://files.pythonhosted.org/packages/fa/69/b238556450ca07c1e61abdb7bad9dee74271c49c429d0618d955781bc431/soagen-0.1.1.tar.gz
+[2023-07-31 17:19:18] INFO root fetch - processPackages [predeployed-generator]: Downloading https://files.pythonhosted.org/packages/6f/49/ffa5d7701ba8eae31d35be65d464f58467b2b3e962eb9da1dd53040be9ad/predeployed-generator-1.2.0a8.tar.gz
+[2023-07-31 17:19:18] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2023-07-31 17:19:18] INFO root fetch - processPackages [es_client]: Downloading https://files.pythonhosted.org/packages/d4/f8/b9a7a377b06897fe1d1ac4c8c870100d34aeba05caab6c6c5f2ac2380d8d/es_client-8.8.2.post1.tar.gz
+[2023-07-31 17:19:18] INFO root fetch - processPackages [marionette-predeployed]: Downloading https://files.pythonhosted.org/packages/68/83/011d8de3b5caa96970482b4419a1c42318766d4c83102bbcc26535c63fd8/marionette-predeployed-2.0.0b1.tar.gz
+[2023-07-31 17:19:18] INFO root fetch - processPackages [robot-log-visualizer]: Downloading https://files.pythonhosted.org/packages/27/f6/19f66c9d3c4d42c9685c2cbe02f0e1311c977448959d25f4d590c4f6797d/robot-log-visualizer-0.5.0.tar.gz
+[2023-07-31 17:19:18] INFO root fetch - processPackages [berryworld]: New version: [1.0.0.99947] Old Version: [1.0.0.98128]
+[2023-07-31 17:19:18] INFO root fetch - processPackages [cohpy]: Downloading https://files.pythonhosted.org/packages/75/a3/6840cc372439142a08d79b8baa88c24fdc31ac334cfea981e27da99f1edb/cohpy-1.1.4.tar.gz
+[2023-07-31 17:19:18] INFO root fetch - processPackages [soagen]: Downloading https://files.pythonhosted.org/packages/19/2e/2e351e1faadaa01158d61832c56f84881ae61d9ba2e9df62481e1fe921df/soagen-0.1.2.tar.gz
+[2023-07-31 17:19:18] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/62/20/57f90a51389d38ff86486a57d1ac5c9c8017aca7aea9387cbbfef37a8c68/qoa4ml-0.0.94.tar.gz
+[2023-07-31 17:19:18] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/e3/b2/e55890bb3cd86b626b9431be7088976207c2c6ff2156111af7683a4d1d19/berryworld-1.0.0.98128-py3-none-any.whl
+[2023-07-31 17:19:18] INFO root fetch - processPackages [es_client]: Downloading https://files.pythonhosted.org/packages/5a/48/a646d3f62184b5fe5e397b0188778161ed146858f3d4a0bb099554cfefc3/es_client-8.9.0.tar.gz
+[2023-07-31 17:19:18] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-07-31 17:19:18] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.0.93.tar.gz tmp/qoa4ml-0.0.94.tar.gz --markdown 20230731/q/qoa4ml/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-07-31 17:19:18] INFO root fetch - processPackages [soagen]: executing diffoscope
+[2023-07-31 17:19:18] INFO root fetch - processPackages [soagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soagen-0.1.1.tar.gz tmp/soagen-0.1.2.tar.gz --markdown 20230731/s/soagen/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-31 17:19:18] INFO root fetch - processPackages [marionette-predeployed]: Downloading https://files.pythonhosted.org/packages/3b/59/3c96cac75eb892bea3d323d71c85f05f8cde0f928b8f4a276d5df3999f9f/marionette-predeployed-2.0.0b2.tar.gz
+[2023-07-31 17:19:18] INFO root fetch - processPackages [predeployed-generator]: Downloading https://files.pythonhosted.org/packages/59/ef/5f573c87d7f02a698ddc62e7e1e527193e405ec0dc0c71dff8fe3827eed8/predeployed-generator-1.2.0b0.tar.gz
+[2023-07-31 17:19:18] INFO root fetch - processPackages [robot-log-visualizer]: Downloading https://files.pythonhosted.org/packages/04/ae/e1179cb07a3930e2507897ee2decb4dfc5371d49b9b6c5a35e632afbc7bf/robot-log-visualizer-0.6.0.tar.gz
+[2023-07-31 17:19:18] INFO root fetch - processPackages [cohpy]: executing diffoscope
+[2023-07-31 17:19:18] INFO root fetch - processPackages [cohpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohpy-1.1.3.tar.gz tmp/cohpy-1.1.4.tar.gz --markdown 20230731/c/cohpy/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-31 17:19:18] INFO root fetch - processPackages [es_client]: executing diffoscope
+[2023-07-31 17:19:18] INFO root fetch - processPackages [es_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_client-8.8.2.post1.tar.gz tmp/es_client-8.9.0.tar.gz --markdown 20230731/e/es_client/8.8.2.post1-8.9.0/diff.md --exclude *.pyd
+[2023-07-31 17:19:18] INFO root fetch - processPackages [marionette-predeployed]: executing diffoscope
+[2023-07-31 17:19:18] INFO root fetch - processPackages [marionette-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marionette-predeployed-2.0.0b1.tar.gz tmp/marionette-predeployed-2.0.0b2.tar.gz --markdown 20230731/m/marionette-predeployed/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-07-31 17:19:18] INFO root fetch - processPackages [nvidia-eff-tao-encryption]: Downloading https://files.pythonhosted.org/packages/8f/52/1f9615d4970f9ea394cd0c043d636e78481afec3099856a0b3c5f67dd51f/nvidia_eff_tao_encryption-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-31 17:19:18] INFO root fetch - processPackages [robot-log-visualizer]: executing diffoscope
+[2023-07-31 17:19:18] INFO root fetch - processPackages [robot-log-visualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robot-log-visualizer-0.5.0.tar.gz tmp/robot-log-visualizer-0.6.0.tar.gz --markdown 20230731/r/robot-log-visualizer/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-31 17:19:19] INFO root fetch - processPackages [predeployed-generator]: executing diffoscope
+[2023-07-31 17:19:19] INFO root fetch - processPackages [predeployed-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predeployed-generator-1.2.0a8.tar.gz tmp/predeployed-generator-1.2.0b0.tar.gz --markdown 20230731/p/predeployed-generator/1.2.0a8-1.2.0b0/diff.md --exclude *.pyd
+[2023-07-31 17:19:19] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/76/7a/85e422f997ed11ae867d7de50d34dc4f96e9070f2fb630606a5c033fb214/berryworld-1.0.0.99947-py3-none-any.whl
+[2023-07-31 17:19:19] INFO root fetch - processPackages [berryworld]: executing diffoscope
+[2023-07-31 17:19:19] INFO root fetch - processPackages [berryworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip --markdown 20230731/b/berryworld/1.0.0.98128-1.0.0.99947/diff.md --exclude *.pyd
+[2023-07-31 17:19:19] INFO root fetch - processPackages [nvidia-eff-tao-encryption]: executing diffoscope
+[2023-07-31 17:19:19] INFO root fetch - processPackages [nvidia-eff-tao-encryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_eff_tao_encryption-0.1.7-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvidia_eff_tao_encryption-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230731/n/nvidia-eff-tao-encryption/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-31 17:19:19] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2023-07-31 17:19:20] INFO root fetch - processPackages [cohpy]: Remove: archive file [/home/abi/fetcher/tmp/cohpy-1.1.3.tar.gz]
+[2023-07-31 17:19:20] INFO root fetch - processPackages [cohpy]: Remove: archive file [/home/abi/fetcher/tmp/cohpy-1.1.4.tar.gz]
+[2023-07-31 17:19:20] INFO root fetch - processPackages [cohpy]: Start processing: tinybird-cli
+[2023-07-31 17:19:20] INFO root fetch - main [MainThread]: End processing [cohpy]: success
+[2023-07-31 17:19:20] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-31 17:19:20] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-31 17:19:20] INFO root fetch - processPackages [marionette-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/marionette-predeployed-2.0.0b1.tar.gz]
+[2023-07-31 17:19:20] INFO root fetch - processPackages [marionette-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/marionette-predeployed-2.0.0b2.tar.gz]
+[2023-07-31 17:19:20] INFO root fetch - processPackages [marionette-predeployed]: Start processing: terra-notebook-utils
+[2023-07-31 17:19:20] INFO root fetch - main [MainThread]: End processing [marionette-predeployed]: success
+[2023-07-31 17:19:20] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.93.tar.gz]
+[2023-07-31 17:19:20] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.94.tar.gz]
+[2023-07-31 17:19:20] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-07-31 17:19:20] INFO root fetch - processPackages [es_client]: Remove: archive file [/home/abi/fetcher/tmp/es_client-8.8.2.post1.tar.gz]
+[2023-07-31 17:19:20] INFO root fetch - processPackages [es_client]: Remove: archive file [/home/abi/fetcher/tmp/es_client-8.9.0.tar.gz]
+[2023-07-31 17:19:20] INFO root fetch - main [MainThread]: End processing [es_client]: success
+[2023-07-31 17:19:20] INFO root fetch - processPackages [soagen]: Remove: archive file [/home/abi/fetcher/tmp/soagen-0.1.1.tar.gz]
+[2023-07-31 17:19:20] INFO root fetch - processPackages [soagen]: Remove: archive file [/home/abi/fetcher/tmp/soagen-0.1.2.tar.gz]
+[2023-07-31 17:19:20] INFO root fetch - main [MainThread]: End processing [soagen]: success
+[2023-07-31 17:19:20] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-31 17:19:20] INFO root fetch - processPackages [terra-notebook-utils]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-31 17:19:20] INFO root fetch - processPackages [robot-log-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/robot-log-visualizer-0.5.0.tar.gz]
+[2023-07-31 17:19:20] INFO root fetch - processPackages [robot-log-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/robot-log-visualizer-0.6.0.tar.gz]
+[2023-07-31 17:19:20] INFO root fetch - main [MainThread]: End processing [robot-log-visualizer]: success
+[2023-07-31 17:19:20] INFO root fetch - processPackages [predeployed-generator]: Remove: archive file [/home/abi/fetcher/tmp/predeployed-generator-1.2.0a8.tar.gz]
+[2023-07-31 17:19:20] INFO root fetch - processPackages [predeployed-generator]: Remove: archive file [/home/abi/fetcher/tmp/predeployed-generator-1.2.0b0.tar.gz]
+[2023-07-31 17:19:20] INFO root fetch - main [MainThread]: End processing [predeployed-generator]: success
+[2023-07-31 17:19:20] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip]
+[2023-07-31 17:19:20] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip]
+[2023-07-31 17:19:20] INFO root fetch - main [MainThread]: End processing [berryworld]: success
+[2023-07-31 17:19:20] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-31 17:19:20] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230731/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-31 17:19:20] INFO root fetch - processPackages [terra-notebook-utils]: Downloading https://files.pythonhosted.org/packages/83/59/313835f1dd7584c9065a07fe9a57830856b7e36cec2fbdadd0e10a858f27/terra_notebook_utils-0.9.2-py3-none-any.whl
+[2023-07-31 17:19:21] INFO root fetch - processPackages [terra-notebook-utils]: Downloading https://files.pythonhosted.org/packages/86/55/474de73a962cc56521a7a4234526a83844be92603ec17ab4cf4397a9f558/terra_notebook_utils-0.9.3-py3-none-any.whl
+[2023-07-31 17:19:21] INFO root fetch - processPackages [terra-notebook-utils]: executing diffoscope
+[2023-07-31 17:19:21] INFO root fetch - processPackages [terra-notebook-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terra_notebook_utils-0.9.2-py3-none-any.whl.zip tmp/terra_notebook_utils-0.9.3-py3-none-any.whl.zip --markdown 20230731/t/terra-notebook-utils/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-31 17:19:21] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-31 17:19:21] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-31 17:19:21] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-31 17:19:21] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-07-31 17:19:21] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230731/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-07-31 17:19:22] INFO root fetch - processPackages [terra-notebook-utils]: Remove: archive file [/home/abi/fetcher/tmp/terra_notebook_utils-0.9.2-py3-none-any.whl.zip]
+[2023-07-31 17:19:22] INFO root fetch - processPackages [terra-notebook-utils]: Remove: archive file [/home/abi/fetcher/tmp/terra_notebook_utils-0.9.3-py3-none-any.whl.zip]
+[2023-07-31 17:19:22] INFO root fetch - main [MainThread]: End processing [terra-notebook-utils]: success
+[2023-07-31 17:19:27] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2023-07-31 17:19:27] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2023-07-31 17:19:27] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-07-31 17:19:39] INFO root fetch - processPackages [nvidia-eff-tao-encryption]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_eff_tao_encryption-0.1.7-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-31 17:19:39] INFO root fetch - processPackages [nvidia-eff-tao-encryption]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_eff_tao_encryption-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-31 17:19:39] INFO root fetch - main [MainThread]: End processing [nvidia-eff-tao-encryption]: success
+[2023-07-31 17:19:39] INFO root fetch - main [MainThread]: Store serial: [19109447]
