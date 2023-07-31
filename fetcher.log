@@ -8010,3 +8010,33 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 07:45:44] INFO root fetch - processPackages [createrepo-c]: Remove: archive file [/home/abi/fetcher/tmp/createrepo_c-1.0.0.tar.gz]
 [2023-07-31 07:45:44] INFO root fetch - main [MainThread]: End processing [createrepo-c]: success
 [2023-07-31 07:45:44] INFO root fetch - main [MainThread]: Store serial: [19103047]
+[2023-07-31 07:50:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19103047]
+[2023-07-31 07:50:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-31 07:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: powerpoint-generative-ai
+[2023-07-31 07:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: email-extractor-unicode
+[2023-07-31 07:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SlyAPI
+[2023-07-31 07:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mutual
+[2023-07-31 07:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spark-hdfs-tools
+[2023-07-31 07:50:52] WARNING root fetch - processPackages [email-extractor-unicode]: Skipping, unable to determine old version
+[2023-07-31 07:50:52] INFO root fetch - main [MainThread]: End processing [email-extractor-unicode] error
+[2023-07-31 07:50:52] INFO root fetch - processPackages [mutual]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-31 07:50:52] WARNING root fetch - processPackages [spark-hdfs-tools]: Skipping, unable to determine old version
+[2023-07-31 07:50:52] INFO root fetch - main [MainThread]: End processing [spark-hdfs-tools] error
+[2023-07-31 07:50:52] INFO root fetch - processPackages [SlyAPI]: New version: [0.5.0] Old Version: [0.4.5]
+[2023-07-31 07:50:52] WARNING root fetch - processPackages [powerpoint-generative-ai]: Skipping, unable to determine old version
+[2023-07-31 07:50:52] INFO root fetch - main [MainThread]: End processing [powerpoint-generative-ai] error
+[2023-07-31 07:50:52] INFO root fetch - processPackages [SlyAPI]: Downloading https://files.pythonhosted.org/packages/91/7d/10dee549618d1572e87c7344de9daf6efcd3d723e58d6f02a5206ad712fd/SlyAPI-0.4.5.tar.gz
+[2023-07-31 07:50:52] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/82/1f/b348ffa9106185b804b460bd717e5d4c1d12b3125c52bf183145c3f3d9e4/mutual-0.3.2.tar.gz
+[2023-07-31 07:50:53] INFO root fetch - processPackages [SlyAPI]: Downloading https://files.pythonhosted.org/packages/00/78/af425f1836a13a7f3b8ab6419aa8401efd80416e128190b4f09b6828fe12/SlyAPI-0.5.0.tar.gz
+[2023-07-31 07:50:53] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/7f/52/f5ae45640914c7c5c5135d573813ba2e34820313d8ca380090eb7a4e31d5/mutual-0.3.3.tar.gz
+[2023-07-31 07:50:53] INFO root fetch - processPackages [mutual]: executing diffoscope
+[2023-07-31 07:50:53] INFO root fetch - processPackages [mutual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutual-0.3.2.tar.gz tmp/mutual-0.3.3.tar.gz --markdown 20230731/m/mutual/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-31 07:50:53] INFO root fetch - processPackages [SlyAPI]: executing diffoscope
+[2023-07-31 07:50:53] INFO root fetch - processPackages [SlyAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SlyAPI-0.4.5.tar.gz tmp/SlyAPI-0.5.0.tar.gz --markdown 20230731/S/SlyAPI/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2023-07-31 07:50:54] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.3.2.tar.gz]
+[2023-07-31 07:50:54] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.3.3.tar.gz]
+[2023-07-31 07:50:54] INFO root fetch - main [MainThread]: End processing [mutual]: success
+[2023-07-31 07:50:54] INFO root fetch - processPackages [SlyAPI]: Remove: archive file [/home/abi/fetcher/tmp/SlyAPI-0.4.5.tar.gz]
+[2023-07-31 07:50:54] INFO root fetch - processPackages [SlyAPI]: Remove: archive file [/home/abi/fetcher/tmp/SlyAPI-0.5.0.tar.gz]
+[2023-07-31 07:50:54] INFO root fetch - main [MainThread]: End processing [SlyAPI]: success
+[2023-07-31 07:50:54] INFO root fetch - main [MainThread]: Store serial: [19103068]
