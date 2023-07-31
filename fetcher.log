@@ -15802,3 +15802,76 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 12:29:00] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-cluster-management-python-wrapper-1.0.9.tar.gz]
 [2023-07-31 12:29:00] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-wrapper]: success
 [2023-07-31 12:29:00] INFO root fetch - main [MainThread]: Store serial: [19106263]
+[2023-07-31 12:34:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19106263]
+[2023-07-31 12:34:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-31 12:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fyers-sdk
+[2023-07-31 12:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mesh-common
+[2023-07-31 12:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentry-cli
+[2023-07-31 12:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fyers-sdk
+[2023-07-31 12:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-vocabularies
+[2023-07-31 12:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meilisearch-python-async
+[2023-07-31 12:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cargo2rpm
+[2023-07-31 12:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-07-31 12:34:08] INFO root fetch - processPackages [fyers-sdk]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-31 12:34:08] INFO root fetch - processPackages [fyers-sdk]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-31 12:34:08] INFO root fetch - processPackages [cargo2rpm]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-31 12:34:08] INFO root fetch - processPackages [mesh-common]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-31 12:34:08] INFO root fetch - processPackages [meilisearch-python-async]: New version: [1.5.0] Old Version: [1.4.8]
+[2023-07-31 12:34:08] INFO root fetch - processPackages [oarepo-vocabularies]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-31 12:34:08] INFO root fetch - processPackages [sentry-cli]: New version: [2.20.3] Old Version: [2.20.2]
+[2023-07-31 12:34:09] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 12:34:09] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/95/34/27e778cbe19325fce8387c808f8a19ad4baf6f3e0f69e8217faeeb35df1f/sentry_cli-2.20.2.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [cargo2rpm]: Downloading https://files.pythonhosted.org/packages/4f/ca/29f4ff80057f047ad310f8e9254a175d65469119760b2e6d52d8e0f1064f/cargo2rpm-0.1.5.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [mesh-common]: Downloading https://files.pythonhosted.org/packages/65/26/4848ac144900a04af7303e20a1fb2ee1aa1383d5d09f7f04e8f5069da242/mesh_common-0.1.5.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/c0/5b/9a354a3ddd76604fa4bc99f90eec7653b6c4265d9490a248d3940ed1e717/fyers_sdk-2.0.2.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/c0/5b/9a354a3ddd76604fa4bc99f90eec7653b6c4265d9490a248d3940ed1e717/fyers_sdk-2.0.2.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [meilisearch-python-async]: Downloading https://files.pythonhosted.org/packages/ac/e8/33003df15c16157b1c9653ec62c5ab8d91f0fbbd255b796463cdc67f6f72/meilisearch_python_async-1.4.8.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/c8/85/d226a87c13bac2b8adbbc3209ced5c7c91f172401dce35ad52a4026cc59a/oarepo-vocabularies-2.0.7.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [cargo2rpm]: Downloading https://files.pythonhosted.org/packages/dd/75/3bd9f20c1d145f81bbc5eb65f3674ace7d5d3f313d97b94b7d47611b78c9/cargo2rpm-0.1.6.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/c5/83/087df6bbbe6f20906992a0ab11c962d5ad18343c3fdd6e6bd32acbf5bd99/fyers_sdk-2.0.3.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [mesh-common]: Downloading https://files.pythonhosted.org/packages/be/9b/17133000f4c206eae71474df102b3c8347c28f58092bf13e6b1f1ebd3e68/mesh_common-0.1.6.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/c5/83/087df6bbbe6f20906992a0ab11c962d5ad18343c3fdd6e6bd32acbf5bd99/fyers_sdk-2.0.3.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [cargo2rpm]: executing diffoscope
+[2023-07-31 12:34:09] INFO root fetch - processPackages [cargo2rpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cargo2rpm-0.1.5.tar.gz tmp/cargo2rpm-0.1.6.tar.gz --markdown 20230731/c/cargo2rpm/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-31 12:34:09] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/11/93/664c79a96a64dfca25d072c47c6bfc5f3f5367710011854683a206b902c2/sentry_cli-2.20.3.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [meilisearch-python-async]: Downloading https://files.pythonhosted.org/packages/1b/14/b0d39dbcb2103b717fef15930055aba1193210df73139232abe2d702e8a4/meilisearch_python_async-1.5.0.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/fb/2d/b70fc2116fca8ab4e5bde924c172a421f6f3c158320375063e55d04b39bd/oarepo-vocabularies-2.0.8.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-07-31 12:34:09] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-2.0.2.tar.gz tmp/fyers_sdk-2.0.3.tar.gz --markdown 20230731/f/fyers-sdk/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-31 12:34:09] INFO root fetch - processPackages [mesh-common]: executing diffoscope
+[2023-07-31 12:34:09] INFO root fetch - processPackages [mesh-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesh_common-0.1.5.tar.gz tmp/mesh_common-0.1.6.tar.gz --markdown 20230731/m/mesh-common/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-31 12:34:09] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-07-31 12:34:09] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-2.0.2.tar.gz tmp/fyers_sdk-2.0.3.tar.gz --markdown 20230731/f/fyers-sdk/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-31 12:34:09] INFO root fetch - processPackages [sentry-cli]: executing diffoscope
+[2023-07-31 12:34:09] INFO root fetch - processPackages [sentry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_cli-2.20.2.tar.gz tmp/sentry_cli-2.20.3.tar.gz --markdown 20230731/s/sentry-cli/2.20.2-2.20.3/diff.md --exclude *.pyd
+[2023-07-31 12:34:09] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-07-31 12:34:09] INFO root fetch - processPackages [meilisearch-python-async]: executing diffoscope
+[2023-07-31 12:34:09] INFO root fetch - processPackages [meilisearch-python-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch_python_async-1.4.8.tar.gz tmp/meilisearch_python_async-1.5.0.tar.gz --markdown 20230731/m/meilisearch-python-async/1.4.8-1.5.0/diff.md --exclude *.pyd
+[2023-07-31 12:34:09] INFO root fetch - processPackages [oarepo-vocabularies]: executing diffoscope
+[2023-07-31 12:34:09] INFO root fetch - processPackages [oarepo-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-vocabularies-2.0.7.tar.gz tmp/oarepo-vocabularies-2.0.8.tar.gz --markdown 20230731/o/oarepo-vocabularies/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-31 12:34:10] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-07-31 12:34:10] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230731/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 12:34:11] INFO root fetch - processPackages [cargo2rpm]: Remove: archive file [/home/abi/fetcher/tmp/cargo2rpm-0.1.5.tar.gz]
+[2023-07-31 12:34:11] INFO root fetch - processPackages [cargo2rpm]: Remove: archive file [/home/abi/fetcher/tmp/cargo2rpm-0.1.6.tar.gz]
+[2023-07-31 12:34:11] INFO root fetch - main [MainThread]: End processing [cargo2rpm]: success
+[2023-07-31 12:34:11] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-2.0.2.tar.gz]
+[2023-07-31 12:34:11] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-2.0.3.tar.gz]
+[2023-07-31 12:34:11] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-07-31 12:34:11] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-07-31 12:34:11] INFO root fetch - processPackages [mesh-common]: Remove: archive file [/home/abi/fetcher/tmp/mesh_common-0.1.5.tar.gz]
+[2023-07-31 12:34:11] INFO root fetch - processPackages [mesh-common]: Remove: archive file [/home/abi/fetcher/tmp/mesh_common-0.1.6.tar.gz]
+[2023-07-31 12:34:11] INFO root fetch - main [MainThread]: End processing [mesh-common]: success
+[2023-07-31 12:34:11] INFO root fetch - processPackages [meilisearch-python-async]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_python_async-1.4.8.tar.gz]
+[2023-07-31 12:34:11] INFO root fetch - processPackages [meilisearch-python-async]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_python_async-1.5.0.tar.gz]
+[2023-07-31 12:34:11] INFO root fetch - main [MainThread]: End processing [meilisearch-python-async]: success
+[2023-07-31 12:34:11] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.7.tar.gz]
+[2023-07-31 12:34:11] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.8.tar.gz]
+[2023-07-31 12:34:11] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
+[2023-07-31 12:34:11] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-07-31 12:34:11] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-07-31 12:34:11] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-07-31 12:34:11] INFO root fetch - processPackages [sentry-cli]: Remove: archive file [/home/abi/fetcher/tmp/sentry_cli-2.20.2.tar.gz]
+[2023-07-31 12:34:11] INFO root fetch - processPackages [sentry-cli]: Remove: archive file [/home/abi/fetcher/tmp/sentry_cli-2.20.3.tar.gz]
+[2023-07-31 12:34:11] INFO root fetch - main [MainThread]: End processing [sentry-cli]: success
+[2023-07-31 12:34:11] INFO root fetch - main [MainThread]: Store serial: [19106295]
