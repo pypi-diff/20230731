@@ -6972,3 +6972,63 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 06:32:40] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-31 06:32:40] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-31 06:32:40] INFO root fetch - main [MainThread]: Store serial: [19102586]
+[2023-07-31 06:37:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102586]
+[2023-07-31 06:37:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-31 06:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mknodes
+[2023-07-31 06:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-31 06:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-gui
+[2023-07-31 06:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frgeostat
+[2023-07-31 06:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sql-constructor
+[2023-07-31 06:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-github-actions
+[2023-07-31 06:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nautilus-trader
+[2023-07-31 06:37:49] WARNING root fetch - processPackages [frgeostat]: Skipping, unable to determine old version
+[2023-07-31 06:37:49] INFO root fetch - main [MainThread]: End processing [frgeostat] error
+[2023-07-31 06:37:49] INFO root fetch - processPackages [sql-constructor]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-31 06:37:49] INFO root fetch - processPackages [mknodes]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-31 06:37:49] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.52.21] Old Version: [0.0.52.2]
+[2023-07-31 06:37:49] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.8.4] Old Version: [0.3.9.8.3]
+[2023-07-31 06:37:49] INFO root fetch - processPackages [nautilus-trader]: New version: [1.176.0] Old Version: [1.175.0]
+[2023-07-31 06:37:49] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 06:37:49] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/cd/5b/2656e2e18fb7fb5059b0cfb98d4d52feab159c549dd27c4ddb0271885dc6/sql_constructor-1.0.8.tar.gz
+[2023-07-31 06:37:49] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/7f/f1/533fbe0917ee95b4471dbbba2b0708b664d9aa3be25f84b08d6ccebde7ab/mknodes-0.8.3.tar.gz
+[2023-07-31 06:37:49] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/1b/47/e946bf3d7abbea36c599b304b30bf801b1a4afc40b0adab475314f33cb55/nonebot_plugin_stable_diffusion_diao-0.3.9.8.3.tar.gz
+[2023-07-31 06:37:49] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/a3/fc/b00c7a0b49b40c58f1d63e81a3afd2996fe795bb74e0289ffc9ef05ff710/abstract_gui-0.0.52.2.tar.gz
+[2023-07-31 06:37:49] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/07/58/fd956de115e00f327e93ad8957b6bb967e67537256fcee54171d65d2a849/cdktf-github-actions-0.0.98.tar.gz
+[2023-07-31 06:37:49] INFO root fetch - processPackages [nautilus-trader]: Downloading https://files.pythonhosted.org/packages/03/85/cd32fe32b9a3460a4b54a46577b52807f00157571cec23a3268ffa2bc735/nautilus_trader-1.175.0.tar.gz
+[2023-07-31 06:37:49] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/f7/79/bfeea056a49359e2c9d0f8be14168f7842a6c3f5c963e7e246e1809403b4/sql_constructor-1.0.9.tar.gz
+[2023-07-31 06:37:49] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/a9/23/d4351caa4d81e1d5dfee2da642c21895fe33271ddb4650d42f56940e3a64/mknodes-0.9.0.tar.gz
+[2023-07-31 06:37:49] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/56/78/477ea020d063f38bdacf3f5681517318875ce9cbff389019b4934f6c8cf1/cdktf-github-actions-0.0.99.tar.gz
+[2023-07-31 06:37:49] INFO root fetch - processPackages [sql-constructor]: executing diffoscope
+[2023-07-31 06:37:49] INFO root fetch - processPackages [sql-constructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_constructor-1.0.8.tar.gz tmp/sql_constructor-1.0.9.tar.gz --markdown 20230731/s/sql-constructor/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 06:37:50] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/07/da/621e370164bd4198023c3b468cd3116b100d1fce916be6355d22836354ff/nonebot_plugin_stable_diffusion_diao-0.3.9.8.4.tar.gz
+[2023-07-31 06:37:50] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/78/a2/fa0f72f2a1604ab757857401b3b6f1d1e4baad5a82ba85e1d6102278803a/abstract_gui-0.0.52.21.tar.gz
+[2023-07-31 06:37:50] INFO root fetch - processPackages [mknodes]: executing diffoscope
+[2023-07-31 06:37:50] INFO root fetch - processPackages [mknodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknodes-0.8.3.tar.gz tmp/mknodes-0.9.0.tar.gz --markdown 20230731/m/mknodes/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 06:37:50] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-07-31 06:37:50] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230731/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 06:37:50] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-31 06:37:50] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.52.2.tar.gz tmp/abstract_gui-0.0.52.21.tar.gz --markdown 20230731/a/abstract-gui/0.0.52.2-0.0.52.21/diff.md --exclude *.pyd
+[2023-07-31 06:37:50] INFO root fetch - processPackages [nautilus-trader]: Downloading https://files.pythonhosted.org/packages/5f/4c/c0fdc2611d7d909daa838004847741a4c76ba43b4f8d79ca127be918e3c5/nautilus_trader-1.176.0.tar.gz
+[2023-07-31 06:37:50] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-31 06:37:50] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.3.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.4.tar.gz --markdown 20230731/n/nonebot-plugin-stable-diffusion-diao/0.3.9.8.3-0.3.9.8.4/diff.md --exclude *.pyd
+[2023-07-31 06:37:50] INFO root fetch - processPackages [nautilus-trader]: executing diffoscope
+[2023-07-31 06:37:50] INFO root fetch - processPackages [nautilus-trader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautilus_trader-1.175.0.tar.gz tmp/nautilus_trader-1.176.0.tar.gz --markdown 20230731/n/nautilus-trader/1.175.0-1.176.0/diff.md --exclude *.pyd
+[2023-07-31 06:37:51] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.98.tar.gz]
+[2023-07-31 06:37:51] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.99.tar.gz]
+[2023-07-31 06:37:51] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-07-31 06:37:51] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.8.tar.gz]
+[2023-07-31 06:37:51] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.9.tar.gz]
+[2023-07-31 06:37:51] INFO root fetch - main [MainThread]: End processing [sql-constructor]: success
+[2023-07-31 06:37:51] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.52.2.tar.gz]
+[2023-07-31 06:37:51] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.52.21.tar.gz]
+[2023-07-31 06:37:51] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-31 06:37:51] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.8.3.tar.gz]
+[2023-07-31 06:37:51] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.9.0.tar.gz]
+[2023-07-31 06:37:51] INFO root fetch - main [MainThread]: End processing [mknodes]: success
+[2023-07-31 06:37:51] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.3.tar.gz]
+[2023-07-31 06:37:51] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.4.tar.gz]
+[2023-07-31 06:37:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-31 06:37:57] INFO root fetch - processPackages [nautilus-trader]: Remove: archive file [/home/abi/fetcher/tmp/nautilus_trader-1.175.0.tar.gz]
+[2023-07-31 06:37:57] INFO root fetch - processPackages [nautilus-trader]: Remove: archive file [/home/abi/fetcher/tmp/nautilus_trader-1.176.0.tar.gz]
+[2023-07-31 06:37:57] INFO root fetch - main [MainThread]: End processing [nautilus-trader]: success
+[2023-07-31 06:37:57] INFO root fetch - main [MainThread]: Store serial: [19102615]
