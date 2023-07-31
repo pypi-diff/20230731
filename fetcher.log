@@ -16022,3 +16022,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 12:39:25] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2120.0.tar.gz]
 [2023-07-31 12:39:25] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
 [2023-07-31 12:39:25] INFO root fetch - main [MainThread]: Store serial: [19106342]
+[2023-07-31 12:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19106342]
+[2023-07-31 12:44:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-31 12:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyPhysicist
+[2023-07-31 12:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kiteconnect
+[2023-07-31 12:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fyers-sdk
+[2023-07-31 12:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prometrix
+[2023-07-31 12:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skypilot-nightly
+[2023-07-31 12:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oot
+[2023-07-31 12:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ANSIController
+[2023-07-31 12:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-private-bucket
+[2023-07-31 12:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: storage-local
+[2023-07-31 12:44:34] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230730] Old Version: [1.0.0.dev20230729]
+[2023-07-31 12:44:34] INFO root fetch - processPackages [fyers-sdk]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-31 12:44:34] INFO root fetch - processPackages [ANSIController]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-31 12:44:34] INFO root fetch - processPackages [PyPhysicist]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-31 12:44:34] INFO root fetch - processPackages [prometrix]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 12:44:34] WARNING root fetch - processPackages [oot]: Skipping, unable to determine old version
+[2023-07-31 12:44:34] INFO root fetch - main [MainThread]: End processing [oot] error
+[2023-07-31 12:44:34] INFO root fetch - processPackages [storage-local]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-31 12:44:34] INFO root fetch - processPackages [kiteconnect]: New version: [5.0.0b0] Old Version: [4.2.0]
+[2023-07-31 12:44:34] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 12:44:34] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/c5/83/087df6bbbe6f20906992a0ab11c962d5ad18343c3fdd6e6bd32acbf5bd99/fyers_sdk-2.0.3.tar.gz
+[2023-07-31 12:44:34] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/b0/9e/8583328c8a1e8dc193b21fad6b0e5d89fac1b1488712e3ffd597cceda6ae/skypilot-nightly-1.0.0.dev20230729.tar.gz
+[2023-07-31 12:44:34] INFO root fetch - processPackages [prometrix]: Downloading https://files.pythonhosted.org/packages/d6/7d/e6498ac2bc10ab7bd1d7b6a240a0949afeae19796fbe7fe66b97b3b63698/prometrix-0.1.8.tar.gz
+[2023-07-31 12:44:34] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/3e/76/c8d93d6f6606de4d22331b199439dac20b2af1bafcff6e245bb4b72dad8a/ANSIController-1.0.8.tar.gz
+[2023-07-31 12:44:34] INFO root fetch - processPackages [PyPhysicist]: Downloading https://files.pythonhosted.org/packages/e0/18/69f44cf9a9df2578565e6620f02a416efb484116732f23201aeba302164d/PyPhysicist-1.0.0.tar.gz
+[2023-07-31 12:44:34] INFO root fetch - processPackages [storage-local]: Downloading https://files.pythonhosted.org/packages/9e/91/73b3e77699b061cc63d89b25553d8dea9f81065e432f4fcc18a413f0e8f7/storage-local-0.0.6.tar.gz
+[2023-07-31 12:44:34] INFO root fetch - processPackages [kiteconnect]: Downloading https://files.pythonhosted.org/packages/20/e9/4f5a971e7a2977457a016cd4434004fc3cbc5a0c97b502de809d9a7abcd9/kiteconnect-4.2.0.tar.gz
+[2023-07-31 12:44:34] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-07-31 12:44:35] INFO root fetch - processPackages [prometrix]: Downloading https://files.pythonhosted.org/packages/f7/aa/209d2eabc5db1de1a35d3481ee72b1ae3164752af4884012ee4812d3d02e/prometrix-0.1.9.tar.gz
+[2023-07-31 12:44:35] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/25/06/f3bdf0b2112c8791f803060f48b888973385faff515f8c75afe78633897a/fyers_sdk-2.0.4.tar.gz
+[2023-07-31 12:44:35] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/0b/6e/a680af31aa7361f8530f433b03c309c7cf2e20a6df281039fb41e467f79c/skypilot-nightly-1.0.0.dev20230730.tar.gz
+[2023-07-31 12:44:35] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/53/8c/c2d9cf521adf66316035700bc71ef8bd0513e86ef6bfb0d4287e81d554d4/ANSIController-1.0.9.tar.gz
+[2023-07-31 12:44:35] INFO root fetch - processPackages [PyPhysicist]: Downloading https://files.pythonhosted.org/packages/f3/91/a415bbd1c3ec359ffeec43635d93ed6f56e4c7fdb5ae5ba7290e65363b7c/PyPhysicist-1.0.1.tar.gz
+[2023-07-31 12:44:35] INFO root fetch - processPackages [storage-local]: Downloading https://files.pythonhosted.org/packages/37/7d/aa81f0cc875df816cadb3cf4cab37e21bf49b7cfdb5dbe84cba214af93c3/storage-local-0.0.7.tar.gz
+[2023-07-31 12:44:35] INFO root fetch - processPackages [prometrix]: executing diffoscope
+[2023-07-31 12:44:35] INFO root fetch - processPackages [prometrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometrix-0.1.8.tar.gz tmp/prometrix-0.1.9.tar.gz --markdown 20230731/p/prometrix/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 12:44:35] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-07-31 12:44:35] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-2.0.3.tar.gz tmp/fyers_sdk-2.0.4.tar.gz --markdown 20230731/f/fyers-sdk/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-31 12:44:35] INFO root fetch - processPackages [kiteconnect]: Downloading https://files.pythonhosted.org/packages/6d/e8/548ceba508d9be1a93749df2c6ace1e792a24081129b28657211bcfac531/kiteconnect-5.0.0b0.tar.gz
+[2023-07-31 12:44:35] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-07-31 12:44:35] INFO root fetch - processPackages [ANSIController]: executing diffoscope
+[2023-07-31 12:44:35] INFO root fetch - processPackages [ANSIController]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANSIController-1.0.8.tar.gz tmp/ANSIController-1.0.9.tar.gz --markdown 20230731/A/ANSIController/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-31 12:44:35] INFO root fetch - processPackages [PyPhysicist]: executing diffoscope
+[2023-07-31 12:44:35] INFO root fetch - processPackages [PyPhysicist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPhysicist-1.0.0.tar.gz tmp/PyPhysicist-1.0.1.tar.gz --markdown 20230731/P/PyPhysicist/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-31 12:44:35] INFO root fetch - processPackages [storage-local]: executing diffoscope
+[2023-07-31 12:44:35] INFO root fetch - processPackages [storage-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storage-local-0.0.6.tar.gz tmp/storage-local-0.0.7.tar.gz --markdown 20230731/s/storage-local/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-31 12:44:35] INFO root fetch - processPackages [kiteconnect]: executing diffoscope
+[2023-07-31 12:44:35] INFO root fetch - processPackages [kiteconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiteconnect-4.2.0.tar.gz tmp/kiteconnect-5.0.0b0.tar.gz --markdown 20230731/k/kiteconnect/4.2.0-5.0.0b0/diff.md --exclude *.pyd
+[2023-07-31 12:44:35] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-07-31 12:44:35] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230729.tar.gz tmp/skypilot-nightly-1.0.0.dev20230730.tar.gz --markdown 20230731/s/skypilot-nightly/1.0.0.dev20230729-1.0.0.dev20230730/diff.md --exclude *.pyd
+[2023-07-31 12:44:35] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-07-31 12:44:35] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230731/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 12:44:36] INFO root fetch - processPackages [PyPhysicist]: Remove: archive file [/home/abi/fetcher/tmp/PyPhysicist-1.0.0.tar.gz]
+[2023-07-31 12:44:36] INFO root fetch - processPackages [PyPhysicist]: Remove: archive file [/home/abi/fetcher/tmp/PyPhysicist-1.0.1.tar.gz]
+[2023-07-31 12:44:36] INFO root fetch - main [MainThread]: End processing [PyPhysicist]: success
+[2023-07-31 12:44:36] INFO root fetch - processPackages [prometrix]: Remove: archive file [/home/abi/fetcher/tmp/prometrix-0.1.8.tar.gz]
+[2023-07-31 12:44:36] INFO root fetch - processPackages [prometrix]: Remove: archive file [/home/abi/fetcher/tmp/prometrix-0.1.9.tar.gz]
+[2023-07-31 12:44:36] INFO root fetch - main [MainThread]: End processing [prometrix]: success
+[2023-07-31 12:44:36] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-2.0.3.tar.gz]
+[2023-07-31 12:44:36] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-2.0.4.tar.gz]
+[2023-07-31 12:44:36] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-07-31 12:44:36] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-1.0.8.tar.gz]
+[2023-07-31 12:44:36] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-1.0.9.tar.gz]
+[2023-07-31 12:44:36] INFO root fetch - main [MainThread]: End processing [ANSIController]: success
+[2023-07-31 12:44:36] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-07-31 12:44:36] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-07-31 12:44:36] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-07-31 12:44:36] INFO root fetch - processPackages [storage-local]: Remove: archive file [/home/abi/fetcher/tmp/storage-local-0.0.6.tar.gz]
+[2023-07-31 12:44:36] INFO root fetch - processPackages [storage-local]: Remove: archive file [/home/abi/fetcher/tmp/storage-local-0.0.7.tar.gz]
+[2023-07-31 12:44:36] INFO root fetch - main [MainThread]: End processing [storage-local]: success
+[2023-07-31 12:44:36] INFO root fetch - processPackages [kiteconnect]: Remove: archive file [/home/abi/fetcher/tmp/kiteconnect-4.2.0.tar.gz]
+[2023-07-31 12:44:36] INFO root fetch - processPackages [kiteconnect]: Remove: archive file [/home/abi/fetcher/tmp/kiteconnect-5.0.0b0.tar.gz]
+[2023-07-31 12:44:36] INFO root fetch - main [MainThread]: End processing [kiteconnect]: success
+[2023-07-31 12:44:37] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230729.tar.gz]
+[2023-07-31 12:44:37] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230730.tar.gz]
+[2023-07-31 12:44:37] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-07-31 12:44:37] INFO root fetch - main [MainThread]: Store serial: [19106372]
