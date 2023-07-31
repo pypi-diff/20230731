@@ -19629,3 +19629,219 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-31 15:11:24] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.39-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-31 15:11:24] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
 [2023-07-31 15:11:24] INFO root fetch - main [MainThread]: Store serial: [19107774]
+[2023-07-31 15:16:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19107774]
+[2023-07-31 15:16:45] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-31 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: numba-inspector
+[2023-07-31 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-numpy
+[2023-07-31 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mistapi
+[2023-07-31 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oarepo-cli
+[2023-07-31 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pandas
+[2023-07-31 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specfile
+[2023-07-31 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pocode
+[2023-07-31 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: investigraph
+[2023-07-31 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyterlite
+[2023-07-31 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: easycap
+[2023-07-31 15:16:45] INFO root fetch - processPackages [specfile]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-31 15:16:45] INFO root fetch - processPackages [numba-inspector]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-31 15:16:45] WARNING root fetch - processPackages [pocode]: Skipping, unable to determine old version
+[2023-07-31 15:16:45] INFO root fetch - processPackages [pocode]: Start processing: config-server-client
+[2023-07-31 15:16:45] INFO root fetch - main [MainThread]: End processing [pocode] error
+[2023-07-31 15:16:45] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.9] Old Version: [11.1.8]
+[2023-07-31 15:16:45] WARNING root fetch - processPackages [easycap]: Skipping, unable to determine old version
+[2023-07-31 15:16:45] INFO root fetch - processPackages [easycap]: Start processing: openctp-tts
+[2023-07-31 15:16:45] INFO root fetch - main [MainThread]: End processing [easycap] error
+[2023-07-31 15:16:45] INFO root fetch - processPackages [investigraph]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-31 15:16:46] INFO root fetch - processPackages [mistapi]: New version: [0.42.0] Old Version: [0.41.9]
+[2023-07-31 15:16:46] INFO root fetch - processPackages [jupyterlite]: New version: [0.1.1] Old Version: [0.1.0rc0]
+[2023-07-31 15:16:46] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 15:16:46] INFO root fetch - processPackages [config-server-client]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-31 15:16:46] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 15:16:46] INFO root fetch - processPackages [openctp-tts]: New version: [6.6.9] Old Version: [6.6.7]
+[2023-07-31 15:16:46] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/af/a7/2733a476ea08d89fb2f474b4da4c3e1bcd0256c07baebfab128540be8be1/oarepo-cli-11.1.8.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [numba-inspector]: Downloading https://files.pythonhosted.org/packages/9b/c8/0cf43682491e6763f92859fa49f1abe30c3f02f56b0f3aedd52bdcf2071b/numba_inspector-0.0.3.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [config-server-client]: Downloading https://files.pythonhosted.org/packages/f8/12/c8782e2948b729fcbf4be6f45554c8bae58c2c7af9a9a329b8ce2000f244/config_server_client-0.0.5.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [specfile]: Downloading https://files.pythonhosted.org/packages/34/62/20eddcbef126e85431dc3242ff709176eaaa67d3d3a70ff2f8afeafe4479/specfile-0.9.0.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [jupyterlite]: Downloading https://files.pythonhosted.org/packages/e9/fa/45f8a384279c9392405027fe7f6eb22c6ee37becb3f660bca3467e7d234c/jupyterlite-0.1.0rc0.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/80/d3/b266dd4edb93a3e8306915b9003b44b3217feb55cf5e562b2563675b50bf/mistapi-0.41.9.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [investigraph]: Downloading https://files.pythonhosted.org/packages/c6/a4/390dc0a0c9c5775a6b83fae055a1f7b70f78f068192b1079034ae042cebe/investigraph-0.3.0.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [openctp-tts]: Downloading https://files.pythonhosted.org/packages/af/6c/40314c721e354caaf3764139a1ba2c1c5f6381e7ca845a24a3ee8127afce/openctp_tts-6.6.7-cp39-cp39-win_amd64.whl
+[2023-07-31 15:16:46] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [config-server-client]: Downloading https://files.pythonhosted.org/packages/1d/67/17e5351c3971dc958c4a34f9c109bd235fd795978c66f9454ffd320d1a23/config_server_client-0.0.6.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/c1/07/390f9767ed13e63ef97918ed09945b5501685e21d178f8f10dfc1cd2a54c/oarepo-cli-11.1.9.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [numba-inspector]: Downloading https://files.pythonhosted.org/packages/c9/7b/7276e698ab41839d02d8b7130ec9d427d68183ea7a5ac7eb1fb7f34cfb7b/numba_inspector-0.0.4.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [specfile]: Downloading https://files.pythonhosted.org/packages/98/58/5da46f58f41bce3602175cc9a4b5e90820385801d225c063e6e9ba50bc97/specfile-0.9.1.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-31 15:16:46] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230731/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 15:16:46] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/60/28/73275a0b71b55dd375fce0a3d3af81f0f49c0dfb885d29af8f9f2ea2b761/mistapi-0.42.0.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [investigraph]: Downloading https://files.pythonhosted.org/packages/e5/e9/40968928959809079c11dff9285f72f77c98ef668ef247c8d9d84e67c527/investigraph-0.3.1.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [jupyterlite]: Downloading https://files.pythonhosted.org/packages/4e/b2/7d7d138ca33c8ad0fd9658c4f3e7d41e1f76eb17b6d7b221f6489f9a3dfc/jupyterlite-0.1.1.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-31 15:16:46] INFO root fetch - processPackages [numba-inspector]: executing diffoscope
+[2023-07-31 15:16:46] INFO root fetch - processPackages [numba-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numba_inspector-0.0.3.tar.gz tmp/numba_inspector-0.0.4.tar.gz --markdown 20230731/n/numba-inspector/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-31 15:16:46] INFO root fetch - processPackages [config-server-client]: executing diffoscope
+[2023-07-31 15:16:46] INFO root fetch - processPackages [config-server-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_server_client-0.0.5.tar.gz tmp/config_server_client-0.0.6.tar.gz --markdown 20230731/c/config-server-client/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-31 15:16:47] INFO root fetch - processPackages [mistapi]: executing diffoscope
+[2023-07-31 15:16:47] INFO root fetch - processPackages [mistapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistapi-0.41.9.tar.gz tmp/mistapi-0.42.0.tar.gz --markdown 20230731/m/mistapi/0.41.9-0.42.0/diff.md --exclude *.pyd
+[2023-07-31 15:16:47] INFO root fetch - processPackages [investigraph]: executing diffoscope
+[2023-07-31 15:16:47] INFO root fetch - processPackages [investigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investigraph-0.3.0.tar.gz tmp/investigraph-0.3.1.tar.gz --markdown 20230731/i/investigraph/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-31 15:16:47] INFO root fetch - processPackages [specfile]: executing diffoscope
+[2023-07-31 15:16:47] INFO root fetch - processPackages [specfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specfile-0.9.0.tar.gz tmp/specfile-0.9.1.tar.gz --markdown 20230731/s/specfile/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-31 15:16:47] INFO root fetch - processPackages [jupyterlite]: executing diffoscope
+[2023-07-31 15:16:47] INFO root fetch - processPackages [jupyterlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlite-0.1.0rc0.tar.gz tmp/jupyterlite-0.1.1.tar.gz --markdown 20230731/j/jupyterlite/0.1.0rc0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 15:16:47] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-31 15:16:47] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230731/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 15:16:47] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-31 15:16:47] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.8.tar.gz tmp/oarepo-cli-11.1.9.tar.gz --markdown 20230731/o/oarepo-cli/11.1.8-11.1.9/diff.md --exclude *.pyd
+[2023-07-31 15:16:47] INFO root fetch - processPackages [openctp-tts]: Downloading https://files.pythonhosted.org/packages/eb/b6/a0aaa22a04b8c935f0852383d0a2c9bb3cf8ca5a5b898fcf61118f8e7226/openctp_tts-6.6.9-cp39-cp39-win_amd64.whl
+[2023-07-31 15:16:47] INFO root fetch - processPackages [openctp-tts]: executing diffoscope
+[2023-07-31 15:16:47] INFO root fetch - processPackages [openctp-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_tts-6.6.7-cp39-cp39-win_amd64.whl.zip tmp/openctp_tts-6.6.9-cp39-cp39-win_amd64.whl.zip --markdown 20230731/o/openctp-tts/6.6.7-6.6.9/diff.md --exclude *.pyd
+[2023-07-31 15:16:48] INFO root fetch - processPackages [config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/config_server_client-0.0.5.tar.gz]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/config_server_client-0.0.6.tar.gz]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [config-server-client]: Start processing: nbdev-pytorch
+[2023-07-31 15:16:48] INFO root fetch - main [MainThread]: End processing [config-server-client]: success
+[2023-07-31 15:16:48] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [nbdev-pandas]: Start processing: qoa4ml
+[2023-07-31 15:16:48] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-31 15:16:48] INFO root fetch - processPackages [qoa4ml]: New version: [0.0.9] Old Version: [0.0.86]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-31 15:16:48] INFO root fetch - processPackages [numba-inspector]: Remove: archive file [/home/abi/fetcher/tmp/numba_inspector-0.0.3.tar.gz]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [numba-inspector]: Remove: archive file [/home/abi/fetcher/tmp/numba_inspector-0.0.4.tar.gz]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [numba-inspector]: Start processing: clean-python
+[2023-07-31 15:16:48] INFO root fetch - main [MainThread]: End processing [numba-inspector]: success
+[2023-07-31 15:16:48] INFO root fetch - processPackages [jupyterlite]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite-0.1.0rc0.tar.gz]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [jupyterlite]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite-0.1.1.tar.gz]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [jupyterlite]: Start processing: equilibrator-pathway
+[2023-07-31 15:16:48] INFO root fetch - main [MainThread]: End processing [jupyterlite]: success
+[2023-07-31 15:16:48] INFO root fetch - processPackages [clean-python]: New version: [0.2.0b1] Old Version: [0.2.0b0]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/4a/0b/4e59f3c95fb4ab3d71b3868c9f8ebf6ac264e63141232deb2dde463eb136/qoa4ml-0.0.86.tar.gz
+[2023-07-31 15:16:48] INFO root fetch - processPackages [equilibrator-pathway]: New version: [0.5.0b1] Old Version: [0.5.0]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [investigraph]: Remove: archive file [/home/abi/fetcher/tmp/investigraph-0.3.0.tar.gz]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [investigraph]: Remove: archive file [/home/abi/fetcher/tmp/investigraph-0.3.1.tar.gz]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [investigraph]: Start processing: nonebot-plugin-game-collection
+[2023-07-31 15:16:48] INFO root fetch - main [MainThread]: End processing [investigraph]: success
+[2023-07-31 15:16:48] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-31 15:16:48] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [nbdev-numpy]: Start processing: jupyterlite-core
+[2023-07-31 15:16:48] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-31 15:16:48] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [jupyterlite-core]: New version: [0.1.1] Old Version: [0.1.0rc0]
+[2023-07-31 15:16:48] INFO root fetch - processPackages [equilibrator-pathway]: Downloading https://files.pythonhosted.org/packages/22/7c/7b7f285cb95135fc38305de5043dbb59f3badc9e4c9e61d2c4fa5a5e842e/equilibrator-pathway-0.5.0.tar.gz
+[2023-07-31 15:16:48] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/16/80/21c8baa467700b564fab9e8ec3b61a1301546399ce747ae94904175a573d/clean-python-0.2.0b0.tar.gz
+[2023-07-31 15:16:48] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-31 15:16:48] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230731/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 15:16:48] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/0c/01/118d11594cadd27f432673733bcdd3696a16233bffeac49f779a2ff835f8/qoa4ml-0.0.9.tar.gz
+[2023-07-31 15:16:49] INFO root fetch - processPackages [specfile]: Remove: archive file [/home/abi/fetcher/tmp/specfile-0.9.0.tar.gz]
+[2023-07-31 15:16:49] INFO root fetch - processPackages [specfile]: Remove: archive file [/home/abi/fetcher/tmp/specfile-0.9.1.tar.gz]
+[2023-07-31 15:16:49] INFO root fetch - processPackages [specfile]: Start processing: jupyterlite-javascript-kernel
+[2023-07-31 15:16:49] INFO root fetch - main [MainThread]: End processing [specfile]: success
+[2023-07-31 15:16:49] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/51/fb/d907f05bab271d6408024397bb87d8e7e069ff91fa3152a09c37d0191aec/nonebot_plugin_game_collection-2.3.8.tar.gz
+[2023-07-31 15:16:49] INFO root fetch - processPackages [jupyterlite-core]: Downloading https://files.pythonhosted.org/packages/04/03/58d9e66a6758221ccea26ff94f998f37a1b6d8bc70ff3c1548ef7dcbe3ca/jupyterlite_core-0.1.0rc0.tar.gz
+[2023-07-31 15:16:49] INFO root fetch - processPackages [jupyterlite-javascript-kernel]: New version: [0.1.1] Old Version: [0.1.0rc0]
+[2023-07-31 15:16:49] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-07-31 15:16:49] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.0.86.tar.gz tmp/qoa4ml-0.0.9.tar.gz --markdown 20230731/q/qoa4ml/0.0.86-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 15:16:49] INFO root fetch - processPackages [equilibrator-pathway]: Downloading https://files.pythonhosted.org/packages/9b/7f/27646eba3d33975bdf97fbc23f74c106ef698299684db8617bf8afb9b315/equilibrator-pathway-0.5.0b1.tar.gz
+[2023-07-31 15:16:49] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/ae/d7/088ef51635987163d51446b83abb06af91ea3d636e0c398fe77b19e8f6cb/clean-python-0.2.0b1.tar.gz
+[2023-07-31 15:16:49] INFO root fetch - processPackages [jupyterlite-javascript-kernel]: Downloading https://files.pythonhosted.org/packages/1f/9a/81f5739ed55fe1e5b50c3050cf98a0b56fadd5b2083e30bfd524449f184e/jupyterlite_javascript_kernel-0.1.0rc0.tar.gz
+[2023-07-31 15:16:49] INFO root fetch - processPackages [equilibrator-pathway]: executing diffoscope
+[2023-07-31 15:16:49] INFO root fetch - processPackages [equilibrator-pathway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equilibrator-pathway-0.5.0.tar.gz tmp/equilibrator-pathway-0.5.0b1.tar.gz --markdown 20230731/e/equilibrator-pathway/0.5.0-0.5.0b1/diff.md --exclude *.pyd
+[2023-07-31 15:16:49] INFO root fetch - processPackages [clean-python]: executing diffoscope
+[2023-07-31 15:16:49] INFO root fetch - processPackages [clean-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean-python-0.2.0b0.tar.gz tmp/clean-python-0.2.0b1.tar.gz --markdown 20230731/c/clean-python/0.2.0b0-0.2.0b1/diff.md --exclude *.pyd
+[2023-07-31 15:16:49] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/e4/94/777d03c2f9fbba4c5835c0178b82dffa9d6007ab381b752f81e9af32ff1e/nonebot_plugin_game_collection-2.3.9.tar.gz
+[2023-07-31 15:16:49] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-31 15:16:49] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.3.8.tar.gz tmp/nonebot_plugin_game_collection-2.3.9.tar.gz --markdown 20230731/n/nonebot-plugin-game-collection/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-31 15:16:49] INFO root fetch - processPackages [jupyterlite-javascript-kernel]: Downloading https://files.pythonhosted.org/packages/28/aa/922e9dd3c71237c6170bcbe15291a817b05058e95c996d54026b93aaf987/jupyterlite_javascript_kernel-0.1.1.tar.gz
+[2023-07-31 15:16:50] INFO root fetch - processPackages [jupyterlite-javascript-kernel]: executing diffoscope
+[2023-07-31 15:16:50] INFO root fetch - processPackages [jupyterlite-javascript-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlite_javascript_kernel-0.1.0rc0.tar.gz tmp/jupyterlite_javascript_kernel-0.1.1.tar.gz --markdown 20230731/j/jupyterlite-javascript-kernel/0.1.0rc0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 15:16:50] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-31 15:16:50] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-31 15:16:50] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: numba-inspector
+[2023-07-31 15:16:50] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-31 15:16:50] INFO root fetch - processPackages [numba-inspector]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-31 15:16:50] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.86.tar.gz]
+[2023-07-31 15:16:50] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.9.tar.gz]
+[2023-07-31 15:16:50] INFO root fetch - processPackages [qoa4ml]: Start processing: nbdev-scipy
+[2023-07-31 15:16:50] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-07-31 15:16:50] INFO root fetch - processPackages [numba-inspector]: Downloading https://files.pythonhosted.org/packages/c9/7b/7276e698ab41839d02d8b7130ec9d427d68183ea7a5ac7eb1fb7f34cfb7b/numba_inspector-0.0.4.tar.gz
+[2023-07-31 15:16:50] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 15:16:50] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-31 15:16:50] INFO root fetch - processPackages [equilibrator-pathway]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-pathway-0.5.0.tar.gz]
+[2023-07-31 15:16:50] INFO root fetch - processPackages [equilibrator-pathway]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-pathway-0.5.0b1.tar.gz]
+[2023-07-31 15:16:50] INFO root fetch - processPackages [equilibrator-pathway]: Start processing: bluecast
+[2023-07-31 15:16:50] INFO root fetch - main [MainThread]: End processing [equilibrator-pathway]: success
+[2023-07-31 15:16:50] INFO root fetch - processPackages [jupyterlite-core]: Downloading https://files.pythonhosted.org/packages/1c/df/043350b3ec3ab4a09583fda8b6a4f3b239f50863789721b8feba88204c13/jupyterlite_core-0.1.1.tar.gz
+[2023-07-31 15:16:50] INFO root fetch - processPackages [numba-inspector]: Downloading https://files.pythonhosted.org/packages/8f/de/64e2ef9a8fbd9da070f7b2d5dce1366d2df37210f0ab4a69eba3974a1f37/numba_inspector-0.0.5.tar.gz
+[2023-07-31 15:16:50] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-31 15:16:50] INFO root fetch - processPackages [bluecast]: New version: [0.9] Old Version: [0.8]
+[2023-07-31 15:16:50] INFO root fetch - processPackages [numba-inspector]: executing diffoscope
+[2023-07-31 15:16:50] INFO root fetch - processPackages [numba-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numba_inspector-0.0.4.tar.gz tmp/numba_inspector-0.0.5.tar.gz --markdown 20230731/n/numba-inspector/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-31 15:16:50] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-31 15:16:50] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230731/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 15:16:50] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.9.tar.gz]
+[2023-07-31 15:16:50] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.42.0.tar.gz]
+[2023-07-31 15:16:50] INFO root fetch - processPackages [mistapi]: Start processing: scrunch
+[2023-07-31 15:16:50] INFO root fetch - main [MainThread]: End processing [mistapi]: success
+[2023-07-31 15:16:51] INFO root fetch - processPackages [scrunch]: New version: [6.5.2019.post1690570998] Old Version: [6.5.2018.post1690565515]
+[2023-07-31 15:16:51] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/ec/3d/50055360ed61d23dcf174f7fce737def086bcd8b7ce250ec97745eb8d831/bluecast-0.8.tar.gz
+[2023-07-31 15:16:51] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.2.0b0.tar.gz]
+[2023-07-31 15:16:51] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.2.0b1.tar.gz]
+[2023-07-31 15:16:51] INFO root fetch - processPackages [clean-python]: Start processing: fateful
+[2023-07-31 15:16:51] INFO root fetch - main [MainThread]: End processing [clean-python]: success
+[2023-07-31 15:16:51] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.8.tar.gz]
+[2023-07-31 15:16:51] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.9.tar.gz]
+[2023-07-31 15:16:51] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Start processing: lusid-scheduler-sdk-preview
+[2023-07-31 15:16:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-31 15:16:51] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/34/4d/11c6b2e751d34ef098112527ff5c37e3bf3e3c79357f81c5017e5d15f91d/scrunch-6.5.2018.post1690565515.tar.gz
+[2023-07-31 15:16:51] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: New version: [0.0.816] Old Version: [0.0.815]
+[2023-07-31 15:16:51] INFO root fetch - processPackages [jupyterlite-core]: executing diffoscope
+[2023-07-31 15:16:51] INFO root fetch - processPackages [jupyterlite-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlite_core-0.1.0rc0.tar.gz tmp/jupyterlite_core-0.1.1.tar.gz --markdown 20230731/j/jupyterlite-core/0.1.0rc0-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 15:16:51] INFO root fetch - processPackages [fateful]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-31 15:16:51] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b0/07/12570560f782c7c0a05a712b04c7eb38827a0d9d458c1ca708c4b8cd1e70/lusid-scheduler-sdk-preview-0.0.815.tar.gz
+[2023-07-31 15:16:51] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.8.tar.gz]
+[2023-07-31 15:16:51] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
+[2023-07-31 15:16:51] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-31 15:16:51] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/db/5c/3b49249954066d98fcb3619ff2ec05dfc6031a235801bb7624b55586f9a4/scrunch-6.5.2019.post1690570998.tar.gz
+[2023-07-31 15:16:51] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/4c/dd/ff7880db0e7fc26a888065b8f429a2bddace77a3ea05a72224e8a4f90fb4/bluecast-0.9.tar.gz
+[2023-07-31 15:16:51] INFO root fetch - processPackages [fateful]: Downloading https://files.pythonhosted.org/packages/d7/1d/de343347f983ada20f3a3e12af434b2610236d4bb641a6e2a28ba9700a85/fateful-0.3.0.tar.gz
+[2023-07-31 15:16:51] INFO root fetch - processPackages [openctp-tts]: Remove: archive file [/home/abi/fetcher/tmp/openctp_tts-6.6.7-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 15:16:51] INFO root fetch - processPackages [openctp-tts]: Remove: archive file [/home/abi/fetcher/tmp/openctp_tts-6.6.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 15:16:51] INFO root fetch - main [MainThread]: End processing [openctp-tts]: success
+[2023-07-31 15:16:51] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-31 15:16:51] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2018.post1690565515.tar.gz tmp/scrunch-6.5.2019.post1690570998.tar.gz --markdown 20230731/s/scrunch/6.5.2018.post1690565515-6.5.2019.post1690570998/diff.md --exclude *.pyd
+[2023-07-31 15:16:51] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/1f/1a/30e99482bbddbaf8cf211504b1add8dfda6549d0651c95467e6a164df11a/lusid-scheduler-sdk-preview-0.0.816.tar.gz
+[2023-07-31 15:16:51] INFO root fetch - processPackages [bluecast]: executing diffoscope
+[2023-07-31 15:16:51] INFO root fetch - processPackages [bluecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecast-0.8.tar.gz tmp/bluecast-0.9.tar.gz --markdown 20230731/b/bluecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-31 15:16:51] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: executing diffoscope
+[2023-07-31 15:16:51] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-scheduler-sdk-preview-0.0.815.tar.gz tmp/lusid-scheduler-sdk-preview-0.0.816.tar.gz --markdown 20230731/l/lusid-scheduler-sdk-preview/0.0.815-0.0.816/diff.md --exclude *.pyd
+[2023-07-31 15:16:51] INFO root fetch - processPackages [fateful]: Downloading https://files.pythonhosted.org/packages/c9/28/262ac96752c74afbdc20ee845ebee497aca5994bced74fbeb075a0a70983/fateful-0.4.0.tar.gz
+[2023-07-31 15:16:52] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-31 15:16:52] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-31 15:16:52] INFO root fetch - processPackages [numba-inspector]: Remove: archive file [/home/abi/fetcher/tmp/numba_inspector-0.0.4.tar.gz]
+[2023-07-31 15:16:52] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-31 15:16:52] INFO root fetch - processPackages [numba-inspector]: Remove: archive file [/home/abi/fetcher/tmp/numba_inspector-0.0.5.tar.gz]
+[2023-07-31 15:16:52] INFO root fetch - main [MainThread]: End processing [numba-inspector]: success
+[2023-07-31 15:16:52] INFO root fetch - processPackages [fateful]: executing diffoscope
+[2023-07-31 15:16:52] INFO root fetch - processPackages [fateful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fateful-0.3.0.tar.gz tmp/fateful-0.4.0.tar.gz --markdown 20230731/f/fateful/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-31 15:16:52] INFO root fetch - processPackages [jupyterlite-javascript-kernel]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite_javascript_kernel-0.1.0rc0.tar.gz]
+[2023-07-31 15:16:52] INFO root fetch - processPackages [jupyterlite-javascript-kernel]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite_javascript_kernel-0.1.1.tar.gz]
+[2023-07-31 15:16:52] INFO root fetch - main [MainThread]: End processing [jupyterlite-javascript-kernel]: success
+[2023-07-31 15:16:52] INFO root fetch - processPackages [jupyterlite-core]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite_core-0.1.0rc0.tar.gz]
+[2023-07-31 15:16:52] INFO root fetch - processPackages [jupyterlite-core]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite_core-0.1.1.tar.gz]
+[2023-07-31 15:16:52] INFO root fetch - main [MainThread]: End processing [jupyterlite-core]: success
+[2023-07-31 15:16:53] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2018.post1690565515.tar.gz]
+[2023-07-31 15:16:53] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2019.post1690570998.tar.gz]
+[2023-07-31 15:16:53] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-31 15:16:53] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.8.tar.gz]
+[2023-07-31 15:16:53] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.9.tar.gz]
+[2023-07-31 15:16:53] INFO root fetch - main [MainThread]: End processing [bluecast]: success
+[2023-07-31 15:16:53] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.815.tar.gz]
+[2023-07-31 15:16:53] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.816.tar.gz]
+[2023-07-31 15:16:53] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk-preview]: success
+[2023-07-31 15:16:53] INFO root fetch - processPackages [fateful]: Remove: archive file [/home/abi/fetcher/tmp/fateful-0.3.0.tar.gz]
+[2023-07-31 15:16:53] INFO root fetch - processPackages [fateful]: Remove: archive file [/home/abi/fetcher/tmp/fateful-0.4.0.tar.gz]
+[2023-07-31 15:16:53] INFO root fetch - main [MainThread]: End processing [fateful]: success
+[2023-07-31 15:16:53] INFO root fetch - main [MainThread]: Store serial: [19107883]
