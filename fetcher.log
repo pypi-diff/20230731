@@ -6208,3 +6208,65 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 05:25:07] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.8-py3-none-any.whl.zip]
 [2023-07-31 05:25:07] INFO root fetch - main [MainThread]: End processing [yxspkg]: success
 [2023-07-31 05:25:07] INFO root fetch - main [MainThread]: Store serial: [19102215]
+[2023-07-31 05:30:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102215]
+[2023-07-31 05:30:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-31 05:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazyinit
+[2023-07-31 05:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codebot
+[2023-07-31 05:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bbot
+[2023-07-31 05:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meile-gui
+[2023-07-31 05:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cads-sdk
+[2023-07-31 05:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: readmeai
+[2023-07-31 05:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seven-cloudapp-frame
+[2023-07-31 05:30:16] INFO root fetch - processPackages [cads-sdk]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-07-31 05:30:16] INFO root fetch - processPackages [meile-gui]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 05:30:16] INFO root fetch - processPackages [readmeai]: New version: [0.1.0] Old Version: [0.0.74]
+[2023-07-31 05:30:16] INFO root fetch - processPackages [lazyinit]: New version: [0.0.35] Old Version: [0.0.32]
+[2023-07-31 05:30:16] INFO root fetch - processPackages [codebot]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 05:30:16] INFO root fetch - processPackages [bbot]: New version: [1.1.0.2043rc0] Old Version: [1.1.0.2039rc0]
+[2023-07-31 05:30:16] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-31 05:30:16] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/0e/95/3921fcb644e5079ca01f8426c45f5389e2cfe7a08703e3163a58acd9f587/lazyinit-0.0.32.tar.gz
+[2023-07-31 05:30:16] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/d0/4e/8e0294ef4d5f28355b841e11c243eae45938e2dfc2970d1156f13d7cf47e/readmeai-0.0.74.tar.gz
+[2023-07-31 05:30:16] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/be/d1/d739b90c51e411413df82119c12e5e5ad9c2dd0ce1b97081d7b50fe0d62b/bbot-1.1.0.2039rc0.tar.gz
+[2023-07-31 05:30:16] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/9a/20/c80a711561939c2767fb78449f1eadee325cb963fe364d7416a7eeb49606/seven_cloudapp_frame-1.0.98.tar.gz
+[2023-07-31 05:30:16] INFO root fetch - processPackages [codebot]: Downloading https://files.pythonhosted.org/packages/2d/3d/0bb891de6fb273b731df5b5e82f7ca9362e10be4b50e6b7bdcf240c30589/codebot-0.0.2.tar.gz
+[2023-07-31 05:30:16] INFO root fetch - processPackages [meile-gui]: Downloading https://files.pythonhosted.org/packages/3d/94/13239b28ba753f9e05bbaec4c80899f4261468b001ed61352bae227b8b77/meile-gui-0.9.8.tar.gz
+[2023-07-31 05:30:16] INFO root fetch - processPackages [cads-sdk]: Downloading https://files.pythonhosted.org/packages/55/92/278831a19cf20f9be2606c200543d314055b5ec9481eb08d20406b7787cf/cads_sdk-0.0.26-py3-none-any.whl
+[2023-07-31 05:30:16] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/05/d7f764afd1be6539bb4f5243ffa97b161f25b86f4f770b3087ecafa3c5e7/seven_cloudapp_frame-1.0.99.tar.gz
+[2023-07-31 05:30:16] INFO root fetch - processPackages [codebot]: Downloading https://files.pythonhosted.org/packages/99/55/dbd6cf771431513927e52e6549da04ce51a3c412b22f7245d797f392ef4f/codebot-0.0.3.tar.gz
+[2023-07-31 05:30:16] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/02/eb/7d7a98ad286a1e4b16619db85a64ff190e933d8faec904354bf801fc6642/lazyinit-0.0.35.tar.gz
+[2023-07-31 05:30:16] INFO root fetch - processPackages [cads-sdk]: Downloading https://files.pythonhosted.org/packages/27/58/35a3ccf70a123139f22836640f057c00a6c66597d6dd2f2fcc70e356123e/cads_sdk-0.0.27-py3-none-any.whl
+[2023-07-31 05:30:16] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/97/b7/d7dad3ff979fd9c0e4d0b4776dc43cb9ff7061b6e8afd3cb167dbb2597c9/readmeai-0.1.0.tar.gz
+[2023-07-31 05:30:16] WARNING root fetch - processPackages [meile-gui]: Skipping package: exceeds size limit 12480847>=10485760
+[2023-07-31 05:30:16] INFO root fetch - main [MainThread]: End processing [meile-gui] error
+[2023-07-31 05:30:16] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/16/93/f4f45b3bec8d00233382d5a303cc077fe19da23e07d6a2a215f7d7b24f6a/bbot-1.1.0.2043rc0.tar.gz
+[2023-07-31 05:30:17] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-31 05:30:17] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.98.tar.gz tmp/seven_cloudapp_frame-1.0.99.tar.gz --markdown 20230731/s/seven-cloudapp-frame/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-31 05:30:17] INFO root fetch - processPackages [codebot]: executing diffoscope
+[2023-07-31 05:30:17] INFO root fetch - processPackages [codebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codebot-0.0.2.tar.gz tmp/codebot-0.0.3.tar.gz --markdown 20230731/c/codebot/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 05:30:17] INFO root fetch - processPackages [cads-sdk]: executing diffoscope
+[2023-07-31 05:30:17] INFO root fetch - processPackages [cads-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cads_sdk-0.0.26-py3-none-any.whl.zip tmp/cads_sdk-0.0.27-py3-none-any.whl.zip --markdown 20230731/c/cads-sdk/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-07-31 05:30:17] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-31 05:30:17] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.32.tar.gz tmp/lazyinit-0.0.35.tar.gz --markdown 20230731/l/lazyinit/0.0.32-0.0.35/diff.md --exclude *.pyd
+[2023-07-31 05:30:17] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-31 05:30:17] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.74.tar.gz tmp/readmeai-0.1.0.tar.gz --markdown 20230731/r/readmeai/0.0.74-0.1.0/diff.md --exclude *.pyd
+[2023-07-31 05:30:17] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2023-07-31 05:30:17] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.0.2039rc0.tar.gz tmp/bbot-1.1.0.2043rc0.tar.gz --markdown 20230731/b/bbot/1.1.0.2039rc0-1.1.0.2043rc0/diff.md --exclude *.pyd
+[2023-07-31 05:30:18] INFO root fetch - processPackages [codebot]: Remove: archive file [/home/abi/fetcher/tmp/codebot-0.0.2.tar.gz]
+[2023-07-31 05:30:18] INFO root fetch - processPackages [codebot]: Remove: archive file [/home/abi/fetcher/tmp/codebot-0.0.3.tar.gz]
+[2023-07-31 05:30:18] INFO root fetch - main [MainThread]: End processing [codebot]: success
+[2023-07-31 05:30:18] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.74.tar.gz]
+[2023-07-31 05:30:18] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.1.0.tar.gz]
+[2023-07-31 05:30:18] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-31 05:30:18] INFO root fetch - processPackages [cads-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cads_sdk-0.0.26-py3-none-any.whl.zip]
+[2023-07-31 05:30:18] INFO root fetch - processPackages [cads-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cads_sdk-0.0.27-py3-none-any.whl.zip]
+[2023-07-31 05:30:18] INFO root fetch - main [MainThread]: End processing [cads-sdk]: success
+[2023-07-31 05:30:18] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.32.tar.gz]
+[2023-07-31 05:30:18] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.35.tar.gz]
+[2023-07-31 05:30:18] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-31 05:30:19] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.98.tar.gz]
+[2023-07-31 05:30:19] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.99.tar.gz]
+[2023-07-31 05:30:19] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-31 05:30:19] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.0.2039rc0.tar.gz]
+[2023-07-31 05:30:19] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.0.2043rc0.tar.gz]
+[2023-07-31 05:30:19] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2023-07-31 05:30:19] INFO root fetch - main [MainThread]: Store serial: [19102256]
