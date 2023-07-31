@@ -948,3 +948,72 @@
 [2023-07-31 01:59:28] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.9.0.tar.gz]
 [2023-07-31 01:59:28] INFO root fetch - main [MainThread]: End processing [retro-data-structures]: success
 [2023-07-31 01:59:28] INFO root fetch - main [MainThread]: Store serial: [19100269]
+[2023-07-31 02:04:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19100269]
+[2023-07-31 02:04:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-31 02:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyupgrade
+[2023-07-31 02:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: defichainTest
+[2023-07-31 02:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pretix-manualseats
+[2023-07-31 02:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: serra
+[2023-07-31 02:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchdatasets-nightly
+[2023-07-31 02:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-pygwalker
+[2023-07-31 02:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mct-nightly
+[2023-07-31 02:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mojo-xmodules
+[2023-07-31 02:04:37] INFO root fetch - processPackages [serra]: New version: [0.4] Old Version: [0.3]
+[2023-07-31 02:04:37] WARNING root fetch - processPackages [pretix-manualseats]: Skipping, unable to determine old version
+[2023-07-31 02:04:37] INFO root fetch - main [MainThread]: End processing [pretix-manualseats] error
+[2023-07-31 02:04:37] INFO root fetch - processPackages [defichainTest]: New version: [0.0.1b1] Old Version: [0.0.1b0]
+[2023-07-31 02:04:37] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 02:04:37] INFO root fetch - processPackages [pyupgrade]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-31 02:04:37] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230730.post503] Old Version: [1.9.0.20230729.post409]
+[2023-07-31 02:04:37] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1690675418] Old Version: [1690588967]
+[2023-07-31 02:04:37] INFO root fetch - processPackages [django-pygwalker]: New version: [0.0.0.dev1] Old Version: [0.0.0.dev0]
+[2023-07-31 02:04:37] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-07-31 02:04:37] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/81/9c/cc81ead78b24e498579e131d14a99ce2d39d88583479076df6b0b33917ed/mct-nightly-1.9.0.20230729.post409.tar.gz
+[2023-07-31 02:04:37] INFO root fetch - processPackages [serra]: Downloading https://files.pythonhosted.org/packages/c9/08/59eac9dd91c9f2a3c47e27a3ff44baa639f2ce8bfa3566a043fdf4fe7bc1/serra-0.3.tar.gz
+[2023-07-31 02:04:37] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/34/e0/8adeb4d9a4abc59a5547ef97be421c683fb1f3532f2472ce2c06a2e4537c/torchdatasets-nightly-1690588967.tar.gz
+[2023-07-31 02:04:37] INFO root fetch - processPackages [pyupgrade]: Downloading https://files.pythonhosted.org/packages/fc/de/b89bb5af97a3712407db232b8a43eaf8d19657cdb5740cde22650bb182d9/pyupgrade-3.8.0.tar.gz
+[2023-07-31 02:04:37] INFO root fetch - processPackages [django-pygwalker]: Downloading https://files.pythonhosted.org/packages/ff/f9/ddee6c096f76fcfa3595356615c31809310b2bcec4c738bc8a6f17d12f45/django-pygwalker-0.0.0.dev0.tar.gz
+[2023-07-31 02:04:37] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-07-31 02:04:37] INFO root fetch - processPackages [defichainTest]: Downloading https://files.pythonhosted.org/packages/c7/f3/12f086f9db1492aa61f35467e622ddce8a9046512b88ff5521cf4957a6d0/defichainTest-0.0.1b0.tar.gz
+[2023-07-31 02:04:38] INFO root fetch - processPackages [serra]: Downloading https://files.pythonhosted.org/packages/91/c2/c7d99cbaa78fb896c3d8f5fe93c3d13904570baa3bdc307c55fdd433186d/serra-0.4.tar.gz
+[2023-07-31 02:04:38] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-07-31 02:04:38] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230731/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 02:04:38] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/86/6e/4fa3a4881cfa3c7632057366a38f46895c9d88e8d2151aef7989de0c5455/torchdatasets-nightly-1690675418.tar.gz
+[2023-07-31 02:04:38] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/fd/7b/360b5ba42ea7573f668bfd0789fbf63d76d5dc434d4824be06e451390280/mct-nightly-1.9.0.20230730.post503.tar.gz
+[2023-07-31 02:04:38] INFO root fetch - processPackages [pyupgrade]: Downloading https://files.pythonhosted.org/packages/db/85/5ab47540646d6fe0ad149d3f8ac3a4c0955aeb3c90d267bdb1909f4b2a1a/pyupgrade-3.9.0.tar.gz
+[2023-07-31 02:04:38] INFO root fetch - processPackages [serra]: executing diffoscope
+[2023-07-31 02:04:38] INFO root fetch - processPackages [serra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serra-0.3.tar.gz tmp/serra-0.4.tar.gz --markdown 20230731/s/serra/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-31 02:04:38] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-31 02:04:38] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1690588967.tar.gz tmp/torchdatasets-nightly-1690675418.tar.gz --markdown 20230731/t/torchdatasets-nightly/1690588967-1690675418/diff.md --exclude *.pyd
+[2023-07-31 02:04:38] INFO root fetch - processPackages [django-pygwalker]: Downloading https://files.pythonhosted.org/packages/a7/64/3f82c12397b8f76136010c32c30f6c6b6241897eccd5a0878a6791048701/django-pygwalker-0.0.0.dev1.tar.gz
+[2023-07-31 02:04:38] INFO root fetch - processPackages [pyupgrade]: executing diffoscope
+[2023-07-31 02:04:38] INFO root fetch - processPackages [pyupgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyupgrade-3.8.0.tar.gz tmp/pyupgrade-3.9.0.tar.gz --markdown 20230731/p/pyupgrade/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-31 02:04:38] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-31 02:04:38] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230729.post409.tar.gz tmp/mct-nightly-1.9.0.20230730.post503.tar.gz --markdown 20230731/m/mct-nightly/1.9.0.20230729.post409-1.9.0.20230730.post503/diff.md --exclude *.pyd
+[2023-07-31 02:04:38] INFO root fetch - processPackages [defichainTest]: Downloading https://files.pythonhosted.org/packages/d6/59/73ff9a9be0f414a8b8e1b4170705ddca01c4d7e9f3e3ff81cbfc820e682e/defichainTest-0.0.1b1.tar.gz
+[2023-07-31 02:04:38] INFO root fetch - processPackages [django-pygwalker]: executing diffoscope
+[2023-07-31 02:04:38] INFO root fetch - processPackages [django-pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pygwalker-0.0.0.dev0.tar.gz tmp/django-pygwalker-0.0.0.dev1.tar.gz --markdown 20230731/d/django-pygwalker/0.0.0.dev0-0.0.0.dev1/diff.md --exclude *.pyd
+[2023-07-31 02:04:38] INFO root fetch - processPackages [defichainTest]: executing diffoscope
+[2023-07-31 02:04:38] INFO root fetch - processPackages [defichainTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defichainTest-0.0.1b0.tar.gz tmp/defichainTest-0.0.1b1.tar.gz --markdown 20230731/d/defichainTest/0.0.1b0-0.0.1b1/diff.md --exclude *.pyd
+[2023-07-31 02:04:39] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.8.tar.gz]
+[2023-07-31 02:04:39] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
+[2023-07-31 02:04:39] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-07-31 02:04:39] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690588967.tar.gz]
+[2023-07-31 02:04:39] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690675418.tar.gz]
+[2023-07-31 02:04:39] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-31 02:04:39] INFO root fetch - processPackages [serra]: Remove: archive file [/home/abi/fetcher/tmp/serra-0.3.tar.gz]
+[2023-07-31 02:04:39] INFO root fetch - processPackages [serra]: Remove: archive file [/home/abi/fetcher/tmp/serra-0.4.tar.gz]
+[2023-07-31 02:04:39] INFO root fetch - main [MainThread]: End processing [serra]: success
+[2023-07-31 02:04:39] INFO root fetch - processPackages [pyupgrade]: Remove: archive file [/home/abi/fetcher/tmp/pyupgrade-3.8.0.tar.gz]
+[2023-07-31 02:04:39] INFO root fetch - processPackages [pyupgrade]: Remove: archive file [/home/abi/fetcher/tmp/pyupgrade-3.9.0.tar.gz]
+[2023-07-31 02:04:39] INFO root fetch - main [MainThread]: End processing [pyupgrade]: success
+[2023-07-31 02:04:39] INFO root fetch - processPackages [django-pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/django-pygwalker-0.0.0.dev0.tar.gz]
+[2023-07-31 02:04:39] INFO root fetch - processPackages [django-pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/django-pygwalker-0.0.0.dev1.tar.gz]
+[2023-07-31 02:04:39] INFO root fetch - main [MainThread]: End processing [django-pygwalker]: success
+[2023-07-31 02:04:40] INFO root fetch - processPackages [defichainTest]: Remove: archive file [/home/abi/fetcher/tmp/defichainTest-0.0.1b0.tar.gz]
+[2023-07-31 02:04:40] INFO root fetch - processPackages [defichainTest]: Remove: archive file [/home/abi/fetcher/tmp/defichainTest-0.0.1b1.tar.gz]
+[2023-07-31 02:04:40] INFO root fetch - main [MainThread]: End processing [defichainTest]: success
+[2023-07-31 02:04:41] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230729.post409.tar.gz]
+[2023-07-31 02:04:41] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230730.post503.tar.gz]
+[2023-07-31 02:04:41] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-31 02:04:41] INFO root fetch - main [MainThread]: Store serial: [19100293]
