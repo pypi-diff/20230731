@@ -4013,3 +4013,80 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 02:47:35] INFO root fetch - processPackages [pygdebias]: Remove: archive file [/home/abi/fetcher/tmp/pygdebias-1.0.1.tar.gz]
 [2023-07-31 02:47:35] INFO root fetch - main [MainThread]: End processing [pygdebias]: success
 [2023-07-31 02:47:35] INFO root fetch - main [MainThread]: Store serial: [19101315]
+[2023-07-31 02:52:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19101315]
+[2023-07-31 02:52:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-31 02:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymeili
+[2023-07-31 02:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tabb
+[2023-07-31 02:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lnkpdf
+[2023-07-31 02:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-comprehend-s3olap
+[2023-07-31 02:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psychoanalyze
+[2023-07-31 02:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyqrack
+[2023-07-31 02:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: readmeai
+[2023-07-31 02:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pewlib
+[2023-07-31 02:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycde
+[2023-07-31 02:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: maxware-tsp-cli
+[2023-07-31 02:52:43] INFO root fetch - processPackages [pewlib]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-31 02:52:43] WARNING root fetch - processPackages [lnkpdf]: Skipping, unable to determine old version
+[2023-07-31 02:52:43] INFO root fetch - main [MainThread]: End processing [lnkpdf] error
+[2023-07-31 02:52:43] INFO root fetch - processPackages [pymeili]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-31 02:52:43] INFO root fetch - processPackages [tabb]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-31 02:52:43] WARNING root fetch - processPackages [maxware-tsp-cli]: Skipping, unable to determine old version
+[2023-07-31 02:52:43] INFO root fetch - main [MainThread]: End processing [maxware-tsp-cli] error
+[2023-07-31 02:52:43] INFO root fetch - processPackages [psychoanalyze]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-31 02:52:43] INFO root fetch - processPackages [readmeai]: New version: [0.0.61] Old Version: [0.0.6]
+[2023-07-31 02:52:44] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-31 02:52:44] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-31 02:52:44] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev988] Old Version: [0.2.1.dev961]
+[2023-07-31 02:52:44] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-31 02:52:44] INFO root fetch - processPackages [pewlib]: Downloading https://files.pythonhosted.org/packages/68/7f/605afa3d13ce2c6db0274ab929c43d1ffa64505fafd13be71cdbe56fc7b8/pewlib-0.8.1.tar.gz
+[2023-07-31 02:52:44] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-31 02:52:44] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-31 02:52:44] INFO root fetch - processPackages [pymeili]: Downloading https://files.pythonhosted.org/packages/dc/b3/2723bc582811da5517e6ed7832851511e53cc7189bec39720acc69e2fb7f/pymeili-0.1.7.tar.gz
+[2023-07-31 02:52:44] INFO root fetch - processPackages [tabb]: Downloading https://files.pythonhosted.org/packages/1d/00/5cd2915673ca97e6dd3c09f75df62ecf6a0f2fff20b9302e2eb252474d1e/tabb-0.1.0.tar.gz
+[2023-07-31 02:52:44] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/64/71/52a8dafc70d84bf880d184bf50c6c070499ef5fd55a0d9514af9a63a7e76/psychoanalyze-0.8.3.tar.gz
+[2023-07-31 02:52:44] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/d5/9c/a9f3e9befc93b771e8b8a27fd5300623c3b61b6339c2dfd5f8dccd8ae871/readmeai-0.0.6.tar.gz
+[2023-07-31 02:52:44] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-07-31 02:52:44] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/b7/ed/804e0141dfcd66f1160e48bcb2d0162bfe55d21ef588a6e07e0806b0a859/pycde-0.2.1.dev961-cp39-cp39-win_amd64.whl
+[2023-07-31 02:52:44] INFO root fetch - processPackages [pewlib]: Downloading https://files.pythonhosted.org/packages/e7/d3/f52e06ecac7cbedacca96bd498c081b37546fc9de228ae5ef67bf38e1dd2/pewlib-0.8.2.tar.gz
+[2023-07-31 02:52:44] INFO root fetch - processPackages [pymeili]: Downloading https://files.pythonhosted.org/packages/03/d0/028c8d9b4008af8a2a8def7c5ca76233163defc4b91a804b1f56d88edb89/pymeili-0.1.8.tar.gz
+[2023-07-31 02:52:44] INFO root fetch - processPackages [pewlib]: executing diffoscope
+[2023-07-31 02:52:44] INFO root fetch - processPackages [pewlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pewlib-0.8.1.tar.gz tmp/pewlib-0.8.2.tar.gz --markdown 20230731/p/pewlib/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-31 02:52:44] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/1e/55/552f80dd964473d5ddc1d992986d070009a2132f700284aa34951ded7f7a/readmeai-0.0.61-py3-none-any.whl
+[2023-07-31 02:52:44] INFO root fetch - processPackages [tabb]: Downloading https://files.pythonhosted.org/packages/81/9e/41b20d8479b59fecda404cf153150b890527ab9a167b0afbd4a924fda280/tabb-0.2.0.tar.gz
+[2023-07-31 02:52:44] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/9d/20/be4896c1945951ee7480eda72c7fea9d58186af65cb537e526f653116cbb/psychoanalyze-0.8.4.tar.gz
+[2023-07-31 02:52:44] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-07-31 02:52:44] INFO root fetch - processPackages [pymeili]: executing diffoscope
+[2023-07-31 02:52:44] INFO root fetch - processPackages [pymeili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeili-0.1.7.tar.gz tmp/pymeili-0.1.8.tar.gz --markdown 20230731/p/pymeili/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-31 02:52:44] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-31 02:52:44] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.6.tar.gz tmp/readmeai-0.0.61-py3-none-any.whl.zip --markdown 20230731/r/readmeai/0.0.6-0.0.61/diff.md --exclude *.pyd
+[2023-07-31 02:52:44] INFO root fetch - processPackages [tabb]: executing diffoscope
+[2023-07-31 02:52:44] INFO root fetch - processPackages [tabb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabb-0.1.0.tar.gz tmp/tabb-0.2.0.tar.gz --markdown 20230731/t/tabb/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-31 02:52:44] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-07-31 02:52:44] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230731/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-31 02:52:44] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-07-31 02:52:44] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.8.3.tar.gz tmp/psychoanalyze-0.8.4.tar.gz --markdown 20230731/p/psychoanalyze/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-31 02:52:45] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/b9/ae/7d052a4c453053b2cbbee8bd65271ab000dd63312d3de98a9c90ca0d9952/pycde-0.2.1.dev988-cp39-cp39-win_amd64.whl
+[2023-07-31 02:52:45] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2023-07-31 02:52:45] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.2.1.dev961-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.2.1.dev988-cp39-cp39-win_amd64.whl.zip --markdown 20230731/p/pycde/0.2.1.dev961-0.2.1.dev988/diff.md --exclude *.pyd
+[2023-07-31 02:52:45] INFO root fetch - processPackages [pymeili]: Remove: archive file [/home/abi/fetcher/tmp/pymeili-0.1.7.tar.gz]
+[2023-07-31 02:52:45] INFO root fetch - processPackages [pymeili]: Remove: archive file [/home/abi/fetcher/tmp/pymeili-0.1.8.tar.gz]
+[2023-07-31 02:52:45] INFO root fetch - main [MainThread]: End processing [pymeili]: success
+[2023-07-31 02:52:46] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.6.tar.gz]
+[2023-07-31 02:52:46] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.61-py3-none-any.whl.zip]
+[2023-07-31 02:52:46] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-31 02:52:46] INFO root fetch - processPackages [pewlib]: Remove: archive file [/home/abi/fetcher/tmp/pewlib-0.8.1.tar.gz]
+[2023-07-31 02:52:46] INFO root fetch - processPackages [pewlib]: Remove: archive file [/home/abi/fetcher/tmp/pewlib-0.8.2.tar.gz]
+[2023-07-31 02:52:46] INFO root fetch - main [MainThread]: End processing [pewlib]: success
+[2023-07-31 02:52:46] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-07-31 02:52:46] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-07-31 02:52:46] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-07-31 02:52:46] INFO root fetch - processPackages [tabb]: Remove: archive file [/home/abi/fetcher/tmp/tabb-0.1.0.tar.gz]
+[2023-07-31 02:52:46] INFO root fetch - processPackages [tabb]: Remove: archive file [/home/abi/fetcher/tmp/tabb-0.2.0.tar.gz]
+[2023-07-31 02:52:46] INFO root fetch - main [MainThread]: End processing [tabb]: success
+[2023-07-31 02:52:46] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.8.3.tar.gz]
+[2023-07-31 02:52:46] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.8.4.tar.gz]
+[2023-07-31 02:52:46] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-07-31 02:53:12] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev961-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 02:53:12] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev988-cp39-cp39-win_amd64.whl.zip]
+[2023-07-31 02:53:12] INFO root fetch - main [MainThread]: End processing [pycde]: success
+[2023-07-31 02:53:12] INFO root fetch - main [MainThread]: Store serial: [19101354]
