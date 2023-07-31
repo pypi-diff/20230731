@@ -17489,3 +17489,122 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-31 13:50:55] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.2.tar.gz]
 [2023-07-31 13:50:55] INFO root fetch - main [MainThread]: End processing [st-track-viewer]: success
 [2023-07-31 13:50:55] INFO root fetch - main [MainThread]: Store serial: [19106956]
+[2023-07-31 13:56:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19106956]
+[2023-07-31 13:56:10] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-31 13:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KKMeans
+[2023-07-31 13:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biobb-godmd
+[2023-07-31 13:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tortoise-api
+[2023-07-31 13:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: queryandprocessdatautility
+[2023-07-31 13:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scratchattach
+[2023-07-31 13:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gptcache
+[2023-07-31 13:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shareddata
+[2023-07-31 13:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RiskLabAI
+[2023-07-31 13:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bulk-whois-api
+[2023-07-31 13:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drb-driver-image
+[2023-07-31 13:56:10] INFO root fetch - processPackages [KKMeans]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-31 13:56:10] INFO root fetch - processPackages [RiskLabAI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 13:56:10] INFO root fetch - processPackages [tortoise-api]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-31 13:56:10] INFO root fetch - processPackages [bulk-whois-api]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-31 13:56:10] INFO root fetch - processPackages [queryandprocessdatautility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 13:56:10] INFO root fetch - processPackages [drb-driver-image]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-31 13:56:10] INFO root fetch - processPackages [biobb-godmd]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-07-31 13:56:10] INFO root fetch - processPackages [shareddata]: New version: [2.2.3] Old Version: [2.2.0]
+[2023-07-31 13:56:10] INFO root fetch - processPackages [gptcache]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 13:56:10] INFO root fetch - processPackages [scratchattach]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-31 13:56:10] INFO root fetch - processPackages [KKMeans]: Downloading https://files.pythonhosted.org/packages/d2/67/0df8bf9cca22bcc3c62cd832aa8796c52a5852b182c41387de74f1186283/KKMeans-0.0.3.tar.gz
+[2023-07-31 13:56:10] INFO root fetch - processPackages [RiskLabAI]: Downloading https://files.pythonhosted.org/packages/cc/ff/c1d0c1b80be28ca28064c9a4be9a1bb7a191606a8b08c1ccad24911f5b54/RiskLabAI-0.0.8.tar.gz
+[2023-07-31 13:56:10] INFO root fetch - processPackages [bulk-whois-api]: Downloading https://files.pythonhosted.org/packages/77/6a/82a100e9c1eef77734ea0a1d037fce36f57d38d78c7b2aec4a9ad1d9155e/bulk-whois-api-1.1.0.tar.gz
+[2023-07-31 13:56:10] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/af/79/8bcd684f12f1ae3b0a7eb1d46004cb1d5005a69c3b164578a16dc6179424/shareddata-2.2.0.tar.gz
+[2023-07-31 13:56:10] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/dc/24/5befc3a1dd70b39ba8c2076755365740b226b9b8db7eb07e93093dd7582c/tortoise-api-0.2.3.tar.gz
+[2023-07-31 13:56:11] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/e5/18/ab2dd9cc1f7178820c2f15a2587d89212f36475e8a62df5f390d5d5e6795/queryandprocessdatautility-0.0.8-py3-none-any.whl
+[2023-07-31 13:56:11] INFO root fetch - processPackages [biobb-godmd]: Downloading https://files.pythonhosted.org/packages/ca/ca/eaceba20bdc56ab8ad71c4de5b105a5028ca3a999ec775efe99faa6b9327/biobb_godmd-4.0.1.tar.gz
+[2023-07-31 13:56:11] INFO root fetch - processPackages [drb-driver-image]: Downloading https://files.pythonhosted.org/packages/61/08/28a5deb7fe6daa62136fd53266a4dc36fa73ae8a59158fe90210d126f260/drb-driver-image-1.2.0.tar.gz
+[2023-07-31 13:56:11] INFO root fetch - processPackages [gptcache]: Downloading https://files.pythonhosted.org/packages/48/fa/7951cf776b9e50ff1089bfadde7258031a0a38d79998521a48a3c9a40db5/gptcache-0.1.8.tar.gz
+[2023-07-31 13:56:11] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/5d/f7/97144c91812fba27af9433c91193b9bc48b8a102e600448c722ca5694f59/scratchattach-1.2.7.tar.gz
+[2023-07-31 13:56:11] INFO root fetch - processPackages [RiskLabAI]: Downloading https://files.pythonhosted.org/packages/bd/06/8b21467597cdd4ac5f26ccf7b426641f2283854423d655ae0f713d98b84c/RiskLabAI-0.0.9.tar.gz
+[2023-07-31 13:56:11] INFO root fetch - processPackages [bulk-whois-api]: Downloading https://files.pythonhosted.org/packages/49/a9/38d94e62d4c0532fdd70e9debf8ecf970e07f60ef6c217613dd8909da461/bulk-whois-api-1.1.1.tar.gz
+[2023-07-31 13:56:11] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/ee/38/eee8043b2f12aa3fd5bc7056134743f0ec33d15a7cae65819ca7a3eb3ed8/tortoise-api-0.2.4.tar.gz
+[2023-07-31 13:56:11] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/0a/f0/a523318f7cd86d90ed6249c41c3c6a0284e422705b6888ed869953db58ae/shareddata-2.2.3.tar.gz
+[2023-07-31 13:56:11] INFO root fetch - processPackages [KKMeans]: Downloading https://files.pythonhosted.org/packages/19/9c/a553777a71fb4b95a82c87d1695550d27fce2606cec0f44c624365534f48/KKMeans-0.0.4.tar.gz
+[2023-07-31 13:56:11] INFO root fetch - processPackages [RiskLabAI]: executing diffoscope
+[2023-07-31 13:56:11] INFO root fetch - processPackages [RiskLabAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RiskLabAI-0.0.8.tar.gz tmp/RiskLabAI-0.0.9.tar.gz --markdown 20230731/R/RiskLabAI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 13:56:11] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/dc/18/de6ee5fff1b47eae3227bc53bfc0e1cbd8796730d2c45800dd46e1c9d264/queryandprocessdatautility-0.0.9-py3-none-any.whl
+[2023-07-31 13:56:11] INFO root fetch - processPackages [biobb-godmd]: Downloading https://files.pythonhosted.org/packages/6e/6d/81a2677f1afd625316801748c371e382fa525d9746a9e8ee025318a73c62/biobb_godmd-4.0.2.tar.gz
+[2023-07-31 13:56:11] INFO root fetch - processPackages [bulk-whois-api]: executing diffoscope
+[2023-07-31 13:56:11] INFO root fetch - processPackages [bulk-whois-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulk-whois-api-1.1.0.tar.gz tmp/bulk-whois-api-1.1.1.tar.gz --markdown 20230731/b/bulk-whois-api/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-31 13:56:11] INFO root fetch - processPackages [drb-driver-image]: Downloading https://files.pythonhosted.org/packages/43/af/cede39fdf649ecb54b487e9f27bfd6dca2b2c1e1180f8a8b680c7ba2a138/drb-driver-image-1.2.1.tar.gz
+[2023-07-31 13:56:11] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/a0/2d/0640ef41c605775e400beaebb329484eeb3fd66efa2a7667a1c9b6e9a1cd/scratchattach-1.2.8.tar.gz
+[2023-07-31 13:56:11] INFO root fetch - processPackages [gptcache]: Downloading https://files.pythonhosted.org/packages/0e/bb/72700c82969c8279118015284301ef2a13caa1a56f2533ba0476c955077f/gptcache-0.1.9.tar.gz
+[2023-07-31 13:56:11] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-07-31 13:56:11] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.2.0.tar.gz tmp/shareddata-2.2.3.tar.gz --markdown 20230731/s/shareddata/2.2.0-2.2.3/diff.md --exclude *.pyd
+[2023-07-31 13:56:11] INFO root fetch - processPackages [tortoise-api]: executing diffoscope
+[2023-07-31 13:56:11] INFO root fetch - processPackages [tortoise-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise-api-0.2.3.tar.gz tmp/tortoise-api-0.2.4.tar.gz --markdown 20230731/t/tortoise-api/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-31 13:56:11] INFO root fetch - processPackages [queryandprocessdatautility]: executing diffoscope
+[2023-07-31 13:56:11] INFO root fetch - processPackages [queryandprocessdatautility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip --markdown 20230731/q/queryandprocessdatautility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 13:56:11] INFO root fetch - processPackages [biobb-godmd]: executing diffoscope
+[2023-07-31 13:56:11] INFO root fetch - processPackages [biobb-godmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_godmd-4.0.1.tar.gz tmp/biobb_godmd-4.0.2.tar.gz --markdown 20230731/b/biobb-godmd/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-07-31 13:56:11] INFO root fetch - processPackages [drb-driver-image]: executing diffoscope
+[2023-07-31 13:56:11] INFO root fetch - processPackages [drb-driver-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-image-1.2.0.tar.gz tmp/drb-driver-image-1.2.1.tar.gz --markdown 20230731/d/drb-driver-image/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-31 13:56:11] INFO root fetch - processPackages [scratchattach]: executing diffoscope
+[2023-07-31 13:56:11] INFO root fetch - processPackages [scratchattach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchattach-1.2.7.tar.gz tmp/scratchattach-1.2.8.tar.gz --markdown 20230731/s/scratchattach/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-31 13:56:11] INFO root fetch - processPackages [KKMeans]: executing diffoscope
+[2023-07-31 13:56:11] INFO root fetch - processPackages [KKMeans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KKMeans-0.0.3.tar.gz tmp/KKMeans-0.0.4.tar.gz --markdown 20230731/K/KKMeans/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-31 13:56:11] INFO root fetch - processPackages [gptcache]: executing diffoscope
+[2023-07-31 13:56:11] INFO root fetch - processPackages [gptcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptcache-0.1.8.tar.gz tmp/gptcache-0.1.9.tar.gz --markdown 20230731/g/gptcache/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 13:56:13] INFO root fetch - processPackages [RiskLabAI]: Remove: archive file [/home/abi/fetcher/tmp/RiskLabAI-0.0.8.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [RiskLabAI]: Remove: archive file [/home/abi/fetcher/tmp/RiskLabAI-0.0.9.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [RiskLabAI]: Start processing: decentralizedroutines
+[2023-07-31 13:56:13] INFO root fetch - main [MainThread]: End processing [RiskLabAI]: success
+[2023-07-31 13:56:13] INFO root fetch - processPackages [decentralizedroutines]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/c7/6a/22fd0ea5a97eda4218171fe5cc84d9c1657cb685e5fb8120ef27ec059ef2/decentralizedroutines-2.2.2.tar.gz
+[2023-07-31 13:56:13] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.2.3.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.2.4.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [tortoise-api]: Start processing: qf-lib
+[2023-07-31 13:56:13] INFO root fetch - main [MainThread]: End processing [tortoise-api]: success
+[2023-07-31 13:56:13] INFO root fetch - processPackages [bulk-whois-api]: Remove: archive file [/home/abi/fetcher/tmp/bulk-whois-api-1.1.0.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [bulk-whois-api]: Remove: archive file [/home/abi/fetcher/tmp/bulk-whois-api-1.1.1.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [bulk-whois-api]: Start processing: entrust
+[2023-07-31 13:56:13] INFO root fetch - main [MainThread]: End processing [bulk-whois-api]: success
+[2023-07-31 13:56:13] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [qf-lib]: New version: [2.2.8] Old Version: [2.2.7]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [queryandprocessdatautility]: Start processing: neolibrary
+[2023-07-31 13:56:13] INFO root fetch - main [MainThread]: End processing [queryandprocessdatautility]: success
+[2023-07-31 13:56:13] WARNING root fetch - processPackages [entrust]: Skipping, unable to determine old version
+[2023-07-31 13:56:13] INFO root fetch - main [MainThread]: End processing [entrust] error
+[2023-07-31 13:56:13] INFO root fetch - processPackages [neolibrary]: New version: [0.1.4b0] Old Version: [0.1.3b0]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.2.0.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.2.3.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-07-31 13:56:13] INFO root fetch - processPackages [neolibrary]: Downloading https://files.pythonhosted.org/packages/b9/c2/dc33ab7719bc5ad4736f593669ee0b3b75067db0ccb75e38cd53390eea3a/neolibrary-0.1.3b0.tar.gz
+[2023-07-31 13:56:13] INFO root fetch - processPackages [biobb-godmd]: Remove: archive file [/home/abi/fetcher/tmp/biobb_godmd-4.0.1.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [biobb-godmd]: Remove: archive file [/home/abi/fetcher/tmp/biobb_godmd-4.0.2.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - main [MainThread]: End processing [biobb-godmd]: success
+[2023-07-31 13:56:13] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/a8/8c/7e5ec9bcd8699508d28770e14b3f0847e152d852150669f4ba3ab6d26cfa/decentralizedroutines-2.2.3.tar.gz
+[2023-07-31 13:56:13] INFO root fetch - processPackages [drb-driver-image]: Remove: archive file [/home/abi/fetcher/tmp/drb-driver-image-1.2.0.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [drb-driver-image]: Remove: archive file [/home/abi/fetcher/tmp/drb-driver-image-1.2.1.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - main [MainThread]: End processing [drb-driver-image]: success
+[2023-07-31 13:56:13] INFO root fetch - processPackages [qf-lib]: Downloading https://files.pythonhosted.org/packages/17/2c/d2eb054c8a57ee01e95cd87361dfb1a78ac02307b0e4c8675a2100b87ca1/qf-lib-2.2.7.tar.gz
+[2023-07-31 13:56:13] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.2.7.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.2.8.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - main [MainThread]: End processing [scratchattach]: success
+[2023-07-31 13:56:13] INFO root fetch - processPackages [gptcache]: Remove: archive file [/home/abi/fetcher/tmp/gptcache-0.1.8.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - processPackages [gptcache]: Remove: archive file [/home/abi/fetcher/tmp/gptcache-0.1.9.tar.gz]
+[2023-07-31 13:56:13] INFO root fetch - main [MainThread]: End processing [gptcache]: success
+[2023-07-31 13:56:13] WARNING root fetch - processPackages [qf-lib]: Skipping package: exceeds size limit 11403698>=10485760
+[2023-07-31 13:56:13] INFO root fetch - main [MainThread]: End processing [qf-lib] error
+[2023-07-31 13:56:13] INFO root fetch - processPackages [decentralizedroutines]: executing diffoscope
+[2023-07-31 13:56:13] INFO root fetch - processPackages [decentralizedroutines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentralizedroutines-2.2.2.tar.gz tmp/decentralizedroutines-2.2.3.tar.gz --markdown 20230731/d/decentralizedroutines/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-31 13:56:13] INFO root fetch - processPackages [neolibrary]: Downloading https://files.pythonhosted.org/packages/76/b5/a87f4f8dcccd188fabdb1e440ee45ebe26faab1918cfe4c591d9d07048ea/neolibrary-0.1.4b0.tar.gz
+[2023-07-31 13:56:14] INFO root fetch - processPackages [neolibrary]: executing diffoscope
+[2023-07-31 13:56:14] INFO root fetch - processPackages [neolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neolibrary-0.1.3b0.tar.gz tmp/neolibrary-0.1.4b0.tar.gz --markdown 20230731/n/neolibrary/0.1.3b0-0.1.4b0/diff.md --exclude *.pyd
+[2023-07-31 13:56:14] INFO root fetch - processPackages [KKMeans]: Remove: archive file [/home/abi/fetcher/tmp/KKMeans-0.0.3.tar.gz]
+[2023-07-31 13:56:14] INFO root fetch - processPackages [KKMeans]: Remove: archive file [/home/abi/fetcher/tmp/KKMeans-0.0.4.tar.gz]
+[2023-07-31 13:56:14] INFO root fetch - main [MainThread]: End processing [KKMeans]: success
+[2023-07-31 13:56:14] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-2.2.2.tar.gz]
+[2023-07-31 13:56:14] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-2.2.3.tar.gz]
+[2023-07-31 13:56:14] INFO root fetch - main [MainThread]: End processing [decentralizedroutines]: success
+[2023-07-31 13:56:14] INFO root fetch - processPackages [neolibrary]: Remove: archive file [/home/abi/fetcher/tmp/neolibrary-0.1.3b0.tar.gz]
+[2023-07-31 13:56:14] INFO root fetch - processPackages [neolibrary]: Remove: archive file [/home/abi/fetcher/tmp/neolibrary-0.1.4b0.tar.gz]
+[2023-07-31 13:56:14] INFO root fetch - main [MainThread]: End processing [neolibrary]: success
+[2023-07-31 13:56:14] INFO root fetch - main [MainThread]: Store serial: [19107002]
