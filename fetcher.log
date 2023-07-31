@@ -5449,3 +5449,53 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 04:22:28] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.9.tar.gz]
 [2023-07-31 04:22:28] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-07-31 04:22:28] INFO root fetch - main [MainThread]: Store serial: [19101912]
+[2023-07-31 04:27:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19101912]
+[2023-07-31 04:27:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-31 04:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-ecosystem-flask
+[2023-07-31 04:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyautomail
+[2023-07-31 04:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-osubot
+[2023-07-31 04:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sonic-uia2-client
+[2023-07-31 04:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazyinit
+[2023-07-31 04:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zerocap-api-new-test
+[2023-07-31 04:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: palettepal
+[2023-07-31 04:27:38] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.4] Old Version: [202307.0.36]
+[2023-07-31 04:27:38] INFO root fetch - processPackages [lazyinit]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-07-31 04:27:38] INFO root fetch - processPackages [sonic-uia2-client]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-31 04:27:38] WARNING root fetch - processPackages [pyautomail]: Skipping, unable to determine old version
+[2023-07-31 04:27:38] INFO root fetch - main [MainThread]: End processing [pyautomail] error
+[2023-07-31 04:27:38] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-07-31 04:27:38] INFO root fetch - processPackages [zerocap-api-new-test]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-31 04:27:38] WARNING root fetch - processPackages [palettepal]: Skipping, unable to determine old version
+[2023-07-31 04:27:38] INFO root fetch - main [MainThread]: End processing [palettepal] error
+[2023-07-31 04:27:38] INFO root fetch - processPackages [zerocap-api-new-test]: Downloading https://files.pythonhosted.org/packages/b5/36/204a6722a8d8f5d4524294f3e853df0c032e106aa44581ef7b5025329534/zerocap_api_new_test-0.1.4.tar.gz
+[2023-07-31 04:27:38] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/24/4a/0a0b50f3450f2031f5a98c05d55a2a57821b5f5115c52419b9285147ab83/data_ecosystem_flask-202307.0.36.tar.gz
+[2023-07-31 04:27:38] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/51/1e/3a54d4e4c55fed534f1fabd969ae29daa2a7fd291907a3c29e8fd16733d6/lazyinit-0.0.28.tar.gz
+[2023-07-31 04:27:38] INFO root fetch - processPackages [sonic-uia2-client]: Downloading https://files.pythonhosted.org/packages/65/61/56ef6cb1dd42403f03e2b523551ad0d34b48e1b9a1053256cf4e5f4c9bea/sonic-uia2-client-0.0.6.tar.gz
+[2023-07-31 04:27:38] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/b7/a2/79069f6b23de874a05f711f71cf732451364822ec13f5922ae00dbb3d576/nonebot-plugin-osubot-3.1.0.tar.gz
+[2023-07-31 04:27:38] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/b2/63/f9972c9325aaa8f072021458434c5735720e575e3a4875f4e556734529e8/data_ecosystem_flask-202307.0.4.tar.gz
+[2023-07-31 04:27:38] INFO root fetch - processPackages [zerocap-api-new-test]: Downloading https://files.pythonhosted.org/packages/4f/19/157217fe4c1c1d28890aa6c8cdb1b7ecb2ed66b8f738ba11b0907f6c2dba/zerocap_api_new_test-0.1.5.tar.gz
+[2023-07-31 04:27:38] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29658508>=10485760
+[2023-07-31 04:27:38] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2023-07-31 04:27:39] INFO root fetch - processPackages [zerocap-api-new-test]: executing diffoscope
+[2023-07-31 04:27:39] INFO root fetch - processPackages [zerocap-api-new-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerocap_api_new_test-0.1.4.tar.gz tmp/zerocap_api_new_test-0.1.5.tar.gz --markdown 20230731/z/zerocap-api-new-test/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-31 04:27:39] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-07-31 04:27:39] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202307.0.36.tar.gz tmp/data_ecosystem_flask-202307.0.4.tar.gz --markdown 20230731/d/data-ecosystem-flask/202307.0.36-202307.0.4/diff.md --exclude *.pyd
+[2023-07-31 04:27:39] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/51/7a/251e33095bb8fbd310f41c52f5f327299959915777061d9e2b024ee047e6/lazyinit-0.0.29.tar.gz
+[2023-07-31 04:27:39] INFO root fetch - processPackages [sonic-uia2-client]: Downloading https://files.pythonhosted.org/packages/d2/a8/d930c787ad650c0bb98edae91a16a58c69e29ae4c1f8dfa6637be6643d0d/sonic-uia2-client-0.0.7.tar.gz
+[2023-07-31 04:27:39] INFO root fetch - processPackages [sonic-uia2-client]: executing diffoscope
+[2023-07-31 04:27:39] INFO root fetch - processPackages [sonic-uia2-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonic-uia2-client-0.0.6.tar.gz tmp/sonic-uia2-client-0.0.7.tar.gz --markdown 20230731/s/sonic-uia2-client/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-31 04:27:39] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-07-31 04:27:39] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.28.tar.gz tmp/lazyinit-0.0.29.tar.gz --markdown 20230731/l/lazyinit/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-07-31 04:27:39] INFO root fetch - processPackages [zerocap-api-new-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_new_test-0.1.4.tar.gz]
+[2023-07-31 04:27:39] INFO root fetch - processPackages [zerocap-api-new-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_new_test-0.1.5.tar.gz]
+[2023-07-31 04:27:39] INFO root fetch - main [MainThread]: End processing [zerocap-api-new-test]: success
+[2023-07-31 04:27:39] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.36.tar.gz]
+[2023-07-31 04:27:39] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.4.tar.gz]
+[2023-07-31 04:27:39] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-07-31 04:27:39] INFO root fetch - processPackages [sonic-uia2-client]: Remove: archive file [/home/abi/fetcher/tmp/sonic-uia2-client-0.0.6.tar.gz]
+[2023-07-31 04:27:39] INFO root fetch - processPackages [sonic-uia2-client]: Remove: archive file [/home/abi/fetcher/tmp/sonic-uia2-client-0.0.7.tar.gz]
+[2023-07-31 04:27:39] INFO root fetch - main [MainThread]: End processing [sonic-uia2-client]: success
+[2023-07-31 04:27:40] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.28.tar.gz]
+[2023-07-31 04:27:40] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.29.tar.gz]
+[2023-07-31 04:27:40] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-07-31 04:27:40] INFO root fetch - main [MainThread]: Store serial: [19101936]
