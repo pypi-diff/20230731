@@ -4141,3 +4141,105 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 02:58:35] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.7.4.tar.gz]
 [2023-07-31 02:58:35] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
 [2023-07-31 02:58:35] INFO root fetch - main [MainThread]: Store serial: [19101381]
+[2023-07-31 03:03:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19101381]
+[2023-07-31 03:03:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-31 03:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: progfiguration
+[2023-07-31 03:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-07-31 03:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aemcmc-nightly
+[2023-07-31 03:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-31 03:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xeofs
+[2023-07-31 03:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ast-grep-cli
+[2023-07-31 03:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: readmeai
+[2023-07-31 03:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-lambda-layer-curl
+[2023-07-31 03:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: covalent-cloud
+[2023-07-31 03:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pympipool
+[2023-07-31 03:03:44] INFO root fetch - processPackages [readmeai]: New version: [0.0.62] Old Version: [0.0.61]
+[2023-07-31 03:03:44] INFO root fetch - processPackages [pympipool]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-31 03:03:44] INFO root fetch - processPackages [ast-grep-cli]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-31 03:03:44] INFO root fetch - processPackages [progfiguration]: New version: [0.0.2a8] Old Version: [0.0.2a7]
+[2023-07-31 03:03:44] INFO root fetch - processPackages [covalent-cloud]: New version: [0.8.0rc0] Old Version: [0.19.7rc0]
+[2023-07-31 03:03:44] INFO root fetch - processPackages [xeofs]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-07-31 03:03:44] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-31 03:03:44] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230730] Old Version: [0.0.8.dev20230729]
+[2023-07-31 03:03:44] INFO root fetch - processPackages [yplib]: New version: [2.6.5] Old Version: [2.6.4]
+[2023-07-31 03:03:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-31 03:03:44] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/a1/9c/540a21f803ee8d47ff75ed58ab9ecf0559b6b1767632ac70d9ca4bf85c6d/pympipool-0.6.0.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/5b/59/07edd1ee4cc6d87d000d7b3797907000a31b58fc108cd77846e4ba5f030d/aemcmc-nightly-0.0.8.dev20230729.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/cd/9b/392ad7d710bd97062c7ab64634d21d72b083e86d8c938b5d06c39f972ac9/readmeai-0.0.61.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/2f/24/33be52adc6701072abc459352bfd7901211b6d291410bf8340b223ccac36/covalent-cloud-0.19.7rc0.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/f7/c2/09d75b706485bc51e9971fffe138396e852d914b4ea1ced1dcbbf9c8890e/ast_grep_cli-0.9.2.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [xeofs]: Downloading https://files.pythonhosted.org/packages/f2/3c/39dc0f93d48bded6f90e3763c7621770f0d62da845a140413c74a17fd635/xeofs-1.0.3.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [progfiguration]: Downloading https://files.pythonhosted.org/packages/45/e2/1a9b4b3fe11830991ddccaa779aefb1b9c9ae4fbea373f1cb0b9ff499c42/progfiguration-0.0.2a7.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/8e/b7/6d7e67b9484bd4b669579846083e5c25e2285c5fce50e2f0b54540c174c6/yplib-2.6.4.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/b2/25/bd95ab3dbbeff83c36f6b05e86b771f4944b9c5ef13967136b82894327ff/pympipool-0.6.1.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/45/d4/6fe80a525941a58cb8d0995e345f5818cd0650db18c612bb264460fb89d6/aemcmc-nightly-0.0.8.dev20230730.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [progfiguration]: Downloading https://files.pythonhosted.org/packages/ea/bc/682f58f9ec8a9dff24e246a6cf1714e75abce1777370b94977c692e36f06/progfiguration-0.0.2a8.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/1b/d1/bd2070f53e2e47ca1ed958e7d0f83b410989e0071878e9dc2b0626304118/readmeai-0.0.62.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/9d/6b/963496992471906d52efe4acd2b398cf33b051d8558409d9ec37a3ee1bcf/covalent-cloud-0.8.0rc0.tar.gz
+[2023-07-31 03:03:44] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/93/c4/b3502c02f18ad92e463060c5b4d6ff71128d04acd833781229cf7ebeda26/yplib-2.6.5.tar.gz
+[2023-07-31 03:03:45] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/bb/5c/1c5ee896b0968132154badd72079015a1958ff352d47c5f9e74e8ce6d54e/ast_grep_cli-0.9.3.tar.gz
+[2023-07-31 03:03:45] INFO root fetch - processPackages [xeofs]: Downloading https://files.pythonhosted.org/packages/c3/41/9f4645d4cc6df46c125f93b44a5afabd4134c384aaa872672012a0754e01/xeofs-1.0.5.tar.gz
+[2023-07-31 03:03:45] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-31 03:03:45] INFO root fetch - processPackages [pympipool]: executing diffoscope
+[2023-07-31 03:03:45] INFO root fetch - processPackages [pympipool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pympipool-0.6.0.tar.gz tmp/pympipool-0.6.1.tar.gz --markdown 20230731/p/pympipool/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-31 03:03:45] INFO root fetch - processPackages [covalent-cloud]: executing diffoscope
+[2023-07-31 03:03:45] INFO root fetch - processPackages [covalent-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-cloud-0.19.7rc0.tar.gz tmp/covalent-cloud-0.8.0rc0.tar.gz --markdown 20230731/c/covalent-cloud/0.19.7rc0-0.8.0rc0/diff.md --exclude *.pyd
+[2023-07-31 03:03:45] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-31 03:03:45] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230729.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230730.tar.gz --markdown 20230731/a/aemcmc-nightly/0.0.8.dev20230729-0.0.8.dev20230730/diff.md --exclude *.pyd
+[2023-07-31 03:03:45] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-31 03:03:45] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.6.4.tar.gz tmp/yplib-2.6.5.tar.gz --markdown 20230731/y/yplib/2.6.4-2.6.5/diff.md --exclude *.pyd
+[2023-07-31 03:03:45] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-31 03:03:45] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.61.tar.gz tmp/readmeai-0.0.62.tar.gz --markdown 20230731/r/readmeai/0.0.61-0.0.62/diff.md --exclude *.pyd
+[2023-07-31 03:03:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-31 03:03:45] INFO root fetch - processPackages [progfiguration]: executing diffoscope
+[2023-07-31 03:03:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230731/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-31 03:03:45] INFO root fetch - processPackages [progfiguration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/progfiguration-0.0.2a7.tar.gz tmp/progfiguration-0.0.2a8.tar.gz --markdown 20230731/p/progfiguration/0.0.2a7-0.0.2a8/diff.md --exclude *.pyd
+[2023-07-31 03:03:45] INFO root fetch - processPackages [xeofs]: executing diffoscope
+[2023-07-31 03:03:45] INFO root fetch - processPackages [xeofs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xeofs-1.0.3.tar.gz tmp/xeofs-1.0.5.tar.gz --markdown 20230731/x/xeofs/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-07-31 03:03:45] INFO root fetch - processPackages [ast-grep-cli]: executing diffoscope
+[2023-07-31 03:03:45] INFO root fetch - processPackages [ast-grep-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_cli-0.9.2.tar.gz tmp/ast_grep_cli-0.9.3.tar.gz --markdown 20230731/a/ast-grep-cli/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-31 03:03:45] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-31 03:03:45] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230731/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-31 03:03:46] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.6.4.tar.gz]
+[2023-07-31 03:03:46] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.6.5.tar.gz]
+[2023-07-31 03:03:46] INFO root fetch - processPackages [yplib]: Start processing: super-ec2
+[2023-07-31 03:03:46] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-31 03:03:46] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.19.7rc0.tar.gz]
+[2023-07-31 03:03:46] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.8.0rc0.tar.gz]
+[2023-07-31 03:03:46] INFO root fetch - main [MainThread]: End processing [covalent-cloud]: success
+[2023-07-31 03:03:46] INFO root fetch - processPackages [super-ec2]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 03:03:46] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230729.tar.gz]
+[2023-07-31 03:03:46] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230730.tar.gz]
+[2023-07-31 03:03:46] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-31 03:03:47] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.61.tar.gz]
+[2023-07-31 03:03:47] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.62.tar.gz]
+[2023-07-31 03:03:47] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-31 03:03:47] INFO root fetch - processPackages [super-ec2]: Downloading https://files.pythonhosted.org/packages/6f/5b/1c4410f9cdec4b306292deb7eabba0c5195fdc9ed51343c6561f7b7ae28a/super-ec2-0.0.98.tar.gz
+[2023-07-31 03:03:47] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.6.0.tar.gz]
+[2023-07-31 03:03:47] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.6.1.tar.gz]
+[2023-07-31 03:03:47] INFO root fetch - main [MainThread]: End processing [pympipool]: success
+[2023-07-31 03:03:47] INFO root fetch - processPackages [progfiguration]: Remove: archive file [/home/abi/fetcher/tmp/progfiguration-0.0.2a7.tar.gz]
+[2023-07-31 03:03:47] INFO root fetch - processPackages [progfiguration]: Remove: archive file [/home/abi/fetcher/tmp/progfiguration-0.0.2a8.tar.gz]
+[2023-07-31 03:03:47] INFO root fetch - main [MainThread]: End processing [progfiguration]: success
+[2023-07-31 03:03:47] INFO root fetch - processPackages [xeofs]: Remove: archive file [/home/abi/fetcher/tmp/xeofs-1.0.3.tar.gz]
+[2023-07-31 03:03:47] INFO root fetch - processPackages [xeofs]: Remove: archive file [/home/abi/fetcher/tmp/xeofs-1.0.5.tar.gz]
+[2023-07-31 03:03:47] INFO root fetch - main [MainThread]: End processing [xeofs]: success
+[2023-07-31 03:03:47] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-31 03:03:47] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-31 03:03:47] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-31 03:03:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-31 03:03:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-31 03:03:47] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-31 03:03:47] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.2.tar.gz]
+[2023-07-31 03:03:47] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.3.tar.gz]
+[2023-07-31 03:03:47] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
+[2023-07-31 03:03:48] INFO root fetch - processPackages [super-ec2]: Downloading https://files.pythonhosted.org/packages/0d/d0/5bf70ee0146094b68ecc7932c6443c5d3dbdfff94a43de975f62bdb1caca/super-ec2-0.0.99.tar.gz
+[2023-07-31 03:03:50] INFO root fetch - processPackages [super-ec2]: executing diffoscope
+[2023-07-31 03:03:50] INFO root fetch - processPackages [super-ec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/super-ec2-0.0.98.tar.gz tmp/super-ec2-0.0.99.tar.gz --markdown 20230731/s/super-ec2/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 03:03:51] INFO root fetch - processPackages [super-ec2]: Remove: archive file [/home/abi/fetcher/tmp/super-ec2-0.0.98.tar.gz]
+[2023-07-31 03:03:51] INFO root fetch - processPackages [super-ec2]: Remove: archive file [/home/abi/fetcher/tmp/super-ec2-0.0.99.tar.gz]
+[2023-07-31 03:03:51] INFO root fetch - main [MainThread]: End processing [super-ec2]: success
+[2023-07-31 03:03:51] INFO root fetch - main [MainThread]: Store serial: [19101418]
