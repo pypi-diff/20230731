@@ -22080,3 +22080,258 @@ AssertionError: tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.z
 [2023-07-31 16:29:27] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.3.1.tar.gz]
 [2023-07-31 16:29:27] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-31 16:29:27] INFO root fetch - main [MainThread]: Store serial: [19108805]
+[2023-07-31 16:34:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19108805]
+[2023-07-31 16:34:36] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-07-31 16:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KolejkaClient
+[2023-07-31 16:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KolejkaCommon
+[2023-07-31 16:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KolejkaForeman
+[2023-07-31 16:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: KolejkaObserver
+[2023-07-31 16:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: KolejkaServer
+[2023-07-31 16:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djangocms-aldryn-people
+[2023-07-31 16:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: KolejkaWorker
+[2023-07-31 16:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-sentry
+[2023-07-31 16:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kstreams
+[2023-07-31 16:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepset-cloud-sdk
+[2023-07-31 16:34:37] INFO root fetch - processPackages [KolejkaForeman]: New version: [0.1.202307311426] Old Version: [0.1.202301191731]
+[2023-07-31 16:34:37] INFO root fetch - processPackages [KolejkaServer]: New version: [0.1.202307311426] Old Version: [0.1.202301191731]
+[2023-07-31 16:34:37] INFO root fetch - processPackages [KolejkaCommon]: New version: [0.1.202307311426] Old Version: [0.1.202301191731]
+[2023-07-31 16:34:37] INFO root fetch - processPackages [KolejkaWorker]: New version: [0.1.202307311426] Old Version: [0.1.202301191731]
+[2023-07-31 16:34:37] INFO root fetch - processPackages [djangocms-aldryn-people]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-31 16:34:37] INFO root fetch - processPackages [KolejkaObserver]: New version: [0.1.202307311426] Old Version: [0.1.202301191731]
+[2023-07-31 16:34:37] INFO root fetch - processPackages [odoo-addon-sentry]: New version: [16.0.3.0.1] Old Version: [16.0.3.0.0]
+[2023-07-31 16:34:37] INFO root fetch - processPackages [deepset-cloud-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 16:34:37] INFO root fetch - processPackages [KolejkaClient]: New version: [0.1.202307311426] Old Version: [0.1.202301191731]
+[2023-07-31 16:34:37] INFO root fetch - processPackages [kstreams]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-31 16:34:37] INFO root fetch - processPackages [KolejkaClient]: Downloading https://files.pythonhosted.org/packages/d6/36/fb09a4a57a86e7a03bd4d4816654476268d811d8a0ca39ea677e9c507e02/KolejkaClient-0.1.202301191731-py3-none-any.whl
+[2023-07-31 16:34:37] INFO root fetch - processPackages [KolejkaForeman]: Downloading https://files.pythonhosted.org/packages/ff/d9/98e1eba0b70cbf724570a04f51af5fc5b6bd4f616ccc440afa9bffeac72e/KolejkaForeman-0.1.202301191731-py3-none-any.whl
+[2023-07-31 16:34:37] INFO root fetch - processPackages [KolejkaServer]: Downloading https://files.pythonhosted.org/packages/12/af/07a9591b05105b3c7651aa9d4dc4df1cd35402f339d7b648d5d62a00e35f/KolejkaServer-0.1.202301191731-py3-none-any.whl
+[2023-07-31 16:34:37] INFO root fetch - processPackages [KolejkaCommon]: Downloading https://files.pythonhosted.org/packages/88/f1/dca056ab24c42768e8fb552494bb87b027f19bab6dea1ccf141f324c83a6/KolejkaCommon-0.1.202301191731-py3-none-any.whl
+[2023-07-31 16:34:37] INFO root fetch - processPackages [KolejkaWorker]: Downloading https://files.pythonhosted.org/packages/7a/85/6673f474e8b75bf5cb004227183130708f6af7dd08b356cfba9c2cc5d4c5/KolejkaWorker-0.1.202301191731-py3-none-any.whl
+[2023-07-31 16:34:37] INFO root fetch - processPackages [KolejkaObserver]: Downloading https://files.pythonhosted.org/packages/2c/cd/576aed5da55fac1db9b1589844b0aec770b31ba1a3a1b7254711191cb9d3/KolejkaObserver-0.1.202301191731-py3-none-any.whl
+[2023-07-31 16:34:37] INFO root fetch - processPackages [odoo-addon-sentry]: Downloading https://files.pythonhosted.org/packages/aa/bb/94b79f362cc979f08d2adf5cfa55ec536bbdbaf24ceda1be2c756a524314/odoo_addon_sentry-16.0.3.0.0-py3-none-any.whl
+[2023-07-31 16:34:37] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/bb/89/7a79dfa443184d2422ab56cd9d89df9a1ca6b30f6bb8a6cafea6a4c0937b/deepset_cloud_sdk-0.0.8.tar.gz
+[2023-07-31 16:34:37] INFO root fetch - processPackages [djangocms-aldryn-people]: Downloading https://files.pythonhosted.org/packages/2b/2e/9b8e1c10ed647104269b5f302310fc6a324ff52f0c9d09d8cc180d5317f7/djangocms-aldryn-people-3.0.0.tar.gz
+[2023-07-31 16:34:37] INFO root fetch - processPackages [kstreams]: Downloading https://files.pythonhosted.org/packages/9a/1d/ca3e2b8b740d2aa5987bc32e9793e218566beceff074a61554892e99e7b2/kstreams-0.9.0.tar.gz
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaClient]: Downloading https://files.pythonhosted.org/packages/ed/87/366b226752fa9fdb1b152b7e409703974ea042eb1ecf2cb81d0c4615d25b/KolejkaClient-0.1.202307311426-py3-none-any.whl
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaForeman]: Downloading https://files.pythonhosted.org/packages/45/3d/0b4cbdfb99fa7401327313afb165de8a998eccff5fe636c32b7951dd28a4/KolejkaForeman-0.1.202307311426-py3-none-any.whl
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaServer]: Downloading https://files.pythonhosted.org/packages/95/66/aa18aba8ff0225d2b831a00625bf2cebe2cef85da98e26cd665ce6acf592/KolejkaServer-0.1.202307311426-py3-none-any.whl
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaWorker]: Downloading https://files.pythonhosted.org/packages/74/03/8b2b597adc6285ec9a902b07a502435390e82eafe8af892663c53a06f9f7/KolejkaWorker-0.1.202307311426-py3-none-any.whl
+[2023-07-31 16:34:38] INFO root fetch - processPackages [odoo-addon-sentry]: Downloading https://files.pythonhosted.org/packages/01/33/bb8a199331e2a84033e20f963a84b93465b22d1501951e401448c7323ed2/odoo_addon_sentry-16.0.3.0.1-py3-none-any.whl
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaClient]: executing diffoscope
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KolejkaClient-0.1.202301191731-py3-none-any.whl.zip tmp/KolejkaClient-0.1.202307311426-py3-none-any.whl.zip --markdown 20230731/K/KolejkaClient/0.1.202301191731-0.1.202307311426/diff.md --exclude *.pyd
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaCommon]: Downloading https://files.pythonhosted.org/packages/3d/a4/aad3cd805fce3e445b13d2f5777af6a0ccbd6238ffe7535f6c49ee73a6e7/KolejkaCommon-0.1.202307311426-py3-none-any.whl
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaObserver]: Downloading https://files.pythonhosted.org/packages/8d/37/64ed2c8d1c123912c3dd85af4e9bd867a8d43b1a317d6e02ab90e6953962/KolejkaObserver-0.1.202307311426-py3-none-any.whl
+[2023-07-31 16:34:38] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/33/fd/ab1e82f0b8ab4c7e6f30c92135a88a4dff8a164768c68401129a7678bb5b/deepset_cloud_sdk-0.0.9.tar.gz
+[2023-07-31 16:34:38] INFO root fetch - processPackages [djangocms-aldryn-people]: Downloading https://files.pythonhosted.org/packages/93/0a/73116fb1b69f85bb3bd2e2fc480d00882b92ecd0986e4877f28eb3bb5ce8/djangocms-aldryn-people-3.0.1.tar.gz
+[2023-07-31 16:34:38] INFO root fetch - processPackages [kstreams]: Downloading https://files.pythonhosted.org/packages/62/9f/51bb919a10a681dae9c3fa7686fbdb1d017488a680b89797d87c871743e4/kstreams-0.9.1.tar.gz
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaForeman]: executing diffoscope
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaForeman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KolejkaForeman-0.1.202301191731-py3-none-any.whl.zip tmp/KolejkaForeman-0.1.202307311426-py3-none-any.whl.zip --markdown 20230731/K/KolejkaForeman/0.1.202301191731-0.1.202307311426/diff.md --exclude *.pyd
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaServer]: executing diffoscope
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KolejkaServer-0.1.202301191731-py3-none-any.whl.zip tmp/KolejkaServer-0.1.202307311426-py3-none-any.whl.zip --markdown 20230731/K/KolejkaServer/0.1.202301191731-0.1.202307311426/diff.md --exclude *.pyd
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaWorker]: executing diffoscope
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaWorker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KolejkaWorker-0.1.202301191731-py3-none-any.whl.zip tmp/KolejkaWorker-0.1.202307311426-py3-none-any.whl.zip --markdown 20230731/K/KolejkaWorker/0.1.202301191731-0.1.202307311426/diff.md --exclude *.pyd
+[2023-07-31 16:34:38] INFO root fetch - processPackages [odoo-addon-sentry]: executing diffoscope
+[2023-07-31 16:34:38] INFO root fetch - processPackages [odoo-addon-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sentry-16.0.3.0.0-py3-none-any.whl.zip tmp/odoo_addon_sentry-16.0.3.0.1-py3-none-any.whl.zip --markdown 20230731/o/odoo-addon-sentry/16.0.3.0.0-16.0.3.0.1/diff.md --exclude *.pyd
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaObserver]: executing diffoscope
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaObserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KolejkaObserver-0.1.202301191731-py3-none-any.whl.zip tmp/KolejkaObserver-0.1.202307311426-py3-none-any.whl.zip --markdown 20230731/K/KolejkaObserver/0.1.202301191731-0.1.202307311426/diff.md --exclude *.pyd
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaCommon]: executing diffoscope
+[2023-07-31 16:34:38] INFO root fetch - processPackages [KolejkaCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KolejkaCommon-0.1.202301191731-py3-none-any.whl.zip tmp/KolejkaCommon-0.1.202307311426-py3-none-any.whl.zip --markdown 20230731/K/KolejkaCommon/0.1.202301191731-0.1.202307311426/diff.md --exclude *.pyd
+[2023-07-31 16:34:38] INFO root fetch - processPackages [deepset-cloud-sdk]: executing diffoscope
+[2023-07-31 16:34:38] INFO root fetch - processPackages [deepset-cloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepset_cloud_sdk-0.0.8.tar.gz tmp/deepset_cloud_sdk-0.0.9.tar.gz --markdown 20230731/d/deepset-cloud-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 16:34:38] INFO root fetch - processPackages [djangocms-aldryn-people]: executing diffoscope
+[2023-07-31 16:34:38] INFO root fetch - processPackages [djangocms-aldryn-people]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-aldryn-people-3.0.0.tar.gz tmp/djangocms-aldryn-people-3.0.1.tar.gz --markdown 20230731/d/djangocms-aldryn-people/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-31 16:34:38] INFO root fetch - processPackages [kstreams]: executing diffoscope
+[2023-07-31 16:34:38] INFO root fetch - processPackages [kstreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kstreams-0.9.0.tar.gz tmp/kstreams-0.9.1.tar.gz --markdown 20230731/k/kstreams/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-31 16:34:39] INFO root fetch - processPackages [KolejkaClient]: Remove: archive file [/home/abi/fetcher/tmp/KolejkaClient-0.1.202301191731-py3-none-any.whl.zip]
+[2023-07-31 16:34:39] INFO root fetch - processPackages [KolejkaClient]: Remove: archive file [/home/abi/fetcher/tmp/KolejkaClient-0.1.202307311426-py3-none-any.whl.zip]
+[2023-07-31 16:34:39] INFO root fetch - processPackages [KolejkaClient]: Start processing: checkov
+[2023-07-31 16:34:39] INFO root fetch - main [MainThread]: End processing [KolejkaClient]: success
+[2023-07-31 16:34:39] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-31 16:34:39] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-31 16:34:39] INFO root fetch - processPackages [KolejkaForeman]: Remove: archive file [/home/abi/fetcher/tmp/KolejkaForeman-0.1.202301191731-py3-none-any.whl.zip]
+[2023-07-31 16:34:39] INFO root fetch - processPackages [KolejkaForeman]: Remove: archive file [/home/abi/fetcher/tmp/KolejkaForeman-0.1.202307311426-py3-none-any.whl.zip]
+[2023-07-31 16:34:39] INFO root fetch - processPackages [KolejkaForeman]: Start processing: snowflake-cli-labs
+[2023-07-31 16:34:39] INFO root fetch - main [MainThread]: End processing [KolejkaForeman]: success
+[2023-07-31 16:34:39] INFO root fetch - processPackages [KolejkaObserver]: Remove: archive file [/home/abi/fetcher/tmp/KolejkaObserver-0.1.202301191731-py3-none-any.whl.zip]
+[2023-07-31 16:34:39] INFO root fetch - processPackages [KolejkaObserver]: Remove: archive file [/home/abi/fetcher/tmp/KolejkaObserver-0.1.202307311426-py3-none-any.whl.zip]
+[2023-07-31 16:34:39] INFO root fetch - processPackages [KolejkaObserver]: Start processing: zhenglin
+[2023-07-31 16:34:39] INFO root fetch - main [MainThread]: End processing [KolejkaObserver]: success
+[2023-07-31 16:34:40] INFO root fetch - processPackages [zhenglin]: New version: [0.16.13] Old Version: [0.15.12]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [snowflake-cli-labs]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [KolejkaWorker]: Remove: archive file [/home/abi/fetcher/tmp/KolejkaWorker-0.1.202301191731-py3-none-any.whl.zip]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [KolejkaWorker]: Remove: archive file [/home/abi/fetcher/tmp/KolejkaWorker-0.1.202307311426-py3-none-any.whl.zip]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [KolejkaWorker]: Start processing: mwdb-core
+[2023-07-31 16:34:40] INFO root fetch - main [MainThread]: End processing [KolejkaWorker]: success
+[2023-07-31 16:34:40] INFO root fetch - processPackages [mwdb-core]: New version: [2.9.0] Old Version: [2.8.2]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [zhenglin]: Downloading https://files.pythonhosted.org/packages/af/64/6ea245131a74c1d614a0ee8c0b98b886279e0672c0027b526f74d6ac7886/zhenglin-0.15.12.tar.gz
+[2023-07-31 16:34:40] INFO root fetch - processPackages [odoo-addon-sentry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sentry-16.0.3.0.0-py3-none-any.whl.zip]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [odoo-addon-sentry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sentry-16.0.3.0.1-py3-none-any.whl.zip]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [odoo-addon-sentry]: Start processing: angmom-suite
+[2023-07-31 16:34:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-sentry]: success
+[2023-07-31 16:34:40] INFO root fetch - processPackages [kstreams]: Remove: archive file [/home/abi/fetcher/tmp/kstreams-0.9.0.tar.gz]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [kstreams]: Remove: archive file [/home/abi/fetcher/tmp/kstreams-0.9.1.tar.gz]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [kstreams]: Start processing: wfsx
+[2023-07-31 16:34:40] INFO root fetch - main [MainThread]: End processing [kstreams]: success
+[2023-07-31 16:34:40] INFO root fetch - processPackages [angmom-suite]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [KolejkaServer]: Remove: archive file [/home/abi/fetcher/tmp/KolejkaServer-0.1.202301191731-py3-none-any.whl.zip]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [KolejkaServer]: Remove: archive file [/home/abi/fetcher/tmp/KolejkaServer-0.1.202307311426-py3-none-any.whl.zip]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [KolejkaServer]: Start processing: pepperize.cdk-security-group
+[2023-07-31 16:34:40] INFO root fetch - main [MainThread]: End processing [KolejkaServer]: success
+[2023-07-31 16:34:40] INFO root fetch - processPackages [KolejkaCommon]: Remove: archive file [/home/abi/fetcher/tmp/KolejkaCommon-0.1.202301191731-py3-none-any.whl.zip]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [KolejkaCommon]: Remove: archive file [/home/abi/fetcher/tmp/KolejkaCommon-0.1.202307311426-py3-none-any.whl.zip]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [KolejkaCommon]: Start processing: caloutils
+[2023-07-31 16:34:40] INFO root fetch - main [MainThread]: End processing [KolejkaCommon]: success
+[2023-07-31 16:34:40] INFO root fetch - processPackages [deepset-cloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deepset_cloud_sdk-0.0.8.tar.gz]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [deepset-cloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deepset_cloud_sdk-0.0.9.tar.gz]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [deepset-cloud-sdk]: Start processing: merge-files
+[2023-07-31 16:34:40] INFO root fetch - main [MainThread]: End processing [deepset-cloud-sdk]: success
+[2023-07-31 16:34:40] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/5b/77/b077af23cb7eda57f0d97a7a6882fdfd8dcbaa594e24a74cb1d6f659bed2/snowflake_cli_labs-1.0.0.tar.gz
+[2023-07-31 16:34:40] INFO root fetch - processPackages [wfsx]: New version: [1.3] Old Version: [1.2]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [djangocms-aldryn-people]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-aldryn-people-3.0.0.tar.gz]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [djangocms-aldryn-people]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-aldryn-people-3.0.1.tar.gz]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [djangocms-aldryn-people]: Start processing: nonebot-plugin-blocker
+[2023-07-31 16:34:40] INFO root fetch - main [MainThread]: End processing [djangocms-aldryn-people]: success
+[2023-07-31 16:34:40] INFO root fetch - processPackages [mwdb-core]: Downloading https://files.pythonhosted.org/packages/4a/c5/43ca6c4a345e0e7ba65276cb286034eead0a03aa41b2a0fd0cffab314117/mwdb_core-2.8.2-py3-none-any.whl
+[2023-07-31 16:34:40] INFO root fetch - processPackages [merge-files]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-31 16:34:40] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [nonebot-plugin-blocker]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [caloutils]: New version: [0.0.8] Old Version: [0.0.3]
+[2023-07-31 16:34:40] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/0c/61/698f9619ad7ae1dda4e582a74dae0e7910c95d6910e49af840cd217ca385/angmom_suite-1.8.2.tar.gz
+[2023-07-31 16:34:40] INFO root fetch - processPackages [wfsx]: Downloading https://files.pythonhosted.org/packages/4f/0c/41f21f6b9030834a1e68de5fe965b549645379bf8ba1a7acea7ec5e0e42e/wfsx-1.2-py3-none-any.whl
+[2023-07-31 16:34:40] INFO root fetch - processPackages [merge-files]: Downloading https://files.pythonhosted.org/packages/11/31/6d422b8f032705b20a2a2c0a40544132a825c0d2d9b3796d4390a5d215f4/merge_files-0.1.5.tar.gz
+[2023-07-31 16:34:40] INFO root fetch - processPackages [zhenglin]: Downloading https://files.pythonhosted.org/packages/7b/31/05e47ca0b7e2dfb4be4fe5c91568c9cf3ee38c0e7e5308510712f00e793d/zhenglin-0.16.13.tar.gz
+[2023-07-31 16:34:40] INFO root fetch - processPackages [pepperize.cdk-security-group]: Downloading https://files.pythonhosted.org/packages/51/98/1c396781b2a6e81d75ff16359a412509fb0b2e194622172459fdd5a259e9/pepperize.cdk-security-group-0.0.98.tar.gz
+[2023-07-31 16:34:40] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-31 16:34:40] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230731/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-31 16:34:40] INFO root fetch - processPackages [nonebot-plugin-blocker]: Downloading https://files.pythonhosted.org/packages/65/37/4a0fe9d8d313f23d8520c4adb89f587bf95d02a656d727eda463fdc1b1a1/nonebot_plugin_blocker-0.3.3.tar.gz
+[2023-07-31 16:34:40] INFO root fetch - processPackages [zhenglin]: executing diffoscope
+[2023-07-31 16:34:40] INFO root fetch - processPackages [zhenglin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhenglin-0.15.12.tar.gz tmp/zhenglin-0.16.13.tar.gz --markdown 20230731/z/zhenglin/0.15.12-0.16.13/diff.md --exclude *.pyd
+[2023-07-31 16:34:40] INFO root fetch - processPackages [caloutils]: Downloading https://files.pythonhosted.org/packages/c7/21/0cac4735b739ecd157bcb6185aca3d91977482c6a4ab3ca8f9f0f1a4b191/caloutils-0.0.3.tar.gz
+[2023-07-31 16:34:40] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/20/a3/8f72e97bac4a1e676ec263f1e9430422fb41456f311591c482fe34a635d8/snowflake_cli_labs-1.0.1.tar.gz
+[2023-07-31 16:34:41] INFO root fetch - processPackages [wfsx]: Downloading https://files.pythonhosted.org/packages/d8/32/f2d3d384e5c131d56d322c278c112c18f6cfa360f185fbbc045069cbc658/wfsx-1.3-py3-none-any.whl
+[2023-07-31 16:34:41] INFO root fetch - processPackages [snowflake-cli-labs]: executing diffoscope
+[2023-07-31 16:34:41] INFO root fetch - processPackages [snowflake-cli-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_cli_labs-1.0.0.tar.gz tmp/snowflake_cli_labs-1.0.1.tar.gz --markdown 20230731/s/snowflake-cli-labs/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-31 16:34:41] INFO root fetch - processPackages [pepperize.cdk-security-group]: Downloading https://files.pythonhosted.org/packages/f9/44/84eb1aff085a41b99d2fbf0824481285bc3007b7c318e9a646a4802ce199/pepperize.cdk-security-group-0.0.99.tar.gz
+[2023-07-31 16:34:41] INFO root fetch - processPackages [mwdb-core]: Downloading https://files.pythonhosted.org/packages/e4/12/960ba5b829e55a892fcef9f6ef68721f8401735c3958c8b7a0713516c3f0/mwdb_core-2.9.0-py3-none-any.whl
+[2023-07-31 16:34:41] INFO root fetch - processPackages [merge-files]: Downloading https://files.pythonhosted.org/packages/78/47/c54263f38f4fda75715d017133a15f7f09dfdba3b9f7c6fbe05b8e542336/merge_files-0.1.6.tar.gz
+[2023-07-31 16:34:41] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/aa/f2/4b1999e91fe587a8c51098a142e94717915c29c1d2b7e5107e95bd5da4af/angmom_suite-1.9.0.tar.gz
+[2023-07-31 16:34:41] INFO root fetch - processPackages [nonebot-plugin-blocker]: Downloading https://files.pythonhosted.org/packages/6b/be/1c4ca21faa98dfb092f25212b303c6a3ff2022a472f0f284762a56f3ac84/nonebot_plugin_blocker-0.3.4.tar.gz
+[2023-07-31 16:34:41] INFO root fetch - processPackages [caloutils]: Downloading https://files.pythonhosted.org/packages/0d/1d/7db4d5e3c6144898baeffb5d0de5d782bab68517714971a4a95183c422c3/caloutils-0.0.8.tar.gz
+[2023-07-31 16:34:41] INFO root fetch - processPackages [wfsx]: executing diffoscope
+[2023-07-31 16:34:41] INFO root fetch - processPackages [wfsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wfsx-1.2-py3-none-any.whl.zip tmp/wfsx-1.3-py3-none-any.whl.zip --markdown 20230731/w/wfsx/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-31 16:34:41] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-07-31 16:34:41] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230731/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 16:34:41] INFO root fetch - processPackages [angmom-suite]: executing diffoscope
+[2023-07-31 16:34:41] INFO root fetch - processPackages [angmom-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angmom_suite-1.8.2.tar.gz tmp/angmom_suite-1.9.0.tar.gz --markdown 20230731/a/angmom-suite/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-31 16:34:41] INFO root fetch - processPackages [nonebot-plugin-blocker]: executing diffoscope
+[2023-07-31 16:34:41] INFO root fetch - processPackages [nonebot-plugin-blocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_blocker-0.3.3.tar.gz tmp/nonebot_plugin_blocker-0.3.4.tar.gz --markdown 20230731/n/nonebot-plugin-blocker/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-31 16:34:41] INFO root fetch - processPackages [merge-files]: executing diffoscope
+[2023-07-31 16:34:41] INFO root fetch - processPackages [merge-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merge_files-0.1.5.tar.gz tmp/merge_files-0.1.6.tar.gz --markdown 20230731/m/merge-files/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-31 16:34:41] INFO root fetch - processPackages [caloutils]: executing diffoscope
+[2023-07-31 16:34:41] INFO root fetch - processPackages [caloutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caloutils-0.0.3.tar.gz tmp/caloutils-0.0.8.tar.gz --markdown 20230731/c/caloutils/0.0.3-0.0.8/diff.md --exclude *.pyd
+[2023-07-31 16:34:41] INFO root fetch - processPackages [mwdb-core]: executing diffoscope
+[2023-07-31 16:34:41] INFO root fetch - processPackages [mwdb-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwdb_core-2.8.2-py3-none-any.whl.zip tmp/mwdb_core-2.9.0-py3-none-any.whl.zip --markdown 20230731/m/mwdb-core/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2023-07-31 16:34:43] INFO root fetch - processPackages [pepperize.cdk-security-group]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-security-group-0.0.98.tar.gz]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [pepperize.cdk-security-group]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-security-group-0.0.99.tar.gz]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [pepperize.cdk-security-group]: Start processing: dark-web-scraper
+[2023-07-31 16:34:43] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-07-31 16:34:43] INFO root fetch - processPackages [zhenglin]: Remove: archive file [/home/abi/fetcher/tmp/zhenglin-0.15.12.tar.gz]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [zhenglin]: Remove: archive file [/home/abi/fetcher/tmp/zhenglin-0.16.13.tar.gz]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [zhenglin]: Start processing: PyFlyt
+[2023-07-31 16:34:43] INFO root fetch - main [MainThread]: End processing [zhenglin]: success
+[2023-07-31 16:34:43] INFO root fetch - processPackages [nonebot-plugin-blocker]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_blocker-0.3.3.tar.gz]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [nonebot-plugin-blocker]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_blocker-0.3.4.tar.gz]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [nonebot-plugin-blocker]: Start processing: litellm
+[2023-07-31 16:34:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-blocker]: success
+[2023-07-31 16:34:43] INFO root fetch - processPackages [dark-web-scraper]: New version: [0.2] Old Version: [0.1]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [PyFlyt]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [litellm]: New version: [0.1.201] Old Version: [0.1.2]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.8.2.tar.gz]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.9.0.tar.gz]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [angmom-suite]: Start processing: DynamicForms
+[2023-07-31 16:34:43] INFO root fetch - main [MainThread]: End processing [angmom-suite]: success
+[2023-07-31 16:34:43] INFO root fetch - processPackages [DynamicForms]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [merge-files]: Remove: archive file [/home/abi/fetcher/tmp/merge_files-0.1.5.tar.gz]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [merge-files]: Remove: archive file [/home/abi/fetcher/tmp/merge_files-0.1.6.tar.gz]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [merge-files]: Start processing: titan-iris
+[2023-07-31 16:34:43] INFO root fetch - main [MainThread]: End processing [merge-files]: success
+[2023-07-31 16:34:43] INFO root fetch - processPackages [caloutils]: Remove: archive file [/home/abi/fetcher/tmp/caloutils-0.0.3.tar.gz]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [caloutils]: Remove: archive file [/home/abi/fetcher/tmp/caloutils-0.0.8.tar.gz]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [caloutils]: Start processing: django-daiquiri
+[2023-07-31 16:34:43] INFO root fetch - main [MainThread]: End processing [caloutils]: success
+[2023-07-31 16:34:43] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-1.0.0.tar.gz]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-1.0.1.tar.gz]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [snowflake-cli-labs]: Start processing: mozregression
+[2023-07-31 16:34:43] INFO root fetch - main [MainThread]: End processing [snowflake-cli-labs]: success
+[2023-07-31 16:34:43] INFO root fetch - processPackages [dark-web-scraper]: Downloading https://files.pythonhosted.org/packages/b6/86/a79b22b24b689e7ea72d153cccd82a7a5b0eaac7bac733f4545c146ffb81/dark_web_scraper-0.1-py3-none-any.whl
+[2023-07-31 16:34:43] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/da/65/a58ac237bdbaff01181226c942507222037c9492128850a96aa8e0e87afe/PyFlyt-0.9.4.tar.gz
+[2023-07-31 16:34:43] INFO root fetch - processPackages [django-daiquiri]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/50/8f/49bf0a3542d44212615b38ce34e47ce5b525789d7c06fade0a46cd4b86ff/litellm-0.1.2.tar.gz
+[2023-07-31 16:34:43] INFO root fetch - processPackages [mozregression]: New version: [5.7.1.dev0] Old Version: [5.7.0.dev3]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [wfsx]: Remove: archive file [/home/abi/fetcher/tmp/wfsx-1.2-py3-none-any.whl.zip]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [wfsx]: Remove: archive file [/home/abi/fetcher/tmp/wfsx-1.3-py3-none-any.whl.zip]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [wfsx]: Start processing: staticmap
+[2023-07-31 16:34:43] INFO root fetch - main [MainThread]: End processing [wfsx]: success
+[2023-07-31 16:34:43] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/c1/a3/a9391b0a0ba21940c726b8e676f919e072e53da35bfe6fdc30f6cd4976ed/DynamicForms-0.9.8.tar.gz
+[2023-07-31 16:34:43] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-07-31 16:34:43] INFO root fetch - processPackages [staticmap]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-31 16:34:43] INFO root fetch - processPackages [django-daiquiri]: Downloading https://files.pythonhosted.org/packages/bd/a4/c068eaeb4daee974df9b4229adee177bd4976a2b76f7d6938cb6b224138f/django-daiquiri-0.4.2.tar.gz
+[2023-07-31 16:34:43] INFO root fetch - processPackages [mozregression]: Downloading https://files.pythonhosted.org/packages/8d/be/b49c7eb95ea3d4bb80e13fdf24a026ef06ab073fe152b47a158516b8c6cd/mozregression-5.7.0.dev3.tar.gz
+[2023-07-31 16:34:43] INFO root fetch - processPackages [dark-web-scraper]: Downloading https://files.pythonhosted.org/packages/83/51/84d562c423c51b64e0b19991562d45a79aed31a80546ea156e9c6aede45d/dark_web_scraper-0.2.tar.gz
+[2023-07-31 16:34:43] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/b4/57/8a1fbdbd9df0426eecb1b94bd4f4c3ff235fadbeac9f621bd46cc3b31607/PyFlyt-0.9.5.tar.gz
+[2023-07-31 16:34:43] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/f0/66/607f36c2a054f09509ba46dceeed44998fc2d433964a5c26176d681ca9e6/litellm-0.1.201.tar.gz
+[2023-07-31 16:34:43] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-07-31 16:34:43] INFO root fetch - processPackages [staticmap]: Downloading https://files.pythonhosted.org/packages/45/39/d3cfbdbc4e7854646ae9ce3157099cca2b6d86d9743d922047e63e50961b/staticmap-0.5.5.tar.gz
+[2023-07-31 16:34:44] INFO root fetch - processPackages [dark-web-scraper]: executing diffoscope
+[2023-07-31 16:34:44] INFO root fetch - processPackages [dark-web-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark_web_scraper-0.1-py3-none-any.whl.zip tmp/dark_web_scraper-0.2.tar.gz --markdown 20230731/d/dark-web-scraper/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-31 16:34:44] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-07-31 16:34:44] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230731/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-07-31 16:34:44] INFO root fetch - processPackages [PyFlyt]: executing diffoscope
+[2023-07-31 16:34:44] INFO root fetch - processPackages [PyFlyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFlyt-0.9.4.tar.gz tmp/PyFlyt-0.9.5.tar.gz --markdown 20230731/P/PyFlyt/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-31 16:34:44] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-07-31 16:34:44] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.2.tar.gz tmp/litellm-0.1.201.tar.gz --markdown 20230731/l/litellm/0.1.2-0.1.201/diff.md --exclude *.pyd
+[2023-07-31 16:34:44] INFO root fetch - processPackages [django-daiquiri]: Downloading https://files.pythonhosted.org/packages/8b/d0/8affa01d86fe5582ccc1b8e4698d294b19ec02828215ad69a6e57b7c771a/django-daiquiri-0.4.3.tar.gz
+[2023-07-31 16:34:44] INFO root fetch - processPackages [mozregression]: Downloading https://files.pythonhosted.org/packages/d4/ad/410a1f2aa75a5fb7b92509b8bc582e10134be449892485307dc079e314f8/mozregression-5.7.1.dev0.tar.gz
+[2023-07-31 16:34:44] INFO root fetch - processPackages [staticmap]: Downloading https://files.pythonhosted.org/packages/b9/81/61b2886b55d91245ba53d27d82601d4a626540e031af47ab1cb98a06df92/staticmap-0.5.6-py3-none-any.whl
+[2023-07-31 16:34:44] INFO root fetch - processPackages [mozregression]: executing diffoscope
+[2023-07-31 16:34:44] INFO root fetch - processPackages [mozregression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozregression-5.7.0.dev3.tar.gz tmp/mozregression-5.7.1.dev0.tar.gz --markdown 20230731/m/mozregression/5.7.0.dev3-5.7.1.dev0/diff.md --exclude *.pyd
+[2023-07-31 16:34:44] INFO root fetch - processPackages [django-daiquiri]: executing diffoscope
+[2023-07-31 16:34:44] INFO root fetch - processPackages [django-daiquiri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-daiquiri-0.4.2.tar.gz tmp/django-daiquiri-0.4.3.tar.gz --markdown 20230731/d/django-daiquiri/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-31 16:34:44] INFO root fetch - processPackages [staticmap]: executing diffoscope
+[2023-07-31 16:34:44] INFO root fetch - processPackages [staticmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staticmap-0.5.5.tar.gz tmp/staticmap-0.5.6-py3-none-any.whl.zip --markdown 20230731/s/staticmap/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-31 16:34:44] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/17/92/2562c5f02d4953bc96c46e2b195343702ea6763233eceaed5091889f2ab8/DynamicForms-0.9.9.tar.gz
+[2023-07-31 16:34:45] INFO root fetch - processPackages [dark-web-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dark_web_scraper-0.1-py3-none-any.whl.zip]
+[2023-07-31 16:34:45] INFO root fetch - processPackages [dark-web-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dark_web_scraper-0.2.tar.gz]
+[2023-07-31 16:34:45] INFO root fetch - main [MainThread]: End processing [dark-web-scraper]: success
+[2023-07-31 16:34:45] INFO root fetch - processPackages [DynamicForms]: executing diffoscope
+[2023-07-31 16:34:45] INFO root fetch - processPackages [DynamicForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicForms-0.9.8.tar.gz tmp/DynamicForms-0.9.9.tar.gz --markdown 20230731/D/DynamicForms/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-31 16:34:45] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-07-31 16:34:45] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-07-31 16:34:45] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-07-31 16:34:45] INFO root fetch - processPackages [staticmap]: Remove: archive file [/home/abi/fetcher/tmp/staticmap-0.5.5.tar.gz]
+[2023-07-31 16:34:45] INFO root fetch - processPackages [staticmap]: Remove: archive file [/home/abi/fetcher/tmp/staticmap-0.5.6-py3-none-any.whl.zip]
+[2023-07-31 16:34:45] INFO root fetch - main [MainThread]: End processing [staticmap]: success
+[2023-07-31 16:34:45] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.2.tar.gz]
+[2023-07-31 16:34:45] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.201.tar.gz]
+[2023-07-31 16:34:45] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-07-31 16:34:45] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.9.4.tar.gz]
+[2023-07-31 16:34:45] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.9.5.tar.gz]
+[2023-07-31 16:34:45] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
+[2023-07-31 16:34:45] INFO root fetch - processPackages [mozregression]: Remove: archive file [/home/abi/fetcher/tmp/mozregression-5.7.0.dev3.tar.gz]
+[2023-07-31 16:34:45] INFO root fetch - processPackages [mozregression]: Remove: archive file [/home/abi/fetcher/tmp/mozregression-5.7.1.dev0.tar.gz]
+[2023-07-31 16:34:45] INFO root fetch - main [MainThread]: End processing [mozregression]: success
+[2023-07-31 16:34:47] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.8.tar.gz]
+[2023-07-31 16:34:47] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
+[2023-07-31 16:34:47] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
+[2023-07-31 16:34:48] INFO root fetch - processPackages [django-daiquiri]: Remove: archive file [/home/abi/fetcher/tmp/django-daiquiri-0.4.2.tar.gz]
+[2023-07-31 16:34:48] INFO root fetch - processPackages [django-daiquiri]: Remove: archive file [/home/abi/fetcher/tmp/django-daiquiri-0.4.3.tar.gz]
+[2023-07-31 16:34:48] INFO root fetch - main [MainThread]: End processing [django-daiquiri]: success
+[2023-07-31 16:34:56] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-31 16:34:56] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-31 16:34:56] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-31 16:35:09] INFO root fetch - processPackages [mwdb-core]: Remove: archive file [/home/abi/fetcher/tmp/mwdb_core-2.8.2-py3-none-any.whl.zip]
+[2023-07-31 16:35:09] INFO root fetch - processPackages [mwdb-core]: Remove: archive file [/home/abi/fetcher/tmp/mwdb_core-2.9.0-py3-none-any.whl.zip]
+[2023-07-31 16:35:09] INFO root fetch - main [MainThread]: End processing [mwdb-core]: success
+[2023-07-31 16:35:09] INFO root fetch - main [MainThread]: Store serial: [19108879]
