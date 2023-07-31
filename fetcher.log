@@ -6933,3 +6933,42 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 06:27:28] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.9.tar.gz]
 [2023-07-31 06:27:28] INFO root fetch - main [MainThread]: End processing [harpia]: success
 [2023-07-31 06:27:28] INFO root fetch - main [MainThread]: Store serial: [19102574]
+[2023-07-31 06:32:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19102574]
+[2023-07-31 06:32:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-31 06:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentiment-analyser-tagit
+[2023-07-31 06:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phap
+[2023-07-31 06:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2023-07-31 06:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decryptogame
+[2023-07-31 06:32:36] INFO root fetch - processPackages [sentiment-analyser-tagit]: New version: [0.8] Old Version: [0.7]
+[2023-07-31 06:32:36] INFO root fetch - processPackages [decryptogame]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-31 06:32:36] INFO root fetch - processPackages [decryptogame]: Downloading https://files.pythonhosted.org/packages/73/67/b20a7a6d839487604e72b4422b0bd7e4b98da9fcb6964962aaf02b8e3105/decryptogame-1.0.0.tar.gz
+[2023-07-31 06:32:36] INFO root fetch - processPackages [sentiment-analyser-tagit]: Downloading https://files.pythonhosted.org/packages/c8/27/a393bdd30cd2a5106671f636201aa86b8983333fccf60a4be8fa65df405d/sentiment_analyser_tagit-0.7.tar.gz
+[2023-07-31 06:32:36] INFO root fetch - processPackages [phap]: New version: [3.1.0rc1] Old Version: [3.1.0a5]
+[2023-07-31 06:32:36] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-31 06:32:37] INFO root fetch - processPackages [decryptogame]: Downloading https://files.pythonhosted.org/packages/a4/09/e5cfbee1689fdd82699c4e8907b5edc83d2fd61c8f91ea38c045d5093eaf/decryptogame-1.0.1.tar.gz
+[2023-07-31 06:32:37] INFO root fetch - processPackages [phap]: Downloading https://files.pythonhosted.org/packages/04/f1/db4ddd7cbfb4427863e01cf9a229ac5a6551dda093001cb7bc695f1b8d5e/phap-3.1.0a5.tar.gz
+[2023-07-31 06:32:37] INFO root fetch - processPackages [decryptogame]: executing diffoscope
+[2023-07-31 06:32:37] INFO root fetch - processPackages [decryptogame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decryptogame-1.0.0.tar.gz tmp/decryptogame-1.0.1.tar.gz --markdown 20230731/d/decryptogame/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-31 06:32:37] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-31 06:32:37] INFO root fetch - processPackages [sentiment-analyser-tagit]: Downloading https://files.pythonhosted.org/packages/fa/81/6a1807afe58e54af4820746e81eba5cf728085edf34efa5e01b67dda71dd/sentiment_analyser_tagit-0.8.tar.gz
+[2023-07-31 06:32:37] INFO root fetch - processPackages [sentiment-analyser-tagit]: executing diffoscope
+[2023-07-31 06:32:37] INFO root fetch - processPackages [sentiment-analyser-tagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analyser_tagit-0.7.tar.gz tmp/sentiment_analyser_tagit-0.8.tar.gz --markdown 20230731/s/sentiment-analyser-tagit/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-31 06:32:37] INFO root fetch - processPackages [phap]: Downloading https://files.pythonhosted.org/packages/af/8f/e13736d4ade12dc92dbefa8238825de69a3de883742390d7ef4117b92cc9/phap-3.1.0rc1.tar.gz
+[2023-07-31 06:32:37] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-31 06:32:37] INFO root fetch - processPackages [phap]: executing diffoscope
+[2023-07-31 06:32:37] INFO root fetch - processPackages [phap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phap-3.1.0a5.tar.gz tmp/phap-3.1.0rc1.tar.gz --markdown 20230731/p/phap/3.1.0a5-3.1.0rc1/diff.md --exclude *.pyd
+[2023-07-31 06:32:37] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-31 06:32:37] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230731/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-31 06:32:38] INFO root fetch - processPackages [decryptogame]: Remove: archive file [/home/abi/fetcher/tmp/decryptogame-1.0.0.tar.gz]
+[2023-07-31 06:32:38] INFO root fetch - processPackages [decryptogame]: Remove: archive file [/home/abi/fetcher/tmp/decryptogame-1.0.1.tar.gz]
+[2023-07-31 06:32:38] INFO root fetch - main [MainThread]: End processing [decryptogame]: success
+[2023-07-31 06:32:38] INFO root fetch - processPackages [sentiment-analyser-tagit]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analyser_tagit-0.7.tar.gz]
+[2023-07-31 06:32:38] INFO root fetch - processPackages [sentiment-analyser-tagit]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analyser_tagit-0.8.tar.gz]
+[2023-07-31 06:32:38] INFO root fetch - main [MainThread]: End processing [sentiment-analyser-tagit]: success
+[2023-07-31 06:32:38] INFO root fetch - processPackages [phap]: Remove: archive file [/home/abi/fetcher/tmp/phap-3.1.0a5.tar.gz]
+[2023-07-31 06:32:38] INFO root fetch - processPackages [phap]: Remove: archive file [/home/abi/fetcher/tmp/phap-3.1.0rc1.tar.gz]
+[2023-07-31 06:32:38] INFO root fetch - main [MainThread]: End processing [phap]: success
+[2023-07-31 06:32:40] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-31 06:32:40] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-31 06:32:40] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-31 06:32:40] INFO root fetch - main [MainThread]: Store serial: [19102586]
