@@ -4805,3 +4805,110 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 03:35:18] INFO root fetch - processPackages [py3afipws]: Remove: archive file [/home/abi/fetcher/tmp/py3afipws-0.9.tar.gz]
 [2023-07-31 03:35:18] INFO root fetch - main [MainThread]: End processing [py3afipws]: success
 [2023-07-31 03:35:18] INFO root fetch - main [MainThread]: Store serial: [19101680]
+[2023-07-31 03:40:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19101680]
+[2023-07-31 03:40:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-31 03:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nncase
+[2023-07-31 03:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pandas
+[2023-07-31 03:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geemap
+[2023-07-31 03:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ritm-annotation
+[2023-07-31 03:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pytorch
+[2023-07-31 03:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fileformats
+[2023-07-31 03:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: our1314
+[2023-07-31 03:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lego-image-converter
+[2023-07-31 03:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-organizations
+[2023-07-31 03:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-scipy
+[2023-07-31 03:40:27] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 03:40:27] INFO root fetch - processPackages [lego-image-converter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 03:40:27] INFO root fetch - processPackages [nncase]: New version: [2.2.0.20230728] Old Version: [2.1.1.20230721]
+[2023-07-31 03:40:27] INFO root fetch - processPackages [ritm-annotation]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-31 03:40:27] INFO root fetch - processPackages [our1314]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 03:40:27] INFO root fetch - processPackages [fileformats]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-31 03:40:27] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 03:40:27] INFO root fetch - processPackages [geemap]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-31 03:40:27] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 03:40:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-31 03:40:27] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-31 03:40:27] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-31 03:40:27] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/dd/4b/fb5c04b974e954182b3b8adc3e38e4ac4deefd1c4e9afd25ee21a6fd4dd7/our1314-0.1.8.tar.gz
+[2023-07-31 03:40:27] INFO root fetch - processPackages [lego-image-converter]: Downloading https://files.pythonhosted.org/packages/7d/e7/3222d1b4496a9cc9fd7c8660aaeca313ba8a300742b12b43b114e1f17ca9/lego_image_converter-0.0.2.tar.gz
+[2023-07-31 03:40:27] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-31 03:40:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-31 03:40:28] INFO root fetch - processPackages [ritm-annotation]: Downloading https://files.pythonhosted.org/packages/39/54/90400b0507abeb08c996a6d631877e255a0292565bdde2fff2dd4c993bcb/ritm_annotation-0.0.5.tar.gz
+[2023-07-31 03:40:28] INFO root fetch - processPackages [nncase]: Downloading https://files.pythonhosted.org/packages/33/84/a834ae0b4d40c66cda7e858afd5baa8e442b2eecf203c37594f9c841abb8/nncase-2.1.1.20230721-cp39-cp39-win_amd64.whl
+[2023-07-31 03:40:28] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/d1/84/6bbed9024080a5e3e118ee7e9e96d9a59b1b031af9e07387406460cfabd2/fileformats-0.8.1.tar.gz
+[2023-07-31 03:40:28] INFO root fetch - processPackages [geemap]: Downloading https://files.pythonhosted.org/packages/21/6e/5898075af0a4f152ce0b4ef0db8767cefbddd5b8df12dd72816394caa45d/geemap-0.9.4.tar.gz
+[2023-07-31 03:40:28] WARNING root fetch - processPackages [nncase]: Skipping package: exceeds size limit 19228969>=10485760
+[2023-07-31 03:40:28] INFO root fetch - processPackages [nncase]: Start processing: nncase-kpu
+[2023-07-31 03:40:28] INFO root fetch - main [MainThread]: End processing [nncase] error
+[2023-07-31 03:40:28] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-31 03:40:28] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-31 03:40:28] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/a5/2d/20df8e686de75225e2e8d244304dff78378aaf46c98f0a3357d326fe7000/our1314-0.1.9.tar.gz
+[2023-07-31 03:40:28] INFO root fetch - processPackages [nncase-kpu]: New version: [2.2.0.20230728] Old Version: [2.1.1.20230721]
+[2023-07-31 03:40:28] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-31 03:40:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-31 03:40:28] INFO root fetch - processPackages [lego-image-converter]: Downloading https://files.pythonhosted.org/packages/b4/82/2110826ebaf85b3641b7496628b73fefe2d8686701e4078039a097b9637e/lego_image_converter-0.0.3.tar.gz
+[2023-07-31 03:40:28] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-31 03:40:28] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230731/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 03:40:28] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-07-31 03:40:28] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.1.8.tar.gz tmp/our1314-0.1.9.tar.gz --markdown 20230731/o/our1314/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 03:40:28] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-31 03:40:28] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230731/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 03:40:28] INFO root fetch - processPackages [ritm-annotation]: Downloading https://files.pythonhosted.org/packages/a8/fc/65bb79ad16fa559742d0ba1fe9218edff5c2eaa2ce55048bcfc71cbb925d/ritm_annotation-0.0.6.tar.gz
+[2023-07-31 03:40:28] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-31 03:40:28] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230731/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 03:40:28] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/79/bb/3cb5c0f882742d35312c7c9e6744380548148e25c61bd32a2648b4258cf0/fileformats-0.8.2.tar.gz
+[2023-07-31 03:40:28] INFO root fetch - processPackages [lego-image-converter]: executing diffoscope
+[2023-07-31 03:40:28] INFO root fetch - processPackages [lego-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lego_image_converter-0.0.2.tar.gz tmp/lego_image_converter-0.0.3.tar.gz --markdown 20230731/l/lego-image-converter/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-31 03:40:28] INFO root fetch - processPackages [nncase-kpu]: Downloading https://files.pythonhosted.org/packages/0a/2c/c4de4139674e746e0421f50075a13ecd6c47f164414353e99f50d06e5bee/nncase_kpu-2.1.1.20230721-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-31 03:40:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-31 03:40:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230731/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-31 03:40:28] INFO root fetch - processPackages [ritm-annotation]: executing diffoscope
+[2023-07-31 03:40:28] INFO root fetch - processPackages [ritm-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ritm_annotation-0.0.5.tar.gz tmp/ritm_annotation-0.0.6.tar.gz --markdown 20230731/r/ritm-annotation/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-31 03:40:28] INFO root fetch - processPackages [geemap]: Downloading https://files.pythonhosted.org/packages/f3/0f/46be1c7fd40f4c083db73c113c1fe2026351af6892514fbe4303a371b938/geemap-0.9.5.tar.gz
+[2023-07-31 03:40:28] INFO root fetch - processPackages [fileformats]: executing diffoscope
+[2023-07-31 03:40:28] INFO root fetch - processPackages [fileformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats-0.8.1.tar.gz tmp/fileformats-0.8.2.tar.gz --markdown 20230731/f/fileformats/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-31 03:40:29] INFO root fetch - processPackages [geemap]: executing diffoscope
+[2023-07-31 03:40:29] INFO root fetch - processPackages [geemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geemap-0.9.4.tar.gz tmp/geemap-0.9.5.tar.gz --markdown 20230731/g/geemap/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-31 03:40:29] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-31 03:40:29] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-31 03:40:29] INFO root fetch - processPackages [nbdev-pandas]: Start processing: nbdev-sphinx
+[2023-07-31 03:40:29] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-31 03:40:29] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-31 03:40:29] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.8.tar.gz]
+[2023-07-31 03:40:29] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.9.tar.gz]
+[2023-07-31 03:40:29] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-07-31 03:40:30] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-31 03:40:30] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-31 03:40:30] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-31 03:40:30] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-31 03:40:30] INFO root fetch - processPackages [nncase-kpu]: Downloading https://files.pythonhosted.org/packages/60/56/fedf3b3487119234fea28517f5abcc508518436d60aeb40c65ceb8dfeaea/nncase_kpu-2.2.0.20230728-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-31 03:40:30] INFO root fetch - processPackages [lego-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/lego_image_converter-0.0.2.tar.gz]
+[2023-07-31 03:40:30] INFO root fetch - processPackages [lego-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/lego_image_converter-0.0.3.tar.gz]
+[2023-07-31 03:40:30] INFO root fetch - main [MainThread]: End processing [lego-image-converter]: success
+[2023-07-31 03:40:30] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-31 03:40:30] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-31 03:40:30] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-31 03:40:30] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-31 03:40:30] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-31 03:40:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-31 03:40:30] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-31 03:40:30] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.8.1.tar.gz]
+[2023-07-31 03:40:30] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.8.2.tar.gz]
+[2023-07-31 03:40:30] INFO root fetch - main [MainThread]: End processing [fileformats]: success
+[2023-07-31 03:40:30] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-31 03:40:30] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230731/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-31 03:40:30] INFO root fetch - processPackages [nncase-kpu]: executing diffoscope
+[2023-07-31 03:40:30] INFO root fetch - processPackages [nncase-kpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nncase_kpu-2.1.1.20230721-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nncase_kpu-2.2.0.20230728-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230731/n/nncase-kpu/2.1.1.20230721-2.2.0.20230728/diff.md --exclude *.pyd
+[2023-07-31 03:40:30] INFO root fetch - processPackages [ritm-annotation]: Remove: archive file [/home/abi/fetcher/tmp/ritm_annotation-0.0.5.tar.gz]
+[2023-07-31 03:40:30] INFO root fetch - processPackages [ritm-annotation]: Remove: archive file [/home/abi/fetcher/tmp/ritm_annotation-0.0.6.tar.gz]
+[2023-07-31 03:40:30] INFO root fetch - main [MainThread]: End processing [ritm-annotation]: success
+[2023-07-31 03:40:31] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.4.tar.gz]
+[2023-07-31 03:40:31] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.5.tar.gz]
+[2023-07-31 03:40:31] INFO root fetch - main [MainThread]: End processing [geemap]: success
+[2023-07-31 03:40:31] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-31 03:40:31] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-31 03:40:31] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-31 03:40:32] INFO root fetch - processPackages [nncase-kpu]: Remove: archive file [/home/abi/fetcher/tmp/nncase_kpu-2.1.1.20230721-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-31 03:40:32] INFO root fetch - processPackages [nncase-kpu]: Remove: archive file [/home/abi/fetcher/tmp/nncase_kpu-2.2.0.20230728-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-31 03:40:32] INFO root fetch - main [MainThread]: End processing [nncase-kpu]: success
+[2023-07-31 03:40:32] INFO root fetch - main [MainThread]: Store serial: [19101724]
