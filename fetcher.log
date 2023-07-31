@@ -9838,3 +9838,112 @@ AssertionError: tmp/newPassword-1.1.7.7.tar.gz does not exist
 [2023-07-31 09:20:31] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
 [2023-07-31 09:20:31] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
 [2023-07-31 09:20:31] INFO root fetch - main [MainThread]: Store serial: [19103936]
+[2023-07-31 09:25:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19103936]
+[2023-07-31 09:25:39] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-31 09:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-ssi-account-statement-import
+[2023-07-31 09:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ssi-account-move-line-day-overdue
+[2023-07-31 09:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-ssi-account-move-py3o-report
+[2023-07-31 09:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-account-move-sequence
+[2023-07-31 09:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-account-create-liquidity-journal
+[2023-07-31 09:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-account-type-active
+[2023-07-31 09:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: email-extractor-unicode
+[2023-07-31 09:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: our1314
+[2023-07-31 09:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eventix
+[2023-07-31 09:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iqrfpy
+[2023-07-31 09:25:39] WARNING root fetch - processPackages [email-extractor-unicode]: Skipping, unable to determine old version
+[2023-07-31 09:25:39] INFO root fetch - processPackages [email-extractor-unicode]: Start processing: feynpy
+[2023-07-31 09:25:39] INFO root fetch - main [MainThread]: End processing [email-extractor-unicode] error
+[2023-07-31 09:25:39] WARNING root fetch - processPackages [odoo14-addon-ssi-account-move-line-day-overdue]: Skipping, unable to determine old version
+[2023-07-31 09:25:39] INFO root fetch - processPackages [odoo14-addon-ssi-account-move-line-day-overdue]: Start processing: prometrix
+[2023-07-31 09:25:39] WARNING root fetch - processPackages [odoo14-addon-ssi-account-move-py3o-report]: Skipping, unable to determine old version
+[2023-07-31 09:25:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-account-move-line-day-overdue] error
+[2023-07-31 09:25:39] INFO root fetch - processPackages [odoo14-addon-ssi-account-move-py3o-report]: Start processing: vanoma-api-utils
+[2023-07-31 09:25:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-account-move-py3o-report] error
+[2023-07-31 09:25:39] INFO root fetch - processPackages [our1314]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 09:25:39] WARNING root fetch - processPackages [odoo14-addon-ssi-account-create-liquidity-journal]: Skipping, unable to determine old version
+[2023-07-31 09:25:39] INFO root fetch - processPackages [odoo14-addon-ssi-account-create-liquidity-journal]: Start processing: chik-blockchain
+[2023-07-31 09:25:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-account-create-liquidity-journal] error
+[2023-07-31 09:25:39] WARNING root fetch - processPackages [odoo14-addon-ssi-account-type-active]: Skipping, unable to determine old version
+[2023-07-31 09:25:39] INFO root fetch - processPackages [odoo14-addon-ssi-account-type-active]: Start processing: sdkit
+[2023-07-31 09:25:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-account-type-active] error
+[2023-07-31 09:25:39] WARNING root fetch - processPackages [odoo14-addon-ssi-account-statement-import]: Skipping, unable to determine old version
+[2023-07-31 09:25:39] INFO root fetch - processPackages [odoo14-addon-ssi-account-statement-import]: Start processing: aliyun-python-sdk-dts
+[2023-07-31 09:25:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-account-statement-import] error
+[2023-07-31 09:25:39] INFO root fetch - processPackages [eventix]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-31 09:25:39] WARNING root fetch - processPackages [feynpy]: Skipping, unable to determine old version
+[2023-07-31 09:25:39] INFO root fetch - processPackages [feynpy]: Start processing: openxlab-dev
+[2023-07-31 09:25:39] INFO root fetch - main [MainThread]: End processing [feynpy] error
+[2023-07-31 09:25:39] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-31 09:25:39] WARNING root fetch - processPackages [odoo14-addon-ssi-account-move-sequence]: Skipping, unable to determine old version
+[2023-07-31 09:25:39] INFO root fetch - processPackages [chik-blockchain]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-07-31 09:25:39] INFO root fetch - processPackages [odoo14-addon-ssi-account-move-sequence]: Start processing: opencone
+[2023-07-31 09:25:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-account-move-sequence] error
+[2023-07-31 09:25:39] INFO root fetch - processPackages [aliyun-python-sdk-dts]: New version: [5.1.9] Old Version: [5.1.8]
+[2023-07-31 09:25:40] INFO root fetch - processPackages [prometrix]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-31 09:25:40] INFO root fetch - processPackages [vanoma-api-utils]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-31 09:25:40] INFO root fetch - processPackages [openxlab-dev]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-31 09:25:40] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/dd/4b/fb5c04b974e954182b3b8adc3e38e4ac4deefd1c4e9afd25ee21a6fd4dd7/our1314-0.1.8.tar.gz
+[2023-07-31 09:25:40] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-31 09:25:40] INFO root fetch - processPackages [chik-blockchain]: Downloading https://files.pythonhosted.org/packages/ef/ce/ce9d0013b537f742cfc9b78e727d92d1227c41a7f22e8bc2c658189aaaa3/chik-blockchain-1.8.4.tar.gz
+[2023-07-31 09:25:40] INFO root fetch - processPackages [opencone]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-31 09:25:40] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/60/e3/dfbc45d79cf31c56a7ea080e03997833ef4156e2e9c6468fccc7dd9c6825/eventix-0.9.0.tar.gz
+[2023-07-31 09:25:40] INFO root fetch - processPackages [aliyun-python-sdk-dts]: Downloading https://files.pythonhosted.org/packages/1c/1f/1074b54355d5aef9b6a0e23998334ebbc432ca30552bfb04f332d047c1bd/aliyun-python-sdk-dts-5.1.8.tar.gz
+[2023-07-31 09:25:40] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-07-31 09:25:40] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-31 09:25:40] INFO root fetch - processPackages [prometrix]: Downloading https://files.pythonhosted.org/packages/cd/df/458c5e8194f9549e937efb203ac43c1cc518a6f884f4341f9293dc196dfe/prometrix-0.1.4.tar.gz
+[2023-07-31 09:25:40] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/7c/9e/f73ed404ce9e60981ee448d39e3b055e19b228be2cfd51966458fc8cdfa4/vanoma_api_utils-0.98.0.tar.gz
+[2023-07-31 09:25:40] INFO root fetch - processPackages [openxlab-dev]: Downloading https://files.pythonhosted.org/packages/d2/c7/6884d56113e91ba750ae33da49ff497ded6ea5b9c00fd935dc0ffb6a9631/openxlab_dev-0.0.3.tar.gz
+[2023-07-31 09:25:40] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/a5/2d/20df8e686de75225e2e8d244304dff78378aaf46c98f0a3357d326fe7000/our1314-0.1.9.tar.gz
+[2023-07-31 09:25:40] WARNING root fetch - processPackages [openxlab-dev]: Skipping package: exceeds size limit 22361678>=10485760
+[2023-07-31 09:25:40] INFO root fetch - main [MainThread]: End processing [openxlab-dev] error
+[2023-07-31 09:25:40] INFO root fetch - processPackages [opencone]: Downloading https://files.pythonhosted.org/packages/78/b5/462930b3311312eacc0c90eaf21e6bb2d641842dfbbf3457d60a44a8c221/opencone-0.0.2.tar.gz
+[2023-07-31 09:25:40] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-07-31 09:25:40] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.1.8.tar.gz tmp/our1314-0.1.9.tar.gz --markdown 20230731/o/our1314/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 09:25:40] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-31 09:25:40] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/e7/4b/3df1b8f7d72250a5b9b7f4a94bb094bd00c5f1092e89e5a6bef1198e957e/eventix-0.9.1.tar.gz
+[2023-07-31 09:25:40] INFO root fetch - processPackages [prometrix]: Downloading https://files.pythonhosted.org/packages/b2/32/6ea94da3bc2d6e9ed22c961297b2c7d4ce2853c7bf2f5710b7f4952e468b/prometrix-0.1.5.tar.gz
+[2023-07-31 09:25:40] INFO root fetch - processPackages [chik-blockchain]: Downloading https://files.pythonhosted.org/packages/d5/ef/1313c97c71d50c3cf2bf95d6e9d829eab89b7c44b3660f11caa944d6379d/chik-blockchain-1.8.5.tar.gz
+[2023-07-31 09:25:40] INFO root fetch - processPackages [aliyun-python-sdk-dts]: Downloading https://files.pythonhosted.org/packages/7f/78/86ddfa771b45861393f3b45671a1e183017fb0d367d5777b900fb6244ec9/aliyun-python-sdk-dts-5.1.9.tar.gz
+[2023-07-31 09:25:40] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-31 09:25:40] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230731/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-31 09:25:41] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/08/33/b2d796eb02aac48a38a8cbb3ef3703b06b26cd09727f065036201b3e7aef/vanoma_api_utils-0.99.0.tar.gz
+[2023-07-31 09:25:41] INFO root fetch - processPackages [eventix]: executing diffoscope
+[2023-07-31 09:25:41] INFO root fetch - processPackages [eventix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventix-0.9.0.tar.gz tmp/eventix-0.9.1.tar.gz --markdown 20230731/e/eventix/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-31 09:25:41] INFO root fetch - processPackages [aliyun-python-sdk-dts]: executing diffoscope
+[2023-07-31 09:25:41] INFO root fetch - processPackages [aliyun-python-sdk-dts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dts-5.1.8.tar.gz tmp/aliyun-python-sdk-dts-5.1.9.tar.gz --markdown 20230731/a/aliyun-python-sdk-dts/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2023-07-31 09:25:41] WARNING root fetch - processPackages [opencone]: Skipping package: exceeds size limit 36224897>=10485760
+[2023-07-31 09:25:41] INFO root fetch - main [MainThread]: End processing [opencone] error
+[2023-07-31 09:25:41] INFO root fetch - processPackages [prometrix]: executing diffoscope
+[2023-07-31 09:25:41] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-07-31 09:25:41] INFO root fetch - processPackages [prometrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometrix-0.1.4.tar.gz tmp/prometrix-0.1.5.tar.gz --markdown 20230731/p/prometrix/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-31 09:25:41] INFO root fetch - processPackages [vanoma-api-utils]: executing diffoscope
+[2023-07-31 09:25:41] INFO root fetch - processPackages [vanoma-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanoma_api_utils-0.98.0.tar.gz tmp/vanoma_api_utils-0.99.0.tar.gz --markdown 20230731/v/vanoma-api-utils/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-31 09:25:41] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-07-31 09:25:41] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230731/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-31 09:25:41] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.8.tar.gz]
+[2023-07-31 09:25:41] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.9.tar.gz]
+[2023-07-31 09:25:41] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-07-31 09:25:41] INFO root fetch - processPackages [chik-blockchain]: executing diffoscope
+[2023-07-31 09:25:41] INFO root fetch - processPackages [chik-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chik-blockchain-1.8.4.tar.gz tmp/chik-blockchain-1.8.5.tar.gz --markdown 20230731/c/chik-blockchain/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-07-31 09:25:42] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.9.0.tar.gz]
+[2023-07-31 09:25:42] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.9.1.tar.gz]
+[2023-07-31 09:25:42] INFO root fetch - main [MainThread]: End processing [eventix]: success
+[2023-07-31 09:25:42] INFO root fetch - processPackages [prometrix]: Remove: archive file [/home/abi/fetcher/tmp/prometrix-0.1.4.tar.gz]
+[2023-07-31 09:25:42] INFO root fetch - processPackages [prometrix]: Remove: archive file [/home/abi/fetcher/tmp/prometrix-0.1.5.tar.gz]
+[2023-07-31 09:25:42] INFO root fetch - main [MainThread]: End processing [prometrix]: success
+[2023-07-31 09:25:42] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-31 09:25:42] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-31 09:25:42] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-31 09:25:42] INFO root fetch - processPackages [vanoma-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/vanoma_api_utils-0.98.0.tar.gz]
+[2023-07-31 09:25:42] INFO root fetch - processPackages [vanoma-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/vanoma_api_utils-0.99.0.tar.gz]
+[2023-07-31 09:25:42] INFO root fetch - main [MainThread]: End processing [vanoma-api-utils]: success
+[2023-07-31 09:25:42] INFO root fetch - processPackages [aliyun-python-sdk-dts]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dts-5.1.8.tar.gz]
+[2023-07-31 09:25:42] INFO root fetch - processPackages [aliyun-python-sdk-dts]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dts-5.1.9.tar.gz]
+[2023-07-31 09:25:42] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dts]: success
+[2023-07-31 09:25:42] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.8.tar.gz]
+[2023-07-31 09:25:42] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
+[2023-07-31 09:25:42] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-07-31 09:25:48] INFO root fetch - processPackages [chik-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chik-blockchain-1.8.4.tar.gz]
+[2023-07-31 09:25:48] INFO root fetch - processPackages [chik-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chik-blockchain-1.8.5.tar.gz]
+[2023-07-31 09:25:48] INFO root fetch - main [MainThread]: End processing [chik-blockchain]: success
+[2023-07-31 09:25:48] INFO root fetch - main [MainThread]: Store serial: [19103998]
