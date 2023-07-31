@@ -22718,3 +22718,228 @@ AssertionError: tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.z
 [2023-07-31 16:52:53] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2023-07-31 16:52:53] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2023-07-31 16:52:53] INFO root fetch - main [MainThread]: Store serial: [19109011]
+[2023-07-31 16:57:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19109011]
+[2023-07-31 16:58:02] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-07-31 16:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: numpy
+[2023-07-31 16:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poexcel
+[2023-07-31 16:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assisted-service-client
+[2023-07-31 16:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: digimat.bac0
+[2023-07-31 16:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdxg
+[2023-07-31 16:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gauge-api-steps
+[2023-07-31 16:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: attr-utils
+[2023-07-31 16:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plone.app.multilingual
+[2023-07-31 16:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rebelai
+[2023-07-31 16:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ragger
+[2023-07-31 16:58:03] INFO root fetch - processPackages [rebelai]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-31 16:58:03] INFO root fetch - processPackages [poexcel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 16:58:03] INFO root fetch - processPackages [cdxg]: New version: [1.3] Old Version: [1.2]
+[2023-07-31 16:58:03] WARNING root fetch - processPackages [gauge-api-steps]: Skipping, unable to determine old version
+[2023-07-31 16:58:03] INFO root fetch - processPackages [gauge-api-steps]: Start processing: feagi-agent-video-capture
+[2023-07-31 16:58:03] INFO root fetch - main [MainThread]: End processing [gauge-api-steps] error
+[2023-07-31 16:58:03] INFO root fetch - processPackages [attr-utils]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-31 16:58:03] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-31 16:58:03] INFO root fetch - processPackages [numpy]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-31 16:58:03] INFO root fetch - processPackages [ragger]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-31 16:58:03] INFO root fetch - processPackages [plone.app.multilingual]: New version: [8.0.0] Old Version: [7.0.2]
+[2023-07-31 16:58:03] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-31 16:58:03] WARNING root fetch - processPackages [feagi-agent-video-capture]: Skipping, unable to determine old version
+[2023-07-31 16:58:03] INFO root fetch - processPackages [feagi-agent-video-capture]: Start processing: qoa4ml
+[2023-07-31 16:58:03] INFO root fetch - main [MainThread]: End processing [feagi-agent-video-capture] error
+[2023-07-31 16:58:03] INFO root fetch - processPackages [rebelai]: Downloading https://files.pythonhosted.org/packages/b6/fb/57dfc8da8aa0381e9afacf8e51ad5b6d2566902219a016beed5c727096f1/rebelai-1.0.2-py2.py3-none-any.whl
+[2023-07-31 16:58:03] INFO root fetch - processPackages [poexcel]: Downloading https://files.pythonhosted.org/packages/2d/32/3ef194abee92abb7e69e2902ec30e72d906c542136fe93fc653bbce07601/poexcel-0.0.8.tar.gz
+[2023-07-31 16:58:03] INFO root fetch - processPackages [qoa4ml]: New version: [0.0.90] Old Version: [0.0.9]
+[2023-07-31 16:58:03] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-31 16:58:03] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/82/04/82bc3bf0c47a6f88a45e1b5604b67e6f9d9d9068f3a4713025a7590f00e8/ragger-1.9.1.tar.gz
+[2023-07-31 16:58:03] INFO root fetch - processPackages [cdxg]: Downloading https://files.pythonhosted.org/packages/b2/e0/44a3719284533126b9ba5d7c4d560b4e7416e703c96d0c91c4da445e0ec0/cdxg-1.2-py3-none-any.whl
+[2023-07-31 16:58:03] INFO root fetch - processPackages [attr-utils]: Downloading https://files.pythonhosted.org/packages/ae/41/86634c4883ee7527ad6f8b4c2c53205243158292d00fd8123e48a007af1d/attr_utils-0.8.1.tar.gz
+[2023-07-31 16:58:03] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/0c/01/118d11594cadd27f432673733bcdd3696a16233bffeac49f779a2ff835f8/qoa4ml-0.0.9.tar.gz
+[2023-07-31 16:58:03] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-31 16:58:03] INFO root fetch - processPackages [plone.app.multilingual]: Downloading https://files.pythonhosted.org/packages/13/f8/f27beffbfe0d3ecb686078267d647b635329e7cf06f8e9769dc765442850/plone.app.multilingual-7.0.2.tar.gz
+[2023-07-31 16:58:03] INFO root fetch - processPackages [numpy]: Downloading https://files.pythonhosted.org/packages/bb/b1/5a87c6cc7ab5201ad0552a5f84e194f822693ea59b0b97dc77a18f04554a/numpy-1.9.2.zip
+[2023-07-31 16:58:03] INFO root fetch - processPackages [rebelai]: Downloading https://files.pythonhosted.org/packages/4c/ef/1e37190d4d265f8fae5fa9873f3b44cea9759a0701f5b37e6b0faf2dbfac/rebelai-1.1.0-py2.py3-none-any.whl
+[2023-07-31 16:58:03] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/55/ac/75fc7e94a713ed26019e36497774d89d7eaa377fab2ac4183dd45fc028b5/ragger-1.9.2.tar.gz
+[2023-07-31 16:58:03] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-31 16:58:03] INFO root fetch - processPackages [cdxg]: Downloading https://files.pythonhosted.org/packages/cf/df/4ba108f34675b81120f27a0023d6e336ba77cccc8db18774af0bfac44711/cdxg-1.3-py3-none-any.whl
+[2023-07-31 16:58:04] INFO root fetch - processPackages [attr-utils]: Downloading https://files.pythonhosted.org/packages/20/94/ed7f4d417275c7997355ba26d6e139aa76bf81f4a5bea2bc8f608699ea08/attr_utils-0.9.0.tar.gz
+[2023-07-31 16:58:04] INFO root fetch - processPackages [rebelai]: executing diffoscope
+[2023-07-31 16:58:04] INFO root fetch - processPackages [rebelai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebelai-1.0.2-py2.py3-none-any.whl.zip tmp/rebelai-1.1.0-py2.py3-none-any.whl.zip --markdown 20230731/r/rebelai/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-31 16:58:04] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/9a/04/514cf2cca1ad6f073cde71bd70b9233210ce097cb53a7c002f2fb7a39147/qoa4ml-0.0.90.tar.gz
+[2023-07-31 16:58:04] INFO root fetch - processPackages [poexcel]: Downloading https://files.pythonhosted.org/packages/8e/fc/c9c719fc6e2525125411167f73ea96a412e7a3200ce77bd519c73624462b/poexcel-0.0.9.tar.gz
+[2023-07-31 16:58:04] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-31 16:58:04] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230731/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-31 16:58:04] INFO root fetch - processPackages [ragger]: executing diffoscope
+[2023-07-31 16:58:04] INFO root fetch - processPackages [ragger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragger-1.9.1.tar.gz tmp/ragger-1.9.2.tar.gz --markdown 20230731/r/ragger/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-31 16:58:04] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-31 16:58:04] INFO root fetch - processPackages [cdxg]: executing diffoscope
+[2023-07-31 16:58:04] INFO root fetch - processPackages [cdxg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxg-1.2-py3-none-any.whl.zip tmp/cdxg-1.3-py3-none-any.whl.zip --markdown 20230731/c/cdxg/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-31 16:58:04] INFO root fetch - processPackages [attr-utils]: executing diffoscope
+[2023-07-31 16:58:04] INFO root fetch - processPackages [attr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attr_utils-0.8.1.tar.gz tmp/attr_utils-0.9.0.tar.gz --markdown 20230731/a/attr-utils/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 16:58:04] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-07-31 16:58:04] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.0.9.tar.gz tmp/qoa4ml-0.0.90.tar.gz --markdown 20230731/q/qoa4ml/0.0.9-0.0.90/diff.md --exclude *.pyd
+[2023-07-31 16:58:04] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-31 16:58:04] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230731/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-31 16:58:04] INFO root fetch - processPackages [plone.app.multilingual]: Downloading https://files.pythonhosted.org/packages/0f/ec/aeb4eab54ad3b12f634bdacb93a385f1777a18d6ba21875dec081f1eaada/plone.app.multilingual-8.0.0.tar.gz
+[2023-07-31 16:58:04] INFO root fetch - processPackages [numpy]: Downloading https://files.pythonhosted.org/packages/d9/da/8f6fa7d5d76fc78c11fb56a48dfb51d6321bc1e7631e5ad32c228284005f/numpy-1.9.3.zip
+[2023-07-31 16:58:04] INFO root fetch - processPackages [poexcel]: executing diffoscope
+[2023-07-31 16:58:04] INFO root fetch - processPackages [poexcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poexcel-0.0.8.tar.gz tmp/poexcel-0.0.9.tar.gz --markdown 20230731/p/poexcel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 16:58:04] INFO root fetch - processPackages [plone.app.multilingual]: executing diffoscope
+[2023-07-31 16:58:04] INFO root fetch - processPackages [plone.app.multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.multilingual-7.0.2.tar.gz tmp/plone.app.multilingual-8.0.0.tar.gz --markdown 20230731/p/plone.app.multilingual/7.0.2-8.0.0/diff.md --exclude *.pyd
+[2023-07-31 16:58:04] INFO root fetch - processPackages [numpy]: executing diffoscope
+[2023-07-31 16:58:04] INFO root fetch - processPackages [numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpy-1.9.2.zip tmp/numpy-1.9.3.zip --markdown 20230731/n/numpy/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-31 16:58:05] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-31 16:58:05] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-31 16:58:05] INFO root fetch - processPackages [digimat.bac0]: Start processing: bring-order
+[2023-07-31 16:58:05] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-31 16:58:05] INFO root fetch - processPackages [bring-order]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-31 16:58:05] INFO root fetch - processPackages [rebelai]: Remove: archive file [/home/abi/fetcher/tmp/rebelai-1.0.2-py2.py3-none-any.whl.zip]
+[2023-07-31 16:58:05] INFO root fetch - processPackages [rebelai]: Remove: archive file [/home/abi/fetcher/tmp/rebelai-1.1.0-py2.py3-none-any.whl.zip]
+[2023-07-31 16:58:05] INFO root fetch - processPackages [rebelai]: Start processing: shandy-sqlfmt
+[2023-07-31 16:58:05] INFO root fetch - main [MainThread]: End processing [rebelai]: success
+[2023-07-31 16:58:05] INFO root fetch - processPackages [shandy-sqlfmt]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-31 16:58:05] INFO root fetch - processPackages [bring-order]: Downloading https://files.pythonhosted.org/packages/71/f4/e760fa1012635b1d37e32bc3f96d0d2d27d7e324754099e03b77d8f18d7c/bring_order-0.4.2.tar.gz
+[2023-07-31 16:58:05] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.9.tar.gz]
+[2023-07-31 16:58:05] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.90.tar.gz]
+[2023-07-31 16:58:05] INFO root fetch - processPackages [qoa4ml]: Start processing: wfsx
+[2023-07-31 16:58:05] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-07-31 16:58:05] INFO root fetch - processPackages [attr-utils]: Remove: archive file [/home/abi/fetcher/tmp/attr_utils-0.8.1.tar.gz]
+[2023-07-31 16:58:05] INFO root fetch - processPackages [attr-utils]: Remove: archive file [/home/abi/fetcher/tmp/attr_utils-0.9.0.tar.gz]
+[2023-07-31 16:58:05] INFO root fetch - processPackages [attr-utils]: Start processing: githup
+[2023-07-31 16:58:05] INFO root fetch - main [MainThread]: End processing [attr-utils]: success
+[2023-07-31 16:58:05] INFO root fetch - processPackages [shandy-sqlfmt]: Downloading https://files.pythonhosted.org/packages/6a/f3/a47406ac26c9c3f2da66d2a0c95247503555af0abd754e041c32d9a93c2a/shandy-sqlfmt-0.8.0.tar.gz
+[2023-07-31 16:58:05] INFO root fetch - processPackages [wfsx]: New version: [1.4] Old Version: [1.3]
+[2023-07-31 16:58:05] INFO root fetch - processPackages [cdxg]: Remove: archive file [/home/abi/fetcher/tmp/cdxg-1.2-py3-none-any.whl.zip]
+[2023-07-31 16:58:05] INFO root fetch - processPackages [cdxg]: Remove: archive file [/home/abi/fetcher/tmp/cdxg-1.3-py3-none-any.whl.zip]
+[2023-07-31 16:58:05] INFO root fetch - processPackages [cdxg]: Start processing: eoreader
+[2023-07-31 16:58:05] INFO root fetch - main [MainThread]: End processing [cdxg]: success
+[2023-07-31 16:58:05] WARNING root fetch - processPackages [githup]: Skipping, unable to determine old version
+[2023-07-31 16:58:05] INFO root fetch - processPackages [githup]: Start processing: enquire
+[2023-07-31 16:58:05] INFO root fetch - main [MainThread]: End processing [githup] error
+[2023-07-31 16:58:05] INFO root fetch - processPackages [eoreader]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-31 16:58:06] INFO root fetch - processPackages [wfsx]: Downloading https://files.pythonhosted.org/packages/d8/32/f2d3d384e5c131d56d322c278c112c18f6cfa360f185fbbc045069cbc658/wfsx-1.3-py3-none-any.whl
+[2023-07-31 16:58:06] INFO root fetch - processPackages [poexcel]: Remove: archive file [/home/abi/fetcher/tmp/poexcel-0.0.8.tar.gz]
+[2023-07-31 16:58:06] INFO root fetch - processPackages [poexcel]: Remove: archive file [/home/abi/fetcher/tmp/poexcel-0.0.9.tar.gz]
+[2023-07-31 16:58:06] INFO root fetch - processPackages [poexcel]: Start processing: melvant
+[2023-07-31 16:58:06] INFO root fetch - main [MainThread]: End processing [poexcel]: success
+[2023-07-31 16:58:06] INFO root fetch - processPackages [enquire]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-31 16:58:06] INFO root fetch - processPackages [melvant]: New version: [0.0.2.dev1] Old Version: [0.0.2]
+[2023-07-31 16:58:06] INFO root fetch - processPackages [bring-order]: Downloading https://files.pythonhosted.org/packages/1b/a7/5fc151fa3fb75c0fab8acdfd4ef31a766442f15b11093cd1474c050ab1ed/bring_order-0.4.3.tar.gz
+[2023-07-31 16:58:06] INFO root fetch - processPackages [enquire]: Downloading https://files.pythonhosted.org/packages/43/a8/a00656a47ec4a7f79f9e1a81265819de44aa4584b83383b00d9a0ab8ad4e/enquire-0.0.8.tar.gz
+[2023-07-31 16:58:06] WARNING root fetch - processPackages [bring-order]: Skipping package: exceeds size limit 12816884>=10485760
+[2023-07-31 16:58:06] INFO root fetch - processPackages [bring-order]: Start processing: pyPhasesML
+[2023-07-31 16:58:06] INFO root fetch - main [MainThread]: End processing [bring-order] error
+[2023-07-31 16:58:06] INFO root fetch - processPackages [eoreader]: Downloading https://files.pythonhosted.org/packages/aa/93/2526755e5e5c071b3dd1c998a47aee62dae3ad3909ed36ea6c9b45953cd7/eoreader-0.9.4.tar.gz
+[2023-07-31 16:58:06] INFO root fetch - processPackages [pyPhasesML]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-07-31 16:58:06] WARNING root fetch - processPackages [eoreader]: Skipping package: exceeds size limit 11498903>=10485760
+[2023-07-31 16:58:06] INFO root fetch - processPackages [eoreader]: Start processing: ezcx
+[2023-07-31 16:58:06] INFO root fetch - main [MainThread]: End processing [eoreader] error
+[2023-07-31 16:58:06] INFO root fetch - processPackages [melvant]: Downloading https://files.pythonhosted.org/packages/0c/c0/cf30bf3f21400258b1f9c5891f150ea75becc7d822be33a1733b963de525/melvant-0.0.2-cp39-cp39-win_amd64.whl
+[2023-07-31 16:58:06] INFO root fetch - processPackages [shandy-sqlfmt]: Downloading https://files.pythonhosted.org/packages/c8/3f/822481411f40cc263d3e36323365a501caa9317e6386586c95a500c8f229/shandy-sqlfmt-0.9.0.tar.gz
+[2023-07-31 16:58:06] INFO root fetch - processPackages [wfsx]: Downloading https://files.pythonhosted.org/packages/ca/02/a71c23a45cf223b0baaa9b24eff6f76a0a8972ebec5ec3649a4afa9c8b64/wfsx-1.4-py3-none-any.whl
+[2023-07-31 16:58:06] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.1.tar.gz]
+[2023-07-31 16:58:06] INFO root fetch - processPackages [ezcx]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-31 16:58:06] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.2.tar.gz]
+[2023-07-31 16:58:06] INFO root fetch - processPackages [ragger]: Start processing: ezcx
+[2023-07-31 16:58:06] INFO root fetch - main [MainThread]: End processing [ragger]: success
+[2023-07-31 16:58:06] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/49/f1/f00850c7a91befc9fa5a17de0b8f45f0a6b526670e7fdbff0e44f004c456/pyPhasesML-0.7.6.tar.gz
+[2023-07-31 16:58:06] INFO root fetch - processPackages [enquire]: Downloading https://files.pythonhosted.org/packages/6d/ca/4721a62c88ae5c47ff2a37f30c59a0c992602680aab4cbaae25f1893e3c1/enquire-0.0.9.tar.gz
+[2023-07-31 16:58:06] INFO root fetch - processPackages [ezcx]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-31 16:58:06] INFO root fetch - processPackages [shandy-sqlfmt]: executing diffoscope
+[2023-07-31 16:58:06] INFO root fetch - processPackages [shandy-sqlfmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shandy-sqlfmt-0.8.0.tar.gz tmp/shandy-sqlfmt-0.9.0.tar.gz --markdown 20230731/s/shandy-sqlfmt/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 16:58:06] INFO root fetch - processPackages [wfsx]: executing diffoscope
+[2023-07-31 16:58:06] INFO root fetch - processPackages [wfsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wfsx-1.3-py3-none-any.whl.zip tmp/wfsx-1.4-py3-none-any.whl.zip --markdown 20230731/w/wfsx/1.3-1.4/diff.md --exclude *.pyd
+[2023-07-31 16:58:06] INFO root fetch - processPackages [ezcx]: Downloading https://files.pythonhosted.org/packages/28/da/ad69b1f56c28aa49d116525698dd964e61d400de24c4c80ebf8c1bf25cad/ezcx-0.0.0.tar.gz
+[2023-07-31 16:58:06] INFO root fetch - processPackages [enquire]: executing diffoscope
+[2023-07-31 16:58:06] INFO root fetch - processPackages [enquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enquire-0.0.8.tar.gz tmp/enquire-0.0.9.tar.gz --markdown 20230731/e/enquire/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-31 16:58:06] INFO root fetch - processPackages [ezcx]: Downloading https://files.pythonhosted.org/packages/28/da/ad69b1f56c28aa49d116525698dd964e61d400de24c4c80ebf8c1bf25cad/ezcx-0.0.0.tar.gz
+[2023-07-31 16:58:06] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/bf/32/11a6965197af8ca29cdd7cc7bb74b338a41a3382ac981e069ea6b716929f/pyPhasesML-0.7.7.tar.gz
+[2023-07-31 16:58:06] WARNING root fetch - processPackages [melvant]: Skipping package: exceeds size limit 18066274>=10485760
+[2023-07-31 16:58:06] INFO root fetch - processPackages [melvant]: Start processing: redcat
+[2023-07-31 16:58:06] INFO root fetch - main [MainThread]: End processing [melvant] error
+[2023-07-31 16:58:06] INFO root fetch - processPackages [plone.app.multilingual]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.multilingual-7.0.2.tar.gz]
+[2023-07-31 16:58:06] INFO root fetch - processPackages [plone.app.multilingual]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.multilingual-8.0.0.tar.gz]
+[2023-07-31 16:58:06] INFO root fetch - processPackages [plone.app.multilingual]: Start processing: foca
+[2023-07-31 16:58:06] INFO root fetch - main [MainThread]: End processing [plone.app.multilingual]: success
+[2023-07-31 16:58:06] INFO root fetch - processPackages [ezcx]: Downloading https://files.pythonhosted.org/packages/5d/0c/21082066379bbc954cf9a990373368711f7fde391d550d5c65b6b155cd2e/ezcx-0.0.1.tar.gz
+[2023-07-31 16:58:06] INFO root fetch - processPackages [redcat]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-31 16:58:06] INFO root fetch - processPackages [ezcx]: Downloading https://files.pythonhosted.org/packages/5d/0c/21082066379bbc954cf9a990373368711f7fde391d550d5c65b6b155cd2e/ezcx-0.0.1.tar.gz
+[2023-07-31 16:58:07] INFO root fetch - processPackages [foca]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-31 16:58:07] INFO root fetch - processPackages [pyPhasesML]: executing diffoscope
+[2023-07-31 16:58:07] INFO root fetch - processPackages [pyPhasesML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesML-0.7.6.tar.gz tmp/pyPhasesML-0.7.7.tar.gz --markdown 20230731/p/pyPhasesML/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-07-31 16:58:07] INFO root fetch - processPackages [ezcx]: executing diffoscope
+[2023-07-31 16:58:07] INFO root fetch - processPackages [ezcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezcx-0.0.0.tar.gz tmp/ezcx-0.0.1.tar.gz --markdown 20230731/e/ezcx/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-31 16:58:07] INFO root fetch - processPackages [ezcx]: executing diffoscope
+[2023-07-31 16:58:07] INFO root fetch - processPackages [ezcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezcx-0.0.0.tar.gz tmp/ezcx-0.0.1.tar.gz --markdown 20230731/e/ezcx/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-31 16:58:07] INFO root fetch - processPackages [redcat]: Downloading https://files.pythonhosted.org/packages/06/34/bbdc41a1391df21c3539cd5b5f81284fea46a87f30502f09c7d5b196c2bd/redcat-0.0.6.tar.gz
+[2023-07-31 16:58:07] INFO root fetch - processPackages [foca]: Downloading https://files.pythonhosted.org/packages/2e/ae/67586cd7fcbb487eff64130203f8414d431d919038eea688509790c7ad77/foca-0.8.0.tar.gz
+[2023-07-31 16:58:07] INFO root fetch - processPackages [redcat]: Downloading https://files.pythonhosted.org/packages/1c/5b/52f2109285a1e68ef9615f2f7c6db8f2e5c80a44194fec15f67464540b9e/redcat-0.0.7.tar.gz
+[2023-07-31 16:58:07] INFO root fetch - processPackages [redcat]: executing diffoscope
+[2023-07-31 16:58:07] INFO root fetch - processPackages [redcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redcat-0.0.6.tar.gz tmp/redcat-0.0.7.tar.gz --markdown 20230731/r/redcat/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-31 16:58:07] INFO root fetch - processPackages [wfsx]: Remove: archive file [/home/abi/fetcher/tmp/wfsx-1.3-py3-none-any.whl.zip]
+[2023-07-31 16:58:07] INFO root fetch - processPackages [wfsx]: Remove: archive file [/home/abi/fetcher/tmp/wfsx-1.4-py3-none-any.whl.zip]
+[2023-07-31 16:58:07] INFO root fetch - processPackages [wfsx]: Start processing: qoa4ml
+[2023-07-31 16:58:07] INFO root fetch - main [MainThread]: End processing [wfsx]: success
+[2023-07-31 16:58:07] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-31 16:58:07] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-31 16:58:07] INFO root fetch - processPackages [assisted-service-client]: Start processing: geonomics
+[2023-07-31 16:58:07] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-31 16:58:07] INFO root fetch - processPackages [foca]: Downloading https://files.pythonhosted.org/packages/d6/ed/7ea75b6ac5817ffdb6ad289ff3dc44f6dab87c838ef57b7f002957212843/foca-0.9.0.tar.gz
+[2023-07-31 16:58:07] INFO root fetch - processPackages [qoa4ml]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-07-31 16:58:08] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/9a/04/514cf2cca1ad6f073cde71bd70b9233210ce097cb53a7c002f2fb7a39147/qoa4ml-0.0.90.tar.gz
+[2023-07-31 16:58:08] INFO root fetch - processPackages [geonomics]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-31 16:58:08] INFO root fetch - processPackages [foca]: executing diffoscope
+[2023-07-31 16:58:08] INFO root fetch - processPackages [foca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foca-0.8.0.tar.gz tmp/foca-0.9.0.tar.gz --markdown 20230731/f/foca/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-31 16:58:08] INFO root fetch - processPackages [enquire]: Remove: archive file [/home/abi/fetcher/tmp/enquire-0.0.8.tar.gz]
+[2023-07-31 16:58:08] INFO root fetch - processPackages [enquire]: Remove: archive file [/home/abi/fetcher/tmp/enquire-0.0.9.tar.gz]
+[2023-07-31 16:58:08] INFO root fetch - processPackages [enquire]: Start processing: pyart-mch
+[2023-07-31 16:58:08] INFO root fetch - main [MainThread]: End processing [enquire]: success
+[2023-07-31 16:58:08] INFO root fetch - processPackages [shandy-sqlfmt]: Remove: archive file [/home/abi/fetcher/tmp/shandy-sqlfmt-0.8.0.tar.gz]
+[2023-07-31 16:58:08] INFO root fetch - processPackages [shandy-sqlfmt]: Remove: archive file [/home/abi/fetcher/tmp/shandy-sqlfmt-0.9.0.tar.gz]
+[2023-07-31 16:58:08] INFO root fetch - processPackages [shandy-sqlfmt]: Start processing: ccxt
+[2023-07-31 16:58:08] INFO root fetch - main [MainThread]: End processing [shandy-sqlfmt]: success
+[2023-07-31 16:58:08] INFO root fetch - processPackages [pyart-mch]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-07-31 16:58:08] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-31 16:58:08] INFO root fetch - processPackages [geonomics]: Downloading https://files.pythonhosted.org/packages/16/c7/656d8780d603ca2c359b3983af7fbee0cbc8f3e5906150bfa36950c88275/geonomics-1.3.8.tar.gz
+[2023-07-31 16:58:08] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-31 16:58:08] INFO root fetch - processPackages [pyart-mch]: Downloading https://files.pythonhosted.org/packages/b7/86/fb4dd8a1020f2bbb4888dcec100ea54bd9d7f33e04fc696db27422f163a2/pyart_mch-1.8.2.tar.gz
+[2023-07-31 16:58:08] INFO root fetch - processPackages [ezcx]: Remove: archive file [/home/abi/fetcher/tmp/ezcx-0.0.0.tar.gz]
+[2023-07-31 16:58:08] INFO root fetch - processPackages [ezcx]: Remove: archive file [/home/abi/fetcher/tmp/ezcx-0.0.1.tar.gz]
+[2023-07-31 16:58:08] INFO root fetch - processPackages [ezcx]: Start processing: openfaceid
+[2023-07-31 16:58:08] INFO root fetch - main [MainThread]: End processing [ezcx]: success
+[2023-07-31 16:58:08] INFO root fetch - main [MainThread]: End processing [ezcx]: success
+[2023-07-31 16:58:08] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/51/c7/cd1041805b655b218dfdd05e3c725b4cbfba7307b897e74347d4ad115066/qoa4ml-0.0.91.tar.gz
+[2023-07-31 16:58:08] WARNING root fetch - processPackages [pyart-mch]: Skipping package: exceeds size limit 12326677>=10485760
+[2023-07-31 16:58:08] INFO root fetch - main [MainThread]: End processing [pyart-mch] error
+[2023-07-31 16:58:08] INFO root fetch - processPackages [openfaceid]: New version: [0.1.4] Old Version: [0.1.0]
+[2023-07-31 16:58:08] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.6.tar.gz]
+[2023-07-31 16:58:08] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.7.tar.gz]
+[2023-07-31 16:58:08] INFO root fetch - main [MainThread]: End processing [pyPhasesML]: success
+[2023-07-31 16:58:08] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-07-31 16:58:08] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.0.90.tar.gz tmp/qoa4ml-0.0.91.tar.gz --markdown 20230731/q/qoa4ml/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-07-31 16:58:08] INFO root fetch - processPackages [openfaceid]: Downloading https://files.pythonhosted.org/packages/18/9b/1381ee5fa6497ec5da527a8db293abe4ab6163990ba26cab99850effb9cb/openfaceid-0.1.0.tar.gz
+[2023-07-31 16:58:08] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-31 16:58:08] WARNING root fetch - processPackages [openfaceid]: Skipping package: exceeds size limit 27528658>=10485760
+[2023-07-31 16:58:08] INFO root fetch - main [MainThread]: End processing [openfaceid] error
+[2023-07-31 16:58:08] INFO root fetch - processPackages [geonomics]: Downloading https://files.pythonhosted.org/packages/80/82/e545df016dfa7e1b900fe0091478c415642ddeca0577b6b8b9f341ae428a/geonomics-1.3.9.tar.gz
+[2023-07-31 16:58:08] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-31 16:58:08] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230731/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-31 16:58:08] INFO root fetch - processPackages [redcat]: Remove: archive file [/home/abi/fetcher/tmp/redcat-0.0.6.tar.gz]
+[2023-07-31 16:58:08] INFO root fetch - processPackages [redcat]: Remove: archive file [/home/abi/fetcher/tmp/redcat-0.0.7.tar.gz]
+[2023-07-31 16:58:08] INFO root fetch - main [MainThread]: End processing [redcat]: success
+[2023-07-31 16:58:09] INFO root fetch - processPackages [geonomics]: executing diffoscope
+[2023-07-31 16:58:09] INFO root fetch - processPackages [geonomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geonomics-1.3.8.tar.gz tmp/geonomics-1.3.9.tar.gz --markdown 20230731/g/geonomics/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-31 16:58:09] INFO root fetch - processPackages [foca]: Remove: archive file [/home/abi/fetcher/tmp/foca-0.8.0.tar.gz]
+[2023-07-31 16:58:09] INFO root fetch - processPackages [foca]: Remove: archive file [/home/abi/fetcher/tmp/foca-0.9.0.tar.gz]
+[2023-07-31 16:58:09] INFO root fetch - main [MainThread]: End processing [foca]: success
+[2023-07-31 16:58:09] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.90.tar.gz]
+[2023-07-31 16:58:09] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.0.91.tar.gz]
+[2023-07-31 16:58:09] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-07-31 16:58:10] INFO root fetch - processPackages [geonomics]: Remove: archive file [/home/abi/fetcher/tmp/geonomics-1.3.8.tar.gz]
+[2023-07-31 16:58:10] INFO root fetch - processPackages [geonomics]: Remove: archive file [/home/abi/fetcher/tmp/geonomics-1.3.9.tar.gz]
+[2023-07-31 16:58:10] INFO root fetch - main [MainThread]: End processing [geonomics]: success
+[2023-07-31 16:58:13] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-31 16:58:13] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-31 16:58:13] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-31 16:58:14] INFO root fetch - processPackages [numpy]: Remove: archive file [/home/abi/fetcher/tmp/numpy-1.9.2.zip]
+[2023-07-31 16:58:14] INFO root fetch - processPackages [numpy]: Remove: archive file [/home/abi/fetcher/tmp/numpy-1.9.3.zip]
+[2023-07-31 16:58:14] INFO root fetch - main [MainThread]: End processing [numpy]: success
+[2023-07-31 16:58:14] INFO root fetch - main [MainThread]: Store serial: [19109130]
