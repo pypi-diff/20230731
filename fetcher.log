@@ -8099,3 +8099,69 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-31 07:56:04] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-7.2.2.tar.gz]
 [2023-07-31 07:56:04] INFO root fetch - main [MainThread]: End processing [qctrl-client]: success
 [2023-07-31 07:56:04] INFO root fetch - main [MainThread]: Store serial: [19103100]
+[2023-07-31 08:01:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19103100]
+[2023-07-31 08:01:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-31 08:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magentic
+[2023-07-31 08:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arcpyext
+[2023-07-31 08:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: salinic
+[2023-07-31 08:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-llm
+[2023-07-31 08:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SlyYTDAPI
+[2023-07-31 08:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llamac2py
+[2023-07-31 08:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyjson5
+[2023-07-31 08:01:13] INFO root fetch - processPackages [SlyYTDAPI]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-31 08:01:13] INFO root fetch - processPackages [salinic]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-31 08:01:13] INFO root fetch - processPackages [llamac2py]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-31 08:01:13] INFO root fetch - processPackages [magentic]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-31 08:01:13] INFO root fetch - processPackages [arcpyext]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-31 08:01:13] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230730.dev0] Old Version: [2.4.0b20230730]
+[2023-07-31 08:01:13] INFO root fetch - processPackages [SlyYTDAPI]: Downloading https://files.pythonhosted.org/packages/fa/79/814bd24b15cba47c2292107620acd7651a3456a8438cf66531abbc644c53/SlyYTDAPI-0.2.0.tar.gz
+[2023-07-31 08:01:13] INFO root fetch - processPackages [salinic]: Downloading https://files.pythonhosted.org/packages/94/51/bb461b0bf7494b112e675b20dbb95cc8ccd2360012b12688260f00e5b3a4/salinic-0.2.0.tar.gz
+[2023-07-31 08:01:13] INFO root fetch - processPackages [llamac2py]: Downloading https://files.pythonhosted.org/packages/8f/81/0fc805cf98105e0f498420bb9e45db55f0be196d9f1315a224c3bd8badc6/llamac2py-0.1.tar.gz
+[2023-07-31 08:01:13] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/33/62/fdf8758c2633969f248653a67298a22a05e88242134d8191396bd707429a/bigdl_llm-2.4.0b20230730-py3-none-win_amd64.whl
+[2023-07-31 08:01:13] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/d9/45/756d08847c40fb1b027d8728f2bfbc2e8eea8a9d0a07feb5e9b20e16372f/magentic-0.1.2.tar.gz
+[2023-07-31 08:01:13] INFO root fetch - processPackages [arcpyext]: Downloading https://files.pythonhosted.org/packages/af/eb/0d5f144561d2a0dab2cb717956e2051169c299d412df7da0d8730577b7b3/arcpyext-0.7.8-py2.py3-none-any.whl
+[2023-07-31 08:01:13] INFO root fetch - processPackages [pyjson5]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-07-31 08:01:13] INFO root fetch - processPackages [SlyYTDAPI]: Downloading https://files.pythonhosted.org/packages/02/d9/dc05067557e0bb953477d4b1a36e341cb6e63b6177b82bca3b4239a75284/SlyYTDAPI-0.3.0.tar.gz
+[2023-07-31 08:01:13] INFO root fetch - processPackages [salinic]: Downloading https://files.pythonhosted.org/packages/61/18/d114f6fd5d6cae547a344457e74fe781c0faa98d545fa03270fc12b0316a/salinic-0.2.1.tar.gz
+[2023-07-31 08:01:13] INFO root fetch - processPackages [llamac2py]: Downloading https://files.pythonhosted.org/packages/4d/fb/5f37b53d98ae444752ce34ec37cbb76c8598bd65ef9a84a91808f6db400a/llamac2py-0.1.1.tar.gz
+[2023-07-31 08:01:14] INFO root fetch - processPackages [SlyYTDAPI]: executing diffoscope
+[2023-07-31 08:01:14] INFO root fetch - processPackages [SlyYTDAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SlyYTDAPI-0.2.0.tar.gz tmp/SlyYTDAPI-0.3.0.tar.gz --markdown 20230731/S/SlyYTDAPI/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-31 08:01:14] INFO root fetch - processPackages [salinic]: executing diffoscope
+[2023-07-31 08:01:14] INFO root fetch - processPackages [salinic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salinic-0.2.0.tar.gz tmp/salinic-0.2.1.tar.gz --markdown 20230731/s/salinic/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-31 08:01:14] INFO root fetch - processPackages [pyjson5]: Downloading https://files.pythonhosted.org/packages/1e/11/8afaa74eeb076c345d8e819e8215d6ae85778f385493cb19227c4d8b4567/pyjson5-1.6.3.tar.gz
+[2023-07-31 08:01:14] INFO root fetch - processPackages [llamac2py]: executing diffoscope
+[2023-07-31 08:01:14] INFO root fetch - processPackages [llamac2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamac2py-0.1.tar.gz tmp/llamac2py-0.1.1.tar.gz --markdown 20230731/l/llamac2py/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-31 08:01:14] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/dc/42/e95a54e2370587c50b66a3ab3aa23a3a4d04411c20c36ec2b4af082d8958/magentic-0.1.3.tar.gz
+[2023-07-31 08:01:14] INFO root fetch - processPackages [arcpyext]: Downloading https://files.pythonhosted.org/packages/8e/70/c8a3549a9ad665f3831b83fb3320d345e16d3687c177c70a07ba1afce80d/arcpyext-0.7.9-py2.py3-none-any.whl
+[2023-07-31 08:01:14] INFO root fetch - processPackages [magentic]: executing diffoscope
+[2023-07-31 08:01:14] INFO root fetch - processPackages [magentic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magentic-0.1.2.tar.gz tmp/magentic-0.1.3.tar.gz --markdown 20230731/m/magentic/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-31 08:01:14] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/ce/38/bec481fcf3dc97e1199094f73b6d6ab25db888fa8a4b6b0d99822a70d15a/bigdl_llm-2.4.0b20230730.dev0-py3-none-win_amd64.whl
+[2023-07-31 08:01:14] INFO root fetch - processPackages [arcpyext]: executing diffoscope
+[2023-07-31 08:01:14] INFO root fetch - processPackages [arcpyext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcpyext-0.7.8-py2.py3-none-any.whl.zip tmp/arcpyext-0.7.9-py2.py3-none-any.whl.zip --markdown 20230731/a/arcpyext/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-31 08:01:14] INFO root fetch - processPackages [pyjson5]: Downloading https://files.pythonhosted.org/packages/2e/ee/ea0add3e48903b8dc3fdd78c7a39abed4288d5304daab375caab4f749c86/pyjson5-1.6.4-cp311-cp311-macosx_10_9_x86_64.whl
+[2023-07-31 08:01:14] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-31 08:01:14] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230730-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230730.dev0-py3-none-win_amd64.whl.zip --markdown 20230731/b/bigdl-llm/2.4.0b20230730-2.4.0b20230730.dev0/diff.md --exclude *.pyd
+[2023-07-31 08:01:15] INFO root fetch - processPackages [salinic]: Remove: archive file [/home/abi/fetcher/tmp/salinic-0.2.0.tar.gz]
+[2023-07-31 08:01:15] INFO root fetch - processPackages [salinic]: Remove: archive file [/home/abi/fetcher/tmp/salinic-0.2.1.tar.gz]
+[2023-07-31 08:01:15] INFO root fetch - main [MainThread]: End processing [salinic]: success
+[2023-07-31 08:01:15] INFO root fetch - processPackages [llamac2py]: Remove: archive file [/home/abi/fetcher/tmp/llamac2py-0.1.tar.gz]
+[2023-07-31 08:01:15] INFO root fetch - processPackages [llamac2py]: Remove: archive file [/home/abi/fetcher/tmp/llamac2py-0.1.1.tar.gz]
+[2023-07-31 08:01:15] INFO root fetch - main [MainThread]: End processing [llamac2py]: success
+[2023-07-31 08:01:15] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.1.2.tar.gz]
+[2023-07-31 08:01:15] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.1.3.tar.gz]
+[2023-07-31 08:01:15] INFO root fetch - main [MainThread]: End processing [magentic]: success
+[2023-07-31 08:01:15] INFO root fetch - processPackages [SlyYTDAPI]: Remove: archive file [/home/abi/fetcher/tmp/SlyYTDAPI-0.2.0.tar.gz]
+[2023-07-31 08:01:15] INFO root fetch - processPackages [SlyYTDAPI]: Remove: archive file [/home/abi/fetcher/tmp/SlyYTDAPI-0.3.0.tar.gz]
+[2023-07-31 08:01:15] INFO root fetch - main [MainThread]: End processing [SlyYTDAPI]: success
+[2023-07-31 08:01:15] INFO root fetch - processPackages [pyjson5]: executing diffoscope
+[2023-07-31 08:01:15] INFO root fetch - processPackages [pyjson5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230731:/home/abi/fetcher/20230731:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjson5-1.6.3.tar.gz tmp/pyjson5-1.6.4-cp311-cp311-macosx_10_9_x86_64.whl.zip --markdown 20230731/p/pyjson5/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-07-31 08:01:15] INFO root fetch - processPackages [arcpyext]: Remove: archive file [/home/abi/fetcher/tmp/arcpyext-0.7.8-py2.py3-none-any.whl.zip]
+[2023-07-31 08:01:15] INFO root fetch - processPackages [arcpyext]: Remove: archive file [/home/abi/fetcher/tmp/arcpyext-0.7.9-py2.py3-none-any.whl.zip]
+[2023-07-31 08:01:15] INFO root fetch - main [MainThread]: End processing [arcpyext]: success
+[2023-07-31 08:01:16] INFO root fetch - processPackages [pyjson5]: Remove: archive file [/home/abi/fetcher/tmp/pyjson5-1.6.3.tar.gz]
+[2023-07-31 08:01:16] INFO root fetch - processPackages [pyjson5]: Remove: archive file [/home/abi/fetcher/tmp/pyjson5-1.6.4-cp311-cp311-macosx_10_9_x86_64.whl.zip]
+[2023-07-31 08:01:16] INFO root fetch - main [MainThread]: End processing [pyjson5]: success
+[2023-07-31 08:01:26] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230730-py3-none-win_amd64.whl.zip]
+[2023-07-31 08:01:26] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230730.dev0-py3-none-win_amd64.whl.zip]
+[2023-07-31 08:01:26] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-31 08:01:26] INFO root fetch - main [MainThread]: Store serial: [19103122]
